@@ -12,5 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
   burger.addEventListener('click', () => {
     burger.classList.toggle('open');
     navMenu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', burger.classList.contains('open'));
   });
 });

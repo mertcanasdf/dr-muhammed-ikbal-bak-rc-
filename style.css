@@ -85,6 +85,8 @@ ul {
   color: #fff;
 }
 
+.btn--sm { padding: 8px 18px; font-size: 14px; }
+
 .section-title {
   font-size: clamp(22px, 3vw, 32px);
   font-weight: 800;
@@ -102,9 +104,10 @@ ul {
 /* ── NAVBAR ── */
 .navbar {
   position: sticky;
+  position: relative;
   top: 0;
   z-index: 100;
-  background: #fff;
+  background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
   transition: box-shadow 0.3s;
 }
@@ -192,13 +195,17 @@ ul {
     top: 68px;
     left: 0;
     right: 0;
-    background: #fff;
+    background: var(--color-bg);
     border-bottom: 1px solid var(--color-border);
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
+    visibility: hidden;
+    transition: max-height 0.3s ease, visibility 0.3s;
   }
-  .navbar__nav.open { max-height: 320px; }
+  .navbar__nav.open {
+    max-height: 320px;
+    visibility: visible;
+  }
   .navbar__links {
     flex-direction: column;
     padding: 16px 24px;

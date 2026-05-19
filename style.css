@@ -299,7 +299,7 @@ ul {
   border: 1px solid var(--color-border);
   overflow: hidden;
   transition: box-shadow 0.2s, transform 0.2s;
-  background: #fff;
+  background: var(--color-bg);
 }
 
 .article-card:hover {
@@ -339,6 +339,11 @@ ul {
 .article-card__date {
   font-size: 12px;
   color: var(--color-muted);
+}
+
+.articles__cta {
+  text-align: center;
+  margin-top: var(--space-md);
 }
 
 @media (max-width: 1024px) {

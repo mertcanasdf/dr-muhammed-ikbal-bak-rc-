@@ -353,3 +353,28 @@ ul {
 @media (max-width: 600px) {
   .articles__grid { grid-template-columns: 1fr; }
 }
+
+/* ── TOPICS ── */
+.topics__cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.topic-tag {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1.5px solid var(--color-border);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+  background: var(--color-bg);
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.topic-tag:hover {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}

@@ -98,3 +98,111 @@ ul {
 }
 
 .section-link:hover { text-decoration: underline; }
+
+/* ── NAVBAR ── */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid var(--color-border);
+  transition: box-shadow 0.3s;
+}
+
+.navbar.scrolled { box-shadow: var(--shadow-md); }
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  height: 68px;
+}
+
+.navbar__logo {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--color-primary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.navbar__nav { flex: 1; }
+
+.navbar__links {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.navbar__links a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: color 0.2s;
+}
+
+.navbar__links a:hover { color: var(--color-primary); }
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.navbar__search {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: var(--color-muted);
+  display: flex;
+  align-items: center;
+}
+
+.navbar__search:hover { color: var(--color-text); }
+
+.navbar__burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.navbar__burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-text);
+  border-radius: 2px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.navbar__burger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.navbar__burger.open span:nth-child(2) { opacity: 0; }
+.navbar__burger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+@media (max-width: 768px) {
+  .navbar__burger { display: flex; }
+  .navbar__nav {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid var(--color-border);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  .navbar__nav.open { max-height: 320px; }
+  .navbar__links {
+    flex-direction: column;
+    padding: 16px 24px;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}

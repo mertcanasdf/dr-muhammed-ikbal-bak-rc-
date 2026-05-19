@@ -670,6 +670,12 @@ ul {
   color: #fff;
 }
 
+.carousel-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 @media (max-width: 1024px) {
   .product-card { flex: 0 0 calc(50% - 12px); }
 }

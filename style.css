@@ -13,6 +13,7 @@
   --color-muted: #6B7280;
   --color-border: #E5E7EB;
   --color-accent: #F59E0B;
+  --color-accent-light: #7dd4a0;
   --color-bg-hero-start: #f0faf4;
   --color-bg-hero-end: #e8f5ed;
   --font-base: 'Inter', system-ui, sans-serif;
@@ -493,6 +494,11 @@ ul {
 }
 
 /* ── TOOLS ── */
+.tools__heading {
+  text-align: center;
+  margin-bottom: var(--space-md);
+}
+
 .tools__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -528,7 +534,7 @@ ul {
   margin-bottom: var(--space-xs);
 }
 
-.tool-card--dark .tool-card__label { color: #7dd4a0; }
+.tool-card--dark .tool-card__label { color: var(--color-accent-light); }
 
 .tool-card__title {
   font-size: 22px;

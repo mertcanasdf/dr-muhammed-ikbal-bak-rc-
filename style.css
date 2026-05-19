@@ -12,6 +12,7 @@
   --color-text: #1A1A1A;
   --color-muted: #6B7280;
   --color-border: #E5E7EB;
+  --color-accent: #F59E0B;
   --font-base: 'Inter', system-ui, sans-serif;
   --radius: 8px;
   --radius-lg: 16px;
@@ -19,6 +20,10 @@
   --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
   --container: 1200px;
   --gap: 24px;
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-lg: 64px;
+  --space-xl: 96px;
 }
 
 body {
@@ -54,9 +59,10 @@ ul {
   border-radius: var(--radius);
   font-weight: 600;
   font-size: 15px;
+  font-family: inherit;
   cursor: pointer;
-  border: none;
-  transition: background 0.2s, transform 0.1s;
+  border: 2px solid transparent;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.1s;
 }
 
 .btn:active { transform: scale(0.98); }
@@ -80,7 +86,7 @@ ul {
 }
 
 .section-title {
-  font-size: 28px;
+  font-size: clamp(22px, 3vw, 32px);
   font-weight: 800;
   margin-bottom: 8px;
 }

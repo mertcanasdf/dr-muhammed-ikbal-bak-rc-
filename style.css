@@ -694,7 +694,7 @@ ul {
 .footer__top {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-  gap: 40px;
+  gap: var(--space-md);
   padding-bottom: var(--space-lg);
 }
 

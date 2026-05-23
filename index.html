@@ -1,400 +1,707 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr. Berg — Health & Wellness</title>
+  <title>Dr. Berg — Health &amp; Wellness Education</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1/dist/css/splide.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header class="navbar" id="navbar">
-    <div class="container navbar__inner">
-      <a href="#" class="navbar__logo">Dr. Berg</a>
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="container announcement-bar__inner">
+      <p>What's your #1 health bottleneck? Take the 2-minute quiz &rarr; <a href="#">Start Now</a></p>
+      <button class="announcement-bar__close" id="closeAnnouncement" aria-label="Close announcement">&#10005;</button>
+    </div>
+  </div>
 
-      <nav class="navbar__nav" id="navMenu">
-        <ul class="navbar__links">
+  <!-- STICKY HEADER WRAPPER -->
+  <div class="header-wrapper" id="headerWrapper">
+
+    <!-- UTILITY NAV -->
+    <div class="utility-nav">
+      <div class="container utility-nav__inner">
+        <nav aria-label="Utility navigation">
+          <a href="#">Our Sites</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="site-header">
+      <div class="container site-header__inner">
+
+        <a href="#" class="site-logo" aria-label="Dr. Berg Home">
+          <img src="https://www.drberg.com/wp-content/uploads/2025/05/drberg-desktop.svg" alt="Dr. Berg" class="site-logo__img site-logo__img--desktop" />
+          <img src="https://www.drberg.com/wp-content/uploads/2025/05/drberg-mobile.svg" alt="Dr. Berg" class="site-logo__img site-logo__img--mobile" />
+        </a>
+
+        <div class="header-stats" aria-label="Site statistics">
+          <div class="header-stat">
+            <span class="header-stat__number">44,381,224</span>
+            <span class="header-stat__label">YouTube Subscribers</span>
+          </div>
+          <div class="header-stat header-stat--mid">
+            <span class="header-stat__number">8,841</span>
+            <span class="header-stat__label">Success Stories</span>
+          </div>
+          <div class="header-stat">
+            <span class="header-stat__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="header-stat__reviews">5,200+ Google Reviews</span>
+            <span class="header-stat__rating">4.9 / 5 rating</span>
+          </div>
+        </div>
+
+        <div class="header-search-wrap">
+          <input type="search" class="header-search-input" placeholder="Search" aria-label="Search" />
+          <button class="header-search-btn" aria-label="Submit search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          </button>
+        </div>
+
+        <div class="header-actions">
+          <a href="#" class="btn-sign-in">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+            Sign in
+          </a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainMenu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- MAIN MENU -->
+    <nav class="main-menu" id="mainMenu" aria-label="Main navigation">
+      <div class="container">
+        <ul class="main-menu__list">
           <li><a href="#">Content Library</a></li>
           <li><a href="#">Recipes</a></li>
           <li><a href="#">Keto</a></li>
           <li><a href="#">Guides</a></li>
-          <li><a href="#">Quizzes</a></li>
-          <li><a href="#">Shop</a></li>
+          <li><a href="#">Quizzes <span class="new-badge">New</span></a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Uncensored Content</a></li>
+          <li><a href="#" class="main-menu__shop">Shop <span class="sale-badge">SALE</span></a></li>
         </ul>
-      </nav>
-
-      <div class="navbar__actions">
-        <button class="btn btn-outline btn--sm">Sign In</button>
-        <button class="navbar__search" aria-label="Search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-          </svg>
-        </button>
-        <button class="navbar__burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navMenu">
-          <span></span><span></span><span></span>
-        </button>
       </div>
-    </div>
-  </header>
+    </nav>
 
-  <!-- MAIN CONTENT -->
+  </div><!-- /header-wrapper -->
+
   <main>
 
     <!-- HERO -->
     <section class="hero">
-      <div class="container hero__inner">
-        <div class="hero__text">
-          <span class="hero__badge">FREE DOWNLOAD</span>
-          <h1 class="hero__title">Dr. Berg's Daily Reboot Protocol Checklist</h1>
-          <p class="hero__sub">Discover the exact morning and evening habits that support energy, focus, and metabolic health — distilled into one simple checklist.</p>
-          <a href="#" class="btn btn-primary hero__cta">Get Your FREE Copy Now!</a>
-        </div>
-        <div class="hero__image">
-          <img src="https://picsum.photos/seed/drberg-hero/560/420" alt="" role="presentation" />
+      <img src="https://www.drberg.com/wp-content/uploads/2025/12/Dr.Berg-Daily-Reboot-Checklist_3200x1295px_GENERIC.jpg" alt="" class="hero__bg" />
+      <div class="container hero__container">
+        <div class="hero__box">
+          <p class="hero__name">Dr. Berg's</p>
+          <h1 class="hero__title">Daily Reboot Protocol<br>Checklist</h1>
+          <p class="hero__quote">"This daily routine keeps me feeling 18 in my 60s."</p>
+          <a href="#" class="btn btn-dark hero__cta">Get Your FREE Copy Now!</a>
         </div>
       </div>
     </section>
 
     <!-- ARTICLES -->
-    <section class="articles section-pad">
+    <section class="section articles-section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Helpful Reads</h2>
-          <a href="#" class="section-link">View all articles (739) →</a>
+          <h2 class="section-title">Helpful reads to support your journey</h2>
+          <a href="#" class="section-link">View all articles (739)</a>
         </div>
-        <div class="articles__grid">
-
-          <article class="article-card">
-            <img src="https://picsum.photos/seed/art1/400/240" alt="" class="article-card__img" />
-            <div class="article-card__body">
-              <span class="article-card__tag">Fasting</span>
-              <h3 class="article-card__title">The Benefits of Intermittent Fasting for Metabolic Health</h3>
-              <p class="article-card__date">May 12, 2026</p>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <img src="https://picsum.photos/seed/art2/400/240" alt="" class="article-card__img" />
-            <div class="article-card__body">
-              <span class="article-card__tag">Nutrition</span>
-              <h3 class="article-card__title">Top 10 Nutrient-Dense Foods You Should Eat Every Week</h3>
-              <p class="article-card__date">May 10, 2026</p>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <img src="https://picsum.photos/seed/art3/400/240" alt="" class="article-card__img" />
-            <div class="article-card__body">
-              <span class="article-card__tag">Keto</span>
-              <h3 class="article-card__title">How to Start Keto Without Feeling Overwhelmed</h3>
-              <p class="article-card__date">May 8, 2026</p>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <img src="https://picsum.photos/seed/art4/400/240" alt="" class="article-card__img" />
-            <div class="article-card__body">
-              <span class="article-card__tag">Digestion</span>
-              <h3 class="article-card__title">Why Your Gut Health Affects Everything From Mood to Immunity</h3>
-              <p class="article-card__date">May 6, 2026</p>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <img src="https://picsum.photos/seed/art5/400/240" alt="" class="article-card__img" />
-            <div class="article-card__body">
-              <span class="article-card__tag">Sleep</span>
-              <h3 class="article-card__title">The Science Behind Deep Sleep and Hormone Recovery</h3>
-              <p class="article-card__date">May 4, 2026</p>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <img src="https://picsum.photos/seed/art6/400/240" alt="" class="article-card__img" />
-            <div class="article-card__body">
-              <span class="article-card__tag">Vitamins</span>
-              <h3 class="article-card__title">Vitamin D Deficiency: Hidden Signs You Might Be Missing</h3>
-              <p class="article-card__date">May 2, 2026</p>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <img src="https://picsum.photos/seed/art7/400/240" alt="" class="article-card__img" />
-            <div class="article-card__body">
-              <span class="article-card__tag">Exercise</span>
-              <h3 class="article-card__title">High-Intensity Interval Training vs. Steady Cardio: Which Wins?</h3>
-              <p class="article-card__date">Apr 30, 2026</p>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <img src="https://picsum.photos/seed/art8/400/240" alt="" class="article-card__img" />
-            <div class="article-card__body">
-              <span class="article-card__tag">Stress</span>
-              <h3 class="article-card__title">How Chronic Stress Depletes Your Key Nutrients</h3>
-              <p class="article-card__date">Apr 28, 2026</p>
-            </div>
-          </article>
-
-        </div>
-        <div class="articles__cta">
-          <a href="#" class="btn btn-outline">View all articles</a>
+        <div class="splide" id="articlesSplide" aria-label="Helpful reads">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <article class="article-card">
+                  <a href="#" class="article-card__img-link"><img src="https://picsum.photos/seed/art1/400/300" alt="" class="article-card__img" /></a>
+                  <div class="article-card__body">
+                    <span class="article-card__cat">Fasting</span>
+                    <h3 class="article-card__title"><a href="#">Can Fasting Lower Cholesterol?</a></h3>
+                    <p class="article-card__excerpt">At a glance Fasting can help lower cholesterol levels by promoting the use of body fat for energy, supporting a healthy weight, reducing inflammation, and maintaining balanced insulin levels. Incorporating&hellip;</p>
+                    <p class="article-card__date">05/01/2026</p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="article-card">
+                  <a href="#" class="article-card__img-link"><img src="https://picsum.photos/seed/art2/400/300" alt="" class="article-card__img" /></a>
+                  <div class="article-card__body">
+                    <span class="article-card__cat">Nutrition</span>
+                    <h3 class="article-card__title"><a href="#">Sugar Withdrawal: What to Expect and How to Cope</a></h3>
+                    <p class="article-card__excerpt">At a glance Sugar withdrawal can trigger intense cravings, fatigue, headaches, and mood changes as the body and brain adjust to reduced sugar intake. With the right strategies, such as&hellip;</p>
+                    <p class="article-card__date">04/24/2026</p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="article-card">
+                  <a href="#" class="article-card__img-link"><img src="https://picsum.photos/seed/art3/400/300" alt="" class="article-card__img" /></a>
+                  <div class="article-card__body">
+                    <span class="article-card__cat">Health concerns</span>
+                    <h3 class="article-card__title"><a href="#">3 Reasons You Wake up Hungry</a></h3>
+                    <p class="article-card__excerpt">At a glance While energy needs vary from person to person, hunger signals should naturally be lowest in the morning. Individuals who regularly wake up hungry often have poor dietary&hellip;</p>
+                    <p class="article-card__date">04/10/2026</p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="article-card">
+                  <a href="#" class="article-card__img-link"><img src="https://picsum.photos/seed/art4/400/300" alt="" class="article-card__img" /></a>
+                  <div class="article-card__body">
+                    <span class="article-card__cat">Brain health</span>
+                    <h3 class="article-card__title"><a href="#">Artificial Food Colors: What You Should Know</a></h3>
+                    <p class="article-card__excerpt">At a glance Most artificial food colors are petroleum-derived compounds that offer no nutritional benefits but have been linked to hyperactivity, allergic reactions, and other potential health concerns. Many synthetic&hellip;</p>
+                    <p class="article-card__date">04/10/2026</p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="article-card">
+                  <a href="#" class="article-card__img-link"><img src="https://picsum.photos/seed/art5/400/300" alt="" class="article-card__img" /></a>
+                  <div class="article-card__body">
+                    <span class="article-card__cat">Keto</span>
+                    <h3 class="article-card__title"><a href="#">How to Start Keto Without Feeling Overwhelmed</a></h3>
+                    <p class="article-card__excerpt">At a glance Starting a ketogenic diet can feel daunting, but breaking it into simple steps makes the transition manageable. Focus on eliminating sugar and refined carbs first&hellip;</p>
+                    <p class="article-card__date">03/28/2026</p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="article-card">
+                  <a href="#" class="article-card__img-link"><img src="https://picsum.photos/seed/art6/400/300" alt="" class="article-card__img" /></a>
+                  <div class="article-card__body">
+                    <span class="article-card__cat">Vitamins</span>
+                    <h3 class="article-card__title"><a href="#">Vitamin D Deficiency: Hidden Signs You Might Be Missing</a></h3>
+                    <p class="article-card__excerpt">At a glance Most people are deficient without knowing it. Low vitamin D affects immune function, mood, bone density, and energy levels in ways that are easy to overlook&hellip;</p>
+                    <p class="article-card__date">03/15/2026</p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="article-card">
+                  <a href="#" class="article-card__img-link"><img src="https://picsum.photos/seed/art7/400/300" alt="" class="article-card__img" /></a>
+                  <div class="article-card__body">
+                    <span class="article-card__cat">Stress</span>
+                    <h3 class="article-card__title"><a href="#">How Chronic Stress Depletes Your Key Nutrients</a></h3>
+                    <p class="article-card__excerpt">At a glance The adrenal glands consume large amounts of vitamins and minerals when under chronic stress. Understanding this connection is key to recovery and long-term health&hellip;</p>
+                    <p class="article-card__date">03/05/2026</p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="article-card">
+                  <a href="#" class="article-card__img-link"><img src="https://picsum.photos/seed/art8/400/300" alt="" class="article-card__img" /></a>
+                  <div class="article-card__body">
+                    <span class="article-card__cat">Exercise</span>
+                    <h3 class="article-card__title"><a href="#">HIIT vs. Steady Cardio: Which Is Better for Fat Loss?</a></h3>
+                    <p class="article-card__excerpt">At a glance Both exercise styles burn calories, but they affect hormones, muscle retention, and metabolic rate differently. The best choice depends on your body type and goals&hellip;</p>
+                    <p class="article-card__date">02/20/2026</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- TOPICS -->
-    <section class="topics section-pad" style="background: var(--color-bg-soft);">
+    <!-- EXPLORE TOPICS -->
+    <section class="section topics-section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Explore Topics</h2>
-          <a href="#" class="section-link">View all topics →</a>
+          <h2 class="section-title">Explore</h2>
+          <a href="#" class="section-link">View all topics</a>
         </div>
-        <div class="topics__cloud">
-          <a href="#" class="topic-tag">Aging</a>
-          <a href="#" class="topic-tag">Autoimmunity</a>
-          <a href="#" class="topic-tag">Blood Sugar</a>
-          <a href="#" class="topic-tag">Brain Health</a>
-          <a href="#" class="topic-tag">Cholesterol</a>
-          <a href="#" class="topic-tag">Diabetes</a>
-          <a href="#" class="topic-tag">Digestion</a>
-          <a href="#" class="topic-tag">Energy</a>
-          <a href="#" class="topic-tag">Eye Health</a>
-          <a href="#" class="topic-tag">Fasting</a>
-          <a href="#" class="topic-tag">Fatigue</a>
-          <a href="#" class="topic-tag">Heart Health</a>
-          <a href="#" class="topic-tag">Hormones</a>
-          <a href="#" class="topic-tag">Immune System</a>
-          <a href="#" class="topic-tag">Inflammation</a>
-          <a href="#" class="topic-tag">Insulin</a>
-          <a href="#" class="topic-tag">Joints</a>
-          <a href="#" class="topic-tag">Keto</a>
-          <a href="#" class="topic-tag">Liver</a>
-          <a href="#" class="topic-tag">Magnesium</a>
-          <a href="#" class="topic-tag">Menopause</a>
-          <a href="#" class="topic-tag">Metabolism</a>
-          <a href="#" class="topic-tag">Minerals</a>
-          <a href="#" class="topic-tag">Nutrition</a>
-          <a href="#" class="topic-tag">Obesity</a>
-          <a href="#" class="topic-tag">Recipes</a>
-          <a href="#" class="topic-tag">Sleep</a>
-          <a href="#" class="topic-tag">Skin</a>
-          <a href="#" class="topic-tag">Stress</a>
-          <a href="#" class="topic-tag">Thyroid</a>
-          <a href="#" class="topic-tag">Vitamins</a>
-          <a href="#" class="topic-tag">Weight Loss</a>
+        <div class="topics-grid">
+          <div class="topics-col">
+            <a href="#" class="topic-link">Aging &amp; longevity</a>
+            <a href="#" class="topic-link">Alternative diets</a>
+            <a href="#" class="topic-link">Autoimmunity</a>
+            <a href="#" class="topic-link">Blood sugar and insulin</a>
+            <a href="#" class="topic-link">Body types</a>
+            <a href="#" class="topic-link">Bone health</a>
+            <a href="#" class="topic-link">Brain health</a>
+            <a href="#" class="topic-link">Cancer</a>
+            <a href="#" class="topic-link">Children's health</a>
+            <a href="#" class="topic-link">Cholesterol</a>
+          </div>
+          <div class="topics-col">
+            <a href="#" class="topic-link">Diabetes</a>
+            <a href="#" class="topic-link">Digestion</a>
+            <a href="#" class="topic-link">Electrolytes</a>
+            <a href="#" class="topic-link">Energy</a>
+            <a href="#" class="topic-link">Eye health</a>
+            <a href="#" class="topic-link">Fasting</a>
+            <a href="#" class="topic-link">Fatigue</a>
+            <a href="#" class="topic-link">Gallbladder</a>
+            <a href="#" class="topic-link">Heart health</a>
+            <a href="#" class="topic-link">Hormones</a>
+          </div>
+          <div class="topics-col">
+            <a href="#" class="topic-link">Immune system</a>
+            <a href="#" class="topic-link">Inflammation</a>
+            <a href="#" class="topic-link">Joints &amp; pain</a>
+            <a href="#" class="topic-link">Keto</a>
+            <a href="#" class="topic-link">Liver health</a>
+            <a href="#" class="topic-link">Mental health</a>
+            <a href="#" class="topic-link">Metabolism</a>
+            <a href="#" class="topic-link">Minerals</a>
+            <a href="#" class="topic-link">Recipes</a>
+            <a href="#" class="topic-link">Sleep</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- FEATURES -->
-    <section class="features section-pad">
+    <!-- DR. ERIC BERG FEATURES -->
+    <section class="section features-section">
       <div class="container">
-        <div class="features__grid">
-
-          <div class="feature-card">
-            <img src="https://picsum.photos/seed/feat1/480/280" alt="" class="feature-card__img" />
-            <div class="feature-card__body">
-              <h3 class="feature-card__title">Online Courses</h3>
-              <p class="feature-card__desc">Deep-dive programs covering keto, fasting, digestion, and more — at your own pace.</p>
-              <a href="#" class="btn btn-outline feature-card__btn">Explore Courses</a>
+        <h2 class="section-title features-heading">Dr. Eric Berg, The Knowledge Doc&#174;</h2>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-item__img-wrap">
+              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Courses_01775c.png" alt="Courses" class="feature-item__img" />
+            </div>
+            <div class="feature-item__body">
+              <h3 class="feature-item__title"><a href="#">Courses &rarr;</a></h3>
+              <p class="feature-item__desc">Deep-dive programs covering keto, fasting, digestion, hormones, and more — learn at your own pace.</p>
             </div>
           </div>
-
-          <div class="feature-card">
-            <img src="https://picsum.photos/seed/feat2/480/280" alt="" class="feature-card__img" />
-            <div class="feature-card__body">
-              <h3 class="feature-card__title">YouTube Videos</h3>
-              <p class="feature-card__desc">Over 5,000 free videos covering every aspect of health, nutrition, and wellness.</p>
-              <a href="#" class="btn btn-outline feature-card__btn">Watch Now</a>
+          <div class="feature-item">
+            <div class="feature-item__img-wrap">
+              <img src="https://www.drberg.com/wp-content/uploads/2025/05/UPFs_428177.png" alt="Ultra-Processed Food Initiative" class="feature-item__img" />
+            </div>
+            <div class="feature-item__body">
+              <h3 class="feature-item__title"><a href="#">Ultra-Processed Food Initiative &rarr;</a></h3>
+              <p class="feature-item__desc">Learn how to identify and eliminate ultra-processed foods for lasting health improvements.</p>
             </div>
           </div>
-
-          <div class="feature-card">
-            <img src="https://picsum.photos/seed/feat3/480/280" alt="" class="feature-card__img" />
-            <div class="feature-card__body">
-              <h3 class="feature-card__title">Supplements Shop</h3>
-              <p class="feature-card__desc">Science-backed supplements formulated to support your keto and health journey.</p>
-              <a href="#" class="btn btn-outline feature-card__btn">Shop Now</a>
+          <div class="feature-item">
+            <div class="feature-item__img-wrap">
+              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Videos_597537.png" alt="YouTube Videos" class="feature-item__img" />
+            </div>
+            <div class="feature-item__body">
+              <h3 class="feature-item__title"><a href="#">Watch our videos &rarr;</a></h3>
+              <p class="feature-item__desc">Over 5,000 free videos covering every aspect of health, nutrition, and wellness on YouTube.</p>
             </div>
           </div>
-
-          <div class="feature-card">
-            <img src="https://picsum.photos/seed/feat4/480/280" alt="" class="feature-card__img" />
-            <div class="feature-card__body">
-              <h3 class="feature-card__title">Junk Food Meter App</h3>
-              <p class="feature-card__desc">Scan barcodes, get instant junk food scores, and make smarter choices on the go.</p>
-              <a href="#" class="btn btn-outline feature-card__btn">Get the App</a>
+          <div class="feature-item">
+            <div class="feature-item__img-wrap">
+              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Supplements_8c6ce4.png" alt="Shop Supplements" class="feature-item__img" />
+            </div>
+            <div class="feature-item__body">
+              <h3 class="feature-item__title"><a href="#">Shop supplements &rarr;</a></h3>
+              <p class="feature-item__desc">Science-backed supplements formulated to support your keto and overall health journey.</p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
     <!-- SUCCESS STORIES -->
-    <section class="success section-pad" style="background: var(--color-bg-soft);">
+    <section class="section success-section">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Success stories that inspire</h2>
-          <a href="#" class="section-link">View all stories (161) →</a>
+          <a href="#" class="section-link">View all stories (163)</a>
         </div>
-        <div class="success__grid">
-
-          <div class="success-card">
-            <div class="success-card__avatar">
-              <img src="https://picsum.photos/seed/person1/80/80" alt="Sarah M." />
-            </div>
-            <div class="success-card__stat">–34 lbs</div>
-            <p class="success-card__quote">"Following Dr. Berg's keto approach completely changed how I feel. I have more energy than I did in my 30s."</p>
-            <p class="success-card__name">Sarah M., 48</p>
+        <div class="splide" id="successSplide" aria-label="Success stories">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="story-card">
+                  <div class="story-card__img-wrap">
+                    <span class="story-card__badge">Photo Story</span>
+                    <img src="https://picsum.photos/seed/story1/480/360" alt="" class="story-card__img" />
+                  </div>
+                  <div class="story-card__body">
+                    <h3 class="story-card__title">Lost 34 lbs and reversed pre-diabetes</h3>
+                    <p class="story-card__excerpt">Following Dr. Berg's keto protocol completely transformed my metabolic health and energy levels.</p>
+                    <p class="story-card__author">Sarah M., 48 &mdash; Texas</p>
+                    <p class="story-card__date">April 15, 2026</p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="story-card">
+                  <div class="story-card__img-wrap">
+                    <span class="story-card__badge">Photo Story</span>
+                    <img src="https://picsum.photos/seed/story2/480/360" alt="" class="story-card__img" />
+                  </div>
+                  <div class="story-card__body">
+                    <h3 class="story-card__title">Blood sugar normalized after 90 days</h3>
+                    <p class="story-card__excerpt">My doctor was amazed. Three months of intermittent fasting and my A1C dropped significantly.</p>
+                    <p class="story-card__author">James R., 55 &mdash; Florida</p>
+                    <p class="story-card__date">April 8, 2026</p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="story-card">
+                  <div class="story-card__img-wrap">
+                    <span class="story-card__badge">Photo Story</span>
+                    <img src="https://picsum.photos/seed/story3/480/360" alt="" class="story-card__img" />
+                  </div>
+                  <div class="story-card__body">
+                    <h3 class="story-card__title">22 lbs lost in 8 weeks on keto</h3>
+                    <p class="story-card__excerpt">I finally understand what to eat and why. The content is science-backed and so easy to follow.</p>
+                    <p class="story-card__author">Maria L., 41 &mdash; California</p>
+                    <p class="story-card__date">March 22, 2026</p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="story-card">
+                  <div class="story-card__img-wrap">
+                    <span class="story-card__badge">Photo Story</span>
+                    <img src="https://picsum.photos/seed/story4/480/360" alt="" class="story-card__img" />
+                  </div>
+                  <div class="story-card__body">
+                    <h3 class="story-card__title">No more chronic fatigue after 6 months</h3>
+                    <p class="story-card__excerpt">Following the nutritional guidance changed my energy completely. I feel better at 52 than at 30.</p>
+                    <p class="story-card__author">Robert K., 52 &mdash; Ohio</p>
+                    <p class="story-card__date">March 10, 2026</p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="story-card">
+                  <div class="story-card__img-wrap">
+                    <span class="story-card__badge">Photo Story</span>
+                    <img src="https://picsum.photos/seed/story5/480/360" alt="" class="story-card__img" />
+                  </div>
+                  <div class="story-card__body">
+                    <h3 class="story-card__title">Thyroid health improved with keto</h3>
+                    <p class="story-card__excerpt">After years of thyroid struggles, the dietary changes Dr. Berg recommends made an incredible difference.</p>
+                    <p class="story-card__author">Linda W., 45 &mdash; New York</p>
+                    <p class="story-card__date">February 28, 2026</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
-
-          <div class="success-card">
-            <div class="success-card__avatar">
-              <img src="https://picsum.photos/seed/person2/80/80" alt="James R." />
-            </div>
-            <div class="success-card__stat">Blood Sugar Normalized</div>
-            <p class="success-card__quote">"My doctor was amazed. Three months of intermittent fasting and my A1C dropped significantly."</p>
-            <p class="success-card__name">James R., 55</p>
-          </div>
-
-          <div class="success-card">
-            <div class="success-card__avatar">
-              <img src="https://picsum.photos/seed/person3/80/80" alt="Maria L." />
-            </div>
-            <div class="success-card__stat">–22 lbs in 8 weeks</div>
-            <p class="success-card__quote">"I finally understand what to eat and why. The content is science-backed and so easy to follow."</p>
-            <p class="success-card__name">Maria L., 41</p>
-          </div>
-
         </div>
       </div>
     </section>
 
-    <!-- INTERACTIVE TOOLS -->
-    <section class="tools section-pad">
+    <!-- JUNK FOOD METER APP -->
+    <section class="section app-section">
       <div class="container">
-        <h2 class="section-title tools__heading">Helpful Tools</h2>
-        <div class="tools__grid">
-
-          <div class="tool-card tool-card--green">
-            <div class="tool-card__text">
-              <span class="tool-card__label">CALCULATOR</span>
-              <h3 class="tool-card__title">Smash your keto goals with our #1 macro calculator</h3>
-              <p class="tool-card__desc">Enter your details and get a personalized daily keto macro breakdown in seconds.</p>
-              <a href="#" class="btn btn-primary tool-card__btn">Start Calculator</a>
-            </div>
-            <div class="tool-card__image">
-              <img src="https://picsum.photos/seed/calc/320/280" alt="" role="presentation" />
-            </div>
-          </div>
-
-          <div class="tool-card tool-card--dark">
-            <div class="tool-card__text">
-              <span class="tool-card__label">QUIZ</span>
-              <h3 class="tool-card__title">Discover your body type in just 2 minutes</h3>
-              <p class="tool-card__desc">Take our free quiz and get a custom health plan tailored to your unique body type.</p>
-              <a href="#" class="btn tool-card__btn tool-card__btn--light">Take the Quiz</a>
-            </div>
-            <div class="tool-card__image">
-              <img src="https://picsum.photos/seed/quiz/320/280" alt="" role="presentation" />
+        <div class="app-grid">
+          <div class="app-grid__text">
+            <h2 class="section-title">Make informed food choices with the tap of a button</h2>
+            <p class="app-grid__desc">Scan any food barcode and instantly see its junk food score. Know exactly what you're putting in your body.</p>
+            <ul class="app-features">
+              <li>&#10003; Instant barcode scanning</li>
+              <li>&#10003; Ultra-processed ingredient detection</li>
+              <li>&#10003; Personalized food alternatives</li>
+              <li>&#10003; 2M+ foods in database</li>
+            </ul>
+            <div class="app-badges">
+              <a href="#" class="app-badge">
+                <img src="https://www.drberg.com/wp-content/uploads/2025/05/app-store.svg" alt="Download on the App Store" class="app-badge-img" />
+              </a>
+              <a href="#" class="app-badge">
+                <img src="https://www.drberg.com/wp-content/uploads/2025/05/google-play.svg" alt="Get it on Google Play" class="app-badge-img" />
+              </a>
             </div>
           </div>
-
+          <div class="app-grid__phone">
+            <img src="https://www.drberg.com/wp-content/uploads/2025/06/Artboard-1-1.png" alt="Junk Food Meter App" class="app-grid__phone-img" />
+          </div>
+          <div class="app-grid__accordion">
+            <h3 class="accordion-heading">Key Features</h3>
+            <div class="accordion">
+              <div class="accordion__item">
+                <button class="accordion__btn" aria-expanded="true">Junk Food Score <span class="accordion__icon">&minus;</span></button>
+                <div class="accordion__body">
+                  <p>Every food gets a score from 0&ndash;100 based on ingredient quality, additives, and processing level.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__btn" aria-expanded="false">Ingredient Analysis <span class="accordion__icon">+</span></button>
+                <div class="accordion__body accordion__body--hidden">
+                  <p>See a breakdown of every ingredient with clear explanations of what each one does to your body.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__btn" aria-expanded="false">Better Alternatives <span class="accordion__icon">+</span></button>
+                <div class="accordion__body accordion__body--hidden">
+                  <p>Get suggested healthier alternatives when a product scores poorly on the junk food meter.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__btn" aria-expanded="false">Scan History <span class="accordion__icon">+</span></button>
+                <div class="accordion__body accordion__body--hidden">
+                  <p>Track all your scanned products over time and see how your food choices are improving.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- PRODUCTS -->
-    <section class="products section-pad" style="background: var(--color-bg-soft);">
+    <!-- FEATURED PODCASTS -->
+    <section class="section podcast-section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Shop Bestsellers</h2>
-          <div class="carousel-controls">
-            <button class="carousel-btn" id="prevBtn" aria-label="Previous">&#8592;</button>
-            <button class="carousel-btn" id="nextBtn" aria-label="Next">&#8594;</button>
+          <h2 class="section-title">Featured podcasts</h2>
+          <a href="#" class="section-link">View all episodes (743)</a>
+        </div>
+        <div class="splide" id="podcastSplide" aria-label="Featured podcasts">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <article class="podcast-card">
+                  <a href="#" class="podcast-card__img-link">
+                    <img src="https://picsum.photos/seed/pod1/400/400" alt="" class="podcast-card__img" />
+                    <span class="podcast-card__play" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </span>
+                  </a>
+                  <div class="podcast-card__body">
+                    <span class="podcast-card__ep">EP. 421</span>
+                    <h3 class="podcast-card__title"><a href="#">Why You Can't Lose Weight (And What Actually Works)</a></h3>
+                    <p class="podcast-card__desc">The real metabolic blockers most people don't know about — and the simple fix that changes everything.</p>
+                    <p class="podcast-card__meta"><span class="podcast-card__dur">47 min</span>&ensp;&bull;&ensp;<span class="podcast-card__date">May 12, 2026</span></p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="podcast-card">
+                  <a href="#" class="podcast-card__img-link">
+                    <img src="https://picsum.photos/seed/pod2/400/400" alt="" class="podcast-card__img" />
+                    <span class="podcast-card__play" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </span>
+                  </a>
+                  <div class="podcast-card__body">
+                    <span class="podcast-card__ep">EP. 420</span>
+                    <h3 class="podcast-card__title"><a href="#">The Real Cause of Chronic Inflammation</a></h3>
+                    <p class="podcast-card__desc">Understanding the root triggers of inflammation and the dietary shifts that turn it off for good.</p>
+                    <p class="podcast-card__meta"><span class="podcast-card__dur">39 min</span>&ensp;&bull;&ensp;<span class="podcast-card__date">May 5, 2026</span></p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="podcast-card">
+                  <a href="#" class="podcast-card__img-link">
+                    <img src="https://picsum.photos/seed/pod3/400/400" alt="" class="podcast-card__img" />
+                    <span class="podcast-card__play" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </span>
+                  </a>
+                  <div class="podcast-card__body">
+                    <span class="podcast-card__ep">EP. 419</span>
+                    <h3 class="podcast-card__title"><a href="#">Keto &amp; Intermittent Fasting: The Perfect Combination</a></h3>
+                    <p class="podcast-card__desc">How combining keto with IF accelerates fat burning, improves insulin sensitivity, and extends longevity.</p>
+                    <p class="podcast-card__meta"><span class="podcast-card__dur">52 min</span>&ensp;&bull;&ensp;<span class="podcast-card__date">Apr 28, 2026</span></p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="podcast-card">
+                  <a href="#" class="podcast-card__img-link">
+                    <img src="https://picsum.photos/seed/pod4/400/400" alt="" class="podcast-card__img" />
+                    <span class="podcast-card__play" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </span>
+                  </a>
+                  <div class="podcast-card__body">
+                    <span class="podcast-card__ep">EP. 418</span>
+                    <h3 class="podcast-card__title"><a href="#">Understanding Your Body Type for Better Health</a></h3>
+                    <p class="podcast-card__desc">The four body types and how knowing yours unlocks a personalized path to lasting fat loss and energy.</p>
+                    <p class="podcast-card__meta"><span class="podcast-card__dur">44 min</span>&ensp;&bull;&ensp;<span class="podcast-card__date">Apr 21, 2026</span></p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="podcast-card">
+                  <a href="#" class="podcast-card__img-link">
+                    <img src="https://picsum.photos/seed/pod5/400/400" alt="" class="podcast-card__img" />
+                    <span class="podcast-card__play" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </span>
+                  </a>
+                  <div class="podcast-card__body">
+                    <span class="podcast-card__ep">EP. 417</span>
+                    <h3 class="podcast-card__title"><a href="#">Top Signs You're Deficient in Vitamin D</a></h3>
+                    <p class="podcast-card__desc">Most people are deficient and don't know it. Here's how to spot the signs and correct it fast.</p>
+                    <p class="podcast-card__meta"><span class="podcast-card__dur">35 min</span>&ensp;&bull;&ensp;<span class="podcast-card__date">Apr 14, 2026</span></p>
+                  </div>
+                </article>
+              </li>
+              <li class="splide__slide">
+                <article class="podcast-card">
+                  <a href="#" class="podcast-card__img-link">
+                    <img src="https://picsum.photos/seed/pod6/400/400" alt="" class="podcast-card__img" />
+                    <span class="podcast-card__play" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </span>
+                  </a>
+                  <div class="podcast-card__body">
+                    <span class="podcast-card__ep">EP. 416</span>
+                    <h3 class="podcast-card__title"><a href="#">How Stress Destroys Your Gut and What to Do</a></h3>
+                    <p class="podcast-card__desc">The gut-brain-adrenal axis explained, and the protocol Dr. Berg uses to restore balance quickly.</p>
+                    <p class="podcast-card__meta"><span class="podcast-card__dur">41 min</span>&ensp;&bull;&ensp;<span class="podcast-card__date">Apr 7, 2026</span></p>
+                  </div>
+                </article>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="carousel-wrapper">
-          <div class="products__track" id="productsTrack">
+      </div>
+    </section>
 
-            <div class="product-card">
-              <div class="product-card__img-wrap" style="background:#f0faf4;">
-                <img src="https://picsum.photos/seed/prod1/240/240" alt="D3 & K2 Vitamin" />
-              </div>
-              <div class="product-card__body">
-                <div class="product-card__stars">★★★★★ <span>(2,847)</span></div>
-                <h4 class="product-card__name">D3 &amp; K2 Vitamin</h4>
-                <p class="product-card__price">$29.99</p>
-                <button class="btn btn-primary product-card__btn">Add to Cart</button>
-              </div>
+    <!-- SHOP BESTSELLERS -->
+    <section class="section products-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Shop our bestsellers</h2>
+          <a href="#" class="section-link">View all products</a>
+        </div>
+        <div class="splide" id="productsSplide" aria-label="Shop bestsellers">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="product-card">
+                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_D3K2_120_capsules_2025_3D2.webp" alt="D3 &amp; K2 Vitamin" class="product-card__img" /></div>
+                  <div class="product-card__body">
+                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(2,847)</span></div>
+                    <h4 class="product-card__name">D3 &amp; K2 Vitamin</h4>
+                    <p class="product-card__stock">In stock</p>
+                    <p class="product-card__price">From $29.97</p>
+                    <a href="#" class="btn btn-product">View Product</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="product-card">
+                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/electrolyte-powder-lemon-us-v3-3d.webp" alt="Electrolyte Powder" class="product-card__img" /></div>
+                  <div class="product-card__body">
+                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(4,102)</span></div>
+                    <h4 class="product-card__name">Electrolyte Powder</h4>
+                    <p class="product-card__stock">In stock</p>
+                    <p class="product-card__price">From $39.97</p>
+                    <a href="#" class="btn btn-product">View Product</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="product-card">
+                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Magnesium_Glycinate_120_capsules_2025_3D2.webp" alt="Magnesium Glycinate" class="product-card__img" /></div>
+                  <div class="product-card__body">
+                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(1,654)</span></div>
+                    <h4 class="product-card__name">Magnesium Glycinate</h4>
+                    <p class="product-card__stock">In stock</p>
+                    <p class="product-card__price">From $24.97</p>
+                    <a href="#" class="btn btn-product">View Product</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="product-card">
+                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Whole_Food_Multi_120_capsules_2025_3D2.webp" alt="Whole Food Multivitamin" class="product-card__img" /></div>
+                  <div class="product-card__body">
+                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(2,311)</span></div>
+                    <h4 class="product-card__name">Whole Food Multivitamin</h4>
+                    <p class="product-card__stock">In stock</p>
+                    <p class="product-card__price">From $34.97</p>
+                    <a href="#" class="btn btn-product">View Product</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="product-card">
+                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Vitamin_B1_100_capsules_2025_3D2.webp" alt="Vitamin B1" class="product-card__img" /></div>
+                  <div class="product-card__body">
+                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(1,230)</span></div>
+                    <h4 class="product-card__name">Vitamin B1</h4>
+                    <p class="product-card__stock">In stock</p>
+                    <p class="product-card__price">From $19.97</p>
+                    <a href="#" class="btn btn-product">View Product</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="product-card">
+                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Omega_3_Fatty_Acids_90_capsules_2025_3D2.webp" alt="Omega-3 Fatty Acids" class="product-card__img" /></div>
+                  <div class="product-card__body">
+                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(3,421)</span></div>
+                    <h4 class="product-card__name">Omega-3 Fatty Acids</h4>
+                    <p class="product-card__stock">In stock</p>
+                    <p class="product-card__price">From $34.97</p>
+                    <a href="#" class="btn btn-product">View Product</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="product-card">
+                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Trace_Minerals_60_capsules_2025_3D2.webp" alt="Trace Minerals" class="product-card__img" /></div>
+                  <div class="product-card__body">
+                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(897)</span></div>
+                    <h4 class="product-card__name">Trace Minerals</h4>
+                    <p class="product-card__stock">In stock</p>
+                    <p class="product-card__price">From $22.97</p>
+                    <a href="#" class="btn btn-product">View Product</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="product-card">
+                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Multi_Collagen_60_capsules_2025_3D2.webp" alt="Multi Collagen" class="product-card__img" /></div>
+                  <div class="product-card__body">
+                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(1,543)</span></div>
+                    <h4 class="product-card__name">Multi Collagen</h4>
+                    <p class="product-card__stock">In stock</p>
+                    <p class="product-card__price">From $27.97</p>
+                    <a href="#" class="btn btn-product">View Product</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="section tools-section">
+      <div class="container">
+        <div class="tools-grid">
+          <div class="tool-card tool-card--light">
+            <div class="tool-card__content">
+              <p class="tool-card__label">CALCULATOR</p>
+              <h3 class="tool-card__title">Smash your keto goals with our #1 macro calculator</h3>
+              <p class="tool-card__desc">Enter your details and get a personalized daily keto macro breakdown in seconds.</p>
+              <a href="#" class="btn btn-dark">View calculator</a>
             </div>
-
-            <div class="product-card">
-              <div class="product-card__img-wrap" style="background:#fef9e7;">
-                <img src="https://picsum.photos/seed/prod2/240/240" alt="Electrolyte Powder" />
-              </div>
-              <div class="product-card__body">
-                <div class="product-card__stars">★★★★★ <span>(4,102)</span></div>
-                <h4 class="product-card__name">Electrolyte Powder</h4>
-                <p class="product-card__price">$39.99</p>
-                <button class="btn btn-primary product-card__btn">Add to Cart</button>
-              </div>
+            <div class="tool-card__mockup">
+              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Keto-Calculator-3.png" alt="Keto Calculator" class="tool-card__phone" />
             </div>
-
-            <div class="product-card">
-              <div class="product-card__img-wrap" style="background:#f0f4ff;">
-                <img src="https://picsum.photos/seed/prod3/240/240" alt="Magnesium Glycinate" />
-              </div>
-              <div class="product-card__body">
-                <div class="product-card__stars">★★★★★ <span>(1,654)</span></div>
-                <h4 class="product-card__name">Magnesium Glycinate</h4>
-                <p class="product-card__price">$24.99</p>
-                <button class="btn btn-primary product-card__btn">Add to Cart</button>
-              </div>
+          </div>
+          <div class="tool-card tool-card--dark">
+            <div class="tool-card__content">
+              <p class="tool-card__label">QUIZ</p>
+              <h3 class="tool-card__title">Discover your body type in just 2 minutes</h3>
+              <p class="tool-card__desc">Take our free quiz and get a custom health plan tailored to your unique body type.</p>
+              <a href="#" class="btn btn-light">Start the quiz</a>
             </div>
-
-            <div class="product-card">
-              <div class="product-card__img-wrap" style="background:#fdf0f0;">
-                <img src="https://picsum.photos/seed/prod4/240/240" alt="Keto Essentials Bundle" />
-              </div>
-              <div class="product-card__body">
-                <div class="product-card__stars">★★★★☆ <span>(987)</span></div>
-                <h4 class="product-card__name">Keto Essentials Bundle</h4>
-                <p class="product-card__price">$64.99</p>
-                <button class="btn btn-primary product-card__btn">Add to Cart</button>
-              </div>
+            <div class="tool-card__mockup">
+              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Weight-Loss_-3.png" alt="Body Type Quiz" class="tool-card__phone" />
             </div>
-
-            <div class="product-card">
-              <div class="product-card__img-wrap" style="background:#f5f0fe;">
-                <img src="https://picsum.photos/seed/prod5/240/240" alt="Zinc & Selenium" />
-              </div>
-              <div class="product-card__body">
-                <div class="product-card__stars">★★★★★ <span>(1,230)</span></div>
-                <h4 class="product-card__name">Zinc &amp; Selenium</h4>
-                <p class="product-card__price">$19.99</p>
-                <button class="btn btn-primary product-card__btn">Add to Cart</button>
-              </div>
-            </div>
-
-            <div class="product-card">
-              <div class="product-card__img-wrap" style="background:#f0fafa;">
-                <img src="https://picsum.photos/seed/prod6/240/240" alt="Omega-3 Fish Oil" />
-              </div>
-              <div class="product-card__body">
-                <div class="product-card__stars">★★★★★ <span>(3,421)</span></div>
-                <h4 class="product-card__name">Omega-3 Fish Oil</h4>
-                <p class="product-card__price">$34.99</p>
-                <button class="btn btn-primary product-card__btn">Add to Cart</button>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
@@ -403,43 +710,39 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="footer" aria-label="Site footer">
+  <footer class="footer">
     <div class="container">
       <div class="footer__top">
-
-        <div class="footer__col footer__col--brand">
-          <a href="#" class="footer__logo">Dr. Berg</a>
-          <p class="footer__tagline">Science-backed health education for a better life.</p>
-          <form class="footer__newsletter" aria-label="Email newsletter signup">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo"><img src="https://www.drberg.com/wp-content/uploads/2025/05/drberg-desktop.svg" alt="Dr. Berg" class="footer__logo-img" /></a>
+          <p class="footer__tagline">Join over 40 million members and receive our latest news.</p>
+          <form class="footer__newsletter" aria-label="Newsletter signup">
             <input type="email" placeholder="Your email address" class="footer__input" aria-label="Email address" />
-            <button type="submit" class="btn btn-primary footer__subscribe">Subscribe</button>
+            <button type="submit" class="btn-footer-sub">Subscribe</button>
           </form>
         </div>
-
         <div class="footer__col">
           <h4 class="footer__heading">Explore</h4>
           <ul class="footer__links">
             <li><a href="#">Nutrition</a></li>
-            <li><a href="#">Lifestyle</a></li>
-            <li><a href="#">Diets</a></li>
             <li><a href="#">Keto</a></li>
             <li><a href="#">Recipes</a></li>
             <li><a href="#">Fasting</a></li>
+            <li><a href="#">Supplements</a></li>
+            <li><a href="#">Blog</a></li>
           </ul>
         </div>
-
         <div class="footer__col">
           <h4 class="footer__heading">About</h4>
           <ul class="footer__links">
+            <li><a href="#">About Dr. Berg</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">Courses</a></li>
-            <li><a href="#">About Dr. Berg</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Press</a></li>
           </ul>
         </div>
-
         <div class="footer__col">
           <h4 class="footer__heading">Tools</h4>
           <ul class="footer__links">
@@ -449,32 +752,58 @@
             <li><a href="#">Health Quizzes</a></li>
           </ul>
         </div>
-
         <div class="footer__col">
-          <h4 class="footer__heading">Follow</h4>
+          <h4 class="footer__heading">Follow Us</h4>
           <div class="footer__social">
-            <a href="#" class="social-icon" aria-label="Facebook"><span aria-hidden="true">f</span></a>
-            <a href="#" class="social-icon" aria-label="Instagram"><span aria-hidden="true">in</span></a>
-            <a href="#" class="social-icon" aria-label="YouTube"><span aria-hidden="true">▶</span></a>
-            <a href="#" class="social-icon" aria-label="X"><span aria-hidden="true">𝕏</span></a>
-            <a href="#" class="social-icon" aria-label="Pinterest"><span aria-hidden="true">P</span></a>
-            <a href="#" class="social-icon" aria-label="TikTok"><span aria-hidden="true">♪</span></a>
+            <a href="#" class="social-icon" aria-label="YouTube">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.75 15.5V8.5l6.25 3.5-6.25 3.5z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85 0 3.2-.01 3.58-.07 4.85-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07-3.2 0-3.58-.01-4.85-.07-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12c0-3.2.01-3.58.07-4.85C2.38 3.85 3.9 2.31 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.7.07 7.05.01 8.33 0 8.74 0 12c0 3.26.01 3.67.07 4.95.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24c3.26 0 3.67-.01 4.95-.07 4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95 0-3.26-.01-3.67-.07-4.95-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32A6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="X (Twitter)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.24 0h3.55l-7.77 8.88L23.1 24h-7.16l-5.6-7.33L4.1 24H.53l8.32-9.51L0 0h7.33l5.07 6.7L18.24 0zm-1.25 21.57h1.97L7.08 2.04H4.97l12.02 19.53z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Pinterest">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.08 3.16 9.44 7.63 11.18-.1-.93-.2-2.36.04-3.38.22-.91 1.47-6.22 1.47-6.22s-.37-.75-.37-1.87c0-1.75 1.02-3.06 2.28-3.06 1.08 0 1.6.81 1.6 1.78 0 1.08-.69 2.7-1.04 4.2-.3 1.26.62 2.28 1.85 2.28 2.22 0 3.93-2.34 3.93-5.73 0-2.99-2.15-5.08-5.22-5.08-3.56 0-5.65 2.67-5.65 5.43 0 1.07.41 2.22.93 2.85.1.12.12.23.09.35-.09.39-.3 1.26-.34 1.43-.05.22-.18.27-.41.16-1.55-.72-2.52-3-2.52-4.82 0-3.92 2.85-7.52 8.22-7.52 4.31 0 7.67 3.07 7.67 7.18 0 4.28-2.7 7.72-6.44 7.72-1.26 0-2.44-.65-2.84-1.42l-.77 2.89c-.28 1.07-1.03 2.41-1.54 3.22.62.19 1.27.29 1.95.29 6.63 0 12-5.37 12-12S18.63 0 12 0z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="TikTok">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.77a8.15 8.15 0 0 0 4.77 1.52V6.84a4.85 4.85 0 0 1-1-.15z"/></svg>
+            </a>
           </div>
         </div>
+      </div>
 
+      <div class="footer__disclaimer">
+        <p>* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+      </div>
+
+      <div class="footer__apps">
+        <a href="#" class="footer-app-link"><img src="https://www.drberg.com/wp-content/uploads/2025/05/app-store.svg" alt="Download on the App Store" class="footer-app-img" /></a>
+        <a href="#" class="footer-app-link"><img src="https://www.drberg.com/wp-content/uploads/2025/05/google-play.svg" alt="Get it on Google Play" class="footer-app-img" /></a>
+      </div>
+
+      <div class="footer__address">
+        <p>912 Drew Street. Suite 203-13 Clearwater, FL 33755</p>
+        <a href="#"><img src="https://www.drberg.com/wp-content/uploads/2025/05/black-seal-293-61-bbb-225750768.png" alt="BBB Accredited Business" class="footer__bbb" /></a>
       </div>
 
       <div class="footer__bottom">
-        <p class="footer__copy">© 2026 Dr. Berg Clone — Öğrenme Amaçlı</p>
-        <div class="footer__legal">
+        <nav class="footer__legal" aria-label="Legal links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Use</a>
           <a href="#">Contact</a>
-        </div>
+          <a href="#">Accessibility</a>
+        </nav>
+        <p class="footer__copy">&copy; 2025 Dr. Berg Nutritionals. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1/dist/js/splide.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

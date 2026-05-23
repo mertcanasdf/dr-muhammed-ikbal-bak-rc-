@@ -1,50 +1,124 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // ── Sticky header ──
-  const navbar = document.getElementById('navbar');
-  const burger = document.getElementById('burger');
-  const navMenu = document.getElementById('navMenu');
 
-  window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 10);
-  });
-
-  burger.addEventListener('click', () => {
-    burger.classList.toggle('open');
-    navMenu.classList.toggle('open');
-    burger.setAttribute('aria-expanded', burger.classList.contains('open'));
-  });
-
-  // ── Product Carousel ──
-  const track = document.getElementById('productsTrack');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-
-  if (track && prevBtn && nextBtn) {
-    let currentIndex = 0;
-
-    function getVisibleCount() {
-      if (window.innerWidth <= 600) return 1;
-      if (window.innerWidth <= 1024) return 2;
-      return 4;
-    }
-
-    function totalCards() {
-      return track.querySelectorAll('.product-card').length;
-    }
-
-    function updateCarousel() {
-      const cardWidth = track.querySelector('.product-card').offsetWidth + 24;
-      const maxIndex = totalCards() - getVisibleCount();
-      currentIndex = Math.max(0, Math.min(currentIndex, maxIndex));
-      track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-      prevBtn.disabled = currentIndex === 0;
-      nextBtn.disabled = currentIndex >= maxIndex;
-    }
-
-    nextBtn.addEventListener('click', () => { currentIndex++; updateCarousel(); });
-    prevBtn.addEventListener('click', () => { currentIndex--; updateCarousel(); });
-    window.addEventListener('resize', () => { currentIndex = 0; updateCarousel(); });
-
-    updateCarousel();
+  // ── Announcement bar dismiss ──
+  const announcementBar = document.getElementById('announcementBar');
+  const closeBtn = document.getElementById('closeAnnouncement');
+  if (closeBtn && announcementBar) {
+    closeBtn.addEventListener('click', () => {
+      announcementBar.style.display = 'none';
+    });
   }
+
+  // ── Sticky header shadow ──
+  const headerWrapper = document.getElementById('headerWrapper');
+  window.addEventListener('scroll', () => {
+    headerWrapper.classList.toggle('scrolled', window.scrollY > 20);
+  }, { passive: true });
+
+  // ── Mobile hamburger ──
+  const hamburger = document.getElementById('hamburger');
+  const mainMenu  = document.getElementById('mainMenu');
+  if (hamburger && mainMenu) {
+    hamburger.addEventListener('click', () => {
+      const isOpen = mainMenu.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+    // Close menu when a link is clicked
+    mainMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mainMenu.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
+  // ── Accordion ──
+  document.querySelectorAll('.accordion__btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const isOpen  = btn.getAttribute('aria-expanded') === 'true';
+      const item    = btn.closest('.accordion__item');
+      const body    = item.querySelector('.accordion__body');
+      const icon    = btn.querySelector('.accordion__icon');
+
+      // Collapse all
+      document.querySelectorAll('.accordion__btn').forEach(b => {
+        b.setAttribute('aria-expanded', 'false');
+        b.querySelector('.accordion__icon').textContent = '+';
+        const sib = b.closest('.accordion__item').querySelector('.accordion__body');
+        sib.classList.add('accordion__body--hidden');
+      });
+
+      // Expand clicked (unless it was already open)
+      if (!isOpen) {
+        btn.setAttribute('aria-expanded', 'true');
+        icon.textContent = '−'; // minus sign
+        body.classList.remove('accordion__body--hidden');
+      }
+    });
+  });
+
+  // ── Splide.js carousels ──
+  if (typeof Splide !== 'undefined') {
+
+    new Splide('#articlesSplide', {
+      type:       'loop',
+      perPage:    4,
+      perMove:    1,
+      gap:        '0.25rem',
+      padding:    '0',
+      pagination: true,
+      arrows:     true,
+      breakpoints: {
+        1124: { perPage: 3 },
+        991:  { perPage: 2 },
+        640:  { perPage: 1, fixedWidth: '80%' },
+      },
+    }).mount();
+
+    new Splide('#successSplide', {
+      type:       'loop',
+      perPage:    3,
+      perMove:    1,
+      gap:        '1.5rem',
+      pagination: true,
+      arrows:     true,
+      breakpoints: {
+        991: { perPage: 2 },
+        640: { perPage: 1, fixedWidth: '80%' },
+      },
+    }).mount();
+
+    new Splide('#podcastSplide', {
+      type:       'loop',
+      perPage:    4,
+      perMove:    1,
+      gap:        '1.5rem',
+      pagination: true,
+      arrows:     true,
+      breakpoints: {
+        1124: { perPage: 3 },
+        768:  { perPage: 2 },
+        480:  { perPage: 1, fixedWidth: '80%' },
+      },
+    }).mount();
+
+    new Splide('#productsSplide', {
+      type:       'loop',
+      perPage:    4,
+      perMove:    1,
+      gap:        '0.25rem',
+      padding:    '0',
+      pagination: true,
+      arrows:     true,
+      breakpoints: {
+        1024: { perPage: 3 },
+        768:  { perPage: 2 },
+        480:  { perPage: 2 },
+      },
+    }).mount();
+
+  }
+
 });

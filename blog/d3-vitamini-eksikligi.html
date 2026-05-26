@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D3 Vitamini Eksikliği ve Erken Yaşlanma — Dr. Muhammed İkbal Bakırcı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+  <div class="announcement-bar" id="announcementBar">
+    <div class="container announcement-bar__inner">
+      <p>#1 sağlık engelinizi 2 dakikada keşfedin &rarr; <a href="#">Hemen Başla</a></p>
+      <button class="announcement-bar__close" id="closeAnnouncement" aria-label="Kapat">&#10005;</button>
+    </div>
+  </div>
+
+  <div class="header-wrapper" id="headerWrapper">
+    <div class="utility-nav"><div class="container utility-nav__inner"><nav><a href="#">Sitelerimiz</a><a href="#">Hakkında</a><a href="#">İletişim</a></nav></div></div>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="../" class="site-logo"><span class="site-logo__text">Dr. Bakırcı</span></a>
+        <div class="header-stats">
+          <div class="header-stat"><span class="header-stat__number">2.400.000+</span><span class="header-stat__label">YouTube Abonesi</span></div>
+          <div class="header-stat header-stat--mid"><span class="header-stat__number">1.240</span><span class="header-stat__label">Başarı Hikayesi</span></div>
+          <div class="header-stat"><span class="header-stat__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="header-stat__reviews">1.800+ Google Yorumu</span><span class="header-stat__rating">4.8 / 5 puan</span></div>
+        </div>
+        <div class="header-search-wrap"><input type="search" class="header-search-input" placeholder="Ara" aria-label="Ara" /><button class="header-search-btn" aria-label="Ara"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button></div>
+        <div class="header-actions"><a href="#" class="btn-sign-in"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>Giriş Yap</a><button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button></div>
+      </div>
+    </header>
+    <nav class="main-menu" id="mainMenu" aria-label="Ana navigasyon">
+      <div class="container"><ul class="main-menu__list"><li><a href="index.html">İçerik Kütüphanesi</a></li><li><a href="#">Tarifler</a></li><li><a href="#">Longevity</a></li><li><a href="#">Rehberler</a></li><li><a href="#">Quizler <span class="new-badge">Yeni</span></a></li><li><a href="#">Başarı Hikayeleri</a></li><li><a href="#">Sansürsüz İçerik</a></li><li><a href="#" class="main-menu__shop">Mağaza <span class="sale-badge">İNDİRİM</span></a></li></ul></div>
+    </nav>
+  </div>
+
+  <main>
+    <section class="article-hero">
+      <div class="container">
+        <div class="article-hero__inner">
+          <span class="article-hero__cat">Vitaminler</span>
+          <h1 class="article-hero__title">D3 Vitamini Eksikliği ve Erken Yaşlanma Arasındaki Bağ</h1>
+          <div class="article-hero__meta">
+            <span>Dr. Muhammed İkbal Bakırcı</span>
+            <span>15 Mart 2026</span>
+            <span>8 dk okuma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="article-layout">
+        <article class="article-body">
+          <img src="https://picsum.photos/seed/art6lon/1200/675" alt="D3 Vitamini" class="article-body__featured-img" />
+
+          <p>Dünya nüfusunun %40'ından fazlasının yetersiz seviyede D vitaminine sahip olduğu tahmin ediliyor. Türkiye'de bu oran bazı tahminlere göre %70'e yaklaşıyor. Peki D vitamini eksikliği neden bu denli yaygın ve longevity açısından neden bu kadar kritik?</p>
+
+          <p>D vitamini aslında bir vitamin değil, bir <strong>pro-hormondur</strong>. Vücutta aktif forma dönüşerek 200'den fazla geni düzenler, bağışıklık sistemini yönlendirir, kemik metabolizmasını kontrol eder ve kronik iltihaplanmayı baskılar. Eksikliği sessizce ilerler ve yıllar içinde erken yaşlanmanın neredeyse tüm belirtilerini tetikleyebilir.</p>
+
+          <h2 id="eksiklik-belirtileri">Eksikliğin Belirtileri</h2>
+          <p>D vitamini eksikliği çoğu zaman fark edilmeden sürer çünkü belirtileri pek çok başka durumu taklit eder:</p>
+          <ul>
+            <li><strong>Kronik yorgunluk ve düşük enerji:</strong> Mitokondriyal işlev için D vitamini gereklidir.</li>
+            <li><strong>Kas güçsüzlüğü ve ağrısı:</strong> Kas hücre reseptörlerine bağlanarak kas kontraksiyonunu düzenler.</li>
+            <li><strong>Ruh hali bozuklukları:</strong> Serotonin sentezini etkiler; düşük D vitamini depresyon ve mevsimsel affektif bozuklukla ilişkilidir.</li>
+            <li><strong>Sık hastalanma:</strong> T hücreleri ve makrofajlar D vitaminine bağımlıdır.</li>
+            <li><strong>Saç dökülmesi:</strong> Saç foliküllerinde D vitamini reseptörleri bulunur.</li>
+            <li><strong>Kemik ve sırt ağrısı:</strong> Kalsiyum emilimi için D vitamini zorunludur.</li>
+          </ul>
+
+          <h2 id="yaslanma-baglantisi">Yaşlanmayla Bağlantısı</h2>
+          <p>Düşük D vitamini seviyeleri ile erken yaşlanma arasındaki bağlantı birden fazla mekanizma üzerinden çalışır:</p>
+
+          <h3>Telomer Koruması</h3>
+          <p>Yeterli D vitamini seviyesi, telomeri destekleyen telomeraz enziminin aktivitesini korur. Düşük D vitamini düzeyindeki bireylerde telomerlerin daha hızlı kısaldığı gözlemlenmiştir; bu, biyolojik yaşlanmayı doğrudan hızlandırır.</p>
+
+          <h3>Otoimmün ve Kronik Iltihap</h3>
+          <p>D vitamini, NF-κB yolağını baskılar — bu yolak kronik inflamasyonun ana tetikleyicisidir. Eksiklik halinde pro-inflamatuar sitokinler aşırı üretilir ve "inflammaging" (iltihap kaynaklı yaşlanma) hızlanır.</p>
+
+          <h3>Kardiyovasküler Sağlık</h3>
+          <p>Kalp kası ve damar endoteli hücrelerinde D vitamini reseptörleri bulunur. Eksiklik, hipertansiyon, damar sertleşmesi ve kalp yetmezliği riskini artırır. Yaşla birlikte artan kardiyovasküler hastalık yükünün önemli bir payı, D vitamini eksikliğiyle ilişkilendirilmektedir.</p>
+
+          <h2 id="ideal-seviye">İdeal Seviye ve Takviye</h2>
+          <p>D vitamini düzeyi kan testi (25-OH D vitamini) ile ölçülür. Genel referans aralıkları:</p>
+          <ul>
+            <li><strong>Eksiklik:</strong> &lt; 20 ng/mL</li>
+            <li><strong>Yetersizlik:</strong> 20-30 ng/mL</li>
+            <li><strong>Yeterli:</strong> 30-60 ng/mL</li>
+            <li><strong>Optimal (longevity için):</strong> 50-80 ng/mL</li>
+          </ul>
+          <p>Günlük 2.000-5.000 IU D3 takviyesi çoğu yetişkin için güvenli bir başlangıç noktasıdır; ancak ideal doz kan testine göre kişiselleştirilmelidir. <strong>D3 vitamini K2 vitaminiyle birlikte alınmalıdır</strong> — K2, D vitamini tarafından kandan çekilen kalsiyumun kemiklere yönlendirilmesini ve damar duvarlarında birikmemesini sağlar.</p>
+
+          <h2 id="dogal-kaynaklar">Doğal Kaynaklar</h2>
+          <p>En zengin D vitamini kaynakları şunlardır:</p>
+          <ul>
+            <li><strong>Güneş ışığı:</strong> Öğle saatlerinde (10:00-14:00) yüz, kol ve bacakları açık bırakarak 15-20 dakika. Güneş kremi, D vitamini sentezini büyük ölçüde engeller.</li>
+            <li><strong>Yağlı balıklar:</strong> Somon (100g → ~600-1000 IU), sardalye, ton balığı, uskumru.</li>
+            <li><strong>Yumurta sarısı:</strong> Her yumurta ~40-50 IU içerir.</li>
+            <li><strong>UV'ye maruz kalmış mantar:</strong> Güneşe bırakılan mantarlar D2 üretir (D3 kadar etkili değil).</li>
+          </ul>
+
+          <div class="takeaways">
+            <p class="takeaways__title">&#10003; Kilit Çıkarımlar</p>
+            <ul>
+              <li>D vitamini bir hormon gibi davranır ve 200'den fazla gen ifadesini düzenler.</li>
+              <li>Türkiye'de eksiklik oranı %70'e ulaşmaktadır; kan testi ile kontrol şarttır.</li>
+              <li>Longevity için optimal seviye 50-80 ng/mL arasındadır.</li>
+              <li>D3 ve K2 birlikte alınmalıdır; K2 kalsiyumun kemiklere yönlendirilmesini sağlar.</li>
+              <li>Günlük öğle güneşi (15-20 dk) en doğal D vitamini kaynağıdır.</li>
+            </ul>
+          </div>
+
+          <div class="author-bio">
+            <img src="https://picsum.photos/seed/drbakırci/200/200" alt="Dr. Muhammed İkbal Bakırcı" class="author-bio__avatar" />
+            <div>
+              <p class="author-bio__name">Dr. Muhammed İkbal Bakırcı</p>
+              <p class="author-bio__title">Longevity &amp; Metabolik Sağlık Uzmanı</p>
+              <p class="author-bio__desc">Hücresel sağlık, aralıklı oruç ve longevity alanlarında 15 yılı aşkın klinik deneyime sahip olan Dr. Bakırcı, Bursa'da binlerce hastanın metabolik dönüşümüne eşlik etmiştir.</p>
+            </div>
+          </div>
+        </article>
+
+        <aside class="article-sidebar">
+          <div class="sidebar-card sidebar-toc">
+            <p class="sidebar-card__title">İçindekiler</p>
+            <a href="#eksiklik-belirtileri">Eksikliğin Belirtileri</a>
+            <a href="#yaslanma-baglantisi">Yaşlanmayla Bağlantısı</a>
+            <a href="#ideal-seviye">İdeal Seviye ve Takviye</a>
+            <a href="#dogal-kaynaklar">Doğal Kaynaklar</a>
+          </div>
+          <div class="sidebar-card">
+            <p class="sidebar-card__title">İlgili Makaleler</p>
+            <a href="telomerleri-korumak.html" class="sidebar-related-card">
+              <img src="https://picsum.photos/seed/art3lon/200/150" alt="" class="sidebar-related-card__img" />
+              <div><p class="sidebar-related-card__cat">Hücre Sağlığı</p><span class="sidebar-related-card__title">Telomerleri Korumak için 7 Kanıtlanmış Yöntem</span></div>
+            </a>
+            <a href="nmn-nad-yaslanma.html" class="sidebar-related-card">
+              <img src="https://picsum.photos/seed/art4lon/200/150" alt="" class="sidebar-related-card__img" />
+              <div><p class="sidebar-related-card__cat">Beyin Sağlığı</p><span class="sidebar-related-card__title">NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek</span></div>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand"><a href="../" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div>
+        <div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="#">Longevity</a></li><li><a href="index.html">Blog</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="#">Dr. Bakırcı Hakkında</a></li><li><a href="#">İletişim</a></li></ul></div>
+      </div>
+      <div class="footer__disclaimer"><p>* Bu ifadeler Gıda ve İlaç İdaresi tarafından değerlendirilmemiştir.</p></div>
+      <div class="footer__bottom">
+        <nav class="footer__legal"><a href="#">Gizlilik Politikası</a><a href="#">Kullanım Koşulları</a></nav>
+        <p class="footer__copy">&copy; 2026 Dr. Muhammed İkbal Bakırcı. Tüm hakları saklıdır.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

@@ -175,21 +175,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Splide.js carousels ──
   if (typeof Splide !== 'undefined') {
 
-    new Splide('#articlesSplide', {
-      type:       'loop',
-      perPage:    4,
-      perMove:    1,
-      gap:        '0.25rem',
-      padding:    '0',
-      pagination: true,
-      arrows:     true,
-      breakpoints: {
-        1124: { perPage: 3 },
-        991:  { perPage: 2 },
-        640:  { perPage: 1, fixedWidth: '80%' },
-      },
-    }).mount();
-
     new Splide('#successSplide', {
       type:       'loop',
       perPage:    3,

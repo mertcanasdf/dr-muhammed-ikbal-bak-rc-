@@ -416,6 +416,14 @@ ul         { list-style: none; }
 /* ─── ARTICLES ─── */
 .articles-section { background: var(--base); padding-bottom: 72px; }
 
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap);
+}
+@media (max-width: 900px) { .articles-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .articles-grid { grid-template-columns: 1fr; } }
+
 .article-card {
   background: transparent;
   border-radius: var(--r);

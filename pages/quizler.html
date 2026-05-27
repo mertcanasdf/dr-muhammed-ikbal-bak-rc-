@@ -9,19 +9,23 @@
   <style>
     /* ── page hero ── */
     .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
-    .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
-    .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;}
+    .pg-hero__tag{font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--yellow);margin-bottom:12px;}
+    .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;line-height:1.1;}
+    .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;margin-bottom:32px;}
 
     /* ── quiz cards grid ── */
-    .quiz-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;padding:64px 0;}
+    .quiz-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;padding:40px 0 64px;}
     @media(max-width:700px){.quiz-grid{grid-template-columns:1fr;}}
-    .quiz-card{background:var(--base);border-radius:var(--r-lg);padding:32px;box-shadow:var(--shadow);text-align:center;transition:transform .2s,box-shadow .2s;}
+    .quiz-card{background:var(--base);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s;}
     .quiz-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);}
-    .quiz-card__icon{font-size:48px;margin-bottom:16px;}
-    .quiz-card__tag{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--green);padding:4px 12px;border-radius:99px;margin-bottom:12px;}
-    .quiz-card__title{font-size:20px;font-weight:800;margin-bottom:10px;}
-    .quiz-card__desc{font-size:14px;color:var(--gray-500);line-height:1.6;margin-bottom:20px;}
-    .quiz-card__time{font-size:12px;color:var(--gray-500);margin-bottom:16px;}
+    .quiz-card__img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+    .quiz-card__body{padding:24px;}
+    .quiz-card__head{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+    .quiz-card__icon{font-size:24px;line-height:1;}
+    .quiz-card__tag{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--green);padding:3px 10px;border-radius:99px;}
+    .quiz-card__title{font-size:19px;font-weight:800;margin-bottom:8px;}
+    .quiz-card__desc{font-size:14px;color:var(--gray-500);line-height:1.6;margin-bottom:14px;}
+    .quiz-card__meta{display:flex;gap:16px;font-size:12px;color:var(--gray-500);margin-bottom:18px;}
 
     /* ── modal overlay ── */
     .quiz-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:2000;overflow-y:auto;padding:24px 16px;}
@@ -85,45 +89,59 @@
   </div>
 
   <main>
-    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Sağlık Quizleri</h1><p class="pg-hero__sub">Vücut tipinizi, metabolik sağlığınızı ve longevity profilinizi keşfedin. Her quiz bilimsel kaynaklara dayanır ve 2–5 dakikada tamamlanır.</p></div></section>
+    <section class="pg-hero"><div class="container">
+      <p class="pg-hero__tag">Sağlık Değerlendirmesi</p>
+      <h1 class="pg-hero__title">Vücudunuzu 5 Dakikada<br>Tanıyın</h1>
+      <p class="pg-hero__sub">Vücut tipinizi, metabolik sağlığınızı ve longevity profilinizi keşfedin. Her test bilimsel kaynaklara dayanır ve 2–5 dakikada tamamlanır.</p>
+      <a href="#quizler" class="btn btn-light">Testlere Göz At</a>
+    </div></section>
 
-    <section class="section"><div class="container">
+    <section class="section" id="quizler"><div class="container">
+      <h2 class="section-title">Ücretsiz Sağlık Testleri</h2>
       <div class="quiz-grid">
 
         <div class="quiz-card">
-          <div class="quiz-card__icon">🧬</div>
-          <span class="quiz-card__tag">Ücretsiz</span>
-          <h3 class="quiz-card__title">Vücut Tipi Quizi</h3>
-          <p class="quiz-card__desc">Dr. Berg'in hormonal vücut tipi modeline dayalı 8 soruluk değerlendirme. Adrenal, Tiroid, Karaciğer veya Over tipini keşfedin.</p>
-          <p class="quiz-card__time">⏱ 2 dakika &bull; 8 soru</p>
-          <button class="btn btn-dark" onclick="openQuiz('vucut')">Quize Başla</button>
+          <img src="https://picsum.photos/seed/quiz-vucut/800/450" alt="Vücut Tipi Quizi" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <div class="quiz-card__head"><span class="quiz-card__icon">🧬</span><span class="quiz-card__tag">Ücretsiz</span></div>
+            <h3 class="quiz-card__title">Vücut Tipi Quizi</h3>
+            <p class="quiz-card__desc">Dr. Berg'in hormonal vücut tipi modeline dayalı değerlendirme. Adrenal, Tiroid, Karaciğer veya Over tipini keşfedin.</p>
+            <div class="quiz-card__meta"><span>📋 8 soru</span><span>⏱ ~2 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('vucut')">Quize Başla</button>
+          </div>
         </div>
 
         <div class="quiz-card">
-          <div class="quiz-card__icon">⏳</div>
-          <span class="quiz-card__tag">Ücretsiz</span>
-          <h3 class="quiz-card__title">Longevity Skoru</h3>
-          <p class="quiz-card__desc">NOVOS ve DaVinci Labs metodolojisine dayalı biyolojik yaş değerlendirmesi. 10 yaşam tarzı faktörü üzerinden biyolojik yaşınızı tahmin edin.</p>
-          <p class="quiz-card__time">⏱ 3 dakika &bull; 10 soru</p>
-          <button class="btn btn-dark" onclick="openQuiz('longevity')">Quize Başla</button>
+          <img src="https://picsum.photos/seed/quiz-longevity/800/450" alt="Longevity Skoru" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <div class="quiz-card__head"><span class="quiz-card__icon">⏳</span><span class="quiz-card__tag">Ücretsiz</span></div>
+            <h3 class="quiz-card__title">Longevity Skoru</h3>
+            <p class="quiz-card__desc">NOVOS ve DaVinci Labs metodolojisine dayalı biyolojik yaş değerlendirmesi. 10 yaşam tarzı faktörü üzerinden skorunuzu ölçün.</p>
+            <div class="quiz-card__meta"><span>📋 10 soru</span><span>⏱ ~3 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('longevity')">Quize Başla</button>
+          </div>
         </div>
 
         <div class="quiz-card">
-          <div class="quiz-card__icon">🦠</div>
-          <span class="quiz-card__tag">Ücretsiz</span>
-          <h3 class="quiz-card__title">Bağırsak Sağlığı Testi</h3>
-          <p class="quiz-card__desc">The Gut Health Doctor metodolojisine dayalı 10 soruluk değerlendirme. Mikrobiyom sağlığınızı etkileyen faktörleri ölçün.</p>
-          <p class="quiz-card__time">⏱ 2 dakika &bull; 10 soru</p>
-          <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Quize Başla</button>
+          <img src="https://picsum.photos/seed/quiz-bagırsak/800/450" alt="Bağırsak Sağlığı" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <div class="quiz-card__head"><span class="quiz-card__icon">🦠</span><span class="quiz-card__tag">Ücretsiz</span></div>
+            <h3 class="quiz-card__title">Bağırsak Sağlığı Testi</h3>
+            <p class="quiz-card__desc">The Gut Health Doctor metodolojisine dayalı değerlendirme. Mikrobiyom sağlığınızı etkileyen yaşam tarzı faktörlerini ölçün.</p>
+            <div class="quiz-card__meta"><span>📋 10 soru</span><span>⏱ ~2 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Quize Başla</button>
+          </div>
         </div>
 
         <div class="quiz-card">
-          <div class="quiz-card__icon">🧠</div>
-          <span class="quiz-card__tag">Ücretsiz</span>
-          <h3 class="quiz-card__title">Stres ve Kortizol Profili</h3>
-          <p class="quiz-card__desc">Women's Health Network adrenal değerlendirmesinden uyarlanan 12 soruluk test. Kortizol yükünüzü ve adrenal sağlığınızı ölçün.</p>
-          <p class="quiz-card__time">⏱ 3 dakika &bull; 12 soru</p>
-          <button class="btn btn-dark" onclick="openQuiz('stres')">Quize Başla</button>
+          <img src="https://picsum.photos/seed/quiz-stres/800/450" alt="Stres ve Kortizol" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <div class="quiz-card__head"><span class="quiz-card__icon">🧠</span><span class="quiz-card__tag">Ücretsiz</span></div>
+            <h3 class="quiz-card__title">Stres ve Kortizol Profili</h3>
+            <p class="quiz-card__desc">Women's Health Network adrenal değerlendirmesinden uyarlanan test. Kortizol yükünüzü ve adrenal sağlığınızı ölçün.</p>
+            <div class="quiz-card__meta"><span>📋 12 soru</span><span>⏱ ~3 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('stres')">Quize Başla</button>
+          </div>
         </div>
 
       </div>

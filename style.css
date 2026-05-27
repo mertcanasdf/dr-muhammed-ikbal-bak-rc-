@@ -486,7 +486,7 @@ ul         { list-style: none; }
 
 /* ─── TOPICS ─── */
 .topics-section { background: var(--gray-50); }
-.topics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 48px; }
+.topics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 40px; }
 .topics-col { display: flex; flex-direction: column; }
 .topic-link {
   font-size: 15px;
@@ -496,10 +496,11 @@ ul         { list-style: none; }
   border-bottom: 1px solid var(--border);
   transition: color 0.15s;
 }
-.topic-link:hover { color: var(--blue); }
+.topic-link:hover { color: var(--green); }
 .topics-col .topic-link:first-child { border-top: 1px solid var(--border); }
 
-@media (max-width: 768px) { .topics-grid { grid-template-columns: repeat(2, 1fr); gap: 0 24px; } }
+@media (max-width: 900px) { .topics-grid { grid-template-columns: repeat(2, 1fr); gap: 0 24px; } }
+@media (max-width: 480px) { .topics-grid { grid-template-columns: 1fr; } }
 @media (max-width: 480px) { .topics-grid { grid-template-columns: 1fr; } }
 
 /* ─── FEATURES ─── */

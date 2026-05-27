@@ -7,9 +7,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../style.css" />
   <style>
+    /* ── page hero ── */
     .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
     .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
     .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;}
+
+    /* ── quiz cards grid ── */
     .quiz-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;padding:64px 0;}
     @media(max-width:700px){.quiz-grid{grid-template-columns:1fr;}}
     .quiz-card{background:var(--base);border-radius:var(--r-lg);padding:32px;box-shadow:var(--shadow);text-align:center;transition:transform .2s,box-shadow .2s;}
@@ -19,6 +22,53 @@
     .quiz-card__title{font-size:20px;font-weight:800;margin-bottom:10px;}
     .quiz-card__desc{font-size:14px;color:var(--gray-500);line-height:1.6;margin-bottom:20px;}
     .quiz-card__time{font-size:12px;color:var(--gray-500);margin-bottom:16px;}
+
+    /* ── modal overlay ── */
+    .quiz-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:2000;overflow-y:auto;padding:24px 16px;}
+    .quiz-modal.is-open{display:flex;align-items:flex-start;justify-content:center;}
+    .quiz-modal__box{background:#fff;border-radius:var(--r-lg);width:100%;max-width:640px;margin:auto;overflow:hidden;}
+    .quiz-modal__head{background:var(--main);color:#fff;padding:28px 32px 24px;}
+    .quiz-modal__head-title{font-size:22px;font-weight:900;margin-bottom:4px;}
+    .quiz-modal__progress-bar{height:4px;background:rgba(255,255,255,.2);border-radius:2px;margin-top:16px;overflow:hidden;}
+    .quiz-modal__progress-fill{height:100%;background:var(--green);border-radius:2px;transition:width .35s;}
+    .quiz-modal__body{padding:32px;}
+    .quiz-modal__close{position:absolute;top:16px;right:20px;background:none;border:none;color:#fff;font-size:24px;cursor:pointer;line-height:1;}
+    .quiz-modal__head{position:relative;}
+
+    /* ── question ── */
+    .q-step{display:none;}
+    .q-step.is-active{display:block;}
+    .q-number{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--green);margin-bottom:8px;}
+    .q-text{font-size:18px;font-weight:700;line-height:1.4;margin-bottom:24px;color:var(--main);}
+    .q-options{display:flex;flex-direction:column;gap:12px;}
+    .q-option{display:flex;align-items:flex-start;gap:14px;padding:14px 18px;border:2px solid var(--border);border-radius:var(--r);cursor:pointer;transition:border-color .15s,background .15s;text-align:left;}
+    .q-option:hover{border-color:var(--green);background:#f0faf1;}
+    .q-option.selected{border-color:var(--green);background:#f0faf1;}
+    .q-option__dot{width:20px;height:20px;border-radius:50%;border:2px solid var(--border);flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;transition:border-color .15s,background .15s;}
+    .q-option.selected .q-option__dot{border-color:var(--green);background:var(--green);}
+    .q-option.selected .q-option__dot::after{content:'';width:8px;height:8px;border-radius:50%;background:#fff;}
+    .q-option__label{font-size:15px;line-height:1.5;color:var(--main);}
+    .q-nav{display:flex;justify-content:space-between;align-items:center;margin-top:28px;}
+    .q-nav__back{background:none;border:none;color:var(--gray-500);font-size:14px;cursor:pointer;padding:8px 0;}
+    .q-nav__back:hover{color:var(--main);}
+    .q-nav__next{font-size:14px;padding:12px 28px;}
+
+    /* ── results ── */
+    .q-result{display:none;text-align:center;padding:8px 0 16px;}
+    .q-result.is-active{display:block;}
+    .q-result__icon{font-size:64px;margin-bottom:16px;}
+    .q-result__label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--green);margin-bottom:8px;}
+    .q-result__title{font-size:24px;font-weight:900;margin-bottom:12px;color:var(--main);}
+    .q-result__score-bar{background:var(--tertiary);border-radius:99px;height:12px;margin:16px 0;overflow:hidden;}
+    .q-result__score-fill{height:100%;background:var(--green);border-radius:99px;transition:width .8s ease;}
+    .q-result__desc{font-size:15px;color:var(--gray-700);line-height:1.7;margin-bottom:20px;text-align:left;}
+    .q-result__tips{background:var(--tertiary);border-radius:var(--r);padding:20px 24px;text-align:left;margin-bottom:24px;}
+    .q-result__tips h4{font-size:14px;font-weight:700;margin-bottom:10px;}
+    .q-result__tips ul{padding-left:18px;}
+    .q-result__tips li{font-size:14px;color:var(--gray-700);line-height:1.8;}
+    .q-result__actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+    .q-result__retake{background:none;border:2px solid var(--border);color:var(--main);font-weight:700;font-size:14px;padding:10px 24px;border-radius:var(--r-btn);cursor:pointer;transition:border-color .15s;}
+    .q-result__retake:hover{border-color:var(--main);}
   </style>
 </head>
 <body>
@@ -33,18 +83,583 @@
     </div></header>
     <nav class="main-menu" id="mainMenu"><div class="container"><ul class="main-menu__list"><li><a href="../blog/index.html">İçerik Kütüphanesi</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="longevity.html">Longevity</a></li><li><a href="rehberler.html">Rehberler</a></li><li><a href="quizler.html" class="active">Quizler <span class="new-badge">Yeni</span></a></li><li><a href="basari-hikayeleri.html">Başarı Hikayeleri</a></li><li><a href="sansursuz-icerik.html">Sansürsüz İçerik</a></li><li><a href="magaza.html" class="main-menu__shop">Mağaza <span class="sale-badge">İNDİRİM</span></a></li></ul></div></nav>
   </div>
+
   <main>
-    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Sağlık Quizleri</h1><p class="pg-hero__sub">Vücut tipinizi, metabolik sağlığınızı ve longevity profilinizi keşfedin. Kişiselleştirilmiş bir sağlık planı alın.</p></div></section>
+    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Sağlık Quizleri</h1><p class="pg-hero__sub">Vücut tipinizi, metabolik sağlığınızı ve longevity profilinizi keşfedin. Her quiz bilimsel kaynaklara dayanır ve 2–5 dakikada tamamlanır.</p></div></section>
+
     <section class="section"><div class="container">
       <div class="quiz-grid">
-        <div class="quiz-card"><div class="quiz-card__icon">🧬</div><span class="quiz-card__tag">Ücretsiz</span><h3 class="quiz-card__title">Vücut Tipi Quizi</h3><p class="quiz-card__desc">Metabolik tipinizi öğrenin ve size özel beslenme planına ulaşın. 4 farklı vücut tipi ve her birine özel protokol.</p><p class="quiz-card__time">⏱ 2 dakika • 12 soru</p><a href="iletisim.html" class="btn btn-dark">Quize Başla</a></div>
-        <div class="quiz-card"><div class="quiz-card__icon">⏳</div><span class="quiz-card__tag">Ücretsiz</span><h3 class="quiz-card__title">Longevity Skoru</h3><p class="quiz-card__desc">Biyolojik yaşınızı tahmin eden kapsamlı değerlendirme. Güçlü ve zayıf yönlerinizi keşfedin.</p><p class="quiz-card__time">⏱ 5 dakika • 25 soru</p><a href="iletisim.html" class="btn btn-dark">Quize Başla</a></div>
-        <div class="quiz-card"><div class="quiz-card__icon">🦠</div><span class="quiz-card__tag">Ücretsiz</span><h3 class="quiz-card__title">Bağırsak Sağlığı Testi</h3><p class="quiz-card__desc">Sindirim sisteminizin durumunu değerlendirin. Mikrobiyom sağlığınıza dair ipuçları alın.</p><p class="quiz-card__time">⏱ 3 dakika • 15 soru</p><a href="iletisim.html" class="btn btn-dark">Quize Başla</a></div>
-        <div class="quiz-card"><div class="quiz-card__icon">🧠</div><span class="quiz-card__tag">Ücretsiz</span><h3 class="quiz-card__title">Stres ve Kortizol Profili</h3><p class="quiz-card__desc">Adrenal sağlığınızı ve stres yanıtınızı ölçün. Kortizol yükünüzü düşürme stratejileri alın.</p><p class="quiz-card__time">⏱ 3 dakika • 18 soru</p><a href="iletisim.html" class="btn btn-dark">Quize Başla</a></div>
+
+        <div class="quiz-card">
+          <div class="quiz-card__icon">🧬</div>
+          <span class="quiz-card__tag">Ücretsiz</span>
+          <h3 class="quiz-card__title">Vücut Tipi Quizi</h3>
+          <p class="quiz-card__desc">Dr. Berg'in hormonal vücut tipi modeline dayalı 8 soruluk değerlendirme. Adrenal, Tiroid, Karaciğer veya Over tipini keşfedin.</p>
+          <p class="quiz-card__time">⏱ 2 dakika &bull; 8 soru</p>
+          <button class="btn btn-dark" onclick="openQuiz('vucut')">Quize Başla</button>
+        </div>
+
+        <div class="quiz-card">
+          <div class="quiz-card__icon">⏳</div>
+          <span class="quiz-card__tag">Ücretsiz</span>
+          <h3 class="quiz-card__title">Longevity Skoru</h3>
+          <p class="quiz-card__desc">NOVOS ve DaVinci Labs metodolojisine dayalı biyolojik yaş değerlendirmesi. 10 yaşam tarzı faktörü üzerinden biyolojik yaşınızı tahmin edin.</p>
+          <p class="quiz-card__time">⏱ 3 dakika &bull; 10 soru</p>
+          <button class="btn btn-dark" onclick="openQuiz('longevity')">Quize Başla</button>
+        </div>
+
+        <div class="quiz-card">
+          <div class="quiz-card__icon">🦠</div>
+          <span class="quiz-card__tag">Ücretsiz</span>
+          <h3 class="quiz-card__title">Bağırsak Sağlığı Testi</h3>
+          <p class="quiz-card__desc">The Gut Health Doctor metodolojisine dayalı 10 soruluk değerlendirme. Mikrobiyom sağlığınızı etkileyen faktörleri ölçün.</p>
+          <p class="quiz-card__time">⏱ 2 dakika &bull; 10 soru</p>
+          <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Quize Başla</button>
+        </div>
+
+        <div class="quiz-card">
+          <div class="quiz-card__icon">🧠</div>
+          <span class="quiz-card__tag">Ücretsiz</span>
+          <h3 class="quiz-card__title">Stres ve Kortizol Profili</h3>
+          <p class="quiz-card__desc">Women's Health Network adrenal değerlendirmesinden uyarlanan 12 soruluk test. Kortizol yükünüzü ve adrenal sağlığınızı ölçün.</p>
+          <p class="quiz-card__time">⏱ 3 dakika &bull; 12 soru</p>
+          <button class="btn btn-dark" onclick="openQuiz('stres')">Quize Başla</button>
+        </div>
+
       </div>
     </div></section>
   </main>
-  <footer class="footer"><div class="container"><div class="footer__top"><div class="footer__brand"><a href="../index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div><div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="magaza.html">Supplementler</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div><div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="magaza.html">Mağaza</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div></div><div class="footer__disclaimer"><p>* Bu ifadeler Gıda ve İlaç İdaresi tarafından değerlendirilmemiştir.</p></div><div class="footer__bottom"><nav class="footer__legal"><a href="gizlilik-politikasi.html">Gizlilik Politikası</a><a href="kullanim-kosullari.html">Kullanım Koşulları</a><a href="iletisim.html">İletişim</a></nav><p class="footer__copy">&copy; 2026 Dr. Muhammed İkbal Bakırcı. Tüm hakları saklıdır.</p></div></div></footer>
+
+  <!-- ═══════════════════════════ QUIZ MODAL ═══════════════════════════ -->
+  <div class="quiz-modal" id="quizModal" role="dialog" aria-modal="true">
+    <div class="quiz-modal__box">
+      <div class="quiz-modal__head">
+        <button class="quiz-modal__close" onclick="closeQuiz()" aria-label="Kapat">&#10005;</button>
+        <div class="quiz-modal__head-title" id="modalTitle"></div>
+        <div id="modalMeta" style="font-size:13px;opacity:.7;margin-top:4px;"></div>
+        <div class="quiz-modal__progress-bar"><div class="quiz-modal__progress-fill" id="progressFill" style="width:0%"></div></div>
+      </div>
+      <div class="quiz-modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer__top"><div class="footer__brand"><a href="../index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div><div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="magaza.html">Supplementler</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div><div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="magaza.html">Mağaza</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div></div><div class="footer__disclaimer"><p>* Bu değerlendirmeler klinik bir tanı aracı değildir. Yalnızca farkındalık amacıyla tasarlanmıştır. Sağlık sorunlarınız için bir hekim ile görüşün.</p></div><div class="footer__bottom"><nav class="footer__legal"><a href="gizlilik-politikasi.html">Gizlilik Politikası</a><a href="kullanim-kosullari.html">Kullanım Koşulları</a><a href="iletisim.html">İletişim</a></nav><p class="footer__copy">&copy; 2026 Dr. Muhammed İkbal Bakırcı. Tüm hakları saklıdır.</p></div></div></footer>
+
   <script src="../script.js"></script>
+  <script>
+  // ═══════════════════════════════════════════════════════════
+  //  QUIZ DATA
+  // ═══════════════════════════════════════════════════════════
+  const QUIZZES = {
+
+    /* ─── 1. VÜCUT TİPİ ─── */
+    vucut: {
+      title: 'Vücut Tipi Quizi',
+      meta: '8 soru · 2 dakika',
+      questions: [
+        {
+          text: 'Yağ birikiminin en çok hangi bölgede olduğunu hissediyorsunuz?',
+          options: [
+            { label: 'Karın ve bel çevresinde (stres kilogramı)', type: 'adrenal' },
+            { label: 'Tüm vücutta eşit dağılmış', type: 'tiroid' },
+            { label: 'Karın altında, pot belly görünümü', type: 'karaciger' },
+            { label: 'Kalça, uyluk ve bacaklarda', type: 'over' },
+          ]
+        },
+        {
+          text: 'Genel enerji seviyenizi nasıl tanımlarsınız?',
+          options: [
+            { label: 'Sabah çok düşük, geceye doğru daha iyi', type: 'adrenal' },
+            { label: 'Her zaman yorgun ve motivasyon düşük', type: 'tiroid' },
+            { label: 'Öğleden sonra ani çöküş yaşıyorum', type: 'karaciger' },
+            { label: 'Hormonal dönemler dışında genellikle iyi', type: 'over' },
+          ]
+        },
+        {
+          text: 'Hangi yiyeceklere karşı güçlü bir istek duyuyorsunuz?',
+          options: [
+            { label: 'Tuzlu ve yağlı yiyecekler', type: 'adrenal' },
+            { label: 'Her şey — iştahım çok açık', type: 'tiroid' },
+            { label: 'Kızarmış ve yağlı yiyecekler', type: 'karaciger' },
+            { label: 'Çikolata ve şekerli yiyecekler', type: 'over' },
+          ]
+        },
+        {
+          text: 'Uyku kaliteniz nasıl?',
+          options: [
+            { label: 'Uykuya dalmakta güçlük çekiyorum veya sık uyanıyorum', type: 'adrenal' },
+            { label: 'Çok uyuyorum ama yine de yorgun uyanıyorum', type: 'tiroid' },
+            { label: 'Gece iyi uyuyorum ama sabah yorgunluğu var', type: 'karaciger' },
+            { label: 'Hormonal dönemlerde uyku bozuluyor', type: 'over' },
+          ]
+        },
+        {
+          text: 'Stres ve duygusal durumunuzu nasıl tanımlarsınız?',
+          options: [
+            { label: 'Çok stresli ve kaygılı hissediyorum', type: 'adrenal' },
+            { label: 'Genellikle sakin ama motivasyon ve depresyon sorunum var', type: 'tiroid' },
+            { label: 'Sinirli veya öfkeli olabiliyorum', type: 'karaciger' },
+            { label: 'Duygusal değişkenlik ve dönemsel düşünceler yaşıyorum', type: 'over' },
+          ]
+        },
+        {
+          text: 'Metabolizmanızı nasıl değerlendirirsiniz?',
+          options: [
+            { label: 'Eskiye göre belirgin şekilde yavaşladı', type: 'adrenal' },
+            { label: 'Çok yavaş, ne yesem alıyorum', type: 'tiroid' },
+            { label: 'Şişkinlik ve sindirim sorunum çok var', type: 'karaciger' },
+            { label: 'Dönemsel değişkenlik, özellikle hormonal süreçlerde', type: 'over' },
+          ]
+        },
+        {
+          text: 'Hangi fiziksel belirtilerle en çok karşılaşıyorsunuz?',
+          options: [
+            { label: 'Çarpıntı, terleme, baş ağrısı', type: 'adrenal' },
+            { label: 'Soğuk eller-ayaklar, saç dökülmesi, kabızlık', type: 'tiroid' },
+            { label: 'Karın şişliği, gaz, karaciğer bölgesinde hassasiyet', type: 'karaciger' },
+            { label: 'Adet düzensizliği, PMS, su tutma', type: 'over' },
+          ]
+        },
+        {
+          text: 'Sabahları ayna karşısında ne fark ediyorsunuz?',
+          options: [
+            { label: 'Gözaltı morlukları veya şişlik', type: 'adrenal' },
+            { label: 'Soluk ten, kabaran yüz', type: 'tiroid' },
+            { label: 'Sarımtırak ten, dil üzerinde beyaz tabaka', type: 'karaciger' },
+            { label: 'Hormonlarla ilişkili cilt sorunları (akne, yağlanma)', type: 'over' },
+          ]
+        },
+      ],
+      scoring: 'type',
+      types: {
+        adrenal: {
+          icon: '🫀',
+          label: 'Adrenal Tip',
+          title: 'Adrenal Vücut Tipi',
+          desc: 'Vücut tipiniz Adrenal tipe işaret ediyor. Bu tipte kortizol ve adrenalin hormonları baskın rol oynar. Stres bel ve karın çevresinde yağ birikimine, enerji çöküşlerine ve uyku sorunlarına yol açar. Adrenal bezlerinizi desteklemek en öncelikli adımınızdır.',
+          pct: 75,
+          tips: ['Günde 7–9 saat kaliteli uyku hedefleyin', 'Magnezyum ve B vitamini takviyeleri adrenal desteği sağlar', 'Aralıklı oruç (16:8) kortizol ritmine zarar vermeden uygulanabilir', 'Tuz kısıtlamasından kaçının — adrenal tip tuz ihtiyacı duyar', 'Meditasyon veya nefes egzersizleri ile stres yönetimi kritik']
+        },
+        tiroid: {
+          icon: '🦋',
+          label: 'Tiroid Tip',
+          title: 'Tiroid Vücut Tipi',
+          desc: 'Vücut tipiniz Tiroid tipe işaret ediyor. Tiroid hormonu yavaşladığında tüm vücutta yağlanma, yorgunluk, soğukluk hissi ve metabolizma düşüklüğü görülür. Tiroid sağlığını desteklemek için temel besin eksikliklerini gidermek gerekir.',
+          pct: 68,
+          tips: ['İyot ve selenyum kaynakları tüketin (deniz ürünleri, ceviz)', 'Guatrojenik gıdaları (çiğ lahana, brokoli) pişirerek tüketin', 'D3 vitamini düzeyinizi kontrol ettirin', 'Düşük yoğunluklu egzersiz (Bölge 2 kardiyo) metabolizmayı uyarır', 'Gluten hassasiyeti tiroid üzerinde olumsuz etki yapabilir']
+        },
+        karaciger: {
+          icon: '🫁',
+          label: 'Karaciğer Tip',
+          title: 'Karaciğer Vücut Tipi',
+          desc: 'Vücut tipiniz Karaciğer tipe işaret ediyor. Karaciğer aşırı yüklendiğinde karın altında pot belly tarzı yağlanma, şişkinlik, sindirim sorunları ve öfke eğilimi görülür. Karaciğeri desteklemek vücudun tüm detoks sistemini iyileştirir.',
+          pct: 65,
+          tips: ['Alkol ve işlenmiş yağları sınırlandırın', 'Hardal yaprağı, enginar, turp karaciğeri destekler', 'Sabah limonlu su karaciğer safra akışını uyarır', 'Sülfür içeren sebzeler (sarımsak, soğan) önemli', 'Derin nefes egzersizleri diyafram yoluyla karaciğere masaj yapar']
+        },
+        over: {
+          icon: '🌸',
+          label: 'Over Tip',
+          title: 'Over / Gonad Vücut Tipi',
+          desc: 'Vücut tipiniz Over (Gonad) tipe işaret ediyor. Östrojen baskınlığı veya progesterone düşüklüğü kalça, uyluk ve alt vücut yağlanmasına, duygusal değişkenliğe ve hormonal döngü sorunlarına neden olur. Hormon dengesini sağlamak temel hedeftir.',
+          pct: 70,
+          tips: ['Çapraz sebzeler (brokoli, karnabahar) östrojen dengesini destekler', 'Şeker ve rafine karbonhidratları azaltın', 'Zinc ve B6 vitamini progesterone sentezi için gereklidir', 'Güçlendirme antrenmanı (direnç egzersizleri) önceliklidir', 'Stres yönetimi kritik — kortizol progesteron "çalar"']
+        },
+      }
+    },
+
+    /* ─── 2. LONGEVİTY SKORU ─── */
+    longevity: {
+      title: 'Longevity Skoru',
+      meta: '10 soru · 3 dakika',
+      questions: [
+        {
+          text: 'Haftada kaç gün en az 30 dakika egzersiz yapıyorsunuz?',
+          options: [
+            { label: '0–1 gün', pts: 0 },
+            { label: '2–3 gün', pts: 1 },
+            { label: '4–5 gün', pts: 2 },
+            { label: '6–7 gün', pts: 3 },
+          ]
+        },
+        {
+          text: 'Gecede ortalama kaç saat uyuyorsunuz?',
+          options: [
+            { label: '5 saatten az', pts: 0 },
+            { label: '5–6 saat arası', pts: 1 },
+            { label: '7–8 saat (ideal)', pts: 3 },
+            { label: '9 saatten fazla', pts: 1 },
+          ]
+        },
+        {
+          text: 'Sebze ve meyve tüketiminiz nasıl?',
+          options: [
+            { label: 'Neredeyse hiç yemiyorum', pts: 0 },
+            { label: 'Haftada 1–2 kez', pts: 1 },
+            { label: 'Her gün 1–2 porsiyon', pts: 2 },
+            { label: 'Her gün 5+ porsiyon', pts: 3 },
+          ]
+        },
+        {
+          text: 'İşlenmiş ve hazır gıda (paketli, fast food) tüketiminiz ne sıklıkla?',
+          options: [
+            { label: 'Her öğünde veya her gün', pts: 0 },
+            { label: 'Haftada 4–6 kez', pts: 1 },
+            { label: 'Haftada 1–3 kez', pts: 2 },
+            { label: 'Nadiren veya hiç', pts: 3 },
+          ]
+        },
+        {
+          text: 'Stres seviyenizi nasıl değerlendiriyorsunuz?',
+          options: [
+            { label: 'Sürekli yüksek stres altındayım', pts: 0 },
+            { label: 'Sıklıkla stresli hissediyorum', pts: 1 },
+            { label: 'Orta düzey, kontrol altında', pts: 2 },
+            { label: 'Genellikle sakin ve dengeli', pts: 3 },
+          ]
+        },
+        {
+          text: 'Sigara veya tütün ürünleri kullanıyor musunuz?',
+          options: [
+            { label: 'Evet, düzenli kullanıyorum', pts: 0 },
+            { label: 'Ara sıra kullanıyorum', pts: 1 },
+            { label: 'Bıraktım (1+ yıl önce)', pts: 2 },
+            { label: 'Hiç kullanmadım', pts: 3 },
+          ]
+        },
+        {
+          text: 'Alkol tüketiminiz nasıl?',
+          options: [
+            { label: 'Her gün 2+ içki', pts: 0 },
+            { label: 'Haftada birkaç kez', pts: 1 },
+            { label: 'Ayda birkaç kez', pts: 2 },
+            { label: 'Nadiren veya hiç', pts: 3 },
+          ]
+        },
+        {
+          text: 'Sosyal bağlantılarınız ve topluluk hissiniz nasıl?',
+          options: [
+            { label: 'Çok az sosyal ilişkim var, yalnız hissediyorum', pts: 0 },
+            { label: 'Sınırlı ama var', pts: 1 },
+            { label: 'Orta düzeyde sosyal bağlantılarım var', pts: 2 },
+            { label: 'Güçlü, destekleyici ilişkilerim var', pts: 3 },
+          ]
+        },
+        {
+          text: 'Aralıklı oruç veya yemek pencerenizi kısıtlıyor musunuz?',
+          options: [
+            { label: 'Hayır, gün boyunca atıştırıyorum', pts: 0 },
+            { label: 'Bazen öğün atlıyorum', pts: 1 },
+            { label: 'Düzenli 16:8 veya benzeri protokol', pts: 2 },
+            { label: 'Düzenli oruç, OMAD veya uzun oruçlar', pts: 3 },
+          ]
+        },
+        {
+          text: 'Günlük güneş ışığına maruziyetiniz nasıl?',
+          options: [
+            { label: 'Neredeyse hiç güneş görmüyorum', pts: 0 },
+            { label: 'Haftada birkaç kez kısa', pts: 1 },
+            { label: 'Her gün 15–30 dakika (ideal)', pts: 3 },
+            { label: 'Çok fazla, korumasız maruziyet', pts: 1 },
+          ]
+        },
+      ],
+      scoring: 'points',
+      maxPoints: 30,
+      levels: [
+        { min: 0,  max: 9,  icon: '⚠️', label: 'Kritik Bölge', title: 'Biyolojik Yaşınız Kronolojik Yaşınızı Aşıyor', pct: 20,
+          desc: 'Mevcut yaşam tarzınız biyolojik yaşlanmayı önemli ölçüde hızlandırıyor olabilir. Araştırmalar, yaşlanmayı etkileyen faktörlerin %80\'inin yaşam tarzıyla ilişkili olduğunu gösteriyor. Küçük ama tutarlı değişiklikler büyük fark yaratır.',
+          tips: ['Önce uyku kalitesini düzeltin — tüm sistemlerin temelidir', 'Günlük 15 dakika yürüyüşle başlayın', 'İşlenmiş gıdaları azaltmak en hızlı etki yaratan değişikliktir', 'D3 vitamini ve Omega-3 takviyesi başlangıç için idealdir'] },
+        { min: 10, max: 18, icon: '📊', label: 'Gelişim Alanı', title: 'Ortalama — Birkaç Kritik Faktör Dikkat İster', pct: 50,
+          desc: 'Bazı alanlarda iyi gidiyorsunuz, ancak biyolojik yaşlanmayı hızlandıran birkaç önemli faktör var. Odaklı değişikliklerle skoru anlamlı biçimde artırabilirsiniz.',
+          tips: ['Egzersiz sıklığını haftada 4 güne çıkarmayı hedefleyin', 'Uyku süresini 7 saatin altına düşürmeyin', 'Stres yönetimi için günlük bir pratik belirleyin', 'Bitki çeşitliliğinizi artırın — haftada 30 farklı bitki hedefleyin'] },
+        { min: 19, max: 24, icon: '✅', label: 'İyi Skor', title: 'İyi — Biyolojik Yaşınız Kronolojik Yaşınıza Yakın', pct: 78,
+          desc: 'Longevity açısından güçlü bir temel oluşturmuşsunuz. Mevcut alışkanlıklarınız biyolojik yaşlanmayı yavaşlatıyor. Birkaç ince ayarla mükemmel seviyeye ulaşabilirsiniz.',
+          tips: ['Bölge 2 kardiyo ile mitokondriyal kapasiteyi artırın', 'Protein alımını optimize edin (vücut ağırlığının gr/kg olarak 1.6–2.2g)', 'Sauna veya soğuk duş gibi hormesis protokollerini deneyin', 'Yıllık kan tahlili ile biyobelirteçleri takip edin'] },
+        { min: 25, max: 30, icon: '🏆', label: 'Mükemmel', title: 'Mükemmel — Biyolojik Yaşınız Kronolojik Yaşınızdan Genç', pct: 96,
+          desc: 'Longevity yaşam tarzını büyük ölçüde benimsemişsiniz. Biyolojik yaşınızın kronolojik yaşınızın altında olması kuvvetle muhtemel. Bu alışkanlıkları sürdürmek en kritik adımdır.',
+          tips: ['Epigenetik yaş testleri ile biyolojik yaşınızı ölçebilirsiniz', 'NMN, Resveratrol gibi longevity takviyelerini araştırın', 'VO2 max takibi ile kardiyorespiratuar kapasiteyi izleyin', 'Kan şekeri monitörü ile metabolik sağlığı gerçek zamanlı takip edin'] },
+      ]
+    },
+
+    /* ─── 3. BAĞIRSAK SAĞLIĞI ─── */
+    'bagırsak': {
+      title: 'Bağırsak Sağlığı Testi',
+      meta: '10 soru · 2 dakika',
+      questions: [
+        {
+          text: 'Şişkinlik, reflü, gaz veya kabızlık gibi sindirim belirtilerinden ne sıklıkla rahatsız oluyorsunuz?',
+          options: [
+            { label: 'Ayda birden az', pts: 3 },
+            { label: 'Ayda 1–3 kez', pts: 2 },
+            { label: 'Haftada 1–2 kez', pts: 1 },
+            { label: 'Haftada 3 gün veya daha fazla', pts: 0 },
+          ]
+        },
+        {
+          text: 'Düzenli olarak ilaç, ağrı kesici veya antibiyotik kullanıyor musunuz?',
+          options: [
+            { label: 'Hayır', pts: 3 },
+            { label: 'Evet', pts: 0 },
+          ]
+        },
+        {
+          text: 'Ailenizde diyabet, kalp hastalığı, kanser veya otoimmün hastalık gibi kronik durumlar var mı?',
+          options: [
+            { label: 'Hayır', pts: 3 },
+            { label: 'Evet', pts: 1 },
+          ]
+        },
+        {
+          text: 'Haftada kaç farklı bitkisel gıda yiyorsunuz? (sebze, meyve, tahıl, baklagil, kuruyemiş, tohum — baharat ¼ sayılır)',
+          options: [
+            { label: '10\'dan az', pts: 0 },
+            { label: '10–19 çeşit', pts: 1 },
+            { label: '20–29 çeşit', pts: 2 },
+            { label: '30 veya daha fazla', pts: 3 },
+          ]
+        },
+        {
+          text: 'Kilo kontrolü veya intolerans gerekçesiyle bazı bitki gıda gruplarını diyetinizden çıkardınız mı?',
+          options: [
+            { label: 'Hayır', pts: 3 },
+            { label: 'Evet', pts: 1 },
+          ]
+        },
+        {
+          text: 'Ortalama bir haftada duygusal durumunuz nasıldır?',
+          options: [
+            { label: 'Mutsuz veya kaygılı', pts: 0 },
+            { label: 'Nötr', pts: 1 },
+            { label: 'Mutlu ve dengeli', pts: 3 },
+          ]
+        },
+        {
+          text: 'Ne sıklıkla hastalanıyorsunuz? (soğuk algınlığı, grip vb.)',
+          options: [
+            { label: 'Yılda 3 kereden az', pts: 3 },
+            { label: 'Her 2–4 ayda bir', pts: 2 },
+            { label: 'En az ayda bir', pts: 0 },
+          ]
+        },
+        {
+          text: 'Gecede ortalama kaç saat uyuyorsunuz?',
+          options: [
+            { label: '5 saat veya daha az', pts: 0 },
+            { label: '5 ile 7 saat arası', pts: 1 },
+            { label: '7 saat veya daha fazla', pts: 3 },
+          ]
+        },
+        {
+          text: 'Stres sizi ne sıklıkla olumsuz etkiliyor?',
+          options: [
+            { label: 'Ayda birden az', pts: 3 },
+            { label: 'Ayda 1–3 kez', pts: 2 },
+            { label: 'Her hafta', pts: 0 },
+          ]
+        },
+        {
+          text: 'Haftada kaç kez en az 30 dakika, nefes nefese kalacak düzeyde egzersiz yapıyorsunuz?',
+          options: [
+            { label: 'Haftada birden az', pts: 0 },
+            { label: 'Haftada 1–2 kez', pts: 1 },
+            { label: 'Haftada 3 veya daha fazla', pts: 3 },
+          ]
+        },
+      ],
+      scoring: 'points',
+      maxPoints: 30,
+      levels: [
+        { min: 0,  max: 10, icon: '🔴', label: 'Dikkat Gerektiriyor', title: 'Bağırsak Sağlığınız Ciddi Destek İsteyebilir', pct: 22,
+          desc: 'Bağırsak mikrobiyomunuz önemli baskı altında olabilir. Bağırsak sağlığı yalnızca sindirimle sınırlı değil; bağışıklık sisteminizin %70\'i bağırsakta yer alır ve beyin sağlığınızla da doğrudan bağlantılıdır.',
+          tips: ['Probiyotik gıdalar ekleyin (kefir, yoğurt, turşu)', 'İşlenmiş şeker ve tatlandırıcıları azaltın', 'Bitkisel çeşitlilik en güçlü mikrobiyom destekçisidir', 'Stres yönetimi bağırsak-beyin aksını doğrudan etkiler', 'Prebiyotik lif kaynakları: soğan, sarımsak, yeruşalim enginarı'] },
+        { min: 11, max: 18, icon: '🟡', label: 'Gelişime Açık', title: 'Ortalama Bağırsak Sağlığı — İyileştirilecek Alanlar Var', pct: 52,
+          desc: 'Bağırsak sağlığınız ortalama düzeyde. Bazı iyi alışkanlıklarınız var, ancak mikrobiyomunuz daha iyi desteklenebilir.',
+          tips: ['Haftada 30 farklı bitki hedefleyin — bu en kanıtlı stratejidir', 'Fermente gıda tüketimini artırın', 'Antibiyotik kullandıktan sonra mutlaka probiyotik alın', 'Uyku süresini 7 saatin üzerine çıkarın'] },
+        { min: 19, max: 24, icon: '🟢', label: 'İyi', title: 'İyi Bağırsak Sağlığı — Güçlü Mikrobiyom', pct: 76,
+          desc: 'Bağırsak sağlığınız iyi durumda. Alışkanlıklarınız mikrobiyomun çeşitliliğini ve dengesini destekliyor.',
+          tips: ['Polifenol zengini gıdaları artırın (blueberry, zeytin yağı, yeşil çay)', 'Mevsimsel ve yerel üretim gıdalar daha zengin mikrobiyom destekler', 'Stres yönetimini sürdürün — bağırsak-beyin aksı güçlü'] },
+        { min: 25, max: 30, icon: '⭐', label: 'Mükemmel', title: 'Olağanüstü Bağırsak Sağlığı', pct: 95,
+          desc: 'Mikrobiyomunuz sağlıklı bir çeşitliliğe ve dengeye sahip olma ihtimali yüksek. Bu alışkanlıkları sürdürmek uzun vadede bağışıklık ve beyin sağlığı üzerinde güçlü koruyucu etki yapar.',
+          tips: ['Bağırsak mikrobiyom testi ile profilinizi somut olarak görün', 'Mevsimsel gıda programınızı çeşitlendirin', 'Polifenol ve prebiyotik takviyelerini araştırın'] },
+      ]
+    },
+
+    /* ─── 4. STRES & KORTİZOL ─── */
+    stres: {
+      title: 'Stres ve Kortizol Profili',
+      meta: '12 soru · 3 dakika',
+      note: 'Her soruya Evet veya Hayır ile yanıt verin.',
+      questions: [
+        { text: 'Uyuya dalmakta veya gece uykuyu sürdürmekte güçlük çekiyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Sabahları yeterince uyumuş olsanız bile yorgun uyanıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Özellikle öğleden sonra (14:00–16:00 arası) belirgin bir yorgunluk yaşıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Ani enerji çöküşleri (bir anda bitkin hissetmek) yaşıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Sinirliliği veya endişeyi kontrol etmekte zorlanıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Şeker, karbonhidrat veya tuzlu yiyeceklere güçlü bir istek duyuyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Gün boyunca çay, kahve veya enerji içeceğine ihtiyaç duyuyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Sürekli stresli veya bunalmış hissediyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Unutkanlık veya zihinsel bulanıklık (beyin sisi) yaşıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Çarpıntı veya kalp ritmi düzensizliği hissediyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Sık sık hastalanıyor, soğuk algınlığından çabuk etkileniyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Karbonhidrat veya şekerli yiyecek yedikten 1–3 saat sonra enerji çöküşü yaşıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+      ],
+      scoring: 'points',
+      maxPoints: 12,
+      levels: [
+        { min: 0,  max: 3,  icon: '😌', label: 'Dengeli', title: 'Kortizol Dengeniz Sağlıklı', pct: 88,
+          desc: 'Adrenal bezleriniz iyi çalışıyor ve kortizol ritminiz dengeli görünüyor. Mevcut stres yönetimi alışkanlıklarınızı sürdürün.',
+          tips: ['Mevcut uyku ve stres düzeninizi koruyun', 'Adaptogen bitkiler (Ashwagandha, Rhodiola) önleyici kullanılabilir', 'Düzenli egzersiz kortizol ritmini güçlü tutar'] },
+        { min: 4,  max: 6,  icon: '⚡', label: 'Hafif Yüksek', title: 'Hafif Adrenal Yüklenme — Dikkat Edin', pct: 55,
+          desc: 'Adrenal bezleriniz normalden biraz daha fazla çalışıyor. Bu aşamada alınacak önlemler ciddi tükenmişliği önler.',
+          tips: ['Magnezyum glisin akşam saatlerinde kortizolü düşürür', 'Kafein tüketimini öğleden sonra sıfıra indirin', 'Adaptogen bitkiler (Ashwagandha) denenebilir', 'Günde 10 dakika derin nefes veya meditasyon', 'Karbonhidrat yüklü öğünlerden kaçının'] },
+        { min: 7,  max: 9,  icon: '🔶', label: 'Orta Düzey', title: 'Orta Düzey Adrenal Stres — Değişiklik Gerekli', pct: 35,
+          desc: 'Kortizol seviyeniz kronik olarak yüksek olabilir. Bu durum kas kaybına, yağ birikimine, bağışıklık zayıflamasına ve beyin sağlığına zarar verebilir.',
+          tips: ['Uyku öncelik #1 olmalı — 7 saatin altına düşmeyin', 'Stres kaynaklarınızı aktif olarak azaltın', 'Yüksek yoğunluklu egzersizi geçici olarak azaltın', 'Fonksiyonel tıp doktoru ile kortizol ritmi testi yaptırabilirsiniz', 'B5 vitamini (pantotenik asit) adrenal destek için kritik'] },
+        { min: 10, max: 12, icon: '🔴', label: 'Yüksek Yük', title: 'Yüksek Kortizol Yükü — Profesyonel Destek Önerilir', pct: 12,
+          desc: 'Adrenal bezleriniz uzun süredir aşırı yüklenmiş olabilir. Bu durum "adrenal tükenmişlik" olarak bilinen tabloya işaret edebilir. Semptomlarınız için bir fonksiyonel tıp uzmanıyla görüşmeniz önemlidir.',
+          tips: ['Doktor gözetiminde kortizol ve DHEA testi yaptırın', 'Tüm yüksek yoğunluklu egzersizi geçici olarak bırakın', 'Adaptogen protokolü: Ashwagandha + Rhodiola + Eleuthero', 'Şeker ve kafein tamamen kesin', 'Günde minimum 8 saat uyku ve öğle uykusu deneyin'] },
+      ]
+    }
+  };
+
+  // ═══════════════════════════════════════════════════════════
+  //  QUIZ ENGINE
+  // ═══════════════════════════════════════════════════════════
+  let activeQuiz = null;
+  let currentQ = 0;
+  let answers = [];
+
+  function openQuiz(key) {
+    activeQuiz = QUIZZES[key];
+    currentQ = 0;
+    answers = new Array(activeQuiz.questions.length).fill(null);
+    document.getElementById('modalTitle').textContent = activeQuiz.title;
+    document.getElementById('modalMeta').textContent = activeQuiz.meta;
+    renderQuestion();
+    const modal = document.getElementById('quizModal');
+    modal.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeQuiz() {
+    document.getElementById('quizModal').classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+
+  // close on backdrop click
+  document.getElementById('quizModal').addEventListener('click', function(e) {
+    if (e.target === this) closeQuiz();
+  });
+
+  function renderQuestion() {
+    const q = activeQuiz.questions[currentQ];
+    const total = activeQuiz.questions.length;
+    const pct = Math.round((currentQ / total) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+
+    let html = `<div class="q-step is-active">
+      <div class="q-number">Soru ${currentQ + 1} / ${total}</div>
+      <div class="q-text">${q.text}</div>
+      <div class="q-options">`;
+
+    q.options.forEach((opt, i) => {
+      const sel = answers[currentQ] === i ? ' selected' : '';
+      html += `<div class="q-option${sel}" onclick="selectOption(${i})">
+        <div class="q-option__dot"></div>
+        <div class="q-option__label">${opt.label}</div>
+      </div>`;
+    });
+
+    html += `</div>
+      <div class="q-nav">
+        <button class="q-nav__back" onclick="prevQuestion()" ${currentQ === 0 ? 'style="visibility:hidden"' : ''}>&#8592; Geri</button>
+        <button class="btn btn-dark q-nav__next" onclick="nextQuestion()" ${answers[currentQ] === null ? 'disabled style="opacity:.4;cursor:default"' : ''}>
+          ${currentQ < total - 1 ? 'Devam &#8594;' : 'Sonuçları Gör'}
+        </button>
+      </div>
+    </div>`;
+
+    document.getElementById('modalBody').innerHTML = html;
+  }
+
+  function selectOption(i) {
+    answers[currentQ] = i;
+    // re-render to show selection + enable next button
+    const opts = document.querySelectorAll('.q-option');
+    opts.forEach((o, idx) => o.classList.toggle('selected', idx === i));
+    const btn = document.querySelector('.q-nav__next');
+    btn.removeAttribute('disabled');
+    btn.removeAttribute('style');
+  }
+
+  function nextQuestion() {
+    if (answers[currentQ] === null) return;
+    if (currentQ < activeQuiz.questions.length - 1) {
+      currentQ++;
+      renderQuestion();
+    } else {
+      showResult();
+    }
+  }
+
+  function prevQuestion() {
+    if (currentQ > 0) { currentQ--; renderQuestion(); }
+  }
+
+  function showResult() {
+    document.getElementById('progressFill').style.width = '100%';
+    const q = activeQuiz;
+
+    if (q.scoring === 'type') {
+      // count type tallies
+      const tally = { adrenal: 0, tiroid: 0, karaciger: 0, over: 0 };
+      answers.forEach((ansIdx, qIdx) => {
+        if (ansIdx !== null) {
+          const t = q.questions[qIdx].options[ansIdx].type;
+          tally[t]++;
+        }
+      });
+      const winner = Object.entries(tally).sort((a, b) => b[1] - a[1])[0][0];
+      renderResult(q.types[winner]);
+    } else {
+      // points
+      let total = 0;
+      answers.forEach((ansIdx, qIdx) => {
+        if (ansIdx !== null) total += q.questions[qIdx].options[ansIdx].pts;
+      });
+      const level = q.levels.find(l => total >= l.min && total <= l.max) || q.levels[q.levels.length - 1];
+      const pctScore = Math.round((total / q.maxPoints) * 100);
+      renderResult({ ...level, pct: pctScore });
+    }
+  }
+
+  function renderResult(r) {
+    const tipsHTML = r.tips.map(t => `<li>${t}</li>`).join('');
+    const html = `<div class="q-result is-active">
+      <div class="q-result__icon">${r.icon}</div>
+      <div class="q-result__label">${r.label}</div>
+      <h3 class="q-result__title">${r.title}</h3>
+      <div class="q-result__score-bar"><div class="q-result__score-fill" id="scoreFill" style="width:0%"></div></div>
+      <div class="q-result__desc">${r.desc}</div>
+      <div class="q-result__tips"><h4>Önerilen Adımlar</h4><ul>${tipsHTML}</ul></div>
+      <div class="q-result__actions">
+        <button class="q-result__retake" onclick="retakeQuiz()">Tekrar Al</button>
+        <a href="iletisim.html" class="btn btn-dark">Uzmanla Görüş</a>
+      </div>
+    </div>`;
+    document.getElementById('modalBody').innerHTML = html;
+    // animate score bar
+    setTimeout(() => {
+      document.getElementById('scoreFill').style.width = r.pct + '%';
+    }, 100);
+  }
+
+  function retakeQuiz() {
+    currentQ = 0;
+    answers = new Array(activeQuiz.questions.length).fill(null);
+    document.getElementById('progressFill').style.width = '0%';
+    renderQuestion();
+  }
+  </script>
 </body>
 </html>

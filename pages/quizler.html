@@ -20,9 +20,7 @@
     .quiz-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);}
     .quiz-card__img{width:100%;aspect-ratio:16/9;object-fit:cover;}
     .quiz-card__body{padding:24px;}
-    .quiz-card__head{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
-    .quiz-card__icon{font-size:24px;line-height:1;}
-    .quiz-card__tag{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--green);padding:3px 10px;border-radius:99px;}
+    .quiz-card__tag{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--green);padding:3px 10px;border-radius:99px;margin-bottom:14px;}
     .quiz-card__title{font-size:19px;font-weight:800;margin-bottom:8px;}
     .quiz-card__desc{font-size:14px;color:var(--gray-500);line-height:1.6;margin-bottom:14px;}
     .quiz-card__meta{display:flex;gap:16px;font-size:12px;color:var(--gray-500);margin-bottom:18px;}
@@ -58,19 +56,18 @@
     .q-nav__next{font-size:14px;padding:12px 28px;}
 
     /* ── results ── */
-    .q-result{display:none;text-align:center;padding:8px 0 16px;}
+    .q-result{display:none;padding:8px 0 16px;}
     .q-result.is-active{display:block;}
-    .q-result__icon{font-size:64px;margin-bottom:16px;}
-    .q-result__label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--green);margin-bottom:8px;}
-    .q-result__title{font-size:24px;font-weight:900;margin-bottom:12px;color:var(--main);}
-    .q-result__score-bar{background:var(--tertiary);border-radius:99px;height:12px;margin:16px 0;overflow:hidden;}
+    .q-result__label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#fff;background:var(--green);padding:4px 14px;border-radius:99px;display:inline-block;margin-bottom:16px;}
+    .q-result__title{font-size:22px;font-weight:900;margin-bottom:12px;color:var(--main);}
+    .q-result__score-bar{background:var(--tertiary);border-radius:99px;height:10px;margin:16px 0;overflow:hidden;}
     .q-result__score-fill{height:100%;background:var(--green);border-radius:99px;transition:width .8s ease;}
-    .q-result__desc{font-size:15px;color:var(--gray-700);line-height:1.7;margin-bottom:20px;text-align:left;}
-    .q-result__tips{background:var(--tertiary);border-radius:var(--r);padding:20px 24px;text-align:left;margin-bottom:24px;}
-    .q-result__tips h4{font-size:14px;font-weight:700;margin-bottom:10px;}
+    .q-result__desc{font-size:15px;color:var(--gray-700);line-height:1.7;margin-bottom:20px;}
+    .q-result__tips{background:var(--tertiary);border-radius:var(--r);padding:20px 24px;margin-bottom:24px;}
+    .q-result__tips h4{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px;color:var(--main);}
     .q-result__tips ul{padding-left:18px;}
-    .q-result__tips li{font-size:14px;color:var(--gray-700);line-height:1.8;}
-    .q-result__actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+    .q-result__tips li{font-size:14px;color:var(--gray-700);line-height:1.9;}
+    .q-result__actions{display:flex;gap:12px;flex-wrap:wrap;}
     .q-result__retake{background:none;border:2px solid var(--border);color:var(--main);font-weight:700;font-size:14px;padding:10px 24px;border-radius:var(--r-btn);cursor:pointer;transition:border-color .15s;}
     .q-result__retake:hover{border-color:var(--main);}
   </style>
@@ -101,45 +98,45 @@
       <div class="quiz-grid">
 
         <div class="quiz-card">
-          <img src="https://picsum.photos/seed/quiz-vucut/800/450" alt="Vücut Tipi Quizi" class="quiz-card__img" />
+          <img src="https://placehold.co/800x450/e8f5ee/116149?text=V%C3%BCcut+Tipi+Quizi" alt="Vücut Tipi Quizi" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <div class="quiz-card__head"><span class="quiz-card__icon">🧬</span><span class="quiz-card__tag">Ücretsiz</span></div>
+            <span class="quiz-card__tag">Ücretsiz</span>
             <h3 class="quiz-card__title">Vücut Tipi Quizi</h3>
             <p class="quiz-card__desc">Dr. Berg'in hormonal vücut tipi modeline dayalı değerlendirme. Adrenal, Tiroid, Karaciğer veya Over tipini keşfedin.</p>
-            <div class="quiz-card__meta"><span>📋 8 soru</span><span>⏱ ~2 dakika</span></div>
+            <div class="quiz-card__meta"><span>8 soru</span><span>~2 dakika</span></div>
             <button class="btn btn-dark" onclick="openQuiz('vucut')">Quize Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <img src="https://picsum.photos/seed/quiz-longevity/800/450" alt="Longevity Skoru" class="quiz-card__img" />
+          <img src="https://placehold.co/800x450/eaf0ff/1e3a8a?text=Longevity+Skoru" alt="Longevity Skoru" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <div class="quiz-card__head"><span class="quiz-card__icon">⏳</span><span class="quiz-card__tag">Ücretsiz</span></div>
+            <span class="quiz-card__tag">Ücretsiz</span>
             <h3 class="quiz-card__title">Longevity Skoru</h3>
             <p class="quiz-card__desc">NOVOS ve DaVinci Labs metodolojisine dayalı biyolojik yaş değerlendirmesi. 10 yaşam tarzı faktörü üzerinden skorunuzu ölçün.</p>
-            <div class="quiz-card__meta"><span>📋 10 soru</span><span>⏱ ~3 dakika</span></div>
+            <div class="quiz-card__meta"><span>10 soru</span><span>~3 dakika</span></div>
             <button class="btn btn-dark" onclick="openQuiz('longevity')">Quize Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <img src="https://picsum.photos/seed/quiz-bagırsak/800/450" alt="Bağırsak Sağlığı" class="quiz-card__img" />
+          <img src="https://placehold.co/800x450/eef7e8/166534?text=Ba%C4%9F%C4%B1rsak+Sa%C4%9Fl%C4%B1%C4%9F%C4%B1" alt="Bağırsak Sağlığı" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <div class="quiz-card__head"><span class="quiz-card__icon">🦠</span><span class="quiz-card__tag">Ücretsiz</span></div>
+            <span class="quiz-card__tag">Ücretsiz</span>
             <h3 class="quiz-card__title">Bağırsak Sağlığı Testi</h3>
             <p class="quiz-card__desc">The Gut Health Doctor metodolojisine dayalı değerlendirme. Mikrobiyom sağlığınızı etkileyen yaşam tarzı faktörlerini ölçün.</p>
-            <div class="quiz-card__meta"><span>📋 10 soru</span><span>⏱ ~2 dakika</span></div>
+            <div class="quiz-card__meta"><span>10 soru</span><span>~2 dakika</span></div>
             <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Quize Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <img src="https://picsum.photos/seed/quiz-stres/800/450" alt="Stres ve Kortizol" class="quiz-card__img" />
+          <img src="https://placehold.co/800x450/fef2f2/991b1b?text=Stres+ve+Kortizol" alt="Stres ve Kortizol" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <div class="quiz-card__head"><span class="quiz-card__icon">🧠</span><span class="quiz-card__tag">Ücretsiz</span></div>
+            <span class="quiz-card__tag">Ücretsiz</span>
             <h3 class="quiz-card__title">Stres ve Kortizol Profili</h3>
             <p class="quiz-card__desc">Women's Health Network adrenal değerlendirmesinden uyarlanan test. Kortizol yükünüzü ve adrenal sağlığınızı ölçün.</p>
-            <div class="quiz-card__meta"><span>📋 12 soru</span><span>⏱ ~3 dakika</span></div>
+            <div class="quiz-card__meta"><span>12 soru</span><span>~3 dakika</span></div>
             <button class="btn btn-dark" onclick="openQuiz('stres')">Quize Başla</button>
           </div>
         </div>
@@ -251,7 +248,6 @@
       scoring: 'type',
       types: {
         adrenal: {
-          icon: '🫀',
           label: 'Adrenal Tip',
           title: 'Adrenal Vücut Tipi',
           desc: 'Vücut tipiniz Adrenal tipe işaret ediyor. Bu tipte kortizol ve adrenalin hormonları baskın rol oynar. Stres bel ve karın çevresinde yağ birikimine, enerji çöküşlerine ve uyku sorunlarına yol açar. Adrenal bezlerinizi desteklemek en öncelikli adımınızdır.',
@@ -259,7 +255,6 @@
           tips: ['Günde 7–9 saat kaliteli uyku hedefleyin', 'Magnezyum ve B vitamini takviyeleri adrenal desteği sağlar', 'Aralıklı oruç (16:8) kortizol ritmine zarar vermeden uygulanabilir', 'Tuz kısıtlamasından kaçının — adrenal tip tuz ihtiyacı duyar', 'Meditasyon veya nefes egzersizleri ile stres yönetimi kritik']
         },
         tiroid: {
-          icon: '🦋',
           label: 'Tiroid Tip',
           title: 'Tiroid Vücut Tipi',
           desc: 'Vücut tipiniz Tiroid tipe işaret ediyor. Tiroid hormonu yavaşladığında tüm vücutta yağlanma, yorgunluk, soğukluk hissi ve metabolizma düşüklüğü görülür. Tiroid sağlığını desteklemek için temel besin eksikliklerini gidermek gerekir.',
@@ -267,7 +262,6 @@
           tips: ['İyot ve selenyum kaynakları tüketin (deniz ürünleri, ceviz)', 'Guatrojenik gıdaları (çiğ lahana, brokoli) pişirerek tüketin', 'D3 vitamini düzeyinizi kontrol ettirin', 'Düşük yoğunluklu egzersiz (Bölge 2 kardiyo) metabolizmayı uyarır', 'Gluten hassasiyeti tiroid üzerinde olumsuz etki yapabilir']
         },
         karaciger: {
-          icon: '🫁',
           label: 'Karaciğer Tip',
           title: 'Karaciğer Vücut Tipi',
           desc: 'Vücut tipiniz Karaciğer tipe işaret ediyor. Karaciğer aşırı yüklendiğinde karın altında pot belly tarzı yağlanma, şişkinlik, sindirim sorunları ve öfke eğilimi görülür. Karaciğeri desteklemek vücudun tüm detoks sistemini iyileştirir.',
@@ -275,7 +269,6 @@
           tips: ['Alkol ve işlenmiş yağları sınırlandırın', 'Hardal yaprağı, enginar, turp karaciğeri destekler', 'Sabah limonlu su karaciğer safra akışını uyarır', 'Sülfür içeren sebzeler (sarımsak, soğan) önemli', 'Derin nefes egzersizleri diyafram yoluyla karaciğere masaj yapar']
         },
         over: {
-          icon: '🌸',
           label: 'Over Tip',
           title: 'Over / Gonad Vücut Tipi',
           desc: 'Vücut tipiniz Over (Gonad) tipe işaret ediyor. Östrojen baskınlığı veya progesterone düşüklüğü kalça, uyluk ve alt vücut yağlanmasına, duygusal değişkenliğe ve hormonal döngü sorunlarına neden olur. Hormon dengesini sağlamak temel hedeftir.',
@@ -384,16 +377,16 @@
       scoring: 'points',
       maxPoints: 30,
       levels: [
-        { min: 0,  max: 9,  icon: '⚠️', label: 'Kritik Bölge', title: 'Biyolojik Yaşınız Kronolojik Yaşınızı Aşıyor', pct: 20,
+        { min: 0,  max: 9,  label: 'Kritik Bölge', title: 'Biyolojik Yaşınız Kronolojik Yaşınızı Aşıyor', pct: 20,
           desc: 'Mevcut yaşam tarzınız biyolojik yaşlanmayı önemli ölçüde hızlandırıyor olabilir. Araştırmalar, yaşlanmayı etkileyen faktörlerin %80\'inin yaşam tarzıyla ilişkili olduğunu gösteriyor. Küçük ama tutarlı değişiklikler büyük fark yaratır.',
           tips: ['Önce uyku kalitesini düzeltin — tüm sistemlerin temelidir', 'Günlük 15 dakika yürüyüşle başlayın', 'İşlenmiş gıdaları azaltmak en hızlı etki yaratan değişikliktir', 'D3 vitamini ve Omega-3 takviyesi başlangıç için idealdir'] },
-        { min: 10, max: 18, icon: '📊', label: 'Gelişim Alanı', title: 'Ortalama — Birkaç Kritik Faktör Dikkat İster', pct: 50,
+        { min: 10, max: 18, label: 'Gelişim Alanı', title: 'Ortalama — Birkaç Kritik Faktör Dikkat İster', pct: 50,
           desc: 'Bazı alanlarda iyi gidiyorsunuz, ancak biyolojik yaşlanmayı hızlandıran birkaç önemli faktör var. Odaklı değişikliklerle skoru anlamlı biçimde artırabilirsiniz.',
           tips: ['Egzersiz sıklığını haftada 4 güne çıkarmayı hedefleyin', 'Uyku süresini 7 saatin altına düşürmeyin', 'Stres yönetimi için günlük bir pratik belirleyin', 'Bitki çeşitliliğinizi artırın — haftada 30 farklı bitki hedefleyin'] },
-        { min: 19, max: 24, icon: '✅', label: 'İyi Skor', title: 'İyi — Biyolojik Yaşınız Kronolojik Yaşınıza Yakın', pct: 78,
+        { min: 19, max: 24, label: 'İyi Skor', title: 'İyi — Biyolojik Yaşınız Kronolojik Yaşınıza Yakın', pct: 78,
           desc: 'Longevity açısından güçlü bir temel oluşturmuşsunuz. Mevcut alışkanlıklarınız biyolojik yaşlanmayı yavaşlatıyor. Birkaç ince ayarla mükemmel seviyeye ulaşabilirsiniz.',
           tips: ['Bölge 2 kardiyo ile mitokondriyal kapasiteyi artırın', 'Protein alımını optimize edin (vücut ağırlığının gr/kg olarak 1.6–2.2g)', 'Sauna veya soğuk duş gibi hormesis protokollerini deneyin', 'Yıllık kan tahlili ile biyobelirteçleri takip edin'] },
-        { min: 25, max: 30, icon: '🏆', label: 'Mükemmel', title: 'Mükemmel — Biyolojik Yaşınız Kronolojik Yaşınızdan Genç', pct: 96,
+        { min: 25, max: 30, label: 'Mükemmel', title: 'Mükemmel — Biyolojik Yaşınız Kronolojik Yaşınızdan Genç', pct: 96,
           desc: 'Longevity yaşam tarzını büyük ölçüde benimsemişsiniz. Biyolojik yaşınızın kronolojik yaşınızın altında olması kuvvetle muhtemel. Bu alışkanlıkları sürdürmek en kritik adımdır.',
           tips: ['Epigenetik yaş testleri ile biyolojik yaşınızı ölçebilirsiniz', 'NMN, Resveratrol gibi longevity takviyelerini araştırın', 'VO2 max takibi ile kardiyorespiratuar kapasiteyi izleyin', 'Kan şekeri monitörü ile metabolik sağlığı gerçek zamanlı takip edin'] },
       ]
@@ -487,16 +480,16 @@
       scoring: 'points',
       maxPoints: 30,
       levels: [
-        { min: 0,  max: 10, icon: '🔴', label: 'Dikkat Gerektiriyor', title: 'Bağırsak Sağlığınız Ciddi Destek İsteyebilir', pct: 22,
+        { min: 0,  max: 10, label: 'Dikkat Gerektiriyor', title: 'Bağırsak Sağlığınız Ciddi Destek İsteyebilir', pct: 22,
           desc: 'Bağırsak mikrobiyomunuz önemli baskı altında olabilir. Bağırsak sağlığı yalnızca sindirimle sınırlı değil; bağışıklık sisteminizin %70\'i bağırsakta yer alır ve beyin sağlığınızla da doğrudan bağlantılıdır.',
           tips: ['Probiyotik gıdalar ekleyin (kefir, yoğurt, turşu)', 'İşlenmiş şeker ve tatlandırıcıları azaltın', 'Bitkisel çeşitlilik en güçlü mikrobiyom destekçisidir', 'Stres yönetimi bağırsak-beyin aksını doğrudan etkiler', 'Prebiyotik lif kaynakları: soğan, sarımsak, yeruşalim enginarı'] },
-        { min: 11, max: 18, icon: '🟡', label: 'Gelişime Açık', title: 'Ortalama Bağırsak Sağlığı — İyileştirilecek Alanlar Var', pct: 52,
+        { min: 11, max: 18, label: 'Gelişime Açık', title: 'Ortalama Bağırsak Sağlığı — İyileştirilecek Alanlar Var', pct: 52,
           desc: 'Bağırsak sağlığınız ortalama düzeyde. Bazı iyi alışkanlıklarınız var, ancak mikrobiyomunuz daha iyi desteklenebilir.',
           tips: ['Haftada 30 farklı bitki hedefleyin — bu en kanıtlı stratejidir', 'Fermente gıda tüketimini artırın', 'Antibiyotik kullandıktan sonra mutlaka probiyotik alın', 'Uyku süresini 7 saatin üzerine çıkarın'] },
-        { min: 19, max: 24, icon: '🟢', label: 'İyi', title: 'İyi Bağırsak Sağlığı — Güçlü Mikrobiyom', pct: 76,
+        { min: 19, max: 24, label: 'İyi', title: 'İyi Bağırsak Sağlığı — Güçlü Mikrobiyom', pct: 76,
           desc: 'Bağırsak sağlığınız iyi durumda. Alışkanlıklarınız mikrobiyomun çeşitliliğini ve dengesini destekliyor.',
           tips: ['Polifenol zengini gıdaları artırın (blueberry, zeytin yağı, yeşil çay)', 'Mevsimsel ve yerel üretim gıdalar daha zengin mikrobiyom destekler', 'Stres yönetimini sürdürün — bağırsak-beyin aksı güçlü'] },
-        { min: 25, max: 30, icon: '⭐', label: 'Mükemmel', title: 'Olağanüstü Bağırsak Sağlığı', pct: 95,
+        { min: 25, max: 30, label: 'Mükemmel', title: 'Olağanüstü Bağırsak Sağlığı', pct: 95,
           desc: 'Mikrobiyomunuz sağlıklı bir çeşitliliğe ve dengeye sahip olma ihtimali yüksek. Bu alışkanlıkları sürdürmek uzun vadede bağışıklık ve beyin sağlığı üzerinde güçlü koruyucu etki yapar.',
           tips: ['Bağırsak mikrobiyom testi ile profilinizi somut olarak görün', 'Mevsimsel gıda programınızı çeşitlendirin', 'Polifenol ve prebiyotik takviyelerini araştırın'] },
       ]
@@ -524,16 +517,16 @@
       scoring: 'points',
       maxPoints: 12,
       levels: [
-        { min: 0,  max: 3,  icon: '😌', label: 'Dengeli', title: 'Kortizol Dengeniz Sağlıklı', pct: 88,
+        { min: 0,  max: 3,  label: 'Dengeli', title: 'Kortizol Dengeniz Sağlıklı', pct: 88,
           desc: 'Adrenal bezleriniz iyi çalışıyor ve kortizol ritminiz dengeli görünüyor. Mevcut stres yönetimi alışkanlıklarınızı sürdürün.',
           tips: ['Mevcut uyku ve stres düzeninizi koruyun', 'Adaptogen bitkiler (Ashwagandha, Rhodiola) önleyici kullanılabilir', 'Düzenli egzersiz kortizol ritmini güçlü tutar'] },
-        { min: 4,  max: 6,  icon: '⚡', label: 'Hafif Yüksek', title: 'Hafif Adrenal Yüklenme — Dikkat Edin', pct: 55,
+        { min: 4,  max: 6,  label: 'Hafif Yüksek', title: 'Hafif Adrenal Yüklenme — Dikkat Edin', pct: 55,
           desc: 'Adrenal bezleriniz normalden biraz daha fazla çalışıyor. Bu aşamada alınacak önlemler ciddi tükenmişliği önler.',
           tips: ['Magnezyum glisin akşam saatlerinde kortizolü düşürür', 'Kafein tüketimini öğleden sonra sıfıra indirin', 'Adaptogen bitkiler (Ashwagandha) denenebilir', 'Günde 10 dakika derin nefes veya meditasyon', 'Karbonhidrat yüklü öğünlerden kaçının'] },
-        { min: 7,  max: 9,  icon: '🔶', label: 'Orta Düzey', title: 'Orta Düzey Adrenal Stres — Değişiklik Gerekli', pct: 35,
+        { min: 7,  max: 9,  label: 'Orta Düzey', title: 'Orta Düzey Adrenal Stres — Değişiklik Gerekli', pct: 35,
           desc: 'Kortizol seviyeniz kronik olarak yüksek olabilir. Bu durum kas kaybına, yağ birikimine, bağışıklık zayıflamasına ve beyin sağlığına zarar verebilir.',
           tips: ['Uyku öncelik #1 olmalı — 7 saatin altına düşmeyin', 'Stres kaynaklarınızı aktif olarak azaltın', 'Yüksek yoğunluklu egzersizi geçici olarak azaltın', 'Fonksiyonel tıp doktoru ile kortizol ritmi testi yaptırabilirsiniz', 'B5 vitamini (pantotenik asit) adrenal destek için kritik'] },
-        { min: 10, max: 12, icon: '🔴', label: 'Yüksek Yük', title: 'Yüksek Kortizol Yükü — Profesyonel Destek Önerilir', pct: 12,
+        { min: 10, max: 12, label: 'Yüksek Yük', title: 'Yüksek Kortizol Yükü — Profesyonel Destek Önerilir', pct: 12,
           desc: 'Adrenal bezleriniz uzun süredir aşırı yüklenmiş olabilir. Bu durum "adrenal tükenmişlik" olarak bilinen tabloya işaret edebilir. Semptomlarınız için bir fonksiyonel tıp uzmanıyla görüşmeniz önemlidir.',
           tips: ['Doktor gözetiminde kortizol ve DHEA testi yaptırın', 'Tüm yüksek yoğunluklu egzersizi geçici olarak bırakın', 'Adaptogen protokolü: Ashwagandha + Rhodiola + Eleuthero', 'Şeker ve kafein tamamen kesin', 'Günde minimum 8 saat uyku ve öğle uykusu deneyin'] },
       ]
@@ -654,7 +647,6 @@
   function renderResult(r) {
     const tipsHTML = r.tips.map(t => `<li>${t}</li>`).join('');
     const html = `<div class="q-result is-active">
-      <div class="q-result__icon">${r.icon}</div>
       <div class="q-result__label">${r.label}</div>
       <h3 class="q-result__title">${r.title}</h3>
       <div class="q-result__score-bar"><div class="q-result__score-fill" id="scoreFill" style="width:0%"></div></div>

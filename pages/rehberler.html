@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rehberler — Dr. Muhammed İkbal Bakırcı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
+    .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
+    .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;}
+    .guides-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;padding:64px 0;}
+    @media(max-width:700px){.guides-grid{grid-template-columns:1fr;}}
+    .guide-card{background:var(--base);border-radius:var(--r-lg);padding:32px;box-shadow:var(--shadow);display:flex;gap:20px;align-items:flex-start;transition:box-shadow .2s,transform .2s;}
+    .guide-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);}
+    .guide-card__icon{font-size:36px;flex-shrink:0;}
+    .guide-card__tag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--primary);background:var(--tertiary);padding:3px 10px;border-radius:99px;display:inline-block;margin-bottom:10px;}
+    .guide-card__title{font-size:18px;font-weight:700;margin-bottom:8px;}
+    .guide-card__desc{font-size:14px;color:var(--gray-500);line-height:1.6;margin-bottom:16px;}
+    .guide-card__cta{font-size:13px;font-weight:700;color:var(--blue);}
+    .guide-card__cta:hover{text-decoration:underline;}
+  </style>
+</head>
+<body>
+  <div class="announcement-bar" id="announcementBar"><div class="container announcement-bar__inner"><p>#1 sağlık engelinizi 2 dakikada keşfedin &rarr; <a href="quizler.html">Hemen Başla</a></p><button class="announcement-bar__close" id="closeAnnouncement" aria-label="Kapat">&#10005;</button></div></div>
+  <div class="header-wrapper" id="headerWrapper">
+    <div class="utility-nav"><div class="container utility-nav__inner"><nav><a href="sitelerimiz.html">Sitelerimiz</a><a href="hakkinda.html">Hakkında</a><a href="iletisim.html">İletişim</a></nav></div></div>
+    <header class="site-header"><div class="container site-header__inner">
+      <a href="../index.html" class="site-logo"><span class="site-logo__text">Dr. Bakırcı</span></a>
+      <div class="header-stats"><div class="header-stat"><span class="header-stat__number">2.400.000+</span><span class="header-stat__label">YouTube Abonesi</span></div><div class="header-stat header-stat--mid"><span class="header-stat__number">1.240</span><span class="header-stat__label">Başarı Hikayesi</span></div><div class="header-stat"><span class="header-stat__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="header-stat__reviews">1.800+ Google Yorumu</span><span class="header-stat__rating">4.8 / 5 puan</span></div></div>
+      <div class="header-search-wrap"><input type="search" class="header-search-input" placeholder="Ara" /><button class="header-search-btn" aria-label="Ara"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button></div>
+      <div class="header-actions"><a href="#" class="btn-sign-in"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>Giriş Yap</a><button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button></div>
+    </div></header>
+    <nav class="main-menu" id="mainMenu"><div class="container"><ul class="main-menu__list"><li><a href="../blog/index.html">İçerik Kütüphanesi</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="longevity.html">Longevity</a></li><li><a href="rehberler.html" class="active">Rehberler</a></li><li><a href="quizler.html">Quizler <span class="new-badge">Yeni</span></a></li><li><a href="basari-hikayeleri.html">Başarı Hikayeleri</a></li><li><a href="sansursuz-icerik.html">Sansürsüz İçerik</a></li><li><a href="magaza.html" class="main-menu__shop">Mağaza <span class="sale-badge">İNDİRİM</span></a></li></ul></div></nav>
+  </div>
+
+  <main>
+    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Longevity Rehberleri</h1><p class="pg-hero__sub">Bilimsel temelli, uygulaması kolay rehberler — aralıklı oruçtan keto geçişine, uyku optimizasyonundan egzersiz protokollerine.</p></div></section>
+    <section class="section"><div class="container">
+      <div class="guides-grid">
+        <div class="guide-card"><div class="guide-card__icon">🚀</div><div><span class="guide-card__tag">Başlangıç</span><h3 class="guide-card__title">Longevity'e Nasıl Başlarım?</h3><p class="guide-card__desc">Sıfırdan bir longevity protokolü oluşturmak için adım adım rehber. İlk 30 gün için somut eylem planı.</p><a href="../blog/index.html" class="guide-card__cta">Okumaya başla &rarr;</a></div></div>
+        <div class="guide-card"><div class="guide-card__icon">⏱️</div><div><span class="guide-card__tag">Beslenme</span><h3 class="guide-card__title">16:8 Aralıklı Oruç Kılavuzu</h3><p class="guide-card__desc">İlk haftadan itibaren nasıl uygulayacağınızı anlatan kapsamlı rehber. Yan etkiler ve çözümler dahil.</p><a href="../blog/aralikli-oruc-longevity.html" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><div class="guide-card__icon">🥑</div><div><span class="guide-card__tag">Beslenme</span><h3 class="guide-card__title">Ketojenik Diyete Geçiş</h3><p class="guide-card__desc">Yan etkileri minimize ederek ketoza nasıl girilir. Haftalık yemek planı ve alışveriş listesi.</p><a href="../blog/aralikli-oruc-longevity.html" class="guide-card__cta">Devamını oku &rarr;</a></div></div>
+        <div class="guide-card"><div class="guide-card__icon">😴</div><div><span class="guide-card__tag">Uyku</span><h3 class="guide-card__title">Uyku Optimizasyonu Rehberi</h3><p class="guide-card__desc">Derin uyku evrelerini artırmak ve biyolojik saatinizi sıfırlamak için kanıtlanmış protokoller.</p><a href="../blog/telomerleri-korumak.html" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><div class="guide-card__icon">🏃</div><div><span class="guide-card__tag">Egzersiz</span><h3 class="guide-card__title">Longevity Egzersiz Programı</h3><p class="guide-card__desc">Bölge 2 kardiyo, ağırlık antrenmanı ve esneklik çalışmasını birleştiren haftalık program.</p><a href="../blog/bolge-2-kardiyo.html" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><div class="guide-card__icon">🧘</div><div><span class="guide-card__tag">Stres</span><h3 class="guide-card__title">Kortizol Kontrol Protokolü</h3><p class="guide-card__desc">Kronik stresi yönetmek için günlük rutinler, meditasyon pratikleri ve beslenme stratejileri.</p><a href="../blog/kortizol-yaslanma.html" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+      </div>
+    </div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer__top"><div class="footer__brand"><a href="../index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div><div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="magaza.html">Supplementler</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div><div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="magaza.html">Mağaza</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div></div><div class="footer__disclaimer"><p>* Bu ifadeler Gıda ve İlaç İdaresi tarafından değerlendirilmemiştir.</p></div><div class="footer__bottom"><nav class="footer__legal"><a href="gizlilik-politikasi.html">Gizlilik Politikası</a><a href="kullanim-kosullari.html">Kullanım Koşulları</a><a href="iletisim.html">İletişim</a></nav><p class="footer__copy">&copy; 2026 Dr. Muhammed İkbal Bakırcı. Tüm hakları saklıdır.</p></div></div></footer>
+  <script src="../script.js"></script>
+</body>
+</html>

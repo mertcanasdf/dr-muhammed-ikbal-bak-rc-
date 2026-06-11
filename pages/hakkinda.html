@@ -44,26 +44,67 @@
     <div class="utility-nav"><div class="container utility-nav__inner"><nav><a href="sitelerimiz.html">Sitelerimiz</a><a href="hakkinda.html">Hakkında</a><a href="iletisim.html">İletişim</a></nav></div></div>
     <header class="site-header">
       <div class="container site-header__inner">
-        <a href="../index.html" class="site-logo"><span class="site-logo__text">Dr. Bakırcı</span></a>
-        <div class="header-stats">
-          <div class="header-stat"><span class="header-stat__number">2.400.000+</span><span class="header-stat__label">YouTube Abonesi</span></div>
-          <div class="header-stat header-stat--mid"><span class="header-stat__number">1.240</span><span class="header-stat__label">Başarı Hikayesi</span></div>
-          <div class="header-stat"><span class="header-stat__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="header-stat__reviews">1.800+ Google Yorumu</span><span class="header-stat__rating">4.8 / 5 puan</span></div>
-        </div>
+        <a href="../index.html" class="site-logo" aria-label="Dr. Muhammed İkbal Bakırcı Ana Sayfa">
+          <div class="site-logo__mark">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" fill="var(--blue)" fill-opacity="0.08" stroke="var(--blue)" stroke-width="2"/>
+              <path d="M8 12H11L12.5 8L14 16L15 12H16" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="site-logo__text"><span class="site-logo__dr">Dr.</span> <span class="site-logo__name">Muhammed İkbal</span> <span class="site-logo__surname">Bakırcı</span></span>
+        </a>
+        
         <div class="header-search-wrap"><input type="search" class="header-search-input" placeholder="Ara" aria-label="Ara" /><button class="header-search-btn" aria-label="Ara"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button></div>
-        <div class="header-actions"><a href="#" class="btn-sign-in"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>Giriş Yap</a><button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button></div>
+        <div class="header-actions"><a href="quizler.html" class="btn-header-cta">Quizi Çöz</a><button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button></div>
       </div>
     </header>
     <nav class="main-menu" id="mainMenu" aria-label="Ana navigasyon">
       <div class="container"><ul class="main-menu__list">
-        <li><a href="../blog/index.html">İçerik Kütüphanesi</a></li>
-        <li><a href="tarifler.html">Tarifler</a></li>
+                  <li class="has-megamenu">
+            <a href="../blog/index.html" class="menu-trigger">İçerik Kütüphanesi <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="megamenu">
+              <div class="megamenu__container">
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Popüler Konular</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../index.html#kutuphane">Sağlık Sorunları</a></li>
+                    <li><a href="../index.html#kutuphane">Beslenme</a></li>
+                    <li><a href="../index.html#kutuphane">Sağlıklı Yaşam</a></li>
+                    <li><a href="../index.html#kutuphane">Diyetler</a></li>
+                    <li><a href="../blog/index.html">Keto</a></li>
+                    <li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li>
+                    <li><a href="basari-hikayeleri.html">Başarı Hikayeleri</a></li>
+                    
+                    <li><a href="../blog/index.html" class="megamenu__special-link">Tüm makaleleri gör &rarr;</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Referanslar</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="quizler.html">Sağlık Testleri ve Hesaplayıcılar</a></li>
+                    <li><a href="rehberler.html">Rehberler ve Kaynaklar</a></li>
+                    <li><a href="kurslar.html">Mini Kurslar</a></li>
+                    <li><a href="kurslar.html">Kurslar</a></li>
+                    <li><a href="../index.html#bulten">Üyelik</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Özel Projeler</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../index.html#barkod">Ultra-İşlenmiş Gıda Girişimi</a></li>
+                    <li><a href="longevity.html">Sağlıklı Yaşam ve Hücresel Sağlık</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        <li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li>
         <li><a href="longevity.html">Longevity</a></li>
         <li><a href="rehberler.html">Rehberler</a></li>
         <li><a href="quizler.html">Quizler <span class="new-badge">Yeni</span></a></li>
         <li><a href="basari-hikayeleri.html">Başarı Hikayeleri</a></li>
-        <li><a href="sansursuz-icerik.html">Sansürsüz İçerik</a></li>
-        <li><a href="magaza.html" class="main-menu__shop">Mağaza <span class="sale-badge">İNDİRİM</span></a></li>
+        
+        
       </ul></div>
     </nav>
   </div>
@@ -72,17 +113,17 @@
     <section class="about-hero">
       <div class="container">
         <h1 class="about-hero__title">Dr. Muhammed İkbal Bakırcı</h1>
-        <p class="about-hero__sub">Longevity uzmanı, hekim, eğitimci. Türkiye'nin en büyük sağlık içerik platformunun kurucusu.</p>
+        <p class="about-hero__sub">MD Specialist in Longevity Science, hekim, eğitimci. Türkiye'nin en büyük sağlık içerik platformunun kurucusu.</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
         <div class="about-grid">
-          <img src="https://picsum.photos/seed/drbakırci-portrait/600/750" alt="Dr. Muhammed İkbal Bakırcı" class="about-img" />
+          <img src="../assets/images/generated/doctor-portrait.png" alt="Dr. Muhammed İkbal Bakırcı" class="about-img" />
           <div class="about-content">
             <h2>Biyografi</h2>
-            <p>Dr. Muhammed İkbal Bakırcı, Bursa Uludağ Üniversitesi Tıp Fakültesi'nden mezun olmuş, ardından fonksiyonel tıp ve longevity alanında uluslararası sertifika programlarını tamamlamıştır. 15 yılı aşkın klinik deneyimiyle binlerce hastanın metabolik dönüşümüne rehberlik etmiştir.</p>
+            <p>Dr. Muhammed İkbal Bakırcı, Bursa Uludağ Üniversitesi Tıp Fakültesi'nden mezun olmuş, ardından fonksiyonel tıp ve longevity alanında uluslararası sertifika programlarını tamamlamıştır. 15 yılı aşkın klinik deneyimiyle çokça hastanın metabolik dönüşümüne rehberlik etmiştir.</p>
             <p>2018 yılında başlattığı YouTube kanalı, 2 milyonu aşkın abonesiyle Türkiye'nin en büyük sağlık içerik platformuna dönüşmüştür. Bilimsel araştırmaları anlaşılır Türkçeye çevirerek halk sağlığına katkı sağlamayı misyon edinmiştir.</p>
             <p>Aralıklı oruç, ketojenik beslenme, otofaji, telomer sağlığı ve bütüncül longevity protokolleri konularında Türkiye'nin öncü ismi olan Dr. Bakırcı; klinik çalışmalarına ek olarak yoğun bir eğitim ve içerik üretim programı yürütmektedir.</p>
             <div class="about-stats">
@@ -112,8 +153,8 @@
     <div class="container">
       <div class="footer__top">
         <div class="footer__brand"><a href="../index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div>
-        <div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="longevity.html">Keto</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="magaza.html">Supplementler</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div>
-        <div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="magaza.html">Mağaza</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li><li><a href="iletisim.html">Kariyer</a></li><li><a href="iletisim.html">Basın</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="longevity.html">Keto</a></li><li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li><li><a href="iletisim.html">Kariyer</a></li><li><a href="iletisim.html">Basın</a></li></ul></div>
         <div class="footer__col"><h4 class="footer__heading">Araçlar</h4><ul class="footer__links"><li><a href="sitelerimiz.html">Gıda Tarayıcı</a></li><li><a href="quizler.html">Keto Kalkulatörü</a></li><li><a href="quizler.html">Vücut Tipi Quizi</a></li><li><a href="quizler.html">Sağlık Quizleri</a></li></ul></div>
       </div>
       <div class="footer__disclaimer"><p>* Bu ifadeler Gıda ve İlaç İdaresi tarafından değerlendirilmemiştir.</p></div>

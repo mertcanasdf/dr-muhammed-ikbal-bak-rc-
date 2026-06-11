@@ -77,12 +77,57 @@
   <div class="header-wrapper" id="headerWrapper">
     <div class="utility-nav"><div class="container utility-nav__inner"><nav><a href="sitelerimiz.html">Sitelerimiz</a><a href="hakkinda.html">Hakkında</a><a href="iletisim.html">İletişim</a></nav></div></div>
     <header class="site-header"><div class="container site-header__inner">
-      <a href="../index.html" class="site-logo"><span class="site-logo__text">Dr. Bakırcı</span></a>
-      <div class="header-stats"><div class="header-stat"><span class="header-stat__number">2.400.000+</span><span class="header-stat__label">YouTube Abonesi</span></div><div class="header-stat header-stat--mid"><span class="header-stat__number">1.240</span><span class="header-stat__label">Başarı Hikayesi</span></div><div class="header-stat"><span class="header-stat__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="header-stat__reviews">1.800+ Google Yorumu</span><span class="header-stat__rating">4.8 / 5 puan</span></div></div>
+      <a href="../index.html" class="site-logo" aria-label="Dr. Muhammed İkbal Bakırcı Ana Sayfa">
+          <div class="site-logo__mark">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" fill="var(--blue)" fill-opacity="0.08" stroke="var(--blue)" stroke-width="2"/>
+              <path d="M8 12H11L12.5 8L14 16L15 12H16" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="site-logo__text"><span class="site-logo__dr">Dr.</span> <span class="site-logo__name">Muhammed İkbal</span> <span class="site-logo__surname">Bakırcı</span></span>
+        </a>
+      
       <div class="header-search-wrap"><input type="search" class="header-search-input" placeholder="Ara" /><button class="header-search-btn" aria-label="Ara"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button></div>
-      <div class="header-actions"><a href="#" class="btn-sign-in"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>Giriş Yap</a><button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button></div>
+      <div class="header-actions"><a href="quizler.html" class="btn-header-cta">Quizi Çöz</a><button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button></div>
     </div></header>
-    <nav class="main-menu" id="mainMenu"><div class="container"><ul class="main-menu__list"><li><a href="../blog/index.html">İçerik Kütüphanesi</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="longevity.html">Longevity</a></li><li><a href="rehberler.html">Rehberler</a></li><li><a href="quizler.html" class="active">Quizler <span class="new-badge">Yeni</span></a></li><li><a href="basari-hikayeleri.html">Başarı Hikayeleri</a></li><li><a href="sansursuz-icerik.html">Sansürsüz İçerik</a></li><li><a href="magaza.html" class="main-menu__shop">Mağaza <span class="sale-badge">İNDİRİM</span></a></li></ul></div></nav>
+    <nav class="main-menu" id="mainMenu"><div class="container"><ul class="main-menu__list">          <li class="has-megamenu">
+            <a href="../blog/index.html" class="menu-trigger">İçerik Kütüphanesi <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="megamenu">
+              <div class="megamenu__container">
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Popüler Konular</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../index.html#kutuphane">Sağlık Sorunları</a></li>
+                    <li><a href="../index.html#kutuphane">Beslenme</a></li>
+                    <li><a href="../index.html#kutuphane">Sağlıklı Yaşam</a></li>
+                    <li><a href="../index.html#kutuphane">Diyetler</a></li>
+                    <li><a href="../blog/index.html">Keto</a></li>
+                    <li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li>
+                    <li><a href="basari-hikayeleri.html">Başarı Hikayeleri</a></li>
+                    
+                    <li><a href="../blog/index.html" class="megamenu__special-link">Tüm makaleleri gör &rarr;</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Referanslar</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="quizler.html">Sağlık Testleri ve Hesaplayıcılar</a></li>
+                    <li><a href="rehberler.html">Rehberler ve Kaynaklar</a></li>
+                    <li><a href="kurslar.html">Mini Kurslar</a></li>
+                    <li><a href="kurslar.html">Kurslar</a></li>
+                    <li><a href="../index.html#bulten">Üyelik</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Özel Projeler</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../index.html#barkod">Ultra-İşlenmiş Gıda Girişimi</a></li>
+                    <li><a href="longevity.html">Sağlıklı Yaşam ve Hücresel Sağlık</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li><li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li><li><a href="longevity.html">Longevity</a></li><li><a href="rehberler.html">Rehberler</a></li><li><a href="quizler.html" class="active">Quizler <span class="new-badge">Yeni</span></a></li><li><a href="basari-hikayeleri.html">Başarı Hikayeleri</a></li></ul></div></nav>
   </div>
 
   <main>
@@ -98,46 +143,68 @@
       <div class="quiz-grid">
 
         <div class="quiz-card">
-          <img src="https://placehold.co/800x450/e8f5ee/116149?text=V%C3%BCcut+Tipi+Quizi" alt="Vücut Tipi Quizi" class="quiz-card__img" />
+          <img src="../assets/images/generated/quiz_body_type.png" alt="Vücut Tipi Quizi" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Ücretsiz</span>
             <h3 class="quiz-card__title">Vücut Tipi Quizi</h3>
             <p class="quiz-card__desc">Dr. Berg'in hormonal vücut tipi modeline dayalı değerlendirme. Adrenal, Tiroid, Karaciğer veya Over tipini keşfedin.</p>
-            <div class="quiz-card__meta"><span>8 soru</span><span>~2 dakika</span></div>
-            <button class="btn btn-dark" onclick="openQuiz('vucut')">Quize Başla</button>
+            <div class="quiz-card__meta"><span>12 soru</span><span>~3 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('vucut')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <img src="https://placehold.co/800x450/eaf0ff/1e3a8a?text=Longevity+Skoru" alt="Longevity Skoru" class="quiz-card__img" />
+          <img src="../assets/images/generated/quiz_longevity_score.png" alt="Longevity Skoru" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Ücretsiz</span>
             <h3 class="quiz-card__title">Longevity Skoru</h3>
-            <p class="quiz-card__desc">NOVOS ve DaVinci Labs metodolojisine dayalı biyolojik yaş değerlendirmesi. 10 yaşam tarzı faktörü üzerinden skorunuzu ölçün.</p>
-            <div class="quiz-card__meta"><span>10 soru</span><span>~3 dakika</span></div>
-            <button class="btn btn-dark" onclick="openQuiz('longevity')">Quize Başla</button>
+            <p class="quiz-card__desc">NOVOS ve DaVinci Labs metodolojisine dayalı biyolojik yaş değerlendirmesi. 15 yaşam tarzı faktörü üzerinden skorunuzu ölçün.</p>
+            <div class="quiz-card__meta"><span>15 soru</span><span>~4 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('longevity')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <img src="https://placehold.co/800x450/eef7e8/166534?text=Ba%C4%9F%C4%B1rsak+Sa%C4%9Fl%C4%B1%C4%9F%C4%B1" alt="Bağırsak Sağlığı" class="quiz-card__img" />
+          <img src="../assets/images/generated/quiz_gut_health.png" alt="Bağırsak Sağlığı" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Ücretsiz</span>
             <h3 class="quiz-card__title">Bağırsak Sağlığı Testi</h3>
             <p class="quiz-card__desc">The Gut Health Doctor metodolojisine dayalı değerlendirme. Mikrobiyom sağlığınızı etkileyen yaşam tarzı faktörlerini ölçün.</p>
-            <div class="quiz-card__meta"><span>10 soru</span><span>~2 dakika</span></div>
-            <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Quize Başla</button>
+            <div class="quiz-card__meta"><span>14 soru</span><span>~3 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <img src="https://placehold.co/800x450/fef2f2/991b1b?text=Stres+ve+Kortizol" alt="Stres ve Kortizol" class="quiz-card__img" />
+          <img src="../assets/images/generated/quiz_stress_cortisol.png" alt="Stres ve Kortizol" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Ücretsiz</span>
             <h3 class="quiz-card__title">Stres ve Kortizol Profili</h3>
             <p class="quiz-card__desc">Women's Health Network adrenal değerlendirmesinden uyarlanan test. Kortizol yükünüzü ve adrenal sağlığınızı ölçün.</p>
-            <div class="quiz-card__meta"><span>12 soru</span><span>~3 dakika</span></div>
-            <button class="btn btn-dark" onclick="openQuiz('stres')">Quize Başla</button>
+            <div class="quiz-card__meta"><span>16 soru</span><span>~4 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('stres')">Teste Başla</button>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <img src="../assets/images/generated/quiz_inflammation.png" alt="Enflamasyon ve Otoimmünite" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <span class="quiz-card__tag">Ücretsiz</span>
+            <h3 class="quiz-card__title">Enflamasyon & Otoimmünite Riski</h3>
+            <p class="quiz-card__desc">Sistemik enflamasyon ve otoimmünite risk düzeyinizi ölçün. Beslenme, eklem ve bağırsak hassasiyeti belirteçleri.</p>
+            <div class="quiz-card__meta"><span>8 soru</span><span>~2 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('enflamasyon')">Teste Başla</button>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <img src="../assets/images/generated/quiz_mitochondria.png" alt="Mitokondri ve Hücresel Enerji" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <span class="quiz-card__tag">Ücretsiz</span>
+            <h3 class="quiz-card__title">Mitokondri & Hücresel Enerji Skoru</h3>
+            <p class="quiz-card__desc">Hücresel enerji üretim kapasitenizi ve mitokondriyal sağlığınızı ölçün. Egzersiz, hormesis ve enerji faktörleri.</p>
+            <div class="quiz-card__meta"><span>8 soru</span><span>~2 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('mitokondri')">Teste Başla</button>
           </div>
         </div>
 
@@ -158,7 +225,7 @@
     </div>
   </div>
 
-  <footer class="footer"><div class="container"><div class="footer__top"><div class="footer__brand"><a href="../index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div><div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="magaza.html">Supplementler</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div><div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="magaza.html">Mağaza</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div></div><div class="footer__disclaimer"><p>* Bu değerlendirmeler klinik bir tanı aracı değildir. Yalnızca farkındalık amacıyla tasarlanmıştır. Sağlık sorunlarınız için bir hekim ile görüşün.</p></div><div class="footer__bottom"><nav class="footer__legal"><a href="gizlilik-politikasi.html">Gizlilik Politikası</a><a href="kullanim-kosullari.html">Kullanım Koşulları</a><a href="iletisim.html">İletişim</a></nav><p class="footer__copy">&copy; 2026 Dr. Muhammed İkbal Bakırcı. Tüm hakları saklıdır.</p></div></div></footer>
+  <footer class="footer"><div class="container"><div class="footer__top"><div class="footer__brand"><a href="../index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div><div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div><div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div></div><div class="footer__disclaimer"><p>* Bu değerlendirmeler klinik bir tanı aracı değildir. Yalnızca farkındalık amacıyla tasarlanmıştır. Sağlık sorunlarınız için bir hekim ile görüşün.</p></div><div class="footer__bottom"><nav class="footer__legal"><a href="gizlilik-politikasi.html">Gizlilik Politikası</a><a href="kullanim-kosullari.html">Kullanım Koşulları</a><a href="iletisim.html">İletişim</a></nav><p class="footer__copy">&copy; 2026 Dr. Muhammed İkbal Bakırcı. Tüm hakları saklıdır.</p></div></div></footer>
 
   <script src="../script.js"></script>
   <script>
@@ -170,7 +237,7 @@
     /* ─── 1. VÜCUT TİPİ ─── */
     vucut: {
       title: 'Vücut Tipi Quizi',
-      meta: '8 soru · 2 dakika',
+      meta: '12 soru · 3 dakika',
       questions: [
         {
           text: 'Yağ birikiminin en çok hangi bölgede olduğunu hissediyorsunuz?',
@@ -244,6 +311,42 @@
             { label: 'Hormonlarla ilişkili cilt sorunları (akne, yağlanma)', type: 'over' },
           ]
         },
+        {
+          text: 'Yemeklerden sonra (özellikle yağlı veya ağır öğünlerde) sindirim sisteminiz nasıl tepki veriyor?',
+          options: [
+            { label: 'Bazen, özellikle stresli dönemlerde mideme kramplar giriyor', type: 'adrenal' },
+            { label: 'Genellikle genel bir yavaşlık, aşırı şişkinlik ve kabızlık eşlik ediyor', type: 'tiroid' },
+            { label: 'Sağ kaburga altında dolgunluk, hazımsızlık veya gaz sık yaşanıyor', type: 'karaciger' },
+            { label: 'Genellikle sindirim sistemim gayet rahattır (özel günler hariç)', type: 'over' },
+          ]
+        },
+        {
+          text: 'Egzersiz yaptıktan sonra kendinizi nasıl hissediyorsunuz?',
+          options: [
+            { label: 'Aşırı bitkin düşüyorum ve toparlanmam saatler sürüyor', type: 'adrenal' },
+            { label: 'Genellikle yorgun ve halsiz hissediyorum ama normal sınırlarda kalıyor', type: 'tiroid' },
+            { label: 'Daha enerjik, hafiflemiş ve toksinlerden arınmış gibi hissediyorum', type: 'karaciger' },
+            { label: 'Genellikle gayet dengeli ve iyi hissediyorum', type: 'over' },
+          ]
+        },
+        {
+          text: 'Ortam sıcaklığına karşı genel duyarlılığınız nasıl?',
+          options: [
+            { label: 'Sıcak-soğuk geçişlerinde terleme, çarpıntı veya anksiyete hissi oluşuyor', type: 'adrenal' },
+            { label: 'Soğuğa aşırı hassasım; ellerim ve ayaklarım neredeyse hiç ısınmaz', type: 'tiroid' },
+            { label: 'Vücudumda içsel bir hararet var, sıcak basması ve terleme sık olur', type: 'karaciger' },
+            { label: 'Dönemsel (özellikle adet öncesi/menopoz dönemi) sıcak basmaları yaşıyorum', type: 'over' },
+          ]
+        },
+        {
+          text: 'Zihinsel odaklanma ve gün içi konsantrasyon durumunuzu en iyi hangisi tarif eder?',
+          options: [
+            { label: 'Yoğun beyin sisi yaşıyorum; özellikle öğleden sonra odaklanmak imkansızlaşıyor', type: 'adrenal' },
+            { label: 'Sürekli bir uyuşukluk, odaklanma güçlüğü ve zihinsel yavaşlık hissediyorum', type: 'tiroid' },
+            { label: 'Sabahları odaksız ve huysuzum ancak gün ortasında zihnim tamamen açılıyor', type: 'karaciger' },
+            { label: 'Hormonal döngüme bağlı olarak konsantrasyonum ve unutkanlığım çok değişken', type: 'over' },
+          ]
+        },
       ],
       scoring: 'type',
       types: {
@@ -281,7 +384,7 @@
     /* ─── 2. LONGEVİTY SKORU ─── */
     longevity: {
       title: 'Longevity Skoru',
-      meta: '10 soru · 3 dakika',
+      meta: '15 soru · 4 dakika',
       questions: [
         {
           text: 'Haftada kaç gün en az 30 dakika egzersiz yapıyorsunuz?',
@@ -373,29 +476,72 @@
             { label: 'Çok fazla, korumasız maruziyet', pts: 1 },
           ]
         },
+        {
+          text: 'Her gün düzenli olarak diş ipi kullanıyor ve ağız hijyeninize dikkat ediyor musunuz? (Ağız sağlığı sistemik inflamasyonla doğrudan ilişkilidir)',
+          options: [
+            { label: 'Evet, her gün düzenli olarak diş ipi kullanırım', pts: 3 },
+            { label: 'Evet, dişlerimi fırçalarım ama diş ipini ara sıra kullanırım', pts: 1 },
+            { label: 'Hayır, diş ipi kullanma alışkanlığım yok', pts: 0 },
+          ]
+        },
+        {
+          text: 'Haftada kaç gün kas kütlenizi korumaya yönelik direnç/kuvvet antrenmanı (ağırlık, pilates, vücut ağırlığı) yapıyorsunuz?',
+          options: [
+            { label: '3 gün veya daha fazla (düzenli kuvvet antrenmanı)', pts: 3 },
+            { label: 'Haftada 1–2 gün', pts: 2 },
+            { label: 'Düzensiz veya çok nadir', pts: 1 },
+            { label: 'Hiç kuvvet antrenmanı yapmıyorum', pts: 0 },
+          ]
+        },
+        {
+          text: 'Ailenizde (1. veya 2. derece akrabalarda) kronik hastalıklara yakalanmadan 85+ yaşını görmüş bireyler var mı?',
+          options: [
+            { label: 'Evet, birden fazla uzun yaşayan aile büyüğüm var', pts: 3 },
+            { label: 'Evet, en az bir kişi var', pts: 2 },
+            { label: 'Hayır veya aile geçmişimi tam bilmiyorum', pts: 1 },
+          ]
+        },
+        {
+          text: 'Günde ortalama ne kadar temiz su tüketiyorsunuz?',
+          options: [
+            { label: '2–3 litre (düzenli ve ideal hidrasyon)', pts: 3 },
+            { label: '1–2 litre arası', pts: 2 },
+            { label: '1 litreden az, sadece susadıkça içerim', pts: 0 },
+            { label: '4 litreden fazla veya çoğunlukla çay/kahve tüketimi', pts: 1 },
+          ]
+        },
+        {
+          text: 'Zihninizi aktif tutmak için ne kadar sıklıkla yeni bilgiler öğreniyor, kitap okuyor veya zihinsel strateji/bulmaca oyunları oynuyorsunuz?',
+          options: [
+            { label: 'Her gün düzenli olarak zihnimi zorlayacak aktiviteler yaparım', pts: 3 },
+            { label: 'Haftada birkaç kez vakit ayırırım', pts: 2 },
+            { label: 'Nadiren veya rutin zihinsel işler dışına çıkmam', pts: 1 },
+            { label: 'Zihnimi aktif tutacak özel bir uğraşım yok', pts: 0 },
+          ]
+        },
       ],
       scoring: 'points',
-      maxPoints: 30,
+      maxPoints: 45,
       levels: [
-        { min: 0,  max: 9,  label: 'Kritik Bölge', title: 'Biyolojik Yaşınız Kronolojik Yaşınızı Aşıyor', pct: 20,
+        { min: 0,  max: 14,  label: 'Kritik Bölge', title: 'Biyolojik Yaşınız Kronolojik Yaşınızı Aşıyor', pct: 20,
           desc: 'Mevcut yaşam tarzınız biyolojik yaşlanmayı önemli ölçüde hızlandırıyor olabilir. Araştırmalar, yaşlanmayı etkileyen faktörlerin %80\'inin yaşam tarzıyla ilişkili olduğunu gösteriyor. Küçük ama tutarlı değişiklikler büyük fark yaratır.',
           tips: ['Önce uyku kalitesini düzeltin — tüm sistemlerin temelidir', 'Günlük 15 dakika yürüyüşle başlayın', 'İşlenmiş gıdaları azaltmak en hızlı etki yaratan değişikliktir', 'D3 vitamini ve Omega-3 takviyesi başlangıç için idealdir'] },
-        { min: 10, max: 18, label: 'Gelişim Alanı', title: 'Ortalama — Birkaç Kritik Faktör Dikkat İster', pct: 50,
+        { min: 15, max: 27, label: 'Gelişim Alanı', title: 'Ortalama — Birkaç Kritik Faktör Dikkat İster', pct: 50,
           desc: 'Bazı alanlarda iyi gidiyorsunuz, ancak biyolojik yaşlanmayı hızlandıran birkaç önemli faktör var. Odaklı değişikliklerle skoru anlamlı biçimde artırabilirsiniz.',
           tips: ['Egzersiz sıklığını haftada 4 güne çıkarmayı hedefleyin', 'Uyku süresini 7 saatin altına düşürmeyin', 'Stres yönetimi için günlük bir pratik belirleyin', 'Bitki çeşitliliğinizi artırın — haftada 30 farklı bitki hedefleyin'] },
-        { min: 19, max: 24, label: 'İyi Skor', title: 'İyi — Biyolojik Yaşınız Kronolojik Yaşınıza Yakın', pct: 78,
+        { min: 28, max: 36, label: 'İyi Skor', title: 'İyi — Biyolojik Yaşınız Kronolojik Yaşınıza Yakın', pct: 78,
           desc: 'Longevity açısından güçlü bir temel oluşturmuşsunuz. Mevcut alışkanlıklarınız biyolojik yaşlanmayı yavaşlatıyor. Birkaç ince ayarla mükemmel seviyeye ulaşabilirsiniz.',
           tips: ['Bölge 2 kardiyo ile mitokondriyal kapasiteyi artırın', 'Protein alımını optimize edin (vücut ağırlığının gr/kg olarak 1.6–2.2g)', 'Sauna veya soğuk duş gibi hormesis protokollerini deneyin', 'Yıllık kan tahlili ile biyobelirteçleri takip edin'] },
-        { min: 25, max: 30, label: 'Mükemmel', title: 'Mükemmel — Biyolojik Yaşınız Kronolojik Yaşınızdan Genç', pct: 96,
+        { min: 37, max: 45, label: 'Mükemmel', title: 'Mükemmel — Biyolojik Yaşınız Kronolojik Yaşınızdan Genç', pct: 96,
           desc: 'Longevity yaşam tarzını büyük ölçüde benimsemişsiniz. Biyolojik yaşınızın kronolojik yaşınızın altında olması kuvvetle muhtemel. Bu alışkanlıkları sürdürmek en kritik adımdır.',
-          tips: ['Epigenetik yaş testleri ile biyolojik yaşınızı ölçebilirsiniz', 'NMN, Resveratrol gibi longevity takviyelerini araştırın', 'VO2 max takibi ile kardiyorespiratuar kapasiteyi izleyin', 'Kan şekeri monitörü ile metabolik sağlığı gerçek zamanlı takip edin'] },
+          tips: ['Epigenetik yaş testleri ile biyolojik yaşınızı ölçebilirsiniz', 'NMN, Resveratrol gibi longevity takviyelerini araştırın', 'VO2 max takipi ile kardiyorespiratuar kapasiteyi izleyin', 'Kan şekeri monitörü ile metabolik sağlığı gerçek zamanlı takip edin'] },
       ]
     },
 
     /* ─── 3. BAĞIRSAK SAĞLIĞI ─── */
     'bagırsak': {
       title: 'Bağırsak Sağlığı Testi',
-      meta: '10 soru · 2 dakika',
+      meta: '14 soru · 3 dakika',
       questions: [
         {
           text: 'Şişkinlik, reflü, gaz veya kabızlık gibi sindirim belirtilerinden ne sıklıkla rahatsız oluyorsunuz?',
@@ -476,29 +622,64 @@
             { label: 'Haftada 3 veya daha fazla', pts: 3 },
           ]
         },
+        {
+          text: 'Dışkı formunuz ve tuvalet düzeniniz genellikle nasıldır? (Bristol Dışkı Skalası)',
+          options: [
+            { label: 'Pürüzsüz, sosis şeklinde ve rahat tahliye (İdeal Tip 3–4)', pts: 3 },
+            { label: 'Sert, parça parça veya kabızlık eğilimli (Tip 1–2)', pts: 1 },
+            { label: 'Yumuşak, kenarları düzensiz veya ishal eğilimli (Tip 5–6)', pts: 1 },
+            { label: 'Aşırı değişken veya kronik düzensizlik var', pts: 0 },
+          ]
+        },
+        {
+          text: 'Haftada ne kadar fermente canlı gıda (kefir, ev yapımı yoğurt, lahana turşusu, kombucha vb.) tüketiyorsunuz?',
+          options: [
+            { label: 'Her gün en az 1–2 porsiyon düzenli tüketirim', pts: 3 },
+            { label: 'Haftada 2–3 kez tüketirim', pts: 2 },
+            { label: 'Nadiren tüketirim', pts: 1 },
+            { label: 'Hiç tüketmiyorum', pts: 0 },
+          ]
+        },
+        {
+          text: 'Diyetinizde paketli şekerler, yapay tatlandırıcılar veya gazlı/şekerli içecekler ne kadar sıklıkla yer alıyor? (Disbiyozis riski)',
+          options: [
+            { label: 'Neredeyse hiç tüketmem, tamamen uzağım', pts: 3 },
+            { label: 'Nadiren veya sadece özel günlerde', pts: 2 },
+            { label: 'Haftada birkaç kez tüketiyorum', pts: 1 },
+            { label: 'Her gün düzenli olarak tüketirim', pts: 0 },
+          ]
+        },
+        {
+          text: 'Yemeklerinizi ne kadar hızlı yersiniz ve ne kadar çiğnersiniz?',
+          options: [
+            { label: 'Çok yavaş yerim, her lokmayı en az 20–30 kez çiğnerim', pts: 3 },
+            { label: 'Orta hızda yerim, normal çiğneme alışkanlığım var', pts: 2 },
+            { label: 'Hızlı yerim, lokmaları çok fazla çiğnemeden yutarım', pts: 0 },
+          ]
+        },
       ],
       scoring: 'points',
-      maxPoints: 30,
+      maxPoints: 42,
       levels: [
-        { min: 0,  max: 10, label: 'Dikkat Gerektiriyor', title: 'Bağırsak Sağlığınız Ciddi Destek İsteyebilir', pct: 22,
+        { min: 0,  max: 14, label: 'Dikkat Gerektiriyor', title: 'Bağırsak Sağlığınız Ciddi Destek İsteyebilir', pct: 22,
           desc: 'Bağırsak mikrobiyomunuz önemli baskı altında olabilir. Bağırsak sağlığı yalnızca sindirimle sınırlı değil; bağışıklık sisteminizin %70\'i bağırsakta yer alır ve beyin sağlığınızla da doğrudan bağlantılıdır.',
           tips: ['Probiyotik gıdalar ekleyin (kefir, yoğurt, turşu)', 'İşlenmiş şeker ve tatlandırıcıları azaltın', 'Bitkisel çeşitlilik en güçlü mikrobiyom destekçisidir', 'Stres yönetimi bağırsak-beyin aksını doğrudan etkiler', 'Prebiyotik lif kaynakları: soğan, sarımsak, yeruşalim enginarı'] },
-        { min: 11, max: 18, label: 'Gelişime Açık', title: 'Ortalama Bağırsak Sağlığı — İyileştirilecek Alanlar Var', pct: 52,
+        { min: 15, max: 25, label: 'Gelişime Açık', title: 'Ortalama Bağırsak Sağlığı — İyileştirilecek Alanlar Var', pct: 52,
           desc: 'Bağırsak sağlığınız ortalama düzeyde. Bazı iyi alışkanlıklarınız var, ancak mikrobiyomunuz daha iyi desteklenebilir.',
           tips: ['Haftada 30 farklı bitki hedefleyin — bu en kanıtlı stratejidir', 'Fermente gıda tüketimini artırın', 'Antibiyotik kullandıktan sonra mutlaka probiyotik alın', 'Uyku süresini 7 saatin üzerine çıkarın'] },
-        { min: 19, max: 24, label: 'İyi', title: 'İyi Bağırsak Sağlığı — Güçlü Mikrobiyom', pct: 76,
+        { min: 26, max: 34, label: 'İyi', title: 'İyi Bağırsak Sağlığı — Güçlü Mikrobiyom', pct: 76,
           desc: 'Bağırsak sağlığınız iyi durumda. Alışkanlıklarınız mikrobiyomun çeşitliliğini ve dengesini destekliyor.',
           tips: ['Polifenol zengini gıdaları artırın (blueberry, zeytin yağı, yeşil çay)', 'Mevsimsel ve yerel üretim gıdalar daha zengin mikrobiyom destekler', 'Stres yönetimini sürdürün — bağırsak-beyin aksı güçlü'] },
-        { min: 25, max: 30, label: 'Mükemmel', title: 'Olağanüstü Bağırsak Sağlığı', pct: 95,
+        { min: 35, max: 42, label: 'Mükemmel', title: 'Olağanüstü Bağırsak Sağlığı', pct: 95,
           desc: 'Mikrobiyomunuz sağlıklı bir çeşitliliğe ve dengeye sahip olma ihtimali yüksek. Bu alışkanlıkları sürdürmek uzun vadede bağışıklık ve beyin sağlığı üzerinde güçlü koruyucu etki yapar.',
-          tips: ['Bağırsak mikrobiyom testi ile profilinizi somut olarak görün', 'Mevsimsel gıda programınızı çeşitlendirin', 'Polifenol ve prebiyotik takviyelerini araştırın'] },
+          tips: ['Bağırsak mikrobiyom testi ile profilinizi somut olarak görün', 'Mevsimsel gıda programınızı çeşitlendiren', 'Polifenol ve prebiyotik takviyelerini araştırın'] },
       ]
     },
 
     /* ─── 4. STRES & KORTİZOL ─── */
     stres: {
       title: 'Stres ve Kortizol Profili',
-      meta: '12 soru · 3 dakika',
+      meta: '16 soru · 4 dakika',
       note: 'Her soruya Evet veya Hayır ile yanıt verin.',
       questions: [
         { text: 'Uyuya dalmakta veya gece uykuyu sürdürmekte güçlük çekiyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
@@ -513,22 +694,141 @@
         { text: 'Çarpıntı veya kalp ritmi düzensizliği hissediyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
         { text: 'Sık sık hastalanıyor, soğuk algınlığından çabuk etkileniyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
         { text: 'Karbonhidrat veya şekerli yiyecek yedikten 1–3 saat sonra enerji çöküşü yaşıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Güneş ışığına karşı aşırı duyarlılığınız var mı? (Açık havada güneş gözlüğü olmadan gözlerinizi kısmak veya açamamak)', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Otururken aniden ayağa kalktığınızda baş dönmesi, tansiyon düşmesi veya göz kararması yaşıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Günlük hayattaki küçük aksilikler veya önemsiz engeller karşısında aşırı öfke, tahammülsüzlük veya aniden ağlama isteği duyuyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Sabahları ayılabilmek için kahveye/kafeine mutlak bağımlılık hissediyor musunuz veya kahve içtiğinizde artık uykunuzu açmıyor mu?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
       ],
       scoring: 'points',
-      maxPoints: 12,
+      maxPoints: 16,
       levels: [
-        { min: 0,  max: 3,  label: 'Dengeli', title: 'Kortizol Dengeniz Sağlıklı', pct: 88,
+        { min: 0,  max: 4,  label: 'Dengeli', title: 'Kortizol Dengeniz Sağlıklı', pct: 88,
           desc: 'Adrenal bezleriniz iyi çalışıyor ve kortizol ritminiz dengeli görünüyor. Mevcut stres yönetimi alışkanlıklarınızı sürdürün.',
           tips: ['Mevcut uyku ve stres düzeninizi koruyun', 'Adaptogen bitkiler (Ashwagandha, Rhodiola) önleyici kullanılabilir', 'Düzenli egzersiz kortizol ritmini güçlü tutar'] },
-        { min: 4,  max: 6,  label: 'Hafif Yüksek', title: 'Hafif Adrenal Yüklenme — Dikkat Edin', pct: 55,
+        { min: 5,  max: 8,  label: 'Hafif Yüksek', title: 'Hafif Adrenal Yüklenme — Dikkat Edin', pct: 55,
           desc: 'Adrenal bezleriniz normalden biraz daha fazla çalışıyor. Bu aşamada alınacak önlemler ciddi tükenmişliği önler.',
           tips: ['Magnezyum glisin akşam saatlerinde kortizolü düşürür', 'Kafein tüketimini öğleden sonra sıfıra indirin', 'Adaptogen bitkiler (Ashwagandha) denenebilir', 'Günde 10 dakika derin nefes veya meditasyon', 'Karbonhidrat yüklü öğünlerden kaçının'] },
-        { min: 7,  max: 9,  label: 'Orta Düzey', title: 'Orta Düzey Adrenal Stres — Değişiklik Gerekli', pct: 35,
+        { min: 9,  max: 12,  label: 'Orta Düzey', title: 'Orta Düzey Adrenal Stres — Değişiklik Gerekli', pct: 35,
           desc: 'Kortizol seviyeniz kronik olarak yüksek olabilir. Bu durum kas kaybına, yağ birikimine, bağışıklık zayıflamasına ve beyin sağlığına zarar verebilir.',
           tips: ['Uyku öncelik #1 olmalı — 7 saatin altına düşmeyin', 'Stres kaynaklarınızı aktif olarak azaltın', 'Yüksek yoğunluklu egzersizi geçici olarak azaltın', 'Fonksiyonel tıp doktoru ile kortizol ritmi testi yaptırabilirsiniz', 'B5 vitamini (pantotenik asit) adrenal destek için kritik'] },
-        { min: 10, max: 12, label: 'Yüksek Yük', title: 'Yüksek Kortizol Yükü — Profesyonel Destek Önerilir', pct: 12,
+        { min: 13, max: 16, label: 'Yüksek Yük', title: 'Yüksek Kortizol Yükü — Profesyonel Destek Önerilir', pct: 12,
           desc: 'Adrenal bezleriniz uzun süredir aşırı yüklenmiş olabilir. Bu durum "adrenal tükenmişlik" olarak bilinen tabloya işaret edebilir. Semptomlarınız için bir fonksiyonel tıp uzmanıyla görüşmeniz önemlidir.',
           tips: ['Doktor gözetiminde kortizol ve DHEA testi yaptırın', 'Tüm yüksek yoğunluklu egzersizi geçici olarak bırakın', 'Adaptogen protokolü: Ashwagandha + Rhodiola + Eleuthero', 'Şeker ve kafein tamamen kesin', 'Günde minimum 8 saat uyku ve öğle uykusu deneyin'] },
+      ]
+    },
+
+    /* ─── 5. ENFLAMASYON VE OTOİMMÜNİTE ─── */
+    enflamasyon: {
+      title: 'Enflamasyon & Otoimmünite Riski',
+      meta: '8 soru · 2 dakika',
+      note: 'Her soruya Evet veya Hayır ile yanıt verin.',
+      questions: [
+        { text: 'Sık sık eklem ağrısı, kas sızısı veya vücudunuzda gezen açıklanamayan ağrılar yaşıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Yemeklerden sonra veya gün içinde aniden oluşan beyin sisi, konsantrasyon kaybı ya da zihinsel yorgunluk var mı?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Cildinizde sık sık kaşıntı, kızarıklık, kuruluk, döküntü, egzama veya sedef benzeri lezyonlar görülüyor mu?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Sık sık gaz, şişkinlik, karın ağrısı veya bazı gıdaları yedikten sonra (gluten, süt ürünleri vb.) rahatsızlık hissediyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Yeterince uyumanıza rağmen geçmeyen kronik yorgunluk ve sabahları yataktan kalkmakta aşırı zorlanma var mı?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Alerji, astım, kronik sinüzit veya sık tekrarlayan otoimmün kaynaklı (tiroidit, haşimato vb.) rahatsızlıklarınız var mı?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'Ailenizde birinci derece yakınlarda otoimmün hastalık (Haşimato, Romatoid Artrit, Sedef, Çölyak vb.) öyküsü var mı?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+        { text: 'İşlenmiş gıdalar, şeker, rafine un ve bitkisel tohum yağlarını (çiçek yağı, mısır yağı vb.) sık tüketiyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
+      ],
+      scoring: 'points',
+      maxPoints: 8,
+      levels: [
+        { min: 0, max: 2, label: 'Düşük Risk', title: 'Sistemik Enflamasyon Seviyeniz Düşük', pct: 90,
+          desc: 'Tebrikler! Vücudunuzda belirgin bir kronik enflamasyon veya otoimmünite tetikleyicisi bulunmuyor. Bu dengeli durumu korumak uzun vadeli longevity için en kritik adımdır.',
+          tips: ['Anti-inflamatuar beslenmeyi sürdürün', 'Polifenol zengini sızma zeytinyağı ve yaban mersini tüketin', 'Antioksidan kapasite için yeşil çay tercih edin'] },
+        { min: 3, max: 5, label: 'Orta Risk', title: 'Hafif / Orta Düzey Enflamasyon Yükü', pct: 55,
+          desc: 'Vücudunuzda hafif veya orta düzeyde bir enflamasyon yükü olabilir. Genellikle yaşam tarzı ve beslenme değişiklikleriyle bu tabloyu tamamen tersine çevirmek mümkündür.',
+          tips: ['Şeker, beyaz un ve tohum yağlarını diyetinizden tamamen çıkarın', 'Bağırsak astarını korumak için kemik suyu tüketin', 'Omega-3 (Balık yağı) takviyesi enflamasyon sönümlemeye yardımcı olur', 'Haftada en az 150 dakika egzersiz yapın'] },
+        { min: 6, max: 8, label: 'Yüksek Risk', title: 'Yüksek Enflamasyon ve Otoimmün Uyarılım', pct: 20,
+          desc: 'Sistemik enflamasyon ve otoimmünite yükünüz yüksek görünüyor. Kronik sessiz enflamasyon, hücresel yaşlanmayı (inflammaging) hızlandırır. Bir fonksiyonel tıp uzmanından veya hekimden profesyonel destek almanız tavsiye edilir.',
+          tips: ['Eliminasyon diyeti uygulayarak gluten ve süt ürünlerini 21 gün kesin', 'D3 Vitamini seviyenizi 60-80 ng/ml bandına çıkarmayı hedefleyin', 'Zerdeçal (Kurkumin) ve Resveratrol gibi güçlü doğal anti-inflamatuarlar kullanın', 'Bağırsak geçirgenliğini azaltmak için L-Glutamin desteğini araştırın'] },
+      ]
+    },
+
+    /* ─── 6. MİTOKONDRİ VE HÜCRESEL ENERJİ ─── */
+    mitokondri: {
+      title: 'Mitokondri & Hücresel Enerji Skoru',
+      meta: '8 soru · 2 dakika',
+      questions: [
+        {
+          text: 'Haftada kaç gün en az 30-40 dakika süren Bölge 2 (Zone 2) kardiyo (nefes nefese kalmadan hızlı yürüyüş/hafif koşu) yapıyorsunuz?',
+          options: [
+            { label: '3 gün veya daha fazla', pts: 3 },
+            { label: 'Haftada 1–2 gün', pts: 2 },
+            { label: 'Ayda birkaç kez veya hiç yapmıyorum', pts: 0 }
+          ]
+        },
+        {
+          text: 'Sabahları güneş ışığına maruz kaldıktan sonra enerjiniz nasıl etkileniyor?',
+          options: [
+            { label: 'Hemen canlanıyorum, zihnim açılıyor ve enerjim artıyor', pts: 3 },
+            { label: 'Biraz daha zinde hissettiriyor', pts: 2 },
+            { label: 'Pek bir etki hissetmiyorum veya yorgun olmaya devam ediyorum', pts: 0 }
+          ]
+        },
+        {
+          text: 'Soğuk duş, buz banyosu veya sauna (hormesis) gibi termal şok uygulamalarını ne sıklıkla yapıyorsunuz?',
+          options: [
+            { label: 'Haftada 2-3 kez veya daha fazla düzenli yaparım', pts: 3 },
+            { label: 'Haftada 1 kez veya çok nadiren yaparım', pts: 1 },
+            { label: 'Hiç yapmıyorum/tahammül edemiyorum', pts: 0 }
+          ]
+        },
+        {
+          text: 'Yoğun bir antrenman veya gün içi aşırı fiziksel aktivite sonrası toparlanma (recovery) hızınız nasıldır?',
+          options: [
+            { label: 'Çok hızlı, kısa bir dinlenmeyle hemen kendime gelirim', pts: 3 },
+            { label: 'Orta düzeyde, ertesi gün biraz hamlık sızısı kalır', pts: 2 },
+            { label: 'Çok yavaş, günlerce yorgunluk ve kas ağrısı sürer', pts: 0 }
+          ]
+        },
+        {
+          text: 'CoQ10, NAD+, Alpha Lipoic Acid veya Magnezyum gibi mitokondriyal enerji takviyelerini kullanıyor musunuz?',
+          options: [
+            { label: 'Evet, düzenli veya periyodik olarak kullanıyorum', pts: 3 },
+            { label: 'Ara sıra veya sadece magnezyum kullanıyorum', pts: 2 },
+            { label: 'Hayır, hiç kullanmıyorum', pts: 0 }
+          ]
+        },
+        {
+          text: 'Gün içinde kafein (kahve, çay, enerji içeceği) almadan enerjinizi koruyabiliyor musunuz?',
+          options: [
+            { label: 'Evet, sabahları da gün içinde de doğal olarak enerjim yerindedir', pts: 3 },
+            { label: 'Öğleden sonraları hafif bir çöküş yaşıyor ve kahveye ihtiyaç duyuyorum', pts: 2 },
+            { label: 'Hayır, kafeinsiz ayılamıyorum ve gün boyu bitkinim', pts: 0 }
+          ]
+        },
+        {
+          text: 'Kas gücünüzü ve fiziksel dayanıklılığınızı yaşınıza göre nasıl değerlendiriyorsunuz?',
+          options: [
+            { label: 'Ortalamanın üzerinde, güçlü ve oldukça dayanıklıyım', pts: 3 },
+            { label: 'Ortalama düzeydeyim, normal bir gücüm var', pts: 2 },
+            { label: 'Zayıf, dayanıksız ve çabuk yorulan bir yapıdayım', pts: 0 }
+          ]
+        },
+        {
+          text: 'Zihinsel netliğiniz ve hafıza performansınız genellikle nasıldır?',
+          options: [
+            { label: 'Çok berrak ve keskin bir zihne sahibim, unutkanlık yaşamam', pts: 3 },
+            { label: 'Ara sıra hafif unutkanlık veya dikkat dağınıklığı yaşıyorum', pts: 2 },
+            { label: 'Sık sık beyin sisi ve zihinsel uyuşukluk yaşıyorum', pts: 0 }
+          ]
+        }
+      ],
+      scoring: 'points',
+      maxPoints: 24,
+      levels: [
+        { min: 0, max: 8, label: 'Düşük Kapasite', title: 'Mitokondriyal Kapasiteniz Düşük Olabilir', pct: 25,
+          desc: 'Mitokondrileriniz (hücresel enerji santralleriniz) yeterli verimle çalışmıyor olabilir. Bu durum kronik yorgunluğa, erken yaşlanmaya ve hücresel yıpranmaya zemin hazırlar. Mitokondriyal biyogenezi (yeni mitokondri yapımını) tetiklemek ilk önceliğiniz olmalıdır.',
+          tips: ['Haftada en az 3 gün Bölge 2 (Zone 2) nabız aralığında antrenman yapın', 'Koenzim Q10 (CoQ10) ve PQQ takviyelerini araştırın', 'Hücresel NAD+ seviyelerini artırmak için NMN veya NR desteğini değerlendirin', 'Her sabah soğuk duş ile hormetik stresi uyarın'] },
+        { min: 9, max: 17, label: 'Orta Kapasite', title: 'Orta Düzey Hücresel Enerji Kapasitesi', pct: 60,
+          desc: 'Mitokondriyal sağlığınız ortalama düzeyde. Günlük işlerinizi yürütecek enerjiniz var, ancak mitokondri sayınızı ve verimliliğinizi artırarak yaşlanmayı belirgin ölçüde yavaşlatabilirsiniz.',
+          tips: ['Aralıklı oruç ve kalori kısıtlaması otofaji yoluyla hasarlı mitokondrileri temizler (mitofaji)', 'Magnezyum ve B vitaminleri hücresel Krebs döngüsü için esastır', 'Sauna ve soğuk banyo maruziyetini haftada 1-2 keze çıkarın'] },
+        { min: 18, max: 24, label: 'Yüksek Kapasite', title: 'Mükemmel Mitokondriyal Sağlık!', pct: 95,
+          desc: 'Harika! Hücresel motorlarınız son derece yüksek verimle çalışıyor. Bu durum yüksek zihinsel netlik, hızlı kas toparlanması ve biyolojik gençleşme ile doğrudan ilişkilidir.',
+          tips: ['Mevcut Zone 2 kardiyo ve direnç antrenmanı rutininizi koruyun', 'Antioksidan kapasiteyi en üstte tutmak için Alpha Lipoic Acid ve Glutatyon öncüllerini araştırın', 'Periyodik mitokondriyal detoks (derin oruçlar) uygulayın'] },
       ]
     }
   };

@@ -5,71 +5,47 @@ document.addEventListener('DOMContentLoaded', () => {
     const p = (location.pathname.includes('/blog/') || location.pathname.includes('/pages/')) ? '../' : '';
 
     const MENUS = {
-      'İçerik Kütüphanesi': {
-        wide: true,
-        items: [
-          { href: p + 'blog/otofaji-nedir.html',            label: 'Otofaji',              desc: 'Hücresel temizlik & geri dönüşüm' },
-          { href: p + 'blog/aralikli-oruc-longevity.html',  label: 'Aralıklı Oruç',        desc: 'Metabolik sağlık protokolü' },
-          { href: p + 'blog/telomerleri-korumak.html',      label: 'Telomerler',           desc: 'Biyolojik yaşı yavaşlatın' },
-          { href: p + 'blog/nmn-nad-yaslanma.html',         label: 'NMN & NAD+',           desc: 'Hücresel enerji desteği' },
-          { href: p + 'blog/mavi-bolge-diyeti.html',        label: 'Mavi Bölge Diyeti',    desc: 'Uzun ömürlülüğün sırları' },
-          { href: p + 'blog/bolge-2-kardiyo.html',          label: 'Bölge 2 Kardiyo',      desc: 'Longevity egzersizi' },
-          { href: p + 'blog/kortizol-yaslanma.html',        label: 'Kortizol & Stres',     desc: 'Kronik stresin bedeli' },
-          { href: p + 'blog/d3-vitamini-eksikligi.html',    label: 'D3 Vitamini',          desc: 'Kritik eksiklik tespiti' },
-        ],
-        footer: { href: p + 'blog/index.html', label: 'Tüm makaleleri gör →' },
-      },
-      'Tarifler': {
+      'Dünyada Sağlık': {
         wide: false,
         items: [
-          { href: p + 'pages/tarifler.html', label: 'Kahvaltı Tarifleri',   desc: 'Keto kahvaltı seçenekleri' },
-          { href: p + 'pages/tarifler.html', label: 'Ana Yemekler',         desc: 'Düşük karbonhidratlı öğünler' },
-          { href: p + 'pages/tarifler.html', label: 'Atıştırmalıklar',      desc: 'Sağlıklı ara öğünler' },
-          { href: p + 'pages/tarifler.html', label: 'İçecek & Smoothie',    desc: 'Longevity içecekleri' },
+          { href: p + 'pages/dunyada-saglik.html', label: 'Global Gelişmeler' },
+          { href: p + 'pages/dunyada-saglik.html', label: 'Bilimsel Araştırmalar' },
+          { href: p + 'pages/dunyada-saglik.html', label: 'Longevity Keşifleri' },
+          { href: p + 'pages/dunyada-saglik.html', label: 'Sağlık Trendleri' },
         ],
-        footer: { href: p + 'pages/tarifler.html', label: 'Tüm tarifleri gör →' },
+        footer: { href: p + 'pages/dunyada-saglik.html', label: 'Tüm gelişmeleri gör →' },
       },
       'Longevity': {
         wide: false,
         items: [
-          { href: p + 'blog/otofaji-nedir.html',           label: 'Hücresel Temizlik',       desc: 'Otofaji & mitofaji' },
-          { href: p + 'blog/aralikli-oruc-longevity.html', label: 'Metabolik Sağlık',         desc: 'İnsülin & kan şekeri' },
-          { href: p + 'blog/bolge-2-kardiyo.html',         label: 'Kardiyorespiratuar Kapasite', desc: 'VO₂ max & kalp sağlığı' },
-          { href: p + 'blog/kortizol-yaslanma.html',       label: 'Beyin Sağlığı',            desc: 'Nöroplastisite & bilişsel rezerv' },
-          { href: p + 'blog/telomerleri-korumak.html',     label: 'Uzun Ömür Biyolojisi',     desc: 'Telomer & epigenetik yaşlanma' },
+          { href: p + 'blog/otofaji-nedir.html',           label: 'Hücresel Temizlik' },
+          { href: p + 'blog/aralikli-oruc-longevity.html', label: 'Metabolik Sağlık' },
+          { href: p + 'blog/bolge-2-kardiyo.html',         label: 'Kardiyorespiratuar Kapasite' },
+          { href: p + 'blog/kortizol-yaslanma.html',       label: 'Beyin Sağlığı' },
+          { href: p + 'blog/telomerleri-korumak.html',     label: 'Uzun Ömür Biyolojisi' },
         ],
         footer: { href: p + 'pages/longevity.html', label: 'Longevity sayfasına git →' },
       },
       'Rehberler': {
         wide: false,
         items: [
-          { href: p + 'blog/aralikli-oruc-longevity.html', label: '16:8 Aralıklı Oruç',   desc: 'Adım adım başlangıç rehberi' },
-          { href: p + 'blog/aralikli-oruc-longevity.html', label: 'Ketojenik Diyete Geçiş', desc: 'Yan etkileri minimize edin' },
-          { href: p + 'blog/telomerleri-korumak.html',     label: 'Uyku Optimizasyonu',   desc: 'Derin uyku protokolü' },
-          { href: p + 'blog/bolge-2-kardiyo.html',         label: 'Longevity Egzersizi',  desc: 'Haftalık program' },
-          { href: p + 'blog/kortizol-yaslanma.html',       label: 'Kortizol Kontrolü',    desc: 'Stres yönetimi protokolü' },
+          { href: p + 'blog/aralikli-oruc-longevity.html', label: '16:8 Aralıklı Oruç' },
+          { href: p + 'blog/aralikli-oruc-longevity.html', label: 'Ketojenik Diyete Geçiş' },
+          { href: p + 'blog/telomerleri-korumak.html',     label: 'Uyku Optimizasyonu' },
+          { href: p + 'blog/bolge-2-kardiyo.html',         label: 'Longevity Egzersizi' },
+          { href: p + 'blog/kortizol-yaslanma.html',       label: 'Kortizol Kontrolü' },
         ],
         footer: { href: p + 'pages/rehberler.html', label: 'Tüm rehberleri gör →' },
       },
       'Quizler': {
         wide: false,
         items: [
-          { href: p + 'pages/quizler.html', label: 'Vücut Tipi Quizi',        desc: '2 dk • 12 soru • Ücretsiz' },
-          { href: p + 'pages/quizler.html', label: 'Longevity Skoru',          desc: '5 dk • 25 soru • Ücretsiz' },
-          { href: p + 'pages/quizler.html', label: 'Bağırsak Sağlığı Testi',   desc: '3 dk • 15 soru • Ücretsiz' },
-          { href: p + 'pages/quizler.html', label: 'Stres & Kortizol Profili', desc: '3 dk • 18 soru • Ücretsiz' },
+          { href: p + 'pages/quizler.html', label: 'Vücut Tipi Quizi' },
+          { href: p + 'pages/quizler.html', label: 'Longevity Skoru' },
+          { href: p + 'pages/quizler.html', label: 'Bağırsak Sağlığı Testi' },
+          { href: p + 'pages/quizler.html', label: 'Stres & Kortizol Profili' },
         ],
         footer: null,
-      },
-      'Mağaza': {
-        wide: false,
-        items: [
-          { href: p + 'pages/magaza.html', label: 'NMN 500mg',         desc: 'Hücresel enerji & NAD+ desteği' },
-          { href: p + 'pages/magaza.html', label: 'Magnezyum Glisinat', desc: 'Uyku & kas iyileşmesi' },
-          { href: p + 'pages/magaza.html', label: 'D3 + K2 Vitamini',  desc: 'Kemik & bağışıklık sağlığı' },
-          { href: p + 'pages/magaza.html', label: 'Omega-3 Balık Yağı', desc: 'Kalp & beyin desteği' },
-        ],
-        footer: { href: p + 'pages/magaza.html', label: 'Tüm ürünleri gör →' },
       },
     };
 
@@ -89,20 +65,17 @@ document.addEventListener('DOMContentLoaded', () => {
       const grid = document.createElement('div');
       grid.className = 'nav-dropdown__grid' + (cfg.wide ? '' : ' nav-dropdown__grid--1col');
 
-      cfg.items.forEach(({ href, label, desc }) => {
+      cfg.items.forEach(({ href, label }) => {
         const a = document.createElement('a');
         a.href = href;
         a.className = 'nav-dropdown__item';
-        a.innerHTML = `<span class="nav-dropdown__item-label">${label}</span><span class="nav-dropdown__item-desc">${desc}</span>`;
+        a.innerHTML = `<span class="nav-dropdown__item-label">${label}</span>`;
         grid.appendChild(a);
       });
 
       drop.appendChild(grid);
 
       if (cfg.footer) {
-        const hr = document.createElement('hr');
-        hr.className = 'nav-dropdown__divider';
-        drop.appendChild(hr);
         const footer = document.createElement('div');
         footer.className = 'nav-dropdown__footer';
         footer.innerHTML = `<a href="${cfg.footer.href}" class="nav-dropdown__view-all">${cfg.footer.label}</a>`;
@@ -147,6 +120,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // ── Mobile Megamenu Toggle ──
+  const megamenuTrigger = document.querySelector('.has-megamenu > .menu-trigger');
+  if (megamenuTrigger) {
+    megamenuTrigger.addEventListener('click', (e) => {
+      if (window.innerWidth <= 900) {
+        e.preventDefault();
+        const parent = megamenuTrigger.parentElement;
+        parent.classList.toggle('is-active');
+      }
+    });
+  }
+
   // ── Accordion ──
   document.querySelectorAll('.accordion__btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -175,48 +160,92 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Splide.js carousels ──
   if (typeof Splide !== 'undefined') {
 
-    new Splide('#successSplide', {
-      type:       'loop',
-      perPage:    3,
-      perMove:    1,
-      gap:        '1.5rem',
-      pagination: true,
-      arrows:     true,
-      breakpoints: {
-        991: { perPage: 2 },
-        640: { perPage: 1, fixedWidth: '80%' },
-      },
-    }).mount();
+    if (document.querySelector('#successSplide')) {
+      new Splide('#successSplide', {
+        type:       'loop',
+        perPage:    3,
+        perMove:    1,
+        gap:        '1.5rem',
+        pagination: true,
+        arrows:     true,
+        breakpoints: {
+          991: { perPage: 2 },
+          640: { perPage: 1, fixedWidth: '80%' },
+        },
+      }).mount();
+    }
 
-    new Splide('#podcastSplide', {
-      type:       'loop',
-      perPage:    4,
-      perMove:    1,
-      gap:        '1.5rem',
-      pagination: true,
-      arrows:     true,
-      breakpoints: {
-        1124: { perPage: 3 },
-        768:  { perPage: 2 },
-        480:  { perPage: 1, fixedWidth: '80%' },
-      },
-    }).mount();
+    if (document.querySelector('#podcastSplide')) {
+      new Splide('#podcastSplide', {
+        type:       'loop',
+        perPage:    4,
+        perMove:    1,
+        gap:        '1.5rem',
+        pagination: true,
+        arrows:     true,
+        breakpoints: {
+          1124: { perPage: 3 },
+          768:  { perPage: 2 },
+          480:  { perPage: 1, fixedWidth: '80%' },
+        },
+      }).mount();
+    }
 
-    new Splide('#productsSplide', {
-      type:       'loop',
-      perPage:    4,
-      perMove:    1,
-      gap:        '0.25rem',
-      padding:    '0',
-      pagination: true,
-      arrows:     true,
-      breakpoints: {
-        1024: { perPage: 3 },
-        768:  { perPage: 2 },
-        480:  { perPage: 2 },
-      },
-    }).mount();
+    if (document.querySelector('#productsSplide')) {
+      new Splide('#productsSplide', {
+        type:       'loop',
+        perPage:    4,
+        perMove:    1,
+        gap:        '0.25rem',
+        padding:    '0',
+        pagination: true,
+        arrows:     true,
+        breakpoints: {
+          1024: { perPage: 3 },
+          768:  { perPage: 2 },
+          480:  { perPage: 2 },
+        },
+      }).mount();
+    }
 
   }
+
+  // ── Promo campaign modal ──
+  (function initPromoModal() {
+    const modal = document.getElementById('promoModal');
+    if (!modal) return;
+
+    // Check if the modal was already closed in this session to prevent spamming the user
+    if (sessionStorage.getItem('promoModalClosed') === 'true') {
+      return;
+    }
+
+    const closeBtn = document.getElementById('closePromoModal');
+    const skipBtn = document.getElementById('skipPromoModal');
+    const overlay = modal.querySelector('.promo-modal__overlay');
+
+    const closeModal = () => {
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden', 'true');
+      sessionStorage.setItem('promoModalClosed', 'true');
+    };
+
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    if (skipBtn) skipBtn.addEventListener('click', closeModal);
+    if (overlay) overlay.addEventListener('click', closeModal);
+
+    // Escape key closes modal
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('open')) {
+        closeModal();
+      }
+    });
+
+    // Show modal after 5 seconds delay
+    setTimeout(() => {
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+    }, 5000);
+  })();
 
 });

@@ -13,14 +13,73 @@
     .stories-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:64px 0;}
     @media(max-width:900px){.stories-grid{grid-template-columns:repeat(2,1fr);}}
     @media(max-width:600px){.stories-grid{grid-template-columns:1fr;}}
-    .story-card-full{background:var(--base);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s;}
-    .story-card-full:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);}
+    
+    .story-card-full{
+      background:var(--base);
+      border-radius:var(--r-lg);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      transition:transform .2s,box-shadow .2s;
+      cursor: pointer;
+    }
+    .story-card-full:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);}
     .story-card-full__img{width:100%;aspect-ratio:4/3;object-fit:cover;}
     .story-card-full__body{padding:20px;}
     .story-card-full__badge{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#fff;background:var(--green);padding:3px 10px;border-radius:99px;margin-bottom:10px;}
     .story-card-full__title{font-size:17px;font-weight:700;line-height:1.3;margin-bottom:8px;}
     .story-card-full__excerpt{font-size:14px;color:var(--gray-500);line-height:1.6;margin-bottom:12px;}
     .story-card-full__author{font-size:13px;font-weight:600;color:var(--main);}
+
+    /* ── story modal overlay ── */
+    .story-modal{
+      display:none;
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.6);
+      z-index:2000;
+      overflow-y:auto;
+      padding:24px 16px;
+      backdrop-filter:blur(4px);
+    }
+    .story-modal.is-open{display:flex;align-items:center;justify-content:center;}
+    .story-modal__box{
+      background:#fff;
+      border-radius:var(--r-lg);
+      width:100%;
+      max-width:560px;
+      margin:auto;
+      overflow:hidden;
+      box-shadow:var(--shadow-lg);
+      position:relative;
+      animation:modalEnter 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes modalEnter { from{opacity:0;transform:translateY(16px);} to{opacity:1;transform:translateY(0);} }
+    .story-modal__img-wrap{width:100%;aspect-ratio:16/9;overflow:hidden;background:var(--border);}
+    .story-modal__img{width:100%;height:100%;object-fit:cover;}
+    .story-modal__body{padding:28px;}
+    .story-modal__badge{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;color:#fff;background:var(--green);padding:3px 10px;border-radius:99px;margin-bottom:12px;letter-spacing:.5px;}
+    .story-modal__close{
+      position:absolute;
+      top:16px;
+      right:16px;
+      background:rgba(0,0,0,0.5);
+      border:none;
+      color:#fff;
+      width:32px;
+      height:32px;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      font-size:16px;
+      z-index:10;
+      transition:background 0.2s;
+    }
+    .story-modal__close:hover{background:rgba(0,0,0,0.8);}
+    .story-modal__title{font-family:Georgia, serif;font-size:22px;font-weight:700;line-height:1.3;margin-bottom:8px;color:var(--main);}
+    .story-modal__author{font-size:13px;font-weight:600;color:var(--gray-500);margin-bottom:16px;}
+    .story-modal__content{font-size:15px;color:var(--gray-700);line-height:1.7;}
   </style>
 </head>
 <body>
@@ -28,27 +87,218 @@
   <div class="header-wrapper" id="headerWrapper">
     <div class="utility-nav"><div class="container utility-nav__inner"><nav><a href="sitelerimiz.html">Sitelerimiz</a><a href="hakkinda.html">Hakkında</a><a href="iletisim.html">İletişim</a></nav></div></div>
     <header class="site-header"><div class="container site-header__inner">
-      <a href="../index.html" class="site-logo"><span class="site-logo__text">Dr. Bakırcı</span></a>
-      <div class="header-stats"><div class="header-stat"><span class="header-stat__number">2.400.000+</span><span class="header-stat__label">YouTube Abonesi</span></div><div class="header-stat header-stat--mid"><span class="header-stat__number">1.240</span><span class="header-stat__label">Başarı Hikayesi</span></div><div class="header-stat"><span class="header-stat__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="header-stat__reviews">1.800+ Google Yorumu</span><span class="header-stat__rating">4.8 / 5 puan</span></div></div>
+      <a href="../index.html" class="site-logo" aria-label="Dr. Muhammed İkbal Bakırcı Ana Sayfa">
+          <div class="site-logo__mark">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" fill="var(--blue)" fill-opacity="0.08" stroke="var(--blue)" stroke-width="2"/>
+              <path d="M8 12H11L12.5 8L14 16L15 12H16" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="site-logo__text"><span class="site-logo__dr">Dr.</span> <span class="site-logo__name">Muhammed İkbal</span> <span class="site-logo__surname">Bakırcı</span></span>
+        </a>
+      
       <div class="header-search-wrap"><input type="search" class="header-search-input" placeholder="Ara" /><button class="header-search-btn" aria-label="Ara"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button></div>
-      <div class="header-actions"><a href="#" class="btn-sign-in"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>Giriş Yap</a><button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button></div>
+      <div class="header-actions"><a href="quizler.html" class="btn-header-cta">Quizi Çöz</a><button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button></div>
     </div></header>
-    <nav class="main-menu" id="mainMenu"><div class="container"><ul class="main-menu__list"><li><a href="../blog/index.html">İçerik Kütüphanesi</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="longevity.html">Longevity</a></li><li><a href="rehberler.html">Rehberler</a></li><li><a href="quizler.html">Quizler <span class="new-badge">Yeni</span></a></li><li><a href="basari-hikayeleri.html" class="active">Başarı Hikayeleri</a></li><li><a href="sansursuz-icerik.html">Sansürsüz İçerik</a></li><li><a href="magaza.html" class="main-menu__shop">Mağaza <span class="sale-badge">İNDİRİM</span></a></li></ul></div></nav>
+    <nav class="main-menu" id="mainMenu"><div class="container"><ul class="main-menu__list">          <li class="has-megamenu">
+            <a href="../blog/index.html" class="menu-trigger">İçerik Kütüphanesi <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="megamenu">
+              <div class="megamenu__container">
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Popüler Konular</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../index.html#kutuphane">Sağlık Sorunları</a></li>
+                    <li><a href="../index.html#kutuphane">Beslenme</a></li>
+                    <li><a href="../index.html#kutuphane">Sağlıklı Yaşam</a></li>
+                    <li><a href="../index.html#kutuphane">Diyetler</a></li>
+                    <li><a href="../blog/index.html">Keto</a></li>
+                    <li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li>
+                    <li><a href="basari-hikayeleri.html">Başarı Hikayeleri</a></li>
+                    
+                    <li><a href="../blog/index.html" class="megamenu__special-link">Tüm makaleleri gör &rarr;</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Referanslar</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="quizler.html">Sağlık Testleri ve Hesaplayıcılar</a></li>
+                    <li><a href="rehberler.html">Rehberler ve Kaynaklar</a></li>
+                    <li><a href="kurslar.html">Mini Kurslar</a></li>
+                    <li><a href="kurslar.html">Kurslar</a></li>
+                    <li><a href="../index.html#bulten">Üyelik</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Özel Projeler</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../index.html#barkod">Ultra-İşlenmiş Gıda Girişimi</a></li>
+                    <li><a href="longevity.html">Sağlıklı Yaşam ve Hücresel Sağlık</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li><li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li><li><a href="longevity.html">Longevity</a></li><li><a href="rehberler.html">Rehberler</a></li><li><a href="quizler.html">Quizler <span class="new-badge">Yeni</span></a></li><li><a href="basari-hikayeleri.html" class="active">Başarı Hikayeleri</a></li></ul></div></nav>
   </div>
   <main>
     <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">İlham Veren Dönüşümler</h1><p class="pg-hero__sub">1.240'tan fazla kişi Dr. Bakırcı'nın protokolleriyle hayatını dönüştürdü. İşte onların gerçek hikayeleri.</p></div></section>
     <section class="section"><div class="container">
       <div class="stories-grid">
-        <div class="story-card-full"><img src="https://picsum.photos/seed/story1lon/600/450" alt="" class="story-card-full__img" /><div class="story-card-full__body"><span class="story-card-full__badge">Fotoğraflı Hikaye</span><h3 class="story-card-full__title">34 kg vererek pre-diyabetimi tersine çevirdim</h3><p class="story-card-full__excerpt">Dr. Bakırcı'nın longevity protokolünü uygulamak metabolik sağlımı ve enerji seviyelerimi tamamen dönüştürdü.</p><p class="story-card-full__author">Ayşe K., 48 — Bursa</p></div></div>
-        <div class="story-card-full"><img src="https://picsum.photos/seed/story2lon/600/450" alt="" class="story-card-full__img" /><div class="story-card-full__body"><span class="story-card-full__badge">Fotoğraflı Hikaye</span><h3 class="story-card-full__title">90 günde kan şekerim normale döndü</h3><p class="story-card-full__excerpt">Doktorum şoke oldu. Aralıklı oruç ve doğru beslenmeyle HbA1c değerim önemli ölçüde düştü.</p><p class="story-card-full__author">Mehmet Y., 55 — İstanbul</p></div></div>
-        <div class="story-card-full"><img src="https://picsum.photos/seed/story3lon/600/450" alt="" class="story-card-full__img" /><div class="story-card-full__body"><span class="story-card-full__badge">Fotoğraflı Hikaye</span><h3 class="story-card-full__title">8 haftada 22 kg verdim, enerji doluyum</h3><p class="story-card-full__excerpt">Artık ne yiyeceğimi ve nedenini anlıyorum. İçerikler bilimsel ve uygulaması çok kolay.</p><p class="story-card-full__author">Fatma Ç., 41 — Ankara</p></div></div>
-        <div class="story-card-full"><img src="https://picsum.photos/seed/story4lon/600/450" alt="" class="story-card-full__img" /><div class="story-card-full__body"><span class="story-card-full__badge">Fotoğraflı Hikaye</span><h3 class="story-card-full__title">6 ay sonra kronik yorgunluğum tamamen geçti</h3><p class="story-card-full__excerpt">Beslenme rehberini uygulamak enerjimi baştan aşağı değiştirdi. 52'mde 30'lumdaki gibi hissediyorum.</p><p class="story-card-full__author">Kemal Ş., 52 — İzmir</p></div></div>
-        <div class="story-card-full"><img src="https://picsum.photos/seed/story5lon/600/450" alt="" class="story-card-full__img" /><div class="story-card-full__body"><span class="story-card-full__badge">Fotoğraflı Hikaye</span><h3 class="story-card-full__title">Tiroid sağlığım longevity diyetiyle düzeldi</h3><p class="story-card-full__excerpt">Yıllarca süren tiroid sorunlarımın ardından, Dr. Bakırcı'nın önerdiği diyet değişiklikleri inanılmaz fark yarattı.</p><p class="story-card-full__author">Leyla A., 45 — Bursa</p></div></div>
-        <div class="story-card-full"><img src="https://picsum.photos/seed/story6lon/600/450" alt="" class="story-card-full__img" /><div class="story-card-full__body"><span class="story-card-full__badge">Fotoğraflı Hikaye</span><h3 class="story-card-full__title">İnsülin direncimden kurtuldum</h3><p class="story-card-full__excerpt">3 ay içinde insülin direncim tamamen ortadan kalktı. Artık ilaç kullanmıyorum ve enerjim tavan yapmış.</p><p class="story-card-full__author">Hasan D., 44 — Ankara</p></div></div>
+        
+        <!-- CARD 1 -->
+        <div class="story-card-full" onclick="openStory('ayse')">
+          <img src="../assets/images/generated/success_weight_loss.png" alt="Başarı hikayesi görseli - Ayşe K." class="story-card-full__img" />
+          <div class="story-card-full__body">
+            <span class="story-card-full__badge">Hikaye</span>
+            <h3 class="story-card-full__title">34 kg vererek pre-diyabetimi tersine çevirdim</h3>
+            <p class="story-card-full__excerpt">Dr. Bakırcı'nın longevity protokolünü uygulamak metabolik sağlımı ve enerji seviyelerimi tamamen dönüştürdü.</p>
+            <p class="story-card-full__author">Ayşe K., 48 — Bursa</p>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="story-card-full" onclick="openStory('mehmet')">
+          <img src="../assets/images/generated/success_blood_sugar.png" alt="Başarı hikayesi görseli - Mehmet Y." class="story-card-full__img" />
+          <div class="story-card-full__body">
+            <span class="story-card-full__badge">Hikaye</span>
+            <h3 class="story-card-full__title">90 günde kan şekerim normale döndü</h3>
+            <p class="story-card-full__excerpt">Doktorum şoke oldu. Aralıklı oruç ve doğru beslenmeyle HbA1c değerim önemli ölçüde düştü.</p>
+            <p class="story-card-full__author">Mehmet Y., 55 — İstanbul</p>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="story-card-full" onclick="openStory('fatma')">
+          <img src="../assets/images/generated/success_energy_fit.png" alt="Başarı hikayesi görseli - Fatma Ç." class="story-card-full__img" />
+          <div class="story-card-full__body">
+            <span class="story-card-full__badge">Hikaye</span>
+            <h3 class="story-card-full__title">8 haftada 22 kg verdim, enerji doluyum</h3>
+            <p class="story-card-full__excerpt">Artık ne yiyeceğimi ve nedenini anlıyorum. İçerikler bilimsel ve uygulaması çok kolay.</p>
+            <p class="story-card-full__author">Fatma Ç., 41 — Ankara</p>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="story-card-full" onclick="openStory('kemal')">
+          <img src="../assets/images/generated/success_chronic_fatigue.png" alt="Başarı hikayesi görseli - Kemal Ş." class="story-card-full__img" />
+          <div class="story-card-full__body">
+            <span class="story-card-full__badge">Hikaye</span>
+            <h3 class="story-card-full__title">6 ay sonra kronik yorgunluğum tamamen geçti</h3>
+            <p class="story-card-full__excerpt">Beslenme rehberini uygulamak enerjimi baştan aşağı değiştirdi. 52'mde 30'lumdaki gibi hissediyorum.</p>
+            <p class="story-card-full__author">Kemal Ş., 52 — İzmir</p>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="story-card-full" onclick="openStory('leyla')">
+          <img src="../assets/images/generated/success_thyroid_diet.png" alt="Başarı hikayesi görseli - Leyla A." class="story-card-full__img" />
+          <div class="story-card-full__body">
+            <span class="story-card-full__badge">Hikaye</span>
+            <h3 class="story-card-full__title">Tiroid sağlığım longevity diyetiyle düzeldi</h3>
+            <p class="story-card-full__excerpt">Yıllarca süren tiroid sorunlarımın ardından, Dr. Bakırcı'nın önerdiği diyet değişiklikleri inanılmaz fark yarattı.</p>
+            <p class="story-card-full__author">Leyla A., 45 — Bursa</p>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="story-card-full" onclick="openStory('hasan')">
+          <img src="../assets/images/generated/success_insulin_resistance.png" alt="Başarı hikayesi görseli - Hasan D." class="story-card-full__img" />
+          <div class="story-card-full__body">
+            <span class="story-card-full__badge">Hikaye</span>
+            <h3 class="story-card-full__title">İnsülin direncimden kurtuldum</h3>
+            <p class="story-card-full__excerpt">3 ay içinde insülin direncim tamamen ortadan kalktı. Artık ilaç kullanmıyorum ve enerjim tavan yapmış.</p>
+            <p class="story-card-full__author">Hasan D., 44 — Ankara</p>
+          </div>
+        </div>
+
       </div>
     </div></section>
   </main>
-  <footer class="footer"><div class="container"><div class="footer__top"><div class="footer__brand"><a href="../index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div><div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="tarifler.html">Tarifler</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="magaza.html">Supplementler</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div><div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="magaza.html">Mağaza</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div></div><div class="footer__disclaimer"><p>* Bu ifadeler Gıda ve İlaç İdaresi tarafından değerlendirilmemiştir.</p></div><div class="footer__bottom"><nav class="footer__legal"><a href="gizlilik-politikasi.html">Gizlilik Politikası</a><a href="kullanim-kosullari.html">Kullanım Koşulları</a><a href="iletisim.html">İletişim</a></nav><p class="footer__copy">&copy; 2026 Dr. Muhammed İkbal Bakırcı. Tüm hakları saklıdır.</p></div></div></footer>
+
+  <!-- STORY MODAL -->
+  <div class="story-modal" id="storyModal" role="dialog" aria-modal="true">
+    <div class="story-modal__box">
+      <button class="story-modal__close" onclick="closeStory()" aria-label="Kapat">&#10005;</button>
+      <div class="story-modal__img-wrap">
+        <img id="modalStoryImg" src="" alt="" class="story-modal__img" />
+      </div>
+      <div class="story-modal__body">
+        <span class="story-modal__badge">HİKAYE</span>
+        <h2 class="story-modal__title" id="modalStoryTitle"></h2>
+        <p class="story-modal__author" id="modalStoryAuthor"></p>
+        <div class="story-modal__content" id="modalStoryContent"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer__top"><div class="footer__brand"><a href="../index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a><p class="footer__tagline">40 milyondan fazla üyeye katılın.</p><form class="footer__newsletter"><input type="email" placeholder="E-posta adresiniz" class="footer__input" /><button type="submit" class="btn-footer-sub">Abone Ol</button></form></div><div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="longevity.html">Longevity</a></li><li><a href="dunyada-saglik.html">Dünyada Sağlık</a></li><li><a href="../blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="../blog/index.html">Blog</a></li></ul></div><div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="kurslar.html">Kurslar</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div></div><div class="footer__disclaimer"><p>* Bu ifadeler Gıda ve İlaç İdaresi tarafından değerlendirilmemiştir.</p></div><div class="footer__bottom"><nav class="footer__legal"><a href="gizlilik-politikasi.html">Gizlilik Politikası</a><a href="kullanim-kosullari.html">Kullanım Koşulları</a><a href="iletisim.html">İletişim</a></nav><p class="footer__copy">&copy; 2026 Dr. Muhammed İkbal Bakırcı. Tüm hakları saklıdır.</p></div></div></footer>
+  
   <script src="../script.js"></script>
+  <script>
+    const STORIES_DATA = {
+      ayse: {
+        title: "34 kg vererek pre-diyabetimi tersine çevirdim",
+        author: "Ayşe K., 48 — Bursa",
+        img: "../assets/images/generated/success_weight_loss.png",
+        content: "Yıllardır kilo verme mücadelemi ve yüksek açlık kan şekerimi kontrol altına almak için her yolu denemiştim. Dr. Bakırcı'nın longevity ve ketojenik beslenme protokolü hayatımı tamamen değiştirdi. Sadece 34 kg kaybetmekle kalmadım, doktorumun takibiyle pre-diyabet teşhisim tamamen ortadan kalktı. HbA1c değerim ideal seviyelere ulaştı. Şimdi her zamankinden daha enerjik ve sağlıklıyım."
+      },
+      mehmet: {
+        title: "90 günde kan şekerim normale döndü",
+        author: "Mehmet Y., 55 — İstanbul",
+        img: "../assets/images/generated/success_blood_sugar.png",
+        content: "Tip 2 diyabet teşhisiyle ilaç kullanmaya başlamıştım. Dr. Bakırcı'nın aralıklı oruç ve düşük glisemik indeksli beslenme programını harfiyen uyguladım. 90 günün sonunda yapılan tahlillerde doktorum gözlerine inanamadı. Kan şekerim tamamen normal seviyelere çekildi ve ilaç yükümden kurtuldum. Vücudun kendini onarma gücünü bizzat yaşadım."
+      },
+      fatma: {
+        title: "8 haftada 22 kg verdim, enerji doluyum",
+        author: "Fatma Ç., 41 — Ankara",
+        img: "../assets/images/generated/success_energy_fit.png",
+        content: "Metabolizmamın tamamen durduğunu hissettiğim bir dönemde Dr. Bakırcı'nın bilimsel içerikleri ve beslenme rehberiyle tanıştım. Sonuçlar inanılmazdı: 8 hafta içinde aç kalmadan, sadece hücrelerimi doğru besleyerek 22 kg verdim. En büyük kazanımım ise gün içindeki o sürekli yorgunluğumun yerini bitmek bilmeyen bir hayat enerjisinin alması oldu."
+      },
+      kemal: {
+        title: "6 ay sonra kronik yorgunluğum tamamen geçti",
+        author: "Kemal Ş., 52 — İzmir",
+        img: "../assets/images/generated/success_chronic_fatigue.png",
+        content: "Sabah yataktan kalkmak benim için tam bir işkenceydi. Kronik yorgunluk sendromu ile yaşamaktan bezmiştim. Sitenizdeki uyku optimizasyonu ve anti-inflamatuar beslenme rehberlerini 6 ay boyunca düzenli uyguladım. Bugün 52 yaşındayım ve kendimi 30'lu yaşlarımdaki kadar aktif, dinç ve zinde hissediyorum."
+      },
+      leyla: {
+        title: "Tiroid sağlığım longevity diyetiyle düzeldi",
+        author: "Leyla A., 45 — Bursa",
+        img: "../assets/images/generated/success_thyroid_diet.png",
+        content: "Haşimato tiroidi hastası olarak yıllarca kronik ödem, yorgunluk ve saç dökülmesiyle savaştım. Dr. Bakırcı'nın glütensiz, temiz beslenme ve tiroid koruma protokolünü hayatıma entegre ettim. Tiroid antikor değerlerimde inanılmaz bir düşüş gerçekleşti ve metabolizmam yeniden çalışmaya başladı. Bu diyet benim için adeta bir şifa reçetesi oldu."
+      },
+      hasan: {
+        title: "İnsülin direncimden kurtuldum",
+        author: "Hasan D., 44 — Ankara",
+        img: "../assets/images/generated/success_insulin_resistance.png",
+        content: "Aşırı göbek bölgesi yağlanması ve yemeklerden sonra gelen ani uyku basmaları beni çok yoruyordu. Yapılan ölçümlerde insülin direncim çok yüksek çıktı. Dr. Bakırcı'nın önerdiği Bölge 2 egzersizleri ve karbonhidrat kısıtlaması protokolü sayesinde 3 ayda direncim tamamen kırıldı. Artık ne uyku krizleri var ne de sürekli açlık hissi."
+      }
+    };
+
+    function openStory(id) {
+      const data = STORIES_DATA[id];
+      if (!data) return;
+      document.getElementById('modalStoryImg').src = data.img;
+      document.getElementById('modalStoryImg').alt = data.title;
+      document.getElementById('modalStoryTitle').textContent = data.title;
+      document.getElementById('modalStoryAuthor').textContent = data.author;
+      document.getElementById('modalStoryContent').textContent = data.content;
+      
+      const modal = document.getElementById('storyModal');
+      modal.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeStory() {
+      const modal = document.getElementById('storyModal');
+      modal.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+
+    // Close on click outside
+    document.getElementById('storyModal').addEventListener('click', (e) => {
+      if (e.target.id === 'storyModal') {
+        closeStory();
+      }
+    });
+  </script>
 </body>
 </html>

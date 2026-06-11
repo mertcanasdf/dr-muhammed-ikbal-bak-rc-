@@ -38,25 +38,15 @@
     <header class="site-header">
       <div class="container site-header__inner">
 
-        <a href="index.html" class="site-logo" aria-label="Dr. Bakırcı Ana Sayfa">
-          <span class="site-logo__text">Dr. Bakırcı</span>
+        <a href="index.html" class="site-logo" aria-label="Dr. Muhammed İkbal Bakırcı Ana Sayfa">
+          <div class="site-logo__mark">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" fill="var(--blue)" fill-opacity="0.08" stroke="var(--blue)" stroke-width="2"/>
+              <path d="M8 12H11L12.5 8L14 16L15 12H16" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="site-logo__text"><span class="site-logo__dr">Dr.</span> <span class="site-logo__name">Muhammed İkbal</span> <span class="site-logo__surname">Bakırcı</span></span>
         </a>
-
-        <div class="header-stats" aria-label="Site istatistikleri">
-          <div class="header-stat">
-            <span class="header-stat__number">2.400.000+</span>
-            <span class="header-stat__label">YouTube Abonesi</span>
-          </div>
-          <div class="header-stat header-stat--mid">
-            <span class="header-stat__number">1.240</span>
-            <span class="header-stat__label">Başarı Hikayesi</span>
-          </div>
-          <div class="header-stat">
-            <span class="header-stat__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-            <span class="header-stat__reviews">1.800+ Google Yorumu</span>
-            <span class="header-stat__rating">4.8 / 5 puan</span>
-          </div>
-        </div>
 
         <div class="header-search-wrap">
           <input type="search" class="header-search-input" placeholder="Ara" aria-label="Ara" />
@@ -65,11 +55,8 @@
           </button>
         </div>
 
-        <div class="header-actions">
-          <a href="#" class="btn-sign-in">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
-            Giriş Yap
-          </a>
+        <div class="header-actions"><a href="pages/quizler.html" class="btn-header-cta">Quizi Çöz</a>
+          
           <button class="hamburger" id="hamburger" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mainMenu">
             <span></span><span></span><span></span>
           </button>
@@ -82,14 +69,50 @@
     <nav class="main-menu" id="mainMenu" aria-label="Ana navigasyon">
       <div class="container">
         <ul class="main-menu__list">
-          <li><a href="blog/index.html">İçerik Kütüphanesi</a></li>
-          <li><a href="pages/tarifler.html">Tarifler</a></li>
+                    <li class="has-megamenu">
+            <a href="blog/index.html" class="menu-trigger">İçerik Kütüphanesi <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="megamenu">
+              <div class="megamenu__container">
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Popüler Konular</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="index.html#kutuphane">Sağlık Sorunları</a></li>
+                    <li><a href="index.html#kutuphane">Beslenme</a></li>
+                    <li><a href="index.html#kutuphane">Sağlıklı Yaşam</a></li>
+                    <li><a href="index.html#kutuphane">Diyetler</a></li>
+                    <li><a href="blog/index.html">Keto</a></li>
+                    <li><a href="pages/dunyada-saglik.html">Dünyada Sağlık</a></li>
+                    <li><a href="pages/basari-hikayeleri.html">Başarı Hikayeleri</a></li>
+                    
+                    <li><a href="blog/index.html" class="megamenu__special-link">Tüm makaleleri gör &rarr;</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Referanslar</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="pages/quizler.html">Sağlık Testleri ve Hesaplayıcılar</a></li>
+                    <li><a href="pages/rehberler.html">Rehberler ve Kaynaklar</a></li>
+                    <li><a href="pages/kurslar.html">Mini Kurslar</a></li>
+                    <li><a href="pages/kurslar.html">Kurslar</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Özel Projeler</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="index.html#barkod">Ultra-İşlenmiş Gıda Girişimi</a></li>
+                    <li><a href="pages/longevity.html">Sağlıklı Yaşam ve Hücresel Sağlık</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="pages/dunyada-saglik.html">Dünyada Sağlık</a></li>
           <li><a href="pages/longevity.html">Longevity</a></li>
           <li><a href="pages/rehberler.html">Rehberler</a></li>
           <li><a href="pages/quizler.html">Quizler <span class="new-badge">Yeni</span></a></li>
           <li><a href="pages/basari-hikayeleri.html">Başarı Hikayeleri</a></li>
-          <li><a href="pages/sansursuz-icerik.html">Sansürsüz İçerik</a></li>
-          <li><a href="pages/magaza.html" class="main-menu__shop">Mağaza <span class="sale-badge">İNDİRİM</span></a></li>
+          
+          
         </ul>
       </div>
     </nav>
@@ -103,7 +126,7 @@
       <div class="hero__left">
         <p class="hero__name">Dr. Bakırcı'nın</p>
         <h1 class="hero__title">Longevity Başlangıç<br>Protokolü</h1>
-        <p class="hero__quote">"Doğru bilgiyle 20 yıl daha sağlıklı ve enerjik yaşayabilirsiniz."</p>
+        <p class="hero__quote">"Doğru bilgiyle uzun yıllar daha sağlıklı ve enerjik yaşayabilirsiniz."</p>
         <a href="pages/rehberler.html" class="btn btn-light hero__cta">ÜCRETSİZ Rehberini Al!</a>
       </div>
       <div class="hero__right" aria-hidden="true"></div>
@@ -117,102 +140,213 @@
           <a href="blog/index.html" class="section-link">Tüm makaleleri gör (412)</a>
         </div>
         <div class="articles-grid">
+          <!-- Card 1 -->
           <article class="article-card">
-            <a href="blog/otofaji-nedir.html" class="article-card__img-link"><img src="https://picsum.photos/seed/art1lon/400/300" alt="" class="article-card__img" /></a>
+            <div class="article-card__img-wrapper">
+              <a href="blog/nmn-nad-yaslanma.html" class="article-card__img-link">
+                <img src="assets/images/generated/topics/nmn-nad.png" alt="NMN ve NAD+: Hücresel Enerjiyi Geri Kazanmak" class="article-card__img" />
+              </a>
+              <span class="article-card__cat-overlay">TAKVİYELER</span>
+            </div>
             <div class="article-card__body">
-              <span class="article-card__cat">Otofaji</span>
-              <h3 class="article-card__title"><a href="blog/otofaji-nedir.html">Otofaji Nedir ve Nasıl Aktive Edilir?</a></h3>
-              <p class="article-card__excerpt">Bir bakışta: Otofaji, hücrelerin hasarlı bileşenlerini temizleyip yenilediği doğal bir süreçtir. Aralıklı oruç ve egzersizle bu süreç güçlü biçimde tetiklenebilir&hellip;</p>
-              <p class="article-card__date">15.05.2026</p>
+              <span class="article-card__badge">MAKALE</span>
+              <h3 class="article-card__title">
+                <a href="blog/nmn-nad-yaslanma.html">NMN ve NAD+: Hücresel Enerjiyi Geri Kazanmak</a>
+              </h3>
             </div>
           </article>
+
+          <!-- Card 2 -->
           <article class="article-card">
-            <a href="blog/aralikli-oruc-longevity.html" class="article-card__img-link"><img src="https://picsum.photos/seed/art2lon/400/300" alt="" class="article-card__img" /></a>
+            <div class="article-card__img-wrapper">
+              <a href="blog/otofaji-nedir.html" class="article-card__img-link">
+                <img src="assets/images/generated/topics/otofaji.png" alt="Otofaji Nedir ve Nasıl Aktive Edilir?" class="article-card__img" />
+              </a>
+              <span class="article-card__cat-overlay">HÜCRESEL SAĞLIK</span>
+            </div>
             <div class="article-card__body">
-              <span class="article-card__cat">Beslenme</span>
-              <h3 class="article-card__title"><a href="blog/aralikli-oruc-longevity.html">Aralıklı Orucun Longevity Üzerindeki Etkisi</a></h3>
-              <p class="article-card__excerpt">Bir bakışta: Aralıklı oruç yalnızca kilo kaybetmekle kalmaz; insülin duyarlılığını artırır, iltihabı azaltır ve hücresel onarım süreçlerini güçlendirir&hellip;</p>
-              <p class="article-card__date">08.05.2026</p>
+              <span class="article-card__badge">MAKALE</span>
+              <h3 class="article-card__title">
+                <a href="blog/otofaji-nedir.html">Otofaji Nedir ve Nasıl Aktive Edilir?</a>
+              </h3>
             </div>
           </article>
+
+          <!-- Card 3 -->
           <article class="article-card">
-            <a href="blog/telomerleri-korumak.html" class="article-card__img-link"><img src="https://picsum.photos/seed/art3lon/400/300" alt="" class="article-card__img" /></a>
+            <div class="article-card__img-wrapper">
+              <a href="blog/mavi-bolge-diyeti.html" class="article-card__img-link">
+                <img src="assets/images/generated/topics/mavi-bolge.png" alt="Mavi Bölge Diyeti: 100 Yıl Yaşamanın Sırrı" class="article-card__img" />
+              </a>
+              <span class="article-card__cat-overlay">BESLENME</span>
+            </div>
             <div class="article-card__body">
-              <span class="article-card__cat">Hücre Sağlığı</span>
-              <h3 class="article-card__title"><a href="blog/telomerleri-korumak.html">Telomerleri Korumak için 7 Kanıtlanmış Yöntem</a></h3>
-              <p class="article-card__excerpt">Bir bakışta: Telomer uzunluğu biyolojik yaşın en güvenilir göstergelerinden biridir. Beslenme, uyku ve stres yönetimi bu yapıları doğrudan etkiler&hellip;</p>
-              <p class="article-card__date">24.04.2026</p>
+              <span class="article-card__badge">MAKALE</span>
+              <h3 class="article-card__title">
+                <a href="blog/mavi-bolge-diyeti.html">Mavi Bölge Diyeti: 100 Yıl Yaşamanın Sırrı</a>
+              </h3>
             </div>
           </article>
+
+          <!-- Card 4 -->
           <article class="article-card">
-            <a href="blog/nmn-nad-yaslanma.html" class="article-card__img-link"><img src="https://picsum.photos/seed/art4lon/400/300" alt="" class="article-card__img" /></a>
+            <div class="article-card__img-wrapper">
+              <a href="blog/d3-vitamini-eksikligi.html" class="article-card__img-link">
+                <img src="assets/images/generated/topics/d3-vitamini.png" alt="D3 Vitamini Eksikliği: Gizli Yaşlanma Hızlandırıcı" class="article-card__img" />
+              </a>
+              <span class="article-card__cat-overlay">TAKVİYELER</span>
+            </div>
             <div class="article-card__body">
-              <span class="article-card__cat">Beyin Sağlığı</span>
-              <h3 class="article-card__title"><a href="blog/nmn-nad-yaslanma.html">NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek</a></h3>
-              <p class="article-card__excerpt">Bir bakışta: NAD+ seviyeleri yaşla birlikte düşer ve bu düşüş enerji üretimini, DNA onarımını ve bilişsel fonksiyonları olumsuz etkiler. NMN bu durumu dengeleyebilir&hellip;</p>
-              <p class="article-card__date">10.04.2026</p>
+              <span class="article-card__badge">MAKALE</span>
+              <h3 class="article-card__title">
+                <a href="blog/d3-vitamini-eksikligi.html">D3 Vitamini Eksikliği: Gizli Yaşlanma Hızlandırıcı</a>
+              </h3>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- EXPLORE TOPICS -->
-    <section class="section topics-section">
+    <!-- EXPLORE TOPICS (PREMIUM HEALTH DIRECTORY) -->
+    <section class="section topics-section" id="kutuphane" style="background: var(--gray-50); padding: 80px 0;">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Keşfet</h2>
-          <a href="blog/index.html" class="section-link">Tüm konuları gör</a>
+        <div class="section-header" style="margin-bottom: 48px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 12px;">
+          <div>
+            <h2 class="section-title" style="margin-bottom: 8px;">Sağlık Konuları Kütüphanesi</h2>
+            <p style="color: var(--gray-500); font-size: 15px; max-width: 600px; margin: 0 auto;">Dr. Bakırcı'nın bilimsel temelli makaleleri, rehberleri ve pratik protokolleri arasından dilediğiniz konuyu keşfedin.</p>
+          </div>
         </div>
-        <div class="topics-grid">
-          <div class="topics-col">
-            <a href="pages/longevity.html" class="topic-link">Yaşlanma &amp; Longevity</a>
-            <a href="blog/index.html" class="topic-link">Alternatif diyetler</a>
-            <a href="blog/otofaji-nedir.html" class="topic-link">Otofaji</a>
-            <a href="blog/aralikli-oruc-longevity.html" class="topic-link">Kan şekeri &amp; insülin</a>
-            <a href="pages/quizler.html" class="topic-link">Vücut tipleri</a>
-            <a href="blog/d3-vitamini-eksikligi.html" class="topic-link">Kemik sağlığı</a>
-            <a href="blog/nmn-nad-yaslanma.html" class="topic-link">Beyin sağlığı</a>
-            <a href="blog/index.html" class="topic-link">Kanser önleme</a>
-            <a href="blog/index.html" class="topic-link">Çocuk sağlığı</a>
-            <a href="blog/index.html" class="topic-link">Kolesterol</a>
+
+        <div class="category-grid" id="categoryGrid">
+          
+          <!-- CARD 1 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Yaşlanma &amp; Longevity</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="blog/telomerleri-korumak.html" class="category-card__link">Telomer Koruma Kılavuzu</a>
+              <a href="pages/quizler.html" class="category-card__link">Biyolojik Yaş Testi</a>
+              <a href="blog/nmn-nad-yaslanma.html" class="category-card__link">NAD+ &amp; Hücresel Enerji</a>
+              <a href="pages/longevity.html" class="category-card__link">Hücresel Gençleşme</a>
+            </div>
           </div>
-          <div class="topics-col">
-            <a href="blog/aralikli-oruc-longevity.html" class="topic-link">Diyabet</a>
-            <a href="blog/index.html" class="topic-link">Sindirim</a>
-            <a href="blog/index.html" class="topic-link">Elektrolit</a>
-            <a href="blog/bolge-2-kardiyo.html" class="topic-link">Enerji</a>
-            <a href="blog/index.html" class="topic-link">Göz sağlığı</a>
-            <a href="blog/aralikli-oruc-longevity.html" class="topic-link">Aralıklı oruç</a>
-            <a href="blog/kortizol-yaslanma.html" class="topic-link">Kronik yorgunluk</a>
-            <a href="blog/index.html" class="topic-link">Safra kesesi</a>
-            <a href="blog/bolge-2-kardiyo.html" class="topic-link">Kalp sağlığı</a>
-            <a href="blog/kortizol-yaslanma.html" class="topic-link">Hormonlar</a>
+
+          <!-- CARD 2 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Otofaji</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="blog/otofaji-nedir.html" class="category-card__link">Otofaji Nedir?</a>
+              <a href="blog/otofaji-nedir.html#nasil-aktive-edilir" class="category-card__link">Otofaji Aktivasyon Yolları</a>
+              <a href="blog/aralikli-oruc-longevity.html#longevity-baglantisi" class="category-card__link">mTOR Baskılama Yöntemleri</a>
+              <a href="blog/otofaji-nedir.html#otofaji-nedir" class="category-card__link">Hücresel Atık Temizliği</a>
+            </div>
           </div>
-          <div class="topics-col">
-            <a href="blog/d3-vitamini-eksikligi.html" class="topic-link">Bağışıklık sistemi</a>
-            <a href="blog/mavi-bolge-diyeti.html" class="topic-link">İltihap</a>
-            <a href="blog/index.html" class="topic-link">Eklem &amp; ağrı</a>
-            <a href="blog/aralikli-oruc-longevity.html" class="topic-link">Keto</a>
-            <a href="blog/aralikli-oruc-longevity.html" class="topic-link">Karaciğer sağlığı</a>
-            <a href="blog/kortizol-yaslanma.html" class="topic-link">Ruh sağlığı</a>
-            <a href="blog/aralikli-oruc-longevity.html" class="topic-link">Metabolizma</a>
-            <a href="blog/d3-vitamini-eksikligi.html" class="topic-link">Mineraller</a>
-            <a href="pages/tarifler.html" class="topic-link">Tarifler</a>
-            <a href="blog/telomerleri-korumak.html" class="topic-link">Uyku &amp; yaşlanma</a>
+
+          <!-- CARD 3 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Kan şekeri &amp; insülin</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="pages/basari-hikayeleri.html" class="category-card__link">HbA1c Değerini Düşürme</a>
+              <a href="pages/quizler.html" class="category-card__link">İnsülin Direnci Testi</a>
+              <a href="pages/dunyada-saglik.html" class="category-card__link">Glikoz Krizlerini Önleme</a>
+              <a href="blog/index.html" class="category-card__link">Sürekli Glikoz Ölçümü</a>
+            </div>
           </div>
-          <div class="topics-col">
-            <a href="blog/index.html" class="topic-link">Uyku &amp; Sirkadiyen Ritim</a>
-            <a href="blog/kortizol-yaslanma.html" class="topic-link">Stres Yönetimi</a>
-            <a href="blog/index.html" class="topic-link">Kadın Sağlığı</a>
-            <a href="blog/index.html" class="topic-link">Menopoz</a>
-            <a href="blog/index.html" class="topic-link">Testosteron</a>
-            <a href="blog/index.html" class="topic-link">Tiroid</a>
-            <a href="blog/index.html" class="topic-link">Cilt &amp; Yaşlanma</a>
-            <a href="blog/index.html" class="topic-link">Bağırsak Sağlığı</a>
-            <a href="blog/index.html" class="topic-link">Osteoporoz</a>
-            <a href="blog/index.html" class="topic-link">Detoks &amp; Karaciğer</a>
+
+          <!-- CARD 4 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Aralıklı oruç</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="blog/aralikli-oruc-longevity.html#protokoller" class="category-card__link">16:8 Oruç Protokolü</a>
+              <a href="blog/aralikli-oruc-longevity.html#protokoller" class="category-card__link">OMAD (Tek Öğün Beslenme)</a>
+              <a href="blog/aralikli-oruc-longevity.html#dikkat-edilecekler" class="category-card__link">Oruçta Tüketilen Sıvılar</a>
+              <a href="blog/aralikli-oruc-longevity.html#longevity-baglantisi" class="category-card__link">Hücresel Yenilenme Etkisi</a>
+            </div>
           </div>
+
+          <!-- CARD 5 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Keto</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="pages/rehberler.html" class="category-card__link">Ketoza Giriş Kılavuzu</a>
+              <a href="blog/otofaji-nedir.html#nasil-aktive-edilir" class="category-card__link">Ketojenik Yağ Yakımı</a>
+              <a href="blog/aralikli-oruc-longevity.html" class="category-card__link">Keto Grip Yan Etkileri</a>
+              <a href="pages/dunyada-saglik.html" class="category-card__link">Sağlıklı Keto Tatlı Tarifleri</a>
+            </div>
+          </div>
+
+          <!-- CARD 6 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Hormonlar</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="blog/kortizol-yaslanma.html" class="category-card__link">Kortizol Kontrol Protokolü</a>
+              <a href="blog/aralikli-oruc-longevity.html" class="category-card__link">İnsülin Hormon Dengesi</a>
+              <a href="blog/aralikli-oruc-longevity.html#metabolik-etki" class="category-card__link">Büyüme Hormonu Sekresyonu</a>
+              <a href="pages/quizler.html" class="category-card__link">Hormonal Denge Quizi</a>
+            </div>
+          </div>
+
+          <!-- CARD 7 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Tiroid</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="pages/basari-hikayeleri.html" class="category-card__link">Hashimoto Beslenme Çözümleri</a>
+              <a href="blog/index.html" class="category-card__link">Tiroid Hormon Çevrim Desteği</a>
+              <a href="pages/quizler.html" class="category-card__link">Tiroid Vücut Tipi Belirtileri</a>
+              </div>
+          </div>
+
+          <!-- CARD 8 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Stres Yönetimi</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="blog/kortizol-yaslanma.html" class="category-card__link">Mindfulness Meditasyonu</a>
+              <a href="blog/kortizol-yaslanma.html" class="category-card__link">Vagus Sinir Uyarım Egzersizleri</a>
+              <a href="pages/quizler.html" class="category-card__link">Stres ve Kortizol Testi</a>
+            </div>
+          </div>
+
+          <!-- CARD 9 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Bağırsak Sağlığı</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="pages/quizler.html" class="category-card__link">Sızdıran Bağırsak Sendromu</a>
+              <a href="blog/mavi-bolge-diyeti.html" class="category-card__link">Mikrobiyom Çeşitliliği</a>
+              <a href="pages/quizler.html" class="category-card__link">Bağırsak Sağlığı Quizi</a>
+              <a href="blog/telomerleri-korumak.html#yontem3" class="category-card__link">Probiyotik &amp; Prebiyotikler</a>
+            </div>
+          </div>
+
+          <!-- CARD 10 -->
+          <div class="category-card">
+            <div class="category-card__header">
+              <h3 class="category-card__name">Karaciğer sağlığı</h3>
+            </div>
+            <div class="category-card__list">
+              <a href="pages/basari-hikayeleri.html" class="category-card__link">Yağlı Karaciğer Tedavisi</a>
+              <a href="pages/quizler.html" class="category-card__link">Karaciğer Tipi Belirtileri</a>
+              <a href="blog/index.html" class="category-card__link">Karaciğer Faz 1-2 Detoksu</a>
+              <a href="blog/index.html" class="category-card__link">Karaciğer Enzimlerini Dengeleme</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -220,11 +354,11 @@
     <!-- FEATURES -->
     <section class="section features-section">
       <div class="container">
-        <h2 class="section-title features-heading">Dr. Muhammed İkbal Bakırcı, Longevity Uzmanı</h2>
+        <h2 class="section-title features-heading">Dr. Muhammed İkbal Bakırcı, MD Specialist in Longevity Science</h2>
         <div class="features-grid">
           <div class="feature-item">
             <div class="feature-item__img-wrap">
-              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Courses_01775c.png" alt="Online Kurslar" class="feature-item__img" />
+              <img src="assets/images/generated/online-course.png" alt="Online Kurslar" class="feature-item__img" />
             </div>
             <div class="feature-item__body">
               <h3 class="feature-item__title"><a href="pages/kurslar.html">Online Kurslar &rarr;</a></h3>
@@ -233,16 +367,16 @@
           </div>
           <div class="feature-item">
             <div class="feature-item__img-wrap">
-              <img src="https://www.drberg.com/wp-content/uploads/2025/05/UPFs_428177.png" alt="Longevity Protokolü" class="feature-item__img" />
+              <img src="assets/images/generated/guide_start_longevity.png" alt="Longevity Protokolü" class="feature-item__img" />
             </div>
             <div class="feature-item__body">
               <h3 class="feature-item__title"><a href="pages/longevity.html">Longevity Protokolü &rarr;</a></h3>
-              <p class="feature-item__desc">Ultra-işlenmiş gıdaları tanımayı ve hayatınızdan çıkarmayı öğrenin; hücresel sağlığınızı kalıcı olarak iyileştirin.</p>
+              <p class="feature-item__desc">Otofaji, metabolik sağlık, uyku ve egzersiz — kanıta dayalı 6 temel direkle biyolojik yaşınızı geri döndürün.</p>
             </div>
           </div>
           <div class="feature-item">
             <div class="feature-item__img-wrap">
-              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Videos_597537.png" alt="YouTube Videoları" class="feature-item__img" />
+              <img src="assets/images/generated/online-course.png" alt="YouTube Videoları" class="feature-item__img" />
             </div>
             <div class="feature-item__body">
               <h3 class="feature-item__title"><a href="blog/index.html">Videolarımızı izleyin &rarr;</a></h3>
@@ -251,11 +385,11 @@
           </div>
           <div class="feature-item">
             <div class="feature-item__img-wrap">
-              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Supplements_8c6ce4.png" alt="Supplement Mağazası" class="feature-item__img" />
+              <img src="assets/images/generated/guide_start_longevity.png" alt="Sağlık Rehberleri" class="feature-item__img" />
             </div>
             <div class="feature-item__body">
-              <h3 class="feature-item__title"><a href="pages/magaza.html">Supplement mağazası &rarr;</a></h3>
-              <p class="feature-item__desc">Longevity ve genel sağlık yolculuğunuzu desteklemek için bilimsel temelli supplementler.</p>
+              <h3 class="feature-item__title"><a href="pages/rehberler.html">Sağlık Rehberleri &rarr;</a></h3>
+              <p class="feature-item__desc">Keto, aralıklı oruç ve longevity protokolleri için hazırladığımız uygulaması kolay, bilimsel rehberler.</p>
             </div>
           </div>
         </div>
@@ -273,74 +407,84 @@
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <div class="story-card">
-                  <div class="story-card__img-wrap">
-                    <span class="story-card__badge">Fotoğraflı Hikaye</span>
-                    <img src="https://picsum.photos/seed/story1lon/480/360" alt="" class="story-card__img" />
+                <a href="pages/basari-hikayeleri.html" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                  <div class="story-card">
+                    <div class="story-card__img-wrap">
+                      <span class="story-card__badge">Hikaye</span>
+                      <img src="assets/images/generated/success_weight_loss.png" alt="Başarı hikayesi görseli - Ayşe K." class="story-card__img" />
+                    </div>
+                    <div class="story-card__body">
+                      <h3 class="story-card__title">34 kg vererek pre-diyabetimi tersine çevirdim</h3>
+                      <p class="story-card__excerpt">Dr. Bakırcı'nın longevity protokolünü uygulamak metabolik sağlımı ve enerji seviyelerimi tamamen dönüştürdü.</p>
+                      <p class="story-card__author">Ayşe K., 48 &mdash; Bursa</p>
+                      <p class="story-card__date">15 Nisan 2026</p>
+                    </div>
                   </div>
-                  <div class="story-card__body">
-                    <h3 class="story-card__title">34 kg vererek pre-diyabetimi tersine çevirdim</h3>
-                    <p class="story-card__excerpt">Dr. Bakırcı'nın longevity protokolünü uygulamak metabolik sağlımı ve enerji seviyelerimi tamamen dönüştürdü.</p>
-                    <p class="story-card__author">Ayşe K., 48 &mdash; Bursa</p>
-                    <p class="story-card__date">15 Nisan 2026</p>
-                  </div>
-                </div>
+                </a>
               </li>
               <li class="splide__slide">
-                <div class="story-card">
-                  <div class="story-card__img-wrap">
-                    <span class="story-card__badge">Fotoğraflı Hikaye</span>
-                    <img src="https://picsum.photos/seed/story2lon/480/360" alt="" class="story-card__img" />
+                <a href="pages/basari-hikayeleri.html" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                  <div class="story-card">
+                    <div class="story-card__img-wrap">
+                      <span class="story-card__badge">Hikaye</span>
+                      <img src="assets/images/generated/success_blood_sugar.png" alt="Başarı hikayesi görseli - Mehmet Y." class="story-card__img" />
+                    </div>
+                    <div class="story-card__body">
+                      <h3 class="story-card__title">90 günde kan şekerim normale döndü</h3>
+                      <p class="story-card__excerpt">Doktorum şoke oldu. Aralıklı oruç ve doğru beslenmeyle HbA1c değerim önemli ölçüde düştü.</p>
+                      <p class="story-card__author">Mehmet Y., 55 &mdash; İstanbul</p>
+                      <p class="story-card__date">8 Nisan 2026</p>
+                    </div>
                   </div>
-                  <div class="story-card__body">
-                    <h3 class="story-card__title">90 günde kan şekerim normale döndü</h3>
-                    <p class="story-card__excerpt">Doktorum şoke oldu. Aralıklı oruç ve doğru beslenmeyle HbA1c değerim önemli ölçüde düştü.</p>
-                    <p class="story-card__author">Mehmet Y., 55 &mdash; İstanbul</p>
-                    <p class="story-card__date">8 Nisan 2026</p>
-                  </div>
-                </div>
+                </a>
               </li>
               <li class="splide__slide">
-                <div class="story-card">
-                  <div class="story-card__img-wrap">
-                    <span class="story-card__badge">Fotoğraflı Hikaye</span>
-                    <img src="https://picsum.photos/seed/story3lon/480/360" alt="" class="story-card__img" />
+                <a href="pages/basari-hikayeleri.html" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                  <div class="story-card">
+                    <div class="story-card__img-wrap">
+                      <span class="story-card__badge">Hikaye</span>
+                      <img src="assets/images/generated/success_energy_fit.png" alt="Başarı hikayesi görseli - Fatma Ç." class="story-card__img" />
+                    </div>
+                    <div class="story-card__body">
+                      <h3 class="story-card__title">8 haftada 22 kg verdim, enerji doluyum</h3>
+                      <p class="story-card__excerpt">Artık ne yiyeceğimi ve nedenini anlıyorum. İçerikler bilimsel ve uygulaması çok kolay.</p>
+                      <p class="story-card__author">Fatma Ç., 41 &mdash; Ankara</p>
+                      <p class="story-card__date">22 Mart 2026</p>
+                    </div>
                   </div>
-                  <div class="story-card__body">
-                    <h3 class="story-card__title">8 haftada 22 kg verdim, enerji doluyum</h3>
-                    <p class="story-card__excerpt">Artık ne yiyeceğimi ve nedenini anlıyorum. İçerikler bilimsel ve uygulaması çok kolay.</p>
-                    <p class="story-card__author">Fatma Ç., 41 &mdash; Ankara</p>
-                    <p class="story-card__date">22 Mart 2026</p>
-                  </div>
-                </div>
+                </a>
               </li>
               <li class="splide__slide">
-                <div class="story-card">
-                  <div class="story-card__img-wrap">
-                    <span class="story-card__badge">Fotoğraflı Hikaye</span>
-                    <img src="https://picsum.photos/seed/story4lon/480/360" alt="" class="story-card__img" />
+                <a href="pages/basari-hikayeleri.html" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                  <div class="story-card">
+                    <div class="story-card__img-wrap">
+                      <span class="story-card__badge">Hikaye</span>
+                      <img src="assets/images/generated/success_chronic_fatigue.png" alt="Başarı hikayesi görseli - Kemal Ş." class="story-card__img" />
+                    </div>
+                    <div class="story-card__body">
+                      <h3 class="story-card__title">6 ay sonra kronik yorgunluğum tamamen geçti</h3>
+                      <p class="story-card__excerpt">Beslenme rehberini uygulamak enerjimi baştan aşağı değiştirdi. 52'mde 30'lumdaki gibi hissediyorum.</p>
+                      <p class="story-card__author">Kemal Ş., 52 &mdash; İzmir</p>
+                      <p class="story-card__date">10 Mart 2026</p>
+                    </div>
                   </div>
-                  <div class="story-card__body">
-                    <h3 class="story-card__title">6 ay sonra kronik yorgunluğum tamamen geçti</h3>
-                    <p class="story-card__excerpt">Beslenme rehberini uygulamak enerjimi baştan aşağı değiştirdi. 52'mde 30'lumdaki gibi hissediyorum.</p>
-                    <p class="story-card__author">Kemal Ş., 52 &mdash; İzmir</p>
-                    <p class="story-card__date">10 Mart 2026</p>
-                  </div>
-                </div>
+                </a>
               </li>
               <li class="splide__slide">
-                <div class="story-card">
-                  <div class="story-card__img-wrap">
-                    <span class="story-card__badge">Fotoğraflı Hikaye</span>
-                    <img src="https://picsum.photos/seed/story5lon/480/360" alt="" class="story-card__img" />
+                <a href="pages/basari-hikayeleri.html" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                  <div class="story-card">
+                    <div class="story-card__img-wrap">
+                      <span class="story-card__badge">Hikaye</span>
+                      <img src="assets/images/generated/success_thyroid_diet.png" alt="Başarı hikayesi görseli - Leyla A." class="story-card__img" />
+                    </div>
+                    <div class="story-card__body">
+                      <h3 class="story-card__title">Tiroid sağlığım longevity diyetiyle düzeldi</h3>
+                      <p class="story-card__excerpt">Yıllarca süren tiroid sorunlarımın ardından, Dr. Bakırcı'nın önerdiği diyet değişiklikleri inanılmaz fark yarattı.</p>
+                      <p class="story-card__author">Leyla A., 45 &mdash; Bursa</p>
+                      <p class="story-card__date">28 Şubat 2026</p>
+                    </div>
                   </div>
-                  <div class="story-card__body">
-                    <h3 class="story-card__title">Tiroid sağlığım longevity diyetiyle düzeldi</h3>
-                    <p class="story-card__excerpt">Yıllarca süren tiroid sorunlarımın ardından, Dr. Bakırcı'nın önerdiği diyet değişiklikleri inanılmaz fark yarattı.</p>
-                    <p class="story-card__author">Leyla A., 45 &mdash; Bursa</p>
-                    <p class="story-card__date">28 Şubat 2026</p>
-                  </div>
-                </div>
+                </a>
               </li>
             </ul>
           </div>
@@ -349,7 +493,7 @@
     </section>
 
     <!-- JUNK FOOD METER APP -->
-    <section class="section app-section">
+    <section class="section app-section" id="barkod">
       <div class="container">
         <div class="app-grid">
           <div class="app-grid__text">
@@ -363,15 +507,15 @@
             </ul>
             <div class="app-badges">
               <a href="pages/sitelerimiz.html" class="app-badge">
-                <img src="https://www.drberg.com/wp-content/uploads/2025/05/app-store.svg" alt="App Store'dan İndir" class="app-badge-img" />
+                <img src="assets/images/generated/health-app.png" alt="App Store'dan İndir" class="app-badge-img" />
               </a>
               <a href="pages/sitelerimiz.html" class="app-badge">
-                <img src="https://www.drberg.com/wp-content/uploads/2025/05/google-play.svg" alt="Google Play'den İndir" class="app-badge-img" />
+                <img src="assets/images/generated/health-app.png" alt="Google Play'den İndir" class="app-badge-img" />
               </a>
             </div>
           </div>
           <div class="app-grid__phone">
-            <img src="https://www.drberg.com/wp-content/uploads/2025/06/Artboard-1-1.png" alt="Gıda Takip Uygulaması" class="app-grid__phone-img" />
+            <img src="assets/images/generated/nutrition-longevity.png" alt="Gıda Takip Uygulaması" class="app-grid__phone-img" />
           </div>
           <div class="app-grid__accordion">
             <h3 class="accordion-heading">Temel Özellikler</h3>
@@ -419,7 +563,7 @@
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="blog/index.html" class="podcast-card__img-link">
-                    <img src="https://picsum.photos/seed/pod1lon/400/400" alt="" class="podcast-card__img" />
+                    <img src="assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -435,7 +579,7 @@
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="blog/index.html" class="podcast-card__img-link">
-                    <img src="https://picsum.photos/seed/pod2lon/400/400" alt="" class="podcast-card__img" />
+                    <img src="assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -451,7 +595,7 @@
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="blog/index.html" class="podcast-card__img-link">
-                    <img src="https://picsum.photos/seed/pod3lon/400/400" alt="" class="podcast-card__img" />
+                    <img src="assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -467,7 +611,7 @@
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="blog/telomerleri-korumak.html" class="podcast-card__img-link">
-                    <img src="https://picsum.photos/seed/pod4lon/400/400" alt="" class="podcast-card__img" />
+                    <img src="assets/images/generated/topics/telomer.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -475,7 +619,7 @@
                   <div class="podcast-card__body">
                     <span class="podcast-card__ep">BÖLÜM 418</span>
                     <h3 class="podcast-card__title"><a href="blog/telomerleri-korumak.html">Telomerleri Koruma Rehberi: Biyolojik Saatinizi Yavaşlatın</a></h3>
-                    <p class="podcast-card__desc">Dört vücut tipi ve kendininkini bilmenin kalıcı yağ kaybı ve enerji için kişisel bir yol açtığı açıklanıyor.</p>
+                    <p class="podcast-card__desc">Telomerlerin neden kısaldığını, hangi alışkanlıkların bu süreci hızlandırdığını ve bilimsel olarak desteklenen koruma yöntemlerini ele alıyoruz.</p>
                     <p class="podcast-card__meta"><span class="podcast-card__dur">44 dk</span>&ensp;&bull;&ensp;<span class="podcast-card__date">21 Nis 2026</span></p>
                   </div>
                 </article>
@@ -483,7 +627,7 @@
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="blog/d3-vitamini-eksikligi.html" class="podcast-card__img-link">
-                    <img src="https://picsum.photos/seed/pod5lon/400/400" alt="" class="podcast-card__img" />
+                    <img src="assets/images/generated/topics/d3-vitamini.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -499,7 +643,7 @@
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="blog/kortizol-yaslanma.html" class="podcast-card__img-link">
-                    <img src="https://picsum.photos/seed/pod6lon/400/400" alt="" class="podcast-card__img" />
+                    <img src="assets/images/generated/topics/kortizol-stres.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -511,118 +655,6 @@
                     <p class="podcast-card__meta"><span class="podcast-card__dur">41 dk</span>&ensp;&bull;&ensp;<span class="podcast-card__date">7 Nis 2026</span></p>
                   </div>
                 </article>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SHOP BESTSELLERS -->
-    <section class="section products-section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">En çok satanlarımıza göz atın</h2>
-          <a href="pages/magaza.html" class="section-link">Tüm ürünleri gör</a>
-        </div>
-        <div class="splide" id="productsSplide" aria-label="En çok satanlar">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <div class="product-card">
-                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_D3K2_120_capsules_2025_3D2.webp" alt="D3 &amp; K2 Vitamini" class="product-card__img" /></div>
-                  <div class="product-card__body">
-                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(2.847)</span></div>
-                    <h4 class="product-card__name">D3 &amp; K2 Vitamini</h4>
-                    <p class="product-card__stock">Stokta var</p>
-                    <p class="product-card__price">₺899'dan başlayan</p>
-                    <a href="pages/magaza.html" class="btn btn-product">Ürünü İncele</a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div class="product-card">
-                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/electrolyte-powder-lemon-us-v3-3d.webp" alt="Elektrolit Tozu" class="product-card__img" /></div>
-                  <div class="product-card__body">
-                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(4.102)</span></div>
-                    <h4 class="product-card__name">Elektrolit Tozu</h4>
-                    <p class="product-card__stock">Stokta var</p>
-                    <p class="product-card__price">₺1.199'dan başlayan</p>
-                    <a href="pages/magaza.html" class="btn btn-product">Ürünü İncele</a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div class="product-card">
-                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Magnesium_Glycinate_120_capsules_2025_3D2.webp" alt="Magnezyum Glisin" class="product-card__img" /></div>
-                  <div class="product-card__body">
-                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(1.654)</span></div>
-                    <h4 class="product-card__name">Magnezyum Glisin</h4>
-                    <p class="product-card__stock">Stokta var</p>
-                    <p class="product-card__price">₺749'dan başlayan</p>
-                    <a href="pages/magaza.html" class="btn btn-product">Ürünü İncele</a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div class="product-card">
-                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Whole_Food_Multi_120_capsules_2025_3D2.webp" alt="Tam Gıda Multivitamin" class="product-card__img" /></div>
-                  <div class="product-card__body">
-                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(2.311)</span></div>
-                    <h4 class="product-card__name">Tam Gıda Multivitamin</h4>
-                    <p class="product-card__stock">Stokta var</p>
-                    <p class="product-card__price">₺1.049'dan başlayan</p>
-                    <a href="pages/magaza.html" class="btn btn-product">Ürünü İncele</a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div class="product-card">
-                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Vitamin_B1_100_capsules_2025_3D2.webp" alt="B1 Vitamini" class="product-card__img" /></div>
-                  <div class="product-card__body">
-                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(1.230)</span></div>
-                    <h4 class="product-card__name">B1 Vitamini</h4>
-                    <p class="product-card__stock">Stokta var</p>
-                    <p class="product-card__price">₺599'dan başlayan</p>
-                    <a href="pages/magaza.html" class="btn btn-product">Ürünü İncele</a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div class="product-card">
-                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Omega_3_Fatty_Acids_90_capsules_2025_3D2.webp" alt="Omega-3 Yağ Asitleri" class="product-card__img" /></div>
-                  <div class="product-card__body">
-                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(3.421)</span></div>
-                    <h4 class="product-card__name">Omega-3 Yağ Asitleri</h4>
-                    <p class="product-card__stock">Stokta var</p>
-                    <p class="product-card__price">₺1.049'dan başlayan</p>
-                    <a href="pages/magaza.html" class="btn btn-product">Ürünü İncele</a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div class="product-card">
-                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Trace_Minerals_60_capsules_2025_3D2.webp" alt="Eser Mineraller" class="product-card__img" /></div>
-                  <div class="product-card__body">
-                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(897)</span></div>
-                    <h4 class="product-card__name">Eser Mineraller</h4>
-                    <p class="product-card__stock">Stokta var</p>
-                    <p class="product-card__price">₺689'dan başlayan</p>
-                    <a href="pages/magaza.html" class="btn btn-product">Ürünü İncele</a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div class="product-card">
-                  <div class="product-card__img-wrap"><img src="https://cdn.shopify.com/s/files/1/0559/4418/3880/files/US_Multi_Collagen_60_capsules_2025_3D2.webp" alt="Çoklu Kolajen" class="product-card__img" /></div>
-                  <div class="product-card__body">
-                    <div class="product-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span>(1.543)</span></div>
-                    <h4 class="product-card__name">Çoklu Kolajen</h4>
-                    <p class="product-card__stock">Stokta var</p>
-                    <p class="product-card__price">₺839'dan başlayan</p>
-                    <a href="pages/magaza.html" class="btn btn-product">Ürünü İncele</a>
-                  </div>
-                </div>
               </li>
             </ul>
           </div>
@@ -642,18 +674,18 @@
               <a href="pages/sitelerimiz.html" class="btn btn-dark">Kalkulatörü gör</a>
             </div>
             <div class="tool-card__mockup">
-              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Keto-Calculator-3.png" alt="Longevity Kalkulatörü" class="tool-card__phone" />
+              <img src="assets/images/generated/health-app.png" alt="Longevity Kalkulatörü" class="tool-card__phone" />
             </div>
           </div>
           <div class="tool-card tool-card--dark">
             <div class="tool-card__content">
-              <p class="tool-card__label">QUİZ</p>
+              <p class="tool-card__label">TEST</p>
               <h3 class="tool-card__title">Sadece 2 dakikada vücut tipinizi keşfedin</h3>
-              <p class="tool-card__desc">Ücretsiz quizimizi alın ve benzersiz vücut tipinize göre özelleştirilmiş bir sağlık planı edinin.</p>
-              <a href="pages/quizler.html" class="btn btn-light">Quize Başla</a>
+              <p class="tool-card__desc">Ücretsiz testimizi alın ve benzersiz vücut tipinize göre özelleştirilmiş bir sağlık planı edinin.</p>
+              <a href="pages/quizler.html" class="btn btn-light">Teste Başla</a>
             </div>
             <div class="tool-card__mockup">
-              <img src="https://www.drberg.com/wp-content/uploads/2025/05/Weight-Loss_-3.png" alt="Vücut Tipi Quizi" class="tool-card__phone" />
+              <img src="assets/images/generated/health-app.png" alt="Vücut Tipi Quizi" class="tool-card__phone" />
             </div>
           </div>
         </div>
@@ -668,20 +700,15 @@
       <div class="footer__top">
         <div class="footer__brand">
           <a href="index.html" class="footer__logo"><span class="footer__logo-text">Dr. Bakırcı</span></a>
-          <p class="footer__tagline">40 milyondan fazla üyeye katılın ve en son içerikleri alın.</p>
-          <form class="footer__newsletter" aria-label="Bülten kaydı">
-            <input type="email" placeholder="E-posta adresiniz" class="footer__input" aria-label="E-posta adresi" />
-            <button type="submit" class="btn-footer-sub">Abone Ol</button>
-          </form>
         </div>
         <div class="footer__col">
           <h4 class="footer__heading">Keşfet</h4>
           <ul class="footer__links">
             <li><a href="pages/longevity.html">Longevity</a></li>
-            <li><a href="blog/aralikli-oruc-longevity.html">Keto</a></li>
-            <li><a href="pages/tarifler.html">Tarifler</a></li>
+            <li><a href="index.html#kutuphane">Keto</a></li>
+            <li><a href="pages/dunyada-saglik.html">Dünyada Sağlık</a></li>
             <li><a href="blog/aralikli-oruc-longevity.html">Aralıklı Oruç</a></li>
-            <li><a href="pages/magaza.html">Supplementler</a></li>
+            
             <li><a href="blog/index.html">Blog</a></li>
           </ul>
         </div>
@@ -689,7 +716,7 @@
           <h4 class="footer__heading">Hakkında</h4>
           <ul class="footer__links">
             <li><a href="pages/hakkinda.html">Dr. Bakırcı Hakkında</a></li>
-            <li><a href="pages/magaza.html">Mağaza</a></li>
+            
             <li><a href="pages/kurslar.html">Kurslar</a></li>
             <li><a href="pages/iletisim.html">İletişim</a></li>
             <li><a href="pages/iletisim.html">Kariyer</a></li>
@@ -735,8 +762,8 @@
       </div>
 
       <div class="footer__apps">
-        <a href="pages/sitelerimiz.html" class="footer-app-link"><img src="https://www.drberg.com/wp-content/uploads/2025/05/app-store.svg" alt="App Store'dan İndir" class="footer-app-img" /></a>
-        <a href="pages/sitelerimiz.html" class="footer-app-link"><img src="https://www.drberg.com/wp-content/uploads/2025/05/google-play.svg" alt="Google Play'den İndir" class="footer-app-img" /></a>
+        <a href="pages/sitelerimiz.html" class="footer-app-link"><img src="assets/images/generated/health-app.png" alt="App Store'dan İndir" class="footer-app-img" /></a>
+        <a href="pages/sitelerimiz.html" class="footer-app-link"><img src="assets/images/generated/health-app.png" alt="Google Play'den İndir" class="footer-app-img" /></a>
       </div>
 
       <div class="footer__address">
@@ -754,6 +781,28 @@
       </div>
     </div>
   </footer>
+
+  <!-- PROMO POPUP MODAL -->
+  <div class="promo-modal" id="promoModal" aria-hidden="true" role="dialog">
+    <div class="promo-modal__overlay"></div>
+    <div class="promo-modal__content">
+      <button class="promo-modal__close" id="closePromoModal" aria-label="Kapat">&times;</button>
+      <div class="promo-modal__grid">
+        <div class="promo-modal__img-wrap">
+          <img src="assets/images/generated/quiz_body_type.png" alt="Vücut Tipi Quizi" class="promo-modal__img" />
+        </div>
+        <div class="promo-modal__body">
+          <span class="promo-modal__badge">ÜCRETSİZ ANALİZ</span>
+          <h2 class="promo-modal__title">#1 Sağlık Engelinizi Keşfedin</h2>
+          <p class="promo-modal__desc">Biyolojik yaşınızı ve benzersiz vücut tipinizi sadece 2 dakikada öğrenin. Size özel hazırlanmış ücretsiz longevity ve beslenme protokolünüzü alın.</p>
+          <div class="promo-modal__actions">
+            <a href="pages/quizler.html" class="btn btn-primary btn-promo">Teste Başla &rarr;</a>
+            <button class="btn-promo-skip" id="skipPromoModal">Daha Sonra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1/dist/js/splide.min.js"></script>
   <script src="script.js"></script>

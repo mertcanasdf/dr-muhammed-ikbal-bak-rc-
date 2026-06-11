@@ -30,18 +30,22 @@
     </div>
     <header class="site-header">
       <div class="container site-header__inner">
-        <a href="../index.html" class="site-logo"><span class="site-logo__text">Dr. Bakırcı</span></a>
-        <div class="header-stats">
-          <div class="header-stat"><span class="header-stat__number">2.400.000+</span><span class="header-stat__label">YouTube Abonesi</span></div>
-          <div class="header-stat header-stat--mid"><span class="header-stat__number">1.240</span><span class="header-stat__label">Başarı Hikayesi</span></div>
-          <div class="header-stat"><span class="header-stat__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="header-stat__reviews">1.800+ Google Yorumu</span><span class="header-stat__rating">4.8 / 5 puan</span></div>
-        </div>
+        <a href="../index.html" class="site-logo" aria-label="Dr. Muhammed İkbal Bakırcı Ana Sayfa">
+          <div class="site-logo__mark">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" fill="var(--blue)" fill-opacity="0.08" stroke="var(--blue)" stroke-width="2"/>
+              <path d="M8 12H11L12.5 8L14 16L15 12H16" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="site-logo__text"><span class="site-logo__dr">Dr.</span> <span class="site-logo__name">Muhammed İkbal</span> <span class="site-logo__surname">Bakırcı</span></span>
+        </a>
+        
         <div class="header-search-wrap">
           <input type="search" class="header-search-input" placeholder="Ara" aria-label="Ara" />
           <button class="header-search-btn" aria-label="Ara"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
         </div>
-        <div class="header-actions">
-          <a href="#" class="btn-sign-in"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>Giriş Yap</a>
+        <div class="header-actions"><a href="../pages/quizler.html" class="btn-header-cta">Quizi Çöz</a>
+          
           <button class="hamburger" id="hamburger" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mainMenu"><span></span><span></span><span></span></button>
         </div>
       </div>
@@ -49,14 +53,51 @@
     <nav class="main-menu" id="mainMenu" aria-label="Ana navigasyon">
       <div class="container">
         <ul class="main-menu__list">
-          <li><a href="index.html">İçerik Kütüphanesi</a></li>
-          <li><a href="../pages/tarifler.html">Tarifler</a></li>
+                    <li class="has-megamenu">
+            <a href="../blog/index.html" class="menu-trigger">İçerik Kütüphanesi <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="megamenu">
+              <div class="megamenu__container">
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Popüler Konular</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../index.html#kutuphane">Sağlık Sorunları</a></li>
+                    <li><a href="../index.html#kutuphane">Beslenme</a></li>
+                    <li><a href="../index.html#kutuphane">Sağlıklı Yaşam</a></li>
+                    <li><a href="../index.html#kutuphane">Diyetler</a></li>
+                    <li><a href="../blog/index.html">Keto</a></li>
+                    <li><a href="../pages/dunyada-saglik.html">Dünyada Sağlık</a></li>
+                    <li><a href="../pages/basari-hikayeleri.html">Başarı Hikayeleri</a></li>
+                    
+                    <li><a href="../blog/index.html" class="megamenu__special-link">Tüm makaleleri gör &rarr;</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Referanslar</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../pages/quizler.html">Sağlık Testleri ve Hesaplayıcılar</a></li>
+                    <li><a href="../pages/rehberler.html">Rehberler ve Kaynaklar</a></li>
+                    <li><a href="../pages/kurslar.html">Mini Kurslar</a></li>
+                    <li><a href="../pages/kurslar.html">Kurslar</a></li>
+                    <li><a href="../index.html#bulten">Üyelik</a></li>
+                  </ul>
+                </div>
+                <div class="megamenu__column">
+                  <h4 class="megamenu__title">Özel Projeler</h4>
+                  <ul class="megamenu__links">
+                    <li><a href="../index.html#barkod">Ultra-İşlenmiş Gıda Girişimi</a></li>
+                    <li><a href="../pages/longevity.html">Sağlıklı Yaşam ve Hücresel Sağlık</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="../pages/dunyada-saglik.html">Dünyada Sağlık</a></li>
           <li><a href="../pages/longevity.html">Longevity</a></li>
           <li><a href="../pages/rehberler.html">Rehberler</a></li>
           <li><a href="../pages/quizler.html">Quizler <span class="new-badge">Yeni</span></a></li>
           <li><a href="../pages/basari-hikayeleri.html">Başarı Hikayeleri</a></li>
-          <li><a href="../pages/sansursuz-icerik.html">Sansürsüz İçerik</a></li>
-          <li><a href="../pages/magaza.html" class="main-menu__shop">Mağaza <span class="sale-badge">İNDİRİM</span></a></li>
+          
+          
         </ul>
       </div>
     </nav>
@@ -82,7 +123,7 @@
       <div class="article-layout">
 
         <article class="article-body">
-          <img src="https://picsum.photos/seed/art1lon/1200/675" alt="Otofaji" class="article-body__featured-img" />
+          <img src="../assets/images/generated/topics/otofaji.png" alt="Otofaji" class="article-body__featured-img" />
 
           <p>Vücudunuz her gece uyurken, kısa süreli açlık dönemlerinde ya da yoğun egzersiz sırasında sessiz ama son derece güçlü bir temizlik mekanizması devreye girer: <strong>otofaji</strong>. Bu süreç, Yunancada "kendi kendini yemek" anlamına gelir ve 2016 Nobel Fizyoloji ve Tıp Ödülü'ne layık görülen bir keşiftir. Japon bilim insanı Yoshinori Ohsumi'nin bu alandaki çalışmaları, hücresel sağlık ve uzun ömür bilimimizi kökten değiştirdi.</p>
 
@@ -136,11 +177,11 @@
           <p>Longevity protokolünün merkezine otofajiyi yerleştirmek, sağlıklı yaşam süresini uzatmaya yönelik en kanıtlı adımlardan biridir.</p>
 
           <div class="author-bio">
-            <img src="https://picsum.photos/seed/drbakırci/200/200" alt="Dr. Muhammed İkbal Bakırcı" class="author-bio__avatar" />
+            <img src="../assets/images/generated/doctor-portrait.png" alt="Dr. Muhammed İkbal Bakırcı" class="author-bio__avatar" />
             <div>
               <p class="author-bio__name">Dr. Muhammed İkbal Bakırcı</p>
-              <p class="author-bio__title">Longevity &amp; Metabolik Sağlık Uzmanı</p>
-              <p class="author-bio__desc">Hücresel sağlık, aralıklı oruç ve longevity alanlarında 15 yılı aşkın klinik deneyime sahip olan Dr. Bakırcı, Bursa'da binlerce hastanın metabolik dönüşümüne eşlik etmiştir.</p>
+              <p class="author-bio__title">MD Specialist in Longevity Science</p>
+              <p class="author-bio__desc">Hücresel sağlık, aralıklı oruç ve longevity alanlarında 15 yılı aşkın klinik deneyime sahip olan Dr. Bakırcı, Bursa'da çokça hastanın metabolik dönüşümüne eşlik etmiştir.</p>
             </div>
           </div>
         </article>
@@ -156,21 +197,21 @@
           <div class="sidebar-card">
             <p class="sidebar-card__title">İlgili Makaleler</p>
             <a href="aralikli-oruc-longevity.html" class="sidebar-related-card">
-              <img src="https://picsum.photos/seed/art2lon/200/150" alt="" class="sidebar-related-card__img" />
+              <img src="../assets/images/generated/topics/aralikli-oruc.png" alt="İlgili yazı görseli" class="sidebar-related-card__img" />
               <div>
                 <p class="sidebar-related-card__cat">Beslenme</p>
                 <span class="sidebar-related-card__title">Aralıklı Orucun Longevity Üzerindeki Etkisi</span>
               </div>
             </a>
             <a href="telomerleri-korumak.html" class="sidebar-related-card">
-              <img src="https://picsum.photos/seed/art3lon/200/150" alt="" class="sidebar-related-card__img" />
+              <img src="../assets/images/generated/topics/telomer.png" alt="İlgili yazı görseli" class="sidebar-related-card__img" />
               <div>
                 <p class="sidebar-related-card__cat">Hücre Sağlığı</p>
                 <span class="sidebar-related-card__title">Telomerleri Korumak için 7 Kanıtlanmış Yöntem</span>
               </div>
             </a>
             <a href="nmn-nad-yaslanma.html" class="sidebar-related-card">
-              <img src="https://picsum.photos/seed/art4lon/200/150" alt="" class="sidebar-related-card__img" />
+              <img src="../assets/images/generated/topics/nmn-nad.png" alt="İlgili yazı görseli" class="sidebar-related-card__img" />
               <div>
                 <p class="sidebar-related-card__cat">Beyin Sağlığı</p>
                 <span class="sidebar-related-card__title">NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek</span>
@@ -195,8 +236,8 @@
             <button type="submit" class="btn-footer-sub">Abone Ol</button>
           </form>
         </div>
-        <div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="../pages/longevity.html">Longevity</a></li><li><a href="aralikli-oruc-longevity.html">Keto</a></li><li><a href="../pages/tarifler.html">Tarifler</a></li><li><a href="aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="index.html">Blog</a></li></ul></div>
-        <div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="../pages/hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="../pages/magaza.html">Mağaza</a></li><li><a href="../pages/kurslar.html">Kurslar</a></li><li><a href="../pages/iletisim.html">İletişim</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__heading">Keşfet</h4><ul class="footer__links"><li><a href="../pages/longevity.html">Longevity</a></li><li><a href="aralikli-oruc-longevity.html">Keto</a></li><li><a href="../pages/dunyada-saglik.html">Dünyada Sağlık</a></li><li><a href="aralikli-oruc-longevity.html">Aralıklı Oruç</a></li><li><a href="index.html">Blog</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__heading">Hakkında</h4><ul class="footer__links"><li><a href="../pages/hakkinda.html">Dr. Bakırcı Hakkında</a></li><li><a href="../pages/kurslar.html">Kurslar</a></li><li><a href="../pages/iletisim.html">İletişim</a></li></ul></div>
       </div>
       <div class="footer__disclaimer"><p>* Bu ifadeler Gıda ve İlaç İdaresi tarafından değerlendirilmemiştir.</p></div>
       <div class="footer__bottom">

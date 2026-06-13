@@ -204,12 +204,27 @@ ul         { list-style: none; }
   flex-shrink: 0;
 }
 .site-logo__text {
-  font-size: 19px; /* Refined to perfectly accommodate the longer name without layout drift */
+  font-size: 19px;
   letter-spacing: -0.3px;
   white-space: nowrap;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  line-height: 1.2;
+}
+.site-logo__fullname {
+  display: flex;
   align-items: center;
   gap: 5px;
+}
+.site-logo__role {
+  /* YER TUTUCU unvan — kesin metin kullanıcıdan gelecek */
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--gray-500);
 }
 .site-logo__dr {
   font-weight: 300;
@@ -225,7 +240,8 @@ ul         { list-style: none; }
 }
 @media (max-width: 640px) {
   .site-logo__text { font-size: 15px; }
-  .site-logo__name { display: none; } /* Sophisticated responsive hiding of middle name on small devices */
+  .site-logo__name { display: none; }
+  .site-logo__role { display: none; }
 }
 
 .header-stats {

@@ -1,0 +1,108 @@
+---
+// src/components/Header.astro
+---
+<div class="header-wrapper" id="headerWrapper">
+
+  <div class="utility-nav">
+    <div class="container utility-nav__inner">
+      <nav aria-label="Yardımcı navigasyon">
+        <a href="/sitelerimiz">Sitelerimiz</a>
+        <a href="/hakkinda">Hakkında</a>
+        <a href="/iletisim">İletişim</a>
+      </nav>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+
+      <a href="/" class="site-logo" aria-label="Dr. Muhammed İkbal Bakırcı Ana Sayfa">
+        <div class="site-logo__mark">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="10" fill="var(--blue)" fill-opacity="0.08" stroke="var(--blue)" stroke-width="2"/>
+            <path d="M8 12H11L12.5 8L14 16L15 12H16" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <span class="site-logo__text">
+          <span class="site-logo__fullname">
+            <span class="site-logo__dr">Dr.</span>
+            <span class="site-logo__name">Muhammed İkbal</span>
+            <span class="site-logo__surname">Bakırcı</span>
+          </span>
+          <span class="site-logo__role">Tıp Doktoru</span>
+        </span>
+      </a>
+
+      <div class="header-search-wrap">
+        <input type="search" class="header-search-input" placeholder="Ara" aria-label="Ara" />
+        <button class="header-search-btn" aria-label="Ara">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="header-actions">
+        <a href="/quizler" class="btn-header-cta">Quizi Çöz</a>
+        <button class="hamburger" id="hamburger" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mainMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <nav class="main-menu" id="mainMenu" aria-label="Ana navigasyon">
+    <div class="container">
+      <ul class="main-menu__list">
+        <li class="has-megamenu">
+          <a href="/blog" class="menu-trigger">İçerik Kütüphanesi
+            <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none">
+              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <div class="megamenu">
+            <div class="megamenu__container">
+              <div class="megamenu__column">
+                <h4 class="megamenu__title">Popüler Konular</h4>
+                <ul class="megamenu__links">
+                  <li><a href="/#kutuphane">Sağlık Sorunları</a></li>
+                  <li><a href="/#kutuphane">Beslenme</a></li>
+                  <li><a href="/#kutuphane">Sağlıklı Yaşam</a></li>
+                  <li><a href="/#kutuphane">Diyetler</a></li>
+                  <li><a href="/blog">Keto</a></li>
+                  <li><a href="/dunyada-saglik">Dünyada Sağlık</a></li>
+                  <li><a href="/basari-hikayeleri">Başarı Hikayeleri</a></li>
+                  <li><a href="/blog" class="megamenu__special-link">Tüm makaleleri gör &rarr;</a></li>
+                </ul>
+              </div>
+              <div class="megamenu__column">
+                <h4 class="megamenu__title">Referanslar</h4>
+                <ul class="megamenu__links">
+                  <li><a href="/quizler">Sağlık Testleri ve Hesaplayıcılar</a></li>
+                  <li><a href="/rehberler">Rehberler ve Kaynaklar</a></li>
+                  <li><a href="/kurslar">Mini Kurslar</a></li>
+                  <li><a href="/kurslar">Kurslar</a></li>
+                </ul>
+              </div>
+              <div class="megamenu__column">
+                <h4 class="megamenu__title">Özel Projeler</h4>
+                <ul class="megamenu__links">
+                  <li><a href="/#barkod">Ultra-İşlenmiş Gıda Girişimi</a></li>
+                  <li><a href="/longevity">Sağlıklı Yaşam ve Hücresel Sağlık</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="/dunyada-saglik">Dünyada Sağlık</a></li>
+        <li><a href="/longevity">Longevity</a></li>
+        <li><a href="/medikal-estetik">Medikal Estetik &amp; Güzellik</a></li>
+        <li><a href="/rehberler">Rehberler</a></li>
+        <li><a href="/quizler">Quizler <span class="new-badge">Yeni</span></a></li>
+        <li><a href="/basari-hikayeleri">Başarı Hikayeleri</a></li>
+      </ul>
+    </div>
+  </nav>
+
+</div>

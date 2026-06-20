@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+
+const slug = (id: string) => id.replace(/\.mdx?$/, '');
+---
+<BaseLayout title="Blog — Dr. Muhammed İkbal Bakırcı">
+  <section class="blog-hero">
+    <div class="container">
+      <h1 class="blog-hero__title">İçerik Kütüphanesi</h1>
+      <p class="blog-hero__sub">Longevity, beslenme, hücre sağlığı ve daha fazlası — bilimsel temelli, Türkçe içerikler.</p>
+      <div class="blog-filters" id="blogFilters">
+        <button class="filter-btn active" data-filter="all">Tümü</button>
+        <button class="filter-btn" data-filter="Otofaji">Otofaji</button>
+        <button class="filter-btn" data-filter="Beslenme">Beslenme</button>
+        <button class="filter-btn" data-filter="Hücre Sağlığı">Hücre Sağlığı</button>
+        <button class="filter-btn" data-filter="Longevity">Longevity</button>
+        <button class="filter-btn" data-filter="Vitaminler">Vitaminler</button>
+        <button class="filter-btn" data-filter="Stres">Stres</button>
+        <button class="filter-btn" data-filter="Egzersiz">Egzersiz</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="blog-grid" id="blogGrid">
+        {posts.map(post => (
+          <article class="blog-card" data-cat={post.data.category}>
+            <a href={`/blog/${slug(post.id)}`}>
+              <img src={post.data.image} alt={post.data.title} class="blog-card__img" />
+            </a>
+            <div class="blog-card__body">
+              <span class="blog-card__cat">{post.data.category}</span>
+              <h2 class="blog-card__title">
+                <a href={`/blog/${slug(post.id)}`}>{post.data.title}</a>
+              </h2>
+              <p class="blog-card__excerpt">{post.data.description}</p>
+              <div class="blog-card__meta">
+                <span>{formatDate(post.data.date)}</span>
+                <span>{post.data.readTime} okuma</span>
+              </div>
+              <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

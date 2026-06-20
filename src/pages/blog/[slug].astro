@@ -1,0 +1,98 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.id.replace(/\.mdx?$/, '') },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const { title, date, category, image, readTime, takeaways, relatedArticles } = post.data;
+
+function formatDate(d: Date): string {
+  return d.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+---
+<BaseLayout title={`${title} — Dr. Muhammed İkbal Bakırcı`}>
+  <section class="article-hero">
+    <div class="container">
+      <div class="article-hero__inner">
+        <span class="article-hero__cat">{category}</span>
+        <h1 class="article-hero__title">{title}</h1>
+        <div class="article-hero__meta">
+          <span>Dr. Muhammed İkbal Bakırcı</span>
+          <span>{formatDate(date)}</span>
+          <span>{readTime} okuma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="article-layout">
+
+      <article class="article-body">
+        <img src={image} alt={title} class="article-body__featured-img" />
+
+        <Content />
+
+        {takeaways && takeaways.length > 0 && (
+          <div class="takeaways">
+            <p class="takeaways__title">&#10003; Kilit Çıkarımlar</p>
+            <ul>
+              {takeaways.map(t => <li>{t}</li>)}
+            </ul>
+          </div>
+        )}
+
+        <div class="author-bio">
+          <img
+            src="/assets/images/generated/doctor-portrait.png"
+            alt="Dr. Muhammed İkbal Bakırcı"
+            class="author-bio__avatar"
+          />
+          <div>
+            <p class="author-bio__name">Dr. Muhammed İkbal Bakırcı</p>
+            <p class="author-bio__title">Tıp Doktoru</p>
+            <p class="author-bio__desc">
+              Hücresel sağlık, aralıklı oruç ve longevity alanlarında 15 yılı aşkın klinik deneyime
+              sahip olan Dr. Muhammed İkbal, Bursa'da çokça hastanın metabolik dönüşümüne eşlik etmiştir.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <aside class="article-sidebar">
+        {headings.filter(h => h.depth <= 2).length > 0 && (
+          <div class="sidebar-card sidebar-toc">
+            <p class="sidebar-card__title">İçindekiler</p>
+            {headings.filter(h => h.depth <= 2).map(h => (
+              <a href={`#${h.slug}`}>{h.text}</a>
+            ))}
+          </div>
+        )}
+
+        {relatedArticles && relatedArticles.length > 0 && (
+          <div class="sidebar-card">
+            <p class="sidebar-card__title">İlgili Makaleler</p>
+            {relatedArticles.map(r => (
+              <a href={`/blog/${r.slug}`} class="sidebar-related-card">
+                <img src={r.image} alt="İlgili yazı görseli" class="sidebar-related-card__img" />
+                <div>
+                  <p class="sidebar-related-card__cat">{r.category}</p>
+                  <span class="sidebar-related-card__title">{r.title}</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+      </aside>
+
+    </div>
+  </div>
+</BaseLayout>

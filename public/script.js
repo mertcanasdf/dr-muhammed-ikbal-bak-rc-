@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('astro:page-load', () => {
 
   // ── Nav dropdowns ──
   (function initNavDropdowns() {

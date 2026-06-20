@@ -136,6 +136,72 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
         </div>
 
+        <div class="quiz-card">
+          <img src="/assets/images/generated/quiz_skin_aesthetic.png" alt="Medikal Estetik Cilt Değerlendirmesi" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <span class="quiz-card__tag">Ücretsiz</span>
+            <h3 class="quiz-card__title">Medikal Estetik Cilt Değerlendirmesi</h3>
+            <p class="quiz-card__desc">Glogau fotoyaşlanma sınıflandırması temel alınarak hazırlanmış profesyonel cilt analizi. Kırışıklık, pigmentasyon, laksiti ve hacim kaybı açısından mevcut cilt yaşınızı değerlendirin.</p>
+            <div class="quiz-card__meta"><span>10 soru</span><span>~3 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('cilt-estetik')">Teste Başla</button>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <img src="/assets/images/generated/quiz_skin_health.png" alt="Cilt Sağlığı ve Gençleşme Testi" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <span class="quiz-card__tag">Ücretsiz</span>
+            <h3 class="quiz-card__title">Cilt Sağlığı & Gençleşme Testi</h3>
+            <p class="quiz-card__desc">Günlük bakım rutini, beslenme, uyku ve yaşam tarzı alışkanlıklarınız cildinizin biyolojik yaşını nasıl etkiliyor? 12 soruda cilt sağlık skorunuzu öğrenin.</p>
+            <div class="quiz-card__meta"><span>12 soru</span><span>~3 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('cilt-sagligi')">Teste Başla</button>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <img src="/assets/images/generated/quiz_pss_stress.png" alt="Algılanan Stres Ölçeği PSS-10" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <span class="quiz-card__tag">Ücretsiz</span>
+            <h3 class="quiz-card__title">Algılanan Stres Ölçeği (PSS-10)</h3>
+            <p class="quiz-card__desc">Cohen tarafından geliştirilen, dünya genelinde en yaygın kullanılan klinik stres ölçeği. Son bir ayınızdaki psikolojik stres yükünüzü bilimsel olarak ölçer.</p>
+            <div class="quiz-card__meta"><span>10 soru</span><span>~3 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('pss')">Teste Başla</button>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <img src="/assets/images/generated/quiz_anxiety.png" alt="Yaygın Anksiyete Bozukluğu Ölçeği GAD-7" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <span class="quiz-card__tag">Ücretsiz</span>
+            <h3 class="quiz-card__title">Anksiyete Değerlendirmesi (GAD-7)</h3>
+            <p class="quiz-card__desc">DSM-5 kriterlerine dayalı, klinik ortamlarda yaygın kullanılan GAD-7 ölçeği. Yaygın anksiyete belirtilerinin şiddetini ölçmek için 7 soruluk doğrulanmış araç.</p>
+            <div class="quiz-card__meta"><span>7 soru</span><span>~2 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('anksiyete')">Teste Başla</button>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <img src="/assets/images/generated/quiz_obsession.png" alt="Obsesif Düşünce Taraması OCI-R" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <span class="quiz-card__tag">Ücretsiz</span>
+            <h3 class="quiz-card__title">Obsesif Düşünce Taraması (OCI-R)</h3>
+            <p class="quiz-card__desc">Foa ve arkadaşları tarafından geliştirilen OKB Envanteri'nin Türkçe uyarlaması. Obsesif-kompulsif belirtilerinizin şiddetini 18 soruda değerlendirin.</p>
+            <div class="quiz-card__meta"><span>18 soru</span><span>~5 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('obsesyon')">Teste Başla</button>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <img src="/assets/images/generated/quiz_sleep.png" alt="Uyku Kalitesi ve İnsomnia Testi ISI" class="quiz-card__img" />
+          <div class="quiz-card__body">
+            <span class="quiz-card__tag">Ücretsiz</span>
+            <h3 class="quiz-card__title">Uyku Kalitesi Testi (ISI)</h3>
+            <p class="quiz-card__desc">Uluslararası uyku tıbbında yaygın kullanılan İnsomnia Şiddet İndeksi. Uyku kalitenizi ve insomnia şiddetinizi 7 klinik soruda bilimsel olarak ölçer.</p>
+            <div class="quiz-card__meta"><span>7 soru</span><span>~2 dakika</span></div>
+            <button class="btn btn-dark" onclick="openQuiz('uyku')">Teste Başla</button>
+          </div>
+        </div>
+
       </div>
     </div></section>
 
@@ -306,6 +372,152 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         { min: 0, max: 8, label: 'Düşük Kapasite', title: 'Mitokondriyal Kapasiteniz Düşük Olabilir', pct: 25, desc: 'Mitokondrileriniz yeterli verimle çalışmıyor olabilir.', tips: ['Haftada en az 3 gün Bölge 2 antrenman yapın', 'CoQ10 ve PQQ takviyelerini araştırın', 'NMN veya NR desteğini değerlendirin', 'Her sabah soğuk duş ile hormetik stresi uyarın'] },
         { min: 9, max: 17, label: 'Orta Kapasite', title: 'Orta Düzey Hücresel Enerji Kapasitesi', pct: 60, desc: 'Mitokondriyal sağlığınız ortalama düzeyde.', tips: ['Aralıklı oruç ve kalori kısıtlaması otofaji yoluyla hasarlı mitokondrileri temizler', 'Magnezyum ve B vitaminleri Krebs döngüsü için esastır', 'Sauna ve soğuk banyo maruziyetini artırın'] },
         { min: 18, max: 24, label: 'Yüksek Kapasite', title: 'Mükemmel Mitokondriyal Sağlık!', pct: 95, desc: 'Hücresel motorlarınız son derece yüksek verimle çalışıyor.', tips: ['Zone 2 kardiyo ve direnç antrenmanı rutininizi koruyun', 'Alpha Lipoic Acid ve Glutatyon öncüllerini araştırın', 'Periyodik mitokondriyal detoks uygulayın'] },
+      ]
+    },
+    'cilt-estetik': {
+      title: 'Medikal Estetik Cilt Değerlendirmesi',
+      meta: '10 soru · 3 dakika',
+      questions: [
+        { text: 'Yüzünüzdeki kırışıklık ve ince çizgilerin belirginliğini nasıl tanımlarsınız?', options: [{ label: 'Belirgin kırışıklık yok — ten pürüzsüz', pts: 3 }, { label: 'Hareketsizde yok, ifade kırışıklıkları var', pts: 2 }, { label: 'Hareketsizde de görünen orta belirginlikte kırışıklıklar', pts: 1 }, { label: 'Derin ve kalıcı kırışıklıklar', pts: 0 }] },
+        { text: 'Cilt dokusu ve gözenek görünümünüz nasıl?', options: [{ label: 'Pürüzsüz, ince ve sıkı doku', pts: 3 }, { label: 'Hafif pürüzlü, küçük gözenekler', pts: 2 }, { label: 'Orta pürüzlülük, geniş gözenekler', pts: 1 }, { label: 'Kaba doku, belirgin sarkma ve gevşeklik', pts: 0 }] },
+        { text: 'Yüzünüzde pigmentasyon sorunu (leke, hiperpigmentasyon) var mı?', options: [{ label: 'Eşit ton — belirgin leke yok', pts: 3 }, { label: 'Hafif güneş lekeleri veya küçük çiller', pts: 2 }, { label: 'Orta derecede leke, solar keratoz belirtileri', pts: 1 }, { label: 'Yaygın hiperpigmentasyon veya melazma', pts: 0 }] },
+        { text: 'Yüz ovaliniz ve cilt gerginliğiniz nasıl?', options: [{ label: 'Sıkı ve tanımlı kontur, sarkma yok', pts: 3 }, { label: 'Hafif dolgunluk kaybı veya hafif sarkma', pts: 2 }, { label: 'Belirgin sarkma, jowl başlangıcı', pts: 1 }, { label: 'Ciddi laksiti, boyun ve jowl bölgesinde belirgin sarkma', pts: 0 }] },
+        { text: 'Yanak, şakak ve göz altı bölgesinde hacim kaybı var mı?', options: [{ label: 'Yüz dolgunluğu mevcut, çöküklük yok', pts: 3 }, { label: 'Hafif şakak veya yanak inceliği', pts: 2 }, { label: 'Belirgin yüz ortası çökmesi', pts: 1 }, { label: 'İleri hacim kaybı — iskeletleşmiş görünüm', pts: 0 }] },
+        { text: 'Aktif akne veya inflamatuar cilt probleminiz var mı?', options: [{ label: 'Akne veya enflamasyon yok', pts: 3 }, { label: 'Nadir, hormonal veya dönemsel akne', pts: 2 }, { label: 'Orta derecede aktif akne veya rozase', pts: 1 }, { label: 'Ciddi, yaygın aktif akne veya nodülokistik akne', pts: 0 }] },
+        { text: 'Güneş hasarı ve fotoyaşlanma belirtileri (solar lentigo, aktinik keratoz)?', options: [{ label: 'Güneş hasarı belirtisi yok', pts: 3 }, { label: 'Hafif solar lentigo veya çiller', pts: 2 }, { label: 'Orta güneş hasarı — lentigo ve kuru yamalar', pts: 1 }, { label: 'İleri fotoyaşlanma — aktinik keratoz ve kapiller genişlemesi', pts: 0 }] },
+        { text: 'Göz çevresi bölgeniz (alt kapak, üst kapak, kaz ayakları)?', options: [{ label: 'Göz çevresi sorun yok — canlı ve genç görünüm', pts: 3 }, { label: 'Hafif alt kapak morluk veya şişlik', pts: 2 }, { label: 'Belirgin kapak sarkması veya kaz ayağı çizgileri', pts: 1 }, { label: 'Ciddi kapak düşüklüğü ve derin göz altı çöküklüğü', pts: 0 }] },
+        { text: 'Cildinizin hidrasyonu ve genel parlaklığı nasıl?', options: [{ label: 'Hidrasyonlu, parlak ve sağlıklı görünüm', pts: 3 }, { label: 'Hafif kuruluk, zaman zaman matlaşma', pts: 2 }, { label: 'Kuru, donuk ve sıkışmış görünüm', pts: 1 }, { label: 'Çok kuru, pullanma ve belirgin mat görünüm', pts: 0 }] },
+        { text: 'Gerçek yaşınıza kıyasla görünen yaşınız nasıl?', options: [{ label: 'Görünen yaşım gerçeğimden daha genç', pts: 3 }, { label: 'Görünen yaşım gerçeğime eşit', pts: 2 }, { label: '1–5 yıl daha yaşlı görünüyorum', pts: 1 }, { label: '5 yıldan fazla yaşlı görünüyorum', pts: 0 }] },
+      ],
+      scoring: 'points',
+      maxPoints: 30,
+      levels: [
+        { min: 25, max: 30, label: 'Glogau Grup I', title: 'Minimal Fotoyaşlanma — Önleyici Bakım Dönemi', pct: 90, desc: 'Cildiniz genel olarak genç ve sağlıklı görünüyor. Bu dönem, cilt yaşlanmasını ileride önleyecek tedbirleri almak için idealdir.', tips: ['SPF 50+ güneş koruma her gün uygulanmalı', 'Düzenli retinol kullanımına başlanabilir', 'C Vitamini serumu antioksidan koruması sağlar', 'Yılda 1–2 kez dermatolojik kontrol önerilir', 'Hyalüronik asit nemlendirici cilt bariyerini güçlendirir'] },
+        { min: 18, max: 24, label: 'Glogau Grup II', title: 'Erken-Orta Yaşlanma — Hafif Estetik Prosedürler', pct: 65, desc: 'Hafif ila orta düzeyde fotoyaşlanma belirtileri mevcut. Bu aşamada uygulanan tedaviler çok etkili sonuçlar verir.', tips: ['Botulinum toksin uygulaması ifade çizgilerini düzeltir', 'Kimyasal peeling cilt yenilenmesini hızlandırır', 'Hyalüronik asit filler hafif hacim kayıpları için ideal', 'Lazer veya IPL fotoyaşlanma lekelerini tedavi eder', 'Retinoik asit bazlı medikal cilt bakımı şarttır'] },
+        { min: 10, max: 17, label: 'Glogau Grup III', title: 'İleri Yaşlanma — Orta-İleri Estetik Tedaviler', pct: 40, desc: 'Belirgin yaşlanma belirtileri mevcut. Birden fazla prosedürü kapsayan kombine tedavi yaklaşımı gerekebilir.', tips: ['Dolgu maddeleri ile yüz orta bölge hacim restorasyonu', 'Cilt sıkılaştırma için RF veya ultrason tedavisi', 'Ablative lazer yüzey yenileme değerlendirilebilir', 'Medikal cilt bakım protokolü şarttır', 'Bir estetik hekimle kapsamlı tedavi planı oluşturulmalı'] },
+        { min: 0, max: 9, label: 'Glogau Grup IV', title: 'Ciddi Fotoyaşlanma — İleri Estetik Tedaviler Gerekli', pct: 15, desc: 'Ciddi yaşlanma belirtileri mevcut. Kapsamlı ve kişiselleştirilmiş tedavi planlaması için bir estetik uzmanı ile görüşmeniz önerilir.', tips: ['Kombine prosedür planı: filler + botoks + lazer', 'Cilt sıkılaştırma için ileri teknoloji cihazlar değerlendirilmeli', 'Plazma zengin büyüme faktörü (PRGF/PRP) yüz gençleştirme', 'Periodik bakım protokolü ile sürdürülebilir gençlik', 'Yıllık takip ve tedavi planı güncellemesi kritik'] },
+      ]
+    },
+    'cilt-sagligi': {
+      title: 'Cilt Sağlığı & Gençleşme Testi',
+      meta: '12 soru · 3 dakika',
+      questions: [
+        { text: 'Güneş koruma (SPF) uygulamanız nasıl?', options: [{ label: 'Her gün düzenli SPF 30+ sürüyorum', pts: 3 }, { label: 'Çoğunlukla sürüyorum, sık atlıyorum', pts: 2 }, { label: 'Sadece yaz aylarında veya denizde', pts: 1 }, { label: 'Güneş kremi kullanmıyorum', pts: 0 }] },
+        { text: 'Nemlendirici ve cilt bariyeri bakımı?', options: [{ label: 'Sabah ve akşam düzenli nemlendirme rutini var', pts: 3 }, { label: 'Günde bir kez nemlendirici uyguluyorum', pts: 2 }, { label: 'Nadiren veya cilt kuru hissedince', pts: 1 }, { label: 'Nemlendirici kullanmıyorum', pts: 0 }] },
+        { text: 'Günlük su tüketiminiz?', options: [{ label: 'Günde 2+ litre temiz su içiyorum', pts: 3 }, { label: '1.5–2 litre arası', pts: 2 }, { label: '1–1.5 litre', pts: 1 }, { label: '1 litreden az, çoğunlukla çay-kahve', pts: 0 }] },
+        { text: 'Sigara ve alkol kullanımı?', options: [{ label: 'Her ikisini de kullanmıyorum', pts: 3 }, { label: 'Sadece alkol — ayda birkaç kez', pts: 2 }, { label: 'Biri ya da her ikisi — düzenli', pts: 1 }, { label: 'Günlük sigara ve/veya alkol tüketimi var', pts: 0 }] },
+        { text: 'Uyku kalitesi ve süresi?', options: [{ label: '7–9 saat kaliteli uyku uyuyorum', pts: 3 }, { label: '6–7 saat, genellikle iyi kalitede', pts: 2 }, { label: '5–6 saat veya sık uyanma', pts: 1 }, { label: '5 saatten az veya çok kötü kalitede', pts: 0 }] },
+        { text: 'Beslenme düzeniniz antioksidan ve Omega-3 açısından?', options: [{ label: 'Çok zengin — yağlı balık, yaban mersini, yeşil yapraklı sebzeler sık', pts: 3 }, { label: 'Orta düzey, haftada birkaç kez', pts: 2 }, { label: 'Az — işlenmiş gıda ağırlıklı besleniyorum', pts: 1 }, { label: 'İşlenmiş ve paketli gıdaları çok sık tüketiyorum', pts: 0 }] },
+        { text: 'Aktif cilt bakım bileşenleri kullanıyor musunuz (Retinol, C Vitamini, Niasinamid)?', options: [{ label: 'Evet, rutinimde düzenli var', pts: 3 }, { label: 'Zaman zaman kullanıyorum', pts: 2 }, { label: 'Duyduğum ama hiç denemedim', pts: 1 }, { label: 'Bu bileşenlerden haberim yok', pts: 0 }] },
+        { text: 'Yüz temizleme rutininiz?', options: [{ label: 'Sabah ve akşam düzenli çift temizleme', pts: 3 }, { label: 'Her gün en az bir kez temizliyorum', pts: 2 }, { label: 'Sadece su veya ara sıra temizleme', pts: 1 }, { label: 'Düzensiz veya temizleme yapmıyorum', pts: 0 }] },
+        { text: 'Stres düzeyiniz cildinizi nasıl etkiliyor?', options: [{ label: 'Stres düşük — cildimde belirgin etki görmüyorum', pts: 3 }, { label: 'Orta stres — zaman zaman akne veya gerginlik', pts: 2 }, { label: 'Yüksek stres — cildimde belirgin bozulma', pts: 1 }, { label: 'Kronik stres — cildim sürekli sorunlu', pts: 0 }] },
+        { text: 'Egzersiz ve cilt sirkülasyonu?', options: [{ label: 'Haftada 3+ gün düzenli egzersiz', pts: 3 }, { label: 'Haftada 1–2 gün', pts: 2 }, { label: 'Ayda birkaç kez veya daha az', pts: 1 }, { label: 'Egzersiz yapmıyorum', pts: 0 }] },
+        { text: 'Dermatoloji veya estetik uzman ziyareti sıklığı?', options: [{ label: 'Yılda en az bir kez gidiyorum', pts: 3 }, { label: '2–3 yılda bir', pts: 2 }, { label: 'Sorun çıktığında gidiyorum', pts: 1 }, { label: 'Hiç gitmedim', pts: 0 }] },
+        { text: 'Cilt bakım ürünleriniz dermatolojik olarak test edilmiş mi?', options: [{ label: 'Evet, dermolojik ve profesyonel ürünler kullanıyorum', pts: 3 }, { label: 'Kaliteli eczane markaları tercih ediyorum', pts: 2 }, { label: 'Süpermarket ürünleri kullanıyorum', pts: 1 }, { label: 'Sadece sabun ve su', pts: 0 }] },
+      ],
+      scoring: 'points',
+      maxPoints: 36,
+      levels: [
+        { min: 29, max: 36, label: 'Mükemmel', title: 'Mükemmel Cilt Sağlığı Rutini', pct: 93, desc: 'Cilt sağlığına yaklaşımınız son derece kapsamlı. Biyolojik yaşlanmayı aktif olarak yavaşlatıyorsunuz.', tips: ['Kolajen sentezi için C vitamini ve retinol kombinasyonunu sürdürün', 'Yıllık dermatoloji kontrolüyle durumunuzu takip edin', 'Periyodik medikal cilt bakımı (peeling, lazer) koruyucu etki sağlar', 'NAD+ ve Resveratrol takviyelerini araştırın'] },
+        { min: 20, max: 28, label: 'İyi', title: 'İyi — Birkaç Alanda İyileştirme Mümkün', pct: 68, desc: 'Cilt sağlığı konusunda iyi bir temel oluşturmuşsunuz ancak bazı önemli boşluklar var.', tips: ['Günlük SPF uygulamasını mutlaka rutine ekleyin', 'Retinol kullanımına başlamak için ideal zaman', 'Su tüketiminizi 2 litrenin üzerine çıkarın', 'Antioksidan bakımı (C vitamini serumu) ekleyin'] },
+        { min: 10, max: 19, label: 'Orta', title: 'Orta — Kapsamlı Cilt Bakımı Gerekiyor', pct: 40, desc: 'Cilt sağlığı alışkanlıklarınızda önemli boşluklar mevcut. Bu dönemde yapılacak değişiklikler ciddi fark yaratır.', tips: ['Öncelik #1: Her gün SPF sürmeye başlayın', 'Basit bir sabah-akşam rutin oluşturun: Temizlik + nemlendirici', 'Sigarayı ve aşırı alkolü bırakmak cilt için en büyük gençleştiricidir', 'Düzenli uyku cilt yenilenmesi için kritiktir'] },
+        { min: 0, max: 9, label: 'Dikkat', title: 'Dikkat — Cilt Yaşlanmasını Hızlandıran Alışkanlıklar', pct: 18, desc: 'Mevcut yaşam tarzı alışkanlıklarınız cilt yaşlanmasını önemli ölçüde hızlandırıyor olabilir. Uzman desteğiyle kişiselleştirilmiş bir plan oluşturun.', tips: ['Dermatoloji uzmanı ile kapsamlı cilt analizi yapın', 'Önce sigara ve alkol kısıtlaması — en büyük etki buradan', 'Güneş kremi hayatınıza girene kadar her şey daha zordur', 'Beslenme değişikliği: günde 5 porsiyon meyve-sebze hedefleyin'] },
+      ]
+    },
+    pss: {
+      title: 'Algılanan Stres Ölçeği (PSS-10)',
+      meta: '10 soru · 3 dakika',
+      questions: [
+        { text: 'Son bir ayda, beklenmedik bir şeyin olması sizi ne sıklıkla üzdü?', options: [{ label: 'Hiçbir zaman', pts: 0 }, { label: 'Neredeyse hiç', pts: 1 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 3 }, { label: 'Çok sık', pts: 4 }] },
+        { text: 'Son bir ayda, hayatınızdaki önemli şeyleri kontrol altında tutamadığınızı ne sıklıkla hissettiniz?', options: [{ label: 'Hiçbir zaman', pts: 0 }, { label: 'Neredeyse hiç', pts: 1 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 3 }, { label: 'Çok sık', pts: 4 }] },
+        { text: 'Son bir ayda, sinirli ve "stresli" hissetme sıklığınız neydi?', options: [{ label: 'Hiçbir zaman', pts: 0 }, { label: 'Neredeyse hiç', pts: 1 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 3 }, { label: 'Çok sık', pts: 4 }] },
+        { text: 'Son bir ayda, kişisel sorunlarınızla başa çıkma yeteneğinize ne sıklıkla güvendiniz?', options: [{ label: 'Hiçbir zaman', pts: 4 }, { label: 'Neredeyse hiç', pts: 3 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 1 }, { label: 'Çok sık', pts: 0 }] },
+        { text: 'Son bir ayda, işlerin istediğiniz gibi gittiğini ne sıklıkla hissettiniz?', options: [{ label: 'Hiçbir zaman', pts: 4 }, { label: 'Neredeyse hiç', pts: 3 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 1 }, { label: 'Çok sık', pts: 0 }] },
+        { text: 'Son bir ayda, başa çıkmanızı gerektiren şeylerin üstesinden gelemeyeceğinizi ne sıklıkla hissettiniz?', options: [{ label: 'Hiçbir zaman', pts: 0 }, { label: 'Neredeyse hiç', pts: 1 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 3 }, { label: 'Çok sık', pts: 4 }] },
+        { text: 'Son bir ayda, hayatınızdaki sinir bozucu şeyleri kontrol edebildiğinizi ne sıklıkla hissettiniz?', options: [{ label: 'Hiçbir zaman', pts: 4 }, { label: 'Neredeyse hiç', pts: 3 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 1 }, { label: 'Çok sık', pts: 0 }] },
+        { text: 'Son bir ayda, her şeyin üstesinden gelebildiğinizi ne sıklıkla hissettiniz?', options: [{ label: 'Hiçbir zaman', pts: 4 }, { label: 'Neredeyse hiç', pts: 3 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 1 }, { label: 'Çok sık', pts: 0 }] },
+        { text: 'Son bir ayda, kontrolünüz dışında gelişen şeylerden dolayı ne sıklıkla öfkelendiniz?', options: [{ label: 'Hiçbir zaman', pts: 0 }, { label: 'Neredeyse hiç', pts: 1 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 3 }, { label: 'Çok sık', pts: 4 }] },
+        { text: 'Son bir ayda, zorlukların üst üste yığıldığını ve üstesinden gelemeyeceğinizi ne sıklıkla hissettiniz?', options: [{ label: 'Hiçbir zaman', pts: 0 }, { label: 'Neredeyse hiç', pts: 1 }, { label: 'Bazen', pts: 2 }, { label: 'Oldukça sık', pts: 3 }, { label: 'Çok sık', pts: 4 }] },
+      ],
+      scoring: 'points',
+      maxPoints: 40,
+      levels: [
+        { min: 0, max: 13, label: 'Düşük Stres', title: 'Stres Düzeyiniz Düşük — İyi Bir Denge', pct: 88, desc: 'PSS-10 skorunuz düşük stres düzeyine işaret ediyor. Psikolojik stres yükünüzü genel olarak iyi yönetiyorsunuz.', tips: ['Mevcut stres yönetim stratejilerinizi sürdürün', 'Önleyici pratikler: mindfulness, egzersiz, kaliteli uyku', 'Stres belirteçlerinizi düzenli aralıklarla yeniden değerlendirin'] },
+        { min: 14, max: 26, label: 'Orta Stres', title: 'Orta Düzey Stres — Bilinçli Yönetim Gerekiyor', pct: 55, desc: 'PSS-10 skorunuz orta düzey psikolojik strese işaret ediyor. Bu düzey uzun vadede sağlık üzerinde olumsuz etki yaratabilir.', tips: ['Günde 10 dakika derin nefes (4-7-8 veya box breathing tekniği)', 'Stres günlüğü tutmak tetikleyicileri belirlemenizi sağlar', 'Sosyal destek ağınızı güçlendirin', 'Haftada 3 kez aerobik egzersiz kortizol seviyesini düzenler', 'Uyku hijyenini iyileştirin — uyku stres döngüsünü kırar'] },
+        { min: 27, max: 40, label: 'Yüksek Stres', title: 'Yüksek Stres — Profesyonel Destek Önerilir', pct: 22, desc: 'PSS-10 skorunuz yüksek psikolojik strese işaret ediyor. Bu düzey bağışıklık sistemi, kalp sağlığı ve zihinsel sağlık üzerinde ciddi risk oluşturur.', tips: ['Bir psikolog veya psikiyatrist ile görüşmeyi değerlendirin', 'Bilişsel Davranışçı Terapi (BDT) stres yönetiminde kanıta dayalı en etkili yöntemdir', 'Ashwagandha ve Rhodiola kortizol yönetimini destekleyebilir', 'Yaşam tarzı değişikliklerine öncelik verin: uyku, egzersiz, beslenme', 'Kronik stres medikal değerlendirme gerektirebilir'] },
+      ]
+    },
+    anksiyete: {
+      title: 'Anksiyete Değerlendirmesi (GAD-7)',
+      meta: '7 soru · 2 dakika',
+      questions: [
+        { text: 'Son 2 haftada, sinirli, endişeli veya gergin hissetmek sizi ne sıklıkla rahatsız etti?', options: [{ label: 'Hiç', pts: 0 }, { label: 'Birkaç gün', pts: 1 }, { label: 'Günlerin yarısından fazlası', pts: 2 }, { label: 'Neredeyse her gün', pts: 3 }] },
+        { text: 'Son 2 haftada, endişeyi durduramama veya kontrol edememe sizi ne sıklıkla rahatsız etti?', options: [{ label: 'Hiç', pts: 0 }, { label: 'Birkaç gün', pts: 1 }, { label: 'Günlerin yarısından fazlası', pts: 2 }, { label: 'Neredeyse her gün', pts: 3 }] },
+        { text: 'Son 2 haftada, birçok farklı şey hakkında çok fazla endişelenme sizi ne sıklıkla rahatsız etti?', options: [{ label: 'Hiç', pts: 0 }, { label: 'Birkaç gün', pts: 1 }, { label: 'Günlerin yarısından fazlası', pts: 2 }, { label: 'Neredeyse her gün', pts: 3 }] },
+        { text: 'Son 2 haftada, rahatlamakta güçlük çekme sizi ne sıklıkla rahatsız etti?', options: [{ label: 'Hiç', pts: 0 }, { label: 'Birkaç gün', pts: 1 }, { label: 'Günlerin yarısından fazlası', pts: 2 }, { label: 'Neredeyse her gün', pts: 3 }] },
+        { text: 'Son 2 haftada, oturamayacak kadar huzursuz olmak sizi ne sıklıkla rahatsız etti?', options: [{ label: 'Hiç', pts: 0 }, { label: 'Birkaç gün', pts: 1 }, { label: 'Günlerin yarısından fazlası', pts: 2 }, { label: 'Neredeyse her gün', pts: 3 }] },
+        { text: 'Son 2 haftada, kolayca sinirlenme veya tahriş olma sizi ne sıklıkla rahatsız etti?', options: [{ label: 'Hiç', pts: 0 }, { label: 'Birkaç gün', pts: 1 }, { label: 'Günlerin yarısından fazlası', pts: 2 }, { label: 'Neredeyse her gün', pts: 3 }] },
+        { text: 'Son 2 haftada, korkunç bir şey olacakmış gibi hissetme sizi ne sıklıkla rahatsız etti?', options: [{ label: 'Hiç', pts: 0 }, { label: 'Birkaç gün', pts: 1 }, { label: 'Günlerin yarısından fazlası', pts: 2 }, { label: 'Neredeyse her gün', pts: 3 }] },
+      ],
+      scoring: 'points',
+      maxPoints: 21,
+      levels: [
+        { min: 0, max: 4, label: 'Minimal', title: 'Minimal Anksiyete — Klinik Anlamlılık Yok', pct: 92, desc: 'GAD-7 skorunuz minimal düzeyde anksiyete belirtisi gösteriyor. Genel ruh sağlığınız iyi görünüyor.', tips: ['Önleyici stres yönetimi pratiklerini sürdürün', 'Düzenli egzersiz anksiyetenin doğal dengeleyicisidir', 'Sosyal bağlantılar ruh sağlığının en güçlü destekçisidir'] },
+        { min: 5, max: 9, label: 'Hafif', title: 'Hafif Anksiyete — İzleme Önerilir', pct: 68, desc: 'GAD-7 skorunuz hafif düzeyde anksiyete belirtisine işaret ediyor. Yaşam tarzı değişiklikleri ve öz-yardım stratejileri etkili olabilir.', tips: ['Diyafragmatik nefes: günde 2 kez 5 dakika pratik yapın', 'Kaygı günlüğü tutarak düşünce kalıplarını tanıyın', 'Kafeini sınırlandırın — anksiyeteyi artırabilir', 'Mindfulness meditation uygulamaları deneyin', 'Düzenli uyku rutini anksiyete belirtilerini azaltır'] },
+        { min: 10, max: 14, label: 'Orta', title: 'Orta Düzey Anksiyete — Profesyonel Değerlendirme Önerilir', pct: 42, desc: 'GAD-7 skorunuz orta düzey anksiyete belirtisine işaret ediyor. Günlük işlevselliğiniz etkileniyor olabilir. Bir uzmandan destek almanız önerilir.', tips: ['Psikolog veya psikiyatrist ile görüşün', 'BDT (Bilişsel Davranışçı Terapi) GAD için birinci seçenek tedavidir', 'Maruz kalma terapisi yaygın kaygı bozukluğunda etkilidir', 'Magnezyum ve L-theanin takviyelerini araştırın', 'Alkol anksiyeteyi kısa vadede azaltır ama uzun vadede artırır'] },
+        { min: 15, max: 21, label: 'Ağır', title: 'Ağır Anksiyete — Klinik Değerlendirme Gerekli', pct: 15, desc: 'GAD-7 skorunuz ağır düzey anksiyete belirtisine işaret ediyor. Bu düzey günlük yaşamı ciddi ölçüde etkileyebilir ve klinik müdahale gerektirebilir.', tips: ['Psikiyatrik değerlendirme için randevu alın', 'Anksiyolitik ilaç tedavisi değerlendirilebilir', 'BDT + ilaç kombinasyonu ağır GAD\'de en etkili yaklaşımdır', 'Alkol ve kafein kesin olarak azaltılmalı'] },
+      ]
+    },
+    obsesyon: {
+      title: 'Obsesif Düşünce Taraması (OCI-R)',
+      meta: '18 soru · 5 dakika',
+      questions: [
+        { text: 'İhtiyacım olmayacağını bilsem bile eşyaları saklarım.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Şeyleri gereğinden fazla kontrol ederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Nesneler düzgün yerleştirilmemişse rahatsız olurum.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Bir şeyler yaparken kendimi saymak zorunda hissederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Yabancılar veya belirli kişiler tarafından dokunulmuş nesnelere dokunmak beni rahatsız eder.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Kendi düşüncelerimi kontrol etmekte zorlanırım.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'İhtiyacım olmayan şeyler biriktiririm.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Kapıları, pencereleri, çekmeceleri tekrar tekrar kontrol ederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Başkaları düzenlediğim şeyleri değiştirirse rahatsız olurum.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Belirli sayıları tekrarlamak zorunda hissederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Kirlenmiş hissettiğim için kendimi yıkamam veya temizlemem gerekir.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Aklıma isteğim dışında giren nahoş düşünceler beni rahatsız eder.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Belki ileride işime yarar diye eşyaları atmaktan kaçınırım.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Gaz, su vanalarını ve ışık düğmelerini kapattıktan sonra tekrar tekrar kontrol ederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Eşyaların belirli bir düzende olması gerekir.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'İyi ve kötü sayılar olduğunu hissederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Ellerimi gereğinden fazla ve uzun süre yıkarım.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+        { text: 'Sık sık nahoş düşünceler geliyor ve bunlardan kurtulmakta güçlük çekiyorum.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+      ],
+      scoring: 'points',
+      maxPoints: 72,
+      levels: [
+        { min: 0, max: 20, label: 'Düşük', title: 'Düşük OKB Belirtisi — Klinik Eşik Altı', pct: 87, desc: 'OCI-R skorunuz klinik eşiğin altında. Obsesif-kompulsif belirtiler genel yaşamınızı olumsuz etkilemiyor görünüyor.', tips: ['Genel zihinsel esnekliği korumak için farkındalık meditasyonu faydalı olabilir', 'Mükemmeliyetçilik eğilimlerinizi gözlemleyin', 'Olağanüstü stres dönemlerinde belirtiler artabilir'] },
+        { min: 21, max: 40, label: 'Orta-Yüksek', title: 'Orta-Yüksek Düzey OKB Belirtisi — Değerlendirme Önerilir', pct: 50, desc: 'OCI-R skorunuz klinik eşiğin üzerinde. Obsesif-kompulsif belirtiler günlük işlevselliğinizi etkiliyor olabilir. Bir ruh sağlığı uzmanından değerlendirme almanız önerilir.', tips: ['Psikolog veya psikiyatrist ile görüşmeyi planlayın', 'BDT içindeki Maruz Kalma ve Tepki Önleme (ERP) OKB\'de en etkili yöntemdir', 'SSRI grubu ilaçlar OKB belirtilerini azaltmada etkilidir', 'OKB belirtileri stresle artabilir — stres yönetimi önemlidir', 'Yargılamadan farkındalık (defusion tekniği) düşünce baskısını azaltır'] },
+        { min: 41, max: 72, label: 'Yüksek', title: 'Yüksek OKB Belirtisi — Klinik Destek Gerekli', pct: 18, desc: 'OCI-R skorunuz belirgin OKB belirtisi gösteriyor. Obsesif düşünceler ve kompulsif davranışlar günlük yaşamı ciddi ölçüde etkiliyor olabilir. Klinik değerlendirme ve uzman desteği önerilir.', tips: ['Psikiyatrik değerlendirme için randevu alın', 'ERP (Maruz Kalma ve Tepki Önleme) destekli BDT birinci seçenek tedavidir', 'SSRI ve/veya klomipramin tedavisi değerlendirilebilir', 'Bir OKB destek grubu yalnızlık hissini azaltabilir', 'Aile psychoeducation süreci destekleyebilir'] },
+      ]
+    },
+    uyku: {
+      title: 'Uyku Kalitesi Testi (ISI)',
+      meta: '7 soru · 2 dakika',
+      questions: [
+        { text: 'Uykuya dalmaktaki güçlüğünüzün şiddetini nasıl değerlendirirsiniz?', options: [{ label: 'Hiç yok', pts: 0 }, { label: 'Hafif', pts: 1 }, { label: 'Orta', pts: 2 }, { label: 'Ağır', pts: 3 }, { label: 'Çok ağır', pts: 4 }] },
+        { text: 'Gece uyanmakta veya uyku sürdürmekteki güçlüğünüzün şiddetini nasıl değerlendirirsiniz?', options: [{ label: 'Hiç yok', pts: 0 }, { label: 'Hafif', pts: 1 }, { label: 'Orta', pts: 2 }, { label: 'Ağır', pts: 3 }, { label: 'Çok ağır', pts: 4 }] },
+        { text: 'Sabah çok erken (istediğinizden önce) uyanmanızın şiddetini nasıl değerlendirirsiniz?', options: [{ label: 'Hiç yok', pts: 0 }, { label: 'Hafif', pts: 1 }, { label: 'Orta', pts: 2 }, { label: 'Ağır', pts: 3 }, { label: 'Çok ağır', pts: 4 }] },
+        { text: 'Şu anki uyku düzeninizden ne kadar memnunsunuz?', options: [{ label: 'Çok memnunum', pts: 0 }, { label: 'Memnunum', pts: 1 }, { label: 'Biraz memnunum', pts: 2 }, { label: 'Memnun değilim', pts: 3 }, { label: 'Hiç memnun değilim', pts: 4 }] },
+        { text: 'Uyku sorununuzu yakın çevrendekiler fark ediyor mu? (Yorgun görünmek, dikkat eksikliği vb.)', options: [{ label: 'Hiç fark etmiyor', pts: 0 }, { label: 'Biraz fark ediyor', pts: 1 }, { label: 'Kısmen fark ediyor', pts: 2 }, { label: 'Çok fark ediyor', pts: 3 }, { label: 'Aşırı derecede fark ediyor', pts: 4 }] },
+        { text: 'Uyku sorununuzdan ne kadar endişe veya rahatsızlık duyuyorsunuz?', options: [{ label: 'Hiç endişe duymuyorum', pts: 0 }, { label: 'Biraz', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok endişe duyuyorum', pts: 3 }, { label: 'Aşırı derecede endişe duyuyorum', pts: 4 }] },
+        { text: 'Uyku sorununuzun gündüz işlevselliğinizi (iş, sosyal yaşam, günlük görevler) ne ölçüde etkilediğini düşünüyorsunuz?', options: [{ label: 'Hiç etkilemiyor', pts: 0 }, { label: 'Biraz etkiliyor', pts: 1 }, { label: 'Orta düzeyde etkiliyor', pts: 2 }, { label: 'Çok etkiliyor', pts: 3 }, { label: 'Aşırı derecede etkiliyor', pts: 4 }] },
+      ],
+      scoring: 'points',
+      maxPoints: 28,
+      levels: [
+        { min: 0, max: 7, label: 'İnsomnia Yok', title: 'Klinik Olarak Anlamlı İnsomnia Yok', pct: 92, desc: 'ISI skorunuz klinik insomnia eşiğinin altında. Uyku kaliteniz genel olarak iyi görünüyor.', tips: ['Uyku hijyeninizi koruyun', 'Düzenli uyku-uyanış saati biyolojik saatinizi güçlendirir', 'Ekran süresini yatmadan 1 saat önce sınırlandırın'] },
+        { min: 8, max: 14, label: 'Subklinik', title: 'Subklinik İnsomnia — Dikkat Edilmesi Önerilir', pct: 65, desc: 'ISI skorunuz eşik altı (subklinik) insomniaya işaret ediyor. Bu düzey kronik soruna dönüşebilir.', tips: ['Kafein tüketimini öğlen 12\'den sonra bırakın', 'Yatak odasını 18–20°C arasında tutun', 'Magnezyum bisglisinat (400mg) uyku kalitesini artırabilir', 'Düşük doz melatonin (0.3–1mg) deneyin', 'Yatakta yalnızca uykulu olduğunuzda kalın'] },
+        { min: 15, max: 21, label: 'Orta İnsomnia', title: 'Orta Düzey Klinik İnsomnia', pct: 40, desc: 'ISI skorunuz orta düzey klinik insomniaya işaret ediyor. Uyku problemi günlük işlevselliğinizi etkiliyor.', tips: ['Bilişsel Davranışçı Terapi - İnsomnia (BDT-I) birinci seçenek tedavidir', 'Uyarım kontrolü: yatak sadece uyku için kullanılmalı', 'Uyku kısıtlaması terapisi (SRT) uyku verimliliğini artırır', 'Bir uyku uzmanına veya psikiyatriste başvurun', 'Uyku apnesi ve RLS değerlendirin'] },
+        { min: 22, max: 28, label: 'Ağır İnsomnia', title: 'Ağır Klinik İnsomnia — Klinik Değerlendirme Gerekli', pct: 15, desc: 'ISI skorunuz ağır klinik insomniaya işaret ediyor. Kapsamlı değerlendirme ve tedavi planı için bir uyku uzmanıyla görüşmeniz önerilir.', tips: ['Uyku bozukluğu kliniğine veya uyku uzmanına başvurun', 'Uyku polisomnografisi (uyku testi) değerlendirilebilir', 'BDT-I en güçlü kanıta sahip tedavidir', 'Uyku apnesi değerlendirmesi için KBB veya göğüs hastalıkları konsültasyonu', 'Eşlik eden depresyon ve anksiyete araştırılmalı'] },
       ]
     }
   };

@@ -1,0 +1,51 @@
+
+> dr-bakirci-site@0.0.1 build
+> astro build
+
+[2m14:44:26[22m [34m[content][39m Syncing content
+[2m14:44:26[22m [34m[content][39m Synced content
+[2m14:44:26[22m [34m[types][39m Generated [2m104ms[22m
+[2m14:44:26[22m [34m[build][39m output: [34m"static"[39m
+[2m14:44:26[22m [34m[build][39m mode: [34m"static"[39m
+[2m14:44:26[22m [34m[build][39m directory: [34mC:\Users\mertc\OneDrive\Desktop\muhammed hocam\dr.muhammed ikbal bakırcı\dist\[39m
+[2m14:44:26[22m [34m[build][39m Collecting build info...
+[2m14:44:26[22m [34m[build][39m [32m✓ Completed in 144ms.[39m
+[2m14:44:26[22m [34m[build][39m Building static entrypoints...
+[2m14:44:29[22m [34m[vite][39m [32m✓ built in 2.77s[39m
+[2m14:44:29[22m [34m[build][39m [32m✓ Completed in 2.84s.[39m
+
+[42m[30m generating static routes [39m[49m
+[2m14:44:29[22m [32m▶[39m src/pages/basari-hikayeleri.astro
+[2m14:44:29[22m   [34m└─[39m [2m/basari-hikayeleri/index.html[22m [2m(+24ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/dunyada-saglik.astro
+[2m14:44:29[22m   [34m└─[39m [2m/dunyada-saglik/index.html[22m [2m(+5ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/gizlilik-politikasi.astro
+[2m14:44:29[22m   [34m└─[39m [2m/gizlilik-politikasi/index.html[22m [2m(+6ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/hakkinda.astro
+[2m14:44:29[22m   [34m└─[39m [2m/hakkinda/index.html[22m [2m(+5ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/iletisim.astro
+[2m14:44:29[22m   [34m└─[39m [2m/iletisim/index.html[22m [2m(+5ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/index.astro
+[2m14:44:29[22m   [34m└─[39m [2m/index.html[22m [2m(+6ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/kullanim-kosullari.astro
+[2m14:44:29[22m   [34m└─[39m [2m/kullanim-kosullari/index.html[22m [2m(+5ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/kurslar.astro
+[2m14:44:29[22m   [34m└─[39m [2m/kurslar/index.html[22m [2m(+6ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/longevity.astro
+[2m14:44:29[22m   [34m└─[39m [2m/longevity/index.html[22m [2m(+8ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/medikal-estetik.astro
+[2m14:44:29[22m   [34m└─[39m [2m/medikal-estetik/index.html[22m [2m(+6ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/podcast.astro
+[2m14:44:29[22m   [34m└─[39m [2m/podcast/index.html[22m [2m(+5ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/quizler.astro
+[2m14:44:29[22m   [34m└─[39m [2m/quizler/index.html[22m [2m(+10ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/rehberler.astro
+[2m14:44:29[22m   [34m└─[39m [2m/rehberler/index.html[22m [2m(+7ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/sitelerimiz.astro
+[2m14:44:29[22m   [34m└─[39m [2m/sitelerimiz/index.html[22m [2m(+6ms)[22m 
+[2m14:44:29[22m [32m▶[39m src/pages/soylesiler.astro
+[2m14:44:29[22m   [34m└─[39m [2m/soylesiler/index.html[22m [2m(+6ms)[22m 
+[2m14:44:29[22m [32m✓ Completed in 244ms.
+[39m
+[2m14:44:29[22m [34m[build][39m 15 page(s) built in [1m3.38s[22m
+[2m14:44:29[22m [34m[build][39m [1mComplete![22m

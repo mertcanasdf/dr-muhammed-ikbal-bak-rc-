@@ -2,48 +2,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Nav dropdowns ──
   (function initNavDropdowns() {
-    const p = (location.pathname.includes('/blog/') || location.pathname.includes('/pages/')) ? '../' : '';
-
+    // p variable removed — all hrefs now use absolute paths
     const MENUS = {
       'Dünyada Sağlık': {
         wide: false,
         items: [
-          { href: p + 'pages/dunyada-saglik.html', label: 'Global Gelişmeler' },
-          { href: p + 'pages/dunyada-saglik.html', label: 'Bilimsel Araştırmalar' },
-          { href: p + 'pages/dunyada-saglik.html', label: 'Longevity Keşifleri' },
-          { href: p + 'pages/dunyada-saglik.html', label: 'Sağlık Trendleri' },
+          { href: '/dunyada-saglik', label: 'Global Gelişmeler' },
+          { href: '/dunyada-saglik', label: 'Bilimsel Araştırmalar' },
+          { href: '/dunyada-saglik', label: 'Longevity Keşifleri' },
+          { href: '/dunyada-saglik', label: 'Sağlık Trendleri' },
         ],
-        footer: { href: p + 'pages/dunyada-saglik.html', label: 'Tüm gelişmeleri gör →' },
+        footer: { href: '/dunyada-saglik', label: 'Tüm gelişmeleri gör →' },
       },
       'Longevity': {
         wide: false,
         items: [
-          { href: p + 'blog/otofaji-nedir.html',           label: 'Hücresel Temizlik' },
-          { href: p + 'blog/aralikli-oruc-longevity.html', label: 'Metabolik Sağlık' },
-          { href: p + 'blog/bolge-2-kardiyo.html',         label: 'Kardiyorespiratuar Kapasite' },
-          { href: p + 'blog/kortizol-yaslanma.html',       label: 'Beyin Sağlığı' },
-          { href: p + 'blog/telomerleri-korumak.html',     label: 'Uzun Ömür Biyolojisi' },
+          { href: '/blog/otofaji-nedir',           label: 'Hücresel Temizlik' },
+          { href: '/blog/aralikli-oruc-longevity', label: 'Metabolik Sağlık' },
+          { href: '/blog/bolge-2-kardiyo',         label: 'Kardiyorespiratuar Kapasite' },
+          { href: '/blog/kortizol-yaslanma',       label: 'Beyin Sağlığı' },
+          { href: '/blog/telomerleri-korumak',     label: 'Uzun Ömür Biyolojisi' },
         ],
-        footer: { href: p + 'pages/longevity.html', label: 'Longevity sayfasına git →' },
+        footer: { href: '/longevity', label: 'Longevity sayfasına git →' },
       },
       'Rehberler': {
         wide: false,
         items: [
-          { href: p + 'blog/aralikli-oruc-longevity.html', label: '16:8 Aralıklı Oruç' },
-          { href: p + 'blog/aralikli-oruc-longevity.html', label: 'Ketojenik Diyete Geçiş' },
-          { href: p + 'blog/telomerleri-korumak.html',     label: 'Uyku Optimizasyonu' },
-          { href: p + 'blog/bolge-2-kardiyo.html',         label: 'Longevity Egzersizi' },
-          { href: p + 'blog/kortizol-yaslanma.html',       label: 'Kortizol Kontrolü' },
+          { href: '/blog/aralikli-oruc-longevity', label: '16:8 Aralıklı Oruç' },
+          { href: '/blog/aralikli-oruc-longevity', label: 'Ketojenik Diyete Geçiş' },
+          { href: '/blog/telomerleri-korumak',     label: 'Uyku Optimizasyonu' },
+          { href: '/blog/bolge-2-kardiyo',         label: 'Longevity Egzersizi' },
+          { href: '/blog/kortizol-yaslanma',       label: 'Kortizol Kontrolü' },
         ],
-        footer: { href: p + 'pages/rehberler.html', label: 'Tüm rehberleri gör →' },
+        footer: { href: '/rehberler', label: 'Tüm rehberleri gör →' },
       },
       'Quizler': {
         wide: false,
         items: [
-          { href: p + 'pages/quizler.html', label: 'Vücut Tipi Quizi' },
-          { href: p + 'pages/quizler.html', label: 'Longevity Skoru' },
-          { href: p + 'pages/quizler.html', label: 'Bağırsak Sağlığı Testi' },
-          { href: p + 'pages/quizler.html', label: 'Stres & Kortizol Profili' },
+          { href: '/quizler', label: 'Vücut Tipi Quizi' },
+          { href: '/quizler', label: 'Longevity Skoru' },
+          { href: '/quizler', label: 'Bağırsak Sağlığı Testi' },
+          { href: '/quizler', label: 'Stres & Kortizol Profili' },
         ],
         footer: null,
       },

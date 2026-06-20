@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Rehberler — Dr. Muhammed İkbal Bakırcı">
+  <style is:global>
+    .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
+    .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
+    .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;}
+    .guides-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;padding:64px 0;}
+    @media(max-width:700px){.guides-grid{grid-template-columns:1fr;}}
+    .guide-card{background:var(--base);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s;}
+    .guide-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);}
+    .guide-card__img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+    .guide-card__body{padding:24px;}
+    .guide-card__tag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--primary);background:var(--tertiary);padding:3px 10px;border-radius:99px;display:inline-block;margin-bottom:12px;}
+    .guide-card__title{font-size:18px;font-weight:700;margin-bottom:8px;}
+    .guide-card__desc{font-size:14px;color:var(--gray-500);line-height:1.6;margin-bottom:16px;}
+    .guide-card__cta{font-size:13px;font-weight:700;color:var(--blue);}
+    .guide-card__cta:hover{text-decoration:underline;}
+  </style>
+
+    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Longevity Rehberleri</h1><p class="pg-hero__sub">Bilimsel temelli, uygulaması kolay rehberler — aralıklı oruçtan keto geçişine, uyku optimizasyonundan egzersiz protokollerine.</p></div></section>
+    <section class="section"><div class="container">
+      <div class="guides-grid">
+        <div class="guide-card"><img src="/assets/images/generated/guide_start_longevity.png" alt="Rehber kapak görseli - Longevity'e Başlangıç" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Başlangıç</span><h3 class="guide-card__title">Longevity'e Nasıl Başlarım?</h3><p class="guide-card__desc">Sıfırdan bir longevity protokolü oluşturmak için adım adım rehber. İlk 30 gün için somut eylem planı.</p><a href="/longevity" class="guide-card__cta">Okumaya başla &rarr;</a></div></div>
+        <div class="guide-card"><img src="/assets/images/generated/guide_intermittent_fasting.png" alt="Rehber kapak görseli - Aralıklı Oruç" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Beslenme</span><h3 class="guide-card__title">16:8 Aralıklı Oruç Kılavuzu</h3><p class="guide-card__desc">İlk haftadan itibaren nasıl uygulayacağınızı anlatan kapsamlı rehber. Yan etkiler ve çözümler dahil.</p><a href="/blog/aralikli-oruc-longevity" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><img src="/assets/images/generated/guide_keto_diet.png" alt="Rehber kapak görseli - Ketojenik Diyet" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Beslenme</span><h3 class="guide-card__title">Ketojenik Diyete Geçiş</h3><p class="guide-card__desc">Yan etkileri minimize ederek ketoza nasıl girilir. Haftalık yemek planı ve alışveriş listesi.</p><a href="/blog/otofaji-nedir#nasil-aktive-edilir" class="guide-card__cta">Devamını oku &rarr;</a></div></div>
+        <div class="guide-card"><img src="/assets/images/generated/guide_sleep_opt.png" alt="Rehber kapak görseli - Uyku Optimizasyonu" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Uyku</span><h3 class="guide-card__title">Uyku Optimizasyonu Rehberi</h3><p class="guide-card__desc">Derin uyku evrelerini artırmak ve biyolojik saatinizi sıfırlamak için kanıtlanmış protokoller.</p><a href="/blog/telomerleri-korumak#yontem5" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><img src="/assets/images/generated/guide_longevity_exercise.png" alt="Rehber kapak görseli - Egzersiz Programı" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Egzersiz</span><h3 class="guide-card__title">Longevity Egzersiz Programı</h3><p class="guide-card__desc">Bölge 2 kardiyo, ağırlık antrenmanı ve esneklik çalışmasını birleştiren haftalık program.</p><a href="/blog/bolge-2-kardiyo" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><img src="/assets/images/generated/guide_cortisol_stress.png" alt="Rehber kapak görseli - Kortizol Kontrolü" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Stres</span><h3 class="guide-card__title">Kortizol Kontrol Protokolü</h3><p class="guide-card__desc">Kronik stresi yönetmek için günlük rutinler, meditasyon pratikleri ve beslenme stratejileri.</p><a href="/blog/kortizol-yaslanma" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+      </div>
+    </div></section>
+</BaseLayout>

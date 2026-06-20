@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Birebir Söyleşiler — Dr. Muhammed İkbal Bakırcı">
+  <style is:global>
+    .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
+    .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
+    .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;}
+    .talks-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;padding:64px 0;}
+    @media(max-width:760px){.talks-grid{grid-template-columns:1fr;}}
+    .talk-card{background:var(--base);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);}
+    .talk-card__video{aspect-ratio:16/9;background:#0C0809;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:rgba(255,255,255,.65);font-size:13px;}
+    .talk-card__body{padding:24px;}
+    .talk-card__guest{font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--blue);text-transform:uppercase;margin-bottom:8px;display:block;}
+    .talk-card__title{font-size:18px;font-weight:800;margin-bottom:8px;}
+    .talk-card__desc{font-size:14px;color:var(--gray-500);line-height:1.6;}
+  </style>
+
+    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Birebir Söyleşiler</h1><p class="pg-hero__sub">Dr. Muhammed İkbal'in konuklarıyla yaptığı video söyleşiler. Yeni bölümler yayınlandıkça burada paylaşılacak.</p></div></section>
+    <section class="section"><div class="container">
+      <div class="talks-grid">
+        <article class="talk-card"><div class="talk-card__video"><svg width="44" height="44" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Video yakında eklenecek</span></div><div class="talk-card__body"><span class="talk-card__guest">Konuk: Yakında</span><h2 class="talk-card__title">İlk söyleşi yakında</h2><p class="talk-card__desc">Söyleşi konusu ve konuk bilgisi yayınlandığında bu alanda yer alacak.</p></div></article>
+        <article class="talk-card"><div class="talk-card__video"><svg width="44" height="44" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Video yakında eklenecek</span></div><div class="talk-card__body"><span class="talk-card__guest">Konuk: Yakında</span><h2 class="talk-card__title">Yakında</h2><p class="talk-card__desc">Söyleşi konusu ve konuk bilgisi yayınlandığında bu alanda yer alacak.</p></div></article>
+      </div>
+    </div></section>
+</BaseLayout>

@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Hakkında — Dr. Muhammed İkbal Bakırcı">
+  <style is:global>
+    .about-hero { background: var(--main); color: #fff; padding: 80px 0; }
+    .about-hero__title { font-size: clamp(32px,5vw,56px); font-weight:900; margin-bottom:16px; }
+    .about-hero__sub { font-size:18px; opacity:.75; max-width:600px; }
+    .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:64px; padding:80px 0; align-items:start; }
+    @media(max-width:768px){ .about-grid{ grid-template-columns:1fr; gap:40px; padding:48px 0; } }
+    .about-img { width:100%; border-radius:16px; aspect-ratio:4/5; object-fit:cover; }
+    .about-content h2 { font-size:32px; font-weight:800; margin-bottom:16px; }
+    .about-content p { font-size:17px; line-height:1.8; color:#1a1a1a; margin-bottom:20px; }
+    .about-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin:40px 0; }
+    @media(max-width:600px){ .about-stats{ grid-template-columns:1fr 1fr; } }
+    .about-stat { background:var(--tertiary); border-radius:var(--r-lg); padding:24px; text-align:center; }
+    .about-stat__num { font-size:32px; font-weight:900; color:var(--main); display:block; }
+    .about-stat__lbl { font-size:13px; color:var(--gray-500); }
+    .credentials { background:var(--tertiary); padding:64px 0; }
+    .credentials__grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:40px; }
+    @media(max-width:768px){ .credentials__grid{ grid-template-columns:1fr; } }
+    .cred-card { background:var(--base); border-radius:var(--r-lg); padding:28px; box-shadow:var(--shadow); }
+    .cred-card__icon { font-size:32px; margin-bottom:12px; }
+    .cred-card__title { font-size:17px; font-weight:700; margin-bottom:8px; }
+    .cred-card__desc { font-size:14px; color:var(--gray-500); line-height:1.6; }
+  </style>
+
+    <section class="about-hero">
+      <div class="container">
+        <h1 class="about-hero__title">Dr. Muhammed İkbal Bakırcı</h1>
+        <p class="about-hero__sub">Hekim ve eğitimci. Bilimsel temelli sağlık içerikleri üretmektedir.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="about-grid">
+          <img src="/assets/images/generated/doctor-portrait.png" alt="Dr. Muhammed İkbal Bakırcı" class="about-img" />
+          <div class="about-content">
+            <h2>Biyografi</h2>
+            <p>Dr. Muhammed İkbal Bakırcı, Bursa Uludağ Üniversitesi Tıp Fakültesi'nden mezun olmuş, ardından fonksiyonel tıp ve longevity alanında uluslararası sertifika programlarını tamamlamıştır. 15 yılı aşkın klinik deneyimiyle çokça hastanın metabolik dönüşümüne rehberlik etmiştir.</p>
+            <p>2018 yılında başlattığı YouTube kanalı, geniş bir izleyici kitlesine ulaşmıştır. Bilimsel araştırmaları anlaşılır Türkçeye çevirerek halk sağlığına katkı sağlamayı misyon edinmiştir.</p>
+            <p>Aralıklı oruç, ketojenik beslenme, otofaji, telomer sağlığı ve bütüncül longevity protokolleri konularında çalışmalar yürüten Dr. Muhammed İkbal; klinik çalışmalarına ek olarak yoğun bir eğitim ve içerik üretim programı yürütmektedir.</p>
+            <div class="about-stats">
+              <div class="about-stat"><span class="about-stat__num">2.4M+</span><span class="about-stat__lbl">YouTube Abonesi</span></div>
+              <div class="about-stat"><span class="about-stat__num">2018</span><span class="about-stat__lbl">YouTube Başlangıcı</span></div>
+              <div class="about-stat"><span class="about-stat__num">15+</span><span class="about-stat__lbl">Yıl Deneyim</span></div>
+            </div>
+            <a href="/iletisim" class="btn btn-dark">İletişime Geç</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="credentials">
+      <div class="container">
+        <h2 class="section-title">Uzmanlık Alanları</h2>
+        <div class="credentials__grid">
+          <div class="cred-card"><div class="cred-card__icon">🔬</div><h3 class="cred-card__title">Longevity Tıbbı</h3><p class="cred-card__desc">Hücresel yaşlanma mekanizmaları, telomer sağlığı, otofaji ve biyolojik yaş gençleştirme protokolleri.</p></div>
+          <div class="cred-card"><div class="cred-card__icon">🥗</div><h3 class="cred-card__title">Metabolik Sağlık</h3><p class="cred-card__desc">Ketojenik beslenme, aralıklı oruç, insülin direnci ve metabolik sendrom tedavisi.</p></div>
+          <div class="cred-card"><div class="cred-card__icon">🧠</div><h3 class="cred-card__title">Nörolojik Sağlık</h3><p class="cred-card__desc">Beyin sağlığı optimizasyonu, nörodejeneratif hastalık önleme ve bilişsel performans artırma.</p></div>
+        </div>
+      </div>
+    </section>
+</BaseLayout>

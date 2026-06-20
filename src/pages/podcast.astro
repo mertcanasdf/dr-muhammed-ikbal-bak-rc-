@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Podcast — Dr. Muhammed İkbal Bakırcı">
+  <style is:global>
+    .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
+    .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
+    .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;}
+    .episode-list{display:flex;flex-direction:column;gap:24px;padding:64px 0;max-width:820px;margin:0 auto;}
+    .episode{display:flex;gap:24px;background:var(--base);border-radius:var(--r-lg);box-shadow:var(--shadow);overflow:hidden;}
+    @media(max-width:640px){.episode{flex-direction:column;}}
+    .episode__img{width:200px;flex-shrink:0;object-fit:cover;}
+    @media(max-width:640px){.episode__img{width:100%;aspect-ratio:16/9;}}
+    .episode__body{padding:24px;}
+    .episode__no{font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--blue);text-transform:uppercase;margin-bottom:8px;display:block;}
+    .episode__title{font-size:19px;font-weight:800;margin-bottom:8px;}
+    .episode__desc{font-size:14px;color:var(--gray-500);line-height:1.6;margin-bottom:12px;}
+    .episode__note{font-size:12px;color:var(--gray-500);font-style:italic;}
+  </style>
+
+    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Podcast</h1><p class="pg-hero__sub">Sağlık, beslenme ve yaşam üzerine sohbetler. Bölüm metinleri yayınlandıkça burada paylaşılacak.</p></div></section>
+    <section class="section"><div class="container">
+      <div class="episode-list">
+        <article class="episode"><img src="/assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 1</span><h2 class="episode__title">İlk bölüm yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
+        <article class="episode"><img src="/assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 2</span><h2 class="episode__title">Yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
+        <article class="episode"><img src="/assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 3</span><h2 class="episode__title">Yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
+      </div>
+    </div></section>
+</BaseLayout>

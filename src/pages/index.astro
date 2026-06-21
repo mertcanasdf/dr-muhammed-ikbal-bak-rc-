@@ -24,13 +24,137 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
         <!-- TAB BUTTONS -->
         <div class="articles-tabs" role="tablist" aria-label="Okuma kategorileri">
-          <button class="articles-tabs__btn" role="tab" aria-selected="true"  data-tab="kariyer"    onclick="switchArticleTab(this,'kariyer')">Kariyer</button>
-          <button class="articles-tabs__btn" role="tab" aria-selected="false" data-tab="sorumluluk" onclick="switchArticleTab(this,'sorumluluk')">Sorumluluk</button>
-          <button class="articles-tabs__btn" role="tab" aria-selected="false" data-tab="mutluluk"   onclick="switchArticleTab(this,'mutluluk')">Mutluluk</button>
+          <button class="articles-tabs__btn" role="tab" aria-selected="true"  data-tab="saglikli-yasam" onclick="switchArticleTab(this,'saglikli-yasam')">Sağlıklı Yaşam</button>
+          <button class="articles-tabs__btn" role="tab" aria-selected="false" data-tab="kultur-sanat"   onclick="switchArticleTab(this,'kultur-sanat')">Kültür &amp; Sanat</button>
+          <button class="articles-tabs__btn" role="tab" aria-selected="false" data-tab="kariyer-diger"  onclick="switchArticleTab(this,'kariyer-diger')">Kariyer, Sorumluluk ve Mutluluk</button>
         </div>
 
-        <!-- PANEL: Kariyer -->
-        <div class="articles-panel is-active" id="panel-kariyer" role="tabpanel">
+        <!-- PANEL: Sağlıklı Yaşam -->
+        <div class="articles-panel is-active" id="panel-saglikli-yasam" role="tabpanel">
+          <div class="articles-grid">
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog/nmn-nad-yaslanma" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/nmn-nad.png" alt="NMN ve NAD+" class="article-card__img" />
+                </a>
+                <span class="article-card__cat-overlay">TAKVİYELER</span>
+              </div>
+              <div class="article-card__body">
+                <span class="article-card__badge">MAKALE</span>
+                <h3 class="article-card__title">
+                  <a href="/blog/nmn-nad-yaslanma">NMN ve NAD+: Hücresel Enerjiyi Geri Kazanmak</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog/otofaji-nedir" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/otofaji.png" alt="Otofaji Nedir?" class="article-card__img" />
+                </a>
+                <span class="article-card__cat-overlay">HÜCRESEL SAĞLIK</span>
+              </div>
+              <div class="article-card__body">
+                <span class="article-card__badge">MAKALE</span>
+                <h3 class="article-card__title">
+                  <a href="/blog/otofaji-nedir">Otofaji Nedir ve Nasıl Aktive Edilir?</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog/mavi-bolge-diyeti" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/mavi-bolge.png" alt="Mavi Bölge Diyeti" class="article-card__img" />
+                </a>
+                <span class="article-card__cat-overlay">BESLENME</span>
+              </div>
+              <div class="article-card__body">
+                <span class="article-card__badge">MAKALE</span>
+                <h3 class="article-card__title">
+                  <a href="/blog/mavi-bolge-diyeti">Mavi Bölge Diyeti: 100 Yıl Yaşamanın Sırrı</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog/d3-vitamini-eksikligi" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="D3 Vitamini Eksikliği" class="article-card__img" />
+                </a>
+                <span class="article-card__cat-overlay">TAKVİYELER</span>
+              </div>
+              <div class="article-card__body">
+                <span class="article-card__badge">MAKALE</span>
+                <h3 class="article-card__title">
+                  <a href="/blog/d3-vitamini-eksikligi">D3 Vitamini Eksikliği: Gizli Yaşlanma Hızlandırıcı</a>
+                </h3>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- PANEL: Kültür & Sanat -->
+        <div class="articles-panel" id="panel-kultur-sanat" role="tabpanel">
+          <div class="articles-grid">
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/mavi-bolge.png" alt="Sanat ve Beyin Sağlığı" class="article-card__img" />
+                </a>
+                <span class="article-card__cat-overlay">SANAT</span>
+              </div>
+              <div class="article-card__body">
+                <span class="article-card__badge">MAKALE</span>
+                <h3 class="article-card__title">
+                  <a href="/blog">Sanat Üretmek Beyin Sağlığını Nasıl Etkiler?</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/otofaji.png" alt="Müzik ve Stres Hormonu" class="article-card__img" />
+                </a>
+                <span class="article-card__cat-overlay">KÜLTÜR</span>
+              </div>
+              <div class="article-card__body">
+                <span class="article-card__badge">MAKALE</span>
+                <h3 class="article-card__title">
+                  <a href="/blog">Müzik Dinlemek Kortizolü Nasıl Düşürür?</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/nmn-nad.png" alt="Kitap Okuma ve Beyin" class="article-card__img" />
+                </a>
+                <span class="article-card__cat-overlay">KÜLTÜR</span>
+              </div>
+              <div class="article-card__body">
+                <span class="article-card__badge">MAKALE</span>
+                <h3 class="article-card__title">
+                  <a href="/blog">Günde 30 Dakika Okumak Beyni Nasıl Değiştirir?</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="Doğa ve Zihin Sağlığı" class="article-card__img" />
+                </a>
+                <span class="article-card__cat-overlay">YAŞAM</span>
+              </div>
+              <div class="article-card__body">
+                <span class="article-card__badge">MAKALE</span>
+                <h3 class="article-card__title">
+                  <a href="/blog">Doğada Geçirilen Zaman ve Zihinsel Toparlanma</a>
+                </h3>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- PANEL: Kariyer, Sorumluluk ve Mutluluk -->
+        <div class="articles-panel" id="panel-kariyer-diger" role="tabpanel">
           <div class="articles-grid">
             <article class="article-card">
               <div class="article-card__img-wrapper">
@@ -48,58 +172,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             </article>
             <article class="article-card">
               <div class="article-card__img-wrapper">
-                <a href="/blog/kortizol-yaslanma" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/otofaji.png" alt="Kronik Stres ve Verimlilik" class="article-card__img" />
-                </a>
-                <span class="article-card__cat-overlay">VERİMLİLİK</span>
-              </div>
-              <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
-                <h3 class="article-card__title">
-                  <a href="/blog/kortizol-yaslanma">Kronik Stres Çalışma Performansını Nasıl Etkiler?</a>
-                </h3>
-              </div>
-            </article>
-            <article class="article-card">
-              <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/mavi-bolge.png" alt="Odaklanma ve Beyin" class="article-card__img" />
-                </a>
-                <span class="article-card__cat-overlay">VERİMLİLİK</span>
-              </div>
-              <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
-                <h3 class="article-card__title">
-                  <a href="/blog">Derin Odaklanma: Beyin Kimyası ve Pratik Protokol</a>
-                </h3>
-              </div>
-            </article>
-            <article class="article-card">
-              <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="İş ve Uyku" class="article-card__img" />
-                </a>
-                <span class="article-card__cat-overlay">UYKU</span>
-              </div>
-              <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
-                <h3 class="article-card__title">
-                  <a href="/blog">Az Uyku Kariyer Kararlarınızı Nasıl Sabote Eder?</a>
-                </h3>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        <!-- PANEL: Sorumluluk -->
-        <div class="articles-panel" id="panel-sorumluluk" role="tabpanel">
-          <div class="articles-grid">
-            <article class="article-card">
-              <div class="article-card__img-wrapper">
                 <a href="/blog" class="article-card__img-link">
                   <img src="/assets/images/generated/topics/otofaji.png" alt="Yaşam Amacı ve Uzun Ömür" class="article-card__img" />
                 </a>
-                <span class="article-card__cat-overlay">LONGEVITY</span>
+                <span class="article-card__cat-overlay">SORUMLULUK</span>
               </div>
               <div class="article-card__body">
                 <span class="article-card__badge">MAKALE</span>
@@ -108,54 +184,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 </h3>
               </div>
             </article>
-            <article class="article-card">
-              <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/nmn-nad.png" alt="İlişkiler ve Sağlık" class="article-card__img" />
-                </a>
-                <span class="article-card__cat-overlay">SORUMLULUK</span>
-              </div>
-              <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
-                <h3 class="article-card__title">
-                  <a href="/blog">Sağlıklı İlişkiler İmmün Sistemi Güçlendirir</a>
-                </h3>
-              </div>
-            </article>
-            <article class="article-card">
-              <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/mavi-bolge.png" alt="Empati ve Bağışıklık Sistemi" class="article-card__img" />
-                </a>
-                <span class="article-card__cat-overlay">SORUMLULUK</span>
-              </div>
-              <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
-                <h3 class="article-card__title">
-                  <a href="/blog">Empati Geliştirmenin Beyin ve Bağışıklık Üzerindeki Etkileri</a>
-                </h3>
-              </div>
-            </article>
-            <article class="article-card">
-              <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="Blue Zones Topluluk Sırrı" class="article-card__img" />
-                </a>
-                <span class="article-card__cat-overlay">LONGEVITY</span>
-              </div>
-              <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
-                <h3 class="article-card__title">
-                  <a href="/blog">Topluluk Hissi ve Uzun Ömür: Blue Zones'un Ortak Sırrı</a>
-                </h3>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        <!-- PANEL: Mutluluk -->
-        <div class="articles-panel" id="panel-mutluluk" role="tabpanel">
-          <div class="articles-grid">
             <article class="article-card">
               <div class="article-card__img-wrapper">
                 <a href="/blog" class="article-card__img-link">
@@ -173,42 +201,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <article class="article-card">
               <div class="article-card__img-wrapper">
                 <a href="/blog/kortizol-yaslanma" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="Öz Şefkat ve Kortizol" class="article-card__img" />
+                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="Kronik Stres ve Verimlilik" class="article-card__img" />
                 </a>
-                <span class="article-card__cat-overlay">MUTLULUK</span>
+                <span class="article-card__cat-overlay">KARİYER</span>
               </div>
               <div class="article-card__body">
                 <span class="article-card__badge">MAKALE</span>
                 <h3 class="article-card__title">
-                  <a href="/blog/kortizol-yaslanma">Öz Şefkat Pratiği ve Kronik Stres Döngüsünü Kırmak</a>
-                </h3>
-              </div>
-            </article>
-            <article class="article-card">
-              <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/nmn-nad.png" alt="Dopamin ve Motivasyon" class="article-card__img" />
-                </a>
-                <span class="article-card__cat-overlay">MUTLULUK</span>
-              </div>
-              <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
-                <h3 class="article-card__title">
-                  <a href="/blog">Dopamin Sisteminizi Dengelemek: Dijital Çağda Motivasyon</a>
-                </h3>
-              </div>
-            </article>
-            <article class="article-card">
-              <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/otofaji.png" alt="Oksitosin ve Sosyal Bağlanma" class="article-card__img" />
-                </a>
-                <span class="article-card__cat-overlay">MUTLULUK</span>
-              </div>
-              <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
-                <h3 class="article-card__title">
-                  <a href="/blog">Oksitosinin Gücü: Sosyal Bağlanma ve Bağışıklık Sistemi</a>
+                  <a href="/blog/kortizol-yaslanma">Kronik Stres Çalışma Performansını Nasıl Etkiler?</a>
                 </h3>
               </div>
             </article>

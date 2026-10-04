@@ -1,60 +1,169 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { CONTACT_CHANNELS } from '../lib/contact';
 ---
-<BaseLayout title="İletişim — Dr. Muhammed İkbal Bakırcı">
-  <style is:global>
-    .contact-hero { background:var(--main); color:#fff; padding:80px 0; }
-    .contact-hero__title { font-size:clamp(32px,5vw,52px); font-weight:900; margin-bottom:12px; }
-    .contact-hero__sub { font-size:18px; opacity:.75; }
-    .contact-form-wrap { max-width:600px; margin:0 auto; padding:80px 0; }
-    @media(max-width:768px){ .contact-form-wrap{ padding:48px 0; } }
-    .contact-form { background:var(--base); border-radius:var(--r-lg); padding:40px; box-shadow:var(--shadow-md); }
-    .contact-form h2 { font-size:24px; font-weight:800; margin-bottom:24px; }
-    .form-group { margin-bottom:20px; }
-    .form-group label { display:block; font-size:14px; font-weight:600; margin-bottom:6px; color:var(--gray-700); }
-    .form-group input, .form-group select, .form-group textarea {
-      width:100%; padding:12px 16px; border:1.5px solid var(--border);
-      border-radius:var(--r); font-family:var(--font); font-size:15px;
-      color:var(--main); background:var(--base); outline:none;
-      transition:border-color 0.15s;
-    }
-    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color:var(--main); }
-    .form-group textarea { min-height:140px; resize:vertical; }
-  </style>
-
-    <section class="contact-hero">
-      <div class="container">
-        <h1 class="contact-hero__title">İletişim</h1>
-        <p class="contact-hero__sub">Sorularınız, iş birlikleri veya medya talepleriniz için bize ulaşın.</p>
-      </div>
-    </section>
-
+<BaseLayout title="İletişim — Dr. Muhammed İkbal Bakırcı" description="Randevu, iş birliği, akademik davetler ve medya talepleri için Dr. Muhammed İkbal Bakırcı ile iletişime geçin.">
+  <section class="ct-hero">
     <div class="container">
-      <div class="contact-form-wrap">
-        <div class="contact-form">
-          <h2>Mesaj Gönderin</h2>
-          <a href="https://wa.me/905442244813" target="_blank" rel="noopener" class="btn btn-dark" style="display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:24px;background:#25D366;border-color:#25D366;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            WhatsApp ile Randevu Al
-          </a>
-          <form>
-            <div class="form-group"><label for="name">Ad Soyad</label><input type="text" id="name" placeholder="Adınız ve soyadınız" /></div>
-            <div class="form-group"><label for="email">E-posta</label><input type="email" id="email" placeholder="eposta@ornek.com" /></div>
-            <div class="form-group">
-              <label for="topic">Konu</label>
-              <select id="topic">
-                <option value="">Konu seçin...</option>
-                <option>Genel Bilgi</option>
-                <option>Medya &amp; Basın</option>
-                <option>İş Birliği</option>
-                <option>Teknik Destek</option>
-                <option>Kurs Başvurusu</option>
-              </select>
-            </div>
-            <div class="form-group"><label for="message">Mesajınız</label><textarea id="message" placeholder="Mesajınızı buraya yazın..."></textarea></div>
-            <button type="submit" class="btn btn-dark" style="width:100%">Gönder</button>
-          </form>
-        </div>
-      </div>
+      <h1>İletişim</h1>
+      <p>Talebinizin konusunu seçin; mesajınız ilgili kanala iletilir.</p>
     </div>
+  </section>
+
+  <section class="container ct-channels" aria-label="İletişim kanalları">
+    {CONTACT_CHANNELS.map((c) => (
+      <article class="ct-channel" id={c.id}>
+        <h2>{c.label}</h2>
+        <p>{c.description}</p>
+        <a href="#iletisim-formu" data-pick-channel={c.id}>Bu konuda yazın &rarr;</a>
+      </article>
+    ))}
+  </section>
+
+  <section class="container ct-form-wrap" id="iletisim-formu" aria-labelledby="ct-form-title">
+    <form class="ct-form" id="contactForm" novalidate>
+      <h2 id="ct-form-title">Mesaj gönderin</h2>
+
+      <div class="ct-field">
+        <label for="ct-name">Ad Soyad</label>
+        <input id="ct-name" name="name" type="text" autocomplete="name" required aria-describedby="ct-name-error" />
+        <p class="ct-error" id="ct-name-error" data-error-for="name" hidden></p>
+      </div>
+
+      <div class="ct-field">
+        <label for="ct-email">E-posta</label>
+        <input id="ct-email" name="email" type="email" autocomplete="email" required aria-describedby="ct-email-error" />
+        <p class="ct-error" id="ct-email-error" data-error-for="email" hidden></p>
+      </div>
+
+      <div class="ct-field">
+        <label for="ct-channel">Konu</label>
+        <select id="ct-channel" name="channel" required aria-describedby="ct-channel-error">
+          <option value="">Konu seçin</option>
+          {CONTACT_CHANNELS.map((c) => <option value={c.id}>{c.label}</option>)}
+        </select>
+        <p class="ct-error" id="ct-channel-error" data-error-for="channel" hidden></p>
+      </div>
+
+      <div class="ct-field">
+        <label for="ct-message">Mesajınız</label>
+        <textarea id="ct-message" name="message" rows="6" required aria-describedby="ct-message-error"></textarea>
+        <p class="ct-error" id="ct-message-error" data-error-for="message" hidden></p>
+      </div>
+
+      <div class="ct-field ct-field--check">
+        <input id="ct-consent" name="consent" type="checkbox" required aria-describedby="ct-consent-error" />
+        <label for="ct-consent">Kişisel verilerimin, talebimin yanıtlanması amacıyla <a href="/gizlilik-politikasi">Gizlilik Politikası</a> kapsamında işlenmesini kabul ediyorum.</label>
+        <p class="ct-error" id="ct-consent-error" data-error-for="consent" hidden></p>
+      </div>
+
+      <button type="submit" class="btn btn-dark ct-submit">Gönder</button>
+      <p class="ct-status" data-form-status role="status" hidden></p>
+    </form>
+  </section>
 </BaseLayout>
+
+<script>
+  import { CONTACT_CHANNELS, validateContact, submitContact, type ContactInput } from '../lib/contact';
+
+  function initContactForm() {
+    const form = document.querySelector<HTMLFormElement>('#contactForm');
+    if (!form || form.dataset.ready === 'true') return;
+    form.dataset.ready = 'true';
+
+    const channelSelect = form.elements.namedItem('channel') as HTMLSelectElement;
+    const status = form.querySelector<HTMLElement>('[data-form-status]')!;
+    const submitButton = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
+
+    // /iletisim#randevu gibi bağlantılarla gelindiğinde konuyu önceden seç.
+    const hashChannel = location.hash.slice(1);
+    if (CONTACT_CHANNELS.some((c) => c.id === hashChannel)) channelSelect.value = hashChannel;
+
+    document.querySelectorAll<HTMLAnchorElement>('[data-pick-channel]').forEach((link) => {
+      link.addEventListener('click', () => {
+        channelSelect.value = link.dataset.pickChannel ?? '';
+      });
+    });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const data = new FormData(form);
+      const input: ContactInput = {
+        name: String(data.get('name') ?? ''),
+        email: String(data.get('email') ?? ''),
+        channel: String(data.get('channel') ?? ''),
+        message: String(data.get('message') ?? ''),
+        consent: data.get('consent') === 'on',
+      };
+
+      const errors = validateContact(input);
+      form.querySelectorAll<HTMLElement>('[data-error-for]').forEach((el) => {
+        const message = errors[el.dataset.errorFor as keyof ContactInput];
+        el.textContent = message ?? '';
+        el.hidden = !message;
+      });
+      const firstInvalid = Object.keys(errors)[0];
+      if (firstInvalid) {
+        (form.elements.namedItem(firstInvalid) as HTMLElement | null)?.focus();
+        return;
+      }
+
+      submitButton.disabled = true;
+      const result = await submitContact(input);
+      submitButton.disabled = false;
+      status.hidden = false;
+      if (result.ok) {
+        status.dataset.state = 'success';
+        status.textContent = 'Mesajınız iletildi. En kısa sürede dönüş yapılacaktır.';
+        form.reset();
+      } else {
+        status.dataset.state = 'error';
+        status.textContent = 'Mesajınız şu anda gönderilemedi. Lütfen daha sonra tekrar deneyin.';
+      }
+    });
+  }
+
+  document.addEventListener('astro:page-load', initContactForm);
+</script>
+
+<style>
+  .ct-hero { background: var(--main); color: #fff; padding: 72px 0; }
+  .ct-hero h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 900; margin-bottom: 10px; }
+  .ct-hero p { font-size: 18px; color: #c3cbd2; }
+
+  .ct-channels { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding-top: 48px; }
+  .ct-channel { background: var(--base); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 24px; scroll-margin-top: 140px; }
+  .ct-channel:target { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(87, 120, 197, .15); }
+  .ct-channel h2 { font-size: 19px; font-weight: 800; margin-bottom: 8px; }
+  .ct-channel p { font-size: 14px; line-height: 1.6; color: var(--gray-500); margin-bottom: 14px; }
+  .ct-channel a { font-size: 14px; font-weight: 700; color: var(--blue); }
+
+  .ct-form-wrap { padding: 40px 24px 88px; scroll-margin-top: 120px; }
+  .ct-form { max-width: 640px; margin: 0 auto; background: var(--base); border-radius: var(--r-lg); padding: 40px; box-shadow: var(--shadow-md); }
+  .ct-form h2 { font-size: 24px; font-weight: 800; margin-bottom: 24px; }
+  .ct-field { margin-bottom: 20px; }
+  .ct-field label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 6px; color: var(--gray-700); }
+  .ct-field input:not([type='checkbox']), .ct-field select, .ct-field textarea {
+    width: 100%; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: var(--r);
+    font: 15px var(--font); color: var(--main); background: var(--base);
+  }
+  .ct-field input:focus, .ct-field select:focus, .ct-field textarea:focus { outline: none; border-color: var(--main); }
+  .ct-field textarea { resize: vertical; }
+  .ct-field--check { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; }
+  .ct-field--check input { margin-top: 4px; width: 18px; height: 18px; }
+  .ct-field--check label { font-weight: 400; font-size: 14px; line-height: 1.5; margin: 0; }
+  .ct-field--check label a { text-decoration: underline; }
+  .ct-field--check .ct-error { grid-column: 1 / -1; }
+  .ct-error { margin-top: 6px; font-size: 13px; color: var(--red); }
+  .ct-submit { width: 100%; }
+  .ct-submit:disabled { opacity: .6; cursor: wait; }
+  .ct-status { margin-top: 16px; padding: 12px 16px; border-radius: var(--r); font-size: 14px; }
+  .ct-status[data-state='success'] { background: #ecf7ee; color: #1d6b2a; }
+  .ct-status[data-state='error'] { background: #fdeeee; color: #9b1c1c; }
+
+  @media (max-width: 900px) { .ct-channels { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 600px) {
+    .ct-channels { grid-template-columns: 1fr; }
+    .ct-form { padding: 28px 20px; }
+  }
+</style>

@@ -1,12 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { sortPostsNewestFirst } from '../lib/posts';
 
 const allPosts = await getCollection('blog');
-const longevityPosts = allPosts
-  .filter(post => ['Longevity', 'Otofaji', 'Hücre Sağlığı', 'Egzersiz'].includes(post.data.category))
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 3);
+const longevityPosts = sortPostsNewestFirst(
+  allPosts.filter(post => ['Longevity', 'Otofaji', 'Hücre Sağlığı', 'Egzersiz'].includes(post.data.category)),
+).slice(0, 3);
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---

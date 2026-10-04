@@ -1,13 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { sortPostsNewestFirst } from '../lib/posts';
 
 const allPosts = await getCollection('blog');
 // Keep the related-article rail focused on aesthetic and skin content.
-const estetikPosts = allPosts
-  .filter(post => ['Medikal Estetik', 'Sağlık Trendleri'].includes(post.data.category))
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 3);
+const estetikPosts = sortPostsNewestFirst(
+  allPosts.filter(post => ['Medikal Estetik', 'Sağlık Trendleri'].includes(post.data.category)),
+).slice(0, 3);
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 const estetikImageBySlug: Record<string, string> = {

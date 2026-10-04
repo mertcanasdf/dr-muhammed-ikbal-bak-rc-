@@ -44,5 +44,5 @@ PRP tamamen hastanın kendi kan kalitesine bağlıyken (kişinin yaşı, beslenm
 
 Genellikle Altın İğne veya lazer tedavileriyle kombine edilerek uygulanan Eksozomlar, açılan mikro kanallardan cildin derinliklerine sızarak onarım sürecini maksimuma ulaştırır.
 
-[Birebir Değerlendirme ve Randevu İçin WhatsApp'tan Bize Ulaşın →](https://wa.me/905442244813?text=PRP%20ve%20eksozom%20tedavileri%20hakk%C4%B1nda%20muayene%20ve%20bilgi%20almak%20istiyorum.)
+[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---

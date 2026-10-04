@@ -44,5 +44,5 @@ Somon balığı sütünden elde edilen polinükleotit (DNA) molekülleri, insan 
 
 Cilt kalitesini artırmaya yönelik mezoterapi seansları, kişinin cilt yaşına ve ihtiyacına göre genellikle 2-4 seans halinde planlanır.
 
-[Birebir Değerlendirme ve Randevu İçin WhatsApp'tan Bize Ulaşın →](https://wa.me/905442244813?text=Mezoterapi%20ve%20gen%C3%A7lik%20a%C5%9F%C4%B1lar%C4%B1%20hakk%C4%B1nda%20muayene%20ve%20bilgi%20almak%20istiyorum.)
+[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---

@@ -48,5 +48,5 @@ Uygulamanın oluşturduğu 55-65°C civarındaki kontrollü ısı hasarı, dermi
 
 Altın İğne, lazer uygulamalarının aksine üst cilt tabakasını (epidermis) soymadığı için lekelenme riski taşımaz ve yaz ayları dahil her mevsim güvenle uygulanabilir.
 
-[Birebir Değerlendirme ve Randevu İçin WhatsApp'tan Bize Ulaşın →](https://wa.me/905442244813?text=Alt%C4%B1n%20i%C4%9Fne%20uygulamas%C4%B1%20hakk%C4%B1nda%20muayene%20ve%20bilgi%20almak%20istiyorum.)
+[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---

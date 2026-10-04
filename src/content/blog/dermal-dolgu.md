@@ -46,4 +46,4 @@ Başarılı bir dolgu uygulamasının sırrı anatomik altın oranlara sadık ka
 
 Medikal estetiğin amacı, kişinin kendi özgün hatlarını bozmadan, onu daha dinlenmiş, enerjik ve sağlıklı göstermektir.
 
-[Birebir Değerlendirme ve Randevu İçin WhatsApp'tan Bize Ulaşın →](https://wa.me/905442244813?text=Dermal%20dolgu%20uygulamas%C4%B1%20hakk%C4%B1nda%20muayene%20ve%20bilgi%20almak%20istiyorum.)
+[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)

@@ -46,5 +46,5 @@ Botoks sadece kozmetik amaçlarla değil, yaşam kalitesini doğrudan artıran t
 - Diş aşınmalarını, çene eklemi (TME) ağrılarını ve kronik baş ağrılarını hafifletir.
 - Yoğun kasılmaya bağlı büyüyen masseter kasının hacmini azaltarak, yüzün alt kısmını inceltir ve daha oval (V-line) bir yüz kontürü kazandırır.
 
-[Birebir Değerlendirme ve Randevu İçin WhatsApp'tan Bize Ulaşın →](https://wa.me/905442244813?text=Botoks%20uygulamalar%C4%B1%20hakk%C4%B1nda%20muayene%20ve%20bilgi%20almak%20istiyorum.)
+[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---

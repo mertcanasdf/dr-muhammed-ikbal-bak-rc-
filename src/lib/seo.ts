@@ -102,9 +102,7 @@ export function buildSiteStructuredData({
         name: SITE_NAME,
         url: `${SITE_URL}/hakkinda`,
         image: getAbsoluteUrl(image),
-        jobTitle: 'Hekim ve sağlık eğitmeni',
-        email: 'mailto:Muhammedikbalb@gmail.com',
-        telephone: '+90-544-224-48-13',
+        jobTitle: 'Hekim, sağlık yöneticisi ve akademisyen',
       },
       {
         '@type': 'WebSite',

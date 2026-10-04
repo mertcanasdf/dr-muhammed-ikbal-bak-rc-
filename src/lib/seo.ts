@@ -35,7 +35,7 @@ const routeLabel: Record<string, string> = {
   'kullanim-kosullari': 'Kullanım Koşulları',
   kurslar: 'Kurslar',
   longevity: 'Longevity',
-  'medikal-estetik': 'Medikal Estetik',
+  'medikal-estetik': 'Skin Longevity & Medikal Estetik',
   podcast: 'Podcast',
   quizler: 'Quizler',
   rehberler: 'Rehberler',

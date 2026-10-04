@@ -1,16 +1,8 @@
 ---
 // src/components/Header.astro
+const chevron = 'M1 1L5 5L9 1';
 ---
 <div class="header-wrapper" id="headerWrapper">
-
-  <div class="utility-nav">
-    <div class="container utility-nav__inner">
-      <nav aria-label="Yardımcı navigasyon">
-        <a href="/hakkinda">Hakkında</a>
-        <a href="/iletisim">İletişim</a>
-      </nav>
-    </div>
-  </div>
 
   <header class="site-header">
     <div class="container site-header__inner">
@@ -28,7 +20,7 @@
             <span class="site-logo__name">Muhammed İkbal</span>
             <span class="site-logo__surname">Bakırcı</span>
           </span>
-          <span class="site-logo__role">Dr. Longevity</span>
+          <span class="site-logo__role">Hekim · Sağlık Yöneticisi · Akademisyen</span>
         </span>
       </a>
 
@@ -53,61 +45,22 @@
   <nav class="main-menu" id="mainMenu" aria-label="Ana navigasyon">
     <div class="container">
       <ul class="main-menu__list">
+        <li><a href="/" class="main-menu__link">Ana Sayfa</a></li>
+        <li><a href="/hakkinda" class="main-menu__link">Dr. Bakırcı</a></li>
+
         <li class="has-megamenu">
-          <a href="/blog" class="menu-trigger">İçerik Kütüphanesi
+          <a href="/longevity" class="menu-trigger">Longevity
             <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none">
-              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d={chevron} stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
           <div class="megamenu">
             <div class="megamenu__container">
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Popüler Konular</h4>
-                <ul class="megamenu__links">
-                  <li><a href="/longevity">Longevity &amp; Uzun Ömür</a></li>
-                  <li><a href="/blog/otofaji-nedir">Otofaji &amp; Hücresel Temizlik</a></li>
-                  <li><a href="/blog/aralikli-oruc-longevity">Beslenme &amp; Metabolizma</a></li>
-                  <li><a href="/blog/telomerleri-korumak">Hücre Sağlığı</a></li>
-                  <li><a href="/blog/kortizol-yaslanma">Stres &amp; Zihin Sağlığı</a></li>
-                  <li><a href="/blog/bolge-2-kardiyo">Egzersiz &amp; Kardiyo</a></li>
-                  <li><a href="/blog/nmn-nad-yaslanma">Beyin Sağlığı</a></li>
-                  <li><a href="/medikal-estetik">Medikal Estetik &amp; Güzellik</a></li>
-                  <li><a href="/dunyada-saglik">Dünyada Sağlık</a></li>
-                  <li><a href="/blog" class="megamenu__special-link">Tüm makaleleri gör &rarr;</a></li>
-                </ul>
-              </div>
-              <div class="megamenu__column">
-                <h4 class="megamenu__title">Referanslar</h4>
-                <ul class="megamenu__links">
-                  <li><a href="/quizler">Sağlık Testleri ve Hesaplayıcılar</a></li>
-                  <li><a href="/rehberler">Rehberler ve Kaynaklar</a></li>
-                  <li><a href="/kurslar">Kurslar</a></li>
-                  <li><a href="/soylesiler">Birebir Söyleşiler</a></li>
-                </ul>
-              </div>
-              <div class="megamenu__column">
-                <h4 class="megamenu__title">Programlar</h4>
-                <ul class="megamenu__links">
-                  <li><a href="/longevity">Sağlıklı Yaşam ve Hücresel Sağlık</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li><a href="/dunyada-saglik">Dünyada Sağlık</a></li>
-        <li class="has-megamenu">
-          <a href="/longevity" class="menu-trigger">Longevity
-            <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none">
-              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-          <div class="megamenu megamenu--center">
-            <div class="megamenu__container">
-              <div class="megamenu__column">
                 <h4 class="megamenu__title">Longevity Temelleri</h4>
                 <ul class="megamenu__links">
-                  <li><a href="/longevity#hucresel-temizlik">Hücresel Temizlik (Otofaji)</a></li>
                   <li><a href="/longevity#longevity-bilimi">Uzun Ömür Biyolojisi</a></li>
+                  <li><a href="/longevity#hucresel-temizlik">Hücresel Temizlik (Otofaji)</a></li>
                   <li><a href="/blog/sirt6-proteini-epigenetik-genclesme">Epigenetik Gençleşme</a></li>
                   <li><a href="/blog/telomerleri-korumak">Telomerleri Korumak</a></li>
                 </ul>
@@ -122,60 +75,75 @@
                 </ul>
               </div>
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Anti-Aging Protokolleri</h4>
+                <h4 class="megamenu__title">Günlük Alışkanlıklar</h4>
                 <ul class="megamenu__links">
-                  <li><a href="/blog/nmn-nad-yaslanma">NMN ve NAD+ Hücresel Enerji</a></li>
-                  <li><a href="/blog/d3-vitamini-eksikligi">D3 Vitamini ve Kritik Takviyeler</a></li>
-                  <li><a href="/blog/mavi-bolge-diyeti">Mavi Bölge Diyetisi</a></li>
-                  <li><a href="/blog/aralikli-oruc-longevity">Aralıklı Oruç Protokolü</a></li>
+                  <li><a href="/blog/aralikli-oruc-longevity">Aralıklı Oruç</a></li>
+                  <li><a href="/blog/mavi-bolge-diyeti">Mavi Bölge Diyeti</a></li>
+                  <li><a href="/blog/uyku-kalitesi-nasil-artirilir">Uyku Kalitesi</a></li>
+                  <li><a href="/blog/sosyal-baglanti-ve-uzun-omur">Sosyal Bağlantı ve Uzun Ömür</a></li>
                   <li><a href="/longevity" class="megamenu__special-link">Tüm Longevity içeriği &rarr;</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </li>
+
         <li class="has-megamenu">
-          <a href="/medikal-estetik" class="menu-trigger">Medikal Estetik &amp; Güzellik
+          <a href="/medikal-estetik" class="menu-trigger">Skin Longevity
             <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none">
-              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d={chevron} stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
-          <div class="megamenu megamenu--right">
+          <div class="megamenu megamenu--center">
             <div class="megamenu__container">
               <div class="megamenu__column">
                 <h4 class="megamenu__title">Cilt Biyolojisi</h4>
                 <ul class="megamenu__links">
-                  <li><a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler">Senolitik Tedaviler (Zombi Hücreler)</a></li>
-                  <li><a href="/blog/kortizol-yaslanma">Stres ve Cilt (Kortizol)</a></li>
-                  <li><a href="/blog/d3-vitamini-eksikligi">D3 Vitamini &amp; Cilt Bariyeri</a></li>
-                  <li><a href="/blog/nmn-nad-yaslanma">NAD+ ve Hücresel Yenilenme</a></li>
+                  <li><a href="/blog/ciltte-kollajen-kaybi">Ciltte Kollajen Kaybı</a></li>
+                  <li><a href="/blog/cilt-bariyeri-nasil-guclendirilir">Cilt Bariyeri</a></li>
+                  <li><a href="/blog/gunes-kremi-nasil-secilir">Güneş Kremi Seçimi</a></li>
+                  <li><a href="/blog/retinoid-nedir">Retinoidler</a></li>
+                  <li><a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler">Senolitik Tedaviler</a></li>
                 </ul>
               </div>
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Klinik Uygulamalar</h4>
+                <h4 class="megamenu__title">Medikal Estetik</h4>
                 <ul class="megamenu__links">
-                  <li><a href="/blog/dermal-dolgu">Dermal Dolgu &amp; Yüz Şekillendirme</a></li>
-                  <li><a href="/blog/altin-igne">Altın İğne (Fraksiyonel RF)</a></li>
                   <li><a href="/blog/botoks">Botulinum Toksin (Botoks)</a></li>
-                  <li><a href="/blog/mezoterapi">Mezoterapi &amp; Gençlik Aşıları</a></li>
-                  <li><a href="/blog/prp-eksozom">PRP &amp; Eksozom Rejenerasyonu</a></li>
-                </ul>
-              </div>
-              <div class="megamenu__column">
-                <h4 class="megamenu__title">Güzellik &amp; Bakım</h4>
-                <ul class="megamenu__links">
-                  <li><a href="/blog/otofaji-nedir">Otofaji: İçten Gelen Güzellik</a></li>
-                  <li><a href="/blog/telomerleri-korumak">Uyku Kalitesi ve Cilt Onarımı</a></li>
-                  <li><a href="/blog/mavi-bolge-diyeti">Mavi Bölge Beslenme İlkeleri</a></li>
-                  <li><a href="/medikal-estetik" class="megamenu__special-link">Tüm Estetik içeriği &rarr;</a></li>
+                  <li><a href="/blog/dermal-dolgu">Dermal Dolgu</a></li>
+                  <li><a href="/blog/altin-igne">Altın İğne (Fraksiyonel RF)</a></li>
+                  <li><a href="/blog/mezoterapi">Mezoterapi</a></li>
+                  <li><a href="/blog/prp-eksozom">PRP &amp; Eksozom</a></li>
+                  <li><a href="/medikal-estetik" class="megamenu__special-link">Tüm Skin Longevity içeriği &rarr;</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </li>
-        <li><a href="/rehberler">Rehberler</a></li>
-        <li><a href="/quizler">Quizler</a></li>
-        <li><a href="/basari-hikayeleri">Başarı Hikayeleri</a></li>
+
+        <li class="has-megamenu">
+          <a href="/blog" class="menu-trigger">Keşfet
+            <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none">
+              <path d={chevron} stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <div class="megamenu megamenu--right">
+            <div class="megamenu__container">
+              <div class="megamenu__column">
+                <h4 class="megamenu__title">Keşfet</h4>
+                <ul class="megamenu__links">
+                  <li><a href="/blog">İçerik Kütüphanesi</a></li>
+                  <li><a href="/rehberler">Rehberler</a></li>
+                  <li><a href="/quizler">Kendini Değerlendir</a></li>
+                  <li><a href="/dunyada-saglik">Dünyada Sağlık</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="/gecmis-yillar" class="main-menu__link">Medya</a></li>
+        <li><a href="/iletisim" class="main-menu__link">İletişim</a></li>
       </ul>
     </div>
   </nav>

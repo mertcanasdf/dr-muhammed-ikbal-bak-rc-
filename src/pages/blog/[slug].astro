@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getAbsoluteUrl, getBlogSeoTitle, getCanonicalUrl, SITE_URL } from '../../lib/seo';
+import { getAbsoluteUrl, getCanonicalUrl, SITE_URL } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -15,7 +15,6 @@ const { post } = Astro.props;
 const { Content, headings } = await render(post);
 const { title, date, description, category, image, readTime, takeaways, relatedArticles } = post.data;
 const articlePath = `/blog/${post.id.replace(/\.mdx?$/, '')}`;
-const seoTitle = getBlogSeoTitle(post.id.replace(/\.mdx?$/, ''), title);
 const articleUrl = getCanonicalUrl(articlePath);
 const articleStructuredData = {
   '@type': 'Article',
@@ -35,13 +34,19 @@ const articleStructuredData = {
 function formatDate(d: Date): string {
   return d.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 }
+
+const encodedArticleUrl = encodeURIComponent(articleUrl);
+const encodedTitle = encodeURIComponent(title);
+const encodedShareText = encodeURIComponent(`${title}\n${articleUrl}`);
+const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle paylaşmak istedim:\n${articleUrl}`);
 ---
 <BaseLayout
-  title={seoTitle}
+  title={`${title} — Dr. Muhammed İkbal Bakırcı`}
   description={description}
   image={image}
   type="article"
   structuredData={articleStructuredData}
+  includeArticleTabs={true}
 >
   <section class="article-hero">
     <div class="container">
@@ -53,6 +58,7 @@ function formatDate(d: Date): string {
           <span>{formatDate(date)}</span>
           <span>{readTime} okuma</span>
         </div>
+
       </div>
     </div>
   </section>
@@ -61,7 +67,7 @@ function formatDate(d: Date): string {
     <div class="article-layout">
 
       <article class="article-body">
-        <img loading="eager" width="1200" height="800" src={image} alt={title} class="article-body__featured-img" />
+        <img src={image} alt={title} class="article-body__featured-img" loading="eager" />
 
         <Content />
 
@@ -74,8 +80,139 @@ function formatDate(d: Date): string {
           </div>
         )}
 
+        <section
+          class="article-share"
+          data-article-share
+          data-share-url={articleUrl}
+          data-share-title={title}
+          aria-labelledby="article-share-title"
+        >
+          <h2 class="article-share__label" id="article-share-title">Bu yazıyı paylaş</h2>
+          <div class="article-share__actions">
+            <a
+              class="article-share__action article-share__action--whatsapp"
+              href={`https://wa.me/?text=${encodedShareText}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp'ta paylaş"
+              title="WhatsApp'ta paylaş"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.25a9.75 9.75 0 0 0-8.4 14.7L2.2 21.8l5.02-1.34A9.75 9.75 0 1 0 12 2.25Zm0 17.5a7.7 7.7 0 0 1-3.93-1.08l-.28-.17-2.98.8.8-2.9-.18-.3A7.7 7.7 0 1 1 12 19.75Zm3.56-5.8c-.2-.1-1.18-.58-1.36-.64-.18-.07-.31-.1-.44.1-.13.2-.5.64-.61.77-.11.14-.22.15-.41.05-.2-.1-.83-.3-1.58-.96-.58-.52-.97-1.15-1.08-1.34-.11-.2-.01-.3.08-.4.1-.1.2-.22.3-.33.1-.11.13-.2.2-.33.07-.13.03-.25-.02-.35-.05-.1-.44-1.06-.6-1.45-.16-.38-.32-.33-.44-.34h-.37c-.13 0-.34.05-.52.25-.18.2-.68.67-.68 1.64s.7 1.9.8 2.03c.1.13 1.37 2.1 3.32 2.94.46.2.82.31 1.1.4.46.15.88.13 1.21.08.37-.05 1.18-.48 1.35-.94.17-.46.17-.85.12-.94-.05-.08-.18-.13-.37-.23Z"/></svg>
+              <span class="article-share__action-label">WhatsApp</span>
+            </a>
+            <a
+              class="article-share__action article-share__action--facebook"
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodedArticleUrl}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook'ta paylaş"
+              title="Facebook'ta paylaş"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07Z"/></svg>
+              <span class="article-share__action-label">Facebook</span>
+            </a>
+            <a
+              class="article-share__action article-share__action--x"
+              href={`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedArticleUrl}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X'te paylaş"
+              title="X'te paylaş"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 0h3.55l-7.77 8.88L23.1 24h-7.16l-5.6-7.33L4.1 24H.53l8.32-9.51L0 0h7.33l5.07 6.7L18.24 0Zm-1.25 21.57h1.97L7.08 2.04H4.97l12.02 19.53Z"/></svg>
+              <span class="article-share__action-label">X</span>
+            </a>
+            <button
+              type="button"
+              class="article-share__action article-share__action--instagram"
+              data-share-instagram
+              aria-label="Instagram için bağlantıyı paylaş"
+              title="Instagram için paylaş"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85 0 3.2-.01 3.58-.07 4.85-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07-3.2 0-3.58-.01-4.85-.07-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12c0-3.2.01-3.58.07-4.85C2.38 3.85 3.9 2.31 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16Zm0-2.16C8.74 0 8.33.01 7.05.07 2.7.27.27 2.7.07 7.05.01 8.33 0 8.74 0 12c0 3.26.01 3.67.07 4.95.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24c3.26 0 3.67-.01 4.95-.07 4.35-.2 6.78-.62 6.98-6.98.06-1.28.07-1.69.07-4.95 0-3.26-.01-3.67-.07-4.95-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0Zm0 5.84a6.16 6.16 0 1 0 0 12.32A6.16 6.16 0 0 0 12 5.84ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88Z"/></svg>
+              <span class="article-share__action-label">Instagram</span>
+            </button>
+            <details class="article-share__more">
+              <summary class="article-share__action article-share__more-toggle" title="Daha fazla paylaşım seçeneği">
+                <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a3 3 0 1 0-2.83-4H15a3 3 0 0 0 .17 1L8.9 8.55a3 3 0 1 0 0 6.9l6.27 3.55A3 3 0 1 0 16 17l-6.27-3.55a3.03 3.03 0 0 0 0-1.3L16 8.6A3 3 0 0 0 18 8Z"/></svg>
+                <span class="article-share__action-label">Daha fazla</span>
+              </summary>
+              <div class="article-share__more-menu">
+                <a
+                  class="article-share__action article-share__action--linkedin"
+                  href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodedArticleUrl}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn'de paylaş"
+                >
+                  <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 0 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 .79.77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.44c.98 0 1.79-.77 1.79-1.73V1.73C24 .77 24 .01 22.22 0Z"/></svg>
+                  <span class="article-share__action-label">LinkedIn</span>
+                </a>
+            <a
+              class="article-share__action article-share__action--telegram"
+              href={`https://t.me/share/url?url=${encodedArticleUrl}&text=${encodedTitle}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Telegram'da paylaş"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m21.4 3.6-3.2 15.1c-.24 1.07-.87 1.34-1.76.83l-4.87-3.59-2.35 2.26c-.26.26-.48.48-.99.48l.35-4.96 9.02-8.15c.39-.35-.09-.55-.61-.2L6.08 11.4l-4.75-1.49c-1.03-.32-1.05-1.03.22-1.52L20.13.6c.86-.32 1.62.2 1.27 3Z"/></svg>
+              <span class="article-share__action-label">Telegram</span>
+            </a>
+            <a
+              class="article-share__action article-share__action--pinterest"
+              href={`https://pinterest.com/pin/create/button/?url=${encodedArticleUrl}&media=${encodeURIComponent(getAbsoluteUrl(image))}&description=${encodedTitle}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Pinterest'te paylaş"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.1-1.96-.02-4.32.49-6.19l1.33-5.63s-.34-.68-.34-1.68c0-1.57.91-2.74 2.04-2.74.96 0 1.42.72 1.42 1.59 0 .97-.62 2.43-.94 3.78-.27 1.13.57 2.06 1.69 2.06 2.03 0 3.6-2.14 3.6-5.24 0-2.74-1.97-4.66-4.79-4.66-3.26 0-5.17 2.45-5.17 4.98 0 .99.38 2.05.85 2.63.09.11.1.2.07.31l-.32 1.3c-.05.21-.17.25-.39.15-1.45-.68-2.36-2.8-2.36-4.51 0-3.67 2.67-7.04 7.7-7.04 4.04 0 7.18 2.88 7.18 6.72 0 4.01-2.53 7.24-6.04 7.24-1.18 0-2.29-.61-2.67-1.33l-.72 2.75c-.26 1.01-.96 2.27-1.43 3.04A12 12 0 1 0 12 0Z"/></svg>
+              <span class="article-share__action-label">Pinterest</span>
+            </a>
+            <a
+              class="article-share__action article-share__action--reddit"
+              href={`https://www.reddit.com/submit?url=${encodedArticleUrl}&title=${encodedTitle}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Reddit'te paylaş"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12a12 12 0 1 1-24 0 12 12 0 0 1 24 0Zm-5.52 1.64c.03-.18.05-.36.05-.55 0-1.1-.9-2-2-2-.54 0-1.03.22-1.39.57-1.04-.73-2.4-1.2-3.9-1.25l.78-2.45 2.08.44a1.4 1.4 0 1 0 .15-.64l-2.32-.5a.46.46 0 0 0-.54.31l-.88 2.8c-1.54.03-2.93.5-4 1.24A1.99 1.99 0 0 0 5.12 11a2 2 0 0 0-2 2c0 .18.02.36.07.53-.48.28-.79.7-.79 1.17 0 1.05 1.2 1.9 2.69 1.9.1 0 .2 0 .3-.02 1.16 1.46 3.43 2.42 6.05 2.42 2.62 0 4.89-.96 6.05-2.42.1.02.2.02.3.02 1.49 0 2.69-.85 2.69-1.9 0-.43-.27-.82-.69-1.06Zm-9.17 1.07c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Zm5.38 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Zm-5.42 1.35c.87.77 3.05.78 3.92 0a.35.35 0 0 1 .47.52c-1.08.98-3.78.98-4.86 0a.35.35 0 0 1 .47-.52Z"/></svg>
+              <span class="article-share__action-label">Reddit</span>
+            </a>
+            <a
+              class="article-share__action article-share__action--email"
+              href={`mailto:?subject=${encodedTitle}&body=${encodedMailBody}`}
+              aria-label="E-posta ile paylaş"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+              <span class="article-share__action-label">E-posta</span>
+            </a>
+            <button
+              type="button"
+              class="article-share__action article-share__action--copy"
+              data-share-copy
+              aria-label="Makale bağlantısını kopyala"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9h11v11H9V9Zm-2 2H5V5h6V3H5a2 2 0 0 0-2 2v6h2V5h2v6Zm13-4h-2V5h-3V3h3a2 2 0 0 1 2 2v2Z"/></svg>
+              <span class="article-share__action-label">Kopyala</span>
+            </button>
+            <button
+              type="button"
+              class="article-share__action article-share__action--native"
+              data-native-share
+              hidden
+              aria-label="Diğer paylaşım seçeneklerini aç"
+            >
+              <svg class="article-share__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 7.5 7.5l1.4 1.4L11 6.8V16h2V6.8l2.1 2.1 1.4-1.4L12 3ZM5 12H3v7a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7H5v-7Z"/></svg>
+              <span class="article-share__action-label">Daha fazla</span>
+            </button>
+              </div>
+            </details>
+          </div>
+          <p class="article-share__status" data-share-status aria-live="polite" hidden></p>
+        </section>
+
         <div class="author-bio">
-          <img loading="lazy" width="1200" height="800"
+          <img
             src="/assets/images/generated/doctor-portrait.webp"
             alt="Dr. Muhammed İkbal Bakırcı"
             class="author-bio__avatar"
@@ -84,7 +221,7 @@ function formatDate(d: Date): string {
             <p class="author-bio__name">Dr. Muhammed İkbal Bakırcı</p>
             <p class="author-bio__desc">
               2008 yılından bu yana acil tıp ve klinik süreçlerde hekimlik yapan Dr. Muhammed İkbal Bakırcı,
-              2022'den beri Bursa VM Medical Park Hastanesi Başhekimi ve Birleşmiş Milletler UNF Türkiye Temsilcisidir.
+              2022'den beri Bursa VM Medical Park Hastanesi Başhekimi olarak görev yapmakta olup Birleşmiş Milletler UNF Türkiye Temsilciliği yapmıştır.
               Kişiye özel medikal estetik ve skin longevity (cilt ömrü) alanlarında, hücre düzeyinde yaşlanma karşıtı
               ve metabolik dönüşüm protokolleri uygulamaktadır.
             </p>
@@ -107,7 +244,7 @@ function formatDate(d: Date): string {
             <p class="sidebar-card__title">İlgili Makaleler</p>
             {relatedArticles.map(r => (
               <a href={`/blog/${r.slug}`} class="sidebar-related-card">
-                <img loading="lazy" width="1200" height="800" src={r.image} alt="İlgili yazı görseli" class="sidebar-related-card__img" />
+                <img src={r.image} alt="İlgili yazı görseli" class="sidebar-related-card__img" />
                 <div>
                   <p class="sidebar-related-card__cat">{r.category}</p>
                   <span class="sidebar-related-card__title">{r.title}</span>
@@ -120,4 +257,98 @@ function formatDate(d: Date): string {
 
     </div>
   </div>
+
+  <script is:inline>
+    document.addEventListener('astro:page-load', function () {
+      var share = document.querySelector('[data-article-share]');
+      if (!share || share.dataset.initialized === 'true') return;
+      share.dataset.initialized = 'true';
+
+      var copyButton = share.querySelector('[data-share-copy]');
+      var instagramButton = share.querySelector('[data-share-instagram]');
+      var nativeButton = share.querySelector('[data-native-share]');
+      var status = share.querySelector('[data-share-status]');
+      var shareUrl = share.getAttribute('data-share-url');
+      var shareTitle = share.getAttribute('data-share-title');
+      var statusTimer;
+
+      function showStatus(message) {
+        if (!status) return;
+        window.clearTimeout(statusTimer);
+        status.textContent = message;
+        status.hidden = false;
+        statusTimer = window.setTimeout(function () {
+          status.hidden = true;
+          status.textContent = '';
+        }, 2800);
+      }
+
+      async function copyLink() {
+        if (!shareUrl) throw new Error('missing-share-url');
+
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(shareUrl);
+          return;
+        }
+
+        var helper = document.createElement('textarea');
+        helper.value = shareUrl;
+        helper.setAttribute('readonly', '');
+        helper.style.position = 'fixed';
+        helper.style.opacity = '0';
+        document.body.appendChild(helper);
+        helper.select();
+        var copied = document.execCommand('copy');
+        helper.remove();
+        if (!copied) throw new Error('copy-failed');
+      }
+
+      if (navigator.share && nativeButton) {
+        nativeButton.hidden = false;
+        nativeButton.addEventListener('click', function () {
+          navigator.share({
+            title: shareTitle,
+            text: shareTitle,
+            url: shareUrl
+          }).catch(function () {});
+        });
+      }
+
+      if (copyButton) {
+        copyButton.addEventListener('click', async function () {
+          try {
+            await copyLink();
+            copyButton.classList.add('is-copied');
+            showStatus('Bağlantı kopyalandı.');
+            window.setTimeout(function () {
+              copyButton.classList.remove('is-copied');
+            }, 2200);
+          } catch (error) {
+            showStatus('Bağlantı kopyalanamadı.');
+          }
+        });
+      }
+
+      if (instagramButton) {
+        instagramButton.addEventListener('click', async function () {
+          try {
+            if (navigator.share) {
+              await navigator.share({
+                title: shareTitle,
+                text: shareTitle,
+                url: shareUrl
+              });
+              return;
+            }
+
+            await copyLink();
+            showStatus('Bağlantı kopyalandı. Instagram uygulamasında paylaşabilirsiniz.');
+          } catch (error) {
+            if (error && error.name === 'AbortError') return;
+            showStatus('Bağlantı kopyalanamadı.');
+          }
+        });
+      }
+    });
+  </script>
 </BaseLayout>

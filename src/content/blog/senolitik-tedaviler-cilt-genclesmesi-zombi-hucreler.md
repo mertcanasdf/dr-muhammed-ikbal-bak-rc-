@@ -3,7 +3,7 @@ title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücreler
 date: 2026-05-28
 description: "Güncel araştırmalar topikal senolitiklerin cilt senesans hücrelerini temizleyerek kolajen sentezini yeniden aktive ettiğini kanıtlıyor; doğal senolitikler nelerdir?"
 category: "Sağlık Trendleri"
-image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+image: "/assets/images/generated/nutrition-longevity.webp"
 readTime: "5 dk"
 takeaways:
   - "Senesans (zombi) hücreler, bölünmeyen ancak çevrelerindeki sağlıklı hücreleri zehirleyen yaşlı hücrelerdir."

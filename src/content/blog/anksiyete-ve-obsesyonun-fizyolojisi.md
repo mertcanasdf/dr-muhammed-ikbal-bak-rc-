@@ -3,7 +3,7 @@ title: "Kronik Anksiyete ve Obsesyon: Zihinsel Dengeyi ve Hücresel Yaşlanmayı
 date: 2026-06-21
 description: "Anksiyete ve obsesyonun HPA aksı, amigdala ve telomerler üzerindeki etkileri; zihinsel dayanıklılık ve stres yönetimi için bilimsel yaklaşım."
 category: "Stres"
-image: "/assets/images/generated/quiz_stress_cortisol.webp"
+image: "/assets/images/generated/topics/kortizol-stres.webp"
 readTime: "7 dk"
 takeaways:
   - "Kronik anksiyete ve takıntılar (obsesyon), amigdala aktivitesini sürekli yüksek tutarak vücudu kronik alarm modunda bırakır."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Stres"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/topics/kortizol-stres.webp"
+    image: "/assets/images/generated/guide_cortisol_stress.webp"
   - slug: "tukenmislik-sendromu"
     category: "Stres"
     title: "Tükenmişlik Sendromu (Burnout) ile Mücadele Kılavuzu"
-    image: "/assets/images/generated/topics/anksiyete-cilt.webp"
+    image: "/assets/images/generated/topics/tukenmislik.webp"
 ---
 
 Modern dünyada stres, geçici bir tehdit durumu olmaktan çıkıp kronik bir arka plan gürültüsüne dönüşmüştür. Özellikle **anksiyete (kaygı bozukluğu)** ve **obsesyon (takıntılı düşünceler)**, bireyin zihinsel dengesini bozmakla kalmaz; otonom sinir sistemini sürekli teyakkuzda tutarak hücresel yaşlanmayı (biyolojik yaşlanmayı) dramatik bir şekilde hızlandırır. Zihinsel yorgunluğun altındaki hücresel yıpranma mekanizmalarını anlamak, longevity (uzun ömürlülük) yaklaşımının en kritik parçalarından biridir.

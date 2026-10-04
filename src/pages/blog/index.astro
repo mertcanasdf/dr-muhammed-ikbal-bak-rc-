@@ -36,7 +36,6 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         <button class="filter-btn" data-filter="Sorumluluk">Sorumluluk</button>
         <button class="filter-btn" data-filter="Yaşam">Yaşam</button>
       </div>
-      <p id="blogSearchStatus" class="sr-only" aria-live="polite"></p>
     </div>
   </section>
 
@@ -45,8 +44,8 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       <div class="blog-grid" id="blogGrid">
         {posts.map(post => (
           <article class="blog-card" data-cat={post.data.category}>
-            <a href={`/blog/${slug(post.id)}`}>
-              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+            <a href={`/blog/${slug(post.id)}`} class="blog-card__img-link">
+              <img src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>
@@ -69,20 +68,6 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
   document.addEventListener('astro:page-load', function () {
     var btns  = document.querySelectorAll('.filter-btn');
     var cards = document.querySelectorAll('#blogGrid .blog-card');
-    var searchQuery = new URLSearchParams(window.location.search).get('q');
-    var searchStatus = document.getElementById('blogSearchStatus');
-
-    if (searchQuery) {
-      var normalizedQuery = searchQuery.toLocaleLowerCase('tr-TR').trim();
-      var visibleCount = 0;
-      cards.forEach(function (card) {
-        var searchable = card.textContent.toLocaleLowerCase('tr-TR');
-        var matches = searchable.indexOf(normalizedQuery) !== -1;
-        card.style.display = matches ? '' : 'none';
-        if (matches) visibleCount += 1;
-      });
-      if (searchStatus) searchStatus.textContent = visibleCount + ' sonuç bulundu.';
-    }
 
     btns.forEach(function (btn) {
       btn.addEventListener('click', function () {

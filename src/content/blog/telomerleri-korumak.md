@@ -19,7 +19,7 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Stres"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/topics/kortizol-stres.webp"
+    image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---
 
 Kromozonlarınızın uçlarındaki bu küçük "kapakçıklar" — telomerler — biyolojik yaşınızın belki de en güvenilir göstergesidir. Ayakkabı bağcığının ucundaki plastik kılıf gibi, telomerler DNA'nızı koruyan koruyucu uçlardır. Her hücre bölünmesinde biraz kısalan bu yapıların uzunluğu, kronik hastalık riski, enerji düzeyleri ve ömür uzunluğuyla doğrudan ilişkilidir.

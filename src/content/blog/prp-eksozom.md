@@ -3,7 +3,7 @@ title: "PRP ve Eksozom Tedavileri: Kök Hücre ve Rejeneratif Tıbbın Medikal E
 date: 2026-06-16
 description: "Büyüme faktörleri ve eksozomların hücresel haberleşme mekanizmaları ile cilt ve saç folikülü rejenerasyonu süreçleri."
 category: "Medikal Estetik"
-image: "/assets/images/generated/cellular-science.webp"
+image: "/assets/images/generated/topics/cellular-science.webp"
 readTime: "5 dk"
 takeaways:
   - "PRP, hastanın kendi kanından elde edilen ve yüksek oranda büyüme faktörü içeren trombositten zengin plazmadır."
@@ -14,7 +14,7 @@ relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Sağlık Trendleri"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Beyin Sağlığı"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"

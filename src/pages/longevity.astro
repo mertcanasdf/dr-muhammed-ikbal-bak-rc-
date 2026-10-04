@@ -1295,7 +1295,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       <div class="estetik-grid-longevity">
         <!-- Card 1: Dermal Dolgu -->
         <div class="estetik-card-longevity">
-          <img loading="lazy" width="1200" height="800" src="/assets/images/generated/quiz_skin_aesthetic.webp" alt="Dermal Dolgu" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
+          <img src="/assets/images/generated/quiz_skin_aesthetic.webp" alt="Dermal Dolgu" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
           <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
             <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Dokusal Hacim &amp; Nem</span>
             <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">Dermal Dolgu ve Kontür Restorasyonu</h3>
@@ -1308,7 +1308,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
         <!-- Card 2: Altın İğne -->
         <div class="estetik-card-longevity">
-          <img loading="lazy" width="1200" height="800" src="/assets/images/generated/quiz_skin_health.webp" alt="Altın İğne" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
+          <img src="/assets/images/generated/quiz_skin_health.webp" alt="Altın İğne" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
           <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
             <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Kollajen İndüksiyonu</span>
             <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">Altın İğne (Fraksiyonel Radyofrekans)</h3>
@@ -1321,7 +1321,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
         <!-- Card 3: PRP & Eksozom -->
         <div class="estetik-card-longevity">
-          <img loading="lazy" width="1200" height="800" src="/assets/images/generated/cellular-science.webp" alt="PRP ve Eksozom" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
+          <img src="/assets/images/generated/cellular-science.webp" alt="PRP ve Eksozom" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
           <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
             <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Rejeneratif Hücre Tedavisi</span>
             <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">PRP &amp; Eksozom Rejenerasyonu</h3>
@@ -1431,7 +1431,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         {longevityPosts.map(post => (
           <article class="blog-card">
             <a href={`/blog/${slug(post.id)}`}>
-              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+              <img src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>
@@ -1464,7 +1464,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           </div>
         </div>
         <div class="premium-cta__image-wrap">
-          <img loading="lazy" width="1200" height="800" src="/assets/images/generated/quiz_longevity_score.webp" alt="Longevity Testi Görseli" class="premium-cta__img" />
+          <img src="/assets/images/generated/quiz_longevity_score.webp" alt="Longevity Testi Görseli" class="premium-cta__img" />
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ title: "Kronik Uyku Bozuklukları ve Longevity: Glymphatic Sistem Temizliği ve 
 date: 2026-06-20
 description: "Yetersiz uykunun beyin temizliği (glymphatic sistem), mitokondriyal onarım ve büyüme hormonu salınımı üzerindeki etkileri. Kaliteli uyku için sirkadiyen protokoller."
 category: "Hücre Sağlığı"
-image: "/assets/images/generated/quiz_sleep.webp"
+image: "/assets/images/generated/stress-sleep.webp"
 readTime: "8 dk"
 takeaways:
   - "Glymphatic sistem (beyin temizlik mekanizması), sadece derin uyku (NREM Evresi) sırasında aktifleşerek beta-amiloid gibi toksik proteinleri temizler."

@@ -13,7 +13,7 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Stres"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Hücresel Etkileri"
-    image: "/assets/images/generated/topics/kortizol-stres.webp"
+    image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---
 
 Müzik, insanlık tarihi boyunca bir terapi aracı olarak kullanılmıştır. Günümüz modern tıp ve nörobilim çalışmaları, müziğin sinir sistemi ve hormonlar üzerindeki güçlü, ölçülebilir etkilerini doğrulamaktadır. Özellikle stres yönetimi ve kortizol hormonunun kontrolü konusunda müzik en kolay ve etkili araçlardan biridir.

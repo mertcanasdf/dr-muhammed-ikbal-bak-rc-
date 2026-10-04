@@ -10,7 +10,7 @@ const relatedPosts = allPosts
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---
-<BaseLayout title="Podcast — Dr. Muhammed İkbal Bakırcı" noindex>
+<BaseLayout title="Podcast — Dr. Muhammed İkbal Bakırcı">
   <style is:global>
     .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
     .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
@@ -38,9 +38,9 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         </a>
       </div>
       <div class="episode-list">
-        <article class="episode"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/podcast_episode_1.webp" alt="Podcast Bölüm 1 - Longevity Giriş" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 1</span><h2 class="episode__title">İlk bölüm yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
-        <article class="episode"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/podcast_episode_2.webp" alt="Podcast Bölüm 2 - Hücresel Gençleşme" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 2</span><h2 class="episode__title">Yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
-        <article class="episode"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/podcast_episode_3.webp" alt="Podcast Bölüm 3 - Stres Yönetimi" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 3</span><h2 class="episode__title">Yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
+        <article class="episode"><img src="/assets/images/generated/podcast_episode_1.webp" alt="Podcast Bölüm 1 - Longevity Giriş" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 1</span><h2 class="episode__title">İlk bölüm yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
+        <article class="episode"><img src="/assets/images/generated/podcast_episode_2.webp" alt="Podcast Bölüm 2 - Hücresel Gençleşme" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 2</span><h2 class="episode__title">Yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
+        <article class="episode"><img src="/assets/images/generated/podcast_episode_3.webp" alt="Podcast Bölüm 3 - Stres Yönetimi" class="episode__img" /><div class="episode__body"><span class="episode__no">Bölüm 3</span><h2 class="episode__title">Yakında</h2><p class="episode__desc">Bölüm açıklaması ve metni (transkript) yayınlandığında bu alanda yer alacak.</p><p class="episode__note">Bölüm metni eklenecek.</p></div></article>
       </div>
     </div></section>
 
@@ -55,7 +55,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         {relatedPosts.map(post => (
           <article class="blog-card">
             <a href={`/blog/${slug(post.id)}`}>
-              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+              <img src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>

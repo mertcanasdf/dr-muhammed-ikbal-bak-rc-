@@ -3,7 +3,7 @@ title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
 date: 2026-03-05
 description: "Kronik yüksek kortizol kas kaybı, beyin hasarı ve telomer kısalmasına yol açar; kanıtlanmış düşürme stratejileri nelerdir?"
 category: "Stres"
-image: "/assets/images/generated/topics/kortizol-stres.webp"
+image: "/assets/images/generated/guide_cortisol_stress.webp"
 readTime: "9 dk"
 takeaways:
   - "Kronik kortizol; kas kaybı, visseral yağ, beyin hasarı ve bağışıklık baskılanmasına yol açar."

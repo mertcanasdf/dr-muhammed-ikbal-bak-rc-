@@ -1,0 +1,51 @@
+---
+title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
+date: 2026-09-15
+description: "Güneş kremi seçerken SPF, geniş spektrum, suya dayanıklılık ve cilt tipine göre ürün tercihi nasıl yapılır?"
+category: "Medikal Estetik"
+image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
+readTime: "7 dk"
+takeaways:
+  - "Geniş spektrumlu ve SPF 30 veya üzeri ürünler günlük korunmada sık kullanılan seçeneklerdir."
+  - "Ürün seçimi kadar yeterli miktarda sürmek ve dışarıda yenilemek de önemlidir."
+  - "Gölge, şapka ve koruyucu kıyafetler güneşten korunmanın diğer parçalarıdır."
+  - "Güneş kremi mevcut şüpheli ben veya cilt kanseri değerlendirmesinin yerine geçmez."
+relatedArticles:
+  - slug: "cilt-bariyeri-nasil-guclendirilir"
+    category: "Medikal Estetik"
+    title: "Cilt Bariyeri Nasıl Güçlendirilir?"
+    image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
+  - slug: "retinoid-nedir"
+    category: "Medikal Estetik"
+    title: "Retinoid Nedir ve Nasıl Kullanılır?"
+    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+  - slug: "ciltte-kollajen-kaybi"
+    category: "Medikal Estetik"
+    title: "Ciltte Kollajen Kaybı Neden Olur?"
+    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+---
+
+## Güneş kremi seçerken ilk bakılacaklar
+
+Güneş koruyucu ürünlerin etiketinde geniş spektrum ifadesi, UVA ve UVB ışınlarına karşı korumayı anlatır. Amerikan Dermatoloji Akademisi günlük kullanımda SPF 30 veya üzeri, geniş spektrumlu ve suya dayanıklı bir ürün tercih edilmesini önerir: [AAD güneş kremi seçme rehberi](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/choosing-right-sunscreen).
+
+SPF yalnızca ürünün laboratuvar koşullarındaki UVB koruma düzeyini anlatır. Yüksek SPF, güneşte sınırsız kalma izni vermez. Terleme, yüzme, havlu ile silinme ve zaman geçmesi korumayı azaltabilir.
+
+## Uygulama nasıl yapılır?
+
+Ürün açıkta kalan bölgelere dışarı çıkmadan önce yeterli miktarda sürülmeli ve dış ortamda düzenli olarak yenilenmelidir. Yüz, kulaklar, boyun, el sırtları ve saç çizgisi sık unutulan alanlardır. Dudaklar için uygun koruyucu ürün ayrıca kullanılabilir.
+
+Gölge, geniş kenarlı şapka, güneş gözlüğü ve sık dokunmuş kıyafetler korumayı tamamlar. Özellikle UV indeksinin yüksek olduğu saatlerde yalnızca kremle yetinmemek gerekir.
+
+## Cilt tipine göre seçim
+
+Yağlı veya akneye eğilimli ciltlerde hafif, gözenekleri tıkamayan ürünler daha rahat olabilir. Kuru veya hassas ciltlerde parfümsüz krem formu tercih edilebilir. Gözlerde yanma yapan ürün değiştirilebilir; ancak sürekli tahriş veya alerji varsa dermatoloji desteği gerekir.
+
+Retinoid veya peeling kullanan kişiler güneşten korunmaya daha fazla dikkat etmelidir. Ürünün ciltte yeni leke veya ben değişikliğini maskelemediği unutulmamalıdır.
+
+> **Not:** Değişen, kanayan, büyüyen veya iyileşmeyen bir lezyon varsa güneş kremi sürüp beklemeyin, dermatoloji muayenesi alın.
+
+## Kaynaklar
+
+- [AAD: Doğru güneş kremi nasıl seçilir?](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/choosing-right-sunscreen)
+- [AAD: Güneş kremi seçimi ve cilt kanserinden korunma](https://www.aad.org/spot-skin-cancer/learn-about-skin-cancer/prevent-skin-cancer/how-to-select-a-sunscreen)

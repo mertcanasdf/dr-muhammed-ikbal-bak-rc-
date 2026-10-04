@@ -15,7 +15,7 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Stres"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/topics/kortizol-stres.webp"
+    image: "/assets/images/generated/guide_cortisol_stress.webp"
   - slug: "aralikli-oruc-longevity"
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"

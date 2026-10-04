@@ -11,7 +11,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .about-grid { display:grid; grid-template-columns:320px 1fr; gap:64px; padding:80px 0; align-items:start; }
     @media(max-width:900px){ .about-grid{ grid-template-columns:1fr; gap:40px; padding:48px 0; } }
 
-    .about-img { width:100%; border-radius:16px; aspect-ratio:4/5; object-fit:cover; }
+    .about-img { width:100%; height:auto; display:block; border-radius:16px; aspect-ratio:2/3; object-fit:cover; object-position:center top; }
 
     .about-img-meta { margin-top:20px; display:flex; flex-direction:column; gap:10px; }
     .about-meta-item { display:flex; align-items:flex-start; gap:10px; font-size:13px; color:var(--gray-600); line-height:1.4; }
@@ -44,15 +44,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="about-grid">
 
         <div>
-          <img loading="eager" width="1200" height="800" src="/assets/images/generated/doctor-portrait.webp" alt="Dr. Muhammed İkbal Bakırcı" class="about-img" />
+          <img src="/assets/images/generated/doctor-portrait.webp" alt="Dr. Muhammed İkbal Bakırcı" class="about-img" />
           <div class="about-img-meta">
             <div class="about-meta-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
-              <a href="mailto:Muhammedikbalb@gmail.com">Muhammedikbalb@gmail.com</a>
+              Muhammedikbalb@gmail.com
             </div>
             <div class="about-meta-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <a href="tel:+905442244813">0544 224 4813</a>
+              0544 224 4813
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
           <p>Sağlık Bakanlığı onaylı Estetik ve Kozmetik Uygulamaları Sertifikası'na sahip olan Dr. Muhammed İkbal; botulinum toksin, dermal dolgu, mezoterapi, PRP ve eksozom uygulamalarını kişiye özel metabolik değerlendirme ile planlamaktadır. Skin longevity alanında kollajen korunumu, inflamasyon kontrolü ve uzun vadeli cilt kalitesi üzerine çalışmakta; doğal ve sürdürülebilir sonuçları öncelikli hedef olarak benimsemektedir.</p>
 
-          <p>Birleşmiş Milletler UNF Türkiye Temsilcisi sıfatıyla ulusal ve uluslararası kongrelere katılmaktadır. 2025 yılında Multidisipliner Çevre ve Kenevir Kongresi'nde kanabinoidlerin dermokozmetik kullanımı, Uluslararası Medikal Estetik ve Tamamlayıcı Tıp Kongresi'nde kollajen stimülasyonu üzerine sunum gerçekleştirmiştir. 2026 yılında 5. Longevity Show İstanbul'da kişiselleştirilmiş longevity ve genetik konusunda yer almıştır. Pazarlama, kozmetik ve longevity alanlarındaki akademik çalışmalarını sürdürmekte; Bütüncül Sağlıklı Yaşam Platformu Danışma Kurulu üyeliğini de yürütmektedir.</p>
+          <p>Birleşmiş Milletler UNF Türkiye Temsilcisi sıfatıyla ulusal ve uluslararası kongrelere katılmıştır. 2025 yılında Multidisipliner Çevre ve Kenevir Kongresi'nde kanabinoidlerin dermokozmetik kullanımı, Uluslararası Medikal Estetik ve Tamamlayıcı Tıp Kongresi'nde kollajen stimülasyonu üzerine sunum gerçekleştirmiştir. 2026 yılında 5. Longevity Show İstanbul'da kişiselleştirilmiş longevity ve genetik konusunda yer almıştır. Pazarlama, kozmetik ve longevity alanlarındaki akademik çalışmalarını sürdürmekte; Bütüncül Sağlıklı Yaşam Platformu Danışma Kurulu üyeliğini de yürütmektedir.</p>
 
           <div class="about-history-link-wrap">
             <div class="about-history-link-copy">

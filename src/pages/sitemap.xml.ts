@@ -14,9 +14,11 @@ const staticRoutes = [
   '/kurslar',
   '/longevity',
   '/medikal-estetik',
+  '/podcast',
   '/quizler',
   '/rehberler',
   '/sitelerimiz',
+  '/soylesiler',
 ];
 
 function escapeXml(value: string): string {

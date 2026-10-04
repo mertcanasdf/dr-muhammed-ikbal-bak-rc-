@@ -187,7 +187,7 @@ const categories = ['Tümü', 'Longevity', 'Beslenme', 'Metabolizma', 'Sağlık 
       {posts.map(post => (
         <article class="ds-item" data-category={post.data.category}>
           <a href={`/blog/${slug(post.id)}`} class="ds-item__img-wrap">
-            <img width="1200" height="800" src={post.data.image} alt={post.data.title} class="ds-item__img" loading="lazy" />
+            <img src={post.data.image} alt={post.data.title} class="ds-item__img" loading="lazy" />
           </a>
           <div>
             <div class="ds-item__meta">

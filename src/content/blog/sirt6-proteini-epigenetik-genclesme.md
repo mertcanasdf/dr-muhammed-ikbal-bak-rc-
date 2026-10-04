@@ -3,7 +3,7 @@ title: "SIRT6 Proteini ve Epigenetik Gençleşme: DNA Paketlemesini Onararak Ya�
 date: 2026-05-27
 description: "Mayıs 2026 araştırması SIRT6 aktivasyonunun kromatin yapısını onararak organ yaşlanmasını ve kronik enflamasyonu hücresel düzeyde tersine çevirebildiğini gösterdi."
 category: "Longevity"
-image: "/assets/images/generated/topics/epigenetik.webp"
+image: "/assets/images/generated/success_chronic_fatigue.webp"
 readTime: "6 dk"
 takeaways:
   - "SIRT6, DNA'nın paketlenme biçimi olan kromatin yapısını koruyarak yaşlanma genlerini sessiz tutan kritik bir proteindir."

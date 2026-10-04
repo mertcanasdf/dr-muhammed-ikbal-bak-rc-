@@ -13,7 +13,7 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Stres"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Hücresel Etkileri"
-    image: "/assets/images/generated/topics/kortizol-stres.webp"
+    image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---
 
 Tükenmişlik sendromu sıklıkla sadece psikolojik bir motivasyon kaybı olarak görülür. Oysa ki tükenmişlik (burnout), uzun süreli kronik stresin vücudun stres yönetim merkezini (Hipotalamus-Hipofiz-Adrenal veya HPA aksını) fiziksel olarak yıprattığı, derin biyolojik bir durumdur.

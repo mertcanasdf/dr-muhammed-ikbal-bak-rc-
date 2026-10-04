@@ -5,34 +5,6 @@ export const DEFAULT_IMAGE = `${SITE_URL}/assets/images/dr-muhammed-ikbal-bakirc
 export const DEFAULT_DESCRIPTION =
   'Dr. Muhammed İkbal Bakırcı ile longevity, sağlık eğitimi ve medikal estetik hakkında kanıta dayalı bilgiler.';
 
-export const BLOG_SEO_TITLES: Record<string, string> = {
-  'altin-igne': 'Altın İğne (RF): Cilt Yenileme ve Kollajen',
-  'anksiyete-ve-obsesyonun-fizyolojisi': 'Anksiyete, Obsesyon ve Hücresel Yaşlanma',
-  'aralikli-oruc-longevity': 'Aralıklı Oruç ve Longevity Rehberi',
-  'bolge-2-kardiyo': 'Bölge 2 Kardiyo ve Uzun Ömür Rehberi',
-  botoks: 'Botoks: Kırışıklık ve Masseter Uygulamaları',
-  'cilt-genclesmesi-kombinasyon-tedavileri': 'Altın İğne ve Eksozom Kombinasyonu',
-  'd3-vitamini-eksikligi': 'D3 Vitamini Eksikliği ve Yaşlanma',
-  'dermal-dolgu': 'Dermal Dolgu ve Yüz Şekillendirme',
-  'doga-ve-zihin-sagligi': 'Doğa, Stres ve Zihin Sağlığı Rehberi',
-  'kitap-okuma-ve-beyin': 'Kitap Okuma ve Beyin Sağlığı Rehberi',
-  'kortizol-yaslanma': 'Kortizol, Stres ve Yaşlanma Rehberi',
-  'mavi-bolge-diyeti': 'Mavi Bölge Diyeti ve Uzun Ömür',
-  mezoterapi: 'Cilt Mezoterapisi ve Gençlik Aşıları',
-  'muzik-ve-stres-kortizol': 'Müzik, Kortizol ve Stres Yönetimi',
-  'nmn-nad-yaslanma': 'NMN, NAD+ ve Hücresel Yaşlanma',
-  'otofaji-nedir': 'Otofaji Nedir? Hücresel Temizlik Rehberi',
-  'prp-eksozom': 'PRP ve Eksozom Tedavileri Rehberi',
-  'sanat-ve-beyin-sagligi': 'Sanat Üretimi ve Beyin Sağlığı',
-  'senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler': 'Senolitik Tedaviler ve Cilt Gençleşmesi',
-  'sirt6-proteini-epigenetik-genclesme': 'SIRT6, Epigenetik ve Yaşlanma Rehberi',
-  'sukran-pratigi-ve-dopamin': 'Şükran, Dopamin ve Beyin Sağlığı',
-  'telomerleri-korumak': 'Telomerleri Korumak: 7 Yaşam Tarzı Adımı',
-  'tukenmislik-sendromu': 'Tükenmişlik Sendromu ve Stres Yönetimi',
-  'uyku-bozukluklari-ve-glymphatic-temizlik': 'Uyku Bozuklukları ve Glymphatic Sistem',
-  'yasam-amaci-ve-longevity': 'Yaşam Amacı ve Uzun Ömür Rehberi',
-};
-
 export const ROUTE_DESCRIPTIONS: Record<string, string> = {
   '/': 'Dr. Muhammed İkbal Bakırcı: longevity, sağlık eğitimi, medikal estetik ve sağlıklı yaşlanma üzerine bilimsel içerikler.',
   '/hakkinda': 'Dr. Muhammed İkbal Bakırcı hakkında: hekimlik deneyimi, uzmanlık alanları, sağlık eğitimi ve profesyonel yaklaşımı.',
@@ -86,32 +58,8 @@ export function getAbsoluteUrl(pathnameOrUrl: string): string {
   return new URL(pathnameOrUrl, `${SITE_URL}/`).toString();
 }
 
-export function normalizeMetaDescription(value: string): string {
-  const description = value.trim().replace(/\s+/g, ' ');
-  if (description.length > 160) {
-    const shortened = description
-      .slice(0, 157)
-      .replace(/\s+\S*$/, '')
-      .replace(/[,:;—-]\s*$/, '');
-    return `${shortened}…`;
-  }
-  if (description.length < 120) {
-    const withContext = `${description} Ayrıntılı bilgi ve pratik öneriler için okuyun.`;
-    return withContext.length <= 160
-      ? withContext
-      : `${description} Daha fazlasını keşfedin.`;
-  }
-  return description;
-}
-
 export function getPageDescription(pathname: string, provided?: string): string {
-  return normalizeMetaDescription(
-    provided?.trim() || ROUTE_DESCRIPTIONS[normalizePathname(pathname)] || DEFAULT_DESCRIPTION,
-  );
-}
-
-export function getBlogSeoTitle(slug: string, fallback: string): string {
-  return BLOG_SEO_TITLES[slug] || fallback;
+  return provided?.trim() || ROUTE_DESCRIPTIONS[normalizePathname(pathname)] || DEFAULT_DESCRIPTION;
 }
 
 export function buildBreadcrumbs(pathname: string, title: string) {

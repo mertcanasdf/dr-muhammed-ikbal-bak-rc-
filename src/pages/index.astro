@@ -1,18 +1,43 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="Dr. Muhammed İkbal Bakırcı — Longevity &amp; Sağlık Eğitimi">
+<BaseLayout title="Dr. Muhammed İkbal Bakırcı — Longevity &amp; Sağlık Eğitimi" includeSplide={true}>
 
     <!-- HERO -->
     <section class="hero">
       <div class="hero__left">
-        <p class="hero__name">Dr. Muhammed İkbal'in</p>
-        <h1 class="hero__title">Longevity Başlangıç<br>Protokolü</h1>
+        <p class="hero__name">Dr. Muhammed İkbal</p>
+        <h1 class="hero__title" id="heroTitle">Düşünceleriniz görünmez olabilir. Ama bedeniniz onları gerçekmiş gibi yaşar.</h1>
         <p class="hero__quote">"Doğru bilgiyle uzun yıllar daha sağlıklı ve enerjik yaşayabilirsiniz."</p>
-        <a href="/rehberler" class="btn btn-light hero__cta">ÜCRETSİZ Rehberini Al!</a>
+        <a href="https://wa.me/905442244813?text=Merhaba%2C%20sizinle%20ileti%C5%9Fime%20ge%C3%A7mek%20istiyorum." target="_blank" rel="noopener" class="btn btn-light hero__cta">Hemen İletişime Geç</a>
       </div>
       <div class="hero__right" aria-hidden="true"></div>
     </section>
+
+    <script is:inline>
+      function initHeroRotation() {
+        var headlines = [
+          'Düşünceleriniz görünmez olabilir. Ama bedeniniz onları gerçekmiş gibi yaşar.',
+          'Bir düşünce yalnızca zihinde kalmaz. Saniyeler içinde hormonlara, sinir sistemine ve biyolojinize dönüşür.',
+          'Beyin doğruları değil, tekrarları öğrenir. En çok kullandığınız yolu otoyola dönüştürür.',
+          'Bedeniniz, kendinizi kim sandığınıza inanır.',
+          'Hücreleriniz, kim olduğunuzu düşündüğünüz kişiye göre davranmayı öğrenir.'
+        ];
+        var idx = 0; // ilk metin HTML'de statik, rotasyon 2. metinden başlar
+        var el = document.getElementById('heroTitle');
+        if (!el) return;
+        if (window._heroInterval) clearInterval(window._heroInterval);
+        window._heroInterval = setInterval(function() {
+          el.style.opacity = '0';
+          setTimeout(function() {
+            idx = (idx + 1) % headlines.length;
+            el.textContent = headlines[idx];
+            el.style.opacity = '1';
+          }, 500);
+        }, 6000);
+      }
+      document.addEventListener('astro:page-load', initHeroRotation);
+    </script>
 
     <!-- ARTICLES -->
     <section class="section articles-section">
@@ -27,6 +52,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <button class="articles-tabs__btn" role="tab" aria-selected="true"  data-tab="saglikli-yasam" onclick="switchArticleTab(this,'saglikli-yasam')">Sağlıklı Yaşam</button>
           <button class="articles-tabs__btn" role="tab" aria-selected="false" data-tab="kultur-sanat"   onclick="switchArticleTab(this,'kultur-sanat')">Kültür &amp; Sanat</button>
           <button class="articles-tabs__btn" role="tab" aria-selected="false" data-tab="kariyer-diger"  onclick="switchArticleTab(this,'kariyer-diger')">Kariyer, Sorumluluk ve Mutluluk</button>
+          <button class="articles-tabs__btn" role="tab" aria-selected="false" data-tab="medikal-estetik" onclick="switchArticleTab(this,'medikal-estetik')">Medikal Estetik &amp; Güzellik</button>
         </div>
 
         <!-- PANEL: Sağlıklı Yaşam -->
@@ -35,12 +61,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <article class="article-card">
               <div class="article-card__img-wrapper">
                 <a href="/blog/nmn-nad-yaslanma" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/nmn-nad.png" alt="NMN ve NAD+" class="article-card__img" />
+                  <img src="/assets/images/generated/topics/nmn-nad.webp" alt="NMN ve NAD+" class="article-card__img" fetchpriority="high" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">TAKVİYELER</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">TAKVİYELER</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
                   <a href="/blog/nmn-nad-yaslanma">NMN ve NAD+: Hücresel Enerjiyi Geri Kazanmak</a>
                 </h3>
@@ -49,12 +77,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <article class="article-card">
               <div class="article-card__img-wrapper">
                 <a href="/blog/otofaji-nedir" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/otofaji.png" alt="Otofaji Nedir?" class="article-card__img" />
+                  <img src="/assets/images/generated/topics/otofaji.webp" alt="Otofaji Nedir?" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">HÜCRESEL SAĞLIK</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">HÜCRESEL SAĞLIK</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
                   <a href="/blog/otofaji-nedir">Otofaji Nedir ve Nasıl Aktive Edilir?</a>
                 </h3>
@@ -63,12 +93,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <article class="article-card">
               <div class="article-card__img-wrapper">
                 <a href="/blog/mavi-bolge-diyeti" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/mavi-bolge.png" alt="Mavi Bölge Diyeti" class="article-card__img" />
+                  <img src="/assets/images/generated/topics/mavi-bolge.webp" alt="Mavi Bölge Diyeti" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">BESLENME</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">BESLENME</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
                   <a href="/blog/mavi-bolge-diyeti">Mavi Bölge Diyeti: 100 Yıl Yaşamanın Sırrı</a>
                 </h3>
@@ -77,12 +109,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <article class="article-card">
               <div class="article-card__img-wrapper">
                 <a href="/blog/d3-vitamini-eksikligi" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="D3 Vitamini Eksikliği" class="article-card__img" />
+                  <img src="/assets/images/generated/topics/d3-vitamini.webp" alt="D3 Vitamini Eksikliği" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">TAKVİYELER</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">TAKVİYELER</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
                   <a href="/blog/d3-vitamini-eksikligi">D3 Vitamini Eksikliği: Gizli Yaşlanma Hızlandırıcı</a>
                 </h3>
@@ -96,57 +130,65 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="articles-grid">
             <article class="article-card">
               <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/mavi-bolge.png" alt="Sanat ve Beyin Sağlığı" class="article-card__img" />
+                <a href="/blog/sanat-ve-beyin-sagligi" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/sanat-beyin.webp" alt="Sanat ve Beyin Sağlığı" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">SANAT</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">SANAT</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
-                  <a href="/blog">Sanat Üretmek Beyin Sağlığını Nasıl Etkiler?</a>
+                  <a href="/blog/sanat-ve-beyin-sagligi">Sanat Üretmek Beyin Sağlığını Nasıl Etkiler?</a>
                 </h3>
               </div>
             </article>
             <article class="article-card">
               <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/otofaji.png" alt="Müzik ve Stres Hormonu" class="article-card__img" />
+                <a href="/blog/muzik-ve-stres-kortizol" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/muzik-kortizol.webp" alt="Müzik ve Stres Hormonu" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">KÜLTÜR</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">KÜLTÜR</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
-                  <a href="/blog">Müzik Dinlemek Kortizolü Nasıl Düşürür?</a>
+                  <a href="/blog/muzik-ve-stres-kortizol">Müzik Dinlemek Kortizolü Nasıl Düşürür?</a>
                 </h3>
               </div>
             </article>
             <article class="article-card">
               <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/nmn-nad.png" alt="Kitap Okuma ve Beyin" class="article-card__img" />
+                <a href="/blog/kitap-okuma-ve-beyin" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/kitap-beyin.webp" alt="Kitap Okuma ve Beyin" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">KÜLTÜR</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">KÜLTÜR</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
-                  <a href="/blog">Günde 30 Dakika Okumak Beyni Nasıl Değiştirir?</a>
+                  <a href="/blog/kitap-okuma-ve-beyin">Günde 30 Dakika Okumak Beyni Nasıl Değiştirir?</a>
                 </h3>
               </div>
             </article>
             <article class="article-card">
               <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="Doğa ve Zihin Sağlığı" class="article-card__img" />
+                <a href="/blog/doga-ve-zihin-sagligi" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/doga-zihin.webp" alt="Doğa ve Zihin Sağlığı" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">YAŞAM</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">YAŞAM</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
-                  <a href="/blog">Doğada Geçirilen Zaman ve Zihinsel Toparlanma</a>
+                  <a href="/blog/doga-ve-zihin-sagligi">Doğada Geçirilen Zaman ve Zihinsel Toparlanma</a>
                 </h3>
               </div>
             </article>
@@ -158,57 +200,135 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="articles-grid">
             <article class="article-card">
               <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/nmn-nad.png" alt="Tükenmişlik Sendromu" class="article-card__img" />
+                <a href="/blog/tukenmislik-sendromu" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/tukenmislik.webp" alt="Tükenmişlik Sendromu" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">KARİYER</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">KARİYER</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
-                  <a href="/blog">Tükenmişlik Sendromu: Biyolojik Nedenleri ve Çıkış Yolları</a>
+                  <a href="/blog/tukenmislik-sendromu">Tükenmişlik Sendromu: Biyolojik Nedenleri ve Çıkış Yolları</a>
                 </h3>
               </div>
             </article>
             <article class="article-card">
               <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/otofaji.png" alt="Yaşam Amacı ve Uzun Ömür" class="article-card__img" />
+                <a href="/blog/yasam-amaci-ve-longevity" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/yasam-amaci.webp" alt="Yaşam Amacı ve Uzun Ömür" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">SORUMLULUK</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">SORUMLULUK</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
-                  <a href="/blog">Yaşam Amacı Olan İnsanlar Daha Uzun Yaşar mı?</a>
+                  <a href="/blog/yasam-amaci-ve-longevity">Yaşam Amacı Olan İnsanlar Daha Uzun Yaşar mı?</a>
                 </h3>
               </div>
             </article>
             <article class="article-card">
               <div class="article-card__img-wrapper">
-                <a href="/blog" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/mavi-bolge.png" alt="Şükran ve Dopamin" class="article-card__img" />
+                <a href="/blog/sukran-pratigi-ve-dopamin" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/sukran-dopamin.webp" alt="Şükran ve Dopamin" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">MUTLULUK</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">MUTLULUK</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
-                  <a href="/blog">Şükran Pratiği Dopamin Sistemini Nasıl Şekillendirir?</a>
+                  <a href="/blog/sukran-pratigi-ve-dopamin">Şükran Pratiği Dopamin Sistemini Nasıl Şekillendirir?</a>
                 </h3>
               </div>
             </article>
             <article class="article-card">
               <div class="article-card__img-wrapper">
                 <a href="/blog/kortizol-yaslanma" class="article-card__img-link">
-                  <img src="/assets/images/generated/topics/d3-vitamini.png" alt="Kronik Stres ve Verimlilik" class="article-card__img" />
+                  <img src="/assets/images/generated/topics/kortizol-stres.webp" alt="Kronik Stres ve Verimlilik" class="article-card__img" loading="lazy" decoding="async" />
                 </a>
-                <span class="article-card__cat-overlay">KARİYER</span>
               </div>
               <div class="article-card__body">
-                <span class="article-card__badge">MAKALE</span>
+                <div class="article-card__meta">
+                  <span class="article-card__cat">KARİYER</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
                 <h3 class="article-card__title">
                   <a href="/blog/kortizol-yaslanma">Kronik Stres Çalışma Performansını Nasıl Etkiler?</a>
+                </h3>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- PANEL: Medikal Estetik & Güzellik -->
+        <div class="articles-panel" id="panel-medikal-estetik" role="tabpanel">
+          <div class="articles-grid">
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/cilt-genclesmesi.webp" alt="Cilt Gençleşmesi" class="article-card__img" loading="lazy" decoding="async" />
+                </a>
+              </div>
+              <div class="article-card__body">
+                <div class="article-card__meta">
+                  <span class="article-card__cat">CİLT SAĞLIĞI</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
+                <h3 class="article-card__title">
+                  <a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler">Senolitik Tedaviler ve Cilt Gençleşmesi</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/medikal-estetik" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/medikal-estetik.webp" alt="Medikal Estetik" class="article-card__img" loading="lazy" decoding="async" />
+                </a>
+              </div>
+              <div class="article-card__body">
+                <div class="article-card__meta">
+                  <span class="article-card__cat">MEDİKAL ESTETİK</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
+                <h3 class="article-card__title">
+                  <a href="/medikal-estetik">Medikal Estetik Uygulamaları</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog/sirt6-proteini-epigenetik-genclesme" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/epigenetik.webp" alt="Epigenetik Gençleşme" class="article-card__img" loading="lazy" decoding="async" />
+                </a>
+              </div>
+              <div class="article-card__body">
+                <div class="article-card__meta">
+                  <span class="article-card__cat">EPİGENETİK</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
+                <h3 class="article-card__title">
+                  <a href="/blog/sirt6-proteini-epigenetik-genclesme">SIRT6 Proteini ve Epigenetik Gençleşme</a>
+                </h3>
+              </div>
+            </article>
+            <article class="article-card">
+              <div class="article-card__img-wrapper">
+                <a href="/blog/kortizol-yaslanma" class="article-card__img-link">
+                  <img src="/assets/images/generated/topics/kortizol-stres.webp" alt="Stres ve Cilt" class="article-card__img" loading="lazy" decoding="async" />
+                </a>
+              </div>
+              <div class="article-card__body">
+                <div class="article-card__meta">
+                  <span class="article-card__cat">STRES</span>
+                  <span class="article-card__badge article-card__badge--free">ÜCRETSİZ</span>
+                </div>
+                <h3 class="article-card__title">
+                  <a href="/blog/kortizol-yaslanma">Kortizol ve Cilt Yaşlanması</a>
                 </h3>
               </div>
             </article>
@@ -243,7 +363,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
         <div class="category-grid" id="categoryGrid">
 
-          <!-- Stres, Anksiyete & Obsesyon -->
+          <!-- 1. Stres, Anksiyete & Obsesyon -->
           <div class="category-card">
             <div class="category-card__header">
               <h3 class="category-card__name">Stres, Anksiyete &amp; Obsesyon</h3>
@@ -253,39 +373,39 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <a href="/blog/kortizol-yaslanma" class="category-card__link">OKB &amp; Obsesyon Protokolü</a>
               <a href="/blog/kortizol-yaslanma" class="category-card__link">Vagus Sinir Uyarım Egzersizleri</a>
               <a href="/quizler" class="category-card__link">Stres &amp; Anksiyete Testi</a>
-              <a href="/blog/kortizol-yaslanma" class="category-card__link">Stres &amp; Anksiyete Hormonu</a>
+              <a href="/blog/kortizol-yaslanma" class="category-card__link">Kronik Stres &amp; Yaşlanma</a>
             </div>
           </div>
 
-          <!-- Keto -->
+          <!-- 2. Keto & Aralıklı Oruç -->
           <div class="category-card">
             <div class="category-card__header">
-              <h3 class="category-card__name">Keto</h3>
+              <h3 class="category-card__name">Keto &amp; Aralıklı Oruç</h3>
             </div>
             <div class="category-card__list">
               <a href="/rehberler" class="category-card__link">Ketoza Giriş Kılavuzu</a>
-              <a href="/blog/otofaji-nedir#nasil-aktive-edilir" class="category-card__link">Ketojenik Yağ Yakımı</a>
-              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">Keto Grip Yan Etkileri</a>
-              <a href="/dunyada-saglik" class="category-card__link">Sağlıklı Keto Tatlı Tarifleri</a>
-              <a href="/blog/aralikli-oruc-longevity#metabolik-etki" class="category-card__link">Keto &amp; İnsülin Duyarlılığı</a>
+              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">16:8 Oruç Protokolü</a>
+              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">Keto &amp; İnsülin Duyarlılığı</a>
+              <a href="/blog/otofaji-nedir" class="category-card__link">Hücresel Yenilenme Etkisi</a>
+              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">OMAD &amp; Uyku Penceresi</a>
             </div>
           </div>
 
-          <!-- Bağırsak & Karaciğer Sağlığı -->
+          <!-- 3. Bağırsak & Karaciğer Sağlığı -->
           <div class="category-card">
             <div class="category-card__header">
               <h3 class="category-card__name">Bağırsak &amp; Karaciğer Sağlığı</h3>
             </div>
             <div class="category-card__list">
-              <a href="/quizler" class="category-card__link">Sızdıran Bağırsak Sendromu</a>
+              <a href="/blog" class="category-card__link">Sızdıran Bağırsak Sendromu</a>
               <a href="/blog/mavi-bolge-diyeti" class="category-card__link">Mikrobiyom Çeşitliliği</a>
-              <a href="/blog/telomerleri-korumak#yontem3" class="category-card__link">Probiyotik &amp; Prebiyotikler</a>
-              <a href="/basari-hikayeleri" class="category-card__link">Yağlı Karaciğer Tedavisi</a>
+              <a href="/blog" class="category-card__link">Probiyotik &amp; Prebiyotikler</a>
+              <a href="/blog" class="category-card__link">Yağlı Karaciğer Tedavisi</a>
               <a href="/blog" class="category-card__link">Karaciğer Faz 1-2 Detoksu</a>
             </div>
           </div>
 
-          <!-- Uyku Problemleri -->
+          <!-- 4. Uyku Problemleri -->
           <div class="category-card">
             <div class="category-card__header">
               <h3 class="category-card__name">Uyku Problemleri</h3>
@@ -294,67 +414,68 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <a href="/blog" class="category-card__link">Uyku Bozuklukları &amp; Melatonin</a>
               <a href="/blog" class="category-card__link">Melatonin: Kullanım Rehberi</a>
               <a href="/blog" class="category-card__link">Sirkadiyen Ritim Düzenleme</a>
-              <a href="/blog" class="category-card__link">Uyku Kalitesi Değerlendirmesi</a>
-              <a href="/quizler" class="category-card__link">Uyku &amp; Stres Döngüsü</a>
+              <a href="/quizler" class="category-card__link">Uyku Kalitesi Testi</a>
+              <a href="/blog/kortizol-yaslanma" class="category-card__link">Uyku &amp; Stres Döngüsü</a>
             </div>
           </div>
 
-          <!-- Kan şekeri & insülin -->
+          <!-- 5. Kan Şekeri & İnsülin -->
           <div class="category-card">
             <div class="category-card__header">
-              <h3 class="category-card__name">Kan şekeri &amp; insülin</h3>
+              <h3 class="category-card__name">Kan Şekeri &amp; İnsülin</h3>
             </div>
             <div class="category-card__list">
-              <a href="/basari-hikayeleri" class="category-card__link">HbA1c Değerini Düşürme</a>
+              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">HbA1c Değerini Düşürme</a>
               <a href="/quizler" class="category-card__link">İnsülin Direnci Testi</a>
-              <a href="/dunyada-saglik" class="category-card__link">Glikoz Krizlerini Önleme</a>
+              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">Glikoz Krizlerini Önleme</a>
               <a href="/blog" class="category-card__link">Sürekli Glikoz Ölçümü</a>
-              <a href="/blog/aralikli-oruc-longevity#longevity-baglantisi" class="category-card__link">mTOR &amp; Metabolik Sağlık</a>
+              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">mTOR &amp; Metabolik Sağlık</a>
             </div>
           </div>
 
-          <!-- Cilt Sağlığı & Medikal Estetik -->
+          <!-- 6. Cilt Sağlığı & Gençleşme -->
           <div class="category-card">
             <div class="category-card__header">
-              <h3 class="category-card__name">Cilt Sağlığı &amp; Medikal Estetik</h3>
+              <h3 class="category-card__name">Cilt Sağlığı &amp; Gençleşme</h3>
             </div>
             <div class="category-card__list">
-              <a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler" class="category-card__link">Cilt Gençleşme Protokolü</a>
-              <a href="/medikal-estetik" class="category-card__link">Medikal Estetik</a>
-              <a href="/blog" class="category-card__link">Keto &amp; Cilt Sağlığı</a>
-              <a href="/blog" class="category-card__link">Cilt Yaşlanması &amp; Glikolizasyon</a>
-              <a href="/blog" class="category-card__link">Tiroid &amp; Cilt Kuruluğu</a>
+              <a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler" class="category-card__link">Zombi Hücreler &amp; Cilt Gençleşmesi</a>
+              <a href="/blog/nmn-nad-yaslanma" class="category-card__link">NAD+ &amp; Cilt Yenilenmesi</a>
+              <a href="/blog/telomerleri-korumak" class="category-card__link">Telomer Uzunluğu &amp; Cilt Yaşı</a>
+              <a href="/blog/d3-vitamini-eksikligi" class="category-card__link">D3 &amp; Cilt Sağlığı</a>
+              <a href="/blog/kortizol-yaslanma" class="category-card__link">Stres &amp; Cilt Yaşlanması</a>
             </div>
           </div>
 
-          <!-- Aralıklı oruç -->
+          <!-- 7. Medikal Estetik & Güzellik -->
           <div class="category-card">
             <div class="category-card__header">
-              <h3 class="category-card__name">Aralıklı oruç</h3>
+              <h3 class="category-card__name">Medikal Estetik &amp; Güzellik</h3>
             </div>
             <div class="category-card__list">
-              <a href="/blog/aralikli-oruc-longevity#protokoller" class="category-card__link">16:8 Oruç Protokolü</a>
-              <a href="/blog/aralikli-oruc-longevity#protokoller" class="category-card__link">OMAD (Tek Öğün Beslenme)</a>
-              <a href="/blog/aralikli-oruc-longevity#dikkat-edilecekler" class="category-card__link">Oruçta Tüketilen Sıvılar</a>
-              <a href="/blog/aralikli-oruc-longevity#longevity-baglantisi" class="category-card__link">Hücresel Yenilenme Etkisi</a>
-              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">Uyku &amp; Oruç Penceresi</a>
+              <a href="/medikal-estetik" class="category-card__link">Medikal Estetik Uygulamaları</a>
+              <a href="/medikal-estetik#me-uygulamalar" class="category-card__link">Botulinum Toksin &amp; Dolgu</a>
+              <a href="/medikal-estetik#me-uygulamalar" class="category-card__link">PRP &amp; Eksozom Tedavisi</a>
+              <a href="/blog/sirt6-proteini-epigenetik-genclesme" class="category-card__link">Epigenetik Gençleşme</a>
+              <a href="/quizler" class="category-card__link">Cilt Sağlığı Testi</a>
             </div>
           </div>
 
-          <!-- Tiroid -->
+          <!-- 8. Tiroid -->
           <div class="category-card">
             <div class="category-card__header">
               <h3 class="category-card__name">Tiroid</h3>
             </div>
             <div class="category-card__list">
-              <a href="/basari-hikayeleri" class="category-card__link">Hashimoto Beslenme Çözümleri</a>
+              <a href="/blog/mavi-bolge-diyeti" class="category-card__link">Hashimoto Beslenme Çözümleri</a>
               <a href="/blog" class="category-card__link">Tiroid Hormon Çevrim Desteği</a>
               <a href="/quizler" class="category-card__link">Tiroid Vücut Tipi Belirtileri</a>
               <a href="/blog" class="category-card__link">Tiroid Enzimlerini Dengeleme</a>
+              <a href="/blog" class="category-card__link">Tiroid &amp; Cilt Kuruluğu</a>
             </div>
           </div>
 
-          <!-- Longevity & Otofaji -->
+          <!-- 9. Longevity & Otofaji -->
           <div class="category-card">
             <div class="category-card__header">
               <h3 class="category-card__name">Longevity &amp; Otofaji</h3>
@@ -364,11 +485,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <a href="/quizler" class="category-card__link">Biyolojik Yaş Testi</a>
               <a href="/blog/nmn-nad-yaslanma" class="category-card__link">NAD+ &amp; Hücresel Enerji</a>
               <a href="/blog/otofaji-nedir" class="category-card__link">Otofaji Nedir?</a>
-              <a href="/blog/otofaji-nedir#nasil-aktive-edilir" class="category-card__link">Otofaji Aktivasyon Yolları</a>
+              <a href="/blog/otofaji-nedir" class="category-card__link">Otofaji Aktivasyon Yolları</a>
             </div>
           </div>
 
-          <!-- Hormonlar -->
+          <!-- 10. Hormonlar -->
           <div class="category-card">
             <div class="category-card__header">
               <h3 class="category-card__name">Hormonlar</h3>
@@ -376,7 +497,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <div class="category-card__list">
               <a href="/blog/kortizol-yaslanma" class="category-card__link">Kortizol Kontrol Protokolü</a>
               <a href="/blog/aralikli-oruc-longevity" class="category-card__link">İnsülin Hormon Dengesi</a>
-              <a href="/blog/aralikli-oruc-longevity#metabolik-etki" class="category-card__link">Büyüme Hormonu Sekresyonu</a>
+              <a href="/blog/aralikli-oruc-longevity" class="category-card__link">Büyüme Hormonu Sekresyonu</a>
               <a href="/blog" class="category-card__link">Leptin &amp; Tokluk Hormonu</a>
               <a href="/blog" class="category-card__link">Östrojen &amp; Testosteron Dengesi</a>
             </div>
@@ -393,7 +514,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="features-grid">
           <div class="feature-item">
             <div class="feature-item__img-wrap">
-              <img src="/assets/images/generated/online-course.png" alt="Online Kurslar" class="feature-item__img" />
+              <img src="/assets/images/generated/online-course.webp" alt="Online Kurslar" class="feature-item__img" loading="lazy" decoding="async" />
             </div>
             <div class="feature-item__body">
               <h3 class="feature-item__title"><a href="/kurslar">Online Kurslar &rarr;</a></h3>
@@ -402,7 +523,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
           <div class="feature-item">
             <div class="feature-item__img-wrap">
-              <img src="/assets/images/generated/cellular-science.png" alt="Makaleler" class="feature-item__img" />
+              <img src="/assets/images/generated/cellular-science.webp" alt="Makaleler" class="feature-item__img" loading="lazy" decoding="async" />
             </div>
             <div class="feature-item__body">
               <h3 class="feature-item__title"><a href="/blog">Bilimsel Makaleler &rarr;</a></h3>
@@ -411,16 +532,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
           <div class="feature-item">
             <div class="feature-item__img-wrap">
-              <img src="/assets/images/generated/online-course.png" alt="YouTube Videoları" class="feature-item__img" />
+              <img src="/assets/images/generated/youtube-videos.webp" alt="YouTube Videoları" class="feature-item__img" loading="lazy" decoding="async" />
             </div>
             <div class="feature-item__body">
-              <h3 class="feature-item__title"><a href="/blog">Videolarımızı izleyin &rarr;</a></h3>
+              <h3 class="feature-item__title"><a href="/podcast">Videolarımızı izleyin &rarr;</a></h3>
               <p class="feature-item__desc">YouTube'da sağlık, beslenme ve longevity üzerine ücretsiz videolar.</p>
             </div>
           </div>
           <div class="feature-item">
             <div class="feature-item__img-wrap">
-              <img src="/assets/images/generated/guide_start_longevity.png" alt="Sağlık Rehberleri" class="feature-item__img" />
+              <img src="/assets/images/generated/guide_start_longevity.webp" alt="Sağlık Rehberleri" class="feature-item__img" loading="lazy" decoding="async" />
             </div>
             <div class="feature-item__body">
               <h3 class="feature-item__title"><a href="/rehberler">Sağlık Rehberleri &rarr;</a></h3>
@@ -442,15 +563,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <a href="/basari-hikayeleri" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                <a href="/basari-hikayeleri" onclick="event.preventDefault(); openStory('ayse')" style="display: block; text-decoration: none; color: inherit; height: 100%;">
                   <div class="story-card">
                     <div class="story-card__img-wrap">
                       <span class="story-card__badge">Hikaye</span>
-                      <img src="/assets/images/generated/success_weight_loss.png" alt="Başarı hikayesi görseli - Ayşe K." class="story-card__img" />
+                      <img src="/assets/images/generated/success_weight_loss.webp" alt="Başarı hikayesi görseli - Ayşe K." class="story-card__img" loading="lazy" decoding="async" />
                     </div>
                     <div class="story-card__body">
                       <h3 class="story-card__title">Beslenme düzenimle birlikte değerlerim iyileşti</h3>
-                      <p class="story-card__excerpt">Dr. Muhammed İkbal'in longevity protokolünü uygulamak metabolik sağlımı ve enerji seviyelerimi tamamen dönüştürdü.</p>
+                      <p class="story-card__excerpt">Dr. Muhammed İkbal'in önerdiği beslenme ve yaşam tarzı değişiklikleri metabolik değerlerime ve enerji seviyeme olumlu yansıdı.</p>
                       <p class="story-card__author">Ayşe K., 48 &mdash; Bursa</p>
                       <p class="story-card__date">15 Nisan 2026</p>
                     </div>
@@ -458,11 +579,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 </a>
               </li>
               <li class="splide__slide">
-                <a href="/basari-hikayeleri" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                <a href="/basari-hikayeleri" onclick="event.preventDefault(); openStory('mehmet')" style="display: block; text-decoration: none; color: inherit; height: 100%;">
                   <div class="story-card">
                     <div class="story-card__img-wrap">
                       <span class="story-card__badge">Hikaye</span>
-                      <img src="/assets/images/generated/success_blood_sugar.png" alt="Başarı hikayesi görseli - Mehmet Y." class="story-card__img" />
+                      <img src="/assets/images/generated/success_blood_sugar.webp" alt="Başarı hikayesi görseli - Mehmet Y." class="story-card__img" loading="lazy" decoding="async" />
                     </div>
                     <div class="story-card__body">
                       <h3 class="story-card__title">90 günde kan şekeri değerlerim belirgin iyileşti</h3>
@@ -474,11 +595,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 </a>
               </li>
               <li class="splide__slide">
-                <a href="/basari-hikayeleri" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                <a href="/basari-hikayeleri" onclick="event.preventDefault(); openStory('fatma')" style="display: block; text-decoration: none; color: inherit; height: 100%;">
                   <div class="story-card">
                     <div class="story-card__img-wrap">
                       <span class="story-card__badge">Hikaye</span>
-                      <img src="/assets/images/generated/success_energy_fit.png" alt="Başarı hikayesi görseli - Fatma Ç." class="story-card__img" />
+                      <img src="/assets/images/generated/success_energy_fit.webp" alt="Başarı hikayesi görseli - Fatma Ç." class="story-card__img" loading="lazy" decoding="async" />
                     </div>
                     <div class="story-card__body">
                       <h3 class="story-card__title">8 haftada kendimi çok daha enerjik hissediyorum</h3>
@@ -490,11 +611,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 </a>
               </li>
               <li class="splide__slide">
-                <a href="/basari-hikayeleri" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                <a href="/basari-hikayeleri" onclick="event.preventDefault(); openStory('kemal')" style="display: block; text-decoration: none; color: inherit; height: 100%;">
                   <div class="story-card">
                     <div class="story-card__img-wrap">
                       <span class="story-card__badge">Hikaye</span>
-                      <img src="/assets/images/generated/success_chronic_fatigue.png" alt="Başarı hikayesi görseli - Kemal Ş." class="story-card__img" />
+                      <img src="/assets/images/generated/success_chronic_fatigue.webp" alt="Başarı hikayesi görseli - Kemal Ş." class="story-card__img" loading="lazy" decoding="async" />
                     </div>
                     <div class="story-card__body">
                       <h3 class="story-card__title">6 ayda yorgunluğumda büyük azalma hissettim</h3>
@@ -506,11 +627,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 </a>
               </li>
               <li class="splide__slide">
-                <a href="/basari-hikayeleri" style="display: block; text-decoration: none; color: inherit; height: 100%;">
+                <a href="/basari-hikayeleri" onclick="event.preventDefault(); openStory('leyla')" style="display: block; text-decoration: none; color: inherit; height: 100%;">
                   <div class="story-card">
                     <div class="story-card__img-wrap">
                       <span class="story-card__badge">Hikaye</span>
-                      <img src="/assets/images/generated/success_thyroid_diet.png" alt="Başarı hikayesi görseli - Leyla A." class="story-card__img" />
+                      <img src="/assets/images/generated/success_thyroid_diet.webp" alt="Başarı hikayesi görseli - Leyla A." class="story-card__img" loading="lazy" decoding="async" />
                     </div>
                     <div class="story-card__body">
                       <h3 class="story-card__title">Beslenme değişikliği tiroid sürecime iyi geldi</h3>
@@ -532,38 +653,38 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Öne çıkan podcastler</h2>
-          <a href="/blog" class="section-link">Tüm bölümleri gör</a>
+          <a href="/podcast" class="section-link">Tüm bölümleri gör</a>
         </div>
         <div class="splide" id="podcastSplide" aria-label="Öne çıkan podcastler">
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
                 <article class="podcast-card">
-                  <a href="/blog" class="podcast-card__img-link">
-                    <img src="/assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
+                  <a href="/podcast" class="podcast-card__img-link">
+                    <img src="/assets/images/generated/podcast_episode_1.webp" alt="Podcast bölüm kapağı" class="podcast-card__img" loading="lazy" decoding="async" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
                   </a>
                   <div class="podcast-card__body">
                     <span class="podcast-card__ep">BÖLÜM 421</span>
-                    <h3 class="podcast-card__title"><a href="/blog">Neden Kilo Veremiyorsunuz (Ve Gerçekten İşe Yarayan Yöntem)</a></h3>
-                    <p class="podcast-card__desc">Çoğu insanın bilmediği gerçek metabolik engeller ve her şeyi değiştiren basit çözüm.</p>
+                    <h3 class="podcast-card__title"><a href="/podcast">Neden Kilo Veremiyorsunuz (Ve Gerçekten İşe Yarayan Yöntem)</a></h3>
+                    <p class="podcast-card__desc">Çoğu insanın gözden kaçırdığı metabolik engeller ve bilimsel temelli çözüm yolları.</p>
                     <p class="podcast-card__meta"><span class="podcast-card__dur">47 dk</span>&ensp;&bull;&ensp;<span class="podcast-card__date">12 May 2026</span></p>
                   </div>
                 </article>
               </li>
               <li class="splide__slide">
                 <article class="podcast-card">
-                  <a href="/blog" class="podcast-card__img-link">
-                    <img src="/assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
+                  <a href="/podcast" class="podcast-card__img-link">
+                    <img src="/assets/images/generated/podcast_episode_2.webp" alt="Podcast bölüm kapağı" class="podcast-card__img" loading="lazy" decoding="async" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
                   </a>
                   <div class="podcast-card__body">
                     <span class="podcast-card__ep">BÖLÜM 420</span>
-                    <h3 class="podcast-card__title"><a href="/blog">Kronik İltihabın Gerçek Nedeni</a></h3>
+                    <h3 class="podcast-card__title"><a href="/podcast">Kronik İltihabın Gerçek Nedeni</a></h3>
                     <p class="podcast-card__desc">İltihabın kök tetikleyicilerini ve bunu kalıcı olarak söndüren diyet değişikliklerini anlıyoruz.</p>
                     <p class="podcast-card__meta"><span class="podcast-card__dur">39 dk</span>&ensp;&bull;&ensp;<span class="podcast-card__date">5 May 2026</span></p>
                   </div>
@@ -571,8 +692,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               </li>
               <li class="splide__slide">
                 <article class="podcast-card">
-                  <a href="/blog" class="podcast-card__img-link">
-                    <img src="/assets/images/generated/podcast.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
+                  <a href="/blog/aralikli-oruc-longevity" class="podcast-card__img-link">
+                    <img src="/assets/images/generated/podcast_episode_3.webp" alt="Podcast bölüm kapağı" class="podcast-card__img" loading="lazy" decoding="async" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -588,7 +709,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="/blog/telomerleri-korumak" class="podcast-card__img-link">
-                    <img src="/assets/images/generated/topics/telomer.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
+                    <img src="/assets/images/generated/topics/telomer.webp" alt="Podcast bölüm kapağı" class="podcast-card__img" loading="lazy" decoding="async" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -604,7 +725,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="/blog/d3-vitamini-eksikligi" class="podcast-card__img-link">
-                    <img src="/assets/images/generated/topics/d3-vitamini.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
+                    <img src="/assets/images/generated/topics/d3-vitamini.webp" alt="Podcast bölüm kapağı" class="podcast-card__img" loading="lazy" decoding="async" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -620,7 +741,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <li class="splide__slide">
                 <article class="podcast-card">
                   <a href="/blog/kortizol-yaslanma" class="podcast-card__img-link">
-                    <img src="/assets/images/generated/topics/kortizol-stres.png" alt="Podcast bölüm kapağı" class="podcast-card__img" />
+                    <img src="/assets/images/generated/topics/kortizol-stres.webp" alt="Podcast bölüm kapağı" class="podcast-card__img" loading="lazy" decoding="async" />
                     <span class="podcast-card__play" aria-hidden="true">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                     </span>
@@ -638,5 +759,36 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
       </div>
     </section>
+
+    <!-- SUCCESS STORY MODAL -->
+    <div class="story-modal" id="storyModal" role="dialog" aria-modal="true">
+      <div class="story-modal__box">
+        <button class="story-modal__close" onclick="closeStory()" aria-label="Kapat">&#10005;</button>
+        <div class="story-modal__img-wrap">
+          <img id="modalStoryImg" src="" alt="" class="story-modal__img" />
+        </div>
+        <div class="story-modal__body">
+          <span class="story-modal__badge">HİKAYE</span>
+          <h2 class="story-modal__title" id="modalStoryTitle"></h2>
+          <p class="story-modal__author" id="modalStoryAuthor"></p>
+          <div class="story-modal__content" id="modalStoryContent"></div>
+        </div>
+      </div>
+    </div>
+
+    <script is:inline>
+      function repairSplideSlideRoles() {
+        document.querySelectorAll(
+          '#successSplide .splide__slide[role="tabpanel"], #podcastSplide .splide__slide[role="tabpanel"]'
+        ).forEach(function (slide) {
+          slide.setAttribute('role', 'group');
+          slide.removeAttribute('aria-roledescription');
+        });
+      }
+      var splideRoleObserver = new MutationObserver(repairSplideSlideRoles);
+      splideRoleObserver.observe(document.body, { subtree: true, attributes: true, attributeFilter: ['role'] });
+      repairSplideSlideRoles();
+      document.addEventListener('astro:page-load', repairSplideSlideRoles);
+    </script>
 
 </BaseLayout>

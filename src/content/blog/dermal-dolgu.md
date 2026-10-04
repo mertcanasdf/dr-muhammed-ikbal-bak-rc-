@@ -3,7 +3,7 @@ title: "Dermal Dolgu Uygulamaları: Yaşlanma Karşıtı Yüz Şekillendirme ve 
 date: 2026-06-20
 description: "Dermal dolguların hyaluronik asit bazlı mekanizmaları, yüz kontürü analizi ve mekanik uyarım yoluyla kolajen sentezini tetikleme süreçleri."
 category: "Medikal Estetik"
-image: "/assets/images/generated/quiz_skin_aesthetic.webp"
+image: "/assets/images/generated/success_weight_loss.webp"
 readTime: "5 dk"
 takeaways:
   - "Dermal dolgular, yaşla birlikte kaybolan hyaluronik asit dengesini geri kazandırmak için kullanılır."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Sağlık Trendleri"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "kortizol-yaslanma"
     category: "Cilt Sağlığı"
     title: "Stres ve Cilt: Kortizolün Rolü"
-    image: "/assets/images/generated/topics/kortizol-stres.webp"
+    image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---
 
 Yaşlanma süreciyle birlikte cilt altı yağ dokusunda azalmalar, kemik yapısında rezorpsiyon (erime) ve ciltte nem kaybı meydana gelir. **Dermal dolgu** uygulamaları, bu hacim kayıplarını gidermek, yüz kontürünü belirginleştirmek ve cilde gençliğini geri kazandırmak için modern medikal estetiğin en çok tercih ettiği yöntemlerin başında gelir.

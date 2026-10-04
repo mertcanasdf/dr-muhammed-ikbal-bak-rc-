@@ -3,13 +3,22 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
-// Filter for Medikal Estetik or skin-related Hücre Sağlığı
+// Keep the related-article rail focused on aesthetic and skin content.
 const estetikPosts = allPosts
-  .filter(post => ['Medikal Estetik', 'Hücre Sağlığı'].includes(post.data.category))
+  .filter(post => ['Medikal Estetik', 'Sağlık Trendleri'].includes(post.data.category))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 3);
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
+const estetikImageBySlug: Record<string, string> = {
+  'cilt-genclesmesi-kombinasyon-tedavileri': '/assets/images/generated/cellular-science.webp',
+  'dermal-dolgu': '/assets/images/generated/quiz_skin_aesthetic.webp',
+  'altin-igne': '/assets/images/generated/topics/medikal-estetik.webp',
+  'botoks': '/assets/images/generated/success-story.webp',
+  'mezoterapi': '/assets/images/generated/online-course.webp',
+  'prp-eksozom': '/assets/images/generated/cellular-science.webp',
+  'senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler': '/assets/images/generated/quiz_skin_health.webp'
+};
 ---
 <BaseLayout title="Medikal Estetik & Güzellik — Dr. Muhammed İkbal Bakırcı" description="Cilt sağlığı, hücresel gençleşme, dermal dolgu, PRP, altın iğne ve mezoterapi uygulamaları üzerine bilimsel rehber.">
   <style is:global>
@@ -294,7 +303,11 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           <button class="me-sub-tab" role="tab" aria-selected="false" onclick="filterSubCategory(this, 'altin-igne')">Altın İğne (RF)</button>
           <button class="me-sub-tab" role="tab" aria-selected="false" onclick="filterSubCategory(this, 'botoks')">Botoks</button>
           <button class="me-sub-tab" role="tab" aria-selected="false" onclick="filterSubCategory(this, 'mezoterapi')">Mezoterapi &amp; Gençlik Aşıları</button>
-          <button class="me-sub-tab" role="tab" aria-selected="false" onclick="filterSubCategory(this, 'prp      <!-- CARDS SECTIONS CONTAINER -->
+          <button class="me-sub-tab" role="tab" aria-selected="false" onclick="filterSubCategory(this, 'prp')">PRP &amp; Eksozom</button>
+        </div>
+      </div>
+
+      <!-- CARDS SECTIONS CONTAINER -->
       <div id="estetik-sections-container">
         
         <!-- SECTION 1: Cilt Sağlığı -->
@@ -306,7 +319,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           <div class="estetik-grid">
             <!-- CARD 1: Cilt Sağlığının Temelleri -->
             <div class="estetik-card" data-category="cilt-sagligi">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/cilt-sagligi-temel.webp" alt="Cilt sağlığı" class="estetik-card__img" />
+              <img src="/assets/images/generated/nutrition-longevity.webp" alt="Cilt sağlığı için dengeli yaşam alışkanlıkları" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Cilt Sağlığı</span>
                 <h3 class="estetik-card__title">Cilt Sağlığının Temelleri</h3>
@@ -317,7 +330,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 2: Stres ve Cilt: Kortizolün Rolü -->
             <div class="estetik-card" data-category="cilt-sagligi">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/kortizol-stres.webp" alt="Stres ve cilt" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/kortizol-stres.webp" alt="Stres ve cilt" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Cilt Sağlığı</span>
                 <h3 class="estetik-card__title">Stres ve Cilt: Kortizolün Rolü</h3>
@@ -328,7 +341,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 3: D3 Vitamini Eksikliği ve Cilt -->
             <div class="estetik-card" data-category="cilt-sagligi">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/d3-vitamini.webp" alt="D3 ve cilt" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/d3-vitamini.webp" alt="D3 ve cilt" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Cilt Sağlığı</span>
                 <h3 class="estetik-card__title">D3 Vitamini Eksikliği ve Cilt</h3>
@@ -339,7 +352,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 4: NAD+ ve Cilt Yenilenmesi -->
             <div class="estetik-card" data-category="cilt-sagligi">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/nmn-nad.webp" alt="NAD ve cilt" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/nmn-nad.webp" alt="NAD ve cilt" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Cilt Sağlığı</span>
                 <h3 class="estetik-card__title">NAD+ ve Cilt Yenilenmesi</h3>
@@ -350,7 +363,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 5: Anksiyete ve Obsesyon Cilt Etkileri -->
             <div class="estetik-card" data-category="cilt-sagligi">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/anksiyete-cilt.webp" alt="Anksiyete, obsesyon ve cilt" class="estetik-card__img" />
+              <img src="/assets/images/generated/guide_cortisol_stress.webp" alt="Stres yönetimi ve cilt sağlığı" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Cilt Sağlığı</span>
                 <h3 class="estetik-card__title">Anksiyete &amp; Obsesyonun Cilt Etkileri</h3>
@@ -370,7 +383,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           <div class="estetik-grid">
             <!-- CARD 6: Cilt Gençleşmesi ve Hücresel Yenilenme -->
             <div class="estetik-card" data-category="genclesme">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/cilt-genclesmesi.webp" alt="Cilt gençleşmesi" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/cilt-genclesmesi.webp" alt="Cilt gençleşmesi" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Gençleşme</span>
                 <h3 class="estetik-card__title">Cilt Gençleşmesi &amp; Hücre Yenilenme</h3>
@@ -381,7 +394,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 7: Telomer Uzunluğu ve Cilt Yaşı -->
             <div class="estetik-card" data-category="genclesme">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/telomer.webp" alt="Telomer ve cilt" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/telomer.webp" alt="Telomer ve cilt" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Gençleşme</span>
                 <h3 class="estetik-card__title">Telomer Uzunluğu ve Cilt Yaşı</h3>
@@ -392,7 +405,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 8: SIRT6 ve Epigenetik Gençleşme -->
             <div class="estetik-card" data-category="genclesme">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/sirt6-epigenetik.webp" alt="Epigenetik gençleşme" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/epigenetik.webp" alt="Epigenetik gençleşme" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Gençleşme</span>
                 <h3 class="estetik-card__title">SIRT6 ve Epigenetik Gençleşme</h3>
@@ -403,7 +416,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 9: NMN ve Hücresel Enerji -->
             <div class="estetik-card" data-category="genclesme">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/nmn-enerji.webp" alt="NMN ve gençleşme" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/urun-nmn.webp" alt="NMN ve gençleşme" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Gençleşme</span>
                 <h3 class="estetik-card__title">NMN ve Hücresel Enerji</h3>
@@ -423,7 +436,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           <div class="estetik-grid">
             <!-- CARD 10: Dermal Dolgu -->
             <div class="estetik-card" data-category="uygulamalar dolgu">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/dermal-dolgu.webp" alt="Dermal Dolgu Uygulamaları" class="estetik-card__img" />
+              <img src="/assets/images/generated/quiz_skin_aesthetic.webp" alt="Dermal dolgu ve yüz kontür analizi" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Dermal Dolgu</span>
                 <h3 class="estetik-card__title">Dermal Dolgu &amp; Kontür Analizi</h3>
@@ -434,7 +447,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 11: Altın İğne -->
             <div class="estetik-card" data-category="uygulamalar altin-igne">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/altin-igne-rf.webp" alt="Altın İğne Fraksiyonel Radyofrekans" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/medikal-estetik.webp" alt="Altın İğne fraksiyonel radyofrekans" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Altın İğne (RF)</span>
                 <h3 class="estetik-card__title">Altın İğne (Fraksiyonel Radyofrekans)</h3>
@@ -445,7 +458,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 12: Botulinum Toksin -->
             <div class="estetik-card" data-category="uygulamalar botoks">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/medikal-estetik.webp" alt="Botulinum Toksin Uygulamaları" class="estetik-card__img" />
+              <img src="/assets/images/generated/success-story.webp" alt="Botulinum toksin uygulamaları" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Botoks</span>
                 <h3 class="estetik-card__title">Botulinum Toksin (Kırışıklık &amp; Masseter)</h3>
@@ -456,7 +469,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 13: Mezoterapi -->
             <div class="estetik-card" data-category="uygulamalar mezoterapi">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/cilt-genclesmesi.webp" alt="Gençlik Aşıları ve Cilt Mezoterapisi" class="estetik-card__img" />
+              <img src="/assets/images/generated/online-course.webp" alt="Gençlik aşıları ve cilt mezoterapisi" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Mezoterapi</span>
                 <h3 class="estetik-card__title">Gençlik Aşıları &amp; Cilt Mezoterapisi</h3>
@@ -467,7 +480,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 14: PRP & Eksozom -->
             <div class="estetik-card" data-category="uygulamalar prp">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/prp-eksozom.webp" alt="PRP ve Eksozom Rejeneratif Uygulamalar" class="estetik-card__img" />
+              <img src="/assets/images/generated/cellular-science.webp" alt="PRP ve eksozom rejeneratif uygulamalar" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">PRP &amp; Eksozom</span>
                 <h3 class="estetik-card__title">PRP &amp; Eksozom Rejeneratif Tedaviler</h3>
@@ -478,7 +491,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
             <!-- CARD 15: Altın İğne & Eksozom Kombinasyonu -->
             <div class="estetik-card" data-category="uygulamalar altin-igne prp">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/altin-igne-eksozom.webp" alt="Altın İğne &amp; Eksozom Kombinasyonu" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/otofaji.webp" alt="Altın İğne ve eksozom kombinasyonu" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Kombinasyon</span>
                 <h3 class="estetik-card__title">Altın İğne &amp; Eksozom Kombinasyonu</h3>
@@ -493,12 +506,12 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         <section class="estetik-section" data-section="guzellik">
           <div class="estetik-section__header">
             <h2 class="estetik-section__title">Güzellik, Beslenme &amp; Yaşam</h2>
-            <p class="estetik-section__desc">Sağlıklı yaşam alışkanlıklarının, derin uykunun ve doğru beslenmenin cilde ve güzelliğe yansımaları.</p>
+            <p class="estetik-section__desc">Sağlıklı yaşam alışkanlıklarının ve doğru beslenmenin cilde ve güzelliğe yansımaları.</p>
           </div>
           <div class="estetik-grid">
             <!-- CARD 16: Mavi Bölge Beslenmesi -->
             <div class="estetik-card" data-category="guzellik">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/mavi-bolge.webp" alt="Beslenme ve cilt" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/mavi-bolge.webp" alt="Beslenme ve cilt" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Yaşam &amp; Güzellik</span>
                 <h3 class="estetik-card__title">Mavi Bölge Beslenmesi ve Cilt</h3>
@@ -507,20 +520,9 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
               </div>
             </div>
 
-            <!-- CARD 17: Uyku Kalitesi, Glymphatic Sistem -->
+            <!-- CARD 17: Aralıklı Oruç ve Cilt -->
             <div class="estetik-card" data-category="guzellik">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/uyku-glymphatic.webp" alt="Uyku ve cilt" class="estetik-card__img" />
-              <div class="estetik-card__body">
-                <span class="estetik-card__tag">Yaşam &amp; Güzellik</span>
-                <h3 class="estetik-card__title">Uyku Kalitesi &amp; Glymphatic Sistem</h3>
-                <p class="estetik-card__desc">Derin uyku sırasında aktifleşen beyin temizleme mekanizması (glymphatic sistem) ve hücresel onarımın cilt sağlığı üzerindeki etkileri.</p>
-                <a href="/blog/uyku-bozukluklari-ve-glymphatic-temizlik" class="estetik-card__cta">Makaleyi Oku &rarr;</a>
-              </div>
-            </div>
-
-            <!-- CARD 18: Aralıklı Oruç ve Cilt -->
-            <div class="estetik-card" data-category="guzellik">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/aralikli-oruc.webp" alt="Aralıklı oruç ve cilt" class="estetik-card__img" />
+              <img src="/assets/images/generated/topics/aralikli-oruc.webp" alt="Aralıklı oruç ve cilt" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Yaşam &amp; Güzellik</span>
                 <h3 class="estetik-card__title">Aralıklı Oruç ve Cilt Gençleşmesi</h3>
@@ -529,9 +531,9 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
               </div>
             </div>
 
-            <!-- CARD 19: Otofaji ve Güzellik -->
+            <!-- CARD 18: Otofaji ve Güzellik -->
             <div class="estetik-card" data-category="guzellik">
-              <img loading="lazy" width="1200" height="800" src="/assets/images/generated/topics/otofaji.webp" alt="Otofaji ve güzellik" class="estetik-card__img" />
+              <img src="/assets/images/generated/health-app.webp" alt="Otofaji ve güzellik" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Yaşam &amp; Güzellik</span>
                 <h3 class="estetik-card__title">Otofaji: İçten Gelen Güzellik</h3>
@@ -567,7 +569,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         {estetikPosts.map(post => (
           <article class="blog-card">
             <a href={`/blog/${slug(post.id)}`}>
-              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+              <img src={estetikImageBySlug[slug(post.id)] ?? post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>

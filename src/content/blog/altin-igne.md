@@ -3,7 +3,7 @@ title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi
 date: 2026-06-19
 description: "Mikro iğneleme ve radyofrekans enerjisinin sinerjik gücü: Altın iğne uygulamasının akne izleri, gözenekler ve cilt sıkılaştırmadaki biyolojik mekanizmaları."
 category: "Medikal Estetik"
-image: "/assets/images/generated/quiz_skin_health.webp"
+image: "/assets/images/generated/online-course.webp"
 readTime: "5 dk"
 takeaways:
   - "Altın iğne, fraksiyonel mikro iğneleme yöntemiyle dermis tabakasına radyofrekans (RF) enerjisi iletir."
@@ -14,7 +14,7 @@ relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Sağlık Trendleri"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Beyin Sağlığı"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"

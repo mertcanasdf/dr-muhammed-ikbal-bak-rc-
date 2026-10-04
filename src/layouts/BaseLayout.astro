@@ -18,7 +18,8 @@ interface Props {
   image?: string;
   type?: 'website' | 'article';
   structuredData?: Record<string, unknown>;
-  noindex?: boolean;
+  includeSplide?: boolean;
+  includeArticleTabs?: boolean;
 }
 
 const {
@@ -27,7 +28,8 @@ const {
   image = DEFAULT_IMAGE,
   type = 'website',
   structuredData,
-  noindex = false,
+  includeSplide = false,
+  includeArticleTabs = false,
 } = Astro.props;
 const description = getPageDescription(Astro.url.pathname, providedDescription);
 const canonicalUrl = getCanonicalUrl(Astro.url.pathname);
@@ -43,14 +45,13 @@ const jsonLd = JSON.stringify(
     ? [siteStructuredData, structuredData]
     : siteStructuredData,
 ).replace(/</g, '\\u003c');
-const robots = noindex ? 'noindex, follow' : 'index, follow';
 ---
 <!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content={robots} />
+  <meta name="robots" content="index, follow" />
   <meta name="description" content={description} />
   <meta name="theme-color" content="#0c0f0d" />
   <title>{title}</title>
@@ -71,11 +72,11 @@ const robots = noindex ? 'noindex, follow' : 'index, follow';
   <script type="application/ld+json" set:html={jsonLd}></script>
   <link rel="preload" href="/assets/fonts/roboto/roboto-400.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/roboto/roboto-700.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/assets/vendor/splide.min.css" />
-  <script src="/assets/vendor/splide.min.js" defer></script>
+  {includeSplide && <link rel="stylesheet" href="/assets/vendor/splide.min.css" />}
+  {includeSplide && <script src="/assets/vendor/splide.min.js" defer></script>}
   <link rel="stylesheet" href="/style.css" />
   <link rel="stylesheet" href="/mobile-menu.css" />
-  <link rel="stylesheet" href="/mobile-article-tabs.css" />
+  {includeArticleTabs && <link rel="stylesheet" href="/mobile-article-tabs.css" />}
   <ViewTransitions />
 </head>
 <body>

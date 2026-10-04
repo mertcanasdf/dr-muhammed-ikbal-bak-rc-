@@ -3,7 +3,7 @@ title: "Botulinum Toksin (Botoks): Dinamik Kırışıklıklar ve Koruyucu Yaşla
 date: 2026-06-18
 description: "Botoksun nöromüsküler kavşak üzerindeki etki mekanizması, Masseter botoksu ile bruksizm (diş gıcırdatma) tedavisi ve anatomik kırışıklık yönetimi."
 category: "Medikal Estetik"
-image: "/assets/images/generated/topics/medikal-estetik.webp"
+image: "/assets/images/generated/doctor-portrait.webp"
 readTime: "6 dk"
 takeaways:
   - "Botulinum toksin, kas kasılmasını sağlayan asetilkolin salınımını geçici olarak bloke ederek etki gösterir."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Sağlık Trendleri"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "kortizol-yaslanma"
     category: "Cilt Sağlığı"
     title: "Stres ve Cilt: Kortizolün Rolü"
-    image: "/assets/images/generated/topics/kortizol-stres.webp"
+    image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---
 
 Medikal estetiğin en bilinen ve en yaygın olarak uygulanan işlemlerinden biri olan **Botulinum Toksin** (Botoks), sadece var olan kırışıklıkları düzeltmekle kalmayıp yenilerinin oluşmasını engelleyen güçlü bir koruyucu anti-aging (yaşlanmayı geciktirici) silahıdır. Doğru ellerde ve doğru dozlarda uygulandığında, cildin dinlenmiş, canlı ve tamamen doğal görünmesini sağlar.

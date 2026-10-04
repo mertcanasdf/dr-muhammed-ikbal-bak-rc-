@@ -10,7 +10,7 @@ const relatedPosts = allPosts
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---
-<BaseLayout title="Birebir Söyleşiler — Dr. Muhammed İkbal Bakırcı" noindex>
+<BaseLayout title="Birebir Söyleşiler — Dr. Muhammed İkbal Bakırcı">
   <style is:global>
     .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
     .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
@@ -44,7 +44,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         {relatedPosts.map(post => (
           <article class="blog-card">
             <a href={`/blog/${slug(post.id)}`}>
-              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+              <img src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>

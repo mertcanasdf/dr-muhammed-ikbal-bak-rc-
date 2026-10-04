@@ -3,7 +3,6 @@ import { getCanonicalUrl } from '../lib/seo';
 
 const staticRoutes = [
   '/',
-  '/basari-hikayeleri',
   '/blog',
   '/dunyada-saglik',
   '/gecmis-yillar',
@@ -11,14 +10,11 @@ const staticRoutes = [
   '/hakkinda',
   '/iletisim',
   '/kullanim-kosullari',
-  '/kurslar',
   '/longevity',
   '/medikal-estetik',
-  '/podcast',
   '/quizler',
   '/rehberler',
   '/sitelerimiz',
-  '/soylesiler',
 ];
 
 function escapeXml(value: string): string {

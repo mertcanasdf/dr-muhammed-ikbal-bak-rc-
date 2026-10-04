@@ -14,11 +14,7 @@ export const ROUTE_DESCRIPTIONS: Record<string, string> = {
   '/blog': 'Longevity, metabolik sağlık, uyku, stres, beslenme ve medikal estetik konularında Dr. Muhammed İkbal Bakırcı makaleleri.',
   '/rehberler': 'Longevity, uyku, beslenme, stres yönetimi ve cilt sağlığı için pratik ve bilimsel sağlık rehberleri.',
   '/quizler': 'Longevity, stres, uyku, metabolik sağlık ve cilt sağlığı alanlarında kişisel farkındalık için sağlık quizleri.',
-  '/kurslar': 'Longevity ve sağlık eğitimi kursları: metabolik sağlık, beslenme, sağlıklı yaşlanma ve medikal estetik eğitimleri.',
-  '/podcast': 'Longevity, sağlık, yaşam tarzı ve medikal estetik üzerine Dr. Muhammed İkbal Bakırcı podcast içerikleri.',
-  '/soylesiler': 'Sağlık, longevity ve medikal estetik alanlarında uzmanlarla yapılan söyleşiler ve bilgi paylaşımları.',
   '/dunyada-saglik': 'Dünyada sağlık ve longevity alanındaki güncel yaklaşımlar, araştırmalar ve sağlık sistemleri üzerine içerikler.',
-  '/basari-hikayeleri': 'Sağlıklı yaşam ve longevity yolculuklarından ilham veren deneyimler; kişisel sonuçlar için profesyonel değerlendirme gerekir.',
   '/gecmis-yillar': 'Dr. Muhammed İkbal Bakırcı’nın geçmiş yıllardaki etkinlikleri, konuşmaları ve sağlık eğitimi çalışmaları.',
   '/sitelerimiz': 'Dr. Muhammed İkbal Bakırcı’nın sağlık, longevity ve günlük yaşam için geliştirdiği dijital projeler.',
   '/gizlilik-politikasi': 'Dr. Muhammed İkbal Bakırcı web sitesi gizlilik politikası ve kişisel verilerin korunmasına ilişkin bilgiler.',
@@ -27,20 +23,16 @@ export const ROUTE_DESCRIPTIONS: Record<string, string> = {
 
 const routeLabel: Record<string, string> = {
   blog: 'Blog',
-  'basari-hikayeleri': 'Başarı Hikâyeleri',
   'dunyada-saglik': 'Dünyada Sağlık',
   'gizlilik-politikasi': 'Gizlilik Politikası',
   hakkinda: 'Hakkında',
   iletisim: 'İletişim',
   'kullanim-kosullari': 'Kullanım Koşulları',
-  kurslar: 'Kurslar',
   longevity: 'Longevity',
   'medikal-estetik': 'Skin Longevity & Medikal Estetik',
-  podcast: 'Podcast',
   quizler: 'Quizler',
   rehberler: 'Rehberler',
   sitelerimiz: 'Sitelerimiz',
-  soylesiler: 'Söyleşiler',
   'gecmis-yillar': 'Geçmiş Yıllar',
 };
 

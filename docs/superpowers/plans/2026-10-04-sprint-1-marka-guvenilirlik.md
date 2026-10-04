@@ -819,7 +819,7 @@ const featured = featuredSlugs.map((slug) => {
   .hp-pillar p { font-size: 15px; line-height: 1.6; color: var(--gray-500); }
 
   .hp-reading { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-  .hp-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--r); }
+  .hp-card img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--r); }
   .hp-card__cat { margin: 16px 0 6px; font-size: 13px; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: .6px; }
   .hp-card h3 { font-size: 19px; font-weight: 800; line-height: 1.35; }
   .hp-card h3 a:hover { text-decoration: underline; }

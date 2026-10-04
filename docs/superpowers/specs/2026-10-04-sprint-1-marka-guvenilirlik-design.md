@@ -122,6 +122,8 @@ Hakkında unvanı ve timeline (madde 10–12), Biyolojik Yaş → Tutarlılık P
 
 ## 8. Yayına alma
 
+Canlı site `mib-site` @ `fb028d9` (14 Eylül 19:07) durumunda; kaynak ise `4f2f3c6` ile eşdeğer. Sprint 1 yayını, canlıda olmayan şu dört değişikliği de yayına alır (kullanıcı onayı: 2026-10-04): paylaşım butonu renkleri, UNF ifadesinin geçmiş zamana alınması, 30 yeni makale ve kapak görselleri.
+
 - `ana-domain-nginx-yonlendirmeler.conf` dört kaldırılan adres için `410` kurallarıyla güncellenir.
 - Yeni build `site-dist-<tarih>.zip` olarak hazırlanır.
 - Yükleme kullanıcı tarafından yapılır (Plesk). Canlı site `github.com/mertcanasdf/mib-site` ile de eşleniyorsa, o repoya da yeni build gönderilir — kullanıcının onayıyla.

@@ -1,7 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter(post => ['Longevity', 'Stres', 'Hücre Sağlığı'].includes(post.data.category))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+
+const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---
-<BaseLayout title="Birebir Söyleşiler — Dr. Muhammed İkbal Bakırcı">
+<BaseLayout title="Birebir Söyleşiler — Dr. Muhammed İkbal Bakırcı" noindex>
   <style is:global>
     .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
     .pg-hero__title{font-size:clamp(32px,5vw,52px);font-weight:900;margin-bottom:16px;}
@@ -23,4 +32,35 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <article class="talk-card"><div class="talk-card__video"><svg width="44" height="44" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Video yakında eklenecek</span></div><div class="talk-card__body"><span class="talk-card__guest">Konuk: Yakında</span><h2 class="talk-card__title">Yakında</h2><p class="talk-card__desc">Söyleşi konusu ve konuk bilgisi yayınlandığında bu alanda yer alacak.</p></div></article>
       </div>
     </div></section>
+
+  <!-- RELATED ARTICLES -->
+  <section class="related-blogs-section" style="background: var(--tertiary); padding: 80px 0; border-top: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;">
+        <h2 class="section-title">Söyleşi Konularıyla İlgili Makaleler</h2>
+        <a href="/blog" class="section-link">Tüm Kütüphaneyi Gör &rarr;</a>
+      </div>
+      <div class="blog-grid" style="padding-top: 0; padding-bottom: 0;">
+        {relatedPosts.map(post => (
+          <article class="blog-card">
+            <a href={`/blog/${slug(post.id)}`}>
+              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+            </a>
+            <div class="blog-card__body">
+              <span class="blog-card__cat">{post.data.category}</span>
+              <h2 class="blog-card__title">
+                <a href={`/blog/${slug(post.id)}`}>{post.data.title}</a>
+              </h2>
+              <p class="blog-card__excerpt">{post.data.description}</p>
+              <div class="blog-card__meta">
+                <span>{post.data.date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                <span>{post.data.readTime} okuma</span>
+              </div>
+              <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
 </BaseLayout>

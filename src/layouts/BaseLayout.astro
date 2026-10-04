@@ -4,28 +4,78 @@ import { ViewTransitions } from 'astro:transitions';
 import AnnouncementBar from '../components/AnnouncementBar.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import PromoModal from '../components/PromoModal.astro';
+import {
+  DEFAULT_IMAGE,
+  getAbsoluteUrl,
+  getCanonicalUrl,
+  getPageDescription,
+  buildSiteStructuredData,
+} from '../lib/seo';
 
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  structuredData?: Record<string, unknown>;
+  noindex?: boolean;
 }
 
-const { title, description = 'Dr. Muhammed İkbal Bakırcı — Longevity & Sağlık Eğitimi' } = Astro.props;
+const {
+  title,
+  description: providedDescription,
+  image = DEFAULT_IMAGE,
+  type = 'website',
+  structuredData,
+  noindex = false,
+} = Astro.props;
+const description = getPageDescription(Astro.url.pathname, providedDescription);
+const canonicalUrl = getCanonicalUrl(Astro.url.pathname);
+const absoluteImage = getAbsoluteUrl(image);
+const siteStructuredData = buildSiteStructuredData({
+  pathname: Astro.url.pathname,
+  title,
+  description,
+  image,
+});
+const jsonLd = JSON.stringify(
+  structuredData
+    ? [siteStructuredData, structuredData]
+    : siteStructuredData,
+).replace(/</g, '\\u003c');
+const robots = noindex ? 'noindex, follow' : 'index, follow';
 ---
 <!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content={robots} />
   <meta name="description" content={description} />
+  <meta name="theme-color" content="#0c0f0d" />
   <title>{title}</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1/dist/css/splide.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1/dist/js/splide.min.js"></script>
+  <link rel="canonical" href={canonicalUrl} />
+  <link rel="alternate" hreflang="tr" href={canonicalUrl} />
+  <meta property="og:type" content={type} />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="Dr. Muhammed İkbal Bakırcı" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:image" content={absoluteImage} />
+  <meta property="og:image:alt" content={title} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={absoluteImage} />
+  <script type="application/ld+json" set:html={jsonLd}></script>
+  <link rel="preload" href="/assets/fonts/roboto/roboto-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/roboto/roboto-700.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/assets/vendor/splide.min.css" />
+  <script src="/assets/vendor/splide.min.js" defer></script>
   <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/mobile-menu.css" />
+  <link rel="stylesheet" href="/mobile-article-tabs.css" />
   <ViewTransitions />
 </head>
 <body>
@@ -35,7 +85,7 @@ const { title, description = 'Dr. Muhammed İkbal Bakırcı — Longevity & Sağ
     <slot />
   </main>
   <Footer />
-  <PromoModal />
   <script src="/script.js" defer></script>
+  <script src="/mobile-menu.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+# Bağımlılıklar ve build çıktıları
+node_modules/
+dist/
+.astro/
+.vite-cache/
+
+# Yerel arşivler ve yükleme paketleri (büyük dosyalar)
+*.zip
+*.bak
+eski-site-arsiv-TAM/
+eski-site-parcalar/
+site-dist-*/
+
+# Geçici dosyalar
+scratch/
+temp_*.txt
+build-output.txt

@@ -19,14 +19,24 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       <p class="blog-hero__sub">Longevity, beslenme, hücre sağlığı ve daha fazlası — bilimsel temelli, Türkçe içerikler.</p>
       <div class="blog-filters" id="blogFilters">
         <button class="filter-btn active" data-filter="all">Tümü</button>
+        <button class="filter-btn" data-filter="Longevity">Longevity</button>
         <button class="filter-btn" data-filter="Otofaji">Otofaji</button>
         <button class="filter-btn" data-filter="Beslenme">Beslenme</button>
         <button class="filter-btn" data-filter="Hücre Sağlığı">Hücre Sağlığı</button>
-        <button class="filter-btn" data-filter="Longevity">Longevity</button>
-        <button class="filter-btn" data-filter="Vitaminler">Vitaminler</button>
-        <button class="filter-btn" data-filter="Stres">Stres</button>
         <button class="filter-btn" data-filter="Egzersiz">Egzersiz</button>
+        <button class="filter-btn" data-filter="Stres">Stres</button>
+        <button class="filter-btn" data-filter="Beyin Sağlığı">Beyin Sağlığı</button>
+        <button class="filter-btn" data-filter="Vitaminler">Vitaminler</button>
+        <button class="filter-btn" data-filter="Sağlık Trendleri">Sağlık Trendleri</button>
+        <button class="filter-btn" data-filter="Medikal Estetik">Medikal Estetik</button>
+        <button class="filter-btn" data-filter="Kültür">Kültür</button>
+        <button class="filter-btn" data-filter="Sanat">Sanat</button>
+        <button class="filter-btn" data-filter="Mutluluk">Mutluluk</button>
+        <button class="filter-btn" data-filter="Kariyer">Kariyer</button>
+        <button class="filter-btn" data-filter="Sorumluluk">Sorumluluk</button>
+        <button class="filter-btn" data-filter="Yaşam">Yaşam</button>
       </div>
+      <p id="blogSearchStatus" class="sr-only" aria-live="polite"></p>
     </div>
   </section>
 
@@ -36,7 +46,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         {posts.map(post => (
           <article class="blog-card" data-cat={post.data.category}>
             <a href={`/blog/${slug(post.id)}`}>
-              <img src={post.data.image} alt={post.data.title} class="blog-card__img" />
+              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>
@@ -55,4 +65,36 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       </div>
     </div>
   </section>
+<script is:inline>
+  document.addEventListener('astro:page-load', function () {
+    var btns  = document.querySelectorAll('.filter-btn');
+    var cards = document.querySelectorAll('#blogGrid .blog-card');
+    var searchQuery = new URLSearchParams(window.location.search).get('q');
+    var searchStatus = document.getElementById('blogSearchStatus');
+
+    if (searchQuery) {
+      var normalizedQuery = searchQuery.toLocaleLowerCase('tr-TR').trim();
+      var visibleCount = 0;
+      cards.forEach(function (card) {
+        var searchable = card.textContent.toLocaleLowerCase('tr-TR');
+        var matches = searchable.indexOf(normalizedQuery) !== -1;
+        card.style.display = matches ? '' : 'none';
+        if (matches) visibleCount += 1;
+      });
+      if (searchStatus) searchStatus.textContent = visibleCount + ' sonuç bulundu.';
+    }
+
+    btns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        btns.forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        var filter = btn.getAttribute('data-filter');
+        cards.forEach(function (card) {
+          var match = filter === 'all' || card.getAttribute('data-cat') === filter;
+          card.style.display = match ? '' : 'none';
+        });
+      });
+    });
+  });
+</script>
 </BaseLayout>

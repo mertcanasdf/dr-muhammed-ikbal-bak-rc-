@@ -3,7 +3,7 @@ title: "D3 Vitamini Eksikliği ve Erken Yaşlanma Arasındaki Bağ"
 date: 2026-03-15
 description: "D vitamini bir pro-hormondur ve eksikliği telomerleri kısaltarak, kronik iltihabı artırarak erken yaşlanmayı hızlandırır."
 category: "Vitaminler"
-image: "/assets/images/generated/topics/d3-vitamini.png"
+image: "/assets/images/generated/topics/d3-vitamini.webp"
 readTime: "8 dk"
 takeaways:
   - "D vitamini bir hormon gibi davranır ve 200'den fazla gen ifadesini düzenler."
@@ -15,18 +15,18 @@ relatedArticles:
   - slug: "telomerleri-korumak"
     category: "Hücre Sağlığı"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
-    image: "/assets/images/generated/topics/telomer.png"
+    image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Beyin Sağlığı"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
-    image: "/assets/images/generated/topics/nmn-nad.png"
+    image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 
 Dünya nüfusunun %40'ından fazlasının yetersiz seviyede D vitaminine sahip olduğu tahmin ediliyor. Türkiye'de bu oran bazı tahminlere göre %70'e yaklaşıyor. Peki D vitamini eksikliği neden bu denli yaygın ve longevity açısından neden bu kadar kritik?
 
 D vitamini aslında bir vitamin değil, bir **pro-hormondur**. Vücutta aktif forma dönüşerek 200'den fazla geni düzenler, bağışıklık sistemini yönlendirir, kemik metabolizmasını kontrol eder ve kronik iltihaplanmayı baskılar. Eksikliği sessizce ilerler ve yıllar içinde erken yaşlanmanın neredeyse tüm belirtilerini tetikleyebilir.
 
-## Eksikliğin Belirtileri {#eksiklik-belirtileri}
+## Eksikliğin Belirtileri
 
 D vitamini eksikliği çoğu zaman fark edilmeden sürer çünkü belirtileri pek çok başka durumu taklit eder:
 
@@ -37,7 +37,7 @@ D vitamini eksikliği çoğu zaman fark edilmeden sürer çünkü belirtileri pe
 - **Saç dökülmesi:** Saç foliküllerinde D vitamini reseptörleri bulunur.
 - **Kemik ve sırt ağrısı:** Kalsiyum emilimi için D vitamini zorunludur.
 
-## Yaşlanmayla Bağlantısı {#yaslanma-baglantisi}
+## Yaşlanmayla Bağlantısı
 
 Düşük D vitamini seviyeleri ile erken yaşlanma arasındaki bağlantı birden fazla mekanizma üzerinden çalışır:
 
@@ -53,7 +53,7 @@ D vitamini, NF-κB yolağını baskılar — bu yolak kronik inflamasyonun ana t
 
 Kalp kası ve damar endoteli hücrelerinde D vitamini reseptörleri bulunur. Eksiklik, hipertansiyon, damar sertleşmesi ve kalp yetmezliği riskini artırır. Yaşla birlikte artan kardiyovasküler hastalık yükünün önemli bir payı, D vitamini eksikliğiyle ilişkilendirilmektedir.
 
-## İdeal Seviye ve Takviye {#ideal-seviye}
+## İdeal Seviye ve Takviye
 
 D vitamini düzeyi kan testi (25-OH D vitamini) ile ölçülür. Genel referans aralıkları:
 
@@ -64,7 +64,7 @@ D vitamini düzeyi kan testi (25-OH D vitamini) ile ölçülür. Genel referans 
 
 Günlük 2.000-5.000 IU D3 takviyesi çoğu yetişkin için güvenli bir başlangıç noktasıdır; ancak ideal doz kan testine göre kişiselleştirilmelidir. **D3 vitamini K2 vitaminiyle birlikte alınmalıdır** — K2, D vitamini tarafından kandan çekilen kalsiyumun kemiklere yönlendirilmesini ve damar duvarlarında birikmemesini sağlar.
 
-## Doğal Kaynaklar {#dogal-kaynaklar}
+## Doğal Kaynaklar
 
 En zengin D vitamini kaynakları şunlardır:
 

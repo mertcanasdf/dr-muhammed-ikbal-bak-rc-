@@ -1,5 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter(post => ['Beslenme', 'Longevity'].includes(post.data.category))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+
+const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---
 <BaseLayout title="Kurslar — Dr. Muhammed İkbal Bakırcı">
   <style is:global>
@@ -21,13 +30,44 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .course-card__old-price{font-size:14px;color:var(--gray-500);text-decoration:line-through;margin-left:8px;}
   </style>
 
-    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Online Kurslar</h1><p class="pg-hero__sub">Kapsamlı longevity eğitimleri. Kendi hızınızda ilerleyin, ömür boyu erişim kazanın.</p></div></section>
+    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Online Kurslar</h1><p class="pg-hero__sub">Kapsamlı longevity eğitimleri. Kendi hızınızda ilerleyin, ömür boyu erişim kazanın.</p><p class="pg-hero__sub" style="margin-top:12px; opacity:.65; font-size:15px;">Kurs kaydı öngörüşme ile belirlenmektedir. Başvurunuzu WhatsApp üzerinden iletin, uygunluk görüşmesi için sizinle iletişime geçelim.</p></div></section>
     <section class="section"><div class="container">
       <div class="courses-grid">
-        <div class="course-card"><img src="/assets/images/generated/topics/kurslar.png" alt="Kurs kapak görseli" class="course-card__img" /><div class="course-card__body"><span class="course-card__badge">En Popüler</span><h3 class="course-card__title">Longevity 101 — Temel Protokol</h3><p class="course-card__desc">Sıfırdan longevity yaşam tarzına geçiş. Beslenme, uyku, egzersiz ve stres yönetimini kapsayan 8 haftalık program.</p><div class="course-card__meta"><span>📹 42 video ders</span><span>⏱ 18 saat</span><span>👥 4.200 öğrenci</span></div><div class="course-card__price-row"><div><span class="course-card__price">₺990</span><span class="course-card__old-price">₺1.490</span></div><a href="/iletisim" class="btn btn-dark">Kursa Kaydol</a></div></div></div>
-        <div class="course-card"><img src="/assets/images/generated/topics/kurslar.png" alt="Kurs kapak görseli" class="course-card__img" /><div class="course-card__body"><span class="course-card__badge">İleri Seviye</span><h3 class="course-card__title">Metabolik Optimizasyon Masterclass</h3><p class="course-card__desc">İnsülin direnci, kan şekeri dengesi ve mitokondriyal sağlık üzerine derinlemesine analiz. Lab değerlerini nasıl okuyacağınızı öğrenin.</p><div class="course-card__meta"><span>📹 38 video ders</span><span>⏱ 22 saat</span><span>👥 2.100 öğrenci</span></div><div class="course-card__price-row"><div><span class="course-card__price">₺1.290</span></div><a href="/iletisim" class="btn btn-dark">Kursa Kaydol</a></div></div></div>
-        <div class="course-card"><img src="/assets/images/generated/topics/kurslar.png" alt="Kurs kapak görseli" class="course-card__img" /><div class="course-card__body"><span class="course-card__badge">Yeni</span><h3 class="course-card__title">Longevity Beslenmesi &amp; Tarifler</h3><p class="course-card__desc">Keto, aralıklı oruç ve anti-inflamatuar beslenmeyi entegre eden kapsamlı beslenme kursu. 60+ tarif dahil.</p><div class="course-card__meta"><span>📹 55 video ders</span><span>⏱ 14 saat</span><span>👥 3.800 öğrenci</span></div><div class="course-card__price-row"><div><span class="course-card__price">₺790</span><span class="course-card__old-price">₺990</span></div><a href="/iletisim" class="btn btn-dark">Kursa Kaydol</a></div></div></div>
-        <div class="course-card"><img src="/assets/images/generated/topics/kurslar.png" alt="Kurs kapak görseli" class="course-card__img" /><div class="course-card__body"><span class="course-card__badge">Paket</span><h3 class="course-card__title">Tüm Kurslar — Yıllık Üyelik</h3><p class="course-card__desc">Tüm mevcut ve gelecek kurslara sınırsız erişim. Aylık canlı Q&amp;A seansları ve özel topluluk dahil.</p><div class="course-card__meta"><span>📹 Tüm kurslar</span><span>🔄 Sürekli güncelleme</span><span>👥 Özel topluluk</span></div><div class="course-card__price-row"><div><span class="course-card__price">₺2.490</span><span class="course-card__old-price">₺4.770</span></div><a href="/iletisim" class="btn btn-dark">Paket Satın Al</a></div></div></div>
+        <div class="course-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/course_longevity_101.webp" alt="Kurs kapak görseli - Longevity 101" class="course-card__img" /><div class="course-card__body"><span class="course-card__badge">En Popüler</span><h3 class="course-card__title">Longevity 101 — Temel Protokol</h3><p class="course-card__desc">Sıfırdan longevity yaşam tarzına geçiş. Beslenme, uyku, egzersiz ve stres yönetimini kapsayan 8 haftalık program.</p><div class="course-card__meta"><span>📹 42 video ders</span><span>⏱ 18 saat</span><span>👥 4.200 öğrenci</span></div><div class="course-card__price-row"><div><span class="course-card__price">₺990</span><span class="course-card__old-price">₺1.490</span></div><a href="https://wa.me/905442244813?text=Longevity%20101%20kursu%20i%C3%A7in%20%C3%B6ng%C3%B6r%C3%BC%C5%9Fme%20talep%20ediyorum" target="_blank" rel="noopener" class="btn btn-dark">Kursa Kaydol</a></div></div></div>
+        <div class="course-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/course_metabolic_masterclass.webp" alt="Kurs kapak görseli - Metabolik Optimizasyon" class="course-card__img" /><div class="course-card__body"><span class="course-card__badge">İleri Seviye</span><h3 class="course-card__title">Metabolik Optimizasyon Masterclass</h3><p class="course-card__desc">İnsülin direnci, kan şekeri dengesi ve mitokondriyal sağlık üzerine derinlemesine analiz. Lab değerlerini nasıl okuyacağınızı öğrenin.</p><div class="course-card__meta"><span>📹 38 video ders</span><span>⏱ 22 saat</span><span>👥 2.100 öğrenci</span></div><div class="course-card__price-row"><div><span class="course-card__price">₺1.290</span></div><a href="https://wa.me/905442244813?text=Metabolik%20Optimizasyon%20kursu%20i%C3%A7in%20%C3%B6ng%C3%B6r%C3%BC%C5%9Fme%20talep%20ediyorum" target="_blank" rel="noopener" class="btn btn-dark">Kursa Kaydol</a></div></div></div>
+        <div class="course-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/course_longevity_nutrition.webp" alt="Kurs kapak görseli - Longevity Beslenmesi" class="course-card__img" /><div class="course-card__body"><span class="course-card__badge">Yeni</span><h3 class="course-card__title">Longevity Beslenmesi &amp; Tarifler</h3><p class="course-card__desc">Keto, aralıklı oruç ve anti-inflamatuar beslenmeyi entegre eden kapsamlı beslenme kursu. 60+ tarif dahil.</p><div class="course-card__meta"><span>📹 55 video ders</span><span>⏱ 14 saat</span><span>👥 3.800 öğrenci</span></div><div class="course-card__price-row"><div><span class="course-card__price">₺790</span><span class="course-card__old-price">₺990</span></div><a href="https://wa.me/905442244813?text=Longevity%20Beslenmesi%20kursu%20i%C3%A7in%20%C3%B6ng%C3%B6r%C3%BC%C5%9Fme%20talep%20ediyorum" target="_blank" rel="noopener" class="btn btn-dark">Kursa Kaydol</a></div></div></div>
+        <div class="course-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/course_all_courses_yearly.webp" alt="Kurs kapak görseli - Tüm Kurslar Yıllık Üyelik" class="course-card__img" /><div class="course-card__body"><span class="course-card__badge">Paket</span><h3 class="course-card__title">Tüm Kurslar — Yıllık Üyelik</h3><p class="course-card__desc">Tüm mevcut ve gelecek kurslara sınırsız erişim. Aylık canlı Q&amp;A seansları ve özel topluluk dahil.</p><div class="course-card__meta"><span>📹 Tüm kurslar</span><span>🔄 Sürekli güncelleme</span><span>👥 Özel topluluk</span></div><div class="course-card__price-row"><div><span class="course-card__price">₺2.490</span><span class="course-card__old-price">₺4.770</span></div><a href="https://wa.me/905442244813?text=Y%C4%B1ll%C4%B1k%20%C3%9Cyelik%20paketi%20i%C3%A7in%20%C3%B6ng%C3%B6r%C3%BC%C5%9Fme%20talep%20ediyorum" target="_blank" rel="noopener" class="btn btn-dark">Paket Satın Al</a></div></div></div>
       </div>
     </div></section>
+
+  <!-- RELATED ARTICLES -->
+  <section class="related-blogs-section" style="background: var(--tertiary); padding: 80px 0; border-top: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;">
+        <h2 class="section-title">Eğitimlerimizi Destekleyen Sağlık Makaleleri</h2>
+        <a href="/blog" class="section-link">Tüm Kütüphaneyi Gör &rarr;</a>
+      </div>
+      <div class="blog-grid" style="padding-top: 0; padding-bottom: 0;">
+        {relatedPosts.map(post => (
+          <article class="blog-card">
+            <a href={`/blog/${slug(post.id)}`}>
+              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+            </a>
+            <div class="blog-card__body">
+              <span class="blog-card__cat">{post.data.category}</span>
+              <h2 class="blog-card__title">
+                <a href={`/blog/${slug(post.id)}`}>{post.data.title}</a>
+              </h2>
+              <p class="blog-card__excerpt">{post.data.description}</p>
+              <div class="blog-card__meta">
+                <span>{post.data.date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                <span>{post.data.readTime} okuma</span>
+              </div>
+              <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
 </BaseLayout>

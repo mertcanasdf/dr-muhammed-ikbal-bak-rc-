@@ -3,7 +3,7 @@ title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
 date: 2026-02-20
 description: "Bölge 2 kardiyo neden mitokondriyal biyogenez ve kardiyorespiratuvar fitness açısından longevity biliminin en güçlü egzersiz müdahalesi olarak öne çıkıyor?"
 category: "Egzersiz"
-image: "/assets/images/generated/topics/bolge-2-kardiyo.png"
+image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 readTime: "9 dk"
 takeaways:
   - "Bölge 2, MHR'nin %60-70'inde gerçekleştirilen düşük-orta yoğunluklu aerobik egzersizdir."
@@ -15,18 +15,18 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Stres"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/topics/kortizol-stres.png"
+    image: "/assets/images/generated/topics/kortizol-stres.webp"
   - slug: "aralikli-oruc-longevity"
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/topics/aralikli-oruc.png"
+    image: "/assets/images/generated/topics/aralikli-oruc.webp"
 ---
 
 Spor salonunda en hızlı koşan, en ağır kaldıran değil; en uzun yaşayan kazanır. Bu felsefeyi longevity bilimine taşıyan kavram, **Bölge 2 Kardiyo**'dur. Profesyonel dayanıklılık sporcularından longevity araştırmacılarına, doktor Peter Attia'dan fizyolog Iñigo San Millán'a kadar dünyanın önde gelen sağlık uzmanları, bu egzersiz bölgesini uzun ömürlülüğün belki de en güçlü tek müdahalesi olarak öneriyor.
 
 Peki Bölge 2 nedir, neden bu denli özel ve haftada kaç saat yapmalısınız?
 
-## Bölge 2 Nedir? {#bolge2-nedir}
+## Bölge 2 Nedir?
 
 Egzersiz yoğunluğu genellikle 5 kalp atış hızı bölgesinde sınıflandırılır. Bölge 2, maksimum kalp atış hızının (MHR) yaklaşık %60-70'ine karşılık gelir. Basit formülle MHR: 220 - yaş. 40 yaşında biri için bu 108-126 atış/dakika arasına denk düşer.
 
@@ -34,7 +34,7 @@ Pratik test: **Konuşma testi.** Egzersiz sırasında tam cümle kurup konuşabi
 
 Bölge 2 egzersizleri: tempolu yürüyüş, hafif koşu, bisiklet, yüzme, kürek, eliptik — konuşma testini geçen her aerobik aktivite bu kategoriye girer.
 
-## Neden Longevity İçin Bu Kadar Önemli? {#neden-onemli}
+## Neden Longevity İçin Bu Kadar Önemli?
 
 ### Mitokondriyal Biyogenez
 
@@ -52,7 +52,7 @@ Peter Attia ve meslektaşlarının vurguladığı üzere, kardiyorespiratuvar fi
 
 Yüksek yoğunluklu egzersiz (Bölge 4-5) kortizolü yükseltir. Bölge 2 ise parasempatik sistemi aktive eder, kortizolü düşürür ve kalp atış hızı değişkenliğini (HRV) artırır — HRV, stres direncinin ve longevity'nin en iyi göstergelerinden biridir.
 
-## Ne Kadar Yapmalısınız? {#ne-kadar}
+## Ne Kadar Yapmalısınız?
 
 Araştırmalar ve klinik öneri olarak:
 
@@ -62,7 +62,7 @@ Araştırmalar ve klinik öneri olarak:
 
 Önemli: Egzersiz alışkanlığı olmayan biri için 45 dakikalık tempolu yürüyüş mükemmel bir başlangıçtır. Vücut adapte oldukça süre ve yoğunluk kademeli artırılabilir.
 
-## Pratik İpuçları {#pratik-ipuclari}
+## Pratik İpuçları
 
 - Kalp atış hızı monitörü (akıllı saat veya göğüs bandı) kullanarak gerçek zamanlı geri bildirim alın.
 - Müzik dinleyerek veya podcast izleyerek egzersizi sürdürülebilir kılın — Bölge 2'de nefes almanız yeterlidir.

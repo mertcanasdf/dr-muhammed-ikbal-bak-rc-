@@ -4,62 +4,83 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <BaseLayout title="Hakkında — Dr. Muhammed İkbal Bakırcı">
   <style is:global>
     .about-hero { background: var(--main); color: #fff; padding: 80px 0; }
-    .about-hero__title { font-size: clamp(32px,5vw,56px); font-weight:900; margin-bottom:16px; }
-    .about-hero__sub { font-size:18px; opacity:.75; max-width:600px; }
-    .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:64px; padding:80px 0; align-items:start; }
-    @media(max-width:768px){ .about-grid{ grid-template-columns:1fr; gap:40px; padding:48px 0; } }
+    .about-hero__title { font-size: clamp(32px,5vw,56px); font-weight:900; margin-bottom:8px; }
+    .about-hero__role { font-size:17px; opacity:.8; font-weight:500; margin-bottom:4px; }
+    .about-hero__sub { font-size:14px; opacity:.6; }
+
+    .about-grid { display:grid; grid-template-columns:320px 1fr; gap:64px; padding:80px 0; align-items:start; }
+    @media(max-width:900px){ .about-grid{ grid-template-columns:1fr; gap:40px; padding:48px 0; } }
+
     .about-img { width:100%; border-radius:16px; aspect-ratio:4/5; object-fit:cover; }
-    .about-content h2 { font-size:32px; font-weight:800; margin-bottom:16px; }
-    .about-content p { font-size:17px; line-height:1.8; color:#1a1a1a; margin-bottom:20px; }
-    .about-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin:40px 0; }
-    @media(max-width:600px){ .about-stats{ grid-template-columns:1fr 1fr; } }
-    .about-stat { background:var(--tertiary); border-radius:var(--r-lg); padding:24px; text-align:center; }
-    .about-stat__num { font-size:32px; font-weight:900; color:var(--main); display:block; }
-    .about-stat__lbl { font-size:13px; color:var(--gray-500); }
-    .credentials { background:var(--tertiary); padding:64px 0; }
-    .credentials__grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:40px; }
-    @media(max-width:768px){ .credentials__grid{ grid-template-columns:1fr; } }
-    .cred-card { background:var(--base); border-radius:var(--r-lg); padding:28px; box-shadow:var(--shadow); }
-    .cred-card__icon { font-size:32px; margin-bottom:12px; }
-    .cred-card__title { font-size:17px; font-weight:700; margin-bottom:8px; }
-    .cred-card__desc { font-size:14px; color:var(--gray-500); line-height:1.6; }
+
+    .about-img-meta { margin-top:20px; display:flex; flex-direction:column; gap:10px; }
+    .about-meta-item { display:flex; align-items:flex-start; gap:10px; font-size:13px; color:var(--gray-600); line-height:1.4; }
+    .about-meta-item svg { flex-shrink:0; margin-top:1px; color:var(--blue); }
+
+    .about-content h2 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.8px; color:var(--blue); margin-bottom:20px; }
+    .about-content p { font-size:16px; line-height:1.9; color:#1a1a1a; margin-bottom:20px; }
+
+    .about-history-link-wrap { display:flex; align-items:center; justify-content:space-between; gap:28px; margin-top:36px; padding-top:28px; border-top:1px solid var(--border); }
+    .about-history-link-copy { max-width:480px; }
+    .about-history-link-eyebrow { display:block; margin-bottom:6px; color:var(--blue); font-size:11px; font-weight:700; letter-spacing:.7px; text-transform:uppercase; }
+    .about-history-link-title { margin-bottom:6px; font-size:22px; font-weight:800; line-height:1.25; }
+    .about-history-link-copy p { margin:0; color:var(--gray-500); font-size:14px; line-height:1.6; }
+    .about-history-link { display:inline-flex; flex-shrink:0; align-items:center; justify-content:center; padding:12px 20px; border:2px solid var(--main); border-radius:var(--r-btn); background:var(--main); color:#fff; font-size:14px; font-weight:700; transition:background .2s, border-color .2s, transform .2s; }
+    .about-history-link:hover { border-color:var(--blue); background:var(--blue); transform:translateY(-2px); }
+    @media(max-width:560px){ .about-history-link-wrap{ align-items:flex-start; flex-direction:column; gap:18px; } }
+
   </style>
 
-    <section class="about-hero">
-      <div class="container">
-        <h1 class="about-hero__title">Dr. Muhammed İkbal Bakırcı</h1>
-        <p class="about-hero__sub">Hekim ve eğitimci. Bilimsel temelli sağlık içerikleri üretmektedir.</p>
-      </div>
-    </section>
+  <section class="about-hero">
+    <div class="container">
+      <h1 class="about-hero__title">Dr. Muhammed İkbal Bakırcı</h1>
+      <p class="about-hero__role">Başhekim &amp; Medikal Estetik Hekimi</p>
+      <p class="about-hero__sub">VM Medikalpark Bursa Hastanesi &nbsp;·&nbsp; BM UNF Türkiye Temsilcisi</p>
+    </div>
+  </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="about-grid">
-          <img src="/assets/images/generated/doctor-portrait.png" alt="Dr. Muhammed İkbal Bakırcı" class="about-img" />
-          <div class="about-content">
-            <h2>Biyografi</h2>
-            <p>Dr. Muhammed İkbal Bakırcı, Bursa Uludağ Üniversitesi Tıp Fakültesi'nden mezun olmuş, ardından fonksiyonel tıp ve longevity alanında uluslararası sertifika programlarını tamamlamıştır. 15 yılı aşkın klinik deneyimiyle çokça hastanın metabolik dönüşümüne rehberlik etmiştir.</p>
-            <p>2018 yılında başlattığı YouTube kanalı, geniş bir izleyici kitlesine ulaşmıştır. Bilimsel araştırmaları anlaşılır Türkçeye çevirerek halk sağlığına katkı sağlamayı misyon edinmiştir.</p>
-            <p>Aralıklı oruç, ketojenik beslenme, otofaji, telomer sağlığı ve bütüncül longevity protokolleri konularında çalışmalar yürüten Dr. Muhammed İkbal; klinik çalışmalarına ek olarak yoğun bir eğitim ve içerik üretim programı yürütmektedir.</p>
-            <div class="about-stats">
-              <div class="about-stat"><span class="about-stat__num">2.4M+</span><span class="about-stat__lbl">YouTube Abonesi</span></div>
-              <div class="about-stat"><span class="about-stat__num">2018</span><span class="about-stat__lbl">YouTube Başlangıcı</span></div>
-              <div class="about-stat"><span class="about-stat__num">15+</span><span class="about-stat__lbl">Yıl Deneyim</span></div>
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+
+        <div>
+          <img loading="eager" width="1200" height="800" src="/assets/images/generated/doctor-portrait.webp" alt="Dr. Muhammed İkbal Bakırcı" class="about-img" />
+          <div class="about-img-meta">
+            <div class="about-meta-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+              <a href="mailto:Muhammedikbalb@gmail.com">Muhammedikbalb@gmail.com</a>
             </div>
-            <a href="/iletisim" class="btn btn-dark">İletişime Geç</a>
+            <div class="about-meta-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+905442244813">0544 224 4813</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="credentials">
-      <div class="container">
-        <h2 class="section-title">Uzmanlık Alanları</h2>
-        <div class="credentials__grid">
-          <div class="cred-card"><div class="cred-card__icon">🔬</div><h3 class="cred-card__title">Longevity Tıbbı</h3><p class="cred-card__desc">Hücresel yaşlanma mekanizmaları, telomer sağlığı, otofaji ve biyolojik yaş gençleştirme protokolleri.</p></div>
-          <div class="cred-card"><div class="cred-card__icon">🥗</div><h3 class="cred-card__title">Metabolik Sağlık</h3><p class="cred-card__desc">Ketojenik beslenme, aralıklı oruç, insülin direnci ve metabolik sendrom tedavisi.</p></div>
-          <div class="cred-card"><div class="cred-card__icon">🧠</div><h3 class="cred-card__title">Nörolojik Sağlık</h3><p class="cred-card__desc">Beyin sağlığı optimizasyonu, nörodejeneratif hastalık önleme ve bilişsel performans artırma.</p></div>
+        <div class="about-content">
+          <h2>Hakkımda</h2>
+
+          <p>Dr. Muhammed İkbal Bakırcı, 2008 yılında Atatürk Üniversitesi Tıp Fakültesi'nden mezun olmuştur. Mezuniyetinin ardından Doğu Anadolu'da hekimlik yaparak klinik pratiğe başlamış; Gökçen Havacılık bünyesinde hava ambulans hekimi olarak görev alarak acil tıp deneyimini derinleştirmiştir. Bu süreçten sonra Bursa'ya yerleşmiş, kamu ve özel hastanelerde klinik çalışmalarını sürdürmüştür.</p>
+
+          <p>Yöneticilik kariyeri Bursa'da şekillenmiştir. Prof. Dr. Türkan Akyol Göğüs Hastalıkları Hastanesi ve ardından Bursa Şehir Hastanesi'nin kuruluş sürecinde başhekim yardımcısı olarak görev almıştır. 2022 yılından bu yana Bursa VM Medikalpark Hastanesi'nde Başhekim olarak görevini sürdürmekte; aynı zamanda medikal estetik uygulamalarını aktif olarak yürütmektedir.</p>
+
+          <p>Sağlık Bakanlığı onaylı Estetik ve Kozmetik Uygulamaları Sertifikası'na sahip olan Dr. Muhammed İkbal; botulinum toksin, dermal dolgu, mezoterapi, PRP ve eksozom uygulamalarını kişiye özel metabolik değerlendirme ile planlamaktadır. Skin longevity alanında kollajen korunumu, inflamasyon kontrolü ve uzun vadeli cilt kalitesi üzerine çalışmakta; doğal ve sürdürülebilir sonuçları öncelikli hedef olarak benimsemektedir.</p>
+
+          <p>Birleşmiş Milletler UNF Türkiye Temsilcisi sıfatıyla ulusal ve uluslararası kongrelere katılmaktadır. 2025 yılında Multidisipliner Çevre ve Kenevir Kongresi'nde kanabinoidlerin dermokozmetik kullanımı, Uluslararası Medikal Estetik ve Tamamlayıcı Tıp Kongresi'nde kollajen stimülasyonu üzerine sunum gerçekleştirmiştir. 2026 yılında 5. Longevity Show İstanbul'da kişiselleştirilmiş longevity ve genetik konusunda yer almıştır. Pazarlama, kozmetik ve longevity alanlarındaki akademik çalışmalarını sürdürmekte; Bütüncül Sağlıklı Yaşam Platformu Danışma Kurulu üyeliğini de yürütmektedir.</p>
+
+          <div class="about-history-link-wrap">
+            <div class="about-history-link-copy">
+              <span class="about-history-link-eyebrow">Kongreler · Sunumlar · Buluşmalar</span>
+              <h3 class="about-history-link-title">Geçmiş Yıllar</h3>
+              <p>Katıldığımız etkinlikleri, kongreleri ve gerçekleştirilen sunumları yıllara göre keşfedin.</p>
+            </div>
+            <a class="about-history-link" href="/gecmis-yillar">Geçmiş Yıllar</a>
+          </div>
         </div>
+
       </div>
-    </section>
+    </div>
+  </section>
+
+
 </BaseLayout>

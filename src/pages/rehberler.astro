@@ -1,5 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter(post => ['Beslenme', 'Stres', 'Egzersiz'].includes(post.data.category))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+
+const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---
 <BaseLayout title="Rehberler — Dr. Muhammed İkbal Bakırcı">
   <style is:global>
@@ -19,15 +28,48 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .guide-card__cta:hover{text-decoration:underline;}
   </style>
 
-    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Longevity Rehberleri</h1><p class="pg-hero__sub">Bilimsel temelli, uygulaması kolay rehberler — aralıklı oruçtan keto geçişine, uyku optimizasyonundan egzersiz protokollerine.</p></div></section>
+    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Sağlık Rehberleri</h1><p class="pg-hero__sub">Bilimsel temelli, uygulaması kolay rehberler — beslenme ve metabolizma yönetiminden cilt sağlığına, uyku optimizasyonundan egzersiz protokollerine.</p></div></section>
     <section class="section"><div class="container">
       <div class="guides-grid">
-        <div class="guide-card"><img src="/assets/images/generated/guide_start_longevity.png" alt="Rehber kapak görseli - Longevity'e Başlangıç" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Başlangıç</span><h3 class="guide-card__title">Longevity'e Nasıl Başlarım?</h3><p class="guide-card__desc">Sıfırdan bir longevity protokolü oluşturmak için adım adım rehber. İlk 30 gün için somut eylem planı.</p><a href="/longevity" class="guide-card__cta">Okumaya başla &rarr;</a></div></div>
-        <div class="guide-card"><img src="/assets/images/generated/guide_intermittent_fasting.png" alt="Rehber kapak görseli - Aralıklı Oruç" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Beslenme</span><h3 class="guide-card__title">16:8 Aralıklı Oruç Kılavuzu</h3><p class="guide-card__desc">İlk haftadan itibaren nasıl uygulayacağınızı anlatan kapsamlı rehber. Yan etkiler ve çözümler dahil.</p><a href="/blog/aralikli-oruc-longevity" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
-        <div class="guide-card"><img src="/assets/images/generated/guide_keto_diet.png" alt="Rehber kapak görseli - Ketojenik Diyet" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Beslenme</span><h3 class="guide-card__title">Ketojenik Diyete Geçiş</h3><p class="guide-card__desc">Yan etkileri minimize ederek ketoza nasıl girilir. Haftalık yemek planı ve alışveriş listesi.</p><a href="/blog/otofaji-nedir#nasil-aktive-edilir" class="guide-card__cta">Devamını oku &rarr;</a></div></div>
-        <div class="guide-card"><img src="/assets/images/generated/guide_sleep_opt.png" alt="Rehber kapak görseli - Uyku Optimizasyonu" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Uyku</span><h3 class="guide-card__title">Uyku Optimizasyonu Rehberi</h3><p class="guide-card__desc">Derin uyku evrelerini artırmak ve biyolojik saatinizi sıfırlamak için kanıtlanmış protokoller.</p><a href="/blog/telomerleri-korumak#yontem5" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
-        <div class="guide-card"><img src="/assets/images/generated/guide_longevity_exercise.png" alt="Rehber kapak görseli - Egzersiz Programı" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Egzersiz</span><h3 class="guide-card__title">Longevity Egzersiz Programı</h3><p class="guide-card__desc">Bölge 2 kardiyo, ağırlık antrenmanı ve esneklik çalışmasını birleştiren haftalık program.</p><a href="/blog/bolge-2-kardiyo" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
-        <div class="guide-card"><img src="/assets/images/generated/guide_cortisol_stress.png" alt="Rehber kapak görseli - Kortizol Kontrolü" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Stres</span><h3 class="guide-card__title">Kortizol Kontrol Protokolü</h3><p class="guide-card__desc">Kronik stresi yönetmek için günlük rutinler, meditasyon pratikleri ve beslenme stratejileri.</p><a href="/blog/kortizol-yaslanma" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/guide_start_longevity.webp" alt="Rehber kapak görseli - Longevity'e Başlangıç" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Başlangıç</span><h3 class="guide-card__title">Longevity'e Nasıl Başlarım?</h3><p class="guide-card__desc">Sıfırdan bir longevity protokolü oluşturmak için adım adım rehber. İlk 30 gün için somut eylem planı.</p><a href="/longevity" class="guide-card__cta">Okumaya başla &rarr;</a></div></div>
+        <div class="guide-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/guide_intermittent_fasting.webp" alt="Rehber kapak görseli - Aralıklı Oruç" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Beslenme</span><h3 class="guide-card__title">16:8 Aralıklı Oruç Kılavuzu</h3><p class="guide-card__desc">İlk haftadan itibaren nasıl uygulayacağınızı anlatan kapsamlı rehber. Yan etkiler ve çözümler dahil.</p><a href="/blog/aralikli-oruc-longevity" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/guide_keto_diet.webp" alt="Rehber kapak görseli - Ketojenik Diyet" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Beslenme</span><h3 class="guide-card__title">Ketojenik Diyete Geçiş</h3><p class="guide-card__desc">Yan etkileri minimize ederek ketoza nasıl girilir. Haftalık yemek planı ve alışveriş listesi.</p><a href="/blog/aralikli-oruc-longevity" class="guide-card__cta">Devamını oku &rarr;</a></div></div>
+        <div class="guide-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/guide_sleep_opt.webp" alt="Rehber kapak görseli - Uyku Optimizasyonu" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Uyku</span><h3 class="guide-card__title">Uyku Optimizasyonu Rehberi</h3><p class="guide-card__desc">Derin uyku evrelerini artırmak ve biyolojik saatinizi düzenlemek için uyku hijyeni ve günlük rutin önerileri.</p><a href="/blog/uyku-bozukluklari-ve-glymphatic-temizlik" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/guide_longevity_exercise.webp" alt="Rehber kapak görseli - Egzersiz Programı" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Egzersiz</span><h3 class="guide-card__title">Longevity Egzersiz Programı</h3><p class="guide-card__desc">Bölge 2 kardiyo, ağırlık antrenmanı ve esneklik çalışmasını birleştiren haftalık program.</p><a href="/blog/bolge-2-kardiyo" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/guide_cortisol_stress.webp" alt="Rehber kapak görseli - Kortizol Kontrolü" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Stres</span><h3 class="guide-card__title">Kortizol Kontrol Protokolü</h3><p class="guide-card__desc">Kronik stresi yönetmek için günlük rutinler, meditasyon pratikleri ve beslenme stratejileri.</p><a href="/blog/kortizol-yaslanma" class="guide-card__cta">Makaleyi oku &rarr;</a></div></div>
+        <div class="guide-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/guide_skin_health.webp" alt="Cilt Sağlığı Rehberi" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Cilt Sağlığı</span><h3 class="guide-card__title">Cilt Sağlığı &amp; Gençleşme Rehberi</h3><p class="guide-card__desc">Cilt yaşlanmasını yavaşlatan beslenme stratejileri, takviyeler ve günlük bakım protokolü.</p><a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler" class="guide-card__cta">Okumaya başla &rarr;</a></div></div>
+        <div class="guide-card"><img loading="lazy" width="1200" height="800" src="/assets/images/generated/guide_medical_aesthetic.webp" alt="Medikal Estetik Rehberi" class="guide-card__img" /><div class="guide-card__body"><span class="guide-card__tag">Medikal Estetik</span><h3 class="guide-card__title">Medikal Estetik Uygulamalar Rehberi</h3><p class="guide-card__desc">Hangi medikal estetik uygulamaların ne zaman tercih edileceğine dair kapsamlı değerlendirme kılavuzu.</p><a href="/medikal-estetik" class="guide-card__cta">Keşfet &rarr;</a></div></div>
       </div>
     </div></section>
+
+  <!-- RELATED ARTICLES -->
+  <section class="related-blogs-section" style="background: var(--tertiary); padding: 80px 0; border-top: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;">
+        <h2 class="section-title">Rehberlik Eden Sağlık Makaleleri</h2>
+        <a href="/blog" class="section-link">Tüm Kütüphaneyi Gör &rarr;</a>
+      </div>
+      <div class="blog-grid" style="padding-top: 0; padding-bottom: 0;">
+        {relatedPosts.map(post => (
+          <article class="blog-card">
+            <a href={`/blog/${slug(post.id)}`}>
+              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+            </a>
+            <div class="blog-card__body">
+              <span class="blog-card__cat">{post.data.category}</span>
+              <h2 class="blog-card__title">
+                <a href={`/blog/${slug(post.id)}`}>{post.data.title}</a>
+              </h2>
+              <p class="blog-card__excerpt">{post.data.description}</p>
+              <div class="blog-card__meta">
+                <span>{post.data.date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                <span>{post.data.readTime} okuma</span>
+              </div>
+              <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
 </BaseLayout>

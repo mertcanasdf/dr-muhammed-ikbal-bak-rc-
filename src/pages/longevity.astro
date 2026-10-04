@@ -1,176 +1,1537 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const longevityPosts = allPosts
+  .filter(post => ['Longevity', 'Otofaji', 'Hücre Sağlığı', 'Egzersiz'].includes(post.data.category))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+
+const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---
-<BaseLayout title="Longevity — Dr. Muhammed İkbal Bakırcı">
+<BaseLayout title="Longevity — Dr. Muhammed İkbal Bakırcı" description="Biyolojik yaşınızı genç tutun, sağlık ömrünüzü destekleyin. Longevity bilimi, 6 temel sütun ve günlük yaşam yaklaşımı.">
   <style is:global>
-    .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
-    .pg-hero__tag{font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--yellow);margin-bottom:12px;}
-    .pg-hero__title{font-size:clamp(32px,5vw,56px);font-weight:900;margin-bottom:16px;line-height:1.1;}
-    .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;margin-bottom:32px;}
-    .pillars{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;padding:64px 0;}
-    @media(max-width:1200px){.pillars{grid-template-columns:repeat(3,1fr);}}
-    @media(max-width:850px){.pillars{grid-template-columns:repeat(2,1fr);}}
-    @media(max-width:550px){.pillars{grid-template-columns:1fr;}}
-    .pillar{
-      background:var(--base);
-      border-radius:var(--r-lg);
-      padding:28px 24px;
-      box-shadow:var(--shadow);
-      border: 1px solid rgba(0,0,0,0.03);
-      border-top:4px solid var(--green);
-      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.3s;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      position: relative;
+    /* ─── PREMIUM STYLE TOKENS & ANIMATIONS ─── */
+    @keyframes glowPulse {
+      0% { box-shadow: 0 0 15px rgba(59, 173, 73, 0.15); }
+      50% { box-shadow: 0 0 30px rgba(59, 173, 73, 0.35); }
+      100% { box-shadow: 0 0 15px rgba(59, 173, 73, 0.15); }
     }
-    .pillar:hover{
-      transform: translateY(-8px) scale(1.02);
-      box-shadow: var(--shadow-md), 0 16px 36px rgba(0,0,0,0.06);
-      border-color: rgba(59, 173, 73, 0.3);
-      border-top-color: var(--green);
+    @keyframes floatLight {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-10px) rotate(2deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
     }
-    .pillar__num{font-size:40px;font-weight:900;color:var(--green);margin-bottom:8px;opacity:0.85;transition: opacity 0.3s;}
-    .pillar:hover .pillar__num{opacity:1;}
-    .pillar__title{font-size:18px;font-weight:700;margin-bottom:12px;color:var(--main);}
-    .pillar__desc{font-size:14px;color:var(--gray-500);line-height:1.6;flex-grow:1;}
-    .articles-preview{background:var(--tertiary);padding:64px 0;}
-    .articles-preview .blog-grid{padding:32px 0 0;}
-    .quiz-cta-card {
-      background: linear-gradient(135deg, #0e0e0e 0%, #1c221c 100%);
-      color: #ffffff;
-      border-radius: var(--r-lg);
-      padding: 56px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 48px;
+
+    /* 1. IMMERSIVE HERO SECTION */
+    .lg-hero {
+      background: radial-gradient(circle at 50% -20%, #162419 0%, #080a08 60%, #040504 100%);
+      color: #e5ede7;
+      padding: 140px 0 120px;
+      text-align: center;
       position: relative;
       overflow: hidden;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-      border: 1px solid rgba(255,255,255,0.05);
+      border-bottom: 1px solid rgba(59, 173, 73, 0.08);
     }
-    @media(max-width: 992px) {
-      .quiz-cta-card {
-        flex-direction: column;
-        padding: 48px 32px;
-        text-align: center;
-        gap: 32px;
-      }
-    }
-    .quiz-cta-card__content {
-      flex: 1.2;
-      max-width: 600px;
+    .lg-hero__container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
       z-index: 2;
     }
-    .quiz-cta-card__tag {
-      font-size: 11px;
+    .lg-hero__tag {
+      background: rgba(59, 173, 73, 0.1);
+      color: #4ed961;
+      border: 1px solid rgba(59, 173, 73, 0.25);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      padding: 6px 18px;
+      border-radius: 100px;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-bottom: 28px;
+      backdrop-filter: blur(4px);
+    }
+    .lg-hero__title {
+      font-family: Georgia, serif;
+      font-size: clamp(36px, 5.5vw, 60px);
+      font-weight: 300;
+      line-height: 1.15;
+      letter-spacing: -1px;
+      color: #f5f8f6;
+      margin-bottom: 28px;
+    }
+    .lg-hero__title span {
+      font-weight: 800;
+      background: linear-gradient(135deg, #ffffff 30%, #a4e6ac 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .lg-hero__sub {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #a4b49f;
+      max-width: 720px;
+      margin: 0 auto 44px;
+    }
+    .lg-hero__actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn-glow {
+      background: #3BAD49;
+      color: #fff;
+      border: none;
+      animation: glowPulse 3s infinite ease-in-out;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .btn-glow:hover {
+      background: #45c454;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(59, 173, 73, 0.4);
+    }
+    .lg-hero__btn-sec {
+      background: rgba(255, 255, 255, 0.03);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      transition: all 0.3s;
+    }
+    .lg-hero__btn-sec:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    /* 2. PHILOSOPHY & SVG CHART SECTION */
+    .philosophy-section {
+      background: var(--base);
+      padding: 110px 0;
+      position: relative;
+    }
+    .philosophy-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1.2fr;
+      gap: 60px;
+      align-items: center;
+    }
+    @media(max-width: 992px) {
+      .philosophy-grid {
+        grid-template-columns: 1fr;
+        gap: 48px;
+      }
+    }
+    .philosophy-text__badge {
+      color: var(--green);
+      font-size: 12px;
       font-weight: 700;
       letter-spacing: 1.5px;
       text-transform: uppercase;
-      color: var(--green);
-      display: inline-block;
+      margin-bottom: 14px;
+      display: block;
+    }
+    .philosophy-text__title {
+      font-family: Georgia, serif;
+      font-size: clamp(28px, 4vw, 38px);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 24px;
+      color: var(--main);
+    }
+    .philosophy-text__p {
+      font-size: 16px;
+      color: var(--gray-700);
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .philosophy-text__p strong {
+      color: var(--main);
+    }
+
+    /* Elegant SVG Chart */
+    .chart-container {
+      background: #0f1310;
+      border-radius: 24px;
+      border: 1px solid rgba(59, 173, 73, 0.15);
+      padding: 36px 30px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+      position: relative;
+      overflow: hidden;
+    }
+    .chart-container::before {
+      content: '';
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      width: 150px;
+      height: 150px;
+      background: radial-gradient(circle, rgba(59, 173, 73, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .chart-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .chart-title::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background: #3BAD49;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #3BAD49;
+    }
+    .health-curve-svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+    .chart-legend {
+      display: flex;
+      gap: 20px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: #a4b49f;
+    }
+    .legend-color {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+    .legend-color--traditional {
+      background: #8e9ba2;
+      border: 1px dashed rgba(255, 255, 255, 0.3);
+    }
+    .legend-color--longevity {
+      background: linear-gradient(135deg, #3BAD49, #4ed961);
+      box-shadow: 0 0 8px rgba(59, 173, 73, 0.6);
+    }
+
+    /* Tooltip styles inside SVG or overlay */
+    .chart-tooltip {
+      position: absolute;
+      background: rgba(15, 20, 16, 0.95);
+      border: 1px solid rgba(59, 173, 73, 0.3);
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      color: #e5ede7;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s, transform 0.2s;
+      transform: translate(-50%, -110%);
+      z-index: 10;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      backdrop-filter: blur(8px);
+      width: max-content;
+      max-width: 220px;
+    }
+    .chart-tooltip strong {
+      color: #4ed961;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    /* Interactive Dot styling */
+    .interactive-dot {
+      cursor: pointer;
+      transition: r 0.2s, stroke-width 0.2s;
+    }
+    .interactive-dot:hover {
+      r: 8 !important;
+      stroke-width: 4 !important;
+    }
+
+    /* 3. INTERACTIVE BIOLOGICAL AGE CALCULATOR */
+    .calc-section {
+      background: var(--tertiary);
+      padding: 100px 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .calc-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 56px;
+    }
+    .calc-header__title {
+      font-family: Georgia, serif;
+      font-size: clamp(28px, 4vw, 36px);
+      font-weight: 700;
       margin-bottom: 16px;
-      background: rgba(59, 173, 73, 0.12);
+      color: var(--main);
+    }
+    .calc-header__desc {
+      color: var(--gray-500);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .calc-card {
+      background: var(--base);
+      border-radius: 28px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      padding: 48px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.02);
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 60px;
+    }
+    @media(max-width: 992px) {
+      .calc-card {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 32px 24px;
+      }
+    }
+    .calc-sliders {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+    .slider-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .slider-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--main);
+    }
+    .slider-desc {
+      font-size: 12px;
+      color: var(--gray-500);
+      margin-top: -4px;
+    }
+    .slider-input-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .slider-control {
+      flex-grow: 1;
+      height: 6px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: var(--border);
+      border-radius: 10px;
+      outline: none;
+      transition: background 0.3s;
+    }
+    .slider-control::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #3BAD49;
+      cursor: pointer;
+      border: 2px solid #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+      transition: transform 0.2s;
+    }
+    .slider-control::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+    }
+    .slider-val {
+      font-size: 14px;
+      font-weight: 700;
+      color: #3BAD49;
+      min-width: 45px;
+      text-align: right;
+    }
+
+    /* Calculator Results Visual */
+    .calc-results {
+      background: radial-gradient(circle at center, #111612 0%, #060807 100%);
+      border-radius: 20px;
+      padding: 40px 30px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      border: 1px solid rgba(59, 173, 73, 0.2);
+    }
+    .results-ring-container {
+      position: relative;
+      width: 180px;
+      height: 180px;
+      margin-bottom: 24px;
+    }
+    .results-ring-svg {
+      width: 100%;
+      height: 100%;
+      transform: rotate(-90deg);
+    }
+    .results-ring-bg {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.05);
+      stroke-width: 10;
+    }
+    .results-ring-fill {
+      fill: none;
+      stroke: #3BAD49;
+      stroke-width: 10;
+      stroke-linecap: round;
+      transition: stroke-dashoffset 0.5s ease;
+      filter: drop-shadow(0 0 6px rgba(59, 173, 73, 0.6));
+    }
+    .results-ring-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .results-ring-val {
+      font-size: 32px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+    }
+    .results-ring-lbl {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #a4b49f;
+      margin-top: 4px;
+    }
+    .calc-outcome__title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .calc-outcome__title span {
+      color: #4ed961;
+    }
+    .calc-outcome__desc {
+      font-size: 14px;
+      color: #a4b49f;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      max-width: 320px;
+    }
+    .calc-outcome__tip {
+      font-size: 12px;
+      background: rgba(59, 173, 73, 0.08);
+      border: 1px solid rgba(59, 173, 73, 0.2);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: #e5ede7;
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    /* 4. THE 5 PILLARS OF LONGEVITY (EXPANDABLE) */
+    .pillars-section {
+      background: var(--base);
+      padding: 100px 0;
+    }
+    .pillars-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 60px;
+    }
+    .pillars-header__title {
+      font-family: Georgia, serif;
+      font-size: clamp(28px, 4vw, 36px);
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--main);
+    }
+    .pillars-header__desc {
+      color: var(--gray-500);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .pillars-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .pillar-item {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--base);
+      overflow: hidden;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .pillar-item:hover {
+      border-color: rgba(59, 173, 73, 0.3);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+    }
+    .pillar-item.active {
+      border-color: #3BAD49;
+      box-shadow: 0 10px 30px rgba(59, 173, 73, 0.06);
+    }
+    .pillar-trigger {
+      padding: 24px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .pillar-trigger__main {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .pillar-trigger__num {
+      font-size: 20px;
+      font-weight: 800;
+      color: #3BAD49;
+      opacity: 0.8;
+      font-family: monospace;
+    }
+    .pillar-trigger__icon {
+      color: var(--green);
+      background: rgba(59, 173, 73, 0.06);
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pillar-item.active .pillar-trigger__icon {
+      background: var(--green);
+      color: #fff;
+    }
+    .pillar-trigger__title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--main);
+    }
+    .pillar-chevron {
+      transition: transform 0.3s;
+      color: var(--gray-500);
+    }
+    .pillar-item.active .pillar-chevron {
+      transform: rotate(180deg);
+      color: #3BAD49;
+    }
+    
+    /* Expandable content */
+    .pillar-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .pillar-content__inner {
+      padding: 0 30px 30px 94px;
+    }
+    @media(max-width: 640px) {
+      .pillar-content__inner {
+        padding: 0 20px 24px 20px;
+      }
+    }
+    .pillar-content__desc {
+      font-size: 15px;
+      color: var(--gray-700);
+      line-height: 1.7;
+      margin-bottom: 24px;
+    }
+    
+    /* Target Dashboard inside panel */
+    .pillar-dashboard {
+      background: var(--tertiary);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 20px;
+    }
+    .pillar-dashboard__title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pillar-grid-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media(max-width: 640px) {
+      .pillar-grid-metrics {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+    }
+    .metric-box {
+      background: var(--base);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .metric-box__lbl {
+      font-size: 11px;
+      color: var(--gray-500);
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .metric-box__val {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--main);
+      margin-bottom: 4px;
+    }
+    .metric-box__tip {
+      font-size: 12px;
+      color: var(--gray-700);
+      line-height: 1.4;
+    }
+
+    /* 5. GÜNLÜK ROUTINE TIMELINE */
+    .timeline-section {
+      background: var(--tertiary);
+      padding: 100px 0;
+      border-top: 1px solid var(--border);
+    }
+    .timeline-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 64px;
+    }
+    .timeline-header__title {
+      font-family: Georgia, serif;
+      font-size: clamp(28px, 4vw, 36px);
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--main);
+    }
+    .timeline-header__desc {
+      color: var(--gray-500);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .v-timeline {
+      max-width: 860px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .v-timeline::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 120px;
+      width: 1px;
+      background: var(--border);
+    }
+    @media(max-width: 768px) {
+      .v-timeline::before {
+        left: 20px;
+      }
+    }
+    .v-time-item {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 40px;
+      margin-bottom: 48px;
+      position: relative;
+    }
+    .v-time-item:last-child {
+      margin-bottom: 0;
+    }
+    @media(max-width: 768px) {
+      .v-time-item {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding-left: 48px;
+      }
+    }
+    .v-time-item__time-col {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding-top: 4px;
+    }
+    @media(max-width: 768px) {
+      .v-time-item__time-col {
+        align-items: flex-start;
+      }
+    }
+    .v-time-item__hour {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gray-700);
+      background: var(--base);
       padding: 4px 14px;
       border-radius: 99px;
+      border: 1px solid var(--border);
+      white-space: nowrap;
     }
-    .quiz-cta-card__title {
-      font-size: clamp(24px, 4vw, 36px);
-      font-weight: 900;
-      line-height: 1.2;
+    .v-time-item__node {
+      position: absolute;
+      left: 121px;
+      top: 10px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--green);
+      transform: translateX(-50%);
+      box-shadow: 0 0 0 4px rgba(59, 173, 73, 0.15);
+      z-index: 2;
+    }
+    @media(max-width: 768px) {
+      .v-time-item__node {
+        left: 21px;
+        top: 28px;
+      }
+    }
+    .v-time-card {
+      background: var(--base);
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      padding: 32px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.01);
+      transition: all 0.3s ease;
+    }
+    .v-time-card:hover {
+      border-color: rgba(59, 173, 73, 0.25);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.03);
+    }
+    .v-time-card__tag {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 99px;
+      display: inline-block;
       margin-bottom: 16px;
     }
-    .quiz-cta-card__text {
-      font-size: 16px;
-      opacity: 0.85;
+    .v-time-card__tag--morning { background: #fff6d6; color: #a07204; border: 1px solid rgba(160, 114, 4, 0.1); }
+    .v-time-card__tag--midday { background: #e3f2fd; color: #1e62a8; border: 1px solid rgba(30, 98, 168, 0.1); }
+    .v-time-card__tag--evening { background: #e8f5e9; color: #2e6035; border: 1px solid rgba(46, 96, 53, 0.1); }
+    
+    .v-time-card__title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      color: var(--main);
+    }
+    .v-time-card__list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .v-time-card__step {
+      font-size: 14px;
       line-height: 1.6;
+      color: var(--gray-700);
+      position: relative;
+      padding-left: 18px;
+    }
+    .v-time-card__step::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--green);
+      font-weight: bold;
+    }
+    .v-time-card__step strong {
+      color: var(--main);
+    }
+
+    /* 6. LATEST ARTICLES */
+    .articles-section {
+      background: var(--base);
+      padding: 100px 0;
+      border-top: 1px solid var(--border);
+    }
+    .articles-section .blog-grid {
+      padding-top: 40px;
+      padding-bottom: 0;
+    }
+
+    /* 7. PREMIUM CTA */
+    .cta-section {
+      background: var(--tertiary);
+      padding: 0 0 100px;
+    }
+    .premium-cta {
+      background: linear-gradient(145deg, #0d120e 0%, #070908 100%);
+      border-radius: 24px;
+      padding: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 64px;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(59, 173, 73, 0.15);
+      box-shadow: 0 24px 48px rgba(0,0,0,0.15);
+    }
+    @media(max-width: 992px) {
+      .premium-cta {
+        flex-direction: column;
+        padding: 48px 32px;
+        text-align: center;
+        gap: 40px;
+      }
+    }
+    .premium-cta::before {
+      content: '';
+      position: absolute;
+      bottom: -100px;
+      right: -100px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(59, 173, 73, 0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .premium-cta__content {
+      flex: 1.2;
+      max-width: 580px;
+      z-index: 2;
+    }
+    .premium-cta__badge {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #4ed961;
+      background: rgba(59, 173, 73, 0.08);
+      border: 1px solid rgba(59, 173, 73, 0.15);
+      padding: 5px 12px;
+      border-radius: 100px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .premium-cta__title {
+      font-family: Georgia, serif;
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 400;
+      line-height: 1.25;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+    .premium-cta__title strong {
+      font-weight: 700;
+    }
+    .premium-cta__text {
+      font-size: 15px;
+      color: #a2b0a5;
+      line-height: 1.65;
       margin-bottom: 32px;
     }
-    .btn-primary-green {
-      background: var(--green);
-      color: #ffffff;
-      border-color: var(--green);
-      border: none;
-      box-shadow: 0 4px 14px rgba(59, 173, 73, 0.2);
-    }
-    .btn-primary-green:hover {
-      background: #32943e;
-      color: #ffffff;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(59, 173, 73, 0.35);
-    }
-    .quiz-cta-card__image-container {
+    .premium-cta__image-wrap {
       flex: 0.8;
-      max-width: 320px;
+      max-width: 280px;
       display: flex;
       justify-content: center;
       align-items: center;
       z-index: 2;
     }
-    @media(max-width: 992px) {
-      .quiz-cta-card__image-container {
-        max-width: 240px;
-        width: 100%;
-      }
-    }
-    .quiz-cta-card__img {
+    .premium-cta__img {
       width: 100%;
-      border-radius: var(--r);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.4);
-      transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+      border-radius: 16px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.5);
+      transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
-    .quiz-cta-card:hover .quiz-cta-card__img {
-      transform: scale(1.05) rotate(1.5deg);
+    .premium-cta:hover .premium-cta__img {
+      transform: scale(1.04) rotate(1deg);
+    }
+    
+    /* Longevity Regenerative Aesthetics Styles */
+    .estetik-grid-longevity {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .estetik-card-longevity {
+      background: var(--base);
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.01);
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.3s;
+    }
+    .estetik-card-longevity:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 36px rgba(0,0,0,0.06);
+      border-color: rgba(59, 173, 73, 0.25);
+    }
+    @media(max-width: 992px) {
+      .estetik-grid-longevity {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
     }
   </style>
 
-    <section class="pg-hero">
-      <div class="container">
-        <p class="pg-hero__tag">Longevity Bilimi</p>
-        <h1 class="pg-hero__title">Daha Uzun ve Sağlıklı<br>Bir Yaşam Mümkün</h1>
-        <p class="pg-hero__sub">Longevity, yalnızca daha uzun yaşamak değil; enerjik, bilişsel olarak keskin ve hastalıksız geçirilen yılları artırmaktır. Bilim bize bunun büyük ölçüde kontrol edilebilir olduğunu gösteriyor.</p>
-        <a href="/rehberler" class="btn btn-light">Ücretsiz Longevity Rehberini Al</a>
-      </div>
-    </section>
+  <header class="lg-hero" aria-labelledby="longevity-page-title">
+    <div class="container lg-hero__container">
+      <span class="lg-hero__tag">LONGEVITY &amp; SAĞLIK ÖMRÜ</span>
+      <h1 id="longevity-page-title" class="lg-hero__title">Daha uzun değil, <span>daha sağlıklı</span> bir yaşam</h1>
+      <p class="lg-hero__sub">Biyolojik yaşlanmayı anlamak ve sağlık ömrünü destekleyen alışkanlıkları bilimsel bir çerçevede değerlendirmek için kapsamlı rehber.</p>
+    </div>
+  </header>
 
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">Longevity'nin 5 Temel Direği</h2>
-        <div class="pillars">
-          <div class="pillar"><div class="pillar__num">01</div><h3 class="pillar__title">Hücresel Temizlik</h3><p class="pillar__desc">Otofaji ve mitofaji ile hasar birikiminin önlenmesi, hücresel gençliğin korunmasının temelidir.</p></div>
-          <div class="pillar"><div class="pillar__num">02</div><h3 class="pillar__title">Metabolik Sağlık</h3><p class="pillar__desc">İnsülin duyarlılığı, kan şekeri dengesi ve mitokondriyal enerji üretiminin optimizasyonu.</p></div>
-          <div class="pillar"><div class="pillar__num">03</div><h3 class="pillar__title">Kardiyorespiratuar Kapasite</h3><p class="pillar__desc">VO2 maks, tüm nedenlere bağlı mortalite için en güçlü bağımsız belirleyicidir.</p></div>
-          <div class="pillar"><div class="pillar__num">04</div><h3 class="pillar__title">Kas Kitlesi &amp; Gücü</h3><p class="pillar__desc">Sarkopeni önleme, protein sentezi optimizasyonu ve direnç antrenmanı ile fonksiyonel bağımsızlık.</p></div>
-          <div class="pillar"><div class="pillar__num">05</div><h3 class="pillar__title">Beyin Sağlığı</h3><p class="pillar__desc">Nöroplastisite, nörodejeneratif hastalık önleme ve bilişsel rezerv inşa etme stratejileri.</p></div>
+  <!-- PHILOSOPHY / SVG CHART COMPARISON -->
+  <section class="philosophy-section">
+    <div class="container">
+      <div class="philosophy-grid">
+        <div class="philosophy-text">
+          <span class="philosophy-text__badge">Hayati Fark</span>
+          <h2 class="philosophy-text__title">Lifespan ve Healthspan Arasındaki Kritik Makas</h2>
+          <p class="philosophy-text__p">
+            <strong>Lifespan (Ömür Süresi)</strong>, doğduğunuz andan ölüme kadar geçen toplam süredir. Modern tıp, yaşamı uzatma konusunda başarılı olmuştur. Fakat bu uzatılmış yıllar genellikle kronik hastalıklar ve düşük yaşam kalitesiyle geçmektedir.
+          </p>
+          <p class="philosophy-text__p">
+            <strong>Healthspan (Sağlık Ömrü)</strong> ise fiziksel, zihinsel ve hücresel olarak tam anlamıyla zinde, hastalıksız geçirdiğimiz süreyi temsil eder.
+          </p>
+          <p class="philosophy-text__p">
+            Longevity biliminin temel vizyonu, <em>morbidity kompresyonu</em> (hastalık dönemini ömrün en sonuna sıkıştırmak) sağlayarak, yaşam kalitesi eğrisini yukarıda ve düz tutmaktır. Yandaki interaktif grafikten bu iki eğri arasındaki farkı inceleyebilirsiniz.
+          </p>
         </div>
-      </div>
-    </section>
+        
+        <div class="philosophy-visual">
+          <div class="chart-container">
+            <h3 class="chart-title">Yaşam Kalitesi & Sağlık Eğrisi</h3>
+            
+            <div style="position: relative;">
+              <!-- Chart Tooltip -->
+              <div id="chart-tooltip" class="chart-tooltip"></div>
+              
+              <!-- SVG Curve Chart -->
+              <svg class="health-curve-svg" viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+                <!-- Grids -->
+                <line x1="50" y1="40" x2="470" y2="40" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                <line x1="50" y1="100" x2="470" y2="100" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                <line x1="50" y1="160" x2="470" y2="160" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                <line x1="50" y1="220" x2="470" y2="220" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                <line x1="50" y1="280" x2="470" y2="280" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+                
+                <!-- Vertical grid guides for age (20, 40, 60, 80, 100) -->
+                <line x1="134" y1="40" x2="134" y2="280" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+                <line x1="218" y1="40" x2="218" y2="280" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+                <line x1="302" y1="40" x2="302" y2="280" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+                <line x1="386" y1="40" x2="386" y2="280" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+                <line x1="470" y1="40" x2="470" y2="280" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
 
-    <section class="articles-preview">
-      <div class="container">
-        <div class="section-header"><h2 class="section-title">Longevity Makaleleri</h2><a href="/blog" class="section-link">Tüm makaleleri gör</a></div>
-        <div class="blog-grid">
-          <article class="blog-card"><a href="/blog/otofaji-nedir"><img src="/assets/images/generated/topics/otofaji.png" alt="Longevity yazısı görseli" class="blog-card__img" /></a><div class="blog-card__body"><span class="blog-card__cat">Otofaji</span><h2 class="blog-card__title"><a href="/blog/otofaji-nedir">Otofaji Nedir ve Nasıl Aktive Edilir?</a></h2><p class="blog-card__excerpt">Hücrelerin hasarlı bileşenlerini temizleyip yenilediği doğal süreç.</p><a href="/blog/otofaji-nedir" class="blog-card__read-more">Devamını oku &rarr;</a></div></article>
-          <article class="blog-card"><a href="/blog/nmn-nad-yaslanma"><img src="/assets/images/generated/topics/nmn-nad.png" alt="Longevity yazısı görseli" class="blog-card__img" /></a><div class="blog-card__body"><span class="blog-card__cat">Beyin Sağlığı</span><h2 class="blog-card__title"><a href="/blog/nmn-nad-yaslanma">NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek</a></h2><p class="blog-card__excerpt">NAD+ seviyeleri yaşla birlikte düşer; NMN bu durumu dengeleyebilir.</p><a href="/blog/nmn-nad-yaslanma" class="blog-card__read-more">Devamını oku &rarr;</a></div></article>
-          <article class="blog-card"><a href="/blog/mavi-bolge-diyeti"><img src="/assets/images/generated/topics/mavi-bolge.png" alt="Longevity yazısı görseli" class="blog-card__img" /></a><div class="blog-card__body"><span class="blog-card__cat">Longevity</span><h2 class="blog-card__title"><a href="/blog/mavi-bolge-diyeti">Mavi Bölge Diyeti</a></h2><p class="blog-card__excerpt">Dünyanın en uzun yaşayan insanlarının paylaştığı beslenme ve yaşam ilkeleri.</p><a href="/blog/mavi-bolge-diyeti" class="blog-card__read-more">Devamını oku &rarr;</a></div></article>
-        </div>
-      </div>
-    </section>
+                <!-- Axes -->
+                <line x1="50" y1="40" x2="50" y2="280" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+                
+                <!-- Traditional Curve (Dipped Curve) -->
+                <!-- Path points: (50,45) -> (218,60) -> (302, 140) -> (386, 210) -> (450, 275) -->
+                <path d="M 50 45 C 130 50, 210 65, 270 120 C 330 170, 390 220, 450 278" 
+                      fill="none" stroke="#e27d7d" stroke-width="2" stroke-dasharray="4,4" opacity="0.8" />
+                
+                <!-- Longevity Curve (High Flat, drops sharply at end) -->
+                <!-- Path points: (50,42) -> (302,48) -> (386, 60) -> (440, 90) -> (470, 270) -->
+                <path d="M 50 42 C 180 43, 300 45, 386 52 C 430 56, 450 85, 470 276" 
+                      fill="none" stroke="url(#longevityGradient)" stroke-width="4" filter="url(#glow)" />
+                
+                <!-- Interactive Dots (Traditional Curve key stages) -->
+                <circle class="interactive-dot" cx="270" cy="120" r="5" fill="#e27d7d" stroke="#0f1310" stroke-width="2" 
+                        data-title="Geleneksel Yaşlanma (55 Yaş)" data-desc="Yaşam kalitesi %55'lere geriler. Erken kronik yorgunluk ve metabolik sendrom başlangıcı." />
+                <circle class="interactive-dot" cx="386" cy="210" r="5" fill="#e27d7d" stroke="#0f1310" stroke-width="2" 
+                        data-title="Geleneksel Yaşlanma (75 Yaş)" data-desc="Yaşam kalitesi %25. İleri derece kas kaybı, kardiyak gerileme ve yoğun ilaç kullanımı." />
 
-    <section class="section section--quiz-cta" style="padding: 40px 0 80px; background: var(--tertiary);">
-      <div class="container">
-        <div class="quiz-cta-card">
-          <div class="quiz-cta-card__content">
-            <span class="quiz-cta-card__tag">Longevity Testi</span>
-            <h2 class="quiz-cta-card__title">Biyolojik Yaşınızı Biliyor Musunuz?</h2>
-            <p class="quiz-cta-card__text">Metabolik sağlığınızı, mitokondriyal verimliliğinizi ve hücresel yaşlanma hızınızı ölçün. 2 dakikalık bilimsel testimizle hücresel düzeyde nerede durduğunuzu keşfedin.</p>
-            <a href="/quizler" class="btn btn-primary-green">Hemen Puanını Hesapla &rarr;</a>
+                <!-- Interactive Dots (Longevity Curve key stages) -->
+                <circle class="interactive-dot" cx="386" cy="52" r="5" fill="#4ed961" stroke="#0f1310" stroke-width="2" 
+                        data-title="Longevity Protokolü (75 Yaş)" data-desc="Yaşam kalitesi %90+. Yüksek VO2 Max seviyesi, güçlü kas iskelet sistemi ve berrak zihin." />
+                <circle class="interactive-dot" cx="445" cy="85" r="5" fill="#4ed961" stroke="#0f1310" stroke-width="2" 
+                        data-title="Longevity Protokolü (90 Yaş)" data-desc="Yaşam kalitesi %80+. Aktif sosyal hayat, fonksiyonel bağımsızlık ve minimal hastalık dönemi." />
+
+                <!-- SVG Definitions for Gradients and Glow Filters -->
+                <defs>
+                  <linearGradient id="longevityGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#3BAD49" />
+                    <stop offset="100%" stop-color="#4ed961" />
+                  </linearGradient>
+                  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="3" result="blur" />
+                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                  </filter>
+                </defs>
+
+                <!-- Labels -->
+                <!-- Y-Axis Labels -->
+                <text x="40" y="45" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="end">100%</text>
+                <text x="40" y="165" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="end">50%</text>
+                <text x="40" y="285" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="end">0%</text>
+                
+                <!-- X-Axis Labels -->
+                <text x="50" y="300" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">0 Yaş</text>
+                <text x="134" y="300" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">20 Yaş</text>
+                <text x="218" y="300" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">40 Yaş</text>
+                <text x="302" y="300" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">60 Yaş</text>
+                <text x="386" y="300" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">80 Yaş</text>
+                <text x="470" y="300" fill="rgba(255,255,255,0.4)" font-size="10" text-anchor="middle">100 Yaş</text>
+
+                <!-- Title for Y-Axis (Rotated) -->
+                <text x="20" y="160" fill="rgba(255,255,255,0.3)" font-size="9" text-anchor="middle" transform="rotate(-90 20 160)">Hücresel &amp; Fiziksel Zindelik</text>
+              </svg>
+            </div>
+
+            <!-- Legend -->
+            <div class="chart-legend">
+              <div class="legend-item">
+                <span class="legend-color legend-color--traditional"></span>
+                <span>Geleneksel Yaşlanma</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-color legend-color--longevity"></span>
+                <span>Longevity Odaklı Yaşam</span>
+              </div>
+            </div>
           </div>
-          <div class="quiz-cta-card__image-container">
-            <img src="/assets/images/generated/quiz_longevity_score.png" alt="Longevity Testi Görseli" class="quiz-cta-card__img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 PILLARS OF LONGEVITY (EXPANDABLE) -->
+  <section class="pillars-section" id="longevity-bilimi">
+    <div class="container">
+      <div class="pillars-header">
+        <h2 class="pillars-header__title">Longevity'nin 6 Temel Bilimsel Sütunu</h2>
+        <p class="pillars-header__desc">
+          Sağlıklı ve aktif yaşlanma, birbirini destekleyen bu altı fizyolojik mekanizmanın birlikte değerlendirilmesiyle ele alınır. Kartlara tıklayarak biyolojik hedefleri inceleyin.
+        </p>
+      </div>
+
+      <div class="pillars-list">
+        
+        <!-- Pillar 1 -->
+        <div class="pillar-item" id="hucresel-temizlik">
+          <div class="pillar-trigger">
+            <div class="pillar-trigger__main">
+              <span class="pillar-trigger__num">01</span>
+              <div class="pillar-trigger__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.314 11.314l.707.707M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
+                </svg>
+              </div>
+              <span class="pillar-trigger__title">Hücresel Temizlik (Otofaji)</span>
+            </div>
+            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+          <div class="pillar-content">
+            <div class="pillar-content__inner">
+              <p class="pillar-content__desc">
+                Hücre içindeki yıpranmış organellerin, hasarlı proteinlerin ve hücresel atıkların geri dönüştürülme mekanizmasıdır. Yetersiz otofaji, hücrelerin erken yaşlanmasına ve kronik enflamasyona yol açar. Periyodik açlık ve uygun egzersizlerle bu mekanizma tetiklenebilir.
+              </p>
+              <div class="pillar-dashboard">
+                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <div class="pillar-grid-metrics">
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">Açlık İnsülini</span>
+                    <div class="metric-box__val">&lt; 5 uIU/mL</div>
+                    <p class="metric-box__tip">Düşük insülin seviyeleri, AMPK yolunu aktive ederek hücresel temizliği (otofaji) doğrudan uyarır.</p>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">hs-CRP (Enflamasyon)</span>
+                    <div class="metric-box__val">&lt; 1.0 mg/L</div>
+                    <p class="metric-box__tip">Enflamasyonun düşük olması, hücresel yenilenme kapasitesinin sağlıklı çalıştığının temel kanıtıdır.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="pillar-item" id="metabolik-saglik">
+          <div class="pillar-trigger">
+            <div class="pillar-trigger__main">
+              <span class="pillar-trigger__num">02</span>
+              <div class="pillar-trigger__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+              </div>
+              <span class="pillar-trigger__title">Metabolik Esneklik &amp; Mitokondri Sağlığı</span>
+            </div>
+            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+          <div class="pillar-content">
+            <div class="pillar-content__inner">
+              <p class="pillar-content__desc">
+                Metabolik esneklik, vücudun enerji kaynağı olarak karbonhidratlar ile yağlar arasında verimli bir şekilde geçiş yapabilme yeteneğidir. Mitokondriyal disfonksiyon; diyabet, obezite ve kanser gibi birçok yaşa bağlı kronik hastalığın kökeninde yer alır.
+              </p>
+              <div class="pillar-dashboard">
+                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <div class="pillar-grid-metrics">
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">HbA1c (Üç Aylık Şeker)</span>
+                    <div class="metric-box__val">&lt; %5.2</div>
+                    <p class="metric-box__tip">Glukoz dalgalanmalarının az olması, damar yapısını korur ve ileri yaş glikasyon ürünlerini (AGEs) azaltır.</p>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">ApoB (Aterojenik Lipoprotein)</span>
+                    <div class="metric-box__val">&lt; 80 mg/dL</div>
+                    <p class="metric-box__tip">Kardiyovasküler riskin en hassas belirteci. Hücresel lipid dengesinin korunması için kritik hedeftir.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="pillar-item" id="kardiyorespiratuar-kapasite">
+          <div class="pillar-trigger">
+            <div class="pillar-trigger__main">
+              <span class="pillar-trigger__num">03</span>
+              <div class="pillar-trigger__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+              </div>
+              <span class="pillar-trigger__title">Kardiyorespiratuar Kapasite (VO2 Max)</span>
+            </div>
+            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+          <div class="pillar-content">
+            <div class="pillar-content__inner">
+              <p class="pillar-content__desc">
+                VO2 Max, vücudun yoğun egzersiz sırasında kullanabildiği maksimum oksijen miktarını ölçer. Klinik araştırmalar, yüksek bir VO2 Max değerinin tüm nedenlere bağlı ölüm riskini (all-cause mortality) düşüren en güçlü fizyolojik belirteç olduğunu göstermektedir.
+              </p>
+              <div class="pillar-dashboard">
+                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <div class="pillar-grid-metrics">
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">VO2 Max Dilimi</span>
+                    <div class="metric-box__val">En Üst %25'lik Dilim</div>
+                    <p class="metric-box__tip">Kendi yaş ve cinsiyet grubunuzun en zinde çeyreğinde yer almak, yaşam kalitesini doğrudan artırır.</p>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">Dinlenme Kalp Hızı</span>
+                    <div class="metric-box__val">&lt; 60 bpm</div>
+                    <p class="metric-box__tip">Güçlü bir sol ventrikül ve sağlıklı bir otonom sinir sistemi (yüksek HRV) dengesinin anahtarıdır.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="pillar-item" id="kas-kitlesi-gucu">
+          <div class="pillar-trigger">
+            <div class="pillar-trigger__main">
+              <span class="pillar-trigger__num">04</span>
+              <div class="pillar-trigger__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6.5 6.5h11M6.5 17.5h11M3 12h18M3 8v8M21 8v8"/>
+                </svg>
+              </div>
+              <span class="pillar-trigger__title">Kas Kütlesi, Gücü ve Kemik Yoğunluğu</span>
+            </div>
+            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+          <div class="pillar-content">
+            <div class="pillar-content__inner">
+              <p class="pillar-content__desc">
+                Yaşa bağlı kas kütlesi kaybı (sarkopeni) ve kemik erimesi (osteoporoz), ileri yaşlardaki fonksiyonel bağımlılığın ve kırık riskinin en önemli nedenidir. Kas kütlesi aynı zamanda glukozu depolayan en büyük organımızdır ve metabolik koruma sağlar.
+              </p>
+              <div class="pillar-dashboard">
+                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <div class="pillar-grid-metrics">
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">FFMI (Yağsız Kas Kütlesi)</span>
+                    <div class="metric-box__val">Yaş Grubunun Üzeri</div>
+                    <p class="metric-box__tip">DEXA analiziyle ölçülen yüksek kas kütlesi, metabolik rezerv ve iskelet koruması demektir.</p>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">Grip Strength (El Kavrama Gücü)</span>
+                    <div class="metric-box__val">Üst Dilim Skorları</div>
+                    <p class="metric-box__tip">Genel yaşam gücü ve nöromüsküler bütünlüğün en basit ve güçlü korelasyonel testidir.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 5 -->
+        <div class="pillar-item" id="beyin-sagligi">
+          <div class="pillar-trigger">
+            <div class="pillar-trigger__main">
+              <span class="pillar-trigger__num">05</span>
+              <div class="pillar-trigger__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.44 2.5 2.5 0 0 1 0-3.12 3 3 0 0 1 0-3.88 2.5 2.5 0 0 1 0-3.12A2.5 2.5 0 0 1 9.5 2zM14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.44 2.5 2.5 0 0 0 0-3.12 3 3 0 0 0 0-3.88 2.5 2.5 0 0 0 0-3.12A2.5 2.5 0 0 0 14.5 2z"/>
+                </svg>
+              </div>
+              <span class="pillar-trigger__title">Bilişsel Rezerve ve Nöroplastisite</span>
+            </div>
+            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+          <div class="pillar-content">
+            <div class="pillar-content__inner">
+              <p class="pillar-content__desc">
+                Beyin sağlığı, nörodejeneratif hastalıkların (Alzheimer, Demans vb.) riskini azaltmak ve ileri yaşlarda bilişsel berraklığı sürdürmek anlamına gelir. Uyku kalitesi, BDNF salınımını artıran zihinsel aktiviteler ve egzersiz, nöronal bağları korur.
+              </p>
+              <div class="pillar-dashboard">
+                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <div class="pillar-grid-metrics">
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">Derin Uyku Oranı</span>
+                    <div class="metric-box__val">%15 - %20 (Toplam Uykunun)</div>
+                    <p class="metric-box__tip">Glymphatic sistemin (beyin temizliği) çalışması ve nörotoksinlerin atılımı derin uykuda gerçekleşir.</p>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">ApoE4 Gen Testi</span>
+                    <div class="metric-box__val">Risk Profil Tespiti</div>
+                    <p class="metric-box__tip">Genetik risk durumuna göre erken dönem lipid ve metabolizma protokolü kişiselleştirilir.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 6 -->
+        <div class="pillar-item" id="rejeneratif-estetik">
+          <div class="pillar-trigger">
+            <div class="pillar-trigger__main">
+              <span class="pillar-trigger__num">06</span>
+              <div class="pillar-trigger__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <span class="pillar-trigger__title">Rejeneratif Estetik &amp; Cilt Yaşı</span>
+            </div>
+            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+          <div class="pillar-content">
+            <div class="pillar-content__inner">
+              <p class="pillar-content__desc">
+                Cilt, vücudumuzun en büyük organıdır ve hücresel yaşlanmanın dışarıdan gözlemlenebilen en net aynasıdır. Rejeneratif estetik uygulamaları; kollajen kaybını önlemeyi, fibroblast hücrelerini gençleştirmeyi ve cildin hücresel kalitesini (biyolojik yaşını) geri sararak içeriden gelen bir iyileşmeyi hedefler.
+              </p>
+              <div class="pillar-dashboard">
+                <h4 class="pillar-dashboard__title">Kritik Uygulama ve Klinik Hedefler</h4>
+                <div class="pillar-grid-metrics">
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">Rejenerasyon (PRP &amp; Eksozom)</span>
+                    <div class="metric-box__val">Kök Hücre ve Büyüme Faktörü</div>
+                    <p class="metric-box__tip">Hücreler arası haberleşmeyi sağlayarak yara iyileşmesini hızlandırır, elastin ve kolajen sentezini uyarır.</p>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-box__lbl">Kollajen Uyarımı (Altın İğne RF)</span>
+                    <div class="metric-box__val">Fraksiyonel Radyofrekans</div>
+                    <p class="metric-box__tip">Altın mikro iğnelerle termal hasar oluşturarak neokolajenez sürecini tetikler ve cildi sıkılaştırır.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REGENERATIVE AESTHETICS SECTION -->
+  <section class="estetik-section" style="background: var(--tertiary); padding: 100px 0; border-top: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header" style="text-align: center; max-width: 700px; margin: 0 auto 56px; display: block;">
+        <h2 class="section-title" style="font-family: Georgia, serif; font-size: clamp(28px, 4vw, 36px); font-weight: 700; margin-bottom: 16px; width: 100%;">Longevity ve Medikal Estetik</h2>
+        <p style="color: var(--gray-500); font-size: 16px; line-height: 1.6;">
+          Dışsal hücresel gençleşme, sağlıklı yaş alma sürecinin ve genel organ sağlığının ayrılmaz bir parçasıdır. Doğallığı koruyan bilimsel dermakozmetik protokoller.
+        </p>
+      </div>
+
+      <div class="estetik-grid-longevity">
+        <!-- Card 1: Dermal Dolgu -->
+        <div class="estetik-card-longevity">
+          <img loading="lazy" width="1200" height="800" src="/assets/images/generated/quiz_skin_aesthetic.webp" alt="Dermal Dolgu" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
+          <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
+            <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Dokusal Hacim &amp; Nem</span>
+            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">Dermal Dolgu ve Kontür Restorasyonu</h3>
+            <p style="font-size: 14px; color: var(--gray-500); line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">
+              Yaşlanma ile azalan ekstraselüler matris hacmini ve nemini hiyalüronik asit dolgularla doğallığı bozmadan geri kazandırmak. Yüz anatomisine uygun kişiselleştirilmiş minimal dokunuşlar.
+            </p>
+            <a href="/blog/dermal-dolgu" style="font-size: 13px; font-weight: 700; color: #3BAD49; display: flex; align-items: center; gap: 4px;">Detayları İncele &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Card 2: Altın İğne -->
+        <div class="estetik-card-longevity">
+          <img loading="lazy" width="1200" height="800" src="/assets/images/generated/quiz_skin_health.webp" alt="Altın İğne" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
+          <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
+            <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Kollajen İndüksiyonu</span>
+            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">Altın İğne (Fraksiyonel Radyofrekans)</h3>
+            <p style="font-size: 14px; color: var(--gray-500); line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">
+              Cildin alt katmanlarına mikro iğnelerle radyofrekans enerjisi ileterek yara iyileşme mekanizmasını uyarma. Gözenek sıkılaştırma, leke, akne skarları ve ince kırışıklıklarda kanıtlanmış hücresel onarım.
+            </p>
+            <a href="/blog/altin-igne" style="font-size: 13px; font-weight: 700; color: #3BAD49; display: flex; align-items: center; gap: 4px;">Detayları İncele &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Card 3: PRP & Eksozom -->
+        <div class="estetik-card-longevity">
+          <img loading="lazy" width="1200" height="800" src="/assets/images/generated/cellular-science.webp" alt="PRP ve Eksozom" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
+          <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
+            <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Rejeneratif Hücre Tedavisi</span>
+            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">PRP &amp; Eksozom Rejenerasyonu</h3>
+            <p style="font-size: 14px; color: var(--gray-500); line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">
+              Kök hücre habercisi eksozomlar ve kendi kanınızdan ayrıştırılan büyüme faktörleri (PRP) ile elastin ve kolajen sentezini uyararak cilt hücresel kalitesini artırma ve saç dökülmesini önleme.
+            </p>
+            <a href="/blog/prp-eksozom" style="font-size: 13px; font-weight: 700; color: #3BAD49; display: flex; align-items: center; gap: 4px;">Detayları İncele &rarr;</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+  <!-- DAILY PROTOCOLS TIMELINE -->
+  <section class="timeline-section">
+    <div class="container">
+      <div class="timeline-header">
+        <h2 class="timeline-header__title">Sirkadiyen Ritim &amp; Günlük Rutin</h2>
+        <p class="timeline-header__desc">
+          Biyolojik saatimizle uyumlu yaşamak, hücresel yenilenmeyi ve hormon dengesini en üst düzeye ulaştırmanın en pratik yoludur.
+        </p>
+      </div>
+
+      <div class="v-timeline">
+        
+        <!-- Timeline Item 1 -->
+        <div class="v-time-item">
+          <div class="v-time-item__time-col">
+            <span class="v-time-item__hour">07:00 - 11:00</span>
+          </div>
+          <div class="v-time-item__node"></div>
+          <div class="v-time-card">
+            <span class="v-time-card__tag v-time-card__tag--morning">Sabah Protokolü</span>
+            <h3 class="v-time-card__title">Güneş Işığı &amp; Mitokondri Aktivasyonu</h3>
+            <div class="v-time-card__list">
+              <div class="v-time-card__step">
+                <strong>Doğrudan Işık Maruziyeti:</strong> Uyanıştan sonra ilk 30 dakika içinde doğrudan gün ışığı alın. Bu melatonin salınımını sıfırlar ve akşam uykusunu hazırlar.
+              </div>
+              <div class="v-time-card__step">
+                <strong>Bölge 2 Egzersiz:</strong> Sohbet temposunda hafif aerobik egzersiz mitokondri kalitesini doğrudan artırır.
+              </div>
+              <div class="v-time-card__step">
+                <strong>Soğuk Hidroterapi:</strong> Sabah duşunun sonundaki 2 dakikalık soğuk su, dopamin salınımını ve kahverengi yağ aktivasyonunu uyarır.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="v-time-item">
+          <div class="v-time-item__time-col">
+            <span class="v-time-item__hour">12:00 - 18:00</span>
+          </div>
+          <div class="v-time-item__node"></div>
+          <div class="v-time-card">
+            <span class="v-time-card__tag v-time-card__tag--midday">Öğle Protokolü</span>
+            <h3 class="v-time-card__title">Metabolik Karalarılık &amp; Beslenme</h3>
+            <div class="v-time-card__list">
+              <div class="v-time-card__step">
+                <strong>Düşük Glisemik Yük:</strong> Lif, protein ve sağlıklı yağlar içeren bir öğünle glukoz dalgalanmalarını engelleyin.
+              </div>
+              <div class="v-time-card__step">
+                <strong>Anti-Enflamatuar Gıdalar:</strong> Polifenoller yönünden zengin zeytinyağı, koyu yeşil sebzeler ve mevsim meyveleri tüketin.
+              </div>
+              <div class="v-time-card__step">
+                <strong>Mikro Hareketler:</strong> Oturarak geçen her bir saat için 5 dakikalık mobilite egzersizleri veya yürüyüş yapın.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="v-time-item">
+          <div class="v-time-item__time-col">
+            <span class="v-time-item__hour">19:00 - 23:00</span>
+          </div>
+          <div class="v-time-item__node"></div>
+          <div class="v-time-card">
+            <span class="v-time-card__tag v-time-card__tag--evening">Akşam Protokolü</span>
+            <h3 class="v-time-card__title">Mavi Işık Bloklama &amp; Glymphatic Temizlik</h3>
+            <div class="v-time-card__list">
+              <div class="v-time-card__step">
+                <strong>Sirkadiyen Karartma:</strong> Uykudan en az 2 saat önce ekran ışığını kesin. Mavi ışık maruziyeti melatonini baskılayarak derin uykuyu böler.
+              </div>
+              <div class="v-time-card__step">
+                <strong>Magnezyum Desteği:</strong> Sinir sistemini yatıştırmak ve kasları gevşetmek için akşamları Magnezyum Bisglisinat veya Treonat tercih edin.
+              </div>
+              <div class="v-time-card__step">
+                <strong>Isı Düşüşü:</strong> Yatak odası sıcaklığını 18-19 derecede tutarak vücudun derin uyku fazına geçişini kolaylaştırın.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST ARTICLES -->
+  <section class="articles-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Longevity Kütüphanesi</h2>
+        <a href="/blog" class="section-link">Tüm makaleleri gör &rarr;</a>
+      </div>
+      <div class="blog-grid">
+        {longevityPosts.map(post => (
+          <article class="blog-card">
+            <a href={`/blog/${slug(post.id)}`}>
+              <img loading="lazy" width="1200" height="800" src={post.data.image} alt={post.data.title} class="blog-card__img" />
+            </a>
+            <div class="blog-card__body">
+              <span class="blog-card__cat">{post.data.category}</span>
+              <h2 class="blog-card__title">
+                <a href={`/blog/${slug(post.id)}`}>{post.data.title}</a>
+              </h2>
+              <p class="blog-card__excerpt">{post.data.description}</p>
+              <div class="blog-card__meta">
+                <span>{post.data.date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                <span>{post.data.readTime} okuma</span>
+              </div>
+              <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- PREMIUM TEST CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="premium-cta">
+        <div class="premium-cta__content">
+          <span class="premium-cta__badge">Longevity Testi</span>
+          <h2 class="premium-cta__title">Biyolojik Yaşınızı ve <strong>Hücresel Skorunuzu</strong> Detaylandırın</h2>
+          <p class="premium-cta__text">Metabolik sağlığınızı, mitokondriyal verimliliğinizi ve hücresel yaşlanma hızınızı ölçün. 2 dakikalık bilimsel testimizle hücresel düzeyde nerede durduğunuzu keşfedin.</p>
+          <div class="premium-cta__actions">
+            <a href="/quizler" class="btn btn-glow">Hemen Puanını Hesapla &rarr;</a>
+          </div>
+        </div>
+        <div class="premium-cta__image-wrap">
+          <img loading="lazy" width="1200" height="800" src="/assets/images/generated/quiz_longevity_score.webp" alt="Longevity Testi Görseli" class="premium-cta__img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE JS SCRIPTS -->
+  <script is:inline>
+    document.addEventListener('astro:page-load', () => {
+      // ─── 1. INTERACTIVE SVG CHART TOOLTIP ───
+      const dots = document.querySelectorAll('.interactive-dot');
+      const tooltip = document.getElementById('chart-tooltip');
+      const chartContainer = document.querySelector('.chart-container');
+
+      dots.forEach(dot => {
+        dot.addEventListener('mouseenter', (e) => {
+          const title = dot.getAttribute('data-title');
+          const desc = dot.getAttribute('data-desc');
+          
+          tooltip.innerHTML = `<strong>${title}</strong>${desc}`;
+          tooltip.style.opacity = '1';
+          
+          // Calculate relative positioning
+          const containerRect = chartContainer.getBoundingClientRect();
+          const dotRect = dot.getBoundingClientRect();
+          const left = dotRect.left - containerRect.left + dotRect.width / 2;
+          const top = dotRect.top - containerRect.top;
+
+          tooltip.style.left = `${left}px`;
+          tooltip.style.top = `${top}px`;
+        });
+
+        dot.addEventListener('mouseleave', () => {
+          tooltip.style.opacity = '0';
+        });
+      });
+
+      // ─── 2. EXPANDABLE 5 PILLARS ───
+      const pillars = document.querySelectorAll('.pillar-item');
+      
+      // Open the first pillar by default
+      if (pillars.length > 0) {
+        const firstPillar = pillars[0];
+        const content = firstPillar.querySelector('.pillar-content');
+        firstPillar.classList.add('active');
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+
+      pillars.forEach(pillar => {
+        const trigger = pillar.querySelector('.pillar-trigger');
+        const content = pillar.querySelector('.pillar-content');
+
+        trigger.addEventListener('click', () => {
+          const isActive = pillar.classList.contains('active');
+
+          // Close all pillars
+          pillars.forEach(p => {
+            p.classList.remove('active');
+            p.querySelector('.pillar-content').style.maxHeight = null;
+          });
+
+          // Toggle current
+          if (!isActive) {
+            pillar.classList.add('active');
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      });
+    });
+  </script>
 </BaseLayout>

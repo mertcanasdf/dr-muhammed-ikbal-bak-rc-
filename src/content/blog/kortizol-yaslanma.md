@@ -3,7 +3,7 @@ title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
 date: 2026-03-05
 description: "Kronik yüksek kortizol kas kaybı, beyin hasarı ve telomer kısalmasına yol açar; kanıtlanmış düşürme stratejileri nelerdir?"
 category: "Stres"
-image: "/assets/images/generated/topics/kortizol-stres.png"
+image: "/assets/images/generated/topics/kortizol-stres.webp"
 readTime: "9 dk"
 takeaways:
   - "Kronik kortizol; kas kaybı, visseral yağ, beyin hasarı ve bağışıklık baskılanmasına yol açar."
@@ -15,18 +15,18 @@ relatedArticles:
   - slug: "telomerleri-korumak"
     category: "Hücre Sağlığı"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
-    image: "/assets/images/generated/topics/telomer.png"
+    image: "/assets/images/generated/topics/telomer.webp"
   - slug: "bolge-2-kardiyo"
     category: "Egzersiz"
     title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.png"
+    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 ---
 
 Sabah uyandığınızda günün stresiyle karşılaşıyorsunuz. İş toplantısı, trafik, çocuklar, finansal kaygılar, sosyal medya akışı… Vücudunuz her birini bir tehdit olarak algılıyor ve her seferinde kortizol salgılatıyor. Kısa süreli strese verilen bu fizyolojik yanıt hayatta kalma için evrimsel bir armağandır. Ancak bu yanıt kronikleştiğinde, kortizol vücudunuzun en tehlikeli yaşlandırıcısına dönüşür.
 
 Araştırmalar, kronik yüksek kortizol düzeylerini erken ölüm, kardiyovasküler hastalık, tip 2 diyabet, obezite, depresyon, Alzheimer ve bağışıklık yetmezliğiyle ilişkilendiriyor. Bu makale, kortizol-yaşlanma bağlantısını ve kanıtlanmış düşürme stratejilerini inceliyor.
 
-## Kortizol Nedir ve Ne Yapar? {#kortizol-nedir}
+## Kortizol Nedir ve Ne Yapar?
 
 Kortizol, böbreküstü bezlerinden salgılanan bir glukokortikoid hormondur. Normal fizyolojik rolü şunlardır:
 
@@ -37,7 +37,7 @@ Kortizol, böbreküstü bezlerinden salgılanan bir glukokortikoid hormondur. No
 
 Bu mekanizmalar akut tehlike için tasarlanmıştır. Sorun, modern yaşamın bu "tehlike" sinyalini sürekli açık tutmasıdır.
 
-## Kronik Yüksek Kortizolün Yaşlandırma Üzerindeki Etkileri {#kronik-etkileri}
+## Kronik Yüksek Kortizolün Yaşlandırma Üzerindeki Etkileri
 
 ### Kas Kaybı (Sarkopeni)
 
@@ -59,7 +59,7 @@ Uzun vadeli kortizol yüksekliği, T hücresi aktivitesini ve doğal öldürüc�
 
 Bakıcılar, yüksek stresli çalışanlar ve travma deneyimleyenler üzerinde yapılan çalışmalarda kronik stres ile hızlı telomer kısalması arasında güçlü bir korelasyon bulunmuştur. Kortizol, telomeraz enzimini baskılar ve oksidatif stres yoluyla DNA hasarına yol açar.
 
-## Kortizolü Düşürmenin Kanıtlanmış Yöntemleri {#dusurmek}
+## Kortizolü Düşürmenin Kanıtlanmış Yöntemleri
 
 - **Mindfulness meditasyonu:** Günde 20-30 dakika, 8 haftalık meditasyon programları kortizol düzeylerini %20-30 düşürdü. Düzenli pratik, hipokampal hacmi artırır ve amigdala tepkiselliğini azaltır.
 - **Bölge 2 kardiyo egzersizi:** Hafif-orta yoğunluklu aerobik egzersiz akut kortizol düşürücüdür. Aşırı yoğun, uzun süreli antrenman ise kortizolü yükseltir — denge kritik.

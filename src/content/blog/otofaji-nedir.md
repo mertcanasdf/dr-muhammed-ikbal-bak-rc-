@@ -3,7 +3,7 @@ title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
 date: 2026-05-15
 description: "Hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü otofaji mekanizması nedir ve onu güçlendirmenin kanıtlanmış yolları nelerdir?"
 category: "Otofaji"
-image: "/assets/images/generated/topics/otofaji.png"
+image: "/assets/images/generated/topics/otofaji.webp"
 readTime: "8 dk"
 takeaways:
   - "Otofaji, hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü hayati bir temizlik mekanizmasıdır."
@@ -16,28 +16,28 @@ relatedArticles:
   - slug: "aralikli-oruc-longevity"
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/topics/aralikli-oruc.png"
+    image: "/assets/images/generated/topics/aralikli-oruc.webp"
   - slug: "telomerleri-korumak"
     category: "Hücre Sağlığı"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
-    image: "/assets/images/generated/topics/telomer.png"
+    image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Beyin Sağlığı"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
-    image: "/assets/images/generated/topics/nmn-nad.png"
+    image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 
 Vücudunuz her gece uyurken, kısa süreli açlık dönemlerinde ya da yoğun egzersiz sırasında sessiz ama son derece güçlü bir temizlik mekanizması devreye girer: **otofaji**. Bu süreç, Yunancada "kendi kendini yemek" anlamına gelir ve 2016 Nobel Fizyoloji ve Tıp Ödülü'ne layık görülen bir keşiftir. Japon bilim insanı Yoshinori Ohsumi'nin bu alandaki çalışmaları, hücresel sağlık ve uzun ömür bilimimizi kökten değiştirdi.
 
 Peki otofaji tam olarak nedir ve onu nasıl aktive edebilirsiniz? Bu makalede, bilimsel araştırmaların ışığında otofajinin ne olduğunu, sağlık üzerindeki derin etkilerini ve bu mekanizmayı güçlendirecek pratik yöntemleri ele alıyoruz.
 
-## Otofaji Nedir? {#otofaji-nedir}
+## Otofaji Nedir?
 
 Otofaji, hücrelerin hasarlı, işlevsiz veya gereksiz bileşenlerini — proteinleri, organelleri ve patojen kalıntılarını — parçalayarak geri dönüştürdüğü doğal bir süreçtir. Bu işlem için hücreler, "otofagozom" adı verilen özel bir zarf oluşturur; bu zarf, atık materyali sararak lizozoma taşır ve burada parçalanmasını sağlar. Ortaya çıkan hammaddeler yeni hücre yapıları için kullanılır.
 
 Bunu şöyle düşünebilirsiniz: vücudunuz hem bir çöp toplama servisi hem de bir geri dönüşüm tesisi gibi çalışır. Hasarlı parçaları atık olarak çöpe atmak yerine, onları parçalayıp yeni enerji ve yapı taşlarına dönüştürür.
 
-## Neden Bu Kadar Önemli? {#neden-onemli}
+## Neden Bu Kadar Önemli?
 
 Otofaji işlevi bozukluğu ile pek çok kronik hastalık arasında güçlü bir bağlantı bulunmaktadır:
 
@@ -47,7 +47,7 @@ Otofaji işlevi bozukluğu ile pek çok kronik hastalık arasında güçlü bir 
 - **Kardiyovasküler Hastalıklar:** Kalp kasındaki hasar birikiminin temizlenmesi için otofaji kritik öneme sahiptir.
 - **Erken Yaşlanma:** Birikmiş hücresel atıklar, hücresel yaşlanmayı hızlandırır.
 
-## Otofajiyi Aktive Etmenin 5 Yolu {#nasil-aktive-edilir}
+## Otofajiyi Aktive Etmenin 5 Yolu
 
 ### 1. Aralıklı Oruç
 
@@ -69,7 +69,7 @@ Bazı besin bileşenleri otofajiyi doğrudan aktive eder. **Resveratrol** (üzü
 
 Derin uyku sırasında — özellikle yavaş dalga uykusunda — beyin hücreleri glimfatik sistem aracılığıyla günün birikmiş atıklarını temizler. Bu süreç, otofaji ile birlikte çalışır. Uyku yoksunluğu, otofajik aktiviteyi belirgin şekilde bozar ve nörodejeneratif hastalık riskini artırır. Her gece 7-9 saat, düzenli uyku programıyla kaliteli uyku, otofaji için vazgeçilmezdir.
 
-## Sonuç {#sonuc}
+## Sonuç
 
 Otofaji, vücudunuzun doğal "gençleşme protokolü"dür. Bu mekanizmanın güçlü tutulması; kronik hastalık riskini azaltır, zihinsel netliği artırır, enerji düzeylerini yükseltir ve biyolojik yaşlanmayı yavaşlatır. Yukarıda özetlenen yöntemler — aralıklı oruç, egzersiz, ketojenik beslenme, uyku ve doğru besin bileşenleri — birlikte uygulandığında sinerjik bir etki yaratır.
 

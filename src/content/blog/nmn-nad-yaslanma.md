@@ -3,7 +3,7 @@ title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
 date: 2026-04-10
 description: "NAD+ neden hücresel yaşlanmanın merkezindedir ve NMN takviyesinin insan çalışmalarında ne gibi sonuçlar verdiği."
 category: "Beyin Sağlığı"
-image: "/assets/images/generated/topics/nmn-nad.png"
+image: "/assets/images/generated/topics/nmn-nad.webp"
 readTime: "11 dk"
 takeaways:
   - "NAD+, enerji üretimi, DNA onarımı ve sirtuin aktivasyonu için zorunludur; yaşla birlikte yaklaşık %50 azalır."
@@ -15,18 +15,18 @@ relatedArticles:
   - slug: "otofaji-nedir"
     category: "Otofaji"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/topics/otofaji.png"
+    image: "/assets/images/generated/topics/otofaji.webp"
   - slug: "telomerleri-korumak"
     category: "Hücre Sağlığı"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
-    image: "/assets/images/generated/topics/telomer.png"
+    image: "/assets/images/generated/topics/telomer.webp"
 ---
 
 Longevity araştırmalarının son on yılında en çok ilgi çeken moleküllerin başında **NAD+** (nikotinamid adenin dinükleotid) gelir. David Sinclair, Peter Attia ve Rhonda Patrick gibi dünyaca tanınan longevity araştırmacılarının ortak bir odak noktası olan bu koenzim, neden bu denli kritiktir?
 
 Çünkü NAD+ olmadan mitokondriniz enerji üretemez, DNA'nız onarılamaz ve sirtuinler — "uzun ömür genleri" — işlevini yerine getiremez. Ve şu gerçek görmezden gelinemez: 50 yaşındaki bir insanın NAD+ seviyeleri, 20 yaşındakinin yaklaşık yarısı kadardır.
 
-## NAD+ Nedir ve Ne Yapar? {#nad-nedir}
+## NAD+ Nedir ve Ne Yapar?
 
 NAD+, vücudun neredeyse tüm temel metabolik süreçlerinde rol oynayan bir koenzimdir. Görevleri şunlardır:
 
@@ -35,7 +35,7 @@ NAD+, vücudun neredeyse tüm temel metabolik süreçlerinde rol oynayan bir koe
 - **Sirtuinlerin aktivasyonu:** SIRT1-7 enzimlerini aktive ederek epigenetik düzenleme ve iltihap kontrolüne katkıda bulunur.
 - **Circadian ritim:** Biyolojik saatin düzenlenmesinde kilit rol oynar.
 
-## Neden Yaşla Birlikte Düşüyor? {#neden-dusuyor}
+## Neden Yaşla Birlikte Düşüyor?
 
 NAD+ seviyeleri yaşla birlikte azalır çünkü:
 
@@ -46,7 +46,7 @@ NAD+ seviyeleri yaşla birlikte azalır çünkü:
 
 Sonuç: yorgunluk, bilişsel gerileme, metabolik yavaşlama, kas kaybı ve artan hastalık duyarlılığı.
 
-## NMN Nedir? {#nmn-nedir}
+## NMN Nedir?
 
 NMN (nikotinamid mononükleotid), NAD+'nın direkt öncülüdür. Vücut NMN'yi alarak NAD+'ya dönüştürür. NMN'nin NAD+ öncülleri arasında öne çıkmasının nedenleri şunlardır:
 
@@ -54,7 +54,7 @@ NMN (nikotinamid mononükleotid), NAD+'nın direkt öncülüdür. Vücut NMN'yi 
 - Beyin ve karaciğer dahil birçok dokuya etkili biçimde ulaşır.
 - Hayvan çalışmalarında güçlü NAD+ artışı ve longevity etkileri gösterilmiştir; insan çalışmaları da umut vericidir.
 
-## İnsan Çalışmaları Ne Diyor? {#nmn-nin-insan-calismalari}
+## İnsan Çalışmaları Ne Diyor?
 
 2020-2024 yılları arasında yayımlanan insan klinik çalışmaları şu bulguları ortaya koymuştur:
 
@@ -65,7 +65,7 @@ NMN (nikotinamid mononükleotid), NAD+'nın direkt öncülüdür. Vücut NMN'yi 
 
 Önemli not: İnsan çalışmaları hâlâ sınırlıdır; bu takviyenin uzun vadeli etkileri için daha büyük randomize kontrollü çalışmalara ihtiyaç vardır.
 
-## NAD+ Seviyelerini Doğal Olarak Artırmanın Yolları {#dogal-artirma}
+## NAD+ Seviyelerini Doğal Olarak Artırmanın Yolları
 
 Takviye düşünmeden önce veya takviyeyle birlikte uygulanabilecek yaşam tarzı müdahaleleri:
 

@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAbsoluteUrl, getBlogSeoTitle, getCanonicalUrl, SITE_URL } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -12,13 +13,36 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
-const { title, date, category, image, readTime, takeaways, relatedArticles } = post.data;
+const { title, date, description, category, image, readTime, takeaways, relatedArticles } = post.data;
+const articlePath = `/blog/${post.id.replace(/\.mdx?$/, '')}`;
+const seoTitle = getBlogSeoTitle(post.id.replace(/\.mdx?$/, ''), title);
+const articleUrl = getCanonicalUrl(articlePath);
+const articleStructuredData = {
+  '@type': 'Article',
+  '@id': `${articleUrl}#article`,
+  headline: title,
+  description,
+  image: getAbsoluteUrl(image),
+  datePublished: date.toISOString(),
+  dateModified: date.toISOString(),
+  author: { '@id': `${SITE_URL}/#person` },
+  publisher: { '@id': `${SITE_URL}/#person` },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+  articleSection: category,
+  inLanguage: 'tr-TR',
+};
 
 function formatDate(d: Date): string {
   return d.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 ---
-<BaseLayout title={`${title} — Dr. Muhammed İkbal Bakırcı`}>
+<BaseLayout
+  title={seoTitle}
+  description={description}
+  image={image}
+  type="article"
+  structuredData={articleStructuredData}
+>
   <section class="article-hero">
     <div class="container">
       <div class="article-hero__inner">
@@ -37,7 +61,7 @@ function formatDate(d: Date): string {
     <div class="article-layout">
 
       <article class="article-body">
-        <img src={image} alt={title} class="article-body__featured-img" />
+        <img loading="eager" width="1200" height="800" src={image} alt={title} class="article-body__featured-img" />
 
         <Content />
 
@@ -51,17 +75,18 @@ function formatDate(d: Date): string {
         )}
 
         <div class="author-bio">
-          <img
-            src="/assets/images/generated/doctor-portrait.png"
+          <img loading="lazy" width="1200" height="800"
+            src="/assets/images/generated/doctor-portrait.webp"
             alt="Dr. Muhammed İkbal Bakırcı"
             class="author-bio__avatar"
           />
           <div>
             <p class="author-bio__name">Dr. Muhammed İkbal Bakırcı</p>
-            <p class="author-bio__title">Tıp Doktoru</p>
             <p class="author-bio__desc">
-              Hücresel sağlık, aralıklı oruç ve longevity alanlarında 15 yılı aşkın klinik deneyime
-              sahip olan Dr. Muhammed İkbal, Bursa'da çokça hastanın metabolik dönüşümüne eşlik etmiştir.
+              2008 yılından bu yana acil tıp ve klinik süreçlerde hekimlik yapan Dr. Muhammed İkbal Bakırcı,
+              2022'den beri Bursa VM Medical Park Hastanesi Başhekimi ve Birleşmiş Milletler UNF Türkiye Temsilcisidir.
+              Kişiye özel medikal estetik ve skin longevity (cilt ömrü) alanlarında, hücre düzeyinde yaşlanma karşıtı
+              ve metabolik dönüşüm protokolleri uygulamaktadır.
             </p>
           </div>
         </div>
@@ -82,7 +107,7 @@ function formatDate(d: Date): string {
             <p class="sidebar-card__title">İlgili Makaleler</p>
             {relatedArticles.map(r => (
               <a href={`/blog/${r.slug}`} class="sidebar-related-card">
-                <img src={r.image} alt="İlgili yazı görseli" class="sidebar-related-card__img" />
+                <img loading="lazy" width="1200" height="800" src={r.image} alt="İlgili yazı görseli" class="sidebar-related-card__img" />
                 <div>
                   <p class="sidebar-related-card__cat">{r.category}</p>
                   <span class="sidebar-related-card__title">{r.title}</span>

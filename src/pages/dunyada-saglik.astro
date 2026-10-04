@@ -1,59 +1,233 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const slug = (id: string) => id.replace(/\.mdx?$/, '');
+
+const categories = ['Tümü', 'Longevity', 'Beslenme', 'Metabolizma', 'Sağlık Trendleri', 'Anti-Aging', 'Hücre Sağlığı'];
 ---
 <BaseLayout title="Dünyada Sağlık — Dr. Muhammed İkbal Bakırcı">
-  <style is:global>
-    .pg-hero{background:var(--main);color:#fff;padding:80px 0;}
-    .pg-hero__title{font-size:clamp(32px,5vw,56px);font-weight:900;margin-bottom:16px;}
-    .pg-hero__sub{font-size:18px;opacity:.75;max-width:640px;}
-    .recipe-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:64px 0;}
-    @media(max-width:900px){.recipe-grid{grid-template-columns:repeat(2,1fr);}}
-    @media(max-width:600px){.recipe-grid{grid-template-columns:1fr;}}
-    .recipe-card{background:var(--base);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s;}
-    .recipe-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);}
-    .recipe-card__img{width:100%;aspect-ratio:4/3;object-fit:cover;}
-    .recipe-card__body{padding:20px;}
-    .recipe-card__tag{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--primary);background:var(--tertiary);padding:3px 10px;border-radius:99px;margin-bottom:10px;}
-    .recipe-card__title{font-size:17px;font-weight:700;line-height:1.3;margin-bottom:8px;}
-    .recipe-card__meta{font-size:12px;color:var(--gray-500);display:flex;gap:12px;}
-  </style>
+<style is:global>
+  .ds-page-header {
+    padding: 56px 0 40px;
+    border-bottom: 1px solid var(--border);
+  }
+  .ds-page-header h1 {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 900;
+    color: var(--main);
+    margin-bottom: 8px;
+  }
+  .ds-page-header p {
+    font-size: 16px;
+    color: var(--gray-500);
+    max-width: 560px;
+  }
 
-    <section class="pg-hero"><div class="container"><h1 class="pg-hero__title">Dünyada Sağlık</h1><p class="pg-hero__sub">Longevity, sağlık trendleri ve dünyadan güncel sağlık haberleri — bilimsel temelli içerikler.</p></div></section>
-    <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title">Öne Çıkan İçerikler</h2><span class="section-link">Yakında daha fazlası</span></div>
-      <div class="recipe-grid">
-        <div class="recipe-card">
-          <a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler">
-            <img src="/assets/images/generated/topics/quiz_inflammation.png" alt="Senolitik Tedaviler ve Cilt Gençleşmesi" class="recipe-card__img" />
+  /* ── Filter tabs ── */
+  .ds-filters {
+    border-bottom: 1px solid var(--border);
+    background: var(--base);
+    position: sticky;
+    top: 97px;
+    z-index: 10;
+  }
+  .ds-filters__inner {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    padding: 14px 0;
+    scrollbar-width: none;
+  }
+  .ds-filters__inner::-webkit-scrollbar { display: none; }
+  .ds-filter-btn {
+    flex-shrink: 0;
+    padding: 7px 16px;
+    border-radius: 99px;
+    border: 1.5px solid var(--border);
+    background: none;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--gray-600);
+    cursor: pointer;
+    transition: border-color .15s, background .15s, color .15s;
+    white-space: nowrap;
+  }
+  .ds-filter-btn:hover,
+  .ds-filter-btn.is-active {
+    border-color: var(--green);
+    background: var(--green);
+    color: #fff;
+  }
+
+  /* ── Article list ── */
+  .ds-list {
+    padding: 0 0 80px;
+  }
+  .ds-item {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 32px;
+    padding: 36px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: start;
+  }
+  .ds-item.is-hidden { display: none; }
+  @media (max-width: 720px) {
+    .ds-item {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+  .ds-item__img-wrap {
+    position: relative;
+    border-radius: var(--r);
+    overflow: hidden;
+    aspect-ratio: 16/10;
+    background: var(--tertiary);
+  }
+  .ds-item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .35s;
+  }
+  .ds-item:hover .ds-item__img { transform: scale(1.04); }
+
+  .ds-item__meta {
+    font-size: 12px;
+    color: var(--gray-400);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .ds-item__cat {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    color: #fff;
+    background: var(--green);
+    padding: 2px 10px;
+    border-radius: 99px;
+  }
+  .ds-item__title {
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: var(--main);
+    margin-bottom: 10px;
+  }
+  .ds-item__title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color .15s;
+  }
+  .ds-item__title a:hover { color: var(--green); }
+  .ds-item__excerpt {
+    font-size: 14px;
+    color: var(--gray-600);
+    line-height: 1.7;
+    margin-bottom: 18px;
+    max-width: 580px;
+  }
+  .ds-item__read {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--green);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: gap .15s;
+  }
+  .ds-item__read:hover { gap: 8px; }
+
+  .ds-empty {
+    display: none;
+    padding: 64px 0;
+    text-align: center;
+    color: var(--gray-400);
+    font-size: 15px;
+  }
+  .ds-empty.is-visible { display: block; }
+</style>
+
+<!-- PAGE HEADER -->
+<div class="ds-page-header">
+  <div class="container">
+    <h1>Dünyada Sağlık</h1>
+    <p>Longevity, metabolik sağlık ve dünya genelindeki bilimsel gelişmeler.</p>
+  </div>
+</div>
+
+<!-- FILTER TABS -->
+<div class="ds-filters">
+  <div class="container">
+    <div class="ds-filters__inner">
+      {categories.map((cat, i) => (
+        <button
+          class={`ds-filter-btn${i === 0 ? ' is-active' : ''}`}
+          data-filter={cat}
+        >{cat}</button>
+      ))}
+    </div>
+  </div>
+</div>
+
+<!-- ARTICLE LIST -->
+<section class="ds-list">
+  <div class="container">
+    <div id="dsFeed">
+      {posts.map(post => (
+        <article class="ds-item" data-category={post.data.category}>
+          <a href={`/blog/${slug(post.id)}`} class="ds-item__img-wrap">
+            <img width="1200" height="800" src={post.data.image} alt={post.data.title} class="ds-item__img" loading="lazy" />
           </a>
-          <div class="recipe-card__body">
-            <span class="recipe-card__tag">Yeni Araştırma</span>
-            <h3 class="recipe-card__title"><a href="/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler" style="color: inherit; text-decoration: none;">Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel "Zombi" Hücrelerin Temizlenmesi</a></h3>
-            <div class="recipe-card__meta">
-              <span>⏱ 5 dk okuma</span>
-              <span>🔥 Sağlık Trendleri</span>
+          <div>
+            <div class="ds-item__meta">
+              <span class="ds-item__cat">{post.data.category}</span>
+              <span>{post.data.date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+              <span>{post.data.readTime} okuma</span>
             </div>
+            <h2 class="ds-item__title">
+              <a href={`/blog/${slug(post.id)}`}>{post.data.title}</a>
+            </h2>
+            <p class="ds-item__excerpt">{post.data.description}</p>
+            <a href={`/blog/${slug(post.id)}`} class="ds-item__read">Devamını oku →</a>
           </div>
-        </div>
+        </article>
+      ))}
+    </div>
+    <p class="ds-empty" id="dsEmpty">Bu kategoride henüz içerik yok.</p>
+  </div>
+</section>
 
-        <div class="recipe-card">
-          <a href="/blog/sirt6-proteini-epigenetik-genclesme">
-            <img src="/assets/images/generated/topics/cellular-science.png" alt="SIRT6 Proteini ve Epigenetik Gençleşme" class="recipe-card__img" />
-          </a>
-          <div class="recipe-card__body">
-            <span class="recipe-card__tag">Bilimsel Keşif</span>
-            <h3 class="recipe-card__title"><a href="/blog/sirt6-proteini-epigenetik-genclesme" style="color: inherit; text-decoration: none;">SIRT6 Proteini ve Epigenetik Gençleşme: DNA Paketlemesini Onararak Yaşlanmayı Geri Döndürmek</a></h3>
-            <div class="recipe-card__meta">
-              <span>⏱ 6 dk okuma</span>
-              <span>🔥 Longevity</span>
-            </div>
-          </div>
-        </div>
+<script is:inline>
+  document.addEventListener('astro:page-load', function () {
+    var btns  = document.querySelectorAll('.ds-filter-btn');
+    var items = document.querySelectorAll('.ds-item');
+    var empty = document.getElementById('dsEmpty');
 
-        <div class="recipe-card"><img src="https://picsum.photos/seed/recipe1/800/600" alt="" class="recipe-card__img" /><div class="recipe-card__body"><span class="recipe-card__tag">Beslenme</span><h3 class="recipe-card__title">Avokadolu Yumurta Kavurması</h3><div class="recipe-card__meta"><span>⏱ 10 dk</span><span>🔥 Keto</span></div></div></div>
-        <div class="recipe-card"><img src="https://picsum.photos/seed/recipe2/800/600" alt="" class="recipe-card__img" /><div class="recipe-card__body"><span class="recipe-card__tag">Sağlıklı Yaşam</span><h3 class="recipe-card__title">Somon Somonlu Salata</h3><div class="recipe-card__meta"><span>⏱ 15 dk</span><span>🔥 Omega-3</span></div></div></div>
-        <div class="recipe-card"><img src="https://picsum.photos/seed/recipe3/800/600" alt="" class="recipe-card__img" /><div class="recipe-card__body"><span class="recipe-card__tag">Anti-inflamatuar</span><h3 class="recipe-card__title">Kurkumalı Keto Çorbası</h3><div class="recipe-card__meta"><span>⏱ 25 dk</span><span>🔥 Anti-iltihap</span></div></div></div>
-        <div class="recipe-card"><img src="https://picsum.photos/seed/recipe4/800/600" alt="" class="recipe-card__img" /><div class="recipe-card__body"><span class="recipe-card__tag">Beslenme</span><h3 class="recipe-card__title">Badem Ezmeli Enerji Topları</h3><div class="recipe-card__meta"><span>⏱ 5 dk</span><span>🔥 Düşük Karbonhidrat</span></div></div></div>
-      </div>
-    </div></section>
+    btns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        btns.forEach(function (b) { b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        var filter = btn.getAttribute('data-filter');
+        var visible = 0;
+        items.forEach(function (item) {
+          var match = filter === 'Tümü' || item.getAttribute('data-category') === filter;
+          item.classList.toggle('is-hidden', !match);
+          if (match) visible++;
+        });
+        empty.classList.toggle('is-visible', visible === 0);
+      });
+    });
+  });
+</script>
 </BaseLayout>

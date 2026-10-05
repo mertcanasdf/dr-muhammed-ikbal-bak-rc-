@@ -1,5 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Timeline, { type TimelineItem } from '../components/Timeline.astro';
+
+// Kaynak: Medical Park doktor profili + bu sayfanın biyografi metni (docs/arastirma/2026-10-05-mesleki-ozgecmis.md).
+const career: TimelineItem[] = [
+  { year: '2001–2008', type: 'Eğitim', title: 'Atatürk Üniversitesi Tıp Fakültesi', description: 'Tıp eğitimini 2008 yılında tamamladı.' },
+  { year: '2009–2018', type: 'Klinik deneyim', title: 'Kamu ve özel hastanelerde hekimlik', description: 'Doğu Anadolu’da başlayan klinik pratiğini Bursa’da kamu ve özel hastanelerde sürdürdü.' },
+  { year: '2012–2013', type: 'Acil tıp', title: 'Hava ambulans hekimi', description: 'Gökçen Havacılık Acil Sağlık Hizmetleri bünyesinde görev aldı.' },
+  { year: '2018–2019', type: 'Sağlık yönetimi', title: 'Başhekim Yardımcısı', description: 'Bursa Prof. Dr. Türkan Akyol Göğüs Hastalıkları Hastanesi.' },
+  { year: '2019–2022', type: 'Sağlık yönetimi', title: 'Başhekim Yardımcısı', description: 'Bursa Şehir Hastanesi; hastanenin kuruluş sürecinde görev aldı.' },
+  { year: '2022–', type: 'Sağlık yönetimi', title: 'Başhekim', description: 'VM Medical Park Bursa Hastanesi. Medikal estetik uygulamalarını da sürdürüyor.' },
+];
 ---
 <BaseLayout title="Hakkında — Dr. Muhammed İkbal Bakırcı">
   <style is:global>
@@ -68,5 +79,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </div>
   </section>
 
-
+  <section class="section about-journey" aria-labelledby="journey-title">
+    <div class="container">
+      <div class="about-journey__intro">
+        <h2 id="journey-title">Mesleki Yolculuk</h2>
+        <p>Hekimlikten sağlık yönetimine uzanan kariyer adımları.</p>
+      </div>
+      <Timeline items={career} />
+    </div>
+  </section>
 </BaseLayout>
+
+<style>
+  .about-journey { padding: 24px 0 96px; }
+  .about-journey__intro { max-width: 620px; margin-bottom: 40px; }
+  .about-journey__intro h2 { margin-bottom: 10px; font-size: clamp(24px, 3vw, 34px); font-weight: 800; color: var(--main); }
+  .about-journey__intro p { color: var(--gray-500); font-size: 16px; line-height: 1.7; }
+  @media (max-width: 640px) { .about-journey { padding: 8px 0 64px; } }
+</style>

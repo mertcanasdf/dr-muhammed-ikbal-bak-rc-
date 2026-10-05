@@ -582,6 +582,12 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       align-items: center;
       gap: 6px;
     }
+    .pillar-dashboard__note {
+      margin: -8px 0 16px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--gray-500);
+    }
     .pillar-grid-metrics {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -1060,17 +1066,18 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
                 Hücre içindeki yıpranmış organellerin, hasarlı proteinlerin ve hücresel atıkların geri dönüştürülme mekanizmasıdır. Yetersiz otofaji, hücrelerin erken yaşlanmasına ve kronik enflamasyona yol açar. Periyodik açlık ve uygun egzersizlerle bu mekanizma tetiklenebilir.
               </p>
               <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
+                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
                 <div class="pillar-grid-metrics">
                   <div class="metric-box">
                     <span class="metric-box__lbl">Açlık İnsülini</span>
                     <div class="metric-box__val">&lt; 5 uIU/mL</div>
-                    <p class="metric-box__tip">Düşük insülin seviyeleri, AMPK yolunu aktive ederek hücresel temizliği (otofaji) doğrudan uyarır.</p>
+                    <p class="metric-box__tip">Düşük insülin düzeyleri, AMPK yolu üzerinden hücresel temizliği (otofaji) destekleyebilir.</p>
                   </div>
                   <div class="metric-box">
                     <span class="metric-box__lbl">hs-CRP (Enflamasyon)</span>
                     <div class="metric-box__val">&lt; 1.0 mg/L</div>
-                    <p class="metric-box__tip">Enflamasyonun düşük olması, hücresel yenilenme kapasitesinin sağlıklı çalıştığının temel kanıtıdır.</p>
+                    <p class="metric-box__tip">Düşük düzeyde enflamasyon, hücresel yenilenmenin sağlıklı işlediğine dair göstergelerden biridir.</p>
                   </div>
                 </div>
               </div>
@@ -1100,17 +1107,18 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
                 Metabolik esneklik, vücudun enerji kaynağı olarak karbonhidratlar ile yağlar arasında verimli bir şekilde geçiş yapabilme yeteneğidir. Mitokondriyal disfonksiyon; diyabet, obezite ve kanser gibi birçok yaşa bağlı kronik hastalığın kökeninde yer alır.
               </p>
               <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
+                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
                 <div class="pillar-grid-metrics">
                   <div class="metric-box">
                     <span class="metric-box__lbl">HbA1c (Üç Aylık Şeker)</span>
                     <div class="metric-box__val">&lt; %5.2</div>
-                    <p class="metric-box__tip">Glukoz dalgalanmalarının az olması, damar yapısını korur ve ileri yaş glikasyon ürünlerini (AGEs) azaltır.</p>
+                    <p class="metric-box__tip">Glukoz dalgalanmalarının az olması, damar sağlığını korumaya ve ileri glikasyon son ürünlerinin (AGEs) birikimini azaltmaya yardımcı olabilir.</p>
                   </div>
                   <div class="metric-box">
                     <span class="metric-box__lbl">ApoB (Aterojenik Lipoprotein)</span>
                     <div class="metric-box__val">&lt; 80 mg/dL</div>
-                    <p class="metric-box__tip">Kardiyovasküler riskin en hassas belirteci. Hücresel lipid dengesinin korunması için kritik hedeftir.</p>
+                    <p class="metric-box__tip">Kardiyovasküler riski değerlendirmede kullanılan önemli belirteçlerden biridir; hedef değer kişisel risk profiline göre belirlenir.</p>
                   </div>
                 </div>
               </div>
@@ -1137,20 +1145,21 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           <div class="pillar-content">
             <div class="pillar-content__inner">
               <p class="pillar-content__desc">
-                VO2 Max, vücudun yoğun egzersiz sırasında kullanabildiği maksimum oksijen miktarını ölçer. Klinik araştırmalar, yüksek bir VO2 Max değerinin tüm nedenlere bağlı ölüm riskini (all-cause mortality) düşüren en güçlü fizyolojik belirteç olduğunu göstermektedir.
+                VO2 Max, vücudun yoğun egzersiz sırasında kullanabildiği maksimum oksijen miktarını ölçer. Klinik araştırmalar, yüksek VO2 Max değerinin, tüm nedenlere bağlı ölüm riskinin (all-cause mortality) daha düşük olmasıyla en güçlü ilişkili fizyolojik belirteçlerden biri olduğunu göstermektedir.
               </p>
               <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
+                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
                 <div class="pillar-grid-metrics">
                   <div class="metric-box">
                     <span class="metric-box__lbl">VO2 Max Dilimi</span>
                     <div class="metric-box__val">En Üst %25'lik Dilim</div>
-                    <p class="metric-box__tip">Kendi yaş ve cinsiyet grubunuzun en zinde çeyreğinde yer almak, yaşam kalitesini doğrudan artırır.</p>
+                    <p class="metric-box__tip">Kendi yaş ve cinsiyet grubunuzun üst dilimlerinde yer almak, daha iyi yaşam kalitesi ve sağlık sonuçlarıyla ilişkilendirilmektedir.</p>
                   </div>
                   <div class="metric-box">
                     <span class="metric-box__lbl">Dinlenme Kalp Hızı</span>
                     <div class="metric-box__val">&lt; 60 bpm</div>
-                    <p class="metric-box__tip">Güçlü bir sol ventrikül ve sağlıklı bir otonom sinir sistemi (yüksek HRV) dengesinin anahtarıdır.</p>
+                    <p class="metric-box__tip">Düşük dinlenme kalp hızı çoğu zaman iyi kardiyovasküler kondisyonla ilişkilidir; sporcularda ve bazı ilaçları kullananlarda farklı yorumlanır.</p>
                   </div>
                 </div>
               </div>
@@ -1180,17 +1189,18 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
                 Yaşa bağlı kas kütlesi kaybı (sarkopeni) ve kemik erimesi (osteoporoz), ileri yaşlardaki fonksiyonel bağımlılığın ve kırık riskinin en önemli nedenidir. Kas kütlesi aynı zamanda glukozu depolayan en büyük organımızdır ve metabolik koruma sağlar.
               </p>
               <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
+                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
                 <div class="pillar-grid-metrics">
                   <div class="metric-box">
                     <span class="metric-box__lbl">FFMI (Yağsız Kas Kütlesi)</span>
                     <div class="metric-box__val">Yaş Grubunun Üzeri</div>
-                    <p class="metric-box__tip">DEXA analiziyle ölçülen yüksek kas kütlesi, metabolik rezerv ve iskelet koruması demektir.</p>
+                    <p class="metric-box__tip">DEXA gibi yöntemlerle ölçülen yeterli kas kütlesi, metabolik rezerv ve iskelet sağlığıyla ilişkilidir.</p>
                   </div>
                   <div class="metric-box">
                     <span class="metric-box__lbl">Grip Strength (El Kavrama Gücü)</span>
                     <div class="metric-box__val">Üst Dilim Skorları</div>
-                    <p class="metric-box__tip">Genel yaşam gücü ve nöromüsküler bütünlüğün en basit ve güçlü korelasyonel testidir.</p>
+                    <p class="metric-box__tip">Genel fiziksel kapasiteyle ilişkili, basit ve yaygın kullanılan bir ölçümdür.</p>
                   </div>
                 </div>
               </div>
@@ -1220,17 +1230,18 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
                 Beyin sağlığı, nörodejeneratif hastalıkların (Alzheimer, Demans vb.) riskini azaltmak ve ileri yaşlarda bilişsel berraklığı sürdürmek anlamına gelir. Uyku kalitesi, BDNF salınımını artıran zihinsel aktiviteler ve egzersiz, nöronal bağları korur.
               </p>
               <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Kritik Biomarker ve Klinik Hedefler</h4>
+                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
+                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
                 <div class="pillar-grid-metrics">
                   <div class="metric-box">
                     <span class="metric-box__lbl">Derin Uyku Oranı</span>
                     <div class="metric-box__val">%15 - %20 (Toplam Uykunun)</div>
-                    <p class="metric-box__tip">Glymphatic sistemin (beyin temizliği) çalışması ve nörotoksinlerin atılımı derin uykuda gerçekleşir.</p>
+                    <p class="metric-box__tip">Beynin glimfatik temizlik sisteminin özellikle derin uykuda daha aktif çalıştığı düşünülmektedir.</p>
                   </div>
                   <div class="metric-box">
                     <span class="metric-box__lbl">ApoE4 Gen Testi</span>
-                    <div class="metric-box__val">Risk Profil Tespiti</div>
-                    <p class="metric-box__tip">Genetik risk durumuna göre erken dönem lipid ve metabolizma protokolü kişiselleştirilir.</p>
+                    <div class="metric-box__val">Genetik Yatkınlık Bilgisi</div>
+                    <p class="metric-box__tip">Genetik test sonuçları, genetik danışmanlık ve hekim değerlendirmesiyle birlikte yorumlanmalıdır.</p>
                   </div>
                 </div>
               </div>
@@ -1257,20 +1268,20 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           <div class="pillar-content">
             <div class="pillar-content__inner">
               <p class="pillar-content__desc">
-                Cilt, vücudumuzun en büyük organıdır ve hücresel yaşlanmanın dışarıdan gözlemlenebilen en net aynasıdır. Rejeneratif estetik uygulamaları; kollajen kaybını önlemeyi, fibroblast hücrelerini gençleştirmeyi ve cildin hücresel kalitesini (biyolojik yaşını) geri sararak içeriden gelen bir iyileşmeyi hedefler.
+                Cilt, vücudumuzun en büyük organıdır ve hücresel yaşlanmanın dışarıdan gözlemlenebilen en net aynasıdır. Rejeneratif estetik uygulamaları; kollajen kaybını yavaşlatmayı, fibroblast hücrelerinin işlevini desteklemeyi ve cilt kalitesini iyileştirmeyi hedefler.
               </p>
               <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Kritik Uygulama ve Klinik Hedefler</h4>
+                <h4 class="pillar-dashboard__title">Uygulamalar ve Hedeflenen Etkiler</h4>
                 <div class="pillar-grid-metrics">
                   <div class="metric-box">
                     <span class="metric-box__lbl">Rejenerasyon (PRP &amp; Eksozom)</span>
                     <div class="metric-box__val">Kök Hücre ve Büyüme Faktörü</div>
-                    <p class="metric-box__tip">Hücreler arası haberleşmeyi sağlayarak yara iyileşmesini hızlandırır, elastin ve kolajen sentezini uyarır.</p>
+                    <p class="metric-box__tip">Hücreler arası iletişimi destekleyerek doku onarımına ve kolajen–elastin yapımına katkı sağlamayı hedefler.</p>
                   </div>
                   <div class="metric-box">
                     <span class="metric-box__lbl">Kollajen Uyarımı (Altın İğne RF)</span>
                     <div class="metric-box__val">Fraksiyonel Radyofrekans</div>
-                    <p class="metric-box__tip">Altın mikro iğnelerle termal hasar oluşturarak neokolajenez sürecini tetikler ve cildi sıkılaştırır.</p>
+                    <p class="metric-box__tip">Mikro iğnelerle oluşturulan kontrollü ısı etkisiyle yeni kolajen oluşumunu uyarmayı ve cilt sıkılığını artırmayı hedefler.</p>
                   </div>
                 </div>
               </div>
@@ -1326,7 +1337,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
             <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Rejeneratif Hücre Tedavisi</span>
             <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">PRP &amp; Eksozom Rejenerasyonu</h3>
             <p style="font-size: 14px; color: var(--gray-500); line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">
-              Kök hücre habercisi eksozomlar ve kendi kanınızdan ayrıştırılan büyüme faktörleri (PRP) ile elastin ve kolajen sentezini uyararak cilt hücresel kalitesini artırma ve saç dökülmesini önleme.
+              Kök hücre habercisi eksozomlar ve kendi kanınızdan ayrıştırılan büyüme faktörleri (PRP) ile elastin ve kolajen yapımını destekleyerek cilt kalitesini iyileştirmeyi ve uygun hastalarda bazı saç dökülmesi türlerinde destek sağlamayı hedefleyen uygulamalar.
             </p>
             <a href="/blog/prp-eksozom" style="font-size: 13px; font-weight: 700; color: #3BAD49; display: flex; align-items: center; gap: 4px;">Detayları İncele &rarr;</a>
           </div>
@@ -1364,7 +1375,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
                 <strong>Bölge 2 Egzersiz:</strong> Sohbet temposunda hafif aerobik egzersiz mitokondri kalitesini doğrudan artırır.
               </div>
               <div class="v-time-card__step">
-                <strong>Soğuk Hidroterapi:</strong> Sabah duşunun sonundaki 2 dakikalık soğuk su, dopamin salınımını ve kahverengi yağ aktivasyonunu uyarır.
+                <strong>Soğuk Hidroterapi:</strong> Sabah duşunun sonundaki kısa süreli soğuk suyun dopamin salınımını ve kahverengi yağ dokusunun aktivitesini artırabileceğini gösteren çalışmalar vardır. Kalp-damar hastalığı olanlar önce hekimine danışmalıdır.
               </div>
             </div>
           </div>

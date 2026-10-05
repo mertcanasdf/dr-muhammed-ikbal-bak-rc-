@@ -17,7 +17,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
   - slug: "tukenmislik-sendromu"
     category: "Zihin & Sosyal Yaşam"
-    title: "Tükenmişlik Sendromu: Biyolojik Nedenleri ve Çıkış Yolları"
+    title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
     image: "/assets/images/generated/articles/tukenmislik-sendromu.webp"
 ---
 

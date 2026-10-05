@@ -1,5 +1,5 @@
 ---
-title: "Şükran Pratiği Dopamin Sistemini Nasıl Şekillendirir?"
+title: "Şükran Pratiği Beyni ve Ruh Hâlini Nasıl Etkiler?"
 date: 2026-06-21
 description: "Günlük şükran ve minnettarlık egzersizlerinin dopamin, serotonin salınımı ve beynin ödül mekanizmaları üzerindeki etkisi."
 category: "Zihin & Sosyal Yaşam"

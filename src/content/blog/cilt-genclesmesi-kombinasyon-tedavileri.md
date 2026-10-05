@@ -17,7 +17,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/altin-igne.webp"
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
+    title: "Senolitik Tedaviler ve Cilt: \"Zombi\" Hücreler Hakkında Ne Biliniyor?"
     image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
 ---
 

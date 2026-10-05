@@ -1,5 +1,5 @@
 ---
-title: "Günde 30 Dakika Okumak Beyni Nasıl Değiştirir?"
+title: "Kitap Okumak Beyni ve Bilişsel Yaşlanmayı Nasıl Etkiler?"
 date: 2026-06-21
 description: "Kitap okuma alışkanlığının beyindeki beyaz madde bütünlüğü, empati ağları ve bilişsel rezerv üzerindeki etkisi."
 category: "Zihin & Sosyal Yaşam"

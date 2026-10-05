@@ -1,5 +1,5 @@
 ---
-title: "Tükenmişlik Sendromu: Biyolojik Nedenleri ve Çıkış Yolları"
+title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
 date: 2026-06-21
 description: "Tükenmişlik (burnout) nedir, stres biyolojisiyle ilişkisi hakkında neler biliniyor, 'adrenal yorgunluk' neden geçerli bir tanı değildir ve çıkış yolları nelerdir?"
 category: "Zihin & Sosyal Yaşam"

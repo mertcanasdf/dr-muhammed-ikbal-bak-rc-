@@ -1,5 +1,5 @@
 ---
-title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
+title: "Senolitik Tedaviler ve Cilt: \"Zombi\" Hücreler Hakkında Ne Biliniyor?"
 date: 2026-05-28
 description: "Senesans (zombi) hücreler nedir, topikal senolitiklerle ilgili fare çalışmaları ne gösterdi ve doğal senolitik bileşikler hakkında ne biliniyor?"
 category: "Skin Longevity"
@@ -28,7 +28,7 @@ relatedArticles:
 
 Yaşlanma karşıtı tıp dünyasında son yılların en çok konuşulan ve heyecan yaratan kavramlarından biri şüphesiz **senolitik tedavilerdir**. Yaşlı farelerde yapılan güncel bir çalışma, cilde uygulanan bir senolitiğin yaşlı cilt dokusundaki bölünmeyen "zombi" (senesans) hücreleri azaltabildiğini ve yara iyileşmesini hızlandırabildiğini gösterdi.
 
-Bu araştırma, cildin yaşlanmasını sadece kozmetik bir sorun olarak değil, hücresel düzeyde bir biyolojik fonksiyon kaybı olarak ele alıyor. Bu yazımızda, bu araştırmanın neyi gösterip neyi göstermediğini, zombi hücrelerin vücudumuza etkilerini ve hücresel arınmayı desteklemenin doğal yollarını ele alıyoruz.
+Bu araştırma, cildin yaşlanmasını sadece kozmetik bir sorun olarak değil, hücresel düzeyde bir biyolojik fonksiyon kaybı olarak ele alıyor. Bu yazımızda, bu araştırmanın neyi gösterip neyi göstermediğini, zombi hücrelerin vücudumuza etkilerini ve "doğal senolitik" olarak anılan bileşikler hakkında bilinenleri ele alıyoruz.
 
 ## Senesans (Zombi) Hücreler Nedir?
 
@@ -46,7 +46,7 @@ Shvedova ve arkadaşları (Aging, 2024), 24 aylık farelerin derisine 5 gün boy
 
 ABT-263 (navitoklaks) bir kanser ilacı adayıdır ve yan etkileri vardır; insanlarda kozmetik amaçla kullanımı için onaylanmış ya da kanıtlanmış bir ürün yoktur.
 
-## Doğal Senolitikler ve Hücresel Arınma
+## "Doğal Senolitikler" Hakkında Ne Biliniyor?
 
 Senolitik ilaçlar insanlarda hâlâ klinik araştırma aşamasındadır. Laboratuvar ve hayvan çalışmalarında senolitik etkileri incelenen doğal bileşikler şunlardır:
 
@@ -58,7 +58,7 @@ Senolitik ilaçlar insanlarda hâlâ klinik araştırma aşamasındadır. Labora
 
 **Kersetin** (kırmızı soğan, elma kabuğu, kapari), bir kanser ilacı olan dasatinib ile birlikte ilaç dozlarında verildiğinde küçük bir insan çalışmasında yağ dokusu ve deride senesans hücre belirteçlerini azaltmıştır (Hickson ve ark., 2019). Bu, hekim gözetiminde yapılan bir araştırmadır; besinlerle alınan kersetinin benzer bir etkisi gösterilmemiştir.
 
-### 3. Düzenli Otofaji ve Aralıklı Oruç
+### 3. Otofaji ve Oruç
 
 Otofaji ile hücresel yaşlanma arasındaki bağlantılar araştırılmaktadır; ancak orucun insanlarda senesans hücreleri azalttığına dair doğrudan kanıt yoktur.
 

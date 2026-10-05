@@ -1,5 +1,5 @@
 ---
-title: "Müzik Dinlemek Kortizolü Nasıl Düşürür?"
+title: "Müzik Dinlemek Stresi Nasıl Etkiler? Kortizol ve Kanıtlar"
 date: 2026-06-21
 description: "Müzik dinlemenin otonom sinir sistemi ve stres hormonu olan kortizol üzerindeki fizyolojik etkileri."
 category: "Zihin & Sosyal Yaşam"

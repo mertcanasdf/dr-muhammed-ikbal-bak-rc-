@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
+    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
   - slug: "retinoid-nedir"
     category: "Skin Longevity"
     title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/articles/retinoid-nedir.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/articles/ciltte-kollajen-kaybi.webp"
 ---
 
 ## Güneş kremi seçerken ilk bakılacaklar

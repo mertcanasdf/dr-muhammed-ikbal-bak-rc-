@@ -3,7 +3,7 @@ title: "Günde 30 Dakika Okumak Beyni Nasıl Değiştirir?"
 date: 2026-06-21
 description: "Kitap okuma alışkanlığının beyindeki beyaz madde bütünlüğü, empati ağları ve bilişsel rezerv üzerindeki etkisi."
 category: "Zihin & Sosyal Yaşam"
-image: "/assets/images/generated/topics/kitap-beyin.webp"
+image: "/assets/images/generated/articles/kitap-okuma-ve-beyin.webp"
 readTime: "5 dk"
 takeaways:
   - "Küçük bir beyin görüntüleme çalışmasında, roman okuyan katılımcılarda sol temporal bölgede bağlantı artışı gözlendi ve bu artış okuma bittikten sonraki günlerde de sürdü."
@@ -13,7 +13,7 @@ relatedArticles:
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/topics/nmn-nad.webp"
+    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 ---
 
 Kitap okumak, sadece bilgi edinme süreci değil, beyni çok yönlü çalıştıran zihinsel bir egzersizdir. Okuma eylemi esnasında beyin, karmaşık bir görsel, dilsel ve zihinsel entegrasyon gerçekleştirir.

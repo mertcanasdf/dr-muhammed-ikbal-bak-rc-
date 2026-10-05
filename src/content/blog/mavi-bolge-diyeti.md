@@ -3,7 +3,7 @@ title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkl
 date: 2026-03-28
 description: "Dünyanın beş mavi bölgesinde 100 yıl ve üzeri yaşayan insanların ortak beslenme ilkeleri ve bunları hayatınıza nasıl taşıyabileceğiniz."
 category: "Beslenme"
-image: "/assets/images/generated/topics/mavi-bolge.webp"
+image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
 readTime: "10 dk"
 takeaways:
   - "Mavi bölge sakinlerinin beslenmesi büyük ölçüde bitkisel, baklagil ağırlıklı ve şekeri az bir düzen olarak tanımlanıyor."
@@ -15,11 +15,11 @@ relatedArticles:
   - slug: "aralikli-oruc-longevity"
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/topics/aralikli-oruc.webp"
+    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
     title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/topics/telomer.webp"
+    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
 ---
 
 Dünya üzerinde, 100 yaşına ulaşan insanların görece sık görüldüğü bildirilen beş bölge var. Araştırmacı ve yazar Dan Buettner'in "Mavi Bölgeler" adını verdiği bu coğrafyalar — İtalya'nın Sardunya adası, Japonya'nın Okinawa adası, Kosta Rika'nın Nicoya yarımadası, Yunanistan'ın İkaria adası ve Amerikalı Adventistlerin yaşadığı Loma Linda, Kaliforniya — bilim insanlarına yüzyıl önce sormayı düşünmedikleri sorular sorduruyor: Neden bu insanlar bu kadar uzun ve sağlıklı yaşıyor?

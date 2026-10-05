@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "magnezyum-eksikligi"
     category: "Beslenme"
     title: "Magnezyum Eksikliği Belirtileri ve Magnezyum Kaynakları"
-    image: "/assets/images/generated/topics/urun-magnezyum.webp"
+    image: "/assets/images/generated/articles/magnezyum-eksikligi.webp"
   - slug: "omega-3-ne-ise-yarar"
     category: "Beslenme"
     title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
-    image: "/assets/images/generated/topics/urun-omega3.webp"
+    image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/articles/ciltte-kollajen-kaybi.webp"
 ---
 
 ## D3 ve K2'nin görevleri

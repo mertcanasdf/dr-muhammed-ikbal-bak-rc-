@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
-    image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
+    image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
   - slug: "retinoid-nedir"
     category: "Skin Longevity"
     title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/articles/retinoid-nedir.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
+    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
 ---
 
 ## Kollajen ciltte ne yapar?

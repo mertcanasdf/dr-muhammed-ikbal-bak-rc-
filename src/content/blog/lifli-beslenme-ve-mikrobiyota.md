@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
     title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
   - slug: "insulin-direnci-belirtileri"
     category: "Beslenme"
     title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
-    image: "/assets/images/generated/success_insulin_resistance.webp"
+    image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
   - slug: "polifenoller-ve-saglik"
     category: "Beslenme"
     title: "Polifenoller ve Sağlık: Hangi Besinlerde Bulunur?"
-    image: "/assets/images/generated/topics/cellular-science.webp"
+    image: "/assets/images/generated/articles/polifenoller-ve-saglik.webp"
 ---
 
 ## Lif ve mikrobiyota arasındaki ilişki

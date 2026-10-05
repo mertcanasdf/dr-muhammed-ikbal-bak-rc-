@@ -3,7 +3,7 @@ title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
 date: 2026-02-20
 description: "Bölge 2 kardiyo neden mitokondriyal biyogenez ve kardiyorespiratuvar fitness açısından longevity biliminin en güçlü egzersiz müdahalesi olarak öne çıkıyor?"
 category: "Hareket"
-image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+image: "/assets/images/generated/articles/bolge-2-kardiyo.webp"
 readTime: "9 dk"
 takeaways:
   - "Bölge 2, MHR'nin %60-70'inde gerçekleştirilen düşük-orta yoğunluklu aerobik egzersizdir."
@@ -15,11 +15,11 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/guide_cortisol_stress.webp"
+    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
   - slug: "aralikli-oruc-longevity"
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/topics/aralikli-oruc.webp"
+    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
 ---
 
 Spor salonunda en hızlı koşan, en ağır kaldıran değil; en uzun yaşayan kazanır. Bu felsefeyi longevity bilimine taşıyan kavram, **Bölge 2 Kardiyo**'dur. Profesyonel dayanıklılık sporcularından longevity araştırmacılarına, doktor Peter Attia'dan fizyolog Iñigo San Millán'a kadar dünyanın önde gelen sağlık uzmanları, bu egzersiz bölgesini sağlıklı yaşlanma için önemli bir araç olarak öneriyor.

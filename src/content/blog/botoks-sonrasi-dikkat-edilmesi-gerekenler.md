@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "dermal-dolgu-guvenligi"
     category: "Skin Longevity"
     title: "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi"
-    image: "/assets/images/generated/topics/dermal-dolgu.webp"
+    image: "/assets/images/generated/articles/dermal-dolgu-guvenligi.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
+    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
-    image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
+    image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
 ---
 
 ## Botoks sonrası süreç nasıldır?

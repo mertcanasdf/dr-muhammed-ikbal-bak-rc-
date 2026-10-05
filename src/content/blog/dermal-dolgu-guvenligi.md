@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "botoks-sonrasi-dikkat-edilmesi-gerekenler"
     category: "Skin Longevity"
     title: "Botoks Sonrası Dikkat Edilmesi Gerekenler"
-    image: "/assets/images/generated/topics/medikal-estetik.webp"
+    image: "/assets/images/generated/articles/botoks-sonrasi-dikkat-edilmesi-gerekenler.webp"
   - slug: "prp-mi-eksozom-mu"
     category: "Skin Longevity"
     title: "PRP mi Eksozom mu? Kanıtları ve Güvenliği Nasıl Okumalı?"
-    image: "/assets/images/generated/topics/prp-eksozom.webp"
+    image: "/assets/images/generated/articles/prp-mi-eksozom-mu.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
+    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
 ---
 
 ## Dermal dolgu nedir?

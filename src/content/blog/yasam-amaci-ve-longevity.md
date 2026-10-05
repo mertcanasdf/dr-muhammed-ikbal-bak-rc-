@@ -3,7 +3,7 @@ title: "Yaşam Amacı Olan İnsanlar Daha Uzun Yaşar mı?"
 date: 2026-06-21
 description: "Yaşam amacı (ikigai) ile daha uzun yaşam ve kalp-damar sağlığı arasındaki ilişki hakkında araştırmalar ne söylüyor?"
 category: "Zihin & Sosyal Yaşam"
-image: "/assets/images/generated/topics/yasam-amaci.webp"
+image: "/assets/images/generated/articles/yasam-amaci-ve-longevity.webp"
 readTime: "5 dk"
 takeaways:
   - "Bir meta-analizde, yaşam amacı duygusu yüksek olanlarda tüm nedenlere bağlı ölüm riski yaklaşık %17 daha düşük bulundu (gözlemsel ilişki)."
@@ -13,7 +13,7 @@ relatedArticles:
   - slug: "mavi-bolge-diyeti"
     category: "Beslenme"
     title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
-    image: "/assets/images/generated/topics/mavi-bolge.webp"
+    image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
 ---
 
 Uzun ve sağlıklı yaşamı inceleyen araştırmalar, beslenme ve hareketin yanında psikolojik ve sosyal faktörlere de dikkat çekiyor. Bunlardan biri, Japonların *ikigai* ("yaşamaya değer kılan şey") olarak adlandırdığı yaşam amacı duygusudur. Japonya'da 43.000'den fazla yetişkinin izlendiği Ohsaki çalışmasında, ikigai duygusu olmadığını belirtenlerde 7 yıllık izlemde ölüm riski daha yüksek bulunmuştur (Sone ve ark., 2008).

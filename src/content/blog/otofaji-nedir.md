@@ -3,7 +3,7 @@ title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
 date: 2026-05-15
 description: "Hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü otofaji mekanizması nedir ve onu desteklediği düşünülen yaklaşımlar nelerdir?"
 category: "Longevity Bilimi"
-image: "/assets/images/generated/topics/otofaji.webp"
+image: "/assets/images/generated/articles/otofaji-nedir.webp"
 readTime: "8 dk"
 takeaways:
   - "Otofaji, hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü hayati bir temizlik mekanizmasıdır."
@@ -16,15 +16,15 @@ relatedArticles:
   - slug: "aralikli-oruc-longevity"
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/topics/aralikli-oruc.webp"
+    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
     title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/topics/telomer.webp"
+    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/topics/nmn-nad.webp"
+    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 ---
 
 Hücrelerimizde sürekli çalışan ve açlık ya da egzersiz gibi durumlarda artabilen bir temizlik mekanizması vardır: **otofaji**. Bu süreç, Yunancada "kendi kendini yemek" anlamına gelir ve 2016 Nobel Fizyoloji ve Tıp Ödülü'ne layık görülen bir keşiftir. Japon bilim insanı Yoshinori Ohsumi'nin bu alandaki çalışmaları, hücresel sağlık ve uzun ömür bilimimizi kökten değiştirdi.

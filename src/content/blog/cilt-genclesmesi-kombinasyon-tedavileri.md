@@ -3,7 +3,7 @@ title: "Altın İğne ve Eksozom Kombinasyonu: Mantığı, Kanıtlar ve Sınırl
 date: 2026-06-22
 description: "Altın iğne ve eksozom uygulamalarının cilt sıkılaştırma, kolajen sentezi ve leke görünümü üzerindeki rolü hakkında bilgilendirici rehber."
 category: "Skin Longevity"
-image: "/assets/images/generated/success-story.webp"
+image: "/assets/images/generated/articles/cilt-genclesmesi-kombinasyon-tedavileri.webp"
 readTime: "6 dk"
 takeaways:
   - "Altın iğne, dermis tabakasında mikro kanallar açarak radyofrekans enerjisiyle kolajen sentezini tetikler."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "altin-igne"
     category: "Skin Longevity"
     title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi ve Cilt Yenilenmesi"
-    image: "/assets/images/generated/online-course.webp"
+    image: "/assets/images/generated/articles/altin-igne.webp"
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
 ---
 
 Cilt yenileme ve dermakozmetik uygulamalarında son yıllarda ilgi gören yaklaşımlardan biri, fiziksel uyaranlar ile hücresel bilgi taşıyıcılarının birlikte kullanılmasıdır. Bunun bir örneği, **Altın İğne (Fraksiyonel Radyofrekans)** ile **Eksozom** tedavilerinin eş zamanlı veya kombine olarak uygulanmasıdır. Bu ikili protokolle, cildin kendini yenileme mekanizmalarının hem mekanik hem de biyolojik uyaranlarla desteklenmesi hedeflenir.

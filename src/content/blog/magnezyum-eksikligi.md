@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "d3-k2-birlikte-kullanilir-mi"
     category: "Beslenme"
     title: "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik"
-    image: "/assets/images/generated/topics/d3-vitamini.webp"
+    image: "/assets/images/generated/articles/d3-k2-birlikte-kullanilir-mi.webp"
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
     title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
 ---
 
 ## Magnezyum ne işe yarar?

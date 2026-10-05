@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "dijital-tukenmislik"
     category: "Zihin & Sosyal Yaşam"
     title: "Dijital Tükenmişlik Nedir? Ekran Yükünü Azaltma Rehberi"
-    image: "/assets/images/generated/topics/tukenmislik.webp"
+    image: "/assets/images/generated/articles/dijital-tukenmislik.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
 ---
 
 ## Sosyal bağlantı ne demektir?

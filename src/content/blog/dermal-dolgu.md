@@ -3,7 +3,7 @@ title: "Dermal Dolgu Uygulamaları: Yüz Kontürü, Hacim ve Bilinmesi Gerekenle
 date: 2026-06-20
 description: "Hyaluronik asit dolgular nasıl çalışır, hangi bölgelerde kullanılır, yüz analizi neden önemlidir ve olası riskler nelerdir?"
 category: "Skin Longevity"
-image: "/assets/images/generated/success_weight_loss.webp"
+image: "/assets/images/generated/articles/dermal-dolgu.webp"
 readTime: "5 dk"
 takeaways:
   - "Hyaluronik asit dolgular, yaşla birlikte azalan hacmi geçici olarak desteklemek için kullanılır."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/guide_cortisol_stress.webp"
+    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 ---
 
 Yaşlanma süreciyle birlikte cilt altı yağ dokusunda azalmalar, kemik yapısında rezorpsiyon (erime) ve ciltte nem kaybı meydana gelir. **Dermal dolgu** uygulamaları, bu hacim kayıplarını desteklemek ve yüz kontürünü belirginleştirmek için medikal estetikte sık kullanılan yöntemlerdendir.

@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
     title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
 ---
 
 ## Toparlanma ne demektir?

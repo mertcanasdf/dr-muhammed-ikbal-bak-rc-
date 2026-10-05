@@ -3,7 +3,7 @@ title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
 date: 2026-04-10
 description: "NAD+ neden hücresel yaşlanmanın merkezindedir ve NMN takviyesinin insan çalışmalarında ne gibi sonuçlar verdiği."
 category: "Longevity Bilimi"
-image: "/assets/images/generated/topics/nmn-nad.webp"
+image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 readTime: "11 dk"
 takeaways:
   - "NAD+, enerji üretimi, DNA onarımı ve sirtuin aktivitesi için gereklidir; bazı dokularda yaşla birlikte azaldığı gösterilmiştir."
@@ -15,11 +15,11 @@ relatedArticles:
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/topics/otofaji.webp"
+    image: "/assets/images/generated/articles/otofaji-nedir.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
     title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/topics/telomer.webp"
+    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
 ---
 
 Longevity araştırmalarının son on yılında en çok ilgi çeken moleküllerin başında **NAD+** (nikotinamid adenin dinükleotid) gelir. David Sinclair, Peter Attia ve Rhonda Patrick gibi dünyaca tanınan longevity araştırmacılarının ortak bir odak noktası olan bu koenzim, neden bu denli kritiktir?

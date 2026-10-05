@@ -3,7 +3,7 @@ title: "Cilt Mezoterapisi ve Gençlik Aşıları: Nem Aşıları, Somon DNA ve K
 date: 2026-06-17
 description: "Mezoterapi ve cilt gençlik aşıları (skin booster) nedir, hyaluronik asit ve polinükleotit (somon DNA) uygulamaları hakkında kanıtlar ne söylüyor?"
 category: "Skin Longevity"
-image: "/assets/images/generated/supplements.webp"
+image: "/assets/images/generated/articles/mezoterapi.webp"
 readTime: "5 dk"
 takeaways:
   - "Mezoterapi, hyaluronik asit, vitaminler, peptitler ve koenzimleri içeren kokteyllerin doğrudan dermise enjeksiyonudur."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
   - slug: "d3-vitamini-eksikligi"
     category: "Beslenme"
     title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
-    image: "/assets/images/generated/topics/d3-vitamini.webp"
+    image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
 ---
 
 Cildimizin en dış tabakası (epidermis), bizi dış etkenlerden koruyan güçlü bir bariyer oluşturur. Ancak bu güçlü bariyer, cildin genç kalmasını sağlayan nemlendirici kremler, serumlar ve yaşlanma karşıtı aktif maddelerin cildin alt tabakalarına (dermis) ulaşmasını da büyük ölçüde engeller. **Mezoterapi** ve **gençlik aşıları (skin booster)**, etken maddeleri ince iğnelerle doğrudan bu alt tabakaya bırakmayı amaçlayan uygulamalardır.

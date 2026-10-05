@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
   - slug: "kas-kutlesi-ve-yaslanma"
     category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
     title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
 ---
 
 ## Kreatin nedir?

@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "ekran-kullanimi-ve-uyku"
     category: "Uyku"
     title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
-    image: "/assets/images/generated/stress-sleep.webp"
+    image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
   - slug: "sosyal-baglanti-ve-uzun-omur"
     category: "Zihin & Sosyal Yaşam"
     title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
-    image: "/assets/images/generated/topics/doga-zihin.webp"
+    image: "/assets/images/generated/articles/sosyal-baglanti-ve-uzun-omur.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
     category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
 ---
 
 ## Dijital tükenmişlik ne anlama gelir?

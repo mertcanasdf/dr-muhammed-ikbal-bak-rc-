@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "vo2max-ve-longevity"
     category: "Hareket"
     title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
   - slug: "hareketsizlik-ve-metabolik-saglik"
     category: "Hareket"
     title: "Hareketsizlik ve Metabolik Sağlık: Gün İçindeki Oturma Süresini Azaltmak"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/hareketsizlik-ve-metabolik-saglik.webp"
   - slug: "denge-egzersizleri-yaslanma"
     category: "Hareket"
     title: "Denge Egzersizleri ve Yaşlanma: Düşme Riskini Azaltmaya Yardımcı Yaklaşım"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/denge-egzersizleri-yaslanma.webp"
 ---
 
 ## Yürüyüş neden iyi bir başlangıçtır?

@@ -3,7 +3,7 @@ title: "Sanat Üretmek Beyin Sağlığını Nasıl Etkiler?"
 date: 2026-06-21
 description: "Sanat üretiminin beyin sağlığı, nöroplastisite ve stres yönetimi üzerindeki etkilerini inceleyen bilimsel longevity rehberi."
 category: "Zihin & Sosyal Yaşam"
-image: "/assets/images/generated/topics/sanat-beyin.webp"
+image: "/assets/images/generated/articles/sanat-ve-beyin-sagligi.webp"
 readTime: "6 dk"
 takeaways:
   - "Sanat ve yaratıcı uğraşlar, ruh sağlığı ve iyi oluşla ilişkilidir; Dünya Sağlık Örgütü'nün kapsamlı derlemesi bu ilişkiyi destekliyor."
@@ -13,7 +13,7 @@ relatedArticles:
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/topics/otofaji.webp"
+    image: "/assets/images/generated/articles/otofaji-nedir.webp"
 ---
 
 Sanat üretimi, sadece duygusal bir dışavurum değil, beyni çok yönlü çalıştıran bir uğraştır. Dünya Sağlık Örgütü'nün 3.000'den fazla çalışmayı inceleyen raporu, görsel sanatlar, müzik, yazarlık veya el sanatları gibi yaratıcı etkinliklerin ruh sağlığını desteklemede ve bazı hastalıkların yönetiminde rol oynayabileceğini ortaya koymuştur (Fancourt ve Finn, 2019).

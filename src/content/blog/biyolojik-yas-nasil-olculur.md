@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "vo2max-ve-longevity"
     category: "Hareket"
     title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
   - slug: "kavrama-gucu-ve-saglik"
     category: "Hareket"
     title: "Kavrama Gücü Sağlık Hakkında Ne Söyler?"
-    image: "/assets/images/generated/topics/cellular-science.webp"
+    image: "/assets/images/generated/articles/kavrama-gucu-ve-saglik.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
     category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
 ---
 
 ## Biyolojik yaş ne demek?

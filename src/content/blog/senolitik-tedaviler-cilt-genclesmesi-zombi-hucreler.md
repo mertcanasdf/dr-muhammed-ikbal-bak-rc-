@@ -3,7 +3,7 @@ title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücreler
 date: 2026-05-28
 description: "Senesans (zombi) hücreler nedir, topikal senolitiklerle ilgili fare çalışmaları ne gösterdi ve doğal senolitik bileşikler hakkında ne biliniyor?"
 category: "Skin Longevity"
-image: "/assets/images/generated/nutrition-longevity.webp"
+image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
 readTime: "5 dk"
 takeaways:
   - "Senesans (zombi) hücreler bölünmeyi durdurmuş ama ölmemiş hücrelerdir; salgıladıkları iltihap yanlısı maddeler çevre dokuyu etkileyebilir."
@@ -15,15 +15,15 @@ relatedArticles:
   - slug: "aralikli-oruc-longevity"
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/topics/aralikli-oruc.webp"
+    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
     title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/topics/telomer.webp"
+    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/topics/nmn-nad.webp"
+    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 ---
 
 Yaşlanma karşıtı tıp dünyasında son yılların en çok konuşulan ve heyecan yaratan kavramlarından biri şüphesiz **senolitik tedavilerdir**. Yaşlı farelerde yapılan güncel bir çalışma, cilde uygulanan bir senolitiğin yaşlı cilt dokusundaki bölünmeyen "zombi" (senesans) hücreleri azaltabildiğini ve yara iyileşmesini hızlandırabildiğini gösterdi.

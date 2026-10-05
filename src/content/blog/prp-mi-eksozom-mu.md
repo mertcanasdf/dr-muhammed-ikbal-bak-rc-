@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "dermal-dolgu-guvenligi"
     category: "Skin Longevity"
     title: "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi"
-    image: "/assets/images/generated/topics/dermal-dolgu.webp"
+    image: "/assets/images/generated/articles/dermal-dolgu-guvenligi.webp"
   - slug: "botoks-sonrasi-dikkat-edilmesi-gerekenler"
     category: "Skin Longevity"
     title: "Botoks Sonrası Dikkat Edilmesi Gerekenler"
-    image: "/assets/images/generated/topics/medikal-estetik.webp"
+    image: "/assets/images/generated/articles/botoks-sonrasi-dikkat-edilmesi-gerekenler.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
-    image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
+    image: "/assets/images/generated/articles/ciltte-kollajen-kaybi.webp"
 ---
 
 ## PRP nedir?

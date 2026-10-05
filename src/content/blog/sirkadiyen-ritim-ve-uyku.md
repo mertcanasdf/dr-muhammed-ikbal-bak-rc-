@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
   - slug: "ekran-kullanimi-ve-uyku"
     category: "Uyku"
     title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
-    image: "/assets/images/generated/stress-sleep.webp"
+    image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
   - slug: "mitokondri-sagligi-nasil-desteklenir"
     category: "Longevity Bilimi"
     title: "Mitokondri Sağlığı Nasıl Desteklenir?"
-    image: "/assets/images/generated/topics/cellular-science.webp"
+    image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
 ---
 
 ## Sirkadiyen ritim nedir?

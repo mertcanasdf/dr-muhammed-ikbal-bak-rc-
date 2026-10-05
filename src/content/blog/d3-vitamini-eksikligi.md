@@ -3,7 +3,7 @@ title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İli�
 date: 2026-03-15
 description: "D vitamini eksikliği neden yaygın, hangi belirtilere yol açabilir, kan düzeyleri nasıl yorumlanır ve takviyeler hakkında kanıtlar ne söylüyor?"
 category: "Beslenme"
-image: "/assets/images/generated/topics/d3-vitamini.webp"
+image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
 readTime: "8 dk"
 takeaways:
   - "D vitamini vücutta bir hormon gibi davranır; kemik sağlığı ve kalsiyum dengesi için gereklidir."
@@ -15,11 +15,11 @@ relatedArticles:
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
     title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/topics/telomer.webp"
+    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/topics/nmn-nad.webp"
+    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 ---
 
 D vitamini eksikliği dünyada ve Türkiye'de yaygın görülen bir durumdur. Peki eksiklik neden bu kadar sık, hangi belirtilere yol açabilir ve takviyeler hakkında kanıtlar ne söylüyor?

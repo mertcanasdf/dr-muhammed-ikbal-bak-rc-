@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "insulin-direnci-belirtileri"
     category: "Beslenme"
     title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
-    image: "/assets/images/generated/success_insulin_resistance.webp"
+    image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
   - slug: "vo2max-ve-longevity"
     category: "Hareket"
     title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
 ---
 
 ## Hareketsizlik neden farklı bir başlıktır?

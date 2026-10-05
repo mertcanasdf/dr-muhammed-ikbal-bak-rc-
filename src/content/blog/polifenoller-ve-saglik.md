@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "omega-3-ne-ise-yarar"
     category: "Beslenme"
     title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
-    image: "/assets/images/generated/topics/urun-omega3.webp"
+    image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
   - slug: "lifli-beslenme-ve-mikrobiyota"
     category: "Beslenme"
     title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
-    image: "/assets/images/generated/topics/tarifler-keto.webp"
+    image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
   - slug: "mitokondri-sagligi-nasil-desteklenir"
     category: "Longevity Bilimi"
     title: "Mitokondri Sağlığı Nasıl Desteklenir?"
-    image: "/assets/images/generated/topics/cellular-science.webp"
+    image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
 ---
 
 ## Polifenol nedir?

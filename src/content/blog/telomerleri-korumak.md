@@ -3,7 +3,7 @@ title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
 date: 2026-04-24
 description: "Kromozom uçlarındaki telomerlerin kısalma hızı yaşam tarzı faktörleriyle ilişkilidir; araştırmalarda telomer sağlığıyla ilişkilendirilen 7 alışkanlık."
 category: "Longevity Bilimi"
-image: "/assets/images/generated/topics/telomer.webp"
+image: "/assets/images/generated/articles/telomerleri-korumak.webp"
 readTime: "10 dk"
 takeaways:
   - "Telomerlerin kısalma hızı yaşam tarzı faktörleriyle ilişkilendirilmektedir; bu ilişkiler çoğunlukla gözlemsel çalışmalardan gelir."
@@ -15,11 +15,11 @@ relatedArticles:
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/topics/otofaji.webp"
+    image: "/assets/images/generated/articles/otofaji-nedir.webp"
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/guide_cortisol_stress.webp"
+    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 ---
 
 Kromozomlarınızın uçlarındaki bu küçük "kapakçıklar" — telomerler — biyolojik yaşlanmayla ilişkilendirilen göstergelerden biridir. Ayakkabı bağcığının ucundaki plastik kılıf gibi, telomerler DNA'nızı koruyan koruyucu uçlardır. Her hücre bölünmesinde biraz kısalan bu yapıların uzunluğu, kronik hastalık riski ve ömür uzunluğuyla ilişkilendirilmektedir.

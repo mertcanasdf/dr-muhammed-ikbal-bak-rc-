@@ -3,7 +3,7 @@ title: "PRP ve Eksozom Uygulamaları: Medikal Estetikte Rejeneratif Yaklaşımla
 date: 2026-06-16
 description: "PRP ve eksozom uygulamaları nasıl çalışır, cilt ve saç için kanıtlar ne kadar güçlü, güvenlik açısından nelere dikkat edilmeli?"
 category: "Skin Longevity"
-image: "/assets/images/generated/topics/cellular-science.webp"
+image: "/assets/images/generated/articles/prp-eksozom.webp"
 readTime: "5 dk"
 takeaways:
   - "PRP, kişinin kendi kanından elde edilen ve büyüme faktörleri içeren trombositten zengin plazmadır."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/topics/nmn-nad.webp"
+    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 ---
 
 Rejeneratif tıp, dokuların kendi onarım kapasitesini desteklemeyi amaçlayan bir alandır. Medikal estetikte bu yaklaşımın en çok konuşulan iki uygulaması **PRP (Trombositten Zengin Plazma)** ve **eksozom** uygulamalarıdır. İkisi de son yıllarda ilgi görüyor; ancak kanıt düzeyleri ve güvenlik durumları birbirinden oldukça farklı.

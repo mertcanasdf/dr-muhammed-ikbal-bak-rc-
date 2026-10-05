@@ -3,7 +3,7 @@ title: "Tükenmişlik Sendromu: Biyolojik Nedenleri ve Çıkış Yolları"
 date: 2026-06-21
 description: "Tükenmişlik (burnout) nedir, stres biyolojisiyle ilişkisi hakkında neler biliniyor, 'adrenal yorgunluk' neden geçerli bir tanı değildir ve çıkış yolları nelerdir?"
 category: "Zihin & Sosyal Yaşam"
-image: "/assets/images/generated/topics/tukenmislik.webp"
+image: "/assets/images/generated/articles/tukenmislik-sendromu.webp"
 readTime: "6 dk"
 takeaways:
   - "Dünya Sağlık Örgütü tükenmişliği, başarıyla yönetilemeyen kronik iş stresinden kaynaklanan mesleki bir olgu olarak tanımlar."
@@ -13,7 +13,7 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/guide_cortisol_stress.webp"
+    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 ---
 
 Tükenmişlik sendromu sıklıkla sadece bir motivasyon kaybı olarak görülür. Dünya Sağlık Örgütü ise tükenmişliği (burnout), başarıyla yönetilemeyen kronik iş stresinden kaynaklanan mesleki bir olgu olarak tanımlar. Üç temel boyutu vardır: enerji tükenmesi ve bitkinlik, işe karşı zihinsel uzaklaşma ya da olumsuz tutum, mesleki yeterlilik hissinde azalma.

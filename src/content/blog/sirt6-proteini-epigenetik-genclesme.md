@@ -3,7 +3,7 @@ title: "SIRT6 Proteini ve Epigenetik Yaşlanma: 2026 Fare Çalışması Ne Göst
 date: 2026-05-27
 description: "Mayıs 2026'da yayımlanan bir fare çalışmasında SIRT6'nın genetik olarak artırılması, yaşlı karaciğerde kromatin değişikliklerinin bir kısmını gençlere benzer düzene döndürdü. Bulgular ne anlama geliyor, ne anlama gelmiyor?"
 category: "Longevity Bilimi"
-image: "/assets/images/generated/success_chronic_fatigue.webp"
+image: "/assets/images/generated/articles/sirt6-proteini-epigenetik-genclesme.webp"
 readTime: "6 dk"
 takeaways:
   - "SIRT6, DNA'nın paketlenme biçimi olan kromatin yapısının düzenlenmesinde rol oynayan bir proteindir."
@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "aralikli-oruc-longevity"
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/topics/aralikli-oruc.webp"
+    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
     title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/topics/telomer.webp"
+    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/topics/nmn-nad.webp"
+    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 ---
 
 Mayıs 2026'da *Nature Communications* dergisinde yayımlanan bir çalışma, yaşlanma biyolojisinde dikkat çeken bir sonuç ortaya koydu. Bar-İlan Üniversitesi'nden araştırmacılar, yaşlı farelerde **SIRT6** proteininin düzeyini genetik olarak artırdıklarında, karaciğer hücrelerinde yaşla birlikte bozulan DNA paketlenme düzeninin bir kısmının gençlere benzer hâle döndüğünü bildirdi.

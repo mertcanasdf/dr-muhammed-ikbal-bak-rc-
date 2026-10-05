@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "kas-kutlesi-ve-yaslanma"
     category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
   - slug: "lifli-beslenme-ve-mikrobiyota"
     category: "Beslenme"
     title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
-    image: "/assets/images/generated/topics/tarifler-keto.webp"
+    image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
 ---
 
 ## Protein neden önem kazanır?

@@ -3,7 +3,7 @@ title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
 date: 2026-03-05
 description: "Kronik yüksek kortizol kas kaybı, bilişsel etkiler ve telomer kısalmasıyla ilişkilendirilmektedir; kortizolü dengelemeye yardımcı olabilecek yaklaşımlar nelerdir?"
 category: "Zihin & Sosyal Yaşam"
-image: "/assets/images/generated/guide_cortisol_stress.webp"
+image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 readTime: "9 dk"
 takeaways:
   - "Kronik yüksek kortizol; kas kaybı, karın içi yağlanma, bilişsel etkiler ve bağışıklık sisteminde değişikliklerle ilişkilendirilmektedir."
@@ -15,11 +15,11 @@ relatedArticles:
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
     title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/topics/telomer.webp"
+    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
   - slug: "bolge-2-kardiyo"
     category: "Hareket"
     title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/bolge-2-kardiyo.webp"
 ---
 
 Sabah uyandığınızda günün stresiyle karşılaşıyorsunuz. İş toplantısı, trafik, çocuklar, finansal kaygılar, sosyal medya akışı… Vücudunuz her birini bir tehdit olarak algılıyor ve her seferinde kortizol salgılatıyor. Kısa süreli strese verilen bu fizyolojik yanıt hayatta kalma için evrimsel bir armağandır. Ancak bu yanıt kronikleştiğinde, yaşlanma sürecini olumsuz etkileyebilecek bir yük hâline gelebilir.

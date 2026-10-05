@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "biyolojik-yas-nasil-olculur"
     category: "Longevity Bilimi"
     title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
-    image: "/assets/images/generated/topics/cellular-science.webp"
+    image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
     category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
 ---
 
 ## Mitokondri nedir?

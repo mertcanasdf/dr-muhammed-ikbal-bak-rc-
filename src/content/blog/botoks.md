@@ -3,7 +3,7 @@ title: "Botulinum Toksin (Botoks): Mimik Kırışıklıklar, Masseter Uygulamas�
 date: 2026-06-18
 description: "Botoks nasıl etki eder, hangi kırışıklıklarda kullanılır, masseter uygulaması ve diş sıkma hakkında kanıtlar ne söylüyor, olası yan etkiler nelerdir?"
 category: "Skin Longevity"
-image: "/assets/images/generated/doctor-portrait.webp"
+image: "/assets/images/generated/articles/botoks.webp"
 readTime: "6 dk"
 takeaways:
   - "Botulinum toksin, kas kasılmasını sağlayan asetilkolin salınımını geçici olarak bloke ederek etki gösterir."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
-    image: "/assets/images/generated/nutrition-longevity.webp"
+    image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/guide_cortisol_stress.webp"
+    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 ---
 
 Medikal estetiğin en bilinen ve en yaygın olarak uygulanan işlemlerinden biri olan **Botulinum Toksin** (Botoks), mimik hareketlerine bağlı kırışıklıkların görünümünü geçici olarak azaltan bir uygulamadır. Doğru ellerde ve doğru dozlarda uygulandığında, cildin dinlenmiş, canlı ve tamamen doğal görünmesini sağlar.

@@ -3,7 +3,7 @@ title: "Doğada Geçirilen Zaman ve Zihinsel Toparlanma"
 date: 2026-06-21
 description: "Doğa ile temasın (Shinrin-yoku) prefrontal korteks aktivitesi ve stres düzeyleri üzerindeki yatıştırıcı etkileri."
 category: "Zihin & Sosyal Yaşam"
-image: "/assets/images/generated/topics/doga-zihin.webp"
+image: "/assets/images/generated/articles/doga-ve-zihin-sagligi.webp"
 readTime: "5 dk"
 takeaways:
   - "Günlük yaşamda yapılan bir çalışmada, doğada geçirilen 20–30 dakika tükürük kortizolündeki düşüşün en verimli olduğu süre olarak bulundu."
@@ -13,7 +13,7 @@ relatedArticles:
   - slug: "d3-vitamini-eksikligi"
     category: "Beslenme"
     title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
-    image: "/assets/images/generated/topics/d3-vitamini.webp"
+    image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
 ---
 
 Modern şehir hayatı ve sürekli ekran başında olmak, beynimizi sürekli bir "aşırı uyarılma" durumunda tutar. Japon kültüründe *Shinrin-yoku* (orman banyosu) olarak bilinen doğa ile temas, zihinsel yenilenme üzerindeki olumlu etkileri araştırmalarda gösterilen bir uygulamadır.

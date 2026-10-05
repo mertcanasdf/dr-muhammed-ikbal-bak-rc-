@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
 ---
 
 ## Denge neden önemlidir?

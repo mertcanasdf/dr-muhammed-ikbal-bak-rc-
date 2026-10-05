@@ -3,7 +3,7 @@ title: "Müzik Dinlemek Kortizolü Nasıl Düşürür?"
 date: 2026-06-21
 description: "Müzik dinlemenin otonom sinir sistemi ve stres hormonu olan kortizol üzerindeki fizyolojik etkileri."
 category: "Zihin & Sosyal Yaşam"
-image: "/assets/images/generated/topics/muzik-kortizol.webp"
+image: "/assets/images/generated/articles/muzik-ve-stres-kortizol.webp"
 readTime: "5 dk"
 takeaways:
   - "Dinlendirici müzikler, otonom sinir sisteminin parasempatik (dinlenme) kolunu aktive eder."
@@ -13,7 +13,7 @@ relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/guide_cortisol_stress.webp"
+    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 ---
 
 Müzik, insanlık tarihi boyunca bir terapi aracı olarak kullanılmıştır. Günümüzde yapılan çalışmalar, müziğin sinir sistemi ve stres yanıtı üzerinde ölçülebilir etkileri olabileceğini gösteriyor. Ucuz, kolay erişilebilir ve yan etkisi olmayan bir araç olarak stres yönetiminde değerlendirilmeye değer.

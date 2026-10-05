@@ -15,3 +15,7 @@ site-dist-*/
 scratch/
 temp_*.txt
 build-output.txt
+
+# Görsel üretim taslakları ve kayıtları
+gorsel-taslak/
+.gorsel-kayit/

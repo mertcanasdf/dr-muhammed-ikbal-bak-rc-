@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
   - slug: "biyolojik-yas-nasil-olculur"
     category: "Longevity Bilimi"
     title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
-    image: "/assets/images/generated/topics/cellular-science.webp"
+    image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
 ---
 
 ## VO₂max nedir?

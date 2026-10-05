@@ -3,7 +3,7 @@ title: "Kronik Uyku Bozuklukları ve Longevity: Glymphatic Sistem Temizliği ve 
 date: 2026-06-20
 description: "Yetersiz uykunun beynin atık temizleme sistemi (glimfatik sistem) ve büyüme hormonu salınımı üzerindeki etkileri; kaliteli uyku için kanıta dayalı öneriler."
 category: "Uyku"
-image: "/assets/images/generated/stress-sleep.webp"
+image: "/assets/images/generated/articles/uyku-bozukluklari-ve-glymphatic-temizlik.webp"
 readTime: "8 dk"
 takeaways:
   - "Hayvan çalışmaları, beynin atık temizleme (glimfatik) sisteminin uykuda belirgin şekilde daha aktif çalıştığını gösteriyor; insanlarda da uykuda beyin sıvısı akışının arttığına dair bulgular var."
@@ -14,11 +14,11 @@ relatedArticles:
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/topics/otofaji.webp"
+    image: "/assets/images/generated/articles/otofaji-nedir.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/topics/nmn-nad.webp"
+    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 ---
 
 Longevity ve sağlıklı yaşam söz konusu olduğunda genellikle beslenme ve egzersiz ön plana çıksa da, sağlıklı yaşlanmanın en temel dayanaklarından biri **kaliteli uykudur**. Uyku, pasif bir dinlenme süreci değil; beynin temizlendiği, hormonal dengenin kurulduğu ve hücresel onarım mekanizmalarının zirveye ulaştığı aktif bir yenilenme fazıdır. Kronik uyku bozuklukları, bu hayati süreçleri kesintiye uğratarak hücresel yaşlanmayı hızlandırır ve nörodejeneratif hastalıkların (Alzheimer, demans vb.) riskini artırır.

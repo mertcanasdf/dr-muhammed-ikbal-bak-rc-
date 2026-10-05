@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "sirkadiyen-ritim-ve-uyku"
     category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
-    image: "/assets/images/generated/topics/uyku-glymphatic.webp"
+    image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
   - slug: "ekran-kullanimi-ve-uyku"
     category: "Uyku"
     title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
-    image: "/assets/images/generated/stress-sleep.webp"
+    image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
   - slug: "egzersiz-sonrasi-toparlanma"
     category: "Hareket"
     title: "Egzersiz Sonrası Toparlanma: Uyku, Beslenme ve Yük Yönetimi"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/egzersiz-sonrasi-toparlanma.webp"
 ---
 
 ## İyi uyku ne demektir?

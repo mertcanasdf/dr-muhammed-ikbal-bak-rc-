@@ -14,15 +14,15 @@ relatedArticles:
   - slug: "kas-kutlesi-ve-yaslanma"
     category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
-    image: "/assets/images/generated/guide_longevity_exercise.webp"
+    image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
   - slug: "biyolojik-yas-nasil-olculur"
     category: "Longevity Bilimi"
     title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
-    image: "/assets/images/generated/topics/cellular-science.webp"
+    image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
   - slug: "denge-egzersizleri-yaslanma"
     category: "Hareket"
     title: "Denge Egzersizleri ve Yaşlanma: Düşme Riskini Azaltmaya Yardımcı Yaklaşım"
-    image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
+    image: "/assets/images/generated/articles/denge-egzersizleri-yaslanma.webp"
 ---
 
 ## Kavrama gücü neden konuşuluyor?

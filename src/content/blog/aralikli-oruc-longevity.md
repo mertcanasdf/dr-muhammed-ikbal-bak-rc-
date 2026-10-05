@@ -3,7 +3,7 @@ title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
 date: 2026-05-08
 description: "Aralıklı oruç neden sadece kilo verme değil, hücresel sağlık ve uzun yaşam için güçlü bir protokoldür."
 category: "Beslenme"
-image: "/assets/images/generated/topics/aralikli-oruc.webp"
+image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
 readTime: "9 dk"
 takeaways:
   - "Aralıklı oruç bazı kişilerde insülin duyarlılığını ve metabolik göstergeleri iyileştirebilir; insanlardaki etkileri büyük ölçüde kilo kaybıyla bağlantılıdır."
@@ -15,11 +15,11 @@ relatedArticles:
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/topics/otofaji.webp"
+    image: "/assets/images/generated/articles/otofaji-nedir.webp"
   - slug: "mavi-bolge-diyeti"
     category: "Beslenme"
     title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
-    image: "/assets/images/generated/topics/mavi-bolge.webp"
+    image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
 ---
 
 Aralıklı oruç, son yıllarda en çok ilgi gören beslenme yaklaşımlarından biri oldu. Hayvan çalışmaları metabolizma ve yaşlanma üzerine dikkat çekici sonuçlar ortaya koydu; insanlardaki etkileri ise hâlâ araştırılıyor ve beklentilerden daha mütevazı görünüyor.

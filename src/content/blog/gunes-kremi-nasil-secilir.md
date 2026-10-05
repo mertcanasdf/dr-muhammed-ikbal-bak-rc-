@@ -2,7 +2,7 @@
 title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
 seoTitle: "Güneş Kremi Nasıl Seçilir? SPF ve Doğru Kullanım"
 date: 2026-09-15
-description: "Güneş kremi seçerken SPF, geniş spektrum, suya dayanıklılık ve cilt tipine göre ürün tercihi nasıl yapılır?"
+description: "Güneş kremi seçerken SPF, geniş spektrum, suya dayanıklılık ve cilt tipi neden önemli? Doğru miktar, yenileme sıklığı ve sık yapılan hatalar."
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
 readTime: "7 dk"

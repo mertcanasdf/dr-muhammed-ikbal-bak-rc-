@@ -2,7 +2,7 @@
 title: "Egzersiz Sonrası Toparlanma: Uyku, Beslenme ve Yük Yönetimi"
 seoTitle: "Egzersiz Sonrası Toparlanma: Uyku, Beslenme, Yük"
 date: 2026-09-15
-description: "Egzersiz sonrası kasların toparlanmasını desteklemek için uyku, sıvı, beslenme ve antrenman yoğunluğu nasıl dengelenir?"
+description: "Egzersiz sonrası toparlanma için uyku, sıvı, beslenme ve antrenman yükü nasıl dengelenir? Kas ağrısı, dinlenme günleri ve aşırı yüklenme belirtileri."
 category: "Hareket"
 image: "/assets/images/generated/articles/egzersiz-sonrasi-toparlanma.webp"
 readTime: "7 dk"

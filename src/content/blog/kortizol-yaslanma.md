@@ -2,7 +2,7 @@
 title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
 date: 2026-03-05
 updated: 2026-10-05
-description: "Kronik yüksek kortizol kas kaybı, bilişsel etkiler ve telomer kısalmasıyla ilişkilendirilmektedir; kortizolü dengelemeye yardımcı olabilecek yaklaşımlar nelerdir?"
+description: "Kronik yüksek kortizol kas kaybı, bilişsel etkiler ve telomer kısalmasıyla ilişkilendiriliyor. Stres yanıtını dengelemeye yardımcı kanıta dayalı adımlar."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 readTime: "9 dk"

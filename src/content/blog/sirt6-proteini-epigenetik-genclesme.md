@@ -3,7 +3,7 @@ title: "SIRT6 Proteini ve Epigenetik Yaşlanma: 2026 Fare Çalışması Ne Göst
 seoTitle: "SIRT6 ve Epigenetik Yaşlanma: 2026 Fare Çalışması"
 date: 2026-05-27
 updated: 2026-10-05
-description: "Mayıs 2026'da yayımlanan bir fare çalışmasında SIRT6'nın genetik olarak artırılması, yaşlı karaciğerde kromatin değişikliklerinin bir kısmını gençlere benzer düzene döndürdü. Bulgular ne anlama geliyor, ne anlama gelmiyor?"
+description: "SIRT6 nedir? 2026'da yayımlanan fare çalışmasında SIRT6'yı artırmak yaşlı karaciğerde neyi değiştirdi; bulgular insanlar için ne anlama geliyor?"
 category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/sirt6-proteini-epigenetik-genclesme.webp"
 readTime: "6 dk"

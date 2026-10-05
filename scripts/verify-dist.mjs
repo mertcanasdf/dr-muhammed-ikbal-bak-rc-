@@ -123,6 +123,17 @@ check('canonical = sitemap adresi (uzantısız, her sayfa sitemap\'te)', () => {
   return problems;
 });
 
+// Arama sonucunda kesilmesin, boş kalmasın: dizine açık sayfalarda 120–160 karakter.
+check('meta description 120–160 karakter', () => {
+  const decodeHtml = (s) => s.replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+  return htmlFiles.flatMap((f) => {
+    const html = read(f);
+    if (/<meta name="robots" content="noindex/.test(html)) return [];
+    const d = decodeHtml(html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? '');
+    return d.length < 120 || d.length > 160 ? [`${f}: ${d.length}`] : [];
+  });
+});
+
 check('meta description sayfaya özgü (tekrar yok)', () => {
   const seen = new Map();
   for (const f of htmlFiles) {

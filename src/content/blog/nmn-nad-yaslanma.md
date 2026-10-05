@@ -3,7 +3,7 @@ title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
 seoTitle: "NMN Nedir? NMN ve NAD+ Hakkında Ne Biliyoruz?"
 date: 2026-04-10
 updated: 2026-10-05
-description: "NAD+ neden hücresel yaşlanmanın merkezindedir ve NMN takviyesinin insan çalışmalarında ne gibi sonuçlar verdiği."
+description: "NMN nedir, NAD+ yaşlanmayla neden ilişkilendiriliyor? NMN takviyesiyle yapılan insan çalışmaları neyi gösterdi, neyi henüz göstermedi?"
 category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 readTime: "11 dk"

@@ -22,7 +22,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
   - slug: "uyku-bozukluklari-ve-glymphatic-temizlik"
     category: "Uyku"
-    title: "Kronik Uyku Bozuklukları ve Longevity: Glymphatic Sistem Temizliği ve Hücresel Yenilenme"
+    title: "Glimfatik Sistem: Uyku Sırasında Beyin Nasıl Temizlenir?"
     image: "/assets/images/generated/articles/uyku-bozukluklari-ve-glymphatic-temizlik.webp"
 ---
 

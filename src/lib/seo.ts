@@ -9,18 +9,18 @@ export const DEFAULT_DESCRIPTION =
 
 export const ROUTE_DESCRIPTIONS: Record<string, string> = {
   '/': 'Dr. Muhammed İkbal Bakırcı: longevity, sağlık eğitimi, medikal estetik ve sağlıklı yaşlanma üzerine bilimsel içerikler.',
-  '/hakkinda': 'Dr. Muhammed İkbal Bakırcı hakkında: hekimlik deneyimi, uzmanlık alanları, sağlık eğitimi ve profesyonel yaklaşımı.',
+  '/hakkinda': "Dr. Muhammed İkbal Bakırcı kimdir? Atatürk Üniversitesi Tıp Fakültesi mezunu, VM Medical Park Bursa Başhekimi; eğitimi, kariyeri ve görevleri.",
   '/iletisim': 'Dr. Muhammed İkbal Bakırcı ile iletişime geçin. Randevu, sağlık eğitimi ve medikal estetik başvuruları için iletişim bilgileri.',
   '/longevity': 'Longevity bilimi, biyolojik yaşlanma ve sağlık ömrünü uzatmaya yardımcı yaşam tarzı yaklaşımı hakkında kapsamlı rehber.',
   '/medikal-estetik': 'Medikal estetik ve cilt sağlığı: botoks, dermal dolgu, PRP, eksozom, altın iğne ve mezoterapi hakkında bilgilendirici rehber.',
   '/blog': 'Longevity, metabolik sağlık, uyku, stres, beslenme ve medikal estetik konularında Dr. Muhammed İkbal Bakırcı makaleleri.',
-  '/rehberler': 'Longevity, uyku, beslenme, stres yönetimi ve cilt sağlığı için pratik ve bilimsel sağlık rehberleri.',
-  '/quizler': 'Longevity, stres, uyku, metabolik sağlık ve cilt sağlığı alanlarında kişisel farkındalık için sağlık quizleri.',
+  '/rehberler': "Longevity, uyku, beslenme, stres yönetimi ve cilt sağlığı için pratik ve kanıta dayalı sağlık rehberleri; günlük hayata uygulanabilir adımlar.",
+  '/quizler': "Ücretsiz sağlık testleri: uyku, stres, kaygı, metabolik sağlık ve cilt sağlığı için bilimsel ölçekler ve farkındalık anketleri. Tanı koymaz.",
   '/dunyada-saglik': 'Dünyada sağlık ve longevity alanındaki güncel yaklaşımlar, araştırmalar ve sağlık sistemleri üzerine içerikler.',
-  '/gecmis-yillar': 'Dr. Muhammed İkbal Bakırcı’nın geçmiş yıllardaki etkinlikleri, konuşmaları ve sağlık eğitimi çalışmaları.',
-  '/sitelerimiz': 'Dr. Muhammed İkbal Bakırcı’nın sağlık, longevity ve günlük yaşam için geliştirdiği dijital projeler.',
-  '/gizlilik-politikasi': 'Dr. Muhammed İkbal Bakırcı web sitesi gizlilik politikası ve kişisel verilerin korunmasına ilişkin bilgiler.',
-  '/kullanim-kosullari': 'Dr. Muhammed İkbal Bakırcı web sitesi kullanım koşulları, içerik sorumluluğu ve kullanıcı yükümlülükleri.',
+  '/gecmis-yillar': "Dr. Muhammed İkbal Bakırcı’nın kongre, konferans ve konuşmaları: sağlık hizmetleri yönetimi, longevity ve sağlık eğitimi alanındaki etkinlikler.",
+  '/sitelerimiz': "Dr. Muhammed İkbal Bakırcı’nın sağlık, longevity ve günlük yaşam için geliştirdiği dijital projeler ve araçlar hakkında kısa tanıtımlar.",
+  '/gizlilik-politikasi': "Dr. Muhammed İkbal Bakırcı web sitesinin gizlilik politikası: hangi kişisel verilerin, hangi amaçla işlendiği ve KVKK kapsamındaki haklarınız.",
+  '/kullanim-kosullari': "Dr. Muhammed İkbal Bakırcı web sitesinin kullanım koşulları: içeriklerin bilgilendirme amacı, sorumluluk sınırları ve kullanıcı yükümlülükleri.",
 };
 
 const routeLabel: Record<string, string> = {

@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { CONTACT_CHANNELS } from '../lib/contact';
 ---
-<BaseLayout title="İletişim — Dr. Muhammed İkbal Bakırcı" pageType="ContactPage" description="Randevu, iş birliği, akademik davetler ve medya talepleri için Dr. Muhammed İkbal Bakırcı ile iletişime geçin.">
+<BaseLayout title="İletişim — Dr. Muhammed İkbal Bakırcı" pageType="ContactPage" description="Randevu, iş birliği, akademik davet ve medya talepleriniz için Dr. Muhammed İkbal Bakırcı ile iletişime geçin; talebinize uygun formu seçin.">
   <section class="ct-hero">
     <div class="container">
       <h1>İletişim</h1>
@@ -15,7 +15,7 @@ import { CONTACT_CHANNELS } from '../lib/contact';
       <article class="ct-channel" id={c.id}>
         <h2>{c.label}</h2>
         <p>{c.description}</p>
-        <a href="#iletisim-formu" data-pick-channel={c.id}>Bu konuda yazın &rarr;</a>
+        <a href="#iletisim-formu" data-pick-channel={c.id}>{c.label} talebi için yazın &rarr;</a>
       </article>
     ))}
   </section>

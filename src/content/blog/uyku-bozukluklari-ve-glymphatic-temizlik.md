@@ -1,6 +1,5 @@
 ---
-title: "Kronik Uyku Bozuklukları ve Longevity: Glymphatic Sistem Temizliği ve Hücresel Yenilenme"
-seoTitle: "Glimfatik Sistem: Uyku Beyni Nasıl Temizler?"
+title: "Glimfatik Sistem: Uyku Sırasında Beyin Nasıl Temizlenir?"
 date: 2026-06-20
 updated: 2026-10-05
 description: "Yetersiz uykunun beynin atık temizleme sistemi (glimfatik sistem) ve büyüme hormonu salınımı üzerindeki etkileri; kaliteli uyku için kanıta dayalı öneriler."
@@ -29,7 +28,7 @@ relatedArticles:
 
 Longevity ve sağlıklı yaşam söz konusu olduğunda genellikle beslenme ve egzersiz ön plana çıksa da, sağlıklı yaşlanmanın en temel dayanaklarından biri **kaliteli uykudur**. Uyku, pasif bir dinlenme süreci değil; beynin temizlendiği, hormonal dengenin kurulduğu ve hücresel onarım mekanizmalarının zirveye ulaştığı aktif bir yenilenme fazıdır. Kronik uyku bozuklukları, bu hayati süreçleri kesintiye uğratarak hücresel yaşlanmayı hızlandırır ve nörodejeneratif hastalıkların (Alzheimer, demans vb.) riskini artırır.
 
-## Beynin Gece Temizliği: Glymphatic Sistem Nasıl Çalışır?
+## Beynin Gece Temizliği: Glimfatik Sistem Nasıl Çalışır?
 
 Vücudumuzdaki lenfatik sistem atıkları toplar, ancak bu sistem kan-beyin bariyeri nedeniyle beyne ulaşamaz. Beynin kendine ait özel bir atık temizleme mekanizması vardır: **Glymphatic Sistem**. 
 

@@ -2,7 +2,7 @@
 title: "Yaşam Amacı Olan İnsanlar Daha Uzun Yaşar mı?"
 date: 2026-06-21
 updated: 2026-10-05
-description: "Yaşam amacı (ikigai) ile daha uzun yaşam ve kalp-damar sağlığı arasındaki ilişki hakkında araştırmalar ne söylüyor?"
+description: "Yaşam amacı (ikigai) daha uzun ve sağlıklı yaşamla ilişkili mi? Ölüm riski, kalp-damar hastalıkları ve iltihap belirteçleri üzerine araştırmalar."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/yasam-amaci-ve-longevity.webp"
 readTime: "5 dk"

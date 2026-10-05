@@ -1,7 +1,7 @@
 ---
 title: "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi"
 date: 2026-09-15
-description: "Dermal dolgu yaptırmadan önce ürün, uygulayıcı, riskler ve işlem sonrası takip açısından hangi sorular sorulmalıdır?"
+description: "Dermal dolgu yaptırmadan önce ürün, uygulayıcı, olası riskler ve işlem sonrası takip için sorulması gereken soruları içeren pratik bir kontrol listesi."
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/dermal-dolgu-guvenligi.webp"
 readTime: "8 dk"

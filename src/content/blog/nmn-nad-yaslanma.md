@@ -6,11 +6,11 @@ category: "Longevity Bilimi"
 image: "/assets/images/generated/topics/nmn-nad.webp"
 readTime: "11 dk"
 takeaways:
-  - "NAD+, enerji üretimi, DNA onarımı ve sirtuin aktivasyonu için zorunludur; yaşla birlikte yaklaşık %50 azalır."
-  - "NMN, NAD+'nın direkt öncülüdür ve biyoyararlanımı yüksektir."
+  - "NAD+, enerji üretimi, DNA onarımı ve sirtuin aktivitesi için gereklidir; bazı dokularda yaşla birlikte azaldığı gösterilmiştir."
+  - "NMN, NAD+'nın öncülüdür; insan çalışmalarında kandaki NAD+ düzeyini artırdığı gösterilmiştir."
   - "İnsan çalışmaları umut verici olmakla birlikte, uzun vadeli kanıtlar için daha fazla araştırma gereklidir."
-  - "Aralıklı oruç ve egzersiz, NAD+ seviyelerini doğal yollarla artırmanın en güçlü yöntemleridir."
-  - "Takviye kullanımında kalite kontrolü kritiktir; saf, kirletici içermeyen NMN tercih edilmelidir."
+  - "Egzersiz ve dengeli beslenme, NAD+ metabolizmasını destekleyebilecek yaşam tarzı yaklaşımlarıdır."
+  - "Takviye ürünlerinin içeriği ve kalitesi değişkendir; kullanmadan önce hekiminize danışın."
 relatedArticles:
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
@@ -24,7 +24,7 @@ relatedArticles:
 
 Longevity araştırmalarının son on yılında en çok ilgi çeken moleküllerin başında **NAD+** (nikotinamid adenin dinükleotid) gelir. David Sinclair, Peter Attia ve Rhonda Patrick gibi dünyaca tanınan longevity araştırmacılarının ortak bir odak noktası olan bu koenzim, neden bu denli kritiktir?
 
-Çünkü NAD+ olmadan mitokondriniz enerji üretemez, DNA'nız onarılamaz ve sirtuinler — "uzun ömür genleri" — işlevini yerine getiremez. Ve şu gerçek görmezden gelinemez: 50 yaşındaki bir insanın NAD+ seviyeleri, 20 yaşındakinin yaklaşık yarısı kadardır.
+Çünkü NAD+ olmadan mitokondriniz enerji üretemez, DNA'nız onarılamaz ve sirtuinler — "uzun ömür genleri" — işlevini yerine getiremez. Araştırmalar, NAD+ düzeyinin bazı dokularda yaşla birlikte belirgin şekilde azaldığını gösteriyor.
 
 ## NAD+ Nedir ve Ne Yapar?
 
@@ -50,18 +50,17 @@ Sonuç: yorgunluk, bilişsel gerileme, metabolik yavaşlama, kas kaybı ve artan
 
 NMN (nikotinamid mononükleotid), NAD+'nın direkt öncülüdür. Vücut NMN'yi alarak NAD+'ya dönüştürür. NMN'nin NAD+ öncülleri arasında öne çıkmasının nedenleri şunlardır:
 
-- Biyoyararlanımı yüksektir; SLC12A8 taşıyıcısı aracılığıyla hücreye hızla alınır.
-- Beyin ve karaciğer dahil birçok dokuya etkili biçimde ulaşır.
-- Hayvan çalışmalarında güçlü NAD+ artışı ve longevity etkileri gösterilmiştir; insan çalışmaları da umut vericidir.
+- Ağızdan alındığında kandaki NAD+ düzeyini artırdığı insan çalışmalarında gösterilmiştir.
+- Hücreye nasıl alındığı (ör. SLC12A8 taşıyıcısının rolü) hâlâ tartışmalıdır.
+- Hayvan çalışmalarında metabolizma ve yaşlanmayla ilgili olumlu etkiler bildirilmiştir; insanlardaki etkiler sınırlı ve karışıktır.
 
 ## İnsan Çalışmaları Ne Diyor?
 
 2020-2024 yılları arasında yayımlanan insan klinik çalışmaları şu bulguları ortaya koymuştur:
 
 - Günde 250-500 mg NMN takviyesi, kanda NAD+ seviyelerini anlamlı ölçüde yükseltti.
-- Washington Üniversitesi çalışmasında (2021), NMN takviyesi orta yaşlı kadınlarda kas insülin duyarlılığını, kas gücünü ve yürüyüş hızını artırdı.
-- Japon çalışmasında (2022), 12 haftalık NMN takviyesi yorgunluk azalması ve uyku kalitesinde iyileşme bildirdi.
-- Keio Üniversitesi araştırmasında, üst solunum yolu enfeksiyonu riski NMN grubunda düşük seyretti.
+- Washington Üniversitesi'nin 25 kadınla yaptığı çalışmada (Science, 2021), NMN prediyabetli ve fazla kilolu postmenopozal kadınlarda kas insülin duyarlılığını artırdı; kas kütlesi ve vücut kompozisyonunda değişiklik görülmedi.
+- Japonya'da sağlıklı yaşlı erkeklerde yapılan 12 haftalık bir çalışmada (2022), NMN kandaki NAD+ düzeyini artırdı ve bazı kas fonksiyonu ölçümlerinde sınırlı iyileşmeler bildirildi.
 
 Önemli not: İnsan çalışmaları hâlâ sınırlıdır; bu takviyenin uzun vadeli etkileri için daha büyük randomize kontrollü çalışmalara ihtiyaç vardır.
 
@@ -69,8 +68,14 @@ NMN (nikotinamid mononükleotid), NAD+'nın direkt öncülüdür. Vücut NMN'yi 
 
 Takviye düşünmeden önce veya takviyeyle birlikte uygulanabilecek yaşam tarzı müdahaleleri:
 
-- **Aralıklı oruç:** NAMPT enzimini aktive ederek NAD+ sentezini artırır.
-- **Egzersiz:** Kas dokusunda NAMPT ve NAD+ üretimini güçlü biçimde uyarır.
+- **Egzersiz:** Kas dokusunda NAD+ sentezinde rol oynayan NAMPT enzimini artırdığı gösterilmiştir.
+- **Öğün düzeni:** Kalori kısıtlaması ve orucun NAD+ metabolizmasını etkileyebildiği daha çok hayvan çalışmalarında gösterilmiştir.
 - **NR içeren gıdalar:** Süt ürünleri, maya, edamame hafif miktarda NAD+ öncülü içerir.
 - **Niasin (B3 Vitamini):** NAD+ sentezinin temel hammaddesi; et, balık, mantar, yer fıstığı zengin kaynaklardır.
-- **Resveratrol:** SIRT1'i aktive ederek mevcut NAD+'nın daha verimli kullanılmasını sağlar.
+- **Resveratrol:** Laboratuvar çalışmalarında sirtuin aktivitesini etkilediği bildirilmiştir; insanlarda yaşlanma üzerine etkisi gösterilmemiştir.
+
+## Kaynaklar
+
+- [Covarrubias AJ ve ark. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021](https://pubmed.ncbi.nlm.nih.gov/33353981/)
+- [Yoshino M ve ark. Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women. Science. 2021](https://pubmed.ncbi.nlm.nih.gov/33888596/)
+- [Igarashi M ve ark. Chronic nicotinamide mononucleotide supplementation elevates blood NAD+ levels and alters muscle function in healthy older men. NPJ Aging. 2022](https://pubmed.ncbi.nlm.nih.gov/35927255/)

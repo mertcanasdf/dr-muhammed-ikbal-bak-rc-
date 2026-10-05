@@ -37,6 +37,21 @@ for (const [label, re] of FORBIDDEN) {
   check(`yasak içerik yok: ${label}`, () => textFiles.filter((f) => re.test(read(f))));
 }
 
+// Revizyon kontrol raporu (2026-10-05): kesin vaat ve klinik hedef dili.
+const scriptFiles = files.filter((f) => f.endsWith('.js'));
+const CLAIMS = /izleri giderir|katlayarak artır|hızlıca yenilen|gıcırdatmayı engelleyen|geri sararak|saç dökülmesini önleme|Her test bilimsel kaynaklara dayanır|Kritik Biomarker ve Klinik Hedefler|Biyolojik Yaşınız Kronolojik/i;
+check('yasak içerik yok: kesin vaat / tanı dili', () =>
+  [...textFiles, ...scriptFiles].filter((f) => CLAIMS.test(read(f))));
+
+check('tam isim standardı (soyadsız "Dr. Muhammed İkbal" yok)', () =>
+  htmlFiles.filter((f) => /Dr\. Muhammed İkbal(?! Bakırcı)/.test(read(f))));
+
+check('quiz sayfası tanı koymadığını belirtiyor', () =>
+  read('quizler/index.html').includes('tanı koymaz') ? [] : ['quizler/index.html']);
+
+check('longevity göstergeleri kişiye göre bağlamlandırılmış', () =>
+  read('longevity/index.html').includes('Kişisel hedefler') ? [] : ['longevity/index.html']);
+
 check('kaldırılan sayfalar build edilmedi', () => REMOVED.filter((d) => fs.existsSync(path.join(DIST, d))));
 
 check('sitemap kaldırılan adresleri içermiyor', () => {

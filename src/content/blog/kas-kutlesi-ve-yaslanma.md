@@ -12,10 +12,6 @@ takeaways:
   - "İstemsiz kilo kaybı, düşme veya belirgin güçsüzlük değerlendirme gerektirir."
   - "Kişiye özel program, sürdürülebilirlik ve güvenlik açısından önemlidir."
 relatedArticles:
-  - slug: "direnc-antrenmani-yaslanma"
-    category: "Hareket"
-    title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
     title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
@@ -24,6 +20,10 @@ relatedArticles:
     category: "Hareket"
     title: "Kavrama Gücü Sağlık Hakkında Ne Söyler?"
     image: "/assets/images/generated/articles/kavrama-gucu-ve-saglik.webp"
+  - slug: "direnc-antrenmani-yaslanma"
+    category: "Hareket"
+    title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
 ---
 
 ## Yaşlanmada kas neden önemlidir?
@@ -53,6 +53,10 @@ Her öğünde protein kaynağı bulundurmak, toplam enerji alımını gereksinim
 Kas gelişimi yalnızca antrenman sırasında değil, toparlanma döneminde gerçekleşir. Uyku, sıvı alımı ve antrenman günleri arasındaki denge programın bir parçasıdır.
 
 > **Not:** Böbrek hastalığı, yutma sorunu, kanser tedavisi veya hızlı kilo kaybı gibi durumlarda protein ve egzersiz planı kişisel tıbbi değerlendirme olmadan değiştirilmemelidir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [yaşlanmada protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) ve [kavrama gücünün sağlık hakkında söyledikleri](/blog/kavrama-gucu-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -13,14 +13,18 @@ takeaways:
   - "Yüksek algılanan stres, daha kısa telomer uzunluğuyla ilişkili bulunmuştur (Epel ve ark., 2004); bu bir ilişkidir, kesin neden-sonuç değildir."
   - "Yavaş nefes, farkındalık (mindfulness) programları ve bilişsel davranışçı terapi kaygıyı azaltmada etkili yöntemlerdir; kaygı bozukluğu ve OKB'de uzman desteği esastır."
 relatedArticles:
-  - slug: "kortizol-yaslanma"
-    category: "Zihin & Sosyal Yaşam"
-    title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
   - slug: "tukenmislik-sendromu"
     category: "Zihin & Sosyal Yaşam"
     title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
     image: "/assets/images/generated/articles/tukenmislik-sendromu.webp"
+  - slug: "muzik-ve-stres-kortizol"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Müzik Dinlemek Stresi Nasıl Etkiler? Kortizol ve Kanıtlar"
+    image: "/assets/images/generated/articles/muzik-ve-stres-kortizol.webp"
+  - slug: "kortizol-yaslanma"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
+    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 ---
 
 Modern dünyada stres, geçici bir tehdit durumu olmaktan çıkıp kronik bir arka plan gürültüsüne dönüşmüştür. Özellikle **anksiyete (kaygı bozukluğu)** ve **obsesyon (takıntılı düşünceler)**, bireyin zihinsel dengesini bozmakla kalmaz; otonom sinir sistemini sürekli teyakkuzda tutarak bedeni de etkiler. Araştırmalar, kronik stresin biyolojik yaşlanma belirteçleriyle ilişkili olabileceğini gösteriyor. Zihinsel yorgunluğun altındaki hücresel yıpranma mekanizmalarını anlamak, longevity (uzun ömürlülük) yaklaşımının en kritik parçalarından biridir.
@@ -48,6 +52,10 @@ Kaygı bozukluğu ve obsesif-kompulsif bozukluk (OKB) tedavi edilebilir durumlar
 * **Vagus Siniri Aktivasyonu:** Vagus siniri parasempatik sistemi tetikleyen ana sinirdir. Örneğin 5 saniye nefes alıp 7 saniyede yavaşça vermek gibi dakikada yaklaşık 5–6 nefeslik yavaş solunumun, kalp hızı değişkenliğini artırdığı ve rahatlama hissini desteklediği gösterilmiştir (Zaccaro ve ark., 2018).
 * **Farkındalık (Mindfulness) Programları:** 8 haftalık farkındalık temelli stres azaltma programının (MBSR), kaygı bozukluklarında yaygın kullanılan bir antidepresan kadar etkili bulunduğu randomize bir çalışma vardır (Hoge ve ark., 2023). Küçük bir çalışmada, programla stresi azalan katılımcılarda amigdalada yapısal değişiklikler gözlenmiştir (Hölzel ve ark., 2010).
 * **Sağlıklı Sosyal Bağlar:** Güçlü sosyal ilişkiler, daha iyi ruh sağlığı ve daha uzun yaşamla ilişkilidir. Güvendiğiniz kişilerle düzenli bağ kurmak stresle başa çıkmayı kolaylaştırır.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [tükenmişlik sendromu](/blog/tukenmislik-sendromu) ve [müziğin stres üzerindeki etkisi](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [kortizol ve yaşlanma](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

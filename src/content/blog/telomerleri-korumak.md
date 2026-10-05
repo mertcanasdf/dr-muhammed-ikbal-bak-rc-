@@ -14,14 +14,18 @@ takeaways:
   - "Koroner kalp hastalarında yapılan bir çalışmada, kandaki omega-3 düzeyi yüksek olanlarda telomer kısalması daha yavaş bulunmuştur."
   - "Sosyal izolasyon, biyolojik yaşlanma göstergeleriyle olumsuz yönde ilişkilendirilmektedir."
 relatedArticles:
-  - slug: "otofaji-nedir"
-    category: "Longevity Bilimi"
-    title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/articles/otofaji-nedir.webp"
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
     image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
+  - slug: "uyku-kalitesi-nasil-artirilir"
+    category: "Uyku"
+    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
+  - slug: "biyolojik-yas-nasil-olculur"
+    category: "Longevity Bilimi"
+    title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
+    image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
 ---
 
 Kromozomlarınızın uçlarındaki bu küçük "kapakçıklar" — telomerler — biyolojik yaşlanmayla ilişkilendirilen göstergelerden biridir. Ayakkabı bağcığının ucundaki plastik kılıf gibi, telomerler DNA'nızı koruyan koruyucu uçlardır. Her hücre bölünmesinde biraz kısalan bu yapıların uzunluğu, kronik hastalık riski ve ömür uzunluğuyla ilişkilendirilmektedir.
@@ -57,6 +61,10 @@ Uyku yoksunluğu telomerleri iki yoldan aşındırır: kortizol yükseltmesi ve 
 Pek çok kişinin beklemediği bir faktör: sosyal bağlantı kalitesi. Yalnızlık ve sosyal izolasyon, stres hormonları ve inflamatuar belirteçlerdeki artışla ilişkilendirilmektedir. Güçlü sosyal bağların daha sağlıklı yaşlanmayla ilişkili olduğu pek çok çalışmada gösterilmiştir.
 
 > **Not:** Telomer uzunluğu biyolojik yaşlanmanın tek başına güvenilir bir ölçüsü değildir; ticari telomer testlerinin bireysel sonuçları yorumlamada sınırlılıkları vardır.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [kronik stres ve yaşlanma](/blog/kortizol-yaslanma) ve [uyku kalitesini artırmanın yolları](/blog/uyku-kalitesi-nasil-artirilir) konularını da okuyabilirsiniz. Ayrıca [biyolojik yaş nasıl ölçülür](/blog/biyolojik-yas-nasil-olculur) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.
 
 ## Kaynaklar
 

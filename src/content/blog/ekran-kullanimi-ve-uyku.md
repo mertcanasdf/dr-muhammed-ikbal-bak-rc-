@@ -11,14 +11,14 @@ takeaways:
   - "Ekran sınırı kişiye göre ayarlanmalı, sürdürülebilir bir rutin kurulmalıdır."
   - "Uyku sorunu ekran kısıtlamasına rağmen devam ediyorsa başka nedenler araştırılmalıdır."
 relatedArticles:
-  - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Uyku"
-    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
-    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
     category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
     image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
+  - slug: "uyku-kalitesi-nasil-artirilir"
+    category: "Uyku"
+    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
   - slug: "dijital-tukenmislik"
     category: "Zihin & Sosyal Yaşam"
     title: "Dijital Tükenmişlik Nedir? Ekran Yükünü Azaltma Rehberi"
@@ -44,6 +44,10 @@ Ekranı azaltmanıza rağmen uykusuzluk sürüyorsa kaygı, depresyon, ağrı, r
 CDC, yetişkinlerin düzenli uyku saatleri ve yeterli uyku süresini korumasını önerir: [CDC uyku bilgileri](https://www.cdc.gov/sleep/about/index.html).
 
 > **Not:** Gündüz sürekli uyuklama, uykuda nefes kesilmesi, araç kullanırken uyku basması veya haftalarca süren belirgin uyku bozukluğu varsa doktor değerlendirmesi alın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [sirkadiyen ritim](/blog/sirkadiyen-ritim-ve-uyku) ve [uyku hijyeni](/blog/uyku-kalitesi-nasil-artirilir) konularını da okuyabilirsiniz. Ayrıca [dijital tükenmişlik](/blog/dijital-tukenmislik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın uyku alanında](/longevity#uyku) bulabilirsiniz.
 
 ## Kaynaklar
 

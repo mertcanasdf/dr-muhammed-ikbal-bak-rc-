@@ -9,6 +9,10 @@ const allPosts = await getCollection('blog');
 const estetikPosts = sortPostsNewestFirst(
   allPosts.filter(post => ['Skin Longevity'].includes(post.data.category)),
 ).slice(0, 3);
+// Hub → her cilt yazısı bağlantısı (SEO denetimi: kümedeki tüm yazılar pillar'dan erişilebilir olmalı).
+const skinPosts = allPosts
+  .filter((post) => post.data.category === 'Skin Longevity')
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, 'tr'));
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
@@ -167,6 +171,12 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       color: var(--gray-500);
       line-height: 1.5;
     }
+    .skin-all { margin-top: 48px; padding: 28px 32px; background: #fff; border: 1px solid var(--border); border-radius: 16px; }
+    .skin-all__title { font-size: 20px; margin-bottom: 16px; }
+    .skin-all ul { list-style: none; padding: 0; margin: 0; columns: 2 280px; column-gap: 32px; }
+    .skin-all li { break-inside: avoid; padding: 6px 0; }
+    .skin-all a { color: var(--main); font-weight: 500; }
+    .skin-all a:hover { color: #164e34; text-decoration: underline; }
     .estetik-card__img {
       width: 100%;
       aspect-ratio: 16/9;
@@ -579,6 +589,12 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           </article>
         ))}
       </div>
+      <nav class="skin-all" aria-labelledby="skin-all-title">
+        <h2 id="skin-all-title" class="skin-all__title">Tüm Skin Longevity yazıları</h2>
+        <ul>
+          {skinPosts.map((post) => <li><a href={`/blog/${slug(post.id)}`}>{post.data.title}</a></li>)}
+        </ul>
+      </nav>
     </div>
   </section>
 

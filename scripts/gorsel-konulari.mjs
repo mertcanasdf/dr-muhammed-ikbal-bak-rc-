@@ -60,7 +60,6 @@ const ARTICLES = {
   'gunes-kremi-nasil-secilir': 'A wide-brimmed straw hat, sunglasses and an unlabeled sunscreen bottle on a shaded terrace table, bright summer light and leaf shadows.',
   'mezoterapi': 'A row of small clear glass ampoules with pale liquid on a white tray in an aesthetic clinic, soft backlight, clean and minimal.',
   'prp-eksozom': 'A compact benchtop laboratory centrifuge with a transparent lid showing the metal rotor and tube slots, clearly a medical lab instrument, on a clean white clinic counter beside a rack of empty sterile tubes, soft professional light, no blood visible.',
-  'prp-mi-eksozom-mu': 'Two glass beakers side by side on a pale stone bench, one with clear pale-gold liquid and one with clear water-like liquid, symbolic comparison, soft light.',
   'retinoid-nedir': 'A nighttime skincare still life: a small dropper bottle (unlabeled), a folded towel and a dim warm lamp on a bathroom vanity in the evening.',
   'senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler': 'Fresh strawberries and sliced apples on a ceramic plate beside a microscope slide on a bright lab bench, linking food compounds and cell science.',
   // Deneme turunda üretilenler (listede kalır; --hepsi taslağı olanı atlar)

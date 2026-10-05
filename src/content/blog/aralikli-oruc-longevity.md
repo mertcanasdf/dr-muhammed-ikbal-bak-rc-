@@ -18,10 +18,14 @@ relatedArticles:
     category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/articles/otofaji-nedir.webp"
-  - slug: "mavi-bolge-diyeti"
+  - slug: "insulin-direnci-belirtileri"
     category: "Beslenme"
-    title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
-    image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
+    title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
+    image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
+  - slug: "protein-ihtiyaci-yaslanma"
+    category: "Beslenme"
+    title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
+    image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
 ---
 
 Aralıklı oruç, son yıllarda en çok ilgi gören beslenme yaklaşımlarından biri oldu. Hayvan çalışmaları metabolizma ve yaşlanma üzerine dikkat çekici sonuçlar ortaya koydu; insanlardaki etkileri ise hâlâ araştırılıyor ve beklentilerden daha mütevazı görünüyor.
@@ -69,6 +73,10 @@ Aralıklı oruç, doğru uygulandığında güçlü bir araçtır; ancak herkes 
 ## Kanıtlar Ne Söylüyor?
 
 Aralıklı oruç üzerine yapılan randomize çalışmalarda, kilo kaybı ve metabolik göstergelerdeki iyileşmeler büyük ölçüde toplam kalori alımının azalmasıyla açıklanmaktadır. Örneğin 16:8 zaman kısıtlı beslenme, bir çalışmada kontrol grubuna göre anlamlı ek kilo kaybı sağlamamış (JAMA Internal Medicine, 2020); bir başka çalışmada kalori kısıtlamasına eklendiğinde klasik kalori kısıtlamasından belirgin farkı olmamıştır (NEJM, 2022). Aralıklı oruç, uygulaması kolay geliyorsa makul bir seçenek olabilir; ancak tek başına bir "longevity protokolü" olarak görülmemelidir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [otofajinin ne olduğu](/blog/otofaji-nedir) ve [insülin direnci belirtileri](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [yaşlanmada protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

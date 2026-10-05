@@ -12,18 +12,18 @@ takeaways:
   - "Düzenli, küçük ve anlamlı temaslar sürdürülebilir başlangıçlar olabilir."
   - "Sosyal öneriler depresyon veya ağır kaygı tedavisinin yerini tutmaz."
 relatedArticles:
-  - slug: "dijital-tukenmislik"
+  - slug: "yasam-amaci-ve-longevity"
     category: "Zihin & Sosyal Yaşam"
-    title: "Dijital Tükenmişlik Nedir? Ekran Yükünü Azaltma Rehberi"
-    image: "/assets/images/generated/articles/dijital-tukenmislik.webp"
-  - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Uyku"
-    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
-    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
-  - slug: "gunluk-yuruyus-sagligi"
-    category: "Hareket"
-    title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
-    image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
+    title: "Yaşam Amacı Olan İnsanlar Daha Uzun Yaşar mı?"
+    image: "/assets/images/generated/articles/yasam-amaci-ve-longevity.webp"
+  - slug: "sukran-pratigi-ve-dopamin"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Şükran Pratiği Beyni ve Ruh Hâlini Nasıl Etkiler?"
+    image: "/assets/images/generated/articles/sukran-pratigi-ve-dopamin.webp"
+  - slug: "mavi-bolge-diyeti"
+    category: "Beslenme"
+    title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
+    image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
 ---
 
 ## Sosyal bağlantı ne demektir?
@@ -45,6 +45,10 @@ Haftada aynı gün bir kişiyi aramak, yürüyüşe komşuyu davet etmek, bir ku
 Çevrim içi iletişim bazı kişiler için değerli olabilir; ancak sürekli akış takip etmek, karşılaştırma ve bildirim baskısı yaratıyorsa kullanım biçimi yeniden düzenlenmelidir. Kalite ve karşılıklılık, temas sayısından daha değerlidir.
 
 > **Not:** Uzun süren çökkünlük, umutsuzluk, yoğun kaygı veya kendine zarar düşüncesi varsa sosyal aktivite önerileriyle yetinmeyin. Ruh sağlığı profesyoneline ve acil destek hatlarına başvurun.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [yaşam amacı ve uzun ömür](/blog/yasam-amaci-ve-longevity) ve [şükran pratiği](/blog/sukran-pratigi-ve-dopamin) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge toplulukları](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın sosyal ilişkiler alanında](/longevity#sosyal-iliskiler) bulabilirsiniz.
 
 ## Kaynaklar
 

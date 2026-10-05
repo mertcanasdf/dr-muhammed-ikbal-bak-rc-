@@ -15,14 +15,14 @@ relatedArticles:
     category: "Beslenme"
     title: "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik"
     image: "/assets/images/generated/articles/d3-k2-birlikte-kullanilir-mi.webp"
-  - slug: "protein-ihtiyaci-yaslanma"
-    category: "Beslenme"
-    title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
-    image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
     image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
+  - slug: "d3-vitamini-eksikligi"
+    category: "Beslenme"
+    title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
+    image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
 ---
 
 ## Magnezyum ne işe yarar?
@@ -44,6 +44,10 @@ Baklagiller, badem ve diğer kuruyemişler, kabak çekirdeği gibi tohumlar, tam
 Takviye seçilecekse form, elemental magnezyum miktarı, doz ve ilaçlarla arasındaki zaman aralığı önemlidir. Yüksek miktarlar ishal ve karın krampları yapabilir; böbrek fonksiyonu bozuk kişilerde daha ciddi risk oluşturabilir.
 
 > **Not:** Böbrek hastalığınız, kalp ritim sorununuz veya düzenli antibiyotik, idrar söktürücü, kemik ilacı ya da reflü ilacı kullanımınız varsa magnezyumu doktorunuza danışmadan başlatmayın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [D3 ve K2 takviyeleri](/blog/d3-k2-birlikte-kullanilir-mi) ve [uyku düzenini iyileştirmek](/blog/uyku-kalitesi-nasil-artirilir) konularını da okuyabilirsiniz. Ayrıca [D3 vitamini eksikliği](/blog/d3-vitamini-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

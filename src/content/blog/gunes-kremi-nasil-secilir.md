@@ -12,14 +12,14 @@ takeaways:
   - "Gölge, şapka ve koruyucu kıyafetler güneşten korunmanın diğer parçalarıdır."
   - "Güneş kremi mevcut şüpheli ben veya cilt kanseri değerlendirmesinin yerine geçmez."
 relatedArticles:
-  - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
   - slug: "retinoid-nedir"
     category: "Skin Longevity"
     title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
     image: "/assets/images/generated/articles/retinoid-nedir.webp"
+  - slug: "cilt-bariyeri-nasil-guclendirilir"
+    category: "Skin Longevity"
+    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
+    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
@@ -45,6 +45,10 @@ Yağlı veya akneye eğilimli ciltlerde hafif, gözenekleri tıkamayan ürünler
 Retinoid veya peeling kullanan kişiler güneşten korunmaya daha fazla dikkat etmelidir. Ürünün ciltte yeni leke veya ben değişikliğini maskelemediği unutulmamalıdır.
 
 > **Not:** Değişen, kanayan, büyüyen veya iyileşmeyen bir lezyon varsa güneş kremi sürüp beklemeyin, dermatoloji muayenesi alın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [retinoid kullanırken güneş korumasının önemi](/blog/retinoid-nedir) ve [cilt bariyerini koruyan bir bakım rutini](/blog/cilt-bariyeri-nasil-guclendirilir) konularını da okuyabilirsiniz. Ayrıca [güneşin kollajen kaybına etkisi](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

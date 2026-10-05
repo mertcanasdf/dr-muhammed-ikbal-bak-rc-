@@ -19,10 +19,10 @@ relatedArticles:
     category: "Uyku"
     title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
     image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
-  - slug: "mitokondri-sagligi-nasil-desteklenir"
-    category: "Longevity Bilimi"
-    title: "Mitokondri Sağlığı Nasıl Desteklenir?"
-    image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
+  - slug: "uyku-bozukluklari-ve-glymphatic-temizlik"
+    category: "Uyku"
+    title: "Kronik Uyku Bozuklukları ve Longevity: Glymphatic Sistem Temizliği ve Hücresel Yenilenme"
+    image: "/assets/images/generated/articles/uyku-bozukluklari-ve-glymphatic-temizlik.webp"
 ---
 
 ## Sirkadiyen ritim nedir?
@@ -44,6 +44,10 @@ Gece vardiyası veya sık seyahat eden kişilerde ritim uyku saatleriyle çevres
 Ulusal Kalp, Akciğer ve Kan Enstitüsü uyku-uyanıklık döngüsünü ve ışığın biyolojik saatteki rolünü açıklar: [NHLBI uyku-uyanıklık döngüsü](https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle).
 
 > **Not:** Horlama, uykuda nefes kesilmesi, sabah baş ağrısı, gündüz kontrol edilemeyen uyku hali veya uzun süren ritim bozukluğu varsa uyku hastalıkları açısından değerlendirme alın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [uyku kalitesi nasıl artırılır](/blog/uyku-kalitesi-nasil-artirilir) ve [akşam ekran kullanımı](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [glimfatik sistem](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın uyku alanında](/longevity#uyku) bulabilirsiniz.
 
 ## Kaynaklar
 

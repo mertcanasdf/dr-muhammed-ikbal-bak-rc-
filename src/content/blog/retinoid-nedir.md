@@ -11,14 +11,14 @@ takeaways:
   - "Güneşten korunma rutinin parçasıdır."
   - "Gebelik, emzirme, egzama veya güçlü akne tedavisinde ürün seçimi doktorla görüşülmelidir."
 relatedArticles:
-  - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
     image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
+  - slug: "cilt-bariyeri-nasil-guclendirilir"
+    category: "Skin Longevity"
+    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
+    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
@@ -44,6 +44,10 @@ Kuruluk, kızarıklık, batma ve pullanma başlangıçta görülebilir. Şiddetl
 Retinoid kullanırken gündüz geniş spektrumlu güneş koruyucu kullanmak önemlidir. Güneş kremi sürmek, ürünü daha sık veya daha yüksek dozda kullanma izni vermez.
 
 > **Not:** Gebelikte ve gebelik planında retinoid kullanımı doktorla mutlaka görüşülmelidir. Reçeteli ürünleri başkasının önerisiyle kullanmayın; akne veya lekelenmenin nedeni farklı olabilir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [geniş spektrumlu güneş kremi seçimi](/blog/gunes-kremi-nasil-secilir) ve [retinoid döneminde cilt bariyerini desteklemek](/blog/cilt-bariyeri-nasil-guclendirilir) konularını da okuyabilirsiniz. Ayrıca [kollajen kaybının nedenleri](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

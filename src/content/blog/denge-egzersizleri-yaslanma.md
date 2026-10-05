@@ -16,14 +16,14 @@ relatedArticles:
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
-  - slug: "gunluk-yuruyus-sagligi"
+  - slug: "kas-kutlesi-ve-yaslanma"
     category: "Hareket"
-    title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
-    image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
-  - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Uyku"
-    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
-    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
+    title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
+    image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
+  - slug: "kavrama-gucu-ve-saglik"
+    category: "Hareket"
+    title: "Kavrama Gücü Sağlık Hakkında Ne Söyler?"
+    image: "/assets/images/generated/articles/kavrama-gucu-ve-saglik.webp"
 ---
 
 ## Denge neden önemlidir?
@@ -45,6 +45,10 @@ Tekrarlayan düşme, yürürken yana çekilme, yeni baş dönmesi, uyuşma, kas 
 Düşme riskini artırabilecek sakinleştirici, tansiyon, uyku veya başka ilaçlar doktorla gözden geçirilebilir. Görme ve ayak sağlığı da değerlendirme planına eklenmelidir.
 
 > **Not:** Denge egzersizi kişiye göre uyarlanmalıdır. Osteoporoz, eklem protezi veya nörolojik hastalıkta programı fizyoterapist rehberliğinde yapmak daha güvenlidir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) ve [kas kütlesi](/blog/kas-kutlesi-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [kavrama gücü](/blog/kavrama-gucu-ve-saglik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

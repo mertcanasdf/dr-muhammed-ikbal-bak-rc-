@@ -13,14 +13,18 @@ takeaways:
   - "Akne izleri (skarlar), geniş gözenekler, ince kırışıklıklar ve cilt sarkmalarında kullanılır; etkinlik kişiye ve seans sayısına göre değişir."
   - "Leke (hiperpigmentasyon) riski ablatif lazerlere göre daha düşük kabul edilir ancak sıfır değildir; kızarıklık ve şişlik sık görülen geçici yan etkilerdir."
 relatedArticles:
-  - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
+  - slug: "cilt-genclesmesi-kombinasyon-tedavileri"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt: \"Zombi\" Hücreler Hakkında Ne Biliniyor?"
-    image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
-  - slug: "nmn-nad-yaslanma"
-    category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
+    title: "Altın İğne ve Eksozom Kombinasyonu: Mantığı, Kanıtlar ve Sınırlar"
+    image: "/assets/images/generated/articles/cilt-genclesmesi-kombinasyon-tedavileri.webp"
+  - slug: "ciltte-kollajen-kaybi"
+    category: "Skin Longevity"
+    title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
+    image: "/assets/images/generated/articles/ciltte-kollajen-kaybi.webp"
+  - slug: "prp-eksozom"
+    category: "Skin Longevity"
+    title: "PRP mi Eksozom mu? Farkları, Kanıtlar ve Güvenlik"
+    image: "/assets/images/generated/articles/prp-eksozom.webp"
 ---
 
 Cildin yaşlanmasıyla birlikte hücrelerin kendini yenileme hızı yavaşlar, elastin ve kolajen lifleri zayıflar. **Altın İğne** (Fraksiyonel Radyofrekans), iki güçlü teknolojiyi (mikro iğneleme ve radyofrekans enerjisi) tek bir tedavi protokolünde birleştirerek kolajen yapımını uyarmayı hedefleyen bir dermakozmetik yöntemdir.
@@ -53,6 +57,10 @@ Uygulama sonrasında birkaç gün süren kızarıklık, şişlik ve hassasiyet s
 
 [Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [altın iğne ve eksozom kombinasyonu](/blog/cilt-genclesmesi-kombinasyon-tedavileri) ve [kollajen kaybının nedenleri](/blog/ciltte-kollajen-kaybi) konularını da okuyabilirsiniz. Ayrıca [PRP ve eksozom uygulamaları](/blog/prp-eksozom) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

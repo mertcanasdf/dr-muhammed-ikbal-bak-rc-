@@ -11,6 +11,14 @@ takeaways:
   - "Yaşlı kadınlarla yapılan bir çalışmada, yaşam amacı ve iyi oluş puanı yüksek olanlarda iltihap belirteci IL-6 daha düşük bulundu."
   - "Bu ilişkide sağlıklı davranışlar, sosyal bağlar ve stresle başa çıkma gibi aracı faktörlerin rol oynadığı düşünülüyor."
 relatedArticles:
+  - slug: "sosyal-baglanti-ve-uzun-omur"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
+    image: "/assets/images/generated/articles/sosyal-baglanti-ve-uzun-omur.webp"
+  - slug: "sukran-pratigi-ve-dopamin"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Şükran Pratiği Beyni ve Ruh Hâlini Nasıl Etkiler?"
+    image: "/assets/images/generated/articles/sukran-pratigi-ve-dopamin.webp"
   - slug: "mavi-bolge-diyeti"
     category: "Beslenme"
     title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
@@ -27,6 +35,10 @@ Yaşlı kadınlarla yapılan bir çalışmada, yaşam amacı ve kişisel gelişi
 
 ## 3. Stres Direnci ve Hücre Sağlığı
 Hayata dair bir sorumluluk ve hedef bilinci taşımak, günlük stres etkenlerini "tehdit" yerine "mücadele edilebilir durumlar" olarak algılamamızı sağlar. Amaç duygusu güçlü olan kişilerin düzenli egzersiz, sağlık taramalarına katılım gibi sağlıklı davranışları daha çok benimsediği de bildirilmektedir. Yaşam amacı sabit bir özellik değildir; gönüllülük, öğrenme, aile ve toplulukla bağ kurma gibi anlam veren etkinliklerle her yaşta geliştirilebilir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [sosyal bağlantının sağlığa etkisi](/blog/sosyal-baglanti-ve-uzun-omur) ve [şükran pratiği](/blog/sukran-pratigi-ve-dopamin) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın sosyal ilişkiler alanında](/longevity#sosyal-iliskiler) bulabilirsiniz.
 
 ## Kaynaklar
 

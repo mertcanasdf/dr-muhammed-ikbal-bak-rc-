@@ -14,18 +14,18 @@ takeaways:
   - "Kersetin, dasatinib ile birlikte küçük insan çalışmalarında incelenmiştir; besinlerle alınan kersetinin senolitik etkisi gösterilmemiştir."
   - "Ciltte senesansı artıran en önemli dış etkenlerden biri güneş hasarıdır; güneşten korunma kanıtı en güçlü yaklaşımdır."
 relatedArticles:
-  - slug: "aralikli-oruc-longevity"
-    category: "Beslenme"
-    title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
-  - slug: "telomerleri-korumak"
+  - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
-    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
+    title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
+    image: "/assets/images/generated/articles/otofaji-nedir.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
+  - slug: "ciltte-kollajen-kaybi"
+    category: "Skin Longevity"
+    title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
+    image: "/assets/images/generated/articles/ciltte-kollajen-kaybi.webp"
 ---
 
 Yaşlanma karşıtı tıp dünyasında son yılların en çok konuşulan ve heyecan yaratan kavramlarından biri şüphesiz **senolitik tedavilerdir**. Yaşlı farelerde yapılan güncel bir çalışma, cilde uygulanan bir senolitiğin yaşlı cilt dokusundaki bölünmeyen "zombi" (senesans) hücreleri azaltabildiğini ve yara iyileşmesini hızlandırabildiğini gösterdi.
@@ -67,6 +67,10 @@ Otofaji ile hücresel yaşlanma arasındaki bağlantılar araştırılmaktadır;
 ## Son Söz
 
 Senolitikler, yaşlanma biyolojisinin heyecan verici bir araştırma alanıdır; ancak bugün için cilde ya da ağızdan kullanılabilecek kanıtlanmış bir senolitik ürün yoktur. Cildin uzun vadeli sağlığı için kanıtı en güçlü adımlar değişmiyor: güneşten korunma, sigaradan uzak durma, sebze ve meyveden zengin beslenme ve uygun hastalarda hekim tarafından planlanan dermatolojik tedaviler.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [otofaji ve hücresel geri dönüşüm](/blog/otofaji-nedir) ve [NAD+ ve hücresel yaşlanma](/blog/nmn-nad-yaslanma) konularını da okuyabilirsiniz. Ayrıca [ciltte kollajen kaybı](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

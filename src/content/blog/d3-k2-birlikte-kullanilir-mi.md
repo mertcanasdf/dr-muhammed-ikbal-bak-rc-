@@ -11,6 +11,10 @@ takeaways:
   - "Kan düzeyi, beslenme, yaş, hastalıklar ve ilaçlar kişisel kararı değiştirir."
   - "Warfarin gibi kan sulandırıcılarda K vitamini alımı doktorla planlanmalıdır."
 relatedArticles:
+  - slug: "d3-vitamini-eksikligi"
+    category: "Beslenme"
+    title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
+    image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
   - slug: "magnezyum-eksikligi"
     category: "Beslenme"
     title: "Magnezyum Eksikliği Belirtileri ve Magnezyum Kaynakları"
@@ -19,10 +23,6 @@ relatedArticles:
     category: "Beslenme"
     title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
     image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
-  - slug: "ciltte-kollajen-kaybi"
-    category: "Skin Longevity"
-    title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
-    image: "/assets/images/generated/articles/ciltte-kollajen-kaybi.webp"
 ---
 
 ## D3 ve K2'nin görevleri
@@ -42,6 +42,10 @@ D vitamini yağda çözündüğü için gereğinden fazla kullanım vücutta bir
 Vitamin K yeşil yapraklı sebzelerde, bazı yağlarda, yumurta, peynir ve soya ürünlerinde bulunur. Warfarin gibi K vitaminiyle etkileşen kan sulandırıcılar kullanılıyorsa beslenmedeki K miktarını birden değiştirmemek ve takviyeyi doktorla planlamak gerekir. [NIH K vitamini bilgi formu](https://ods.od.nih.gov/factsheets/VitaminK-Consumer/) bu etkileşimi açıklar.
 
 > **Not:** D3-K2 ürününü kemik hastalığı, damar kireçlenmesi veya kronik ağrı tedavisi gibi görmeyin. Kan sulandırıcı, böbrek hastalığı, gebelik veya emzirme durumunda hekim onayı olmadan kullanmayın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [D3 eksikliği belirtileri ve kan düzeyleri](/blog/d3-vitamini-eksikligi) ve [magnezyum ve D vitamini ilişkisi](/blog/magnezyum-eksikligi) konularını da okuyabilirsiniz. Ayrıca [omega-3 takviyelerinde güvenlik](/blog/omega-3-ne-ise-yarar) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -12,14 +12,14 @@ takeaways:
   - "Nazik temizleme, uygun nemlendirme ve güneşten korunma temel rutindir."
   - "Devam eden kızarıklık, çatlama veya yanma dermatoloji değerlendirmesi gerektirir."
 relatedArticles:
-  - slug: "gunes-kremi-nasil-secilir"
-    category: "Skin Longevity"
-    title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
-    image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
   - slug: "retinoid-nedir"
     category: "Skin Longevity"
     title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
     image: "/assets/images/generated/articles/retinoid-nedir.webp"
+  - slug: "gunes-kremi-nasil-secilir"
+    category: "Skin Longevity"
+    title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
+    image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
@@ -45,6 +45,10 @@ Aynı anda birden fazla asit, retinoid, peeling, maske ve parfümlü ürün kull
 İşlem sonrası cilt bakımında klinikte verilen talimatlar önceliklidir. Lazer, iğneleme, peeling veya enjeksiyon sonrası internetten bulunan genel rutinler kişiye uygun olmayabilir.
 
 > **Not:** Şiddetli şişlik, su toplaması, yaygın döküntü, enfeksiyon şüphesi veya göz çevresinde ani değişiklik olursa sağlık kuruluşuna başvurun. Cilt bariyeri ürünleri dermatolojik hastalık tedavisinin yerine geçmez.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [retinol ve türevlerinin doğru kullanımı](/blog/retinoid-nedir) ve [SPF ve güneş kremi seçimi](/blog/gunes-kremi-nasil-secilir) konularını da okuyabilirsiniz. Ayrıca [ciltte kollajen kaybı](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

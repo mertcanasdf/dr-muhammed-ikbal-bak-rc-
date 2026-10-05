@@ -12,18 +12,18 @@ takeaways:
   - "Prediyabet veya insülin direnci şüphesinde doktorun önerdiği testler kullanılmalıdır."
   - "Hareket, uyku, dengeli beslenme ve kişiye uygun kilo yönetimi temel başlıklardır."
 relatedArticles:
-  - slug: "lifli-beslenme-ve-mikrobiyota"
-    category: "Beslenme"
-    title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
-    image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
   - slug: "hareketsizlik-ve-metabolik-saglik"
     category: "Hareket"
     title: "Hareketsizlik ve Metabolik Sağlık: Gün İçindeki Oturma Süresini Azaltmak"
     image: "/assets/images/generated/articles/hareketsizlik-ve-metabolik-saglik.webp"
-  - slug: "omega-3-ne-ise-yarar"
+  - slug: "lifli-beslenme-ve-mikrobiyota"
     category: "Beslenme"
-    title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
-    image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
+    title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
+    image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
+  - slug: "aralikli-oruc-longevity"
+    category: "Beslenme"
+    title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
+    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
 ---
 
 ## İnsülin direnci nedir?
@@ -49,6 +49,10 @@ Ulusal Diyabet ve Sindirim ve Böbrek Hastalıkları Enstitüsü, insülin diren
 Beslenmede sebze, baklagil, tam tahıl, uygun protein ve ölçülü yağ kaynaklarına yer vermek; şekerli içecekleri ve aşırı işlenmiş atıştırmalıkları azaltmak iyi bir başlangıç olabilir. Haftalık aerobik hareket ve direnç egzersizi, kişinin kapasitesine göre planlanmalıdır. Uyku düzeni ve stres yönetimi de metabolik sağlığın parçasıdır.
 
 > **Not:** Kan şekeri ilacı kullanıyorsanız, gebeyseniz veya hipoglisemi yaşıyorsanız beslenme ve egzersiz planını kendi başınıza değiştirmeyin. İlaç dozu yalnızca doktor tarafından düzenlenmelidir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [oturma süresi ve metabolik sağlık](/blog/hareketsizlik-ve-metabolik-saglik) ve [lifli beslenme](/blog/lifli-beslenme-ve-mikrobiyota) konularını da okuyabilirsiniz. Ayrıca [aralıklı oruç hakkında kanıtlar](/blog/aralikli-oruc-longevity) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

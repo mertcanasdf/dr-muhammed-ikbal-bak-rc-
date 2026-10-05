@@ -13,14 +13,18 @@ takeaways:
   - "Büyüme hormonu salınımının önemli bir kısmı gecenin ilk derin uyku dönemlerinde gerçekleşir."
   - "Yetişkinlerin çoğu için gecede 7 saat ve üzeri uyku önerilmektedir."
 relatedArticles:
+  - slug: "uyku-kalitesi-nasil-artirilir"
+    category: "Uyku"
+    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
+  - slug: "sirkadiyen-ritim-ve-uyku"
+    category: "Uyku"
+    title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
+    image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/articles/otofaji-nedir.webp"
-  - slug: "nmn-nad-yaslanma"
-    category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 ---
 
 Longevity ve sağlıklı yaşam söz konusu olduğunda genellikle beslenme ve egzersiz ön plana çıksa da, sağlıklı yaşlanmanın en temel dayanaklarından biri **kaliteli uykudur**. Uyku, pasif bir dinlenme süreci değil; beynin temizlendiği, hormonal dengenin kurulduğu ve hücresel onarım mekanizmalarının zirveye ulaştığı aktif bir yenilenme fazıdır. Kronik uyku bozuklukları, bu hayati süreçleri kesintiye uğratarak hücresel yaşlanmayı hızlandırır ve nörodejeneratif hastalıkların (Alzheimer, demans vb.) riskini artırır.
@@ -52,6 +56,10 @@ Uyku hijyeni için genel olarak önerilen adımlar şunlardır:
 * **Sıcaklık Kontrolü:** Vücut ısısının düşmesi derin uykuya geçişi kolaylaştırır. Yatak odası sıcaklığının 18-20 derece arasında olması idealdir.
 
 > **Not:** Üç aydan uzun süren uykusuzluk, yoğun horlama, uykuda nefes durması veya gündüz aşırı uykululuk bir hekim değerlendirmesi gerektirir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [uyku kalitesini artırmanın yolları](/blog/uyku-kalitesi-nasil-artirilir) ve [sirkadiyen ritim](/blog/sirkadiyen-ritim-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [hücresel temizlik (otofaji)](/blog/otofaji-nedir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın uyku alanında](/longevity#uyku) bulabilirsiniz.
 
 ## Kaynaklar
 

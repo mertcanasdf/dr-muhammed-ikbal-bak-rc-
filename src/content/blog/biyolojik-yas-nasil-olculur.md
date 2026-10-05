@@ -11,18 +11,18 @@ takeaways:
   - "Fiziksel kapasite, metabolik göstergeler ve yaşam tarzı birlikte değerlendirilmelidir."
   - "Sonuçlar tanı yerine geçmez ve ölçüm yönteminin bilimsel geçerliliği mutlaka sorgulanmalıdır."
 relatedArticles:
+  - slug: "telomerleri-korumak"
+    category: "Longevity Bilimi"
+    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
+    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
   - slug: "vo2max-ve-longevity"
     category: "Hareket"
     title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
     image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
-  - slug: "kavrama-gucu-ve-saglik"
-    category: "Hareket"
-    title: "Kavrama Gücü Sağlık Hakkında Ne Söyler?"
-    image: "/assets/images/generated/articles/kavrama-gucu-ve-saglik.webp"
-  - slug: "sirkadiyen-ritim-ve-uyku"
-    category: "Uyku"
-    title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
-    image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
+  - slug: "mitokondri-sagligi-nasil-desteklenir"
+    category: "Longevity Bilimi"
+    title: "Mitokondri Sağlığı Nasıl Desteklenir?"
+    image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
 ---
 
 ## Biyolojik yaş ne demek?
@@ -48,6 +48,10 @@ Bir raporda biyolojik yaşınız takvim yaşınızdan düşük çıktığında b
 Düzenli hareket, yeterli protein ve lif içeren dengeli beslenme, iyi uyku, sigara kullanmama ve kronik hastalıkların takip edilmesi biyolojik yaş puanından bağımsız olarak önemlidir. Dünya Sağlık Örgütü fiziksel aktivite rehberinde yetişkinler için aerobik aktiviteyi ve kas güçlendirmeyi birlikte önerir: [WHO fiziksel aktivite rehberi](https://www.who.int/publications/i/item/9789240014886).
 
 > **Not:** Biyolojik yaş testleri tıbbi tanı koymaz. Takviye, yoğun oruç veya egzersiz programı başlatmadan önce mevcut hastalıklarınızı, kullandığınız ilaçları ve kişisel risklerinizi doktorunuzla değerlendirin.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [telomer sağlığını destekleyen alışkanlıklar](/blog/telomerleri-korumak) ve [VO₂max ve aerobik kapasite](/blog/vo2max-ve-longevity) konularını da okuyabilirsiniz. Ayrıca [mitokondri sağlığı](/blog/mitokondri-sagligi-nasil-desteklenir) ve [epigenetik yaşlanma üzerine güncel bir çalışma](/blog/sirt6-proteini-epigenetik-genclesme) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.
 
 ## Kaynaklar
 

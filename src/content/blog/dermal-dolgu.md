@@ -13,14 +13,18 @@ takeaways:
   - "Jawline, dudak, elmacık kemiği ve göz altı ışık dolgusu gibi uygulamalar kişiye özel anatomik analize dayanmalıdır."
   - "En ciddi risk, dolgunun bir damara girmesidir; nadir de olsa doku hasarı, inme ve görme kaybına yol açabilir. Uygulama mutlaka deneyimli bir hekim tarafından yapılmalıdır."
 relatedArticles:
-  - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
+  - slug: "dermal-dolgu-guvenligi"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt: \"Zombi\" Hücreler Hakkında Ne Biliniyor?"
-    image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
-  - slug: "kortizol-yaslanma"
-    category: "Zihin & Sosyal Yaşam"
-    title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
+    title: "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi"
+    image: "/assets/images/generated/articles/dermal-dolgu-guvenligi.webp"
+  - slug: "botoks"
+    category: "Skin Longevity"
+    title: "Botulinum Toksin (Botoks): Mimik Kırışıklıklar, Masseter Uygulaması ve Bilinmesi Gerekenler"
+    image: "/assets/images/generated/articles/botoks.webp"
+  - slug: "cilt-genclesmesi-kombinasyon-tedavileri"
+    category: "Skin Longevity"
+    title: "Altın İğne ve Eksozom Kombinasyonu: Mantığı, Kanıtlar ve Sınırlar"
+    image: "/assets/images/generated/articles/cilt-genclesmesi-kombinasyon-tedavileri.webp"
 ---
 
 Yaşlanma süreciyle birlikte cilt altı yağ dokusunda azalmalar, kemik yapısında rezorpsiyon (erime) ve ciltte nem kaybı meydana gelir. **Dermal dolgu** uygulamaları, bu hacim kayıplarını desteklemek ve yüz kontürünü belirginleştirmek için medikal estetikte sık kullanılan yöntemlerdendir.
@@ -55,6 +59,10 @@ Medikal estetiğin amacı, kişinin kendi özgün hatlarını bozmadan daha dinl
 Sık görülen yan etkiler şişlik, kızarıklık, hassasiyet ve morarmadır. Daha seyrek olarak nodül, enfeksiyon ve granülom gelişebilir. ABD Gıda ve İlaç Dairesi (FDA), en ciddi riskin dolgunun yanlışlıkla bir damara enjekte edilmesi olduğunu belirtir: bu durum doku ölümüne, inmeye veya görme kaybına yol açabilir. Uygulamanın onaylı ürünle ve yüz anatomisine hâkim, lisanslı bir hekim tarafından yapılması bu nedenle önemlidir.
 
 [Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [dermal dolgu öncesi kontrol listesi](/blog/dermal-dolgu-guvenligi) ve [botoks ile dolgu arasındaki fark](/blog/botoks) konularını da okuyabilirsiniz. Ayrıca [kombine cilt uygulamaları](/blog/cilt-genclesmesi-kombinasyon-tedavileri) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

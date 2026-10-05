@@ -11,18 +11,18 @@ takeaways:
   - "Bildirimleri azaltmak ve çalışma ile dinlenme sınırı koymak pratik başlangıçlardır."
   - "Tükenmişlik belirtileri kalıcıysa profesyonel destek gerekir."
 relatedArticles:
+  - slug: "tukenmislik-sendromu"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
+    image: "/assets/images/generated/articles/tukenmislik-sendromu.webp"
   - slug: "ekran-kullanimi-ve-uyku"
     category: "Uyku"
     title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
     image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
-  - slug: "sosyal-baglanti-ve-uzun-omur"
+  - slug: "doga-ve-zihin-sagligi"
     category: "Zihin & Sosyal Yaşam"
-    title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
-    image: "/assets/images/generated/articles/sosyal-baglanti-ve-uzun-omur.webp"
-  - slug: "sirkadiyen-ritim-ve-uyku"
-    category: "Uyku"
-    title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
-    image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
+    title: "Doğada Geçirilen Zaman ve Zihinsel Toparlanma"
+    image: "/assets/images/generated/articles/doga-ve-zihin-sagligi.webp"
 ---
 
 ## Dijital tükenmişlik ne anlama gelir?
@@ -44,6 +44,10 @@ Bir uygulamanın ekran süresini göstermesi, kişinin ne kadar tükendiğini te
 Sosyal medya için kısa, belirli zaman aralıkları seçmek ve akışı takip etmek yerine doğrudan birkaç kişiyle iletişim kurmak daha kontrollü olabilir. Dijital detoksu sert bir yasak değil, dikkat dağıtıcıları azaltan bir tasarım olarak düşünmek sürdürülebilirliği artırır.
 
 > **Not:** Çökkünlük, panik, işe gidememe, uzun süren uyku bozukluğu veya kendine zarar düşüncesi varsa profesyonel destek alın. İş yükü kaynaklı sorunlar yalnızca kişisel disiplin eksikliği değildir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [tükenmişlik sendromu](/blog/tukenmislik-sendromu) ve [ekran kullanımı ve uyku](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [doğada geçirilen zaman](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

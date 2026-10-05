@@ -12,6 +12,14 @@ takeaways:
   - "'Adrenal yorgunluk' bilimsel olarak kanıtlanmış bir tanı değildir; tükenmişlikte kortizol bulguları çalışmalar arasında tutarsızdır."
   - "Çıkışın temeli iş yükü ve koşulların düzenlenmesi, uyku, hareket ve gerektiğinde psikolojik destektir; takviyeler bunların yerini tutmaz."
 relatedArticles:
+  - slug: "dijital-tukenmislik"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Dijital Tükenmişlik Nedir? Ekran Yükünü Azaltma Rehberi"
+    image: "/assets/images/generated/articles/dijital-tukenmislik.webp"
+  - slug: "anksiyete-ve-obsesyonun-fizyolojisi"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Kronik Anksiyete ve Obsesyon: Zihinsel Dengeyi ve Hücresel Yaşlanmayı Nasıl Etkiler?"
+    image: "/assets/images/generated/articles/anksiyete-ve-obsesyonun-fizyolojisi.webp"
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
@@ -33,6 +41,10 @@ Tükenmişlik iş koşullarıyla yakından ilişkili olduğu için çıkışın 
 * **Hareket**: Düzenli fiziksel aktivite stres belirtilerini azaltır. Yorgunluk belirginse yürüyüş gibi hafif aktivitelerle başlayıp kademeli ilerlemek uygundur.
 * **Psikolojik Destek**: Bilişsel davranışçı yaklaşımlar ve stres yönetimi programları yararlıdır. Depresyon belirtileri eşlik ediyorsa bir ruh sağlığı uzmanına başvurulmalıdır.
 * **Takviyeler**: Magnezyum, B vitaminleri ya da rhodiola, ashwagandha gibi bitkisel ürünlerin tükenmişliği tedavi ettiğine dair güçlü kanıt yoktur. Eksiklik varsa tamamlanmalıdır; bitkisel ürünler ilaç etkileşimleri açısından hekime danışılarak kullanılmalıdır.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [dijital tükenmişlik](/blog/dijital-tukenmislik) ve [kronik kaygı](/blog/anksiyete-ve-obsesyonun-fizyolojisi) konularını da okuyabilirsiniz. Ayrıca [kortizol ve yaşlanma](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

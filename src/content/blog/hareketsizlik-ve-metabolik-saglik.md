@@ -12,18 +12,18 @@ takeaways:
   - "Ayakta durmak tek başına egzersiz değildir; kısa yürüyüş ve kas kullanımı eklenmelidir."
   - "Metabolik sorunlar yalnızca hareketsizlikle açıklanamaz, tıbbi takip gerekir."
 relatedArticles:
-  - slug: "insulin-direnci-belirtileri"
-    category: "Beslenme"
-    title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
-    image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
     image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
-  - slug: "vo2max-ve-longevity"
+  - slug: "insulin-direnci-belirtileri"
+    category: "Beslenme"
+    title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
+    image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
+  - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
-    title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
-    image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
+    title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
 ---
 
 ## Hareketsizlik neden farklı bir başlıktır?
@@ -45,6 +45,10 @@ Hareket kasların glukoz kullanımını, enerji dengesini ve dolaşımı etkiler
 CDC ve WHO fiziksel aktivitenin haftalık plana yayılmasını ve kas güçlendirmeyi önerir: [WHO fiziksel aktivite rehberi](https://www.who.int/publications/i/item/9789240014886). Bu öneriler kişisel kapasiteye göre uyarlanmalıdır.
 
 > **Not:** Diyabet, kalp hastalığı veya hareket kısıtlılığı olan kişiler mola ve egzersiz planını sağlık ekibiyle belirlemelidir. Kan şekeri düşmesi riski olanlar aktivite öncesi ve sonrası ölçüm planını doktoruna sormalıdır.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) ve [insülin direnci belirtileri](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

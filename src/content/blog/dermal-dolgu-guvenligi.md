@@ -11,18 +11,18 @@ takeaways:
   - "Morarma ve şişlikten nadir ama ciddi damar komplikasyonlarına kadar riskler konuşulmalıdır."
   - "İşlem sonrası şiddetli ağrı, renk değişikliği veya görme belirtisi acil değerlendirme gerektirir."
 relatedArticles:
+  - slug: "dermal-dolgu"
+    category: "Skin Longevity"
+    title: "Dermal Dolgu Uygulamaları: Yüz Kontürü, Hacim ve Bilinmesi Gerekenler"
+    image: "/assets/images/generated/articles/dermal-dolgu.webp"
   - slug: "botoks-sonrasi-dikkat-edilmesi-gerekenler"
     category: "Skin Longevity"
     title: "Botoks Sonrası Dikkat Edilmesi Gerekenler"
     image: "/assets/images/generated/articles/botoks-sonrasi-dikkat-edilmesi-gerekenler.webp"
-  - slug: "prp-mi-eksozom-mu"
+  - slug: "prp-eksozom"
     category: "Skin Longevity"
-    title: "PRP mi Eksozom mu? Kanıtları ve Güvenliği Nasıl Okumalı?"
-    image: "/assets/images/generated/articles/prp-mi-eksozom-mu.webp"
-  - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
+    title: "PRP mi Eksozom mu? Farkları, Kanıtlar ve Güvenlik"
+    image: "/assets/images/generated/articles/prp-eksozom.webp"
 ---
 
 ## Dermal dolgu nedir?
@@ -42,6 +42,10 @@ Kan sulandırıcılar, bazı takviyeler, alerjiler, aktif enfeksiyon, gebelik, e
 İşlem sonrası şiddetli veya artan ağrı, ciltte beyazlama ya da morarma, soğukluk, görme değişikliği, yüzde güçsüzlük veya nörolojik belirti varsa acil değerlendirme gerekir.
 
 > **Not:** “İğnesiz dolgu”, “garantili sonuç” veya içeriği açıklanmayan ürün ifadeleri güvenlik belgesi değildir. İşlem için fiyat kadar ürün ve acil komplikasyon yönetimi planını da değerlendirin.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [hyaluronik asit dolgunun nasıl çalıştığı](/blog/dermal-dolgu) ve [enjeksiyon sonrası bakım](/blog/botoks-sonrasi-dikkat-edilmesi-gerekenler) konularını da okuyabilirsiniz. Ayrıca [PRP ve eksozom ürünlerinde güvenlik soruları](/blog/prp-eksozom) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

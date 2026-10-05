@@ -13,18 +13,18 @@ takeaways:
   - "Çalışma temel araştırma düzeyindedir: insanlarda, başka organlarda ya da yaşam tarzı müdahaleleriyle test edilmemiştir."
   - "Oruç, egzersiz ve polifenollerin sirtuin yolaklarını etkileyebileceğine dair veriler vardır; ancak bunların SIRT6 üzerinden yaşlanmayı geri döndürdüğü gösterilmemiştir."
 relatedArticles:
-  - slug: "aralikli-oruc-longevity"
-    category: "Beslenme"
-    title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
-  - slug: "telomerleri-korumak"
-    category: "Longevity Bilimi"
-    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
+  - slug: "aralikli-oruc-longevity"
+    category: "Beslenme"
+    title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
+    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
+  - slug: "biyolojik-yas-nasil-olculur"
+    category: "Longevity Bilimi"
+    title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
+    image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
 ---
 
 Mayıs 2026'da *Nature Communications* dergisinde yayımlanan bir çalışma, yaşlanma biyolojisinde dikkat çeken bir sonuç ortaya koydu. Bar-İlan Üniversitesi'nden araştırmacılar, yaşlı farelerde **SIRT6** proteininin düzeyini genetik olarak artırdıklarında, karaciğer hücrelerinde yaşla birlikte bozulan DNA paketlenme düzeninin bir kısmının gençlere benzer hâle döndüğünü bildirdi.
@@ -71,6 +71,10 @@ Quercetin ve resveratrol gibi bileşiklerin laboratuvar çalışmalarında sirtu
 ## Son Söz
 
 SIRT6 çalışması, yaşlanmanın bazı moleküler izlerinin geri döndürülebilir olabileceğine dair heyecan verici bir temel araştırmadır. Bugün için pratik çıkarım değişmiyor: düzenli hareket, dengeli beslenme, yeterli uyku ve stres yönetimi sağlıklı yaşlanmanın en sağlam dayanaklarıdır. Yeni takviye ya da diyet protokollerine başlamadan önce hekiminize danışın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [sirtuinler ve NAD+](/blog/nmn-nad-yaslanma) ve [kalori kısıtlaması ve aralıklı oruç](/blog/aralikli-oruc-longevity) konularını da okuyabilirsiniz. Ayrıca [epigenetik saatler ve biyolojik yaş](/blog/biyolojik-yas-nasil-olculur) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.
 
 ## Kaynaklar
 

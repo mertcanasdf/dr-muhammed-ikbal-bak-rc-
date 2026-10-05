@@ -16,7 +16,19 @@ const postBySlug = (s: string) => {
   return { href: `/blog/${s}`, title: post.data.title };
 };
 
-const NOTE = 'Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.';
+// Yazıların 6 alana dağılımı: kategoriye göre; "Zihin & Sosyal Yaşam" kategorisi iki alana ayrılır.
+const SOSYAL = ['sosyal-baglanti-ve-uzun-omur', 'yasam-amaci-ve-longevity', 'sukran-pratigi-ve-dopamin'];
+const AREA_BY_CATEGORY: Record<string, string> = {
+  Beslenme: 'beslenme',
+  Hareket: 'hareket',
+  Uyku: 'uyku',
+  'Zihin & Sosyal Yaşam': 'zihin',
+  'Skin Longevity': 'skin-longevity',
+};
+const areaOf = (p: (typeof allPosts)[number]) =>
+  SOSYAL.includes(slug(p.id)) ? 'sosyal-iliskiler' : AREA_BY_CATEGORY[p.data.category];
+
+const NOTE ='Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.';
 
 // Revizyon planı madde 16: "Tutarlı ve Uzun Yaşam" — 6 alan.
 const areas = [
@@ -108,7 +120,14 @@ const areas = [
     posts: ['gunes-kremi-nasil-secilir', 'retinoid-nedir', 'ciltte-kollajen-kaybi'],
     more: { href: '/medikal-estetik', label: 'Skin Longevity & Medikal Estetik sayfası' },
   },
-].map((area) => ({ ...area, links: area.posts.map(postBySlug) }));
+].map((area) => {
+  // Seçili yazılardan sonra alanın diğer tüm yazıları da listelenir (hub → her yazı bağlantısı).
+  const rest = allPosts
+    .filter((p) => areaOf(p) === area.id && !area.posts.includes(slug(p.id)))
+    .sort((a, b) => a.data.title.localeCompare(b.data.title, 'tr'))
+    .map((p) => postBySlug(slug(p.id)));
+  return { ...area, links: [...area.posts.map(postBySlug), ...rest] };
+});
 
 // Hücresel temeller: yaşlanma biyolojisinin araştırma alanları (Longevity Bilimi kategorisi).
 const cellular = [
@@ -1057,6 +1076,8 @@ const cellular = [
     .cell-card p { font-size: 14px; line-height: 1.65; color: var(--gray-700); margin-bottom: 16px; flex-grow: 1; }
     .cell-card a { font-size: 14px; font-weight: 700; color: var(--blue); }
     .cell-card a:hover { text-decoration: underline; }
+    .cell-more { margin-top: 24px; text-align: center; font-size: 15px; color: var(--gray-700); }
+    .cell-more a { color: var(--blue); font-weight: 700; }
     .pillar-item { scroll-margin-top: 140px; }
     @media (max-width: 992px) { .cell-grid { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 600px) { .cell-grid { grid-template-columns: 1fr; } .cell-section { padding: 56px 0; } }
@@ -1269,6 +1290,10 @@ const cellular = [
           </article>
         ))}
       </div>
+      <p class="cell-more">
+        Ayrıca: <a href="/blog/biyolojik-yas-nasil-olculur">Biyolojik yaş nasıl ölçülür?</a> ·
+        <a href="/blog/sirt6-proteini-epigenetik-genclesme">SIRT6 ve epigenetik yaşlanma</a>
+      </p>
     </div>
   </section>
 

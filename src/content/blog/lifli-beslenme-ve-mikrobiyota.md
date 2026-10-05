@@ -12,18 +12,18 @@ takeaways:
   - "Lif artışı yavaş yapılmalı, sıvı alımı ve kişisel tolerans göz önünde bulundurulmalıdır."
   - "Uzun süren şişkinlik, kanama veya açıklanamayan kilo kaybı değerlendirilmelidir."
 relatedArticles:
-  - slug: "protein-ihtiyaci-yaslanma"
-    category: "Beslenme"
-    title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
-    image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
-  - slug: "insulin-direnci-belirtileri"
-    category: "Beslenme"
-    title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
-    image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
   - slug: "polifenoller-ve-saglik"
     category: "Beslenme"
     title: "Polifenoller ve Sağlık: Hangi Besinlerde Bulunur?"
     image: "/assets/images/generated/articles/polifenoller-ve-saglik.webp"
+  - slug: "insulin-direnci-belirtileri"
+    category: "Beslenme"
+    title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
+    image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
+  - slug: "mavi-bolge-diyeti"
+    category: "Beslenme"
+    title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
+    image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
 ---
 
 ## Lif ve mikrobiyota arasındaki ilişki
@@ -49,6 +49,10 @@ Lif takviyeleri besinlerin yerini her zaman tutmaz. Ürün seçerken içerik, do
 Derlemeler, lif müdahalelerinin bazı mikrobiyota ölçümlerini değiştirebildiğini gösterse de sonuçlar lif türüne ve kişiye göre farklılaşır. Mikrobiyota testindeki bir değişikliği doğrudan hastalık riskindeki değişiklik olarak yorumlamak doğru değildir. [Lif ve mikrobiyota üzerine derleme](https://pubmed.ncbi.nlm.nih.gov/29902436/) bu alanın hem potansiyelini hem de sınırlılıklarını özetler.
 
 > **Not:** Dışkıda kan, gece uyandıran karın ağrısı, sürekli ishal veya kabızlık, ateş ya da açıklanamayan kilo kaybı varsa yalnızca beslenme değişikliğiyle yetinmeyin, tıbbi değerlendirme alın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [insülin direnci](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

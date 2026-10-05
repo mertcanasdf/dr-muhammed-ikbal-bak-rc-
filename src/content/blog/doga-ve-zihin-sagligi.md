@@ -11,10 +11,18 @@ takeaways:
   - "Orman ortamı ve ağaç kaynaklı uçucu bileşiklerin (fitonsid) NK bağışıklık hücrelerini etkileyebileceğine dair küçük çalışmalar var; kanıtlar ön niteliktedir."
   - "Doğal ortamlarda vakit geçirmenin dikkat ve zihinsel toparlanma üzerinde olumlu etkileri olabileceğini gösteren çalışmalar var."
 relatedArticles:
-  - slug: "d3-vitamini-eksikligi"
-    category: "Beslenme"
-    title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
-    image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
+  - slug: "gunluk-yuruyus-sagligi"
+    category: "Hareket"
+    title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
+    image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
+  - slug: "muzik-ve-stres-kortizol"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Müzik Dinlemek Stresi Nasıl Etkiler? Kortizol ve Kanıtlar"
+    image: "/assets/images/generated/articles/muzik-ve-stres-kortizol.webp"
+  - slug: "kitap-okuma-ve-beyin"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Kitap Okumak Beyni ve Bilişsel Yaşlanmayı Nasıl Etkiler?"
+    image: "/assets/images/generated/articles/kitap-okuma-ve-beyin.webp"
 ---
 
 Modern şehir hayatı ve sürekli ekran başında olmak, beynimizi sürekli bir "aşırı uyarılma" durumunda tutar. Japon kültüründe *Shinrin-yoku* (orman banyosu) olarak bilinen doğa ile temas, zihinsel yenilenme üzerindeki olumlu etkileri araştırmalarda gösterilen bir uygulamadır.
@@ -27,6 +35,10 @@ Ağaçların ve bitkilerin salgıladığı uçucu organik bileşiklere **fitonsi
 
 ## 3. Zihinsel Gevşeme
 Şehirde yaşayan yetişkinlerin birkaç hafta boyunca kendi seçtikleri doğal alanlarda vakit geçirdiği bir çalışmada, tükürük kortizolündeki düşüş en verimli şekilde 20–30 dakikalık sürelerde elde edildi; etkinliğin türü (oturmak ya da yürümek) sonucu değiştirmedi (Hunter ve ark., 2019). 140'tan fazla çalışmayı birleştiren bir meta-analiz de yeşil alana maruziyetin daha düşük tükürük kortizolü, daha düşük kalp hızı ve tansiyon gibi pek çok sağlık göstergesiyle ilişkili olduğunu bildirdi (Twohig-Bennett ve Jones, 2018). Pratik öneri: Haftada birkaç kez, ekran olmadan bir parkta ya da yeşil alanda 20–30 dakika geçirmek.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) ve [müzik ve stres](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [kitap okumanın beyne etkisi](/blog/kitap-okuma-ve-beyin) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -13,14 +13,18 @@ takeaways:
   - "Somon DNA (polinükleotit) uygulamaları cildin DNA'sını onarmaz; fibroblastları uyararak doku kalitesini desteklediği düşünülmektedir."
   - "Karışımlar ürüne göre çok farklıdır ve çalışmaların çoğu küçük ölçeklidir; sonuçlar kişiden kişiye değişir."
 relatedArticles:
+  - slug: "prp-eksozom"
+    category: "Skin Longevity"
+    title: "PRP mi Eksozom mu? Farkları, Kanıtlar ve Güvenlik"
+    image: "/assets/images/generated/articles/prp-eksozom.webp"
+  - slug: "ciltte-kollajen-kaybi"
+    category: "Skin Longevity"
+    title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
+    image: "/assets/images/generated/articles/ciltte-kollajen-kaybi.webp"
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt: \"Zombi\" Hücreler Hakkında Ne Biliniyor?"
     image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
-  - slug: "d3-vitamini-eksikligi"
-    category: "Beslenme"
-    title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
-    image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
 ---
 
 Cildimizin en dış tabakası (epidermis), bizi dış etkenlerden koruyan güçlü bir bariyer oluşturur. Ancak bu güçlü bariyer, cildin genç kalmasını sağlayan nemlendirici kremler, serumlar ve yaşlanma karşıtı aktif maddelerin cildin alt tabakalarına (dermis) ulaşmasını da büyük ölçüde engeller. **Mezoterapi** ve **gençlik aşıları (skin booster)**, etken maddeleri ince iğnelerle doğrudan bu alt tabakaya bırakmayı amaçlayan uygulamalardır.
@@ -49,6 +53,10 @@ Enjeksiyon noktalarında kızarıklık, şişlik, küçük kabarcıklar ve morar
 
 [Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [PRP mi eksozom mu sorusu](/blog/prp-eksozom) ve [kollajen kaybının nedenleri](/blog/ciltte-kollajen-kaybi) konularını da okuyabilirsiniz. Ayrıca [hücre yaşlanması ve cilt](/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

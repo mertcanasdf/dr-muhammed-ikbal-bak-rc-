@@ -15,14 +15,14 @@ relatedArticles:
     category: "Beslenme"
     title: "Polifenoller ve Sağlık: Hangi Besinlerde Bulunur?"
     image: "/assets/images/generated/articles/polifenoller-ve-saglik.webp"
-  - slug: "d3-k2-birlikte-kullanilir-mi"
+  - slug: "mavi-bolge-diyeti"
     category: "Beslenme"
-    title: "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik"
-    image: "/assets/images/generated/articles/d3-k2-birlikte-kullanilir-mi.webp"
-  - slug: "lifli-beslenme-ve-mikrobiyota"
+    title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
+    image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
+  - slug: "d3-vitamini-eksikligi"
     category: "Beslenme"
-    title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
-    image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
+    title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
+    image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
 ---
 
 ## Omega-3 ailesi nedir?
@@ -48,6 +48,10 @@ Omega-3; göz, eklem, hafıza veya cilt için tek başına tedavi olarak görül
 Balık yağı bazı kişilerde geğirme, mide rahatsızlığı veya ishal yapabilir. Kan sulandırıcı kullananlar, kanama bozukluğu olanlar, ameliyat planlananlar ve gebeler takviye konusunda doktoruna danışmalıdır. Çocuklarda ürün ve doz ayrıca değerlendirilmelidir.
 
 > **Not:** Bir takviyeyi yüksek dozda başlatmadan önce kullandığınız ilaçları ve mevcut hastalıkları doktorunuza bildirin. Omega-3 kapsülü dengeli beslenmenin, tıbbi tedavinin veya takip planının yerine geçmez.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) konularını da okuyabilirsiniz. Ayrıca [D3 vitamini eksikliği](/blog/d3-vitamini-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

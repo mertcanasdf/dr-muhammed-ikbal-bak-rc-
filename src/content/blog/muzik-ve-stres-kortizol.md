@@ -11,6 +11,14 @@ takeaways:
   - "Meta-analizler, müzik dinlemenin stresle ilişkili fizyolojik ve psikolojik ölçümleri azaltabildiğini gösteriyor; kortizol üzerindeki etkiler çalışmalar arasında değişkendir."
   - "Yavaş tempolu, sakin ve kişinin sevdiği müzikler rahatlamaya en çok yardımcı olan seçeneklerdir."
 relatedArticles:
+  - slug: "doga-ve-zihin-sagligi"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Doğada Geçirilen Zaman ve Zihinsel Toparlanma"
+    image: "/assets/images/generated/articles/doga-ve-zihin-sagligi.webp"
+  - slug: "sanat-ve-beyin-sagligi"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Sanat Üretmek Beyin Sağlığını Nasıl Etkiler?"
+    image: "/assets/images/generated/articles/sanat-ve-beyin-sagligi.webp"
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
@@ -27,6 +35,10 @@ Ameliyat öncesi müzik dinletilen hastalarla yapılan çalışmaları inceleyen
 
 ## 3. Hangi Müzik?
 Çalışmalarda daha yavaş tempolu, düzenli ritimli ve sözsüz müzikler sıklıkla kullanılmıştır; ancak kişinin keyif aldığı müzik de önemlidir. "Belirli bir tempodaki müziğin beyin dalgalarını ya da kalp ritmini doğrudan ayarladığı" iddiaları için kanıtlar sınırlıdır. Pratik bir öneri: Gün içinde 10–20 dakikayı, ekran olmadan sevdiğiniz sakin bir müziği dinlemeye ayırmak.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [doğada vakit geçirmek](/blog/doga-ve-zihin-sagligi) ve [sanat üretmenin beyin sağlığına etkisi](/blog/sanat-ve-beyin-sagligi) konularını da okuyabilirsiniz. Ayrıca [kronik stres ve kortizol](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

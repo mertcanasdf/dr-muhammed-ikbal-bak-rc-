@@ -15,10 +15,10 @@ relatedArticles:
     category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
     image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
-  - slug: "biyolojik-yas-nasil-olculur"
-    category: "Longevity Bilimi"
-    title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
-    image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
+  - slug: "direnc-antrenmani-yaslanma"
+    category: "Hareket"
+    title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
   - slug: "denge-egzersizleri-yaslanma"
     category: "Hareket"
     title: "Denge Egzersizleri ve Yaşlanma: Düşme Riskini Azaltmaya Yardımcı Yaklaşım"
@@ -48,6 +48,10 @@ Ani güç kaybı, bir elde belirgin farklılık, uyuşma, şiddetli ağrı veya 
 Tüm vücuda yönelik direnç egzersizi, yeterli beslenme ve düzenli hareket kas sağlığının temelidir. El egzersizleri belli durumlarda yararlı olabilir; ancak tendon, sinir veya eklem sorunu bulunan kişilerin programı fizyoterapist veya doktor tarafından yönlendirilmelidir.
 
 > **Not:** Kavrama gücü bir tarama göstergesidir, tanı aracı değildir. Sağlık kararını yalnızca bu değere, akıllı saat skoruna veya çevrim içi yaş tablolarına göre vermeyin.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [kas kütlesini korumak](/blog/kas-kutlesi-ve-yaslanma) ve [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) konularını da okuyabilirsiniz. Ayrıca [denge egzersizleri](/blog/denge-egzersizleri-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

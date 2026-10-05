@@ -12,18 +12,18 @@ takeaways:
   - "Kısa yürüyüşleri gün içine bölmek hareketsizliği azaltmaya yardımcı olabilir."
   - "Ayak yarası, göğüs ağrısı veya belirgin nefes darlığında değerlendirme gerekir."
 relatedArticles:
-  - slug: "vo2max-ve-longevity"
-    category: "Hareket"
-    title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
-    image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
   - slug: "hareketsizlik-ve-metabolik-saglik"
     category: "Hareket"
     title: "Hareketsizlik ve Metabolik Sağlık: Gün İçindeki Oturma Süresini Azaltmak"
     image: "/assets/images/generated/articles/hareketsizlik-ve-metabolik-saglik.webp"
-  - slug: "denge-egzersizleri-yaslanma"
+  - slug: "vo2max-ve-longevity"
     category: "Hareket"
-    title: "Denge Egzersizleri ve Yaşlanma: Düşme Riskini Azaltmaya Yardımcı Yaklaşım"
-    image: "/assets/images/generated/articles/denge-egzersizleri-yaslanma.webp"
+    title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
+    image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
+  - slug: "doga-ve-zihin-sagligi"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Doğada Geçirilen Zaman ve Zihinsel Toparlanma"
+    image: "/assets/images/generated/articles/doga-ve-zihin-sagligi.webp"
 ---
 
 ## Yürüyüş neden iyi bir başlangıçtır?
@@ -45,6 +45,10 @@ Rota, ayakkabı, hava koşulları ve güvenli zemin seçimi önceden planlanabil
 Diyabeti olanlarda ayak bakımı ve uygun ayakkabı önemlidir. Dolaşım sorunu, denge kaybı veya eklem ağrısı varsa yürüyüş biçimi ve süre profesyonelce düzenlenmelidir.
 
 > **Not:** Yürüyüş tanı veya tedavi değildir. Göğüs ağrısı, bayılma, yeni başlayan çarpıntı veya dinlenmeyle geçmeyen nefes darlığı yaşarsanız egzersizi durdurun ve acil değerlendirme alın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [uzun süre oturmanın etkileri](/blog/hareketsizlik-ve-metabolik-saglik) ve [aerobik kapasite (VO₂max)](/blog/vo2max-ve-longevity) konularını da okuyabilirsiniz. Ayrıca [doğada vakit geçirmenin zihinsel etkileri](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

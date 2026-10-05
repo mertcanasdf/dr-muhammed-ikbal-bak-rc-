@@ -16,14 +16,14 @@ relatedArticles:
     category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
     image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
+  - slug: "altin-igne"
+    category: "Skin Longevity"
+    title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi ve Cilt Yenilenmesi"
+    image: "/assets/images/generated/articles/altin-igne.webp"
   - slug: "retinoid-nedir"
     category: "Skin Longevity"
     title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
     image: "/assets/images/generated/articles/retinoid-nedir.webp"
-  - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
 ---
 
 ## Kollajen ciltte ne yapar?
@@ -45,6 +45,10 @@ Hidrolize kollajen içeren ürünler üzerine çalışmalar bulunsa da sonuçlar
 İğneleme, lazer, radyofrekans veya enjeksiyon gibi işlemler cilt tipine ve probleme göre planlanır. Uygulama kalitesi, sterilite, kullanılan ürünün onayı ve işlem sonrası takip en az başlık kadar önemlidir.
 
 > **Not:** İşlem veya takviye seçmeden önce cilt probleminin tanımlanması gerekir. Gebelik, aktif enfeksiyon, kanama bozukluğu veya düzenli ilaç kullanımı varsa bunu mutlaka hekime bildirin.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [fotoyaşlanma ve güneş koruması](/blog/gunes-kremi-nasil-secilir) ve [kollajen yapımını uyarmayı hedefleyen altın iğne](/blog/altin-igne) konularını da okuyabilirsiniz. Ayrıca [retinoidlerin cilt yaşlanmasındaki yeri](/blog/retinoid-nedir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

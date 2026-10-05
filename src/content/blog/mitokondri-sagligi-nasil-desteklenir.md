@@ -11,18 +11,18 @@ takeaways:
   - "Egzersiz, yeterli uyku, dengeli beslenme ve metabolik sağlığın korunması temel başlıklardır."
   - "Mitokondri iddiası taşıyan ürünlerin kanıt düzeyi ve güvenliği ayrıca değerlendirilmelidir."
 relatedArticles:
+  - slug: "bolge-2-kardiyo"
+    category: "Hareket"
+    title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
+    image: "/assets/images/generated/articles/bolge-2-kardiyo.webp"
+  - slug: "nmn-nad-yaslanma"
+    category: "Longevity Bilimi"
+    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
+    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
   - slug: "biyolojik-yas-nasil-olculur"
     category: "Longevity Bilimi"
     title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
     image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
-  - slug: "direnc-antrenmani-yaslanma"
-    category: "Hareket"
-    title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
-  - slug: "sirkadiyen-ritim-ve-uyku"
-    category: "Uyku"
-    title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
-    image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
 ---
 
 ## Mitokondri nedir?
@@ -48,6 +48,10 @@ Koenzim Q10, NAD öncüleri, alfa lipoik asit ve benzeri ürünler mitokondri ba
 Haftada birkaç gün yürüyüşe, iki gün temel direnç hareketlerine ve düzenli uyku saatlerine odaklanabilirsiniz. Tansiyon, kan şekeri, kilo ve bel çevresi gibi bilinen riskleri takip etmek; mitokondri puanı aramaktan daha doğrudan sağlık bilgisi sağlar.
 
 > **Not:** Kronik hastalığınız, kas hastalığınız, böbrek veya karaciğer sorununuz varsa egzersiz ve takviye planını doktorunuzla oluşturun. Mitokondri sağlığı adı altında satılan ürünler mevcut tedavinin yerine geçmez.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [Zone 2 (bölge 2) kardiyo](/blog/bolge-2-kardiyo) ve [NAD+ ve NMN hakkında bilinenler](/blog/nmn-nad-yaslanma) konularını da okuyabilirsiniz. Ayrıca [biyolojik yaş ölçümleri](/blog/biyolojik-yas-nasil-olculur) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.
 
 ## Kaynaklar
 

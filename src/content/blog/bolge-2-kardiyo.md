@@ -14,14 +14,18 @@ takeaways:
   - "Dünya Sağlık Örgütü yetişkinler için haftada en az 150–300 dakika orta yoğunlukta aerobik aktivite önerir."
   - "Bölge 2, yüksek yoğunluklu antrenmanlarla birlikte dengeli bir egzersiz planının parçası olabilir."
 relatedArticles:
-  - slug: "kortizol-yaslanma"
-    category: "Zihin & Sosyal Yaşam"
-    title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
-    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
-  - slug: "aralikli-oruc-longevity"
-    category: "Beslenme"
-    title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
+  - slug: "vo2max-ve-longevity"
+    category: "Hareket"
+    title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
+    image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
+  - slug: "mitokondri-sagligi-nasil-desteklenir"
+    category: "Longevity Bilimi"
+    title: "Mitokondri Sağlığı Nasıl Desteklenir?"
+    image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
+  - slug: "gunluk-yuruyus-sagligi"
+    category: "Hareket"
+    title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
+    image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
 ---
 
 Spor salonunda en hızlı koşan, en ağır kaldıran değil; en uzun yaşayan kazanır. Bu felsefeyi longevity bilimine taşıyan kavram, **Bölge 2 Kardiyo**'dur. Profesyonel dayanıklılık sporcularından longevity araştırmacılarına, doktor Peter Attia'dan fizyolog Iñigo San Millán'a kadar dünyanın önde gelen sağlık uzmanları, bu egzersiz bölgesini sağlıklı yaşlanma için önemli bir araç olarak öneriyor.
@@ -70,6 +74,10 @@ Araştırmalar ve klinik öneri olarak:
 - "Çok kolay geliyor" duygusu normaldir — Bölge 2'nin amacı vücudu zorlamak değil, düzenli ve sürdürülebilir bir aerobik temel oluşturmaktır.
 
 > **Not:** Kalp hastalığı, yüksek tansiyon veya başka bir kronik hastalığınız varsa, yeni bir egzersiz programına başlamadan önce hekiminize danışın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [VO₂max ve uzun ömür](/blog/vo2max-ve-longevity) ve [mitokondri sağlığı](/blog/mitokondri-sagligi-nasil-desteklenir) konularını da okuyabilirsiniz. Ayrıca [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

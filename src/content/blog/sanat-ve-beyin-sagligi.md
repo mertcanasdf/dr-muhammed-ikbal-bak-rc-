@@ -11,10 +11,18 @@ takeaways:
   - "Emekli yetişkinlerle yapılan küçük bir çalışmada, 10 haftalık resim üretimi beyin bağlantılarında değişiklik ve stres dayanıklılığında artışla ilişkili bulundu."
   - "45 dakikalık sanat üretiminden sonra tükürük kortizolünün düştüğünü gösteren bir çalışma var; ancak kontrol grubu olmayan küçük bir çalışmadır."
 relatedArticles:
-  - slug: "otofaji-nedir"
-    category: "Longevity Bilimi"
-    title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/articles/otofaji-nedir.webp"
+  - slug: "kitap-okuma-ve-beyin"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Kitap Okumak Beyni ve Bilişsel Yaşlanmayı Nasıl Etkiler?"
+    image: "/assets/images/generated/articles/kitap-okuma-ve-beyin.webp"
+  - slug: "muzik-ve-stres-kortizol"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Müzik Dinlemek Stresi Nasıl Etkiler? Kortizol ve Kanıtlar"
+    image: "/assets/images/generated/articles/muzik-ve-stres-kortizol.webp"
+  - slug: "doga-ve-zihin-sagligi"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Doğada Geçirilen Zaman ve Zihinsel Toparlanma"
+    image: "/assets/images/generated/articles/doga-ve-zihin-sagligi.webp"
 ---
 
 Sanat üretimi, sadece duygusal bir dışavurum değil, beyni çok yönlü çalıştıran bir uğraştır. Dünya Sağlık Örgütü'nün 3.000'den fazla çalışmayı inceleyen raporu, görsel sanatlar, müzik, yazarlık veya el sanatları gibi yaratıcı etkinliklerin ruh sağlığını desteklemede ve bazı hastalıkların yönetiminde rol oynayabileceğini ortaya koymuştur (Fancourt ve Finn, 2019).
@@ -27,6 +35,10 @@ Sanat üretirken motor beceriler, görsel işleme ve duygusal düzenlemeyle ilgi
 
 ## 3. Akış Hâli ve Ödül Duygusu
 Yaratıcı bir sürece kendini kaptırmak (akış hâli, *flow state*) keyif ve tatmin duygusu yaratır. Bu deneyimin beynin ödül sistemiyle ilişkili olduğu düşünülmektedir. Pratik açıdan önemli olan, yeteneğe değil sürece odaklanmaktır: Haftada birkaç kez, sonuç kaygısı olmadan resim, el işi, yazı ya da müzikle uğraşmak, stresle başa çıkmayı destekleyen erişilebilir bir alışkanlıktır.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [kitap okuma ve bilişsel yaşlanma](/blog/kitap-okuma-ve-beyin) ve [müzik ve stres](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [doğa ve zihinsel toparlanma](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -15,10 +15,10 @@ relatedArticles:
     category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
     image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
-  - slug: "lifli-beslenme-ve-mikrobiyota"
-    category: "Beslenme"
-    title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
-    image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
+  - slug: "kreatin-ve-yaslanma"
+    category: "Hareket"
+    title: "Kreatin ve Yaşlanma: Kas Gücü İçin Ne Kadar Kanıt Var?"
+    image: "/assets/images/generated/articles/kreatin-ve-yaslanma.webp"
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
@@ -48,6 +48,10 @@ Günlük toplamı tek öğünde tüketmek yerine ana öğünlerin her birine bir
 Beslenme ile yeterli protein alınabiliyorsa protein tozu zorunlu değildir. Takviyeler bazı kişilerde pratiklik sağlayabilir, fakat ürünün içeriği, kalori miktarı, tatlandırıcılar ve ilaçlarla olası etkileşimler değerlendirilmelidir.
 
 > **Not:** Kronik böbrek hastalığı, karaciğer hastalığı, kanser tedavisi veya gebelikte protein miktarı doktor ve diyetisyen tarafından belirlenmelidir. İnternetteki yüksek protein önerileri herkese uygun değildir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [kas kütlesini korumak](/blog/kas-kutlesi-ve-yaslanma) ve [kreatin ve kas gücü](/blog/kreatin-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

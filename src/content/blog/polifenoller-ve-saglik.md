@@ -15,14 +15,14 @@ relatedArticles:
     category: "Beslenme"
     title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
     image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
+  - slug: "mavi-bolge-diyeti"
+    category: "Beslenme"
+    title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
+    image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
   - slug: "lifli-beslenme-ve-mikrobiyota"
     category: "Beslenme"
     title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
     image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
-  - slug: "mitokondri-sagligi-nasil-desteklenir"
-    category: "Longevity Bilimi"
-    title: "Mitokondri Sağlığı Nasıl Desteklenir?"
-    image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
 ---
 
 ## Polifenol nedir?
@@ -48,6 +48,10 @@ Polifenollerin bağırsak bakterileriyle etkileşimi araştırılmaktadır; anca
 Her ana öğünde farklı renkte bir sebze veya meyve, haftada birkaç kez baklagil ve düzenli kuruyemiş kullanımı iyi bir temel olabilir. Bu yaklaşım lif, vitamin, mineral ve farklı bitkisel bileşikleri birlikte sağlar. Kişisel intolerans, diyabet veya ilaç kullanımı planı değiştirebilir.
 
 > **Not:** Yoğun polifenol özütleri veya “anti-aging” takviyeleri kullanmadan önce doktorunuza ve eczacınıza danışın. Özellikle ameliyat öncesinde ve düzenli ilaç kullanırken ürünleri mutlaka bildirin.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [omega-3 yağ asitleri](/blog/omega-3-ne-ise-yarar) ve [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) konularını da okuyabilirsiniz. Ayrıca [lif ve mikrobiyota](/blog/lifli-beslenme-ve-mikrobiyota) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

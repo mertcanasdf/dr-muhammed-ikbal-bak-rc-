@@ -11,6 +11,10 @@ takeaways:
   - "Düzenli tempolu yürüyüş, bisiklet ve koşu gibi aerobik aktiviteler kapasiteyi destekleyebilir."
   - "Göğüs ağrısı, bayılma veya olağandışı nefes darlığında egzersiz bırakılıp tıbbi değerlendirme alınmalıdır."
 relatedArticles:
+  - slug: "bolge-2-kardiyo"
+    category: "Hareket"
+    title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
+    image: "/assets/images/generated/articles/bolge-2-kardiyo.webp"
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
@@ -19,10 +23,6 @@ relatedArticles:
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
-  - slug: "biyolojik-yas-nasil-olculur"
-    category: "Longevity Bilimi"
-    title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
-    image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
 ---
 
 ## VO₂max nedir?
@@ -48,6 +48,10 @@ Kondisyonu uygun kişilerde kısa süreli hızlı ve yavaş aralıklar kullanıl
 Bilinen kalp-damar hastalığı, kontrolsüz tansiyon, ciddi eklem sorunu veya uzun süreli hareketsizlik varsa yoğun antrenmana geçmeden önce hekim görüşü alınmalıdır. Baş dönmesi, göğüs ağrısı, düzensiz çarpıntı veya normalden belirgin nefes darlığı egzersizi bırakmayı gerektirir.
 
 > **Not:** VO₂max artırma amacıyla ilaç, hormon veya yüksek doz takviye kullanımı güvenli bir yol değildir. Programın yoğunluğu yaşınıza, mevcut sağlık durumunuza ve kondisyonunuza göre düzenlenmelidir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [Zone 2 (bölge 2) kardiyo](/blog/bolge-2-kardiyo) ve [günlük yürüyüşün faydaları](/blog/gunluk-yuruyus-sagligi) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

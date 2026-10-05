@@ -14,14 +14,18 @@ takeaways:
   - "Beslenme tek başına yeterli değil; hareket, amaç, sosyal bağlar ve stres yönetimi bütünü tamamlıyor."
   - "Bulgular gözlemseldir; yine de baklagil, sebze ve tam tahıl ağırlıklı beslenme genel sağlık önerileriyle örtüşür."
 relatedArticles:
-  - slug: "aralikli-oruc-longevity"
+  - slug: "lifli-beslenme-ve-mikrobiyota"
     category: "Beslenme"
-    title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
-    image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
-  - slug: "telomerleri-korumak"
-    category: "Longevity Bilimi"
-    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
+    title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
+    image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
+  - slug: "polifenoller-ve-saglik"
+    category: "Beslenme"
+    title: "Polifenoller ve Sağlık: Hangi Besinlerde Bulunur?"
+    image: "/assets/images/generated/articles/polifenoller-ve-saglik.webp"
+  - slug: "yasam-amaci-ve-longevity"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Yaşam Amacı Olan İnsanlar Daha Uzun Yaşar mı?"
+    image: "/assets/images/generated/articles/yasam-amaci-ve-longevity.webp"
 ---
 
 Dünya üzerinde, 100 yaşına ulaşan insanların görece sık görüldüğü bildirilen beş bölge var. Araştırmacı ve yazar Dan Buettner'in "Mavi Bölgeler" adını verdiği bu coğrafyalar — İtalya'nın Sardunya adası, Japonya'nın Okinawa adası, Kosta Rika'nın Nicoya yarımadası, Yunanistan'ın İkaria adası ve Amerikalı Adventistlerin yaşadığı Loma Linda, Kaliforniya — bilim insanlarına yüzyıl önce sormayı düşünmedikleri sorular sorduruyor: Neden bu insanlar bu kadar uzun ve sağlıklı yaşıyor?
@@ -77,6 +81,10 @@ Beslenme kritik olmakla birlikte, longevity araştırmaları mavi bölge sakinle
 ## Bu Bulguları Nasıl Okumalı?
 
 Mavi bölge çalışmaları gözlemseldir: uzun yaşayan toplulukların ortak özelliklerini tanımlar, ancak tek tek alışkanlıkların ömrü ne kadar uzattığını kanıtlamaz. Bazı araştırmacılar, çok ileri yaşlara ait kayıtların bir kısmında belge hataları olabileceğine dikkat çekiyor. Yine de bu bölgelerde öne çıkan beslenme ilkeleri — bol sebze, baklagil ve tam tahıl, az işlenmiş gıda — genel sağlık önerileriyle örtüşür.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [lifli beslenme ve bağırsak mikrobiyotası](/blog/lifli-beslenme-ve-mikrobiyota) ve [polifenol içeren besinler](/blog/polifenoller-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [yaşam amacı (ikigai) ve uzun ömür](/blog/yasam-amaci-ve-longevity) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

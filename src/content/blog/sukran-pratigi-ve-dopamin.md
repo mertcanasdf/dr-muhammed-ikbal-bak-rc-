@@ -11,10 +11,18 @@ takeaways:
   - "64 randomize çalışmayı kapsayan bir meta-analizde, şükran uygulamaları ruh sağlığını iyileştirdi ve kaygı ile depresyon belirtilerini azalttı."
   - "Şükran pratikleri tedavinin yerine geçmez; ancak iyi oluşu destekleyen basit ve yan etkisiz bir tamamlayıcıdır."
 relatedArticles:
-  - slug: "otofaji-nedir"
-    category: "Longevity Bilimi"
-    title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-    image: "/assets/images/generated/articles/otofaji-nedir.webp"
+  - slug: "yasam-amaci-ve-longevity"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Yaşam Amacı Olan İnsanlar Daha Uzun Yaşar mı?"
+    image: "/assets/images/generated/articles/yasam-amaci-ve-longevity.webp"
+  - slug: "sosyal-baglanti-ve-uzun-omur"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
+    image: "/assets/images/generated/articles/sosyal-baglanti-ve-uzun-omur.webp"
+  - slug: "kortizol-yaslanma"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
+    image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
 ---
 
 Zihinsel esenlik ve mutluluk, kimyasal düzeyde nörotransmitterlerin dengesiyle ilişkilidir. Pozitif psikoloji ve beyin görüntüleme çalışmaları, basit bir "şükran ve minnettarlık duyma" pratiğinin ruh hâli ve iyi oluş üzerinde ölçülebilir etkileri olabileceğini gösteriyor.
@@ -29,6 +37,10 @@ Beyin, evrimsel nedenlerle tehlikeleri ve olumsuzlukları öncelikli algılama e
 Şükran hissini başkalarıyla paylaşmak (teşekkür etmek, takdir etmek) ilişkileri güçlendirir. Güçlü sosyal bağlar ise daha iyi ruh sağlığı ve daha uzun yaşamla ilişkilidir. Şükranın **oksitosin** sistemiyle bağlantılı olabileceğine dair ön bulgular olsa da bu alandaki araştırmalar henüz sınırlıdır.
 
 Önemli bir not: Depresyon veya kaygı bozukluğu yaşayan kişiler için şükran pratikleri bir tamamlayıcıdır, tedavinin yerini tutmaz.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [yaşam amacı](/blog/yasam-amaci-ve-longevity) ve [sosyal bağlantı](/blog/sosyal-baglanti-ve-uzun-omur) konularını da okuyabilirsiniz. Ayrıca [stres ve kortizol](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın sosyal ilişkiler alanında](/longevity#sosyal-iliskiler) bulabilirsiniz.
 
 ## Kaynaklar
 

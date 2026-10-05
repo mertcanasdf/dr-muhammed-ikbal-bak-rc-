@@ -14,14 +14,18 @@ takeaways:
   - "Takviye dozu kan düzeyine ve kişisel risklere göre hekimle belirlenmelidir; yetişkinler için önerilen üst sınır günde 4.000 IU'dir."
   - "Güneş ışığı D vitamininin başlıca doğal kaynağıdır; ancak cilt kanseri riski nedeniyle uzun süreli korunmasız güneşlenme önerilmez."
 relatedArticles:
-  - slug: "telomerleri-korumak"
-    category: "Longevity Bilimi"
-    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
-  - slug: "nmn-nad-yaslanma"
-    category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
+  - slug: "d3-k2-birlikte-kullanilir-mi"
+    category: "Beslenme"
+    title: "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik"
+    image: "/assets/images/generated/articles/d3-k2-birlikte-kullanilir-mi.webp"
+  - slug: "magnezyum-eksikligi"
+    category: "Beslenme"
+    title: "Magnezyum Eksikliği Belirtileri ve Magnezyum Kaynakları"
+    image: "/assets/images/generated/articles/magnezyum-eksikligi.webp"
+  - slug: "omega-3-ne-ise-yarar"
+    category: "Beslenme"
+    title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
+    image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
 ---
 
 D vitamini eksikliği dünyada ve Türkiye'de yaygın görülen bir durumdur. Peki eksiklik neden bu kadar sık, hangi belirtilere yol açabilir ve takviyeler hakkında kanıtlar ne söylüyor?
@@ -74,6 +78,10 @@ En zengin D vitamini kaynakları şunlardır:
 - **Yağlı balıklar:** Somon, sardalye, ton balığı, uskumru (miktar balığın türüne ve yetiştirilme biçimine göre değişir).
 - **Yumurta sarısı:** Her yumurta ~40-50 IU içerir.
 - **UV'ye maruz kalmış mantar:** Güneşe bırakılan mantarlar D2 üretir (D3 kadar etkili değil).
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [D3 ve K2 birlikte kullanılır mı](/blog/d3-k2-birlikte-kullanilir-mi) ve [magnezyum eksikliği](/blog/magnezyum-eksikligi) konularını da okuyabilirsiniz. Ayrıca [omega-3 takviyeleri](/blog/omega-3-ne-ise-yarar) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -14,14 +14,18 @@ takeaways:
   - "Egzersiz ve dengeli beslenme, NAD+ metabolizmasını destekleyebilecek yaşam tarzı yaklaşımlarıdır."
   - "Takviye ürünlerinin içeriği ve kalitesi değişkendir; kullanmadan önce hekiminize danışın."
 relatedArticles:
+  - slug: "mitokondri-sagligi-nasil-desteklenir"
+    category: "Longevity Bilimi"
+    title: "Mitokondri Sağlığı Nasıl Desteklenir?"
+    image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/articles/otofaji-nedir.webp"
-  - slug: "telomerleri-korumak"
+  - slug: "sirt6-proteini-epigenetik-genclesme"
     category: "Longevity Bilimi"
-    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
+    title: "SIRT6 Proteini ve Epigenetik Yaşlanma: 2026 Fare Çalışması Ne Gösterdi?"
+    image: "/assets/images/generated/articles/sirt6-proteini-epigenetik-genclesme.webp"
 ---
 
 Longevity araştırmalarının son on yılında en çok ilgi çeken moleküllerin başında **NAD+** (nikotinamid adenin dinükleotid) gelir. David Sinclair, Peter Attia ve Rhonda Patrick gibi dünyaca tanınan longevity araştırmacılarının ortak bir odak noktası olan bu koenzim, neden bu denli kritiktir?
@@ -75,6 +79,10 @@ Takviye düşünmeden önce veya takviyeyle birlikte uygulanabilecek yaşam tarz
 - **NR içeren gıdalar:** Süt ürünleri, maya, edamame hafif miktarda NAD+ öncülü içerir.
 - **Niasin (B3 Vitamini):** NAD+ sentezinin temel hammaddesi; et, balık, mantar, yer fıstığı zengin kaynaklardır.
 - **Resveratrol:** Laboratuvar çalışmalarında sirtuin aktivitesini etkilediği bildirilmiştir; insanlarda yaşlanma üzerine etkisi gösterilmemiştir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [hücrenin enerji üretimi ve mitokondri](/blog/mitokondri-sagligi-nasil-desteklenir) ve [otofaji](/blog/otofaji-nedir) konularını da okuyabilirsiniz. Ayrıca [sirtuinler ve SIRT6](/blog/sirt6-proteini-epigenetik-genclesme) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.
 
 ## Kaynaklar
 

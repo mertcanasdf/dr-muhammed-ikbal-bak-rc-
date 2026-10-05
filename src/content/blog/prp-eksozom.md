@@ -1,9 +1,8 @@
 ---
-title: "PRP ve Eksozom Uygulamaları: Medikal Estetikte Rejeneratif Yaklaşımlar ve Kanıtlar"
-seoTitle: "PRP mi Eksozom mu? Medikal Estetikte Kanıtlar ve Güvenlik"
+title: "PRP mi Eksozom mu? Farkları, Kanıtlar ve Güvenlik"
 date: 2026-06-16
 updated: 2026-10-05
-description: "PRP ve eksozom uygulamaları nasıl çalışır, cilt ve saç için kanıtlar ne kadar güçlü, güvenlik açısından nelere dikkat edilmeli?"
+description: "PRP ve eksozom nasıl çalışır, aralarındaki fark nedir? Cilt ve saç için kanıtlar ne kadar güçlü, uygulama öncesi hangi sorular sorulmalı? Güncel kaynaklarla."
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/prp-eksozom.webp"
 readTime: "5 dk"
@@ -13,14 +12,18 @@ takeaways:
   - "Eksozomlar hücreler arası iletişimde rol oynayan küçük veziküllerdir; estetik amaçlı eksozom ürünlerinin etkinliği ve güvenliği yeterince kanıtlanmamıştır."
   - "ABD Gıda ve İlaç Dairesi (FDA), onaysız eksozom ürünleri konusunda tüketicileri uyarmaktadır; ürünün kaynağı ve düzenleyici durumu mutlaka sorulmalıdır."
 relatedArticles:
-  - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
+  - slug: "mezoterapi"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt: \"Zombi\" Hücreler Hakkında Ne Biliniyor?"
-    image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
-  - slug: "nmn-nad-yaslanma"
-    category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
+    title: "Cilt Mezoterapisi ve Gençlik Aşıları: Nem Aşıları, Somon DNA ve Kanıtlar"
+    image: "/assets/images/generated/articles/mezoterapi.webp"
+  - slug: "cilt-genclesmesi-kombinasyon-tedavileri"
+    category: "Skin Longevity"
+    title: "Altın İğne ve Eksozom Kombinasyonu: Mantığı, Kanıtlar ve Sınırlar"
+    image: "/assets/images/generated/articles/cilt-genclesmesi-kombinasyon-tedavileri.webp"
+  - slug: "altin-igne"
+    category: "Skin Longevity"
+    title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi ve Cilt Yenilenmesi"
+    image: "/assets/images/generated/articles/altin-igne.webp"
 ---
 
 Rejeneratif tıp, dokuların kendi onarım kapasitesini desteklemeyi amaçlayan bir alandır. Medikal estetikte bu yaklaşımın en çok konuşulan iki uygulaması **PRP (Trombositten Zengin Plazma)** ve **eksozom** uygulamalarıdır. İkisi de son yıllarda ilgi görüyor; ancak kanıt düzeyleri ve güvenlik durumları birbirinden oldukça farklı.
@@ -49,13 +52,23 @@ Ancak estetik amaçlı eksozom ürünleri için durum farklıdır:
 
 PRP kişinin kendi kanından hazırlandığı için yabancı bir biyolojik materyal içermez; sonucu ise kişinin kan özellikleri ve hazırlama yöntemi etkiler. Eksozom ürünleri ise dışarıdan elde edilir ve kalitesi üreticiye göre değişir. Bu nedenle "eksozom daha güçlü ve daha hızlı sonuç verir" gibi genellemeler bugünkü kanıtlarla desteklenmez.
 
-## Uygulamadan Önce
+PRP'nin hazırlanışında kullanılan tüp, trombosit yoğunluğu, aktivasyon ve uygulama protokolü merkezden merkeze değişir. Araştırma sonuçlarının birbirinden farklı çıkmasının nedenlerinden biri budur. Ayrıca saç, cilt, tendon ya da eklem gibi bir alanda elde edilen sonuç başka bir alana otomatik olarak taşınamaz.
 
-- Uygulamayı yapacak hekime ürünün kaynağını, içeriğini ve düzenleyici durumunu sorun.
-- Beklentilerinizi gerçekçi tutun; sonuç kişiden kişiye değişir ve genellikle birden fazla seans gerekir.
-- Kan hastalığı, kan sulandırıcı kullanımı, aktif enfeksiyon veya gebelik gibi durumları mutlaka bildirin.
+## Uygulamadan Önce Hangi Sorular Sorulmalı?
+
+- **Amaç ve kanıt:** Uygulama hangi sorun için öneriliyor, bu kullanım için klinik çalışma var mı?
+- **Ürün:** Ürünün tam adı, kaynağı, sterilizasyon ve saklama koşulları ile düzenleyici onay durumu nedir? "Kök hücre", "eksozom" ya da "hücresel gençleşme" ifadeleri tek başına etkinlik veya güvenlik kanıtı değildir.
+- **PRP için sağlık durumu:** Kan hastalığı, trombosit düşüklüğü, aktif enfeksiyon, kan sulandırıcı kullanımı ve gebelik mutlaka hekimle paylaşılmalıdır.
+- **Eksozom için onay:** Ürünün onay ve klinik araştırma bilgisi net değilse uygulama yapılmamalıdır.
+- **Beklenti:** Sonuç kişiden kişiye değişir ve genellikle birden fazla seans gerekir.
+
+> **Not:** Bu uygulamalar kanıtlanmış bir hastalık tedavisinin yerine konulmamalıdır. Komplikasyon gelişirse uygulamayı yapan hekime başvurun.
 
 [Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [cilt mezoterapisi ve gençlik aşıları](/blog/mezoterapi) ve [altın iğne ve eksozom kombinasyonu](/blog/cilt-genclesmesi-kombinasyon-tedavileri) konularını da okuyabilirsiniz. Ayrıca [fraksiyonel radyofrekans (altın iğne)](/blog/altin-igne) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

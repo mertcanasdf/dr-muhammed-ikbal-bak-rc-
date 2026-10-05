@@ -15,14 +15,14 @@ relatedArticles:
     category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
-  - slug: "kas-kutlesi-ve-yaslanma"
-    category: "Hareket"
-    title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
-    image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
     title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
     image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
+  - slug: "kas-kutlesi-ve-yaslanma"
+    category: "Hareket"
+    title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
+    image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
 ---
 
 ## Kreatin nedir?
@@ -44,6 +44,10 @@ Yaşlı yetişkinlerde yapılan bazı meta-analizlerde kreatin ile direnç egzer
 Böbrek fonksiyon testleriyle ilgili yorumlar, takviye başlanmadan önce ve takipte doktor tarafından yapılmalıdır. Kreatinin laboratuvar değeri kas kütlesi ve kullanılan takviyeden etkilenebileceği için hekim bilgilendirilmelidir.
 
 > **Not:** Böbrek veya karaciğer hastalığınız, gebelik-emzirme durumunuz, düzenli ilaç kullanımınız veya planlanan ameliyatınız varsa kreatini doktorunuza danışmadan kullanmayın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) ve [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) konularını da okuyabilirsiniz. Ayrıca [kas kütlesi ve yaşlanma](/blog/kas-kutlesi-ve-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

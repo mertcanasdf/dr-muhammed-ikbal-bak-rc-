@@ -11,18 +11,18 @@ takeaways:
   - "Sonuç hemen tamamlanmayabilir; kontrol ve takip planı önemlidir."
   - "Yaygın güçsüzlük, yutma veya nefes alma sorunu gibi belirtiler acil değerlendirme gerektirir."
 relatedArticles:
-  - slug: "dermal-dolgu-guvenligi"
+  - slug: "botoks"
     category: "Skin Longevity"
-    title: "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi"
-    image: "/assets/images/generated/articles/dermal-dolgu-guvenligi.webp"
-  - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
-    image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
+    title: "Botulinum Toksin (Botoks): Mimik Kırışıklıklar, Masseter Uygulaması ve Bilinmesi Gerekenler"
+    image: "/assets/images/generated/articles/botoks.webp"
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
     image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
+  - slug: "egzersiz-sonrasi-toparlanma"
+    category: "Hareket"
+    title: "Egzersiz Sonrası Toparlanma: Uyku, Beslenme ve Yük Yönetimi"
+    image: "/assets/images/generated/articles/egzersiz-sonrasi-toparlanma.webp"
 ---
 
 ## Botoks sonrası süreç nasıldır?
@@ -44,6 +44,10 @@ Tek taraflı belirgin göz kapağı düşüklüğü, görme değişikliği, yayg
 Ürünün adı, lot bilgisi ve uygulayıcının iletişim bilgisi saklanmalıdır. FDA, botulinum toksini ve dermal dolgu gibi işlemlerde lisanslı sağlık profesyoneli ve güvenilir ürün seçiminin önemini vurgular: [FDA dermal dolgu güvenliği](https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more).
 
 > **Not:** Bu yazı kişisel işlem sonrası talimat yerine geçmez. Gebelik, emzirme, nöromüsküler hastalık, kanama riski veya düzenli ilaç kullanımı varsa işlem öncesi mutlaka bildirilmelidir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [botulinum toksinin nasıl etki ettiği](/blog/botoks) ve [işlem sonrası güneş koruması](/blog/gunes-kremi-nasil-secilir) konularını da okuyabilirsiniz. Ayrıca [egzersize dönüş ve toparlanma](/blog/egzersiz-sonrasi-toparlanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -12,10 +12,6 @@ takeaways:
   - "Her ağrı kas gelişimi anlamına gelmez; keskin veya kalıcı ağrı değerlendirilmelidir."
   - "Yoğunluk kademeli artırılmalı ve dinlenme günleri planlanmalıdır."
 relatedArticles:
-  - slug: "direnc-antrenmani-yaslanma"
-    category: "Hareket"
-    title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
-    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
@@ -24,6 +20,10 @@ relatedArticles:
     category: "Beslenme"
     title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
     image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
+  - slug: "direnc-antrenmani-yaslanma"
+    category: "Hareket"
+    title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
+    image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
 ---
 
 ## Toparlanma ne demektir?
@@ -45,6 +45,10 @@ Antrenman sonrasında karbonhidrat, protein ve renkli bitkisel besin içeren den
 Haftalık yük hızla artırılmamalı, zor günler daha kolay günlerle dengelenmelidir. Dinlenme günü hiç hareket etmeme anlamına gelmez; hafif yürüyüş veya mobilite çalışması uygun olabilir.
 
 > **Not:** Koyu idrar, bayılma, aşırı halsizlik, göğüs ağrısı veya egzersiz sonrası geçmeyen çarpıntı varsa tıbbi yardım alın. Takviye ve ağrı kesici kullanımı doktor önerisi olmadan rutin hale getirilmemelidir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [toparlanmada uykunun rolü](/blog/uyku-kalitesi-nasil-artirilir) ve [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

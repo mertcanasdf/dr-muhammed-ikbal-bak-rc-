@@ -13,14 +13,18 @@ takeaways:
   - "Düzenli, orta yoğunlukta egzersiz stres yönetimini destekler; çok yoğun ve uzun antrenmanlar kortizolü geçici olarak yükseltebilir."
   - "Uyku düzeni, düzenli hareket ve stres yönetimi temel yaklaşımlardır; ashwagandha ve magnezyum gibi takviyeler için kanıtlar sınırlıdır ve hekimle değerlendirilmelidir."
 relatedArticles:
-  - slug: "telomerleri-korumak"
-    category: "Longevity Bilimi"
-    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
-  - slug: "bolge-2-kardiyo"
-    category: "Hareket"
-    title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
-    image: "/assets/images/generated/articles/bolge-2-kardiyo.webp"
+  - slug: "anksiyete-ve-obsesyonun-fizyolojisi"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Kronik Anksiyete ve Obsesyon: Zihinsel Dengeyi ve Hücresel Yaşlanmayı Nasıl Etkiler?"
+    image: "/assets/images/generated/articles/anksiyete-ve-obsesyonun-fizyolojisi.webp"
+  - slug: "tukenmislik-sendromu"
+    category: "Zihin & Sosyal Yaşam"
+    title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
+    image: "/assets/images/generated/articles/tukenmislik-sendromu.webp"
+  - slug: "uyku-kalitesi-nasil-artirilir"
+    category: "Uyku"
+    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
+    image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
 ---
 
 Sabah uyandığınızda günün stresiyle karşılaşıyorsunuz. İş toplantısı, trafik, çocuklar, finansal kaygılar, sosyal medya akışı… Vücudunuz her birini bir tehdit olarak algılıyor ve her seferinde kortizol salgılatıyor. Kısa süreli strese verilen bu fizyolojik yanıt hayatta kalma için evrimsel bir armağandır. Ancak bu yanıt kronikleştiğinde, yaşlanma sürecini olumsuz etkileyebilecek bir yük hâline gelebilir.
@@ -68,6 +72,10 @@ Bakıcılar, yüksek stresli çalışanlar ve travma deneyimleyenler üzerinde y
 - **Uyku optimizasyonu:** Kortizol ritmi sirkadiyen düzene bağlıdır. Düzensiz uyku, kortizolün gece ve sabah anormal biçimde yükselmesine neden olur.
 - **Bitkisel takviyeler:** Ashwagandha üzerine yapılan bazı küçük klinik çalışmalarda stres ve kortizol düzeylerinde azalma bildirilmiştir; ancak kanıtlar sınırlıdır ve nadir de olsa karaciğer hasarı gibi yan etkiler raporlanmıştır. Gebelik, tiroid hastalığı veya ilaç kullanımı varsa takviyeye başlamadan önce hekiminize danışın.
 - **Magnezyum:** Yeşil yapraklılar, kabak çekirdeği, baklagiller ve badem iyi magnezyum kaynaklarıdır. Takviye gerekip gerekmediği kişisel değerlendirmeyle belirlenmelidir.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [kronik kaygının bedene etkileri](/blog/anksiyete-ve-obsesyonun-fizyolojisi) ve [tükenmişlik sendromu](/blog/tukenmislik-sendromu) konularını da okuyabilirsiniz. Ayrıca [uyku kalitesi](/blog/uyku-kalitesi-nasil-artirilir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

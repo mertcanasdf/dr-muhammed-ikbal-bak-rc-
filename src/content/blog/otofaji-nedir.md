@@ -18,14 +18,14 @@ relatedArticles:
     category: "Beslenme"
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
     image: "/assets/images/generated/articles/aralikli-oruc-longevity.webp"
-  - slug: "telomerleri-korumak"
+  - slug: "mitokondri-sagligi-nasil-desteklenir"
     category: "Longevity Bilimi"
-    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
-    image: "/assets/images/generated/articles/telomerleri-korumak.webp"
-  - slug: "nmn-nad-yaslanma"
+    title: "Mitokondri Sağlığı Nasıl Desteklenir?"
+    image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
+  - slug: "biyolojik-yas-nasil-olculur"
     category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-    image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
+    title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
+    image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
 ---
 
 Hücrelerimizde sürekli çalışan ve açlık ya da egzersiz gibi durumlarda artabilen bir temizlik mekanizması vardır: **otofaji**. Bu süreç, Yunancada "kendi kendini yemek" anlamına gelir ve 2016 Nobel Fizyoloji ve Tıp Ödülü'ne layık görülen bir keşiftir. Japon bilim insanı Yoshinori Ohsumi'nin bu alandaki çalışmaları, hücresel sağlık ve uzun ömür bilimimizi kökten değiştirdi.
@@ -75,6 +75,10 @@ Derin uyku sırasında — özellikle yavaş dalga uykusunda — beyin hücreler
 Otofaji, hücresel sağlığın temel bakım mekanizmalarından biridir ve yaşlanma araştırmalarında önemli bir yer tutar. Ancak bugün için insanlarda otofajiyi güvenle ölçüp artıran bir yöntem yoktur. Düzenli hareket, dengeli beslenme ve yeterli uyku, otofajiden bağımsız olarak da sağlıklı yaşlanmayı destekler.
 
 Uzun süreli oruç ya da diyet değişikliği planlıyorsanız, özellikle kronik bir hastalığınız veya düzenli kullandığınız ilaçlar varsa hekiminize danışın.
+
+## Konuyu derinleştirmek için
+
+Bu yazıyla bağlantılı olarak [aralıklı oruç ve kanıtlar](/blog/aralikli-oruc-longevity) ve [mitokondri sağlığı](/blog/mitokondri-sagligi-nasil-desteklenir) konularını da okuyabilirsiniz. Ayrıca [biyolojik yaşın nasıl ölçüldüğü](/blog/biyolojik-yas-nasil-olculur) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.
 
 ## Kaynaklar
 

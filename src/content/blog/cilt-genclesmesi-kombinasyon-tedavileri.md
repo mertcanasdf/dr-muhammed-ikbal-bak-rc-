@@ -35,7 +35,7 @@ Eksozomların en büyük problemi, cildin en dışındaki koruyucu bariyer olan 
 
 1. **Mikro Kanalların Açılması:** Altın kaplama iğneler dermis tabakasına dikey olarak girerek binlerce mikro kanal açar. Bu kanallar, eksozomların cildin derinliklerine (canlı hücrelerin bulunduğu dermise) doğrudan ulaşması için geçici yollar sunar.
 2. **Termal Radyofrekans Etkisi:** İğne uçlarından yayılan RF enerjisi, dermiste kontrollü bir ısı hasarı oluşturur. Bu hasar, hücreleri acil onarım moduna sokar.
-3. **Maksimum Emilim ve Reaksiyon:** Altın İğne seansından hemen sonra cilde uygulanan eksozom solüsyonu, açık kanallardan sızarak hedef fibroblast hücrelerine tutunur ve termal hasarla zaten uyarılmış olan kolajen sentezini katlayarak artırır.
+3. **Emilim ve Etkileşim:** Altın iğne seansından hemen sonra uygulanan eksozom solüsyonunun açılan mikro kanallardan cilde daha iyi ulaşması ve termal etkiyle uyarılan kolajen yapımını desteklemesi hedeflenir. Bu kombinasyonun etkisine dair veriler henüz sınırlıdır; uygunluk kişisel değerlendirmeyle belirlenir.
 
 ## Klinik Sonuçlar ve Avantajlar
 

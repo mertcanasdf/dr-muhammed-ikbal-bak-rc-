@@ -1,6 +1,0 @@
-@media (max-width: 768px) {
-  .articles-tabs__btn[aria-selected='true']::before {
-    right: 28px;
-    bottom: 14px;
-  }
-}

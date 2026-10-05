@@ -17,8 +17,6 @@ interface Props {
   image?: string;
   type?: 'website' | 'article';
   structuredData?: Record<string, unknown>;
-  includeSplide?: boolean;
-  includeArticleTabs?: boolean;
 }
 
 const {
@@ -27,8 +25,6 @@ const {
   image = DEFAULT_IMAGE,
   type = 'website',
   structuredData,
-  includeSplide = false,
-  includeArticleTabs = false,
 } = Astro.props;
 const description = getPageDescription(Astro.url.pathname, providedDescription);
 const canonicalUrl = getCanonicalUrl(Astro.url.pathname);
@@ -71,11 +67,8 @@ const jsonLd = JSON.stringify(
   <script type="application/ld+json" set:html={jsonLd}></script>
   <link rel="preload" href="/assets/fonts/roboto/roboto-400.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/roboto/roboto-700.woff2" as="font" type="font/woff2" crossorigin />
-  {includeSplide && <link rel="stylesheet" href="/assets/vendor/splide.min.css" />}
-  {includeSplide && <script src="/assets/vendor/splide.min.js" defer></script>}
   <link rel="stylesheet" href="/style.css" />
   <link rel="stylesheet" href="/mobile-menu.css" />
-  {includeArticleTabs && <link rel="stylesheet" href="/mobile-article-tabs.css" />}
   <ViewTransitions />
 </head>
 <body>

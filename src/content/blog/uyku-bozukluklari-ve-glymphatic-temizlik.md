@@ -2,7 +2,7 @@
 title: "Kronik Uyku Bozuklukları ve Longevity: Glymphatic Sistem Temizliği ve Hücresel Yenilenme"
 date: 2026-06-20
 description: "Yetersiz uykunun beyin temizliği (glymphatic sistem), mitokondriyal onarım ve büyüme hormonu salınımı üzerindeki etkileri. Kaliteli uyku için sirkadiyen protokoller."
-category: "Hücre Sağlığı"
+category: "Uyku"
 image: "/assets/images/generated/stress-sleep.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Melatonin, sadece uyku hormonu değil; aynı zamanda vücudun ürettiği en güçlü antioksidanlardan biridir."
 relatedArticles:
   - slug: "otofaji-nedir"
-    category: "Otofaji"
+    category: "Longevity Bilimi"
     title: "Otofaji: Hücresel Yenilenme ve Temizlik Rehberi"
     image: "/assets/images/generated/topics/otofaji.webp"
   - slug: "nmn-nad-yaslanma"
-    category: "Beyin Sağlığı"
+    category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---

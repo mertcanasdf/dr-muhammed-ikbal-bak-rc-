@@ -2,7 +2,7 @@
 title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
 date: 2026-09-15
 description: "VO₂max nedir, yaşla birlikte neden değişir ve aerobik kapasiteyi güvenli biçimde desteklemek için hangi egzersiz alışkanlıkları önemlidir?"
-category: "Hücre Sağlığı"
+category: "Hareket"
 image: "/assets/images/generated/articles/vo2max-ve-longevity.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Göğüs ağrısı, bayılma veya olağandışı nefes darlığında egzersiz bırakılıp tıbbi değerlendirme alınmalıdır."
 relatedArticles:
   - slug: "gunluk-yuruyus-sagligi"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "direnc-antrenmani-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "biyolojik-yas-nasil-olculur"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Biyolojik Yaş Nasıl Ölçülür?"
     image: "/assets/images/generated/topics/cellular-science.webp"
 ---

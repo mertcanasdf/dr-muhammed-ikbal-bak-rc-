@@ -2,7 +2,7 @@
 title: "Dijital Tükenmişlik Nedir? Ekran Yükünü Azaltma Rehberi"
 date: 2026-09-15
 description: "Sürekli bildirim, çevrim içi çalışma ve bilgi akışının yarattığı dijital tükenmişlik nasıl fark edilir, sınırlar nasıl kurulabilir?"
-category: "Kariyer"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/dijital-tukenmislik.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Tükenmişlik belirtileri kalıcıysa profesyonel destek gerekir."
 relatedArticles:
   - slug: "ekran-kullanimi-ve-uyku"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Ekran Kullanımı ve Uyku"
     image: "/assets/images/generated/stress-sleep.webp"
   - slug: "sosyal-baglanti-ve-uzun-omur"
-    category: "Stres"
+    category: "Zihin & Sosyal Yaşam"
     title: "Sosyal Bağlantı ve Uzun Ömür"
     image: "/assets/images/generated/topics/doga-zihin.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---

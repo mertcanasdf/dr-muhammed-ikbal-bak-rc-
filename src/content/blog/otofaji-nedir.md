@@ -2,7 +2,7 @@
 title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
 date: 2026-05-15
 description: "Hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü otofaji mekanizması nedir ve onu güçlendirmenin kanıtlanmış yolları nelerdir?"
-category: "Otofaji"
+category: "Longevity Bilimi"
 image: "/assets/images/generated/topics/otofaji.webp"
 readTime: "8 dk"
 takeaways:
@@ -18,11 +18,11 @@ relatedArticles:
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
     image: "/assets/images/generated/topics/aralikli-oruc.webp"
   - slug: "telomerleri-korumak"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
     image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
-    category: "Beyin Sağlığı"
+    category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---

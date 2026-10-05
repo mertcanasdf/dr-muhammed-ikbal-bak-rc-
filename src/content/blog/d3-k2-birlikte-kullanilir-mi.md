@@ -2,7 +2,7 @@
 title: "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik"
 date: 2026-09-15
 description: "D3 ve K2 vitaminleri ne işe yarar, birlikte kullanım hakkında hangi iddialar kanıtlıdır ve kan sulandırıcı kullananlar nelere dikkat etmelidir?"
-category: "Vitaminler"
+category: "Beslenme"
 image: "/assets/images/generated/articles/d3-k2-birlikte-kullanilir-mi.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,7 +12,7 @@ takeaways:
   - "Warfarin gibi kan sulandırıcılarda K vitamini alımı doktorla planlanmalıdır."
 relatedArticles:
   - slug: "magnezyum-eksikligi"
-    category: "Vitaminler"
+    category: "Beslenme"
     title: "Magnezyum Eksikliği Belirtileri"
     image: "/assets/images/generated/topics/urun-magnezyum.webp"
   - slug: "omega-3-ne-ise-yarar"
@@ -20,7 +20,7 @@ relatedArticles:
     title: "Omega-3 Ne İşe Yarar?"
     image: "/assets/images/generated/topics/urun-omega3.webp"
   - slug: "ciltte-kollajen-kaybi"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur?"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---

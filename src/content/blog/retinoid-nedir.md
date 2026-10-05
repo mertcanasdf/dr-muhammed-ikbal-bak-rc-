@@ -2,7 +2,7 @@
 title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
 date: 2026-09-15
 description: "Retinoid ailesi nedir, retinol ile reçeteli türevlerin farkları nelerdir ve tahriş riskini azaltmak için nasıl başlanır?"
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/articles/retinoid-nedir.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Gebelik, emzirme, egzama veya güçlü akne tedavisinde ürün seçimi doktorla görüşülmelidir."
 relatedArticles:
   - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "gunes-kremi-nasil-secilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "ciltte-kollajen-kaybi"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur?"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---

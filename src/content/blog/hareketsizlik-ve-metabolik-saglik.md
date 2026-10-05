@@ -2,7 +2,7 @@
 title: "Hareketsizlik ve Metabolik Sağlık: Gün İçindeki Oturma Süresini Azaltmak"
 date: 2026-09-15
 description: "Uzun süre oturmak metabolik sağlığı nasıl etkileyebilir, çalışma gününde hareket nasıl artırılır ve küçük molalar neden değerlidir?"
-category: "Egzersiz"
+category: "Hareket"
 image: "/assets/images/generated/articles/hareketsizlik-ve-metabolik-saglik.webp"
 readTime: "7 dk"
 takeaways:
@@ -16,11 +16,11 @@ relatedArticles:
     title: "İnsülin Direnci Belirtileri"
     image: "/assets/images/generated/success_insulin_resistance.webp"
   - slug: "gunluk-yuruyus-sagligi"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "vo2max-ve-longevity"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "VO₂max ve Longevity"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 ---

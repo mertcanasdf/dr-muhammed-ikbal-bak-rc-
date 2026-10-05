@@ -2,7 +2,7 @@
 title: "Yaşam Amacı Olan İnsanlar Daha Uzun Yaşar mı?"
 date: 2026-06-21
 description: "Ikigai kavramının kardiyovasküler sağlık, inflamasyon belirteçleri ve telomer boyu üzerindeki olumlu etkileri."
-category: "Sorumluluk"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/topics/yasam-amaci.webp"
 readTime: "5 dk"
 takeaways:
@@ -11,7 +11,7 @@ takeaways:
   - "Bilişsel kararlılık ve sorumluluk hissi, stres hormonlarını dengeleyerek hücresel sağlığı korur."
 relatedArticles:
   - slug: "mavi-bolge-diyeti"
-    category: "Longevity"
+    category: "Beslenme"
     title: "Mavi Bölge Diyeti: 100 Yıl Yaşamanın Sırrı"
     image: "/assets/images/generated/topics/mavi-bolge.webp"
 ---

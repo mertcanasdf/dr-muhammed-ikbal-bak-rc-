@@ -20,7 +20,7 @@ relatedArticles:
     title: "Lifli Beslenme ve Mikrobiyota"
     image: "/assets/images/generated/topics/tarifler-keto.webp"
   - slug: "mitokondri-sagligi-nasil-desteklenir"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Mitokondri Sağlığı Nasıl Desteklenir?"
     image: "/assets/images/generated/topics/cellular-science.webp"
 ---

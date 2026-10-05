@@ -6,7 +6,7 @@ import { sortPostsNewestFirst } from '../lib/posts';
 const allPosts = await getCollection('blog');
 // Keep the related-article rail focused on aesthetic and skin content.
 const estetikPosts = sortPostsNewestFirst(
-  allPosts.filter(post => ['Medikal Estetik', 'Sağlık Trendleri'].includes(post.data.category)),
+  allPosts.filter(post => ['Skin Longevity'].includes(post.data.category)),
 ).slice(0, 3);
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');

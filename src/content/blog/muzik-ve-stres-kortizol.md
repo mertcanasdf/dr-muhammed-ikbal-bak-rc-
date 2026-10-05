@@ -2,7 +2,7 @@
 title: "Müzik Dinlemek Kortizolü Nasıl Düşürür?"
 date: 2026-06-21
 description: "Müzik dinlemenin otonom sinir sistemi ve stres hormonu olan kortizol üzerindeki fizyolojik etkileri."
-category: "Kültür"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/topics/muzik-kortizol.webp"
 readTime: "5 dk"
 takeaways:
@@ -11,7 +11,7 @@ takeaways:
   - "Özellikle 60 BPM civarında ritme sahip müzikler kalp ritmini doğal olarak yavaşlatır."
 relatedArticles:
   - slug: "kortizol-yaslanma"
-    category: "Stres"
+    category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Hücresel Etkileri"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---

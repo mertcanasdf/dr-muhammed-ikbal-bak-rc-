@@ -2,7 +2,7 @@
 title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
 date: 2026-03-05
 description: "Kronik yüksek kortizol kas kaybı, beyin hasarı ve telomer kısalmasına yol açar; kanıtlanmış düşürme stratejileri nelerdir?"
-category: "Stres"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/guide_cortisol_stress.webp"
 readTime: "9 dk"
 takeaways:
@@ -13,11 +13,11 @@ takeaways:
   - "Ashwagandha, magnezyum ve uyku optimizasyonu kanıtlanmış destek araçlarıdır."
 relatedArticles:
   - slug: "telomerleri-korumak"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
     image: "/assets/images/generated/topics/telomer.webp"
   - slug: "bolge-2-kardiyo"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 ---

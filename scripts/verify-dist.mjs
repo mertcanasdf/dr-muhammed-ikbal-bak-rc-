@@ -52,6 +52,25 @@ check('quiz sayfası tanı koymadığını belirtiyor', () =>
 check('longevity göstergeleri kişiye göre bağlamlandırılmış', () =>
   read('longevity/index.html').includes('Kişisel hedefler') ? [] : ['longevity/index.html']);
 
+// Revizyon planı madde 8: içerik kütüphanesi 6 ana kategori.
+const CATEGORIES = ['Longevity Bilimi', 'Beslenme', 'Hareket', 'Uyku', 'Zihin & Sosyal Yaşam', 'Skin Longevity'];
+const decode = (s) => s.replaceAll('&amp;', '&').replaceAll('&#38;', '&');
+check('blog: 6 kategori filtresi ve her kategoride yazı var', () => {
+  const html = read('blog/index.html');
+  const filters = [...html.matchAll(/data-filter="([^"]+)"/g)].map((m) => decode(m[1])).filter((f) => f !== 'all');
+  const used = new Set([...html.matchAll(/data-cat="([^"]+)"/g)].map((m) => decode(m[1])));
+  const problems = [];
+  if (JSON.stringify(filters) !== JSON.stringify(CATEGORIES)) problems.push(`filtreler: ${filters.join(' · ')}`);
+  for (const c of CATEGORIES) if (!used.has(c)) problems.push(`boş kategori: ${c}`);
+  for (const c of used) if (!CATEGORIES.includes(c)) problems.push(`tanımsız kategori: ${c}`);
+  return problems;
+});
+check('dünyada sağlık: filtreler 6 kategoriyle aynı', () => {
+  const html = read('dunyada-saglik/index.html');
+  const filters = [...html.matchAll(/data-filter="([^"]+)"/g)].map((m) => decode(m[1])).filter((f) => f !== 'Tümü');
+  return JSON.stringify(filters) === JSON.stringify(CATEGORIES) ? [] : [`filtreler: ${filters.join(' · ')}`];
+});
+
 check('kaldırılan sayfalar build edilmedi', () => REMOVED.filter((d) => fs.existsSync(path.join(DIST, d))));
 
 check('sitemap kaldırılan adresleri içermiyor', () => {

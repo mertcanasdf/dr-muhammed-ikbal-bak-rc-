@@ -2,7 +2,7 @@
 title: "Denge Egzersizleri ve Yaşlanma: Düşme Riskini Azaltmaya Yardımcı Yaklaşım"
 date: 2026-09-15
 description: "Denge neden yaşla değişebilir, evde hangi temel egzersizler yapılabilir ve düşme riski olan kişilerde güvenlik nasıl sağlanır?"
-category: "Egzersiz"
+category: "Hareket"
 image: "/assets/images/generated/articles/denge-egzersizleri-yaslanma.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Kuvvet, yürüyüş ve görme kontrolleri denge planının parçasıdır."
 relatedArticles:
   - slug: "direnc-antrenmani-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "gunluk-yuruyus-sagligi"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---

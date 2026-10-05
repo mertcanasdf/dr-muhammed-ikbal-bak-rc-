@@ -2,7 +2,7 @@
 title: "Kavrama Gücü Sağlık Hakkında Ne Söyler?"
 date: 2026-09-15
 description: "Kavrama gücü neden ölçülür, hangi durumlarda anlamlıdır ve el dinamometresi sonucunu yaş ve klinik tabloyla birlikte nasıl yorumlamak gerekir?"
-category: "Hücre Sağlığı"
+category: "Hareket"
 image: "/assets/images/generated/articles/kavrama-gucu-ve-saglik.webp"
 readTime: "6 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Belirgin veya hızlı güç kaybı doktor değerlendirmesi gerektirir."
 relatedArticles:
   - slug: "kas-kutlesi-ve-yaslanma"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "biyolojik-yas-nasil-olculur"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Biyolojik Yaş Nasıl Ölçülür?"
     image: "/assets/images/generated/topics/cellular-science.webp"
   - slug: "denge-egzersizleri-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Denge Egzersizleri ve Yaşlanma"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 ---

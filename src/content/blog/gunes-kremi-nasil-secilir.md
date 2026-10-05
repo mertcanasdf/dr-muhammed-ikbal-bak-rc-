@@ -2,7 +2,7 @@
 title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
 date: 2026-09-15
 description: "Güneş kremi seçerken SPF, geniş spektrum, suya dayanıklılık ve cilt tipine göre ürün tercihi nasıl yapılır?"
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Güneş kremi mevcut şüpheli ben veya cilt kanseri değerlendirmesinin yerine geçmez."
 relatedArticles:
   - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "retinoid-nedir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Retinoid Nedir ve Nasıl Kullanılır?"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
   - slug: "ciltte-kollajen-kaybi"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur?"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---

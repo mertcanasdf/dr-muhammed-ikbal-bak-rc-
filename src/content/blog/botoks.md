@@ -2,7 +2,7 @@
 title: "Botulinum Toksin (Botoks): Dinamik Kırışıklıklar ve Koruyucu Yaşlanma Protokolü"
 date: 2026-06-18
 description: "Botoksun nöromüsküler kavşak üzerindeki etki mekanizması, Masseter botoksu ile bruksizm (diş gıcırdatma) tedavisi ve anatomik kırışıklık yönetimi."
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/doctor-portrait.webp"
 readTime: "6 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Doğal mimikleri korumak ve 'donuk yüz' görüntüsünden kaçınmak için kişiye özel mikrodosajlama önemlidir."
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
-    category: "Sağlık Trendleri"
+    category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "kortizol-yaslanma"
-    category: "Cilt Sağlığı"
+    category: "Zihin & Sosyal Yaşam"
     title: "Stres ve Cilt: Kortizolün Rolü"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---

@@ -2,7 +2,7 @@
 title: "Cilt Gençleşmesinde Yeni Nesil Sinerji: Altın İğne ve Eksozom Kombinasyonu"
 date: 2026-06-22
 description: "Altın iğne ve eksozom uygulamalarının cilt sıkılaştırma, kolajen sentezi ve leke görünümü üzerindeki rolü hakkında bilgilendirici rehber."
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/success-story.webp"
 readTime: "6 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Leke (hiperpigmentasyon), akne skarları ve ince kırışıklıklarda hızlı ve uzun vadeli hücresel onarım sağlar."
 relatedArticles:
   - slug: "altin-igne"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Altın İğne (Fraksiyonel Radyofrekans): Cilt Yenilenmesi"
     image: "/assets/images/generated/online-course.webp"
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
-    category: "Sağlık Trendleri"
+    category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
 ---

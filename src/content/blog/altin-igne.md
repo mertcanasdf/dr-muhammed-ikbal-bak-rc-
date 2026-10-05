@@ -2,7 +2,7 @@
 title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi ve Cilt Yenilenmesi"
 date: 2026-06-19
 description: "Mikro iğneleme ve radyofrekans enerjisinin sinerjik gücü: Altın iğne uygulamasının akne izleri, gözenekler ve cilt sıkılaştırmadaki biyolojik mekanizmaları."
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/online-course.webp"
 readTime: "5 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Leke riski son derece düşük olduğundan her mevsim güvenle uygulanabilen bir anti-aging tedavisidir."
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
-    category: "Sağlık Trendleri"
+    category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "nmn-nad-yaslanma"
-    category: "Beyin Sağlığı"
+    category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---

@@ -2,7 +2,7 @@
 title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
 date: 2026-09-15
 description: "Biyolojik yaş kavramı ne anlama gelir, hangi ölçümlerle değerlendirilir ve test sonuçları sağlık kararlarında nasıl yorumlanmalıdır?"
-category: "Hücre Sağlığı"
+category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Sonuçlar tanı yerine geçmez ve ölçüm yönteminin bilimsel geçerliliği mutlaka sorgulanmalıdır."
 relatedArticles:
   - slug: "vo2max-ve-longevity"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "VO₂max ve Longevity: Aerobik Kapasite Neyi Gösterir?"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "kavrama-gucu-ve-saglik"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "Kavrama Gücü Sağlık Hakkında Ne Söyler?"
     image: "/assets/images/generated/topics/cellular-science.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---

@@ -2,7 +2,7 @@
 title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
 date: 2026-09-15
 description: "Uykuya dalmayı ve uykuyu sürdürmeyi destekleyen alışkanlıklar, yatak odası düzeni ve profesyonel yardım gerektiren belirtiler."
-category: "Beyin Sağlığı"
+category: "Uyku"
 image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Kronik uykusuzluk, horlama ve nefes durması tıbbi değerlendirme gerektirebilir."
 relatedArticles:
   - slug: "sirkadiyen-ritim-ve-uyku"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "ekran-kullanimi-ve-uyku"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Ekran Kullanımı ve Uyku"
     image: "/assets/images/generated/stress-sleep.webp"
   - slug: "egzersiz-sonrasi-toparlanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Egzersiz Sonrası Toparlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
 ---

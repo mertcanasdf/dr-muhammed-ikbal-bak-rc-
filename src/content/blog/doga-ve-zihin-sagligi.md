@@ -2,7 +2,7 @@
 title: "Doğada Geçirilen Zaman ve Zihinsel Toparlanma"
 date: 2026-06-21
 description: "Doğa ile temasın (Shinrin-yoku) prefrontal korteks aktivitesi ve stres düzeyleri üzerindeki yatıştırıcı etkileri."
-category: "Yaşam"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/topics/doga-zihin.webp"
 readTime: "5 dk"
 takeaways:
@@ -11,7 +11,7 @@ takeaways:
   - "Doğa yürüyüşleri, aşırı zihinsel yorgunluğu gidererek odaklanma becerisini yeniler."
 relatedArticles:
   - slug: "d3-vitamini-eksikligi"
-    category: "Vitaminler"
+    category: "Beslenme"
     title: "D3 Vitamini Eksikliği: Gizli Yaşlanma Hızlandırıcı"
     image: "/assets/images/generated/topics/d3-vitamini.webp"
 ---

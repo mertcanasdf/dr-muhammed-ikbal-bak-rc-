@@ -2,7 +2,7 @@
 title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
 date: 2026-09-15
 description: "Telefon, tablet ve bilgisayar kullanımı uyku rutinini nasıl etkileyebilir? Mavi ışık, içerik ve bildirimleri birlikte ele alan pratik öneriler."
-category: "Beyin Sağlığı"
+category: "Uyku"
 image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Uyku sorunu ekran kısıtlamasına rağmen devam ediyorsa başka nedenler araştırılmalıdır."
 relatedArticles:
   - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "dijital-tukenmislik"
-    category: "Stres, Mutluluk ve Kariyer"
+    category: "Zihin & Sosyal Yaşam"
     title: "Dijital Tükenmişlik Nedir?"
     image: "/assets/images/generated/topics/tukenmislik.webp"
 ---

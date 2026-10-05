@@ -2,7 +2,7 @@
 title: "Tükenmişlik Sendromu: Biyolojik Nedenleri ve Çıkış Yolları"
 date: 2026-06-21
 description: "HPA aksının disfonksiyonu, kronik adrenal yorgunluk ve tükenmişlik sürecinden biyolojik çıkış yolları."
-category: "Kariyer"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/topics/tukenmislik.webp"
 readTime: "6 dk"
 takeaways:
@@ -11,7 +11,7 @@ takeaways:
   - "B5 vitamini, magnezyum ve adaptogenler HPA aksının toparlanmasını hızlandırabilir."
 relatedArticles:
   - slug: "kortizol-yaslanma"
-    category: "Stres"
+    category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Hücresel Etkileri"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---

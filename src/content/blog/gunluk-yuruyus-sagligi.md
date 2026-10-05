@@ -2,7 +2,7 @@
 title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
 date: 2026-09-15
 description: "Günlük yürüyüşün kalp-damar sağlığı, hareket kapasitesi ve ruh haliyle ilişkisi; süre, tempo ve sürdürülebilirlik için pratik öneriler."
-category: "Egzersiz"
+category: "Hareket"
 image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Ayak yarası, göğüs ağrısı veya belirgin nefes darlığında değerlendirme gerekir."
 relatedArticles:
   - slug: "vo2max-ve-longevity"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "VO₂max ve Longevity"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "hareketsizlik-ve-metabolik-saglik"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Hareketsizlik ve Metabolik Sağlık"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "denge-egzersizleri-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Denge Egzersizleri ve Yaşlanma"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 ---

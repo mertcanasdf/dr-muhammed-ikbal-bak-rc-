@@ -2,7 +2,7 @@
 title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
 date: 2026-02-20
 description: "Bölge 2 kardiyo neden mitokondriyal biyogenez ve kardiyorespiratuvar fitness açısından longevity biliminin en güçlü egzersiz müdahalesi olarak öne çıkıyor?"
-category: "Egzersiz"
+category: "Hareket"
 image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 readTime: "9 dk"
 takeaways:
@@ -13,7 +13,7 @@ takeaways:
   - "Yüksek yoğunluklu egzersizden farklı olarak kortizolü düşürür, HRV'yi artırır."
 relatedArticles:
   - slug: "kortizol-yaslanma"
-    category: "Stres"
+    category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
   - slug: "aralikli-oruc-longevity"

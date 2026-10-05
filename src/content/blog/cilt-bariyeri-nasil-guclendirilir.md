@@ -2,7 +2,7 @@
 title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
 date: 2026-09-15
 description: "Cilt bariyeri ne işe yarar, bozulduğunda hangi belirtiler görülür ve hassas ciltte temizleme ile nemlendirme rutini nasıl sadeleştirilir?"
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Devam eden kızarıklık, çatlama veya yanma dermatoloji değerlendirmesi gerektirir."
 relatedArticles:
   - slug: "gunes-kremi-nasil-secilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "retinoid-nedir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Retinoid Nedir ve Nasıl Kullanılır?"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
   - slug: "ciltte-kollajen-kaybi"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur?"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---

@@ -2,7 +2,7 @@
 title: "Sanat Üretmek Beyin Sağlığını Nasıl Etkiler?"
 date: 2026-06-21
 description: "Sanat üretiminin beyin sağlığı, nöroplastisite ve stres yönetimi üzerindeki etkilerini inceleyen bilimsel longevity rehberi."
-category: "Sanat"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/topics/sanat-beyin.webp"
 readTime: "6 dk"
 takeaways:
@@ -11,7 +11,7 @@ takeaways:
   - "Sanatsal uğraşılar kortizol seviyelerini düşürerek zihinsel rahatlama sağlar."
 relatedArticles:
   - slug: "otofaji-nedir"
-    category: "Otofaji"
+    category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/topics/otofaji.webp"
 ---

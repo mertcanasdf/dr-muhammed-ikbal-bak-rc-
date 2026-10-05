@@ -2,7 +2,7 @@
 title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
 date: 2026-09-15
 description: "Yaşla birlikte kas kütlesi ve kuvvet neden azalır, bunu izlemek için hangi göstergeler kullanılır ve günlük hayatta neler yapılabilir?"
-category: "Hücre Sağlığı"
+category: "Hareket"
 image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,7 +12,7 @@ takeaways:
   - "Kişiye özel program, sürdürülebilirlik ve güvenlik açısından önemlidir."
 relatedArticles:
   - slug: "direnc-antrenmani-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "protein-ihtiyaci-yaslanma"
@@ -20,7 +20,7 @@ relatedArticles:
     title: "Yaşlanmada Protein İhtiyacı"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "kavrama-gucu-ve-saglik"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "Kavrama Gücü Sağlık Hakkında Ne Söyler?"
     image: "/assets/images/generated/topics/cellular-science.webp"
 ---

@@ -2,7 +2,7 @@
 title: "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi"
 date: 2026-09-15
 description: "Dermal dolgu yaptırmadan önce ürün, uygulayıcı, riskler ve işlem sonrası takip açısından hangi sorular sorulmalıdır?"
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/articles/dermal-dolgu-guvenligi.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "İşlem sonrası şiddetli ağrı, renk değişikliği veya görme belirtisi acil değerlendirme gerektirir."
 relatedArticles:
   - slug: "botoks-sonrasi-dikkat-edilmesi-gerekenler"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Botoks Sonrası Dikkat Edilmesi Gerekenler"
     image: "/assets/images/generated/topics/medikal-estetik.webp"
   - slug: "prp-mi-eksozom-mu"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "PRP mi Eksozom mu? Kanıtları Nasıl Okumalı?"
     image: "/assets/images/generated/topics/prp-eksozom.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
 ---

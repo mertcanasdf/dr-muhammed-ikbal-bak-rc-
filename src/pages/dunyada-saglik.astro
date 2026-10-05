@@ -2,12 +2,13 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { sortPostsNewestFirst } from '../lib/posts';
+import { BLOG_CATEGORIES } from '../lib/categories';
 
 const allPosts = await getCollection('blog');
 const posts = sortPostsNewestFirst(allPosts);
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
-const categories = ['Tümü', 'Longevity', 'Beslenme', 'Metabolizma', 'Sağlık Trendleri', 'Anti-Aging', 'Hücre Sağlığı'];
+const categories = ['Tümü', ...BLOG_CATEGORIES];
 ---
 <BaseLayout title="Dünyada Sağlık — Dr. Muhammed İkbal Bakırcı">
 <style is:global>

@@ -2,7 +2,7 @@
 title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
 date: 2026-09-15
 description: "Sirkadiyen ritim nedir, ışık ve uyku saatleri biyolojik saati nasıl etkiler ve günlük düzeni güçlendirmek için neler yapılabilir?"
-category: "Beyin Sağlığı"
+category: "Uyku"
 image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Uzun süren uykusuzluk veya gündüz aşırı uyku hali değerlendirme gerektirir."
 relatedArticles:
   - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "ekran-kullanimi-ve-uyku"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Ekran Kullanımı ve Uyku"
     image: "/assets/images/generated/stress-sleep.webp"
   - slug: "mitokondri-sagligi-nasil-desteklenir"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Mitokondri Sağlığı Nasıl Desteklenir?"
     image: "/assets/images/generated/topics/cellular-science.webp"
 ---

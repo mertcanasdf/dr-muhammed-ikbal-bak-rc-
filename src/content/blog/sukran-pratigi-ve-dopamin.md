@@ -2,7 +2,7 @@
 title: "Şükran Pratiği Dopamin Sistemini Nasıl Şekillendirir?"
 date: 2026-06-21
 description: "Günlük şükran ve minnettarlık egzersizlerinin dopamin, serotonin salınımı ve beynin ödül mekanizmaları üzerindeki etkisi."
-category: "Mutluluk"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/topics/sukran-dopamin.webp"
 readTime: "5 dk"
 takeaways:
@@ -11,7 +11,7 @@ takeaways:
   - "Bu pratikler, beynin negatif odaklanma eğilimini kırarak genel esenliği artırır."
 relatedArticles:
   - slug: "otofaji-nedir"
-    category: "Otofaji"
+    category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/topics/otofaji.webp"
 ---

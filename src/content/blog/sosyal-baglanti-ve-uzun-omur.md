@@ -2,7 +2,7 @@
 title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
 date: 2026-09-15
 description: "Sosyal bağların stres, günlük işlev ve sağlıklı yaşlanma ile ilişkisi; yalnızlık hissini azaltmak için uygulanabilir küçük adımlar."
-category: "Stres"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/sosyal-baglanti-ve-uzun-omur.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Sosyal öneriler depresyon veya ağır kaygı tedavisinin yerini tutmaz."
 relatedArticles:
   - slug: "dijital-tukenmislik"
-    category: "Stres"
+    category: "Zihin & Sosyal Yaşam"
     title: "Dijital Tükenmişlik Nedir?"
     image: "/assets/images/generated/topics/tukenmislik.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "gunluk-yuruyus-sagligi"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Günlük Yürüyüşün Sağlığa Etkileri"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 ---

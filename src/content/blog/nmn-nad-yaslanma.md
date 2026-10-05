@@ -2,7 +2,7 @@
 title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
 date: 2026-04-10
 description: "NAD+ neden hücresel yaşlanmanın merkezindedir ve NMN takviyesinin insan çalışmalarında ne gibi sonuçlar verdiği."
-category: "Beyin Sağlığı"
+category: "Longevity Bilimi"
 image: "/assets/images/generated/topics/nmn-nad.webp"
 readTime: "11 dk"
 takeaways:
@@ -13,11 +13,11 @@ takeaways:
   - "Takviye kullanımında kalite kontrolü kritiktir; saf, kirletici içermeyen NMN tercih edilmelidir."
 relatedArticles:
   - slug: "otofaji-nedir"
-    category: "Otofaji"
+    category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/topics/otofaji.webp"
   - slug: "telomerleri-korumak"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
     image: "/assets/images/generated/topics/telomer.webp"
 ---

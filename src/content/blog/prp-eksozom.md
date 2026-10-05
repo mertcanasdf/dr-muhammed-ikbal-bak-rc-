@@ -2,7 +2,7 @@
 title: "PRP ve Eksozom Tedavileri: Kök Hücre ve Rejeneratif Tıbbın Medikal Estetikteki Gücü"
 date: 2026-06-16
 description: "Büyüme faktörleri ve eksozomların hücresel haberleşme mekanizmaları ile cilt ve saç folikülü rejenerasyonu süreçleri."
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/topics/cellular-science.webp"
 readTime: "5 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Geleneksel tedavilere kıyasla doku iyileşmesi ve hücre yenilenmesini katbekat hızlandıran ileri düzey rejeneratif tıp protokolleridir."
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
-    category: "Sağlık Trendleri"
+    category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "nmn-nad-yaslanma"
-    category: "Beyin Sağlığı"
+    category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---

@@ -16,7 +16,7 @@ relatedArticles:
     title: "Lifli Beslenme ve Mikrobiyota"
     image: "/assets/images/generated/topics/tarifler-keto.webp"
   - slug: "hareketsizlik-ve-metabolik-saglik"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Hareketsizlik ve Metabolik Sağlık"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "omega-3-ne-ise-yarar"

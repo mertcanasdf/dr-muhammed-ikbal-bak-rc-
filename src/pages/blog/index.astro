@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { sortPostsNewestFirst } from '../../lib/posts';
+import { BLOG_CATEGORIES } from '../../lib/categories';
 
 const posts = sortPostsNewestFirst(await getCollection('blog'));
 
@@ -15,25 +16,10 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
   <section class="blog-hero">
     <div class="container">
       <h1 class="blog-hero__title">İçerik Kütüphanesi</h1>
-      <p class="blog-hero__sub">Longevity, beslenme, hücre sağlığı ve daha fazlası — bilimsel temelli, Türkçe içerikler.</p>
+      <p class="blog-hero__sub">Longevity bilimi, beslenme, hareket, uyku, zihin ve skin longevity üzerine bilimsel temelli, Türkçe içerikler.</p>
       <div class="blog-filters" id="blogFilters">
         <button class="filter-btn active" data-filter="all">Tümü</button>
-        <button class="filter-btn" data-filter="Longevity">Longevity</button>
-        <button class="filter-btn" data-filter="Otofaji">Otofaji</button>
-        <button class="filter-btn" data-filter="Beslenme">Beslenme</button>
-        <button class="filter-btn" data-filter="Hücre Sağlığı">Hücre Sağlığı</button>
-        <button class="filter-btn" data-filter="Egzersiz">Egzersiz</button>
-        <button class="filter-btn" data-filter="Stres">Stres</button>
-        <button class="filter-btn" data-filter="Beyin Sağlığı">Beyin Sağlığı</button>
-        <button class="filter-btn" data-filter="Vitaminler">Vitaminler</button>
-        <button class="filter-btn" data-filter="Sağlık Trendleri">Sağlık Trendleri</button>
-        <button class="filter-btn" data-filter="Medikal Estetik">Medikal Estetik</button>
-        <button class="filter-btn" data-filter="Kültür">Kültür</button>
-        <button class="filter-btn" data-filter="Sanat">Sanat</button>
-        <button class="filter-btn" data-filter="Mutluluk">Mutluluk</button>
-        <button class="filter-btn" data-filter="Kariyer">Kariyer</button>
-        <button class="filter-btn" data-filter="Sorumluluk">Sorumluluk</button>
-        <button class="filter-btn" data-filter="Yaşam">Yaşam</button>
+        {BLOG_CATEGORIES.map((cat) => <button class="filter-btn" data-filter={cat}>{cat}</button>)}
       </div>
     </div>
   </section>

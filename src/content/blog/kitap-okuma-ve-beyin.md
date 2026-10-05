@@ -2,7 +2,7 @@
 title: "Günde 30 Dakika Okumak Beyni Nasıl Değiştirir?"
 date: 2026-06-21
 description: "Kitap okuma alışkanlığının beyindeki beyaz madde bütünlüğü, empati ağları ve bilişsel rezerv üzerindeki etkisi."
-category: "Kültür"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/topics/kitap-beyin.webp"
 readTime: "5 dk"
 takeaways:
@@ -11,7 +11,7 @@ takeaways:
   - "Günde 30 dakika kitap okumak bilişsel rezervi artırarak demans riskini azaltabilir."
 relatedArticles:
   - slug: "nmn-nad-yaslanma"
-    category: "Beyin Sağlığı"
+    category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---

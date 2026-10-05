@@ -2,7 +2,7 @@
 title: "Kreatin ve Yaşlanma: Kas Gücü İçin Ne Kadar Kanıt Var?"
 date: 2026-09-15
 description: "Kreatin monohidrat yaşlanmada kas gücü ve antrenmanla nasıl ilişkilidir, hangi kişiler dikkatli olmalı ve ürün seçerken neye bakılmalıdır?"
-category: "Vitaminler"
+category: "Hareket"
 image: "/assets/images/generated/articles/kreatin-ve-yaslanma.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Böbrek hastalığı, gebelik veya düzenli ilaç kullanımında doktor görüşü gerekir."
 relatedArticles:
   - slug: "direnc-antrenmani-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "kas-kutlesi-ve-yaslanma"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "protein-ihtiyaci-yaslanma"

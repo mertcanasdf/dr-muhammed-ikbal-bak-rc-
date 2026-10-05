@@ -2,7 +2,7 @@
 title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
 date: 2026-04-24
 description: "Kromozon uçlarındaki telomerlerin kısalma hızı yaşam tarzı faktörleriyle belirlenir; işte bilimsel olarak kanıtlanmış 7 koruma yöntemi."
-category: "Hücre Sağlığı"
+category: "Longevity Bilimi"
 image: "/assets/images/generated/topics/telomer.webp"
 readTime: "10 dk"
 takeaways:
@@ -13,11 +13,11 @@ takeaways:
   - "Sosyal izolasyon, biyolojik yaşlanmayı ölçülebilir biçimde hızlandırır."
 relatedArticles:
   - slug: "otofaji-nedir"
-    category: "Otofaji"
+    category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/topics/otofaji.webp"
   - slug: "kortizol-yaslanma"
-    category: "Stres"
+    category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---

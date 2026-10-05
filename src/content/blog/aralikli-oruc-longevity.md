@@ -13,11 +13,11 @@ takeaways:
   - "Oruç penceresindeki gıda kalitesi, protokol seçimi kadar önemlidir."
 relatedArticles:
   - slug: "otofaji-nedir"
-    category: "Otofaji"
+    category: "Longevity Bilimi"
     title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/topics/otofaji.webp"
   - slug: "mavi-bolge-diyeti"
-    category: "Longevity"
+    category: "Beslenme"
     title: "Mavi Bölge Diyeti: Dünyanın En Uzun Yaşayanlarının Sırrı"
     image: "/assets/images/generated/topics/mavi-bolge.webp"
 ---

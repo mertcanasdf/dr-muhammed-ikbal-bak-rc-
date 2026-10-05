@@ -2,7 +2,7 @@
 title: "Magnezyum Eksikliği Belirtileri ve Magnezyum Kaynakları"
 date: 2026-09-15
 description: "Magnezyum eksikliği hangi belirtilere yol açabilir, kimlerde risk artar, hangi besinlerde magnezyum bulunur ve takviye ne zaman düşünülür?"
-category: "Vitaminler"
+category: "Beslenme"
 image: "/assets/images/generated/articles/magnezyum-eksikligi.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,7 +12,7 @@ takeaways:
   - "Böbrek hastalığı ve bazı ilaçlarda takviye riski artabilir."
 relatedArticles:
   - slug: "d3-k2-birlikte-kullanilir-mi"
-    category: "Vitaminler"
+    category: "Beslenme"
     title: "D3 ve K2 Birlikte Kullanılır mı?"
     image: "/assets/images/generated/topics/d3-vitamini.webp"
   - slug: "protein-ihtiyaci-yaslanma"
@@ -20,7 +20,7 @@ relatedArticles:
     title: "Yaşlanmada Protein İhtiyacı"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---

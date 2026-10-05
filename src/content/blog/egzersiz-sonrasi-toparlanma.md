@@ -2,7 +2,7 @@
 title: "Egzersiz Sonrası Toparlanma: Uyku, Beslenme ve Yük Yönetimi"
 date: 2026-09-15
 description: "Egzersiz sonrası kasların toparlanmasını desteklemek için uyku, sıvı, beslenme ve antrenman yoğunluğu nasıl dengelenir?"
-category: "Egzersiz"
+category: "Hareket"
 image: "/assets/images/generated/articles/egzersiz-sonrasi-toparlanma.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Yoğunluk kademeli artırılmalı ve dinlenme günleri planlanmalıdır."
 relatedArticles:
   - slug: "direnc-antrenmani-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Uyku Kalitesi Nasıl Artırılır?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "protein-ihtiyaci-yaslanma"

@@ -2,7 +2,7 @@
 title: "D3 Vitamini Eksikliği ve Erken Yaşlanma Arasındaki Bağ"
 date: 2026-03-15
 description: "D vitamini bir pro-hormondur ve eksikliği telomerleri kısaltarak, kronik iltihabı artırarak erken yaşlanmayı hızlandırır."
-category: "Vitaminler"
+category: "Beslenme"
 image: "/assets/images/generated/topics/d3-vitamini.webp"
 readTime: "8 dk"
 takeaways:
@@ -13,11 +13,11 @@ takeaways:
   - "Günlük öğle güneşi (15-20 dk) en doğal D vitamini kaynağıdır."
 relatedArticles:
   - slug: "telomerleri-korumak"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
     image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
-    category: "Beyin Sağlığı"
+    category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---

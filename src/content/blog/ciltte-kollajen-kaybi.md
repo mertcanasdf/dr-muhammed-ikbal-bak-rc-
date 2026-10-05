@@ -2,7 +2,7 @@
 title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
 date: 2026-09-15
 description: "Kollajen ciltte ne işe yarar, yaşla birlikte neden azalır ve cilt görünümünü korumak için kanıta dayalı temel alışkanlıklar nelerdir?"
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/articles/ciltte-kollajen-kaybi.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Kollajen ürünleri ve işlemleri kişiye göre değerlendirilmelidir."
 relatedArticles:
   - slug: "gunes-kremi-nasil-secilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "retinoid-nedir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Retinoid Nedir ve Nasıl Kullanılır?"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
 ---

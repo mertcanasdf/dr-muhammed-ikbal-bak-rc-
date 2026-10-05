@@ -16,7 +16,7 @@ relatedArticles:
     title: "Polifenoller ve Sağlık"
     image: "/assets/images/generated/topics/cellular-science.webp"
   - slug: "d3-k2-birlikte-kullanilir-mi"
-    category: "Vitaminler"
+    category: "Beslenme"
     title: "D3 ve K2 Birlikte Kullanılır mı?"
     image: "/assets/images/generated/topics/d3-vitamini.webp"
   - slug: "lifli-beslenme-ve-mikrobiyota"

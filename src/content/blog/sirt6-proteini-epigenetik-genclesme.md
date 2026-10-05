@@ -2,7 +2,7 @@
 title: "SIRT6 Proteini ve Epigenetik Gençleşme: DNA Paketlemesini Onararak Yaşlanmayı Geri Döndürmek"
 date: 2026-05-27
 description: "Mayıs 2026 araştırması SIRT6 aktivasyonunun kromatin yapısını onararak organ yaşlanmasını ve kronik enflamasyonu hücresel düzeyde tersine çevirebildiğini gösterdi."
-category: "Longevity"
+category: "Longevity Bilimi"
 image: "/assets/images/generated/success_chronic_fatigue.webp"
 readTime: "6 dk"
 takeaways:
@@ -17,11 +17,11 @@ relatedArticles:
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
     image: "/assets/images/generated/topics/aralikli-oruc.webp"
   - slug: "telomerleri-korumak"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
     image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
-    category: "Beyin Sağlığı"
+    category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---

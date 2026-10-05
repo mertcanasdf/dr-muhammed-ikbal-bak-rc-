@@ -2,7 +2,7 @@
 title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
 date: 2026-09-15
 description: "Direnç egzersizi yaşlanma sürecinde kas gücü, denge ve günlük işlevi nasıl destekler? Başlangıç için güvenli ve sürdürülebilir plan."
-category: "Egzersiz"
+category: "Hareket"
 image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,7 +12,7 @@ takeaways:
   - "Ağrı, nefes darlığı veya baş dönmesi olduğunda egzersiz kesilmelidir."
 relatedArticles:
   - slug: "kas-kutlesi-ve-yaslanma"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "protein-ihtiyaci-yaslanma"
@@ -20,7 +20,7 @@ relatedArticles:
     title: "Yaşlanmada Protein İhtiyacı"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "denge-egzersizleri-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Denge Egzersizleri ve Yaşlanma"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 ---

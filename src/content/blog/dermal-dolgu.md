@@ -2,7 +2,7 @@
 title: "Dermal Dolgu Uygulamaları: Yaşlanma Karşıtı Yüz Şekillendirme ve Hücresel Etkiler"
 date: 2026-06-20
 description: "Dermal dolguların hyaluronik asit bazlı mekanizmaları, yüz kontürü analizi ve mekanik uyarım yoluyla kolajen sentezini tetikleme süreçleri."
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/success_weight_loss.webp"
 readTime: "5 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Doğallık ve uzun vadeli doku kalitesi için enjekte edilen materyalin biyo-uyumluluğu kritiktir."
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
-    category: "Sağlık Trendleri"
+    category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "kortizol-yaslanma"
-    category: "Cilt Sağlığı"
+    category: "Zihin & Sosyal Yaşam"
     title: "Stres ve Cilt: Kortizolün Rolü"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---

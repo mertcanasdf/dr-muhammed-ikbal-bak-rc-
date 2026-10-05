@@ -2,7 +2,7 @@
 title: "Mitokondri Sağlığı Nasıl Desteklenir?"
 date: 2026-09-15
 description: "Mitokondrilerin enerji üretimindeki rolü, hücresel stresle ilişkisi ve mitokondri sağlığını destekleyen yaşam tarzı temelleri."
-category: "Hücre Sağlığı"
+category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Mitokondri iddiası taşıyan ürünlerin kanıt düzeyi ve güvenliği ayrıca değerlendirilmelidir."
 relatedArticles:
   - slug: "biyolojik-yas-nasil-olculur"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Biyolojik Yaş Nasıl Ölçülür?"
     image: "/assets/images/generated/topics/cellular-science.webp"
   - slug: "direnc-antrenmani-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
-    category: "Beyin Sağlığı"
+    category: "Uyku"
     title: "Sirkadiyen Ritim ve Uyku Düzeni"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---

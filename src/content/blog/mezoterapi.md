@@ -2,7 +2,7 @@
 title: "Cilt Mezoterapisi ve Gençlik Aşıları: Hücresel Beslenme ve Derin Nem Protokolü"
 date: 2026-06-17
 description: "H-100 aşısı, Somon DNA ve kolajen mezoterapilerinin biyo-aktif içerikleriyle cildin orta tabakasını (dermis) besleme ve yenileme süreçleri."
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/supplements.webp"
 readTime: "5 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Cilt altı beslenmesini doğrudan sağlayarak krem veya serumların ulaşamadığı derinliklerde biyolojik aktivasyon yaratır."
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
-    category: "Sağlık Trendleri"
+    category: "Skin Longevity"
     title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "d3-vitamini-eksikligi"
-    category: "Cilt Sağlığı"
+    category: "Beslenme"
     title: "D3 Vitamini Eksikliği ve Cilt"
     image: "/assets/images/generated/topics/d3-vitamini.webp"
 ---

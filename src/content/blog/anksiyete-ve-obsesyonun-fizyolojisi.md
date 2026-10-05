@@ -2,7 +2,7 @@
 title: "Kronik Anksiyete ve Obsesyon: Zihinsel Dengeyi ve Hücresel Yaşlanmayı Nasıl Etkiler?"
 date: 2026-06-21
 description: "Anksiyete ve obsesyonun HPA aksı, amigdala ve telomerler üzerindeki etkileri; zihinsel dayanıklılık ve stres yönetimi için bilimsel yaklaşım."
-category: "Stres"
+category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/topics/kortizol-stres.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,11 +12,11 @@ takeaways:
   - "Derin diyafram nefesi, vagus siniri uyarımı ve bilişsel yeniden yapılandırma stres yanıtını hücresel düzeyde söndürebilir."
 relatedArticles:
   - slug: "kortizol-yaslanma"
-    category: "Stres"
+    category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
   - slug: "tukenmislik-sendromu"
-    category: "Stres"
+    category: "Zihin & Sosyal Yaşam"
     title: "Tükenmişlik Sendromu (Burnout) ile Mücadele Kılavuzu"
     image: "/assets/images/generated/topics/tukenmislik.webp"
 ---

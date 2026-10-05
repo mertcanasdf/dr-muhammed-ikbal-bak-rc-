@@ -2,7 +2,7 @@
 title: "Mavi Bölge Diyeti: Dünyanın En Uzun Yaşayanlarının Sırrı"
 date: 2026-03-28
 description: "Dünyanın beş mavi bölgesinde 100 yıl ve üzeri yaşayan insanların ortak beslenme ilkeleri ve bunları hayatınıza nasıl taşıyabileceğiniz."
-category: "Longevity"
+category: "Beslenme"
 image: "/assets/images/generated/topics/mavi-bolge.webp"
 readTime: "10 dk"
 takeaways:
@@ -17,7 +17,7 @@ relatedArticles:
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
     image: "/assets/images/generated/topics/aralikli-oruc.webp"
   - slug: "telomerleri-korumak"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
     image: "/assets/images/generated/topics/telomer.webp"
 ---

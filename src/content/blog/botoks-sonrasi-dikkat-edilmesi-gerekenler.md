@@ -2,7 +2,7 @@
 title: "Botoks Sonrası Dikkat Edilmesi Gerekenler"
 date: 2026-09-15
 description: "Botulinum toksini uygulaması sonrasında klinik talimatlara uyum, günlük yaşam ve acil değerlendirme gerektiren belirtiler hakkında genel rehber."
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/articles/botoks-sonrasi-dikkat-edilmesi-gerekenler.webp"
 readTime: "7 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "Yaygın güçsüzlük, yutma veya nefes alma sorunu gibi belirtiler acil değerlendirme gerektirir."
 relatedArticles:
   - slug: "dermal-dolgu-guvenligi"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi"
     image: "/assets/images/generated/topics/dermal-dolgu.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Cilt Bariyeri Nasıl Güçlendirilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "gunes-kremi-nasil-secilir"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Güneş Kremi Nasıl Seçilir?"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
 ---

@@ -2,7 +2,7 @@
 title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
 date: 2026-05-28
 description: "Güncel araştırmalar topikal senolitiklerin cilt senesans hücrelerini temizleyerek kolajen sentezini yeniden aktive ettiğini kanıtlıyor; doğal senolitikler nelerdir?"
-category: "Sağlık Trendleri"
+category: "Skin Longevity"
 image: "/assets/images/generated/nutrition-longevity.webp"
 readTime: "5 dk"
 takeaways:
@@ -17,11 +17,11 @@ relatedArticles:
     title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
     image: "/assets/images/generated/topics/aralikli-oruc.webp"
   - slug: "telomerleri-korumak"
-    category: "Hücre Sağlığı"
+    category: "Longevity Bilimi"
     title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
     image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
-    category: "Beyin Sağlığı"
+    category: "Longevity Bilimi"
     title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---

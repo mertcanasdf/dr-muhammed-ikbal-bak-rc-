@@ -12,7 +12,7 @@ takeaways:
   - "Böbrek hastalığı veya özel tıbbi durumlarda miktar kişisel olarak belirlenmelidir."
 relatedArticles:
   - slug: "kas-kutlesi-ve-yaslanma"
-    category: "Hücre Sağlığı"
+    category: "Hareket"
     title: "Kas Kütlesi ve Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "lifli-beslenme-ve-mikrobiyota"
@@ -20,7 +20,7 @@ relatedArticles:
     title: "Lifli Beslenme ve Mikrobiyota"
     image: "/assets/images/generated/topics/tarifler-keto.webp"
   - slug: "direnc-antrenmani-yaslanma"
-    category: "Egzersiz"
+    category: "Hareket"
     title: "Direnç Antrenmanı ve Sağlıklı Yaşlanma"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
 ---

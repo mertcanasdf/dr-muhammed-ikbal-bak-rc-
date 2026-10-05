@@ -2,7 +2,7 @@
 title: "PRP mi Eksozom mu? Kanıtları ve Güvenliği Nasıl Okumalı?"
 date: 2026-09-15
 description: "PRP ve eksozom uygulamaları arasındaki temel farklar, kanıt düzeyi, ürün güvenliği ve işlem öncesi sorulması gereken kritik sorular."
-category: "Medikal Estetik"
+category: "Skin Longevity"
 image: "/assets/images/generated/articles/prp-mi-eksozom-mu.webp"
 readTime: "8 dk"
 takeaways:
@@ -12,15 +12,15 @@ takeaways:
   - "İşlem öncesi ürün, endikasyon, sterilite, onay ve acil komplikasyon planı sorulmalıdır."
 relatedArticles:
   - slug: "dermal-dolgu-guvenligi"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Dermal Dolgu Güvenliği"
     image: "/assets/images/generated/topics/dermal-dolgu.webp"
   - slug: "botoks-sonrasi-dikkat-edilmesi-gerekenler"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Botoks Sonrası Dikkat Edilmesi Gerekenler"
     image: "/assets/images/generated/topics/medikal-estetik.webp"
   - slug: "ciltte-kollajen-kaybi"
-    category: "Medikal Estetik"
+    category: "Skin Longevity"
     title: "Ciltte Kollajen Kaybı Neden Olur?"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---

@@ -1,10 +1,11 @@
 ---
 title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
 date: 2026-09-15
+updated: 2026-10-06
 description: "Retinoid ailesi nedir, retinol ile reçeteli türevlerin farkları nelerdir ve tahriş riskini azaltmak için nasıl başlanır?"
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/retinoid-nedir.webp"
-readTime: "8 dk"
+readTime: "6 dk"
 takeaways:
   - "Retinoid, A vitamini türevlerinin genel adıdır; ürünlerin gücü ve kullanım amacı farklı olabilir."
   - "Düşük sıklıkla başlamak ve nemlendirici kullanmak tahrişi azaltmaya yardımcı olabilir."
@@ -31,6 +32,22 @@ Retinoid, A vitaminiyle ilişkili bileşiklerin genel adıdır. Retinol gibi koz
 
 Retinoidlerin etkisi haftalar içinde değil, düzenli kullanım ve cildin toleransına göre zamanla değerlendirilir. Hızlı sonuç almak için çok miktarda sürmek faydayı artırmaz, tahriş riskini yükseltir.
 
+## Retinoid türleri: Retinol, retinal, adapalen, tretinoin
+
+Retinoidler ciltte etkin forma (retinoik asit) dönüşmeleri gereken adım sayısına göre farklı güçtedir:
+
+- **Retinil esterler (ör. retinil palmitat):** En hafif form; ciltte birkaç adımda dönüştüğü için etkisi sınırlıdır.
+- **Retinol:** Kozmetik ürünlerde en yaygın form. Retinoik aside dönüşmesi gerektiği için tretinoine göre daha yavaş ve daha hafif etki eder, tahriş riski de daha düşüktür.
+- **Retinaldehit (retinal):** Retinol ile retinoik asit arasında bir ara basamaktır; retinolden biraz daha güçlüdür.
+- **Adapalen:** Özellikle akne tedavisinde kullanılan, nispeten iyi tolere edilen bir retinoiddir.
+- **Tretinoin ve tazaroten:** Reçeteli, en güçlü topikal retinoidlerdir; doğrudan etkin formdadırlar.
+
+## Kanıtlar ne söylüyor?
+
+Fotoyaşlanma (güneşe bağlı cilt yaşlanması) için en güçlü kanıt tretinoine aittir. 1988'de yayımlanan çift kör, plasebo kontrollü bir çalışmada topikal tretinoin kullananlarda güneşe bağlı ince çizgi ve pürüzlülükte belirgin iyileşme görüldü (Weiss ve ark., 1988). Retinoidlerin cilt yaşlanmasındaki kullanımını inceleyen derlemeler, tretinoinin etkinliğinin iyi belgelendiğini; retinol gibi kozmetik formların da daha hafif etkiler gösterebildiğini, ancak bu konudaki çalışmaların daha az olduğunu bildirmektedir (Mukherjee ve ark., 2006).
+
+Sonuçlar genellikle 3–6 ay düzenli kullanımla değerlendirilir. İlk haftalarda görülen kuruluk ve pullanma ("retinoid alışma dönemi") çoğu zaman ürün sıklığı azaltılarak yönetilebilir.
+
 ## Nasıl başlanır?
 
 Yeni başlayanlar ürünü genellikle gece, kuru cilde az miktarda ve düşük sıklıkta uygulamayı düşünür. Nemlendirici önce veya sonra kullanılabilir. Aynı gece güçlü asitler, peelingler veya tahriş edici başka ürünleri üst üste kullanmamak daha güvenlidir.
@@ -53,3 +70,6 @@ Bu yazıyla bağlantılı olarak [geniş spektrumlu güneş kremi seçimi](/blog
 
 - [AAD: Retinoid ve retinol](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol)
 - [AAD: Kırışıklık tedavileri](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/wrinkle-remedies)
+
+- [Weiss JS ve ark. Topical tretinoin improves photoaged skin. A double-blind vehicle-controlled study. JAMA. 1988](https://pubmed.ncbi.nlm.nih.gov/3336176/)
+- [Mukherjee S ve ark. Retinoids in the treatment of skin aging: an overview of clinical efficacy and safety. Clin Interv Aging. 2006](https://pubmed.ncbi.nlm.nih.gov/18046911/)

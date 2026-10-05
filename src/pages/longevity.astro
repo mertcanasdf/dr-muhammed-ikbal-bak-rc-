@@ -5,12 +5,119 @@ import { sortPostsNewestFirst } from '../lib/posts';
 
 const allPosts = await getCollection('blog');
 const longevityPosts = sortPostsNewestFirst(
-  allPosts.filter(post => ['Longevity Bilimi', 'Hareket'].includes(post.data.category)),
+  allPosts.filter(post => post.data.category === 'Longevity Bilimi'),
 ).slice(0, 3);
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
+const postBySlug = (s: string) => {
+  const post = allPosts.find((p) => slug(p.id) === s);
+  if (!post) throw new Error(`Longevity sayfası: makale bulunamadı: ${s}`);
+  return { href: `/blog/${s}`, title: post.data.title };
+};
+
+const NOTE = 'Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.';
+
+// Revizyon planı madde 16: "Tutarlı ve Uzun Yaşam" — 6 alan.
+const areas = [
+  {
+    id: 'beslenme', title: 'Beslenme',
+    icon: ['M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z', 'M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12'],
+    desc: 'Sağlıklı yaşlanmada beslenme, tek bir "süper gıdadan" çok yıllar boyunca sürdürülebilen bir düzendir. Sebze, meyve, baklagil, tam tahıl ve yeterli protein içeren, işlenmiş gıdası az bir beslenme metabolik sağlığın temelidir.',
+    points: [
+      'Akdeniz tipi beslenme düzenleri, kalp-damar hastalığı riskinin daha düşük olmasıyla ilişkilendirilmektedir.',
+      'Yaş ilerledikçe kas kütlesini korumak için yeterli protein alımı önem kazanır; ihtiyaç kişiye göre değişir.',
+      'Lifli besinler bağırsak mikrobiyotasını ve kan şekeri dengesini destekler.',
+    ],
+    metrics: [
+      { lbl: 'HbA1c (Üç Aylık Şeker)', val: '< %5.2', tip: 'Glukoz dalgalanmalarının az olması, damar sağlığını korumaya ve ileri glikasyon son ürünlerinin (AGEs) birikimini azaltmaya yardımcı olabilir.' },
+      { lbl: 'ApoB (Aterojenik Lipoprotein)', val: '< 80 mg/dL', tip: 'Kardiyovasküler riski değerlendirmede kullanılan önemli belirteçlerden biridir; hedef değer kişisel risk profiline göre belirlenir.' },
+    ],
+    posts: ['mavi-bolge-diyeti', 'protein-ihtiyaci-yaslanma', 'lifli-beslenme-ve-mikrobiyota'],
+  },
+  {
+    id: 'hareket', title: 'Hareket',
+    icon: ['M22 12h-4l-3 9L9 3l-3 9H2'],
+    desc: 'Düzenli fiziksel aktivite, sağlıklı yaşlanmayla en tutarlı biçimde ilişkilendirilen alışkanlıklardan biridir. Aerobik kapasite, kas gücü ve denge birlikte ele alınmalıdır.',
+    points: [
+      'Dünya Sağlık Örgütü yetişkinler için haftada en az 150 dakika orta yoğunlukta aerobik aktivite ve haftada 2 gün kas güçlendirici egzersiz önerir.',
+      'Yüksek kardiyorespiratuvar kondisyon, tüm nedenlere bağlı ölüm riskinin daha düşük olmasıyla ilişkilidir.',
+      'Denge çalışmaları ileri yaşta düşme riskini azaltmaya yardımcı olabilir.',
+    ],
+    metrics: [
+      { lbl: 'VO2 Max', val: 'Yaş grubunun üst dilimleri', tip: 'Kendi yaş ve cinsiyet grubunuzun üst dilimlerinde yer almak, daha iyi yaşam kalitesi ve sağlık sonuçlarıyla ilişkilendirilmektedir.' },
+      { lbl: 'Dinlenme Kalp Hızı', val: '< 60 bpm', tip: 'Düşük dinlenme kalp hızı çoğu zaman iyi kardiyovasküler kondisyonla ilişkilidir; sporcularda ve bazı ilaçları kullananlarda farklı yorumlanır.' },
+      { lbl: 'Kas Kütlesi', val: 'Yaş grubunun üzeri', tip: 'DEXA gibi yöntemlerle ölçülen yeterli kas kütlesi, metabolik rezerv ve iskelet sağlığıyla ilişkilidir.' },
+      { lbl: 'El Kavrama Gücü', val: 'Üst dilim skorları', tip: 'Genel fiziksel kapasiteyle ilişkili, basit ve yaygın kullanılan bir ölçümdür.' },
+    ],
+    posts: ['direnc-antrenmani-yaslanma', 'vo2max-ve-longevity', 'denge-egzersizleri-yaslanma'],
+  },
+  {
+    id: 'uyku', title: 'Uyku',
+    icon: ['M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z'],
+    desc: 'Uyku; hafıza, metabolizma, bağışıklık ve duygu düzenlemesi için temel bir biyolojik ihtiyaçtır. Süresi kadar düzenliliği de önemlidir.',
+    points: [
+      'Yetişkinlerin çoğu için gecede 7 saat ve üzeri uyku önerilmektedir.',
+      'Her gün benzer saatlerde yatıp kalkmak sirkadiyen ritmi destekler.',
+      'Uzun süren uykusuzluk ya da uykuda horlama ve nefes durması gibi belirtiler hekim değerlendirmesi gerektirir.',
+    ],
+    metrics: [
+      { lbl: 'Uyku Süresi', val: '7 saat ve üzeri', tip: 'Önerilen süre yaşa göre değişir; ihtiyacınızı uyku düzeniniz ve gün içindeki enerjiniz gösterir.' },
+      { lbl: 'Derin Uyku Oranı', val: '%15 – %20', tip: 'Beynin glimfatik temizlik sisteminin özellikle derin uykuda daha aktif çalıştığı düşünülmektedir.' },
+    ],
+    posts: ['uyku-kalitesi-nasil-artirilir', 'sirkadiyen-ritim-ve-uyku', 'ekran-kullanimi-ve-uyku'],
+  },
+  {
+    id: 'zihin', title: 'Zihin',
+    icon: ['M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z', 'M9 21h6'],
+    desc: 'Kronik stres; uyku, beslenme ve kalp-damar sağlığı üzerinden yaşlanma sürecini etkileyebilir. Zihinsel iyi oluş, sağlıklı yaşlanmanın ayrılmaz bir parçasıdır.',
+    points: [
+      'Kronik yüksek kortizol, uyku bozukluğu ve metabolik sorunlarla ilişkilendirilmektedir.',
+      'Doğada vakit geçirmek, düzenli hareket ve nefes çalışmaları stres yönetimini destekleyebilir.',
+      'Uzun süren kaygı ya da çökkünlük belirtilerinde bir ruh sağlığı uzmanından destek almak önemlidir.',
+    ],
+    metrics: [],
+    posts: ['kortizol-yaslanma', 'tukenmislik-sendromu', 'doga-ve-zihin-sagligi'],
+  },
+  {
+    id: 'sosyal-iliskiler', title: 'Sosyal İlişkiler',
+    icon: ['M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2', 'M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0', 'M22 21v-2a4 4 0 0 0-3-3.87', 'M16 3.13a4 4 0 0 1 0 7.75'],
+    desc: 'Güçlü sosyal bağlar ve yaşamda bir amaç duygusu, uzun yaşamla ilişkilendirilen en tutarlı faktörlerden biridir.',
+    points: [
+      'Sosyal izolasyon ve yalnızlık, daha yüksek ölüm riskiyle ilişkilendirilmektedir.',
+      'Yaşamda bir amaç duygusu, daha sağlıklı yaşlanmayla ilişkili bulunmuştur.',
+      'Ortak etkinlikler, gönüllülük ve düzenli görüşmeler sosyal bağları güçlendirir.',
+    ],
+    metrics: [],
+    posts: ['sosyal-baglanti-ve-uzun-omur', 'yasam-amaci-ve-longevity', 'sukran-pratigi-ve-dopamin'],
+  },
+  {
+    id: 'skin-longevity', title: 'Skin Longevity',
+    icon: ['M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z'],
+    desc: 'Cilt, yaşlanmanın en görünür yüzüdür. Skin longevity; güneşten korunma, cilt bariyerinin desteklenmesi ve uygun hastalarda medikal estetik uygulamalarla cildin uzun vadeli sağlığını hedefler.',
+    points: [
+      'Güneşten korunma, ciltte fotoyaşlanmayı azaltmada en güçlü kanıta sahip yaklaşımdır.',
+      'Retinoidler, cilt yaşlanması bulgularında en çok çalışılmış topikal ajanlardandır.',
+      'Medikal estetik uygulamalar kişisel değerlendirmeyle ve gerçekçi beklentilerle planlanmalıdır.',
+    ],
+    metricsTitle: 'Uygulamalar ve Hedeflenen Etkiler',
+    metrics: [
+      { lbl: 'PRP & Eksozom', val: 'Rejeneratif uygulamalar', tip: 'Hücreler arası iletişimi destekleyerek doku onarımına ve kolajen–elastin yapımına katkı sağlamayı hedefler.' },
+      { lbl: 'Altın İğne (RF)', val: 'Fraksiyonel radyofrekans', tip: 'Mikro iğnelerle oluşturulan kontrollü ısı etkisiyle yeni kolajen oluşumunu uyarmayı ve cilt sıkılığını artırmayı hedefler.' },
+    ],
+    posts: ['gunes-kremi-nasil-secilir', 'retinoid-nedir', 'ciltte-kollajen-kaybi'],
+    more: { href: '/medikal-estetik', label: 'Skin Longevity & Medikal Estetik sayfası' },
+  },
+].map((area) => ({ ...area, links: area.posts.map(postBySlug) }));
+
+// Hücresel temeller: yaşlanma biyolojisinin araştırma alanları (Longevity Bilimi kategorisi).
+const cellular = [
+  { id: 'otofaji', title: 'Otofaji', text: 'Hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü temizlik mekanizması. Oruç ve egzersizle ilişkisi daha çok hayvan çalışmalarında gösterilmiştir.', post: 'otofaji-nedir' },
+  { id: 'mitokondri', title: 'Mitokondri', text: 'Hücrenin enerji üretim merkezleri. Düzenli egzersiz, mitokondriyal kapasiteyi destekleyen en güçlü uyaranlardan biridir.', post: 'mitokondri-sagligi-nasil-desteklenir' },
+  { id: 'telomerler', title: 'Telomerler', text: 'Kromozom uçlarındaki koruyucu yapılar. Kısalmaları biyolojik yaşlanmayla ilişkilendirilir; yaşam tarzı da bu süreci etkileyebilir.', post: 'telomerleri-korumak' },
+  { id: 'nad', title: 'NAD+', text: 'Enerji metabolizması ve DNA onarımında görev alan bir koenzim; düzeyi yaşla azalır. Takviyelerin insanlardaki etkileri hâlâ araştırılmaktadır.', post: 'nmn-nad-yaslanma' },
+].map((c) => ({ ...c, link: postBySlug(c.post) }));
 ---
-<BaseLayout title="Longevity — Dr. Muhammed İkbal Bakırcı" description="Biyolojik yaşınızı genç tutun, sağlık ömrünüzü destekleyin. Longevity bilimi, 6 temel sütun ve günlük yaşam yaklaşımı.">
+<BaseLayout title="Tutarlı ve Uzun Yaşam — Longevity — Dr. Muhammed İkbal Bakırcı" description="Sağlıklı yaş almanın 6 alanı: beslenme, hareket, uyku, zihin, sosyal ilişkiler ve skin longevity. Longevity bilimine temkinli ve bütüncül bir bakış.">
   <style is:global>
     /* ─── PREMIUM STYLE TOKENS & ANIMATIONS ─── */
     @keyframes glowPulse {
@@ -205,6 +312,12 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       justify-content: center;
       padding-top: 16px;
       border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .chart-note {
+      margin-top: 12px;
+      font-size: 12px;
+      color: #a4b49f;
+      text-align: center;
     }
     .legend-item {
       display: flex;
@@ -860,6 +973,11 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       line-height: 1.65;
       margin-bottom: 32px;
     }
+    .premium-cta__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
     .premium-cta__image-wrap {
       flex: 0.8;
       max-width: 280px;
@@ -878,42 +996,76 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       transform: scale(1.04) rotate(1deg);
     }
     
-    /* Longevity Regenerative Aesthetics Styles */
-    .estetik-grid-longevity {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
-      margin-top: 20px;
+    /* 6 alan: başlık artık <button>; varsayılan düğme stilini sıfırla */
+    button.pillar-trigger {
+      width: 100%;
+      background: none;
+      border: 0;
+      font: inherit;
+      color: inherit;
+      text-align: left;
     }
-    .estetik-card-longevity {
-      background: var(--base);
-      border-radius: 20px;
-      border: 1px solid var(--border);
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.01);
-      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.3s;
+    button.pillar-trigger:focus-visible {
+      outline: 3px solid var(--blue);
+      outline-offset: -3px;
+      border-radius: 16px;
     }
-    .estetik-card-longevity:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 16px 36px rgba(0,0,0,0.06);
-      border-color: rgba(59, 173, 73, 0.25);
+    .pillar-points__title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--primary);
+      margin-bottom: 10px;
     }
-    @media(max-width: 992px) {
-      .estetik-grid-longevity {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
+    .pillar-points {
+      list-style: disc;
+      padding-left: 20px;
+      margin-bottom: 24px;
     }
+    .pillar-points li {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--gray-700);
+      margin-bottom: 6px;
+    }
+    .pillar-links {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+    .pillar-links__title {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+    .pillar-links ul { list-style: none; padding: 0; display: grid; gap: 8px; }
+    .pillar-links a { color: var(--blue); font-size: 15px; font-weight: 600; }
+    .pillar-links a:hover { text-decoration: underline; }
+
+    /* Hücresel temeller */
+    .cell-section { padding: 80px 0; background: var(--base); border-top: 1px solid var(--border); }
+    .cell-header { max-width: 720px; margin-bottom: 36px; }
+    .cell-header h2 { font-size: clamp(26px, 3.2vw, 36px); font-weight: 800; margin-bottom: 12px; color: var(--main); }
+    .cell-header p { font-size: 16px; line-height: 1.7; color: var(--gray-500); }
+    .cell-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .cell-card { padding: 24px; border: 1px solid var(--border); border-radius: 16px; background: var(--tertiary); display: flex; flex-direction: column; scroll-margin-top: 140px; }
+    .cell-card h3 { font-size: 19px; font-weight: 800; margin-bottom: 8px; color: var(--main); }
+    .cell-card p { font-size: 14px; line-height: 1.65; color: var(--gray-700); margin-bottom: 16px; flex-grow: 1; }
+    .cell-card a { font-size: 14px; font-weight: 700; color: var(--blue); }
+    .cell-card a:hover { text-decoration: underline; }
+    .pillar-item { scroll-margin-top: 140px; }
+    @media (max-width: 992px) { .cell-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .cell-grid { grid-template-columns: 1fr; } .cell-section { padding: 56px 0; } }
   </style>
 
   <header class="lg-hero" aria-labelledby="longevity-page-title">
     <div class="container lg-hero__container">
       <span class="lg-hero__tag">LONGEVITY &amp; SAĞLIK ÖMRÜ</span>
-      <h1 id="longevity-page-title" class="lg-hero__title">Daha uzun değil, <span>daha sağlıklı</span> bir yaşam</h1>
-      <p class="lg-hero__sub">Biyolojik yaşlanmayı anlamak ve sağlık ömrünü destekleyen alışkanlıkları bilimsel bir çerçevede değerlendirmek için kapsamlı rehber.</p>
+      <h1 id="longevity-page-title" class="lg-hero__title">Tutarlı ve <span>Uzun</span> Yaşam</h1>
+      <p class="lg-hero__sub">Daha uzun değil, daha sağlıklı bir yaşam: beslenme, hareket, uyku, zihin, sosyal ilişkiler ve cilt sağlığında yıllar boyunca sürdürülebilen alışkanlıklar.</p>
     </div>
   </header>
 
@@ -937,7 +1089,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         
         <div class="philosophy-visual">
           <div class="chart-container">
-            <h3 class="chart-title">Yaşam Kalitesi & Sağlık Eğrisi</h3>
+            <h3 class="chart-title">Yaşam Kalitesi & Sağlık Eğrisi (Temsili)</h3>
             
             <div style="position: relative;">
               <!-- Chart Tooltip -->
@@ -974,15 +1126,15 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
                 
                 <!-- Interactive Dots (Traditional Curve key stages) -->
                 <circle class="interactive-dot" cx="270" cy="120" r="5" fill="#e27d7d" stroke="#0f1310" stroke-width="2" 
-                        data-title="Geleneksel Yaşlanma (55 Yaş)" data-desc="Yaşam kalitesi %55'lere geriler. Erken kronik yorgunluk ve metabolik sendrom başlangıcı." />
+                        data-title="Geleneksel yaşlanma (orta yaş)" data-desc="Kronik hastalıkların ve metabolik sorunların görülme sıklığı artmaya başlayabilir." />
                 <circle class="interactive-dot" cx="386" cy="210" r="5" fill="#e27d7d" stroke="#0f1310" stroke-width="2" 
-                        data-title="Geleneksel Yaşlanma (75 Yaş)" data-desc="Yaşam kalitesi %25. İleri derece kas kaybı, kardiyak gerileme ve yoğun ilaç kullanımı." />
+                        data-title="Geleneksel yaşlanma (ileri yaş)" data-desc="Kas kaybı, kalp-damar hastalıkları ve çoklu ilaç kullanımı yaşam kalitesini etkileyebilir." />
 
                 <!-- Interactive Dots (Longevity Curve key stages) -->
                 <circle class="interactive-dot" cx="386" cy="52" r="5" fill="#4ed961" stroke="#0f1310" stroke-width="2" 
-                        data-title="Longevity Protokolü (75 Yaş)" data-desc="Yaşam kalitesi %90+. Yüksek VO2 Max seviyesi, güçlü kas iskelet sistemi ve berrak zihin." />
+                        data-title="Sağlıklı yaşlanma (ileri yaş)" data-desc="Hedef: iyi kardiyorespiratuvar kondisyon, korunmuş kas gücü ve zihinsel berraklık." />
                 <circle class="interactive-dot" cx="445" cy="85" r="5" fill="#4ed961" stroke="#0f1310" stroke-width="2" 
-                        data-title="Longevity Protokolü (90 Yaş)" data-desc="Yaşam kalitesi %80+. Aktif sosyal hayat, fonksiyonel bağımsızlık ve minimal hastalık dönemi." />
+                        data-title="Sağlıklı yaşlanma (çok ileri yaş)" data-desc="Hedef: aktif sosyal yaşam, bağımsızlık ve hastalıkla geçen dönemin olabildiğince kısa olması." />
 
                 <!-- SVG Definitions for Gradients and Glow Filters -->
                 <defs>
@@ -1026,322 +1178,92 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
                 <span>Longevity Odaklı Yaşam</span>
               </div>
             </div>
+            <p class="chart-note">Temsili grafiktir; kavramı anlatmak içindir, ölçülmüş bir veri değildir.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 5 PILLARS OF LONGEVITY (EXPANDABLE) -->
-  <section class="pillars-section" id="longevity-bilimi">
+  <!-- 6 ALAN: TUTARLI VE UZUN YAŞAM (madde 16) -->
+  <section class="pillars-section" id="alanlar">
     <div class="container">
       <div class="pillars-header">
-        <h2 class="pillars-header__title">Longevity'nin 6 Temel Bilimsel Sütunu</h2>
+        <h2 class="pillars-header__title">Sağlıklı Yaş Almanın 6 Alanı</h2>
         <p class="pillars-header__desc">
-          Sağlıklı ve aktif yaşlanma, birbirini destekleyen bu altı fizyolojik mekanizmanın birlikte değerlendirilmesiyle ele alınır. Kartlara tıklayarak biyolojik hedefleri inceleyin.
+          Longevity tek bir takviye, diyet ya da uygulamadan ibaret değildir. Bu altı alan birbirini etkiler; birinde yapılan küçük ve sürdürülebilir değişiklikler diğerlerine de yansır. Bir alanı açarak ayrıntılarını inceleyin.
         </p>
       </div>
 
       <div class="pillars-list">
-        
-        <!-- Pillar 1 -->
-        <div class="pillar-item" id="hucresel-temizlik">
-          <div class="pillar-trigger">
-            <div class="pillar-trigger__main">
-              <span class="pillar-trigger__num">01</span>
-              <div class="pillar-trigger__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.314 11.314l.707.707M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
-                </svg>
-              </div>
-              <span class="pillar-trigger__title">Hücresel Temizlik (Otofaji)</span>
-            </div>
-            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
-          <div class="pillar-content">
-            <div class="pillar-content__inner">
-              <p class="pillar-content__desc">
-                Hücre içindeki yıpranmış organellerin, hasarlı proteinlerin ve hücresel atıkların geri dönüştürülme mekanizmasıdır. Yetersiz otofaji, hücrelerin erken yaşlanmasına ve kronik enflamasyona yol açar. Periyodik açlık ve uygun egzersizlerle bu mekanizma tetiklenebilir.
-              </p>
-              <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
-                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
-                <div class="pillar-grid-metrics">
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">Açlık İnsülini</span>
-                    <div class="metric-box__val">&lt; 5 uIU/mL</div>
-                    <p class="metric-box__tip">Düşük insülin düzeyleri, AMPK yolu üzerinden hücresel temizliği (otofaji) destekleyebilir.</p>
+        {areas.map((area, i) => (
+          <div class="pillar-item" id={area.id}>
+            <button type="button" class="pillar-trigger" aria-expanded="false" aria-controls={`${area.id}-icerik`}>
+              <span class="pillar-trigger__main">
+                <span class="pillar-trigger__num">{String(i + 1).padStart(2, '0')}</span>
+                <span class="pillar-trigger__icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    {area.icon.map((d) => <path d={d} />)}
+                  </svg>
+                </span>
+                <span class="pillar-trigger__title">{area.title}</span>
+              </span>
+              <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="pillar-content" id={`${area.id}-icerik`}>
+              <div class="pillar-content__inner">
+                <p class="pillar-content__desc">{area.desc}</p>
+                <h3 class="pillar-points__title">Bilim ne diyor?</h3>
+                <ul class="pillar-points">
+                  {area.points.map((p) => <li>{p}</li>)}
+                </ul>
+                {area.metrics.length > 0 && (
+                  <div class="pillar-dashboard">
+                    <h4 class="pillar-dashboard__title">{area.metricsTitle ?? 'Takip Edilen Göstergeler'}</h4>
+                    {!area.metricsTitle && <p class="pillar-dashboard__note">{NOTE}</p>}
+                    <div class="pillar-grid-metrics">
+                      {area.metrics.map((m) => (
+                        <div class="metric-box">
+                          <span class="metric-box__lbl">{m.lbl}</span>
+                          <div class="metric-box__val">{m.val}</div>
+                          <p class="metric-box__tip">{m.tip}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">hs-CRP (Enflamasyon)</span>
-                    <div class="metric-box__val">&lt; 1.0 mg/L</div>
-                    <p class="metric-box__tip">Düşük düzeyde enflamasyon, hücresel yenilenmenin sağlıklı işlediğine dair göstergelerden biridir.</p>
-                  </div>
+                )}
+                <div class="pillar-links">
+                  <span class="pillar-links__title">Okumaya devam edin</span>
+                  <ul>
+                    {area.links.map((l) => <li><a href={l.href}>{l.title}</a></li>)}
+                    {area.more && <li><a href={area.more.href}>{area.more.label} &rarr;</a></li>}
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <!-- Pillar 2 -->
-        <div class="pillar-item" id="metabolik-saglik">
-          <div class="pillar-trigger">
-            <div class="pillar-trigger__main">
-              <span class="pillar-trigger__num">02</span>
-              <div class="pillar-trigger__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-                </svg>
-              </div>
-              <span class="pillar-trigger__title">Metabolik Esneklik &amp; Mitokondri Sağlığı</span>
-            </div>
-            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
-          <div class="pillar-content">
-            <div class="pillar-content__inner">
-              <p class="pillar-content__desc">
-                Metabolik esneklik, vücudun enerji kaynağı olarak karbonhidratlar ile yağlar arasında verimli bir şekilde geçiş yapabilme yeteneğidir. Mitokondriyal disfonksiyon; diyabet, obezite ve kanser gibi birçok yaşa bağlı kronik hastalığın kökeninde yer alır.
-              </p>
-              <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
-                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
-                <div class="pillar-grid-metrics">
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">HbA1c (Üç Aylık Şeker)</span>
-                    <div class="metric-box__val">&lt; %5.2</div>
-                    <p class="metric-box__tip">Glukoz dalgalanmalarının az olması, damar sağlığını korumaya ve ileri glikasyon son ürünlerinin (AGEs) birikimini azaltmaya yardımcı olabilir.</p>
-                  </div>
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">ApoB (Aterojenik Lipoprotein)</span>
-                    <div class="metric-box__val">&lt; 80 mg/dL</div>
-                    <p class="metric-box__tip">Kardiyovasküler riski değerlendirmede kullanılan önemli belirteçlerden biridir; hedef değer kişisel risk profiline göre belirlenir.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Pillar 3 -->
-        <div class="pillar-item" id="kardiyorespiratuar-kapasite">
-          <div class="pillar-trigger">
-            <div class="pillar-trigger__main">
-              <span class="pillar-trigger__num">03</span>
-              <div class="pillar-trigger__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                </svg>
-              </div>
-              <span class="pillar-trigger__title">Kardiyorespiratuar Kapasite (VO2 Max)</span>
-            </div>
-            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
-          <div class="pillar-content">
-            <div class="pillar-content__inner">
-              <p class="pillar-content__desc">
-                VO2 Max, vücudun yoğun egzersiz sırasında kullanabildiği maksimum oksijen miktarını ölçer. Klinik araştırmalar, yüksek VO2 Max değerinin, tüm nedenlere bağlı ölüm riskinin (all-cause mortality) daha düşük olmasıyla en güçlü ilişkili fizyolojik belirteçlerden biri olduğunu göstermektedir.
-              </p>
-              <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
-                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
-                <div class="pillar-grid-metrics">
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">VO2 Max Dilimi</span>
-                    <div class="metric-box__val">En Üst %25'lik Dilim</div>
-                    <p class="metric-box__tip">Kendi yaş ve cinsiyet grubunuzun üst dilimlerinde yer almak, daha iyi yaşam kalitesi ve sağlık sonuçlarıyla ilişkilendirilmektedir.</p>
-                  </div>
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">Dinlenme Kalp Hızı</span>
-                    <div class="metric-box__val">&lt; 60 bpm</div>
-                    <p class="metric-box__tip">Düşük dinlenme kalp hızı çoğu zaman iyi kardiyovasküler kondisyonla ilişkilidir; sporcularda ve bazı ilaçları kullananlarda farklı yorumlanır.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Pillar 4 -->
-        <div class="pillar-item" id="kas-kitlesi-gucu">
-          <div class="pillar-trigger">
-            <div class="pillar-trigger__main">
-              <span class="pillar-trigger__num">04</span>
-              <div class="pillar-trigger__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M6.5 6.5h11M6.5 17.5h11M3 12h18M3 8v8M21 8v8"/>
-                </svg>
-              </div>
-              <span class="pillar-trigger__title">Kas Kütlesi, Gücü ve Kemik Yoğunluğu</span>
-            </div>
-            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
-          <div class="pillar-content">
-            <div class="pillar-content__inner">
-              <p class="pillar-content__desc">
-                Yaşa bağlı kas kütlesi kaybı (sarkopeni) ve kemik erimesi (osteoporoz), ileri yaşlardaki fonksiyonel bağımlılığın ve kırık riskinin en önemli nedenidir. Kas kütlesi aynı zamanda glukozu depolayan en büyük organımızdır ve metabolik koruma sağlar.
-              </p>
-              <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
-                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
-                <div class="pillar-grid-metrics">
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">FFMI (Yağsız Kas Kütlesi)</span>
-                    <div class="metric-box__val">Yaş Grubunun Üzeri</div>
-                    <p class="metric-box__tip">DEXA gibi yöntemlerle ölçülen yeterli kas kütlesi, metabolik rezerv ve iskelet sağlığıyla ilişkilidir.</p>
-                  </div>
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">Grip Strength (El Kavrama Gücü)</span>
-                    <div class="metric-box__val">Üst Dilim Skorları</div>
-                    <p class="metric-box__tip">Genel fiziksel kapasiteyle ilişkili, basit ve yaygın kullanılan bir ölçümdür.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Pillar 5 -->
-        <div class="pillar-item" id="beyin-sagligi">
-          <div class="pillar-trigger">
-            <div class="pillar-trigger__main">
-              <span class="pillar-trigger__num">05</span>
-              <div class="pillar-trigger__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.44 2.5 2.5 0 0 1 0-3.12 3 3 0 0 1 0-3.88 2.5 2.5 0 0 1 0-3.12A2.5 2.5 0 0 1 9.5 2zM14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.44 2.5 2.5 0 0 0 0-3.12 3 3 0 0 0 0-3.88 2.5 2.5 0 0 0 0-3.12A2.5 2.5 0 0 0 14.5 2z"/>
-                </svg>
-              </div>
-              <span class="pillar-trigger__title">Bilişsel Rezerve ve Nöroplastisite</span>
-            </div>
-            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
-          <div class="pillar-content">
-            <div class="pillar-content__inner">
-              <p class="pillar-content__desc">
-                Beyin sağlığı, nörodejeneratif hastalıkların (Alzheimer, Demans vb.) riskini azaltmak ve ileri yaşlarda bilişsel berraklığı sürdürmek anlamına gelir. Uyku kalitesi, BDNF salınımını artıran zihinsel aktiviteler ve egzersiz, nöronal bağları korur.
-              </p>
-              <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Takip Edilen Göstergeler</h4>
-                  <p class="pillar-dashboard__note">Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.</p>
-                <div class="pillar-grid-metrics">
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">Derin Uyku Oranı</span>
-                    <div class="metric-box__val">%15 - %20 (Toplam Uykunun)</div>
-                    <p class="metric-box__tip">Beynin glimfatik temizlik sisteminin özellikle derin uykuda daha aktif çalıştığı düşünülmektedir.</p>
-                  </div>
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">ApoE4 Gen Testi</span>
-                    <div class="metric-box__val">Genetik Yatkınlık Bilgisi</div>
-                    <p class="metric-box__tip">Genetik test sonuçları, genetik danışmanlık ve hekim değerlendirmesiyle birlikte yorumlanmalıdır.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Pillar 6 -->
-        <div class="pillar-item" id="rejeneratif-estetik">
-          <div class="pillar-trigger">
-            <div class="pillar-trigger__main">
-              <span class="pillar-trigger__num">06</span>
-              <div class="pillar-trigger__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                </svg>
-              </div>
-              <span class="pillar-trigger__title">Rejeneratif Estetik &amp; Cilt Yaşı</span>
-            </div>
-            <svg class="pillar-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
-          <div class="pillar-content">
-            <div class="pillar-content__inner">
-              <p class="pillar-content__desc">
-                Cilt, vücudumuzun en büyük organıdır ve hücresel yaşlanmanın dışarıdan gözlemlenebilen en net aynasıdır. Rejeneratif estetik uygulamaları; kollajen kaybını yavaşlatmayı, fibroblast hücrelerinin işlevini desteklemeyi ve cilt kalitesini iyileştirmeyi hedefler.
-              </p>
-              <div class="pillar-dashboard">
-                <h4 class="pillar-dashboard__title">Uygulamalar ve Hedeflenen Etkiler</h4>
-                <div class="pillar-grid-metrics">
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">Rejenerasyon (PRP &amp; Eksozom)</span>
-                    <div class="metric-box__val">Kök Hücre ve Büyüme Faktörü</div>
-                    <p class="metric-box__tip">Hücreler arası iletişimi destekleyerek doku onarımına ve kolajen–elastin yapımına katkı sağlamayı hedefler.</p>
-                  </div>
-                  <div class="metric-box">
-                    <span class="metric-box__lbl">Kollajen Uyarımı (Altın İğne RF)</span>
-                    <div class="metric-box__val">Fraksiyonel Radyofrekans</div>
-                    <p class="metric-box__tip">Mikro iğnelerle oluşturulan kontrollü ısı etkisiyle yeni kolajen oluşumunu uyarmayı ve cilt sıkılığını artırmayı hedefler.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        ))}
       </div>
     </div>
   </section>
 
-  <!-- REGENERATIVE AESTHETICS SECTION -->
-  <section class="estetik-section" style="background: var(--tertiary); padding: 100px 0; border-top: 1px solid var(--border);">
+  <!-- HÜCRESEL TEMELLER -->
+  <section class="cell-section" id="hucresel-temeller" aria-labelledby="cell-title">
     <div class="container">
-      <div class="section-header" style="text-align: center; max-width: 700px; margin: 0 auto 56px; display: block;">
-        <h2 class="section-title" style="font-family: Georgia, serif; font-size: clamp(28px, 4vw, 36px); font-weight: 700; margin-bottom: 16px; width: 100%;">Longevity ve Medikal Estetik</h2>
-        <p style="color: var(--gray-500); font-size: 16px; line-height: 1.6;">
-          Dışsal hücresel gençleşme, sağlıklı yaş alma sürecinin ve genel organ sağlığının ayrılmaz bir parçasıdır. Doğallığı koruyan bilimsel dermakozmetik protokoller.
-        </p>
+      <div class="cell-header">
+        <h2 id="cell-title">Hücresel Temeller</h2>
+        <p>Yaşlanma biyolojisinde en çok araştırılan dört konu. Bu alanlardaki bulguların önemli bir kısmı hücre ve hayvan çalışmalarından gelir; insanlara uyarlanması temkin gerektirir.</p>
       </div>
-
-      <div class="estetik-grid-longevity">
-        <!-- Card 1: Dermal Dolgu -->
-        <div class="estetik-card-longevity">
-          <img src="/assets/images/generated/quiz_skin_aesthetic.webp" alt="Dermal Dolgu" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
-          <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
-            <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Dokusal Hacim &amp; Nem</span>
-            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">Dermal Dolgu ve Kontür Restorasyonu</h3>
-            <p style="font-size: 14px; color: var(--gray-500); line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">
-              Yaşlanma ile azalan ekstraselüler matris hacmini ve nemini hiyalüronik asit dolgularla doğallığı bozmadan geri kazandırmak. Yüz anatomisine uygun kişiselleştirilmiş minimal dokunuşlar.
-            </p>
-            <a href="/blog/dermal-dolgu" style="font-size: 13px; font-weight: 700; color: #3BAD49; display: flex; align-items: center; gap: 4px;">Detayları İncele &rarr;</a>
-          </div>
-        </div>
-
-        <!-- Card 2: Altın İğne -->
-        <div class="estetik-card-longevity">
-          <img src="/assets/images/generated/quiz_skin_health.webp" alt="Altın İğne" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
-          <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
-            <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Kollajen İndüksiyonu</span>
-            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">Altın İğne (Fraksiyonel Radyofrekans)</h3>
-            <p style="font-size: 14px; color: var(--gray-500); line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">
-              Cildin alt katmanlarına mikro iğnelerle radyofrekans enerjisi ileterek yara iyileşme mekanizmasını uyarma. Gözenek sıkılaştırma, leke, akne skarları ve ince kırışıklıklarda kanıtlanmış hücresel onarım.
-            </p>
-            <a href="/blog/altin-igne" style="font-size: 13px; font-weight: 700; color: #3BAD49; display: flex; align-items: center; gap: 4px;">Detayları İncele &rarr;</a>
-          </div>
-        </div>
-
-        <!-- Card 3: PRP & Eksozom -->
-        <div class="estetik-card-longevity">
-          <img src="/assets/images/generated/cellular-science.webp" alt="PRP ve Eksozom" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" />
-          <div style="padding: 24px; flex-grow: 1; display: flex; flex-direction: column;">
-            <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--green); margin-bottom: 12px; display: inline-block;">Rejeneratif Hücre Tedavisi</span>
-            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--main);">PRP &amp; Eksozom Rejenerasyonu</h3>
-            <p style="font-size: 14px; color: var(--gray-500); line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">
-              Kök hücre habercisi eksozomlar ve kendi kanınızdan ayrıştırılan büyüme faktörleri (PRP) ile elastin ve kolajen yapımını destekleyerek cilt kalitesini iyileştirmeyi ve uygun hastalarda bazı saç dökülmesi türlerinde destek sağlamayı hedefleyen uygulamalar.
-            </p>
-            <a href="/blog/prp-eksozom" style="font-size: 13px; font-weight: 700; color: #3BAD49; display: flex; align-items: center; gap: 4px;">Detayları İncele &rarr;</a>
-          </div>
-        </div>
+      <div class="cell-grid">
+        {cellular.map((c) => (
+          <article class="cell-card" id={c.id}>
+            <h3>{c.title}</h3>
+            <p>{c.text}</p>
+            <a href={c.link.href}>{c.link.title} &rarr;</a>
+          </article>
+        ))}
       </div>
     </div>
   </section>
@@ -1467,11 +1389,12 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
     <div class="container">
       <div class="premium-cta">
         <div class="premium-cta__content">
-          <span class="premium-cta__badge">Longevity Testi</span>
-          <h2 class="premium-cta__title">Biyolojik Yaşınızı ve <strong>Hücresel Skorunuzu</strong> Detaylandırın</h2>
-          <p class="premium-cta__text">Metabolik sağlığınızı, mitokondriyal verimliliğinizi ve hücresel yaşlanma hızınızı ölçün. 2 dakikalık bilimsel testimizle hücresel düzeyde nerede durduğunuzu keşfedin.</p>
+          <span class="premium-cta__badge">Kendini Değerlendir</span>
+          <h2 class="premium-cta__title">Alışkanlıklarınızı <strong>gözden geçirin</strong></h2>
+          <p class="premium-cta__text">Uyku, stres, hareket ve beslenme alışkanlıklarınızı birkaç dakikada gözden geçirebileceğiniz testler. Testler bilgilendirme amaçlıdır ve tanı koymaz; kişisel bir değerlendirme için randevu talebinde bulunabilirsiniz.</p>
           <div class="premium-cta__actions">
-            <a href="/quizler" class="btn btn-glow">Hemen Puanını Hesapla &rarr;</a>
+            <a href="/quizler" class="btn btn-glow">Testlere göz atın &rarr;</a>
+            <a href="/iletisim#randevu" class="btn btn-light">Randevu talebi</a>
           </div>
         </div>
         <div class="premium-cta__image-wrap">
@@ -1512,35 +1435,39 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         });
       });
 
-      // ─── 2. EXPANDABLE 5 PILLARS ───
-      const pillars = document.querySelectorAll('.pillar-item');
-      
-      // Open the first pillar by default
-      if (pillars.length > 0) {
-        const firstPillar = pillars[0];
-        const content = firstPillar.querySelector('.pillar-content');
-        firstPillar.classList.add('active');
-        content.style.maxHeight = content.scrollHeight + "px";
+      // ─── 2. 6 ALAN (AKORDEON) ───
+      const pillars = [...document.querySelectorAll('.pillar-item')];
+      const setOpen = (pillar, open) => {
+        pillar.classList.toggle('active', open);
+        pillar.querySelector('.pillar-trigger').setAttribute('aria-expanded', String(open));
+        const content = pillar.querySelector('.pillar-content');
+        content.style.maxHeight = open ? content.scrollHeight + 'px' : null;
+      };
+      const openOnly = (target) => pillars.forEach((p) => setOpen(p, p === target));
+
+      // /longevity#uyku gibi bir adresle gelindiyse o alanı, yoksa ilk alanı aç.
+      const fromHash = () => pillars.find((p) => '#' + p.id === location.hash);
+      if (pillars.length) openOnly(fromHash() ?? pillars[0]);
+      // Aynı sayfadaki #alan bağlantıları (ör. menü). Astro yönlendiricisi bu tıklamalarda
+      // hashchange tetiklemediği için tıklamayı dinliyoruz; dinleyici bir kez bağlanır.
+      if (!window.__longevityHashLinks) {
+        window.__longevityHashLinks = true;
+        document.addEventListener('click', (event) => {
+          const link = event.target.closest && event.target.closest('a[href*="#"]');
+          if (!link) return;
+          const url = new URL(link.href, location.href);
+          if (url.pathname !== location.pathname) return;
+          const target = document.getElementById(url.hash.slice(1));
+          if (target && target.classList.contains('pillar-item') && !target.classList.contains('active')) {
+            target.querySelector('.pillar-trigger').click();
+          }
+        });
       }
 
-      pillars.forEach(pillar => {
-        const trigger = pillar.querySelector('.pillar-trigger');
-        const content = pillar.querySelector('.pillar-content');
-
-        trigger.addEventListener('click', () => {
+      pillars.forEach((pillar) => {
+        pillar.querySelector('.pillar-trigger').addEventListener('click', () => {
           const isActive = pillar.classList.contains('active');
-
-          // Close all pillars
-          pillars.forEach(p => {
-            p.classList.remove('active');
-            p.querySelector('.pillar-content').style.maxHeight = null;
-          });
-
-          // Toggle current
-          if (!isActive) {
-            pillar.classList.add('active');
-            content.style.maxHeight = content.scrollHeight + "px";
-          }
+          openOnly(isActive ? null : pillar);
         });
       });
     });

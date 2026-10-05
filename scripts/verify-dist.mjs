@@ -90,6 +90,18 @@ check('kırık iç link yok', () => {
   return [...broken];
 });
 
+check('sayfa içi bağlantılar (#) var olan bölümlere gidiyor', () => {
+  const broken = new Set();
+  for (const f of htmlFiles) {
+    for (const m of read(f).matchAll(/href="(\/(?!\/)[^"#?]*)#([^"]+)"/g)) {
+      const [, page, id] = m;
+      const target = [`${page}.html`, path.posix.join(page, 'index.html')].find(isFile);
+      if (target && !read(target).includes(`id="${id}"`)) broken.add(`${f} → ${page}#${id}`);
+    }
+  }
+  return [...broken];
+});
+
 check('anasayfa H1 "Sağlıklı Yaş Almanın Bilimi"', () =>
   /<h1[^>]*>\s*Sağlıklı Yaş Almanın Bilimi\s*<\/h1>/.test(read('index.html')) ? [] : ['index.html']);
 

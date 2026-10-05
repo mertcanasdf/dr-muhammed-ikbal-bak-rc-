@@ -491,3 +491,5 @@
 .blog-search-status{margin:0 0 20px;font-size:15px;color:var(--gray-700)}.blog-search-status a{color:#1e45da;font-weight:700;margin-left:6px}
 /* Mobil dokunma hedefleri en az 44px (SEO denetimi, görsel bulgu 3) */
 @media (max-width:900px){.hamburger{min-width:44px;min-height:44px;padding:10px 6px;box-sizing:border-box}.site-logo{min-height:44px;display:inline-flex;align-items:center}.footer__links a{display:inline-flex;align-items:center;min-height:44px}.filter-btn{min-height:44px}.article-share__action{min-height:44px;min-width:44px}.estetik-card__cta,.blog-card__read-more,.hp-link{display:inline-flex;align-items:center;min-height:44px}}
+/* Yazı içi bağlantılar ayırt edilebilir olsun (iç bağlantılar ve kaynaklar) */
+.article-body p a,.article-body li a,.article-body blockquote a{color:#1e45da;text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}.article-body p a:hover,.article-body li a:hover,.article-body blockquote a:hover{color:#164e34}

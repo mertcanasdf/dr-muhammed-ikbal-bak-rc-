@@ -48,4 +48,4 @@ Haftada aynı gün bir kişiyi aramak, yürüyüşe komşuyu davet etmek, bir ku
 ## Kaynaklar
 
 - [ABD Surgeon General: Social Connection](https://www.hhs.gov/surgeongeneral/reports-and-publications/connection/index.html)
-- [Social Connection Advisory, PDF](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf?wpisrc=nl_daily202)
+- [Social Connection Advisory, PDF](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf)

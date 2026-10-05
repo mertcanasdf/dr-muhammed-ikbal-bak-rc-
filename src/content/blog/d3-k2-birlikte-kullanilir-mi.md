@@ -39,11 +39,11 @@ D vitamini yağda çözündüğü için gereğinden fazla kullanım vücutta bir
 
 ## K2 kullanırken önemli uyarı
 
-Vitamin K yeşil yapraklı sebzelerde, bazı yağlarda, yumurta, peynir ve soya ürünlerinde bulunur. Warfarin gibi K vitaminiyle etkileşen kan sulandırıcılar kullanılıyorsa beslenmedeki K miktarını birden değiştirmemek ve takviyeyi doktorla planlamak gerekir. [NIH K vitamini bilgi formu](https://ods.od.nih.gov/factsheets/VitaminK-Consumer/?n=%40) bu etkileşimi açıklar.
+Vitamin K yeşil yapraklı sebzelerde, bazı yağlarda, yumurta, peynir ve soya ürünlerinde bulunur. Warfarin gibi K vitaminiyle etkileşen kan sulandırıcılar kullanılıyorsa beslenmedeki K miktarını birden değiştirmemek ve takviyeyi doktorla planlamak gerekir. [NIH K vitamini bilgi formu](https://ods.od.nih.gov/factsheets/VitaminK-Consumer/) bu etkileşimi açıklar.
 
 > **Not:** D3-K2 ürününü kemik hastalığı, damar kireçlenmesi veya kronik ağrı tedavisi gibi görmeyin. Kan sulandırıcı, böbrek hastalığı, gebelik veya emzirme durumunda hekim onayı olmadan kullanmayın.
 
 ## Kaynaklar
 
 - [NIH ODS: Vitamin D](https://ods.od.nih.gov/factsheets/VITAMIND-Consumer/)
-- [NIH ODS: Vitamin K](https://ods.od.nih.gov/factsheets/VitaminK-Consumer/?n=%40)
+- [NIH ODS: Vitamin K](https://ods.od.nih.gov/factsheets/VitaminK-Consumer/)

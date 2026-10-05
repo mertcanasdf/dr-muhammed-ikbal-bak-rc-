@@ -90,6 +90,17 @@ check('kırık iç link yok', () => {
   return [...broken];
 });
 
+// src dışındaki görsel yolları da (og:image content=, CSS url(), JSON-LD) var olan dosyalara gitmeli.
+check('görsel yolları (og:image, CSS dahil) var olan dosyalara gidiyor', () => {
+  const missing = new Set();
+  for (const f of htmlFiles) {
+    for (const m of read(f).matchAll(/\/assets\/images\/[^"'\s)>,]+/g)) {
+      if (!isFile(decodeURI(m[0]))) missing.add(`${f} → ${m[0]}`);
+    }
+  }
+  return [...missing];
+});
+
 check('sayfa içi bağlantılar (#) var olan bölümlere gidiyor', () => {
   const broken = new Set();
   for (const f of htmlFiles) {

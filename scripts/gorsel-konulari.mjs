@@ -72,41 +72,11 @@ const ARTICLES = {
   'kortizol-yaslanma': 'A person seen from behind, sitting by a large window with a cup of tea, looking out at a misty green garden in early morning; quiet, unhurried atmosphere. Face not visible.',
 };
 
-// Sayfalarda doğrudan kullanılan görseller -> aynı dosya adıyla yerinde yenilenir.
+// Sayfalarda doğrudan kullanılan ve Codex ile üretilen görseller (aynı dosya adıyla yerinde yenilenir).
+// Diğer sayfa görselleri Unsplash stok fotoğraflarıdır; kaynakları docs/gorsel-kaynaklari.md içinde.
 const PAGES = {
-  'cellular-science': 'A modern bright research lab bench with a microscope, pipettes and glass sample plates, soft daylight, calm scientific atmosphere.',
-  'exercise': 'An outdoor exercise scene: a person seen from behind doing a stretching exercise on a grassy hill at sunrise, wide open landscape.',
-  'guide_cortisol_stress': 'A calm daily routine still life: a cup of herbal tea, a notebook (no writing), a small plant and soft morning light on a wooden desk.',
-  'guide_intermittent_fasting': 'Fresh vegetables, a glass of water and a simple analog clock on a kitchen table in morning light, evoking meal timing.',
-  'guide_keto_diet': 'Avocados, eggs, olive oil, leafy greens and nuts arranged on a light stone countertop, fresh and natural.',
-  'health-app': 'A peaceful morning ritual: a glass of water with lemon, a small bowl of fruit and a folded towel on a sunny bathroom windowsill.',
-  'nutrition-longevity': 'A colorful seasonal market basket with vegetables, herbs, legumes and fruit on a wooden table outdoors, warm daylight.',
-  'online-course': 'An aesthetic clinic treatment tray with small clear glass ampoules and folded gauze on a white surface, soft professional light.',
-  'quiz_anxiety': 'A person seen from behind sitting quietly on a window seat with a blanket, looking at a soft rainy garden, calm and gentle mood.',
-  'quiz_body_type': 'A neutral still life of a measuring tape loosely coiled beside an apple and a glass of water on a linen cloth, soft daylight.',
-  'quiz_gut_health': 'Fermented foods in glass jars (sauerkraut, kefir, pickles) beside whole grains and vegetables on a rustic kitchen counter.',
-  'quiz_inflammation': 'Anti-inflammatory foods: turmeric root, ginger, berries, leafy greens and olive oil on a slate board in natural light.',
-  'quiz_longevity_score': 'A calm checklist-style still life: a pair of walking shoes, a water bottle, a bowl of vegetables and a sleep mask arranged neatly on a wooden floor.',
-  'quiz_mitochondria': 'A sunlit morning run path along the sea, a runner far in the distance seen from behind, fresh and energetic but calm.',
-  'quiz_obsession': 'A tidy, orderly desk with neatly aligned pencils and a closed notebook, soft neutral light, quiet and reflective mood.',
-  'quiz_pss_stress': 'A person seen from behind standing on a balcony at sunset taking a slow breath, city softly blurred in the distance.',
+  'online-course': 'A calm medical-aesthetics consultation desk: an illuminated magnifying skin-analysis lamp, a closed notebook and pen, a small plant, bright clinic room softly blurred behind, no people, soft professional light.',
   'quiz_skin_aesthetic': 'A bright aesthetic-clinic consultation corner with a mirror reflecting only soft light and plants, a treatment chair edge, calm and professional.',
-  'quiz_skin_health': 'Skincare still life: a smooth cream texture, water droplets on a glass surface and a green leaf, soft natural light.',
-  'quiz_sleep': 'A cozy bedroom at night with a softly glowing bedside lamp, layered linen bedding and a book, deep calm blue tones.',
-  'quiz_stress_cortisol': 'A cup of tea steaming on a windowsill with rain outside, a soft blanket draped nearby, grounding and calm.',
-  'stress-sleep': 'An evening wind-down routine: dimmed lamp, a cup of chamomile tea, a book and a phone placed face-down far from the bed.',
-  'success-story': 'A minimalist aesthetic clinic room with soft daylight, a treatment chair edge, white flowers and natural stone textures, calm and trustworthy.',
-  'topics/aralikli-oruc': 'A simple bowl of fresh fruit and a glass of water on a sunny table with a wall clock softly out of focus.',
-  'topics/cilt-genclesmesi': 'Macro photograph of a dewy green leaf and a smooth cream swirl side by side, symbolizing skin renewal, soft light.',
-  'topics/d3-vitamini': 'Warm sunlight streaming through leaves onto a wooden table with eggs and a glass of milk, gentle morning glow.',
-  'topics/epigenetik': 'Coiled natural yarn and threads on wooden spools on a sunlit desk, metaphor for DNA organization, soft and calm.',
-  'topics/kortizol-stres': 'A quiet reading nook with a blanket, a cup of tea and a window view of a garden, a sense of slowing down.',
-  'topics/mavi-bolge': 'A Mediterranean courtyard table with olive oil, beans, herbs and bread under the shade of an olive tree.',
-  'topics/medikal-estetik': 'A clean aesthetic-medicine treatment room with a sleek device on a cart and folded linens, soft professional daylight.',
-  'topics/nmn-nad': 'Clean lab glassware with clear liquids catching soft light on a stone bench, minimal and scientific.',
-  'topics/otofaji': 'A serene empty dining table set with a single glass of water and a clean plate in morning light, sense of pause and renewal.',
-  'topics/telomer': 'A microscope with a glass slide under warm light on a lab bench, beside neatly coiled thread, scientific and calm.',
-  'topics/urun-nmn': 'Unlabeled amber supplement bottles and a glass of water on a neutral countertop next to a stethoscope, calm and medical.',
 };
 
 const list = [

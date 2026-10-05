@@ -54,6 +54,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .q-result__tips h4{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px;color:var(--main);}
     .q-result__tips ul{padding-left:18px;}
     .q-result__tips li{font-size:14px;color:var(--gray-700);line-height:1.9;}
+    .quiz-notice{max-width:860px;margin:0 0 28px;padding:16px 20px;background:var(--base);border:1px solid var(--border);border-radius:var(--r);font-size:14px;line-height:1.7;color:var(--gray-700);}
+    .quiz-card__tag--scale{background:#e8eefb;color:#2f4f9a;}
+    .q-result__note{font-size:13px;line-height:1.6;color:var(--gray-500);margin:-8px 0 20px;}
     .q-result__actions{display:flex;gap:12px;flex-wrap:wrap;}
     .q-result__retake{background:none;border:2px solid var(--border);color:var(--main);font-weight:700;font-size:14px;padding:10px 24px;border-radius:var(--r-btn);cursor:pointer;transition:border-color .15s;}
     .q-result__retake:hover{border-color:var(--main);}
@@ -62,20 +65,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <section class="pg-hero"><div class="container">
       <p class="pg-hero__tag">Sağlık Değerlendirmesi</p>
       <h1 class="pg-hero__title">Vücudunuzu 5 Dakikada<br>Tanıyın</h1>
-      <p class="pg-hero__sub">Vücut tipinizi, metabolik sağlığınızı ve longevity profilinizi keşfedin. Her test bilimsel kaynaklara dayanır ve 2–5 dakikada tamamlanır.</p>
+      <p class="pg-hero__sub">Yaşam tarzı alışkanlıklarınızı ve iyi oluşunuzu gözden geçirmeniz için hazırlanmış testler; her biri 2–5 dakikada tamamlanır. Testler bilgilendirme amaçlıdır ve tanı koymaz.</p>
       <a href="#quizler" class="btn btn-light">Testlere Göz At</a>
     </div></section>
 
     <section class="section" id="quizler"><div class="container">
       <h2 class="section-title">Ücretsiz Sağlık Testleri</h2>
+      <p class="quiz-notice"><strong>Bilimsel ölçek</strong> etiketli testler (PSS-10, GAD-7, OCI-R, ISI) araştırmalarda kullanılan ölçeklerdir; burada tarama amacıyla sunulur. <strong>Farkındalık anketi</strong> ve <strong>öz değerlendirme</strong> etiketli testler ise alışkanlıklarınızı gözden geçirmeniz için hazırlanmıştır ve bilimsel olarak doğrulanmış ölçekler değildir. Hiçbir test tanı koymaz; sonuçlarınızla ilgili endişeniz varsa bir hekime ya da ruh sağlığı uzmanına başvurun.</p>
       <div class="quiz-grid">
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_body_type.webp" alt="Vücut Tipi Quizi" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Vücut Tipi Quizi</h3>
-            <p class="quiz-card__desc">Dr. Berg'in hormonal vücut tipi modeline dayalı değerlendirme. Adrenal, Tiroid, Karaciğer veya Over tipini keşfedin.</p>
+            <p class="quiz-card__desc">Popüler “hormonal vücut tipi” yaklaşımından (Dr. Berg) esinlenen farkındalık anketi. Bilimsel olarak doğrulanmış bir sınıflama değildir; sonuç tıbbi tanı yerine geçmez.</p>
             <button class="btn btn-dark" onclick="openQuiz('vucut')">Teste Başla</button>
           </div>
         </div>
@@ -83,9 +87,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_longevity_score.webp" alt="Longevity Skoru" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Longevity Skoru</h3>
-            <p class="quiz-card__desc">NOVOS ve DaVinci Labs metodolojisine dayalı biyolojik yaş değerlendirmesi. 15 yaşam tarzı faktörü üzerinden skorunuzu ölçün.</p>
+            <p class="quiz-card__desc">NOVOS ve DaVinci Labs’in yaşam tarzı değerlendirmelerinden esinlenen, 15 alışkanlık üzerinden puanlanan farkındalık anketi. Biyolojik yaş ölçümü değildir.</p>
             <button class="btn btn-dark" onclick="openQuiz('longevity')">Teste Başla</button>
           </div>
         </div>
@@ -93,90 +97,90 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_gut_health.webp" alt="Bağırsak Sağlığı" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Bağırsak Sağlığı Testi</h3>
-            <p class="quiz-card__desc">The Gut Health Doctor metodolojisine dayalı değerlendirme. Mikrobiyom sağlığınızı etkileyen yaşam tarzı faktörlerini ölçün.</p>            <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Teste Başla</button>
+            <p class="quiz-card__desc">The Gut Health Doctor’ın yaşam tarzı önerilerinden esinlenen farkındalık anketi. Bağırsak sağlığını etkileyen alışkanlıklarınızı gözden geçirin; mikrobiyom testi değildir.</p>            <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_stress_cortisol.webp" alt="Stres ve Kortizol" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Stres ve Kortizol Profili</h3>
-            <p class="quiz-card__desc">Women's Health Network adrenal değerlendirmesinden uyarlanan test. Kortizol yükünüzü ve adrenal sağlığınızı ölçün.</p>            <button class="btn btn-dark" onclick="openQuiz('stres')">Teste Başla</button>
+            <p class="quiz-card__desc">Women's Health Network’ün adrenal değerlendirmesinden uyarlanan farkındalık anketi. Stresle ilişkili belirtileri gözden geçirmenize yardımcı olur; kortizol düzeyini ölçmez.</p>            <button class="btn btn-dark" onclick="openQuiz('stres')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_inflammation.webp" alt="Enflamasyon ve Otoimmünite" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Enflamasyon & Otoimmünite Riski</h3>
-            <p class="quiz-card__desc">Sistemik enflamasyon ve otoimmünite risk düzeyinizi ölçün. Beslenme, eklem ve bağırsak hassasiyeti belirteçleri.</p>            <button class="btn btn-dark" onclick="openQuiz('enflamasyon')">Teste Başla</button>
+            <p class="quiz-card__desc">Enflamasyonla ilişkilendirilen belirti ve alışkanlıkları gözden geçirin: beslenme, eklem ve bağırsak hassasiyeti. Laboratuvar testinin yerine geçmez.</p>            <button class="btn btn-dark" onclick="openQuiz('enflamasyon')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_mitochondria.webp" alt="Mitokondri ve Hücresel Enerji" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Mitokondri & Hücresel Enerji Skoru</h3>
-            <p class="quiz-card__desc">Hücresel enerji üretim kapasitenizi ve mitokondriyal sağlığınızı ölçün. Egzersiz, hormesis ve enerji faktörleri.</p>            <button class="btn btn-dark" onclick="openQuiz('mitokondri')">Teste Başla</button>
+            <p class="quiz-card__desc">Enerji düzeyinizle ilişkili yaşam tarzı faktörlerini gözden geçirin: egzersiz, uyku, beslenme ve hormesis.</p>            <button class="btn btn-dark" onclick="openQuiz('mitokondri')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_skin_aesthetic.webp" alt="Medikal Estetik Cilt Değerlendirmesi" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag">Öz değerlendirme</span>
             <h3 class="quiz-card__title">Medikal Estetik Cilt Değerlendirmesi</h3>
-            <p class="quiz-card__desc">Glogau fotoyaşlanma sınıflandırması temel alınarak hazırlanmış profesyonel cilt analizi. Kırışıklık, pigmentasyon, laksiti ve hacim kaybı açısından mevcut cilt yaşınızı değerlendirin.</p>            <button class="btn btn-dark" onclick="openQuiz('cilt-estetik')">Teste Başla</button>
+            <p class="quiz-card__desc">Glogau fotoyaşlanma sınıflamasından uyarlanan öz değerlendirme. Kırışıklık, pigmentasyon, sarkma ve hacim kaybını gözden geçirin; hekim muayenesinin yerine geçmez.</p>            <button class="btn btn-dark" onclick="openQuiz('cilt-estetik')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_skin_health.webp" alt="Cilt Sağlığı ve Gençleşme Testi" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Cilt Sağlığı & Gençleşme Testi</h3>
-            <p class="quiz-card__desc">Günlük bakım rutini, beslenme, uyku ve yaşam tarzı alışkanlıklarınız cildinizin biyolojik yaşını nasıl etkiliyor? 12 soruda cilt sağlık skorunuzu öğrenin.</p>            <button class="btn btn-dark" onclick="openQuiz('cilt-sagligi')">Teste Başla</button>
+            <p class="quiz-card__desc">Günlük bakım rutini, beslenme, uyku ve yaşam tarzı alışkanlıklarınız cilt sağlığınızı nasıl etkiliyor? 12 soruda cilt sağlığı skorunuzu öğrenin.</p>            <button class="btn btn-dark" onclick="openQuiz('cilt-sagligi')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_pss_stress.webp" alt="Algılanan Stres Ölçeği PSS-10" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag quiz-card__tag--scale">Bilimsel ölçek</span>
             <h3 class="quiz-card__title">Algılanan Stres Ölçeği (PSS-10)</h3>
-            <p class="quiz-card__desc">Cohen tarafından geliştirilen, dünya genelinde en yaygın kullanılan klinik stres ölçeği. Son bir ayınızdaki psikolojik stres yükünüzü bilimsel olarak ölçer.</p>            <button class="btn btn-dark" onclick="openQuiz('pss')">Teste Başla</button>
+            <p class="quiz-card__desc">Cohen ve arkadaşlarının geliştirdiği, araştırmalarda yaygın kullanılan Algılanan Stres Ölçeği. Son bir aydaki stres algınızı değerlendirir.</p>            <button class="btn btn-dark" onclick="openQuiz('pss')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_anxiety.webp" alt="Yaygın Anksiyete Bozukluğu Ölçeği GAD-7" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag quiz-card__tag--scale">Bilimsel ölçek</span>
             <h3 class="quiz-card__title">Anksiyete Değerlendirmesi (GAD-7)</h3>
-            <p class="quiz-card__desc">DSM-5 kriterlerine dayalı, klinik ortamlarda yaygın kullanılan GAD-7 ölçeği. Yaygın anksiyete belirtilerinin şiddetini ölçmek için 7 soruluk doğrulanmış araç.</p>            <button class="btn btn-dark" onclick="openQuiz('anksiyete')">Teste Başla</button>
+            <p class="quiz-card__desc">Yaygın anksiyete belirtilerinin şiddetini taramak için kullanılan 7 soruluk GAD-7 ölçeği. Tarama aracıdır; yüksek skor tanı anlamına gelmez.</p>            <button class="btn btn-dark" onclick="openQuiz('anksiyete')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_obsession.webp" alt="Obsesif Düşünce Taraması OCI-R" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag quiz-card__tag--scale">Bilimsel ölçek</span>
             <h3 class="quiz-card__title">Obsesif Düşünce Taraması (OCI-R)</h3>
-            <p class="quiz-card__desc">Foa ve arkadaşları tarafından geliştirilen OKB Envanteri'nin Türkçe uyarlaması. Obsesif-kompulsif belirtilerinizin şiddetini 18 soruda değerlendirin.</p>            <button class="btn btn-dark" onclick="openQuiz('obsesyon')">Teste Başla</button>
+            <p class="quiz-card__desc">Foa ve arkadaşlarının geliştirdiği Obsesif-Kompulsif Envanter (OCI-R) temel alınmıştır. Obsesif-kompulsif belirtilerin şiddetini 18 soruda gözden geçirin; tarama aracıdır.</p>            <button class="btn btn-dark" onclick="openQuiz('obsesyon')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
           <img src="/assets/images/generated/quiz_sleep.webp" alt="Uyku Kalitesi ve İnsomnia Testi ISI" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag">Ücretsiz</span>
+            <span class="quiz-card__tag quiz-card__tag--scale">Bilimsel ölçek</span>
             <h3 class="quiz-card__title">Uyku Kalitesi Testi (ISI)</h3>
-            <p class="quiz-card__desc">Uluslararası uyku tıbbında yaygın kullanılan İnsomnia Şiddet İndeksi. Uyku kalitenizi ve insomnia şiddetinizi 7 klinik soruda bilimsel olarak ölçer.</p>            <button class="btn btn-dark" onclick="openQuiz('uyku')">Teste Başla</button>
+            <p class="quiz-card__desc">Uyku araştırmalarında yaygın kullanılan Uykusuzluk Şiddet İndeksi (ISI). Uykusuzluk belirtilerinin şiddetini 7 soruda değerlendirir; tanı koymaz.</p>            <button class="btn btn-dark" onclick="openQuiz('uyku')">Teste Başla</button>
           </div>
         </div>
 
@@ -246,10 +250,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 45,
       levels: [
-        { min: 0, max: 14, label: 'Kritik Bölge', title: 'Biyolojik Yaşınız Kronolojik Yaşınızı Aşıyor', pct: 20, desc: 'Mevcut yaşam tarzınız biyolojik yaşlanmayı önemli ölçüde hızlandırıyor olabilir.', tips: ['Önce uyku kalitesini düzeltin', 'Günlük 15 dakika yürüyüşle başlayın', 'İşlenmiş gıdaları azaltmak en hızlı etki yaratan değişikliktir', 'D3 vitamini ve Omega-3 takviyesi başlangıç için idealdir'] },
-        { min: 15, max: 27, label: 'Gelişim Alanı', title: 'Ortalama — Birkaç Kritik Faktör Dikkat İster', pct: 50, desc: 'Bazı alanlarda iyi gidiyorsunuz, ancak biyolojik yaşlanmayı hızlandıran birkaç önemli faktör var.', tips: ['Egzersiz sıklığını haftada 4 güne çıkarmayı hedefleyin', 'Uyku süresini 7 saatin altına düşürmeyin', 'Stres yönetimi için günlük bir pratik belirleyin', 'Bitki çeşitliliğinizi artırın'] },
-        { min: 28, max: 36, label: 'İyi Skor', title: 'İyi — Biyolojik Yaşınız Kronolojik Yaşınıza Yakın', pct: 78, desc: 'Longevity açısından güçlü bir temel oluşturmuşsunuz.', tips: ['Bölge 2 kardiyo ile mitokondriyal kapasiteyi artırın', 'Protein alımını optimize edin', 'Sauna veya soğuk duş gibi hormesis protokollerini deneyin', 'Yıllık kan tahlili ile biyobelirteçleri takip edin'] },
-        { min: 37, max: 45, label: 'Mükemmel', title: 'Mükemmel — Biyolojik Yaşınız Kronolojik Yaşınızdan Genç', pct: 96, desc: 'Longevity yaşam tarzını büyük ölçüde benimsemişsiniz.', tips: ['Epigenetik yaş testleri ile biyolojik yaşınızı ölçebilirsiniz', 'NMN, Resveratrol gibi longevity takviyelerini araştırın', 'VO2 max takipi ile kardiyorespiratuar kapasiteyi izleyin', 'Kan şekeri monitörü ile metabolik sağlığı gerçek zamanlı takip edin'] },
+        { min: 0, max: 14, label: 'Kritik Bölge', title: 'Birçok Alışkanlık Gözden Geçirilmeli', pct: 20, desc: 'Yanıtlarınız, sağlıklı yaş almayı destekleyen alışkanlıkların birçoğunda gelişime açık alanlar olduğunu gösteriyor.', tips: ['Önce uyku kalitesini düzeltin', 'Günlük 15 dakika yürüyüşle başlayın', 'İşlenmiş gıdaları azaltmak en hızlı etki yaratan değişikliktir', 'D3 vitamini ve Omega-3 takviyesi başlangıç için idealdir'] },
+        { min: 15, max: 27, label: 'Gelişim Alanı', title: 'Ortalama — Birkaç Kritik Faktör Dikkat İster', pct: 50, desc: 'Bazı alanlarda iyi gidiyorsunuz; birkaç alışkanlık üzerinde çalışmak fark yaratabilir.', tips: ['Egzersiz sıklığını haftada 4 güne çıkarmayı hedefleyin', 'Uyku süresini 7 saatin altına düşürmeyin', 'Stres yönetimi için günlük bir pratik belirleyin', 'Bitki çeşitliliğinizi artırın'] },
+        { min: 28, max: 36, label: 'İyi Skor', title: 'İyi — Alışkanlıklarınız Büyük Ölçüde Destekleyici', pct: 78, desc: 'Longevity açısından güçlü bir temel oluşturmuşsunuz.', tips: ['Bölge 2 kardiyo ile mitokondriyal kapasiteyi artırın', 'Protein alımını optimize edin', 'Sauna veya soğuk duş gibi hormesis protokollerini deneyin', 'Yıllık kan tahlili ile biyobelirteçleri takip edin'] },
+        { min: 37, max: 45, label: 'Mükemmel', title: 'Mükemmel — Güçlü Longevity Alışkanlıkları', pct: 96, desc: 'Longevity yaşam tarzını büyük ölçüde benimsemişsiniz.', tips: ['Epigenetik yaş testleri araştırma aşamasındadır; yaptırmayı düşünüyorsanız sonuçları hekiminizle değerlendirin', 'NMN, Resveratrol gibi longevity takviyelerini araştırın', 'VO2 max takipi ile kardiyorespiratuar kapasiteyi izleyin', 'Kan şekeri monitörü ile metabolik sağlığı gerçek zamanlı takip edin'] },
       ]
     },
     'bagırsak': {
@@ -396,7 +400,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 36,
       levels: [
-        { min: 29, max: 36, label: 'Mükemmel', title: 'Mükemmel Cilt Sağlığı Rutini', pct: 93, desc: 'Cilt sağlığına yaklaşımınız son derece kapsamlı. Biyolojik yaşlanmayı aktif olarak yavaşlatıyorsunuz.', tips: ['Kolajen sentezi için C vitamini ve retinol kombinasyonunu sürdürün', 'Yıllık dermatoloji kontrolüyle durumunuzu takip edin', 'Periyodik medikal cilt bakımı (peeling, lazer) koruyucu etki sağlar', 'NAD+ ve Resveratrol takviyelerini araştırın'] },
+        { min: 29, max: 36, label: 'Mükemmel', title: 'Mükemmel Cilt Sağlığı Rutini', pct: 93, desc: 'Cilt sağlığına yaklaşımınız son derece kapsamlı. Cilt sağlığını destekleyen alışkanlıkları büyük ölçüde benimsemişsiniz.', tips: ['Kolajen sentezi için C vitamini ve retinol kombinasyonunu sürdürün', 'Yıllık dermatoloji kontrolüyle durumunuzu takip edin', 'Periyodik medikal cilt bakımı (peeling, lazer) koruyucu etki sağlar', 'NAD+ ve Resveratrol takviyelerini araştırın'] },
         { min: 20, max: 28, label: 'İyi', title: 'İyi — Birkaç Alanda İyileştirme Mümkün', pct: 68, desc: 'Cilt sağlığı konusunda iyi bir temel oluşturmuşsunuz ancak bazı önemli boşluklar var.', tips: ['Günlük SPF uygulamasını mutlaka rutine ekleyin', 'Retinol kullanımına başlamak için ideal zaman', 'Su tüketiminizi 2 litrenin üzerine çıkarın', 'Antioksidan bakımı (C vitamini serumu) ekleyin'] },
         { min: 10, max: 19, label: 'Orta', title: 'Orta — Kapsamlı Cilt Bakımı Gerekiyor', pct: 40, desc: 'Cilt sağlığı alışkanlıklarınızda önemli boşluklar mevcut. Bu dönemde yapılacak değişiklikler ciddi fark yaratır.', tips: ['Öncelik #1: Her gün SPF sürmeye başlayın', 'Basit bir sabah-akşam rutin oluşturun: Temizlik + nemlendirici', 'Sigarayı ve aşırı alkolü bırakmak cilt için en büyük gençleştiricidir', 'Düzenli uyku cilt yenilenmesi için kritiktir'] },
         { min: 0, max: 9, label: 'Dikkat', title: 'Dikkat — Cilt Yaşlanmasını Hızlandıran Alışkanlıklar', pct: 18, desc: 'Mevcut yaşam tarzı alışkanlıklarınız cilt yaşlanmasını önemli ölçüde hızlandırıyor olabilir. Uzman desteğiyle kişiselleştirilmiş bir plan oluşturun.', tips: ['Dermatoloji uzmanı ile kapsamlı cilt analizi yapın', 'Önce sigara ve alkol kısıtlaması — en büyük etki buradan', 'Güneş kremi hayatınıza girene kadar her şey daha zordur', 'Beslenme değişikliği: günde 5 porsiyon meyve-sebze hedefleyin'] },
@@ -607,6 +611,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="q-result__score-bar"><div class="q-result__score-fill" id="scoreFill" style="width:0%"></div></div>
       <div class="q-result__desc">${r.desc}</div>
       <div class="q-result__tips"><h4>Önerilen Adımlar</h4><ul>${tipsHTML}</ul></div>
+      <p class="q-result__note">Bu sonuç bilgilendirme amaçlıdır ve tanı koymaz. Sonucunuzla ilgili endişeniz varsa bir hekime ya da ruh sağlığı uzmanına başvurun.</p>
       <div class="q-result__actions">
         <button class="q-result__retake" onclick="retakeQuiz()">Tekrar Al</button>
         <a href="/iletisim" class="btn btn-dark">Uzmanla Görüş</a>

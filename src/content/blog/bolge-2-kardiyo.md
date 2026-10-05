@@ -1,6 +1,7 @@
 ---
 title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
 date: 2026-02-20
+updated: 2026-10-05
 description: "Bölge 2 kardiyo neden mitokondriyal biyogenez ve kardiyorespiratuvar fitness açısından longevity biliminin en güçlü egzersiz müdahalesi olarak öne çıkıyor?"
 category: "Hareket"
 image: "/assets/images/generated/articles/bolge-2-kardiyo.webp"

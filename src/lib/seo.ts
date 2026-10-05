@@ -80,18 +80,35 @@ export function buildBreadcrumbs(pathname: string, title: string) {
   return items;
 }
 
+// Doğrulanmış profesyonel profiller (docs/arastirma/2026-10-05-mesleki-ozgecmis.md).
+export const SAME_AS = [
+  'https://www.instagram.com/dr.muhammedikbalbakirci',
+  'https://www.youtube.com/@drmuhammedikbalbakirci',
+  'https://www.linkedin.com/in/muhammed-ikbal-bakirci-221ab3243',
+  'https://x.com/mikbalbakirci',
+  'https://www.medicalpark.com.tr/en/doctors/muhammed-ikbal-bakirci',
+];
+
+export type PageType = 'WebPage' | 'AboutPage' | 'ContactPage' | 'CollectionPage';
+
+// Breadcrumb ve WebPage adında marka soneki tekrar etmesin.
+const stripBrand = (title: string) => title.replace(/\s+[—|-]\s+Dr\. Muhammed İkbal Bakırcı$/, '');
+
 export function buildSiteStructuredData({
   pathname,
   title,
   description,
   image,
+  pageType = 'WebPage',
 }: {
   pathname: string;
   title: string;
   description: string;
   image: string;
+  pageType?: PageType;
 }) {
   const canonicalUrl = getCanonicalUrl(pathname);
+  const pageName = stripBrand(title);
 
   return {
     '@context': 'https://schema.org',
@@ -100,9 +117,22 @@ export function buildSiteStructuredData({
         '@type': 'Person',
         '@id': `${SITE_URL}/#person`,
         name: SITE_NAME,
+        honorificPrefix: 'Dr.',
         url: `${SITE_URL}/hakkinda`,
-        image: getAbsoluteUrl(image),
-        jobTitle: 'Hekim, sağlık yöneticisi ve akademisyen',
+        mainEntityOfPage: `${SITE_URL}/hakkinda`,
+        image: DEFAULT_IMAGE,
+        jobTitle: 'Başhekim',
+        description:
+          "Hekim; 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi. Longevity, sağlıklı yaşlanma ve medikal estetik üzerine kanıta dayalı içerikler üretiyor.",
+        worksFor: {
+          '@type': 'Hospital',
+          name: 'VM Medical Park Bursa Hastanesi',
+          address: { '@type': 'PostalAddress', addressLocality: 'Bursa', addressCountry: 'TR' },
+        },
+        alumniOf: { '@type': 'CollegeOrUniversity', name: 'Atatürk Üniversitesi Tıp Fakültesi' },
+        hasOccupation: { '@type': 'Occupation', name: 'Hekim' },
+        knowsAbout: ['Longevity', 'Sağlıklı yaşlanma', 'Medikal estetik', 'Acil tıp', 'Sağlık yönetimi'],
+        sameAs: SAME_AS,
       },
       {
         '@type': 'WebSite',
@@ -114,20 +144,21 @@ export function buildSiteStructuredData({
         publisher: { '@id': `${SITE_URL}/#person` },
       },
       {
-        '@type': 'WebPage',
+        '@type': pageType,
         '@id': `${canonicalUrl}#webpage`,
         url: canonicalUrl,
-        name: title,
+        name: pageName,
         description,
-        image: getAbsoluteUrl(image),
+        primaryImageOfPage: { '@type': 'ImageObject', url: getAbsoluteUrl(image) },
         isPartOf: { '@id': `${SITE_URL}/#website` },
-        about: { '@id': `${SITE_URL}/#person` },
+        ...(pageType === 'AboutPage' ? { mainEntity: { '@id': `${SITE_URL}/#person` } } : {}),
+        breadcrumb: { '@id': `${canonicalUrl}#breadcrumb` },
         inLanguage: SITE_LOCALE,
       },
       {
         '@type': 'BreadcrumbList',
         '@id': `${canonicalUrl}#breadcrumb`,
-        itemListElement: buildBreadcrumbs(pathname, title),
+        itemListElement: buildBreadcrumbs(pathname, pageName),
       },
     ],
   };

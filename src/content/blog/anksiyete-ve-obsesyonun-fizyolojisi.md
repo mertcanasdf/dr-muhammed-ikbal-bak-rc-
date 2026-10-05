@@ -1,6 +1,7 @@
 ---
 title: "Kronik Anksiyete ve Obsesyon: Zihinsel Dengeyi ve Hücresel Yaşlanmayı Nasıl Etkiler?"
 date: 2026-06-21
+updated: 2026-10-05
 description: "Anksiyete ve obsesyonun HPA aksı, amigdala ve telomerler üzerindeki etkileri; zihinsel dayanıklılık ve stres yönetimi için bilimsel yaklaşım."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/anksiyete-ve-obsesyonun-fizyolojisi.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Botulinum Toksin (Botoks): Mimik Kırışıklıklar, Masseter Uygulaması ve Bilinmesi Gerekenler"
 date: 2026-06-18
+updated: 2026-10-05
 description: "Botoks nasıl etki eder, hangi kırışıklıklarda kullanılır, masseter uygulaması ve diş sıkma hakkında kanıtlar ne söylüyor, olası yan etkiler nelerdir?"
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/botoks.webp"

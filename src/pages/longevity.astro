@@ -1,4 +1,5 @@
 ---
+import CardImage from '../components/CardImage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { sortPostsNewestFirst } from '../lib/posts';
@@ -1364,7 +1365,7 @@ const cellular = [
         {longevityPosts.map(post => (
           <article class="blog-card">
             <a href={`/blog/${slug(post.id)}`}>
-              <img src={post.data.image} alt={post.data.title} class="blog-card__img" />
+              <CardImage src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>
@@ -1398,7 +1399,7 @@ const cellular = [
           </div>
         </div>
         <div class="premium-cta__image-wrap">
-          <img src="/assets/images/generated/quiz_longevity_score.webp" alt="Longevity Testi Görseli" class="premium-cta__img" />
+          <CardImage src="/assets/images/generated/quiz_longevity_score.webp" alt="Longevity Testi Görseli" class="premium-cta__img" />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 ---
 title: "Dermal Dolgu Uygulamaları: Yüz Kontürü, Hacim ve Bilinmesi Gerekenler"
 date: 2026-06-20
+updated: 2026-10-05
 description: "Hyaluronik asit dolgular nasıl çalışır, hangi bölgelerde kullanılır, yüz analizi neden önemlidir ve olası riskler nelerdir?"
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/dermal-dolgu.webp"

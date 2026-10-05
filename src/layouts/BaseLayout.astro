@@ -9,6 +9,7 @@ import {
   getCanonicalUrl,
   getPageDescription,
   buildSiteStructuredData,
+  type PageType,
 } from '../lib/seo';
 
 interface Props {
@@ -16,7 +17,10 @@ interface Props {
   description?: string;
   image?: string;
   type?: 'website' | 'article';
-  structuredData?: Record<string, unknown>;
+  // Sayfaya özel JSON-LD düğümleri; sitenin tek @graph'ına eklenir (@context içermemeli).
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
+  pageType?: PageType;
+  noindex?: boolean;
 }
 
 const {
@@ -25,6 +29,8 @@ const {
   image = DEFAULT_IMAGE,
   type = 'website',
   structuredData,
+  pageType,
+  noindex = false,
 } = Astro.props;
 const description = getPageDescription(Astro.url.pathname, providedDescription);
 const canonicalUrl = getCanonicalUrl(Astro.url.pathname);
@@ -34,19 +40,20 @@ const siteStructuredData = buildSiteStructuredData({
   title,
   description,
   image,
+  pageType,
 });
-const jsonLd = JSON.stringify(
-  structuredData
-    ? [siteStructuredData, structuredData]
-    : siteStructuredData,
-).replace(/</g, '\\u003c');
+const extraNodes = structuredData ? (Array.isArray(structuredData) ? structuredData : [structuredData]) : [];
+const jsonLd = JSON.stringify({
+  ...siteStructuredData,
+  '@graph': [...siteStructuredData['@graph'], ...extraNodes],
+}).replace(/</g, '\\u003c');
 ---
 <!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'} />
   <meta name="description" content={description} />
   <meta name="theme-color" content="#0c0f0d" />
   <title>{title}</title>

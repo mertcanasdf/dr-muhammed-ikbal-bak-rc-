@@ -6,6 +6,8 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.coerce.date(),
+    // İçerik esaslı güncellendiğinde doldurulur; sitemap lastmod ve JSON-LD dateModified buradan gelir.
+    updated: z.coerce.date().optional(),
     description: z.string(),
     category: z.enum(BLOG_CATEGORIES),
     image: z.string(),

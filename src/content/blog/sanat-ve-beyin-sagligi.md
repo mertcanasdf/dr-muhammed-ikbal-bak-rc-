@@ -1,6 +1,7 @@
 ---
 title: "Sanat Üretmek Beyin Sağlığını Nasıl Etkiler?"
 date: 2026-06-21
+updated: 2026-10-05
 description: "Sanat üretiminin beyin sağlığı, nöroplastisite ve stres yönetimi üzerindeki etkilerini inceleyen bilimsel longevity rehberi."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/sanat-ve-beyin-sagligi.webp"

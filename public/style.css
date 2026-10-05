@@ -484,3 +484,5 @@
 /* Kompakt açılır menü (Keşfet): tek sütun, tetikleyicinin altında ve içerik genişliğinde */
 @media (min-width:901px){.main-menu__list li.has-megamenu--compact{position:relative}.megamenu--compact{left:0;right:auto;width:max-content;min-width:240px;padding:18px 16px}.megamenu--compact .megamenu__container{grid-template-columns:1fr;gap:0}.megamenu--compact .megamenu__title{margin-bottom:8px}.has-megamenu:hover .megamenu--compact{display:block;animation:fadeInMenu .18s ease-out forwards}}
 @media (min-width:901px){.megamenu--2col{width:580px}.megamenu--2col .megamenu__container{grid-template-columns:1fr 1fr}}
+/* width/height öznitelikleri yalnızca en-boy oranını ayırsın (CLS); sınıfı yükseklik veren görseller etkilenmez */
+:where(img[height]){height:auto}

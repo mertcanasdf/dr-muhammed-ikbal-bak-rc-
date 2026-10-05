@@ -1,6 +1,7 @@
 ---
 title: "Kitap Okumak Beyni ve Bilişsel Yaşlanmayı Nasıl Etkiler?"
 date: 2026-06-21
+updated: 2026-10-05
 description: "Kitap okuma alışkanlığının beyindeki beyaz madde bütünlüğü, empati ağları ve bilişsel rezerv üzerindeki etkisi."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/kitap-okuma-ve-beyin.webp"

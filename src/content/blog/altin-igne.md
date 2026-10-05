@@ -1,6 +1,7 @@
 ---
 title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi ve Cilt Yenilenmesi"
 date: 2026-06-19
+updated: 2026-10-05
 description: "Mikro iğneleme ve radyofrekans enerjisini birleştiren altın iğne uygulaması nasıl çalışır, hangi durumlarda kullanılır ve olası yan etkileri nelerdir?"
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/altin-igne.webp"

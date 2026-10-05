@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Sayfa bulunamadı — Dr. Muhammed İkbal Bakırcı"
+  description="Aradığınız sayfa bulunamadı. Güncel makalelere ve rehberlere ana sayfadan ulaşabilirsiniz."
+  noindex
+>
+  <section class="nf">
+    <div class="container nf__inner">
+      <p class="nf__code">404</p>
+      <h1 class="nf__title">Aradığınız sayfa bulunamadı</h1>
+      <p class="nf__text">Sayfa taşınmış ya da kaldırılmış olabilir. Aşağıdaki bağlantılardan devam edebilirsiniz.</p>
+      <div class="nf__links">
+        <a class="btn btn-dark" href="/">Ana sayfa</a>
+        <a class="btn btn-light" href="/blog">Tüm makaleler</a>
+        <a class="btn btn-light" href="/longevity">Longevity</a>
+        <a class="btn btn-light" href="/iletisim">İletişim</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .nf { padding: 96px 0; text-align: center; }
+  .nf__inner { max-width: 640px; }
+  .nf__code { font-size: 64px; font-weight: 900; color: var(--green); line-height: 1; }
+  .nf__title { font-size: 32px; margin: 16px 0 12px; }
+  .nf__text { color: var(--gray-700); margin-bottom: 28px; }
+  .nf__links { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+  .nf__links .btn-light { border-color: var(--border); }
+</style>

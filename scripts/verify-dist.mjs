@@ -18,6 +18,9 @@ const isFile = (rel) => {
   return fs.existsSync(full) && fs.statSync(full).isFile();
 };
 
+// Astro build.format 'file' → hakkinda.html; eski düzen hakkinda/index.html. İkisini de kabul et.
+const pageFile = (route) => [`${route}.html`, `${route}/index.html`].find(isFile) ?? `${route}.html`;
+
 const REMOVED = ['basari-hikayeleri', 'podcast', 'kurslar', 'soylesiler'];
 const MENU = ['Ana Sayfa', 'Dr. Bakırcı', 'Longevity', 'Skin Longevity', 'Keşfet', 'Medya', 'İletişim'];
 const DISCLAIMER = 'Bu sitedeki içerikler genel bilgilendirme amaçlıdır; tanı ve tedavi yerine geçmez. Sağlığınızla ilgili kararlar için hekiminize danışın.';
@@ -47,16 +50,16 @@ check('tam isim standardı (soyadsız "Dr. Muhammed İkbal" yok)', () =>
   htmlFiles.filter((f) => /Dr\. Muhammed İkbal(?! Bakırcı)/.test(read(f))));
 
 check('quiz sayfası tanı koymadığını belirtiyor', () =>
-  read('quizler/index.html').includes('tanı koymaz') ? [] : ['quizler/index.html']);
+  read(pageFile('quizler')).includes('tanı koymaz') ? [] : [pageFile('quizler')]);
 
 check('longevity göstergeleri kişiye göre bağlamlandırılmış', () =>
-  read('longevity/index.html').includes('Kişisel hedefler') ? [] : ['longevity/index.html']);
+  read(pageFile('longevity')).includes('Kişisel hedefler') ? [] : [pageFile('longevity')]);
 
 // Revizyon planı madde 8: içerik kütüphanesi 6 ana kategori.
 const CATEGORIES = ['Longevity Bilimi', 'Beslenme', 'Hareket', 'Uyku', 'Zihin & Sosyal Yaşam', 'Skin Longevity'];
 const decode = (s) => s.replaceAll('&amp;', '&').replaceAll('&#38;', '&');
 check('blog: 6 kategori filtresi ve her kategoride yazı var', () => {
-  const html = read('blog/index.html');
+  const html = read(pageFile('blog'));
   const filters = [...html.matchAll(/data-filter="([^"]+)"/g)].map((m) => decode(m[1])).filter((f) => f !== 'all');
   const used = new Set([...html.matchAll(/data-cat="([^"]+)"/g)].map((m) => decode(m[1])));
   const problems = [];
@@ -66,12 +69,12 @@ check('blog: 6 kategori filtresi ve her kategoride yazı var', () => {
   return problems;
 });
 check('dünyada sağlık: filtreler 6 kategoriyle aynı', () => {
-  const html = read('dunyada-saglik/index.html');
+  const html = read(pageFile('dunyada-saglik'));
   const filters = [...html.matchAll(/data-filter="([^"]+)"/g)].map((m) => decode(m[1])).filter((f) => f !== 'Tümü');
   return JSON.stringify(filters) === JSON.stringify(CATEGORIES) ? [] : [`filtreler: ${filters.join(' · ')}`];
 });
 
-check('kaldırılan sayfalar build edilmedi', () => REMOVED.filter((d) => fs.existsSync(path.join(DIST, d))));
+check('kaldırılan sayfalar build edilmedi', () => REMOVED.filter((d) => fs.existsSync(path.join(DIST, d)) || isFile(`${d}.html`)));
 
 check('sitemap kaldırılan adresleri içermiyor', () => {
   const xml = read('sitemap.xml');
@@ -134,12 +137,12 @@ check('footer bilgilendirme metni', () =>
   htmlFiles.filter((f) => !read(f).includes(DISCLAIMER)));
 
 check('iletişim: 4 kanal çapası', () => {
-  const html = read('iletisim/index.html');
+  const html = read(pageFile('iletisim'));
   return ['randevu', 'is-birligi', 'akademik', 'medya'].filter((id) => !html.includes(`id="${id}"`));
 });
 
 check('iletişim: KVKK onay kutusu', () =>
-  read('iletisim/index.html').includes('name="consent"') ? [] : ['iletisim/index.html']);
+  read(pageFile('iletisim')).includes('name="consent"') ? [] : [pageFile('iletisim')]);
 
 let failed = 0;
 for (const { name, fn } of checks) {

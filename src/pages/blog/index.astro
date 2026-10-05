@@ -1,4 +1,5 @@
 ---
+import CardImage from '../../components/CardImage.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { sortPostsNewestFirst } from '../../lib/posts';
@@ -12,7 +13,7 @@ function formatDate(date: Date): string {
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---
-<BaseLayout title="Blog — Dr. Muhammed İkbal Bakırcı">
+<BaseLayout title="Blog — Dr. Muhammed İkbal Bakırcı" pageType="CollectionPage">
   <section class="blog-hero">
     <div class="container">
       <h1 class="blog-hero__title">İçerik Kütüphanesi</h1>
@@ -30,7 +31,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         {posts.map(post => (
           <article class="blog-card" data-cat={post.data.category}>
             <a href={`/blog/${slug(post.id)}`} class="blog-card__img-link">
-              <img src={post.data.image} alt={post.data.title} class="blog-card__img" />
+              <CardImage src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>

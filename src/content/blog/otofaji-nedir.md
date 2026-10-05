@@ -1,6 +1,7 @@
 ---
 title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
 date: 2026-05-15
+updated: 2026-10-05
 description: "Hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü otofaji mekanizması nedir ve onu desteklediği düşünülen yaklaşımlar nelerdir?"
 category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/otofaji-nedir.webp"

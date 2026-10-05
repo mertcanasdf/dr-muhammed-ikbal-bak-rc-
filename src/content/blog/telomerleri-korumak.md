@@ -1,6 +1,7 @@
 ---
 title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
 date: 2026-04-24
+updated: 2026-10-05
 description: "Kromozom uçlarındaki telomerlerin kısalma hızı yaşam tarzı faktörleriyle ilişkilidir; araştırmalarda telomer sağlığıyla ilişkilendirilen 7 alışkanlık."
 category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/telomerleri-korumak.webp"

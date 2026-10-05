@@ -1,6 +1,7 @@
 ---
 title: "Doğada Geçirilen Zaman ve Zihinsel Toparlanma"
 date: 2026-06-21
+updated: 2026-10-05
 description: "Doğa ile temasın (Shinrin-yoku) prefrontal korteks aktivitesi ve stres düzeyleri üzerindeki yatıştırıcı etkileri."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/doga-ve-zihin-sagligi.webp"

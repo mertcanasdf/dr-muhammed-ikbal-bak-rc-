@@ -1,0 +1,30 @@
+---
+// Kart görseli: 600px kopyası varsa srcset ile sunar, boyutları sabitler (CLS),
+// ilk görünen kart dışında geç yükler.
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+  priority?: boolean;
+  sizes?: string;
+}
+
+const { src, alt, class: className, priority = false, sizes = '(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 380px' } = Astro.props;
+const small = src.replace(/\.webp$/, '-600.webp');
+const hasSmall = small !== src && fs.existsSync(path.join(process.cwd(), 'public', small));
+---
+<img
+  src={src}
+  srcset={hasSmall ? `${small} 600w, ${src} 1200w` : undefined}
+  sizes={hasSmall ? sizes : undefined}
+  alt={alt}
+  class={className}
+  width="1200"
+  height="800"
+  loading={priority ? 'eager' : 'lazy'}
+  fetchpriority={priority ? 'high' : undefined}
+  decoding="async"
+/>

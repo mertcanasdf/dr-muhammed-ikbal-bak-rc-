@@ -1,4 +1,5 @@
 ---
+import CardImage from '../../components/CardImage.astro';
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getAbsoluteUrl, getCanonicalUrl, SITE_URL } from '../../lib/seo';
@@ -13,22 +14,30 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
-const { title, date, description, category, image, readTime, takeaways, relatedArticles } = post.data;
+const { title, date, updated, description, category, image, readTime, takeaways, relatedArticles } = post.data;
 const articlePath = `/blog/${post.id.replace(/\.mdx?$/, '')}`;
 const articleUrl = getCanonicalUrl(articlePath);
+const isoDate = (d: Date) => d.toISOString().slice(0, 10);
+const modified = updated ?? date;
+// "## Kaynaklar" listesindeki bağlantılar Article.citation olarak işaretlenir.
+const sourceSection = (post.body ?? '').split(/^## Kaynaklar\s*$/m)[1] ?? '';
+const citations = [...sourceSection.matchAll(/^- \[(.+?)\]\((https?:\/\/[^)\s]+)\)/gm)]
+  .map(([, name, url]) => ({ '@type': 'CreativeWork', name, url }));
 const articleStructuredData = {
   '@type': 'Article',
   '@id': `${articleUrl}#article`,
   headline: title,
   description,
-  image: getAbsoluteUrl(image),
-  datePublished: date.toISOString(),
-  dateModified: date.toISOString(),
-  author: { '@id': `${SITE_URL}/#person` },
+  image: [getAbsoluteUrl(image)],
+  datePublished: isoDate(date),
+  dateModified: isoDate(modified),
+  author: { '@type': 'Person', '@id': `${SITE_URL}/#person`, name: 'Dr. Muhammed İkbal Bakırcı', url: `${SITE_URL}/hakkinda` },
   publisher: { '@id': `${SITE_URL}/#person` },
-  mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+  isPartOf: { '@id': `${articleUrl}#webpage` },
+  mainEntityOfPage: { '@id': `${articleUrl}#webpage` },
   articleSection: category,
   inLanguage: 'tr-TR',
+  ...(citations.length ? { citation: citations } : {}),
 };
 
 function formatDate(d: Date): string {
@@ -53,8 +62,9 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
         <span class="article-hero__cat">{category}</span>
         <h1 class="article-hero__title">{title}</h1>
         <div class="article-hero__meta">
-          <span>Dr. Muhammed İkbal Bakırcı</span>
+          <a href="/hakkinda" rel="author">Dr. Muhammed İkbal Bakırcı</a>
           <span>{formatDate(date)}</span>
+          {updated && <span>Güncellendi: {formatDate(updated)}</span>}
           <span>{readTime} okuma</span>
         </div>
 
@@ -66,7 +76,7 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
     <div class="article-layout">
 
       <article class="article-body">
-        <img src={image} alt={title} class="article-body__featured-img" loading="eager" />
+        <img src={image} alt={title} class="article-body__featured-img" width="1200" height="800" loading="eager" fetchpriority="high" decoding="async" />
 
         <Content />
 
@@ -217,12 +227,12 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
             class="author-bio__avatar"
           />
           <div>
-            <p class="author-bio__name">Dr. Muhammed İkbal Bakırcı</p>
+            <p class="author-bio__name"><a href="/hakkinda" rel="author">Dr. Muhammed İkbal Bakırcı</a></p>
             <p class="author-bio__desc">
-              2008 yılından bu yana acil tıp ve klinik süreçlerde hekimlik yapan Dr. Muhammed İkbal Bakırcı,
-              2022'den beri Bursa VM Medical Park Hastanesi Başhekimi olarak görev yapmakta olup Birleşmiş Milletler UNF Türkiye Temsilciliği yapmıştır.
-              Kişiye özel medikal estetik ve skin longevity (cilt ömrü) alanlarında, hücre düzeyinde yaşlanma karşıtı
-              ve metabolik dönüşüm protokolleri uygulamaktadır.
+              2008'de Atatürk Üniversitesi Tıp Fakültesi'nden mezun oldu; acil hekimliği ve hava ambulansı hekimliği deneyiminin
+              ardından 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi olarak görev yapıyor. Medikal estetik ve
+              sağlıklı yaşlanma alanlarında kanıta dayalı içerikler hazırlıyor; yazılarda kullanılan kaynaklar her makalenin
+              sonunda listelenir. <a href="/hakkinda">Özgeçmişin tamamı &rarr;</a>
             </p>
           </div>
         </div>
@@ -243,7 +253,7 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
             <p class="sidebar-card__title">İlgili Makaleler</p>
             {relatedArticles.map(r => (
               <a href={`/blog/${r.slug}`} class="sidebar-related-card">
-                <img src={r.image} alt="İlgili yazı görseli" class="sidebar-related-card__img" />
+                <CardImage src={r.image} alt="İlgili yazı görseli" class="sidebar-related-card__img" />
                 <div>
                   <p class="sidebar-related-card__cat">{r.category}</p>
                   <span class="sidebar-related-card__title">{r.title}</span>

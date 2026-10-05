@@ -1,6 +1,7 @@
 ---
 title: "Altın İğne ve Eksozom Kombinasyonu: Mantığı, Kanıtlar ve Sınırlar"
 date: 2026-06-22
+updated: 2026-10-05
 description: "Altın iğne ve eksozom uygulamalarının cilt sıkılaştırma, kolajen sentezi ve leke görünümü üzerindeki rolü hakkında bilgilendirici rehber."
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/cilt-genclesmesi-kombinasyon-tedavileri.webp"

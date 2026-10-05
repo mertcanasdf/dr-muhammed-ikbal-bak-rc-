@@ -1,6 +1,7 @@
 ---
 title: "PRP ve Eksozom Uygulamaları: Medikal Estetikte Rejeneratif Yaklaşımlar ve Kanıtlar"
 date: 2026-06-16
+updated: 2026-10-05
 description: "PRP ve eksozom uygulamaları nasıl çalışır, cilt ve saç için kanıtlar ne kadar güçlü, güvenlik açısından nelere dikkat edilmeli?"
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/prp-eksozom.webp"

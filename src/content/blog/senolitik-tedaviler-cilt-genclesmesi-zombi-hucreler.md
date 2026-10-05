@@ -1,6 +1,7 @@
 ---
 title: "Senolitik Tedaviler ve Cilt: \"Zombi\" Hücreler Hakkında Ne Biliniyor?"
 date: 2026-05-28
+updated: 2026-10-05
 description: "Senesans (zombi) hücreler nedir, topikal senolitiklerle ilgili fare çalışmaları ne gösterdi ve doğal senolitik bileşikler hakkında ne biliniyor?"
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"

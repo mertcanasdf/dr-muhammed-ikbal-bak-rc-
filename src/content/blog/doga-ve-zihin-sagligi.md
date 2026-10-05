@@ -12,7 +12,7 @@ takeaways:
 relatedArticles:
   - slug: "d3-vitamini-eksikligi"
     category: "Beslenme"
-    title: "D3 Vitamini Eksikliği ve Erken Yaşlanma Arasındaki Bağ"
+    title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
     image: "/assets/images/generated/topics/d3-vitamini.webp"
 ---
 

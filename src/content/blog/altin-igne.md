@@ -1,5 +1,6 @@
 ---
 title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi ve Cilt Yenilenmesi"
+seoTitle: "Altın İğne (Fraksiyonel RF) Nedir? Etkisi ve Yan Etkileri"
 date: 2026-06-19
 updated: 2026-10-05
 description: "Mikro iğneleme ve radyofrekans enerjisini birleştiren altın iğne uygulaması nasıl çalışır, hangi durumlarda kullanılır ve olası yan etkileri nelerdir?"

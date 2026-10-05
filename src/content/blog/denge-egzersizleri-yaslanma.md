@@ -1,5 +1,6 @@
 ---
 title: "Denge Egzersizleri ve Yaşlanma: Düşme Riskini Azaltmaya Yardımcı Yaklaşım"
+seoTitle: "Denge Egzersizleri: Yaşlanırken Düşme Riskini Azaltmak"
 date: 2026-09-15
 description: "Denge neden yaşla değişebilir, evde hangi temel egzersizler yapılabilir ve düşme riski olan kişilerde güvenlik nasıl sağlanır?"
 category: "Hareket"

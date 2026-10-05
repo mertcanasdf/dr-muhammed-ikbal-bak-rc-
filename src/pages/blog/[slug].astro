@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
-const { title, date, updated, description, category, image, readTime, takeaways, relatedArticles } = post.data;
+const { title, seoTitle, date, updated, description, category, image, readTime, takeaways, relatedArticles } = post.data;
 const articlePath = `/blog/${post.id.replace(/\.mdx?$/, '')}`;
 const articleUrl = getCanonicalUrl(articlePath);
 const isoDate = (d: Date) => d.toISOString().slice(0, 10);
@@ -50,7 +50,7 @@ const encodedShareText = encodeURIComponent(`${title}\n${articleUrl}`);
 const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle paylaşmak istedim:\n${articleUrl}`);
 ---
 <BaseLayout
-  title={`${title} — Dr. Muhammed İkbal Bakırcı`}
+  title={`${seoTitle ?? title} — Dr. Muhammed İkbal Bakırcı`}
   description={description}
   image={image}
   type="article"
@@ -222,7 +222,7 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
 
         <div class="author-bio">
           <img
-            src="/assets/images/generated/doctor-portrait.webp"
+            src="/assets/images/generated/doctor-avatar-128.webp" width="64" height="64" loading="lazy" decoding="async"
             alt="Dr. Muhammed İkbal Bakırcı"
             class="author-bio__avatar"
           />
@@ -253,7 +253,7 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
             <p class="sidebar-card__title">İlgili Makaleler</p>
             {relatedArticles.map(r => (
               <a href={`/blog/${r.slug}`} class="sidebar-related-card">
-                <CardImage src={r.image} alt="İlgili yazı görseli" class="sidebar-related-card__img" />
+                <CardImage src={r.image} alt={r.title} class="sidebar-related-card__img" sizes="84px" />
                 <div>
                   <p class="sidebar-related-card__cat">{r.category}</p>
                   <span class="sidebar-related-card__title">{r.title}</span>

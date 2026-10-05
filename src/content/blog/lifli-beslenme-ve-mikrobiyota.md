@@ -1,5 +1,6 @@
 ---
 title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
+seoTitle: "Lifli Beslenme ve Bağırsak Mikrobiyotası"
 date: 2026-09-15
 description: "Lif türleri bağırsak mikrobiyotasını nasıl etkiler, lif tüketimi nasıl kademeli artırılır ve şişkinlik yaşayanlar nelere dikkat etmelidir?"
 category: "Beslenme"

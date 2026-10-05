@@ -1,5 +1,6 @@
 ---
 title: "Hareketsizlik ve Metabolik Sağlık: Gün İçindeki Oturma Süresini Azaltmak"
+seoTitle: "Hareketsizlik ve Metabolik Sağlık: Oturmayı Azaltmak"
 date: 2026-09-15
 description: "Uzun süre oturmak metabolik sağlığı nasıl etkileyebilir, çalışma gününde hareket nasıl artırılır ve küçük molalar neden değerlidir?"
 category: "Hareket"

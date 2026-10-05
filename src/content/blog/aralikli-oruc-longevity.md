@@ -1,5 +1,6 @@
 ---
 title: "Aralıklı Orucun Longevity Üzerindeki Etkisi"
+seoTitle: "Aralıklı Oruç Nedir? Protokoller ve Longevity'ye Etkisi"
 date: 2026-05-08
 updated: 2026-10-05
 description: "Aralıklı oruç neden sadece kilo verme değil, hücresel sağlık ve uzun yaşam için güçlü bir protokoldür."

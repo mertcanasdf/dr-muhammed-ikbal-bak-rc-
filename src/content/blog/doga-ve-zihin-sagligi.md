@@ -19,13 +19,13 @@ relatedArticles:
 
 Modern şehir hayatı ve sürekli ekran başında olmak, beynimizi sürekli bir "aşırı uyarılma" durumunda tutar. Japon kültüründe *Shinrin-yoku* (orman banyosu) olarak bilinen doğa ile temas, zihinsel yenilenme üzerindeki olumlu etkileri araştırmalarda gösterilen bir uygulamadır.
 
-### 1. Dikkat Yenileme Teorisi
+## 1. Dikkat Yenileme Teorisi
 Sürekli bildirimlere ve yapay ışıklara odaklanmak, beynin istemli dikkat mekanizmasını yorar. **Dikkat Yenileme Teorisi**'ne göre doğadaki desenler, esintiler ve sesler, çaba gerektirmeyen "yumuşak" bir dikkat çeker ve yorulan istemli dikkatin dinlenmesine fırsat tanır. Bu konudaki çalışmaları inceleyen sistematik bir derleme, doğal ortamlara maruz kalmanın bazı dikkat testlerinde iyileşmeyle ilişkili olduğunu bildirmiştir (Ohly ve ark., 2016). Stanford'da yapılan bir çalışmada ise doğal bir alanda 90 dakika yürüyenlerde, şehir trafiğinde yürüyenlere göre olumsuz düşüncelere takılma (ruminasyon) azalmış ve bununla ilişkili bir beyin bölgesinde (subgenual prefrontal korteks) etkinlik düşmüştür (Bratman ve ark., 2015).
 
-### 2. Fitonsidler ve Bağışıklık Sistemi
+## 2. Fitonsidler ve Bağışıklık Sistemi
 Ağaçların ve bitkilerin salgıladığı uçucu organik bileşiklere **fitonsid** denir. Japonya'da yapılan çalışmalarda, orman gezilerinden sonra ve ağaç yağı buharlaştırılmış otel odalarında geceleyen katılımcılarda, enfekte ve tümör hücrelerine karşı görev yapan doğal katil (NK) hücrelerin aktivitesinde artış ölçülmüştür (Li ve ark., 2009). Ancak bu çalışmalar az sayıda katılımcıyla yapılmıştır ve bu değişimin hastalık riskine nasıl yansıdığı bilinmemektedir.
 
-### 3. Zihinsel Gevşeme
+## 3. Zihinsel Gevşeme
 Şehirde yaşayan yetişkinlerin birkaç hafta boyunca kendi seçtikleri doğal alanlarda vakit geçirdiği bir çalışmada, tükürük kortizolündeki düşüş en verimli şekilde 20–30 dakikalık sürelerde elde edildi; etkinliğin türü (oturmak ya da yürümek) sonucu değiştirmedi (Hunter ve ark., 2019). 140'tan fazla çalışmayı birleştiren bir meta-analiz de yeşil alana maruziyetin daha düşük tükürük kortizolü, daha düşük kalp hızı ve tansiyon gibi pek çok sağlık göstergesiyle ilişkili olduğunu bildirdi (Twohig-Bennett ve Jones, 2018). Pratik öneri: Haftada birkaç kez, ekran olmadan bir parkta ya da yeşil alanda 20–30 dakika geçirmek.
 
 ## Kaynaklar

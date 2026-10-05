@@ -1,5 +1,6 @@
 ---
 title: "PRP ve Eksozom Uygulamaları: Medikal Estetikte Rejeneratif Yaklaşımlar ve Kanıtlar"
+seoTitle: "PRP mi Eksozom mu? Medikal Estetikte Kanıtlar ve Güvenlik"
 date: 2026-06-16
 updated: 2026-10-05
 description: "PRP ve eksozom uygulamaları nasıl çalışır, cilt ve saç için kanıtlar ne kadar güçlü, güvenlik açısından nelere dikkat edilmeli?"

@@ -19,13 +19,13 @@ relatedArticles:
 
 Uzun ve sağlıklı yaşamı inceleyen araştırmalar, beslenme ve hareketin yanında psikolojik ve sosyal faktörlere de dikkat çekiyor. Bunlardan biri, Japonların *ikigai* ("yaşamaya değer kılan şey") olarak adlandırdığı yaşam amacı duygusudur. Japonya'da 43.000'den fazla yetişkinin izlendiği Ohsaki çalışmasında, ikigai duygusu olmadığını belirtenlerde 7 yıllık izlemde ölüm riski daha yüksek bulunmuştur (Sone ve ark., 2008).
 
-### 1. Kardiyovasküler Koruma
+## 1. Kardiyovasküler Koruma
 136.000'den fazla katılımcıyı içeren çalışmaların meta-analizinde, yaşam amacı duygusu yüksek olanlarda tüm nedenlere bağlı ölüm riski ve kalp-damar olayları (kalp krizi, inme) riski yaklaşık %17 daha düşük bulundu (Cohen ve ark., 2016). ABD'de 50 yaş üstü yaklaşık 7.000 kişinin izlendiği bir çalışmada da en güçlü yaşam amacına sahip olanlarda ölüm riski belirgin şekilde düşüktü (Alimujiang ve ark., 2019). Bu çalışmalar gözlemseldir: Yaşam amacının doğrudan neden olduğunu kanıtlamazlar; daha sağlıklı kişilerin daha güçlü bir amaç duygusu taşıması da mümkündür.
 
-### 2. İnflamasyonun Azaltılması
+## 2. İnflamasyonun Azaltılması
 Yaşlı kadınlarla yapılan bir çalışmada, yaşam amacı ve kişisel gelişim gibi iyi oluş boyutlarında yüksek puan alanlarda iltihapla ilişkili bir sitokin olan İnterlökin-6 (IL-6) düzeyleri daha düşük bulunmuştur (Friedman ve ark., 2007). Bu, yaşam amacı ile beden arasındaki olası biyolojik bağlantılardan biri olarak araştırılmaktadır; ancak tek ve küçük bir çalışmadır.
 
-### 3. Stres Direnci ve Hücre Sağlığı
+## 3. Stres Direnci ve Hücre Sağlığı
 Hayata dair bir sorumluluk ve hedef bilinci taşımak, günlük stres etkenlerini "tehdit" yerine "mücadele edilebilir durumlar" olarak algılamamızı sağlar. Amaç duygusu güçlü olan kişilerin düzenli egzersiz, sağlık taramalarına katılım gibi sağlıklı davranışları daha çok benimsediği de bildirilmektedir. Yaşam amacı sabit bir özellik değildir; gönüllülük, öğrenme, aile ve toplulukla bağ kurma gibi anlam veren etkinliklerle her yaşta geliştirilebilir.
 
 ## Kaynaklar

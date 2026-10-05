@@ -1,5 +1,6 @@
 ---
 title: "D3 Vitamini Eksikliği: Belirtiler, Kan Düzeyleri ve Yaşlanmayla İlişkisi"
+seoTitle: "D3 Vitamini Eksikliği: Belirtiler ve Kan Düzeyleri"
 date: 2026-03-15
 updated: 2026-10-05
 description: "D vitamini eksikliği neden yaygın, hangi belirtilere yol açabilir, kan düzeyleri nasıl yorumlanır ve takviyeler hakkında kanıtlar ne söylüyor?"

@@ -1,7 +1,9 @@
 export const SITE_URL = 'https://www.muhammedikbalbakirci.com';
 export const SITE_NAME = 'Dr. Muhammed İkbal Bakırcı';
 export const SITE_LOCALE = 'tr-TR';
-export const DEFAULT_IMAGE = `${SITE_URL}/assets/images/dr-muhammed-ikbal-bakirci.jpg`;
+// Varsayılan paylaşım görseli 1200x630; kişi şemasındaki görsel her zaman portredir.
+export const DEFAULT_IMAGE = `${SITE_URL}/assets/images/og/dr-muhammed-ikbal-bakirci-og.jpg`;
+export const PERSON_IMAGE = `${SITE_URL}/assets/images/dr-muhammed-ikbal-bakirci.jpg`;
 export const DEFAULT_DESCRIPTION =
   'Dr. Muhammed İkbal Bakırcı ile longevity, sağlık eğitimi ve medikal estetik hakkında kanıta dayalı bilgiler.';
 
@@ -122,7 +124,7 @@ export function buildSiteStructuredData({
         honorificPrefix: 'Dr.',
         url: `${SITE_URL}/hakkinda`,
         mainEntityOfPage: `${SITE_URL}/hakkinda`,
-        image: DEFAULT_IMAGE,
+        image: PERSON_IMAGE,
         jobTitle: 'Başhekim',
         description:
           "Hekim; 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi. Longevity, sağlıklı yaşlanma ve medikal estetik üzerine kanıta dayalı içerikler üretiyor.",

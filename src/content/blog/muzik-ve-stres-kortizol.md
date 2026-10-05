@@ -19,13 +19,13 @@ relatedArticles:
 
 Müzik, insanlık tarihi boyunca bir terapi aracı olarak kullanılmıştır. Günümüzde yapılan çalışmalar, müziğin sinir sistemi ve stres yanıtı üzerinde ölçülebilir etkileri olabileceğini gösteriyor. Ucuz, kolay erişilebilir ve yan etkisi olmayan bir araç olarak stres yönetiminde değerlendirilmeye değer.
 
-### 1. Parasempatik Sinir Sisteminin Aktivasyonu
+## 1. Parasempatik Sinir Sisteminin Aktivasyonu
 Müzik dinlerken, özellikle yavaş tempolu enstrümantal melodiler, otonom sinir sistemimizin **parasempatik (dinlen-onar)** kolunu destekleyebilir. Randomize kontrollü çalışmaları birleştiren bir meta-analiz, müzik uygulamalarının kalp hızı, kan basıncı ve hormon düzeyleri gibi fizyolojik stres ölçümlerinde ve stres hissinde küçük-orta düzeyde azalma sağladığını bildirdi (de Witte ve ark., 2020).
 
-### 2. Kortizol Hormonunun Baskılanması
+## 2. Kortizol Hormonunun Baskılanması
 Ameliyat öncesi müzik dinletilen hastalarla yapılan çalışmaları inceleyen bir Cochrane derlemesi, müziğin ameliyat öncesi kaygıyı azaltabildiğini gösterdi (Bradt ve ark., 2013). **Kortizol** üzerindeki etki ise daha karmaşıktır: Laboratuvar ortamında yapılan bir çalışmada, stres öncesinde rahatlatıcı müzik dinleyen grupta kortizol yanıtı azalmadı, hatta en yüksek bu grupta ölçüldü; buna karşın otonom sinir sistemi stres sonrası daha hızlı toparlandı (Thoma ve ark., 2013). Yani müziğin etkisi tek bir hormona indirgenemeyecek kadar karmaşıktır.
 
-### 3. Hangi Müzik?
+## 3. Hangi Müzik?
 Çalışmalarda daha yavaş tempolu, düzenli ritimli ve sözsüz müzikler sıklıkla kullanılmıştır; ancak kişinin keyif aldığı müzik de önemlidir. "Belirli bir tempodaki müziğin beyin dalgalarını ya da kalp ritmini doğrudan ayarladığı" iddiaları için kanıtlar sınırlıdır. Pratik bir öneri: Gün içinde 10–20 dakikayı, ekran olmadan sevdiğiniz sakin bir müziği dinlemeye ayırmak.
 
 ## Kaynaklar

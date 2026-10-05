@@ -1,5 +1,6 @@
 ---
 title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
+seoTitle: "Tükenmişlik Sendromu Nedir? Nedenleri ve Çıkış Yolları"
 date: 2026-06-21
 updated: 2026-10-05
 description: "Tükenmişlik (burnout) nedir, stres biyolojisiyle ilişkisi hakkında neler biliniyor, 'adrenal yorgunluk' neden geçerli bir tanı değildir ve çıkış yolları nelerdir?"
@@ -19,13 +20,13 @@ relatedArticles:
 
 Tükenmişlik sendromu sıklıkla sadece bir motivasyon kaybı olarak görülür. Dünya Sağlık Örgütü ise tükenmişliği (burnout), başarıyla yönetilemeyen kronik iş stresinden kaynaklanan mesleki bir olgu olarak tanımlar. Üç temel boyutu vardır: enerji tükenmesi ve bitkinlik, işe karşı zihinsel uzaklaşma ya da olumsuz tutum, mesleki yeterlilik hissinde azalma.
 
-### 1. Stres Sistemi ve "Adrenal Yorgunluk" Yanılgısı
+## 1. Stres Sistemi ve "Adrenal Yorgunluk" Yanılgısı
 Kronik stres, Hipotalamus-Hipofiz-Adrenal (HPA) aksını ve otonom sinir sistemini etkiler. Ancak popüler kaynaklarda sık geçen "adrenal yorgunluk", yani böbrek üstü bezlerinin stresten "tükenip" yeterli hormon üretemediği fikri bilimsel olarak desteklenmemektedir. Bu konudaki çalışmaları inceleyen sistematik bir derleme, adrenal yorgunluğun varlığına dair kanıt bulunmadığı sonucuna varmıştır (Cadegiani ve Kater, 2016). Gerçek bir böbrek üstü bezi yetmezliği (Addison hastalığı gibi) ise ayrı ve tedavi gerektiren bir hastalıktır.
 
-### 2. Kortizol Ritmi Hakkında Ne Biliniyor?
+## 2. Kortizol Ritmi Hakkında Ne Biliniyor?
 Sağlıklı bir vücutta kortizol sabah en yüksek, gece en düşük düzeydedir. Tükenmişlikte bu ritmin değişebileceği düşünülmüş; ancak biyobelirteçleri inceleyen sistematik derlemeler, tükenmişlikte kortizol bulgularının çalışmalar arasında tutarsız olduğunu ve tanı koydurucu bir biyolojik belirteç bulunmadığını göstermektedir (Danhof-Pont ve ark., 2011). Bitkinlik; uyku bozukluğu, depresyon, tiroid hastalıkları ve kansızlık gibi başka nedenlerle de ortaya çıkabileceğinden, uzun süren yorgunlukta hekim değerlendirmesi önemlidir.
 
-### 3. Çıkış Yolları
+## 3. Çıkış Yolları
 Tükenmişlik iş koşullarıyla yakından ilişkili olduğu için çıkışın merkezinde de bu koşullar yer alır:
 * **Kaynağı Ele Almak**: İş yükü, kontrol hissi, destek ve iş-dinlenme dengesi gözden geçirilmelidir. Mümkünse yöneticiyle ya da iş sağlığı birimiyle görüşmek, izin ve görev düzenlemesi ilk adımlardır.
 * **Uyku ve Toparlanma**: Düzenli uyku ve gerçek dinlenme araları, stres sisteminin toparlanmasında temel unsurlardır.

@@ -1,5 +1,6 @@
 ---
 title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
+seoTitle: "Uyku Kalitesi Nasıl Artırılır? Uyku Hijyeni Rehberi"
 date: 2026-09-15
 description: "Uykuya dalmayı ve uykuyu sürdürmeyi destekleyen alışkanlıklar, yatak odası düzeni ve profesyonel yardım gerektiren belirtiler."
 category: "Uyku"

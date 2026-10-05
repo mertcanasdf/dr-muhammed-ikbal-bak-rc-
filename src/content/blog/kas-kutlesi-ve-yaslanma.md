@@ -1,5 +1,6 @@
 ---
 title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
+seoTitle: "Kas Kütlesi ve Yaşlanma: Gücü Korumanın Yolları"
 date: 2026-09-15
 description: "Yaşla birlikte kas kütlesi ve kuvvet neden azalır, bunu izlemek için hangi göstergeler kullanılır ve günlük hayatta neler yapılabilir?"
 category: "Hareket"

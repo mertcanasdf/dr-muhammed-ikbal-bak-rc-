@@ -13,10 +13,10 @@ function formatDate(date: Date): string {
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 ---
-<BaseLayout title="Blog — Dr. Muhammed İkbal Bakırcı" pageType="CollectionPage">
+<BaseLayout title="Sağlık ve Longevity Makaleleri — Dr. Muhammed İkbal Bakırcı" pageType="CollectionPage">
   <section class="blog-hero">
     <div class="container">
-      <h1 class="blog-hero__title">İçerik Kütüphanesi</h1>
+      <h1 class="blog-hero__title">Sağlık ve Longevity Makaleleri</h1>
       <p class="blog-hero__sub">Longevity bilimi, beslenme, hareket, uyku, zihin ve skin longevity üzerine bilimsel temelli, Türkçe içerikler.</p>
       <div class="blog-filters" id="blogFilters">
         <button class="filter-btn active" data-filter="all">Tümü</button>
@@ -27,6 +27,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
   <section class="section" style="padding-top: 0;">
     <div class="container">
+      <p class="blog-search-status" id="blogSearchStatus" role="status" hidden></p>
       <div class="blog-grid" id="blogGrid">
         {posts.map(post => (
           <article class="blog-card" data-cat={post.data.category}>
@@ -55,8 +56,31 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
     var btns  = document.querySelectorAll('.filter-btn');
     var cards = document.querySelectorAll('#blogGrid .blog-card');
 
+    // Başlıktaki arama kutusu /blog?q=... ile gelir: başlık ve özette geçen yazılar gösterilir.
+    var status = document.getElementById('blogSearchStatus');
+    var q = (new URLSearchParams(location.search).get('q') || '').trim();
+    if (q && status) {
+      var needle = q.toLocaleLowerCase('tr');
+      var shown = 0;
+      cards.forEach(function (card) {
+        var match = card.textContent.toLocaleLowerCase('tr').indexOf(needle) !== -1;
+        card.style.display = match ? '' : 'none';
+        if (match) shown++;
+      });
+      status.textContent = '';
+      var text = document.createElement('span');
+      text.textContent = '"' + q + '" için ' + shown + ' yazı bulundu. ';
+      var clear = document.createElement('a');
+      clear.href = '/blog';
+      clear.textContent = 'Aramayı temizle';
+      status.append(text, clear);
+      status.hidden = false;
+      document.querySelectorAll('.header-search-input').forEach(function (input) { input.value = q; });
+    }
+
     btns.forEach(function (btn) {
       btn.addEventListener('click', function () {
+        if (status) status.hidden = true;
         btns.forEach(function (b) { b.classList.remove('active'); });
         btn.classList.add('active');
         var filter = btn.getAttribute('data-filter');

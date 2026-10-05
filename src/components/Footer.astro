@@ -36,7 +36,7 @@ const columns = [
       </div>
       {columns.map((col) => (
         <div class="footer__col">
-          <h4 class="footer__heading">{col.heading}</h4>
+          <p class="footer__heading">{col.heading}</p>
           <ul class="footer__links">
             {col.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
           </ul>

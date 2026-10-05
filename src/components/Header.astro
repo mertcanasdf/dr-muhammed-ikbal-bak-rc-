@@ -24,14 +24,14 @@ const chevron = 'M1 1L5 5L9 1';
         </span>
       </a>
 
-      <div class="header-search-wrap">
-        <input type="search" class="header-search-input" placeholder="Ara" aria-label="Ara" />
-        <button class="header-search-btn" aria-label="Ara">
+      <form class="header-search-wrap" action="/blog" method="get" role="search">
+        <input type="search" name="q" class="header-search-input" placeholder="Makalelerde ara" aria-label="Makalelerde ara" />
+        <button type="submit" class="header-search-btn" aria-label="Ara">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
           </svg>
         </button>
-      </div>
+      </form>
 
       <div class="header-actions">
         <button class="hamburger" id="hamburger" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mainMenu">
@@ -57,7 +57,7 @@ const chevron = 'M1 1L5 5L9 1';
           <div class="megamenu">
             <div class="megamenu__container">
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Sağlıklı Yaş Almanın 6 Alanı</h4>
+                <p class="megamenu__title">Sağlıklı Yaş Almanın 6 Alanı</p>
                 <ul class="megamenu__links">
                   <li><a href="/longevity#beslenme">Beslenme</a></li>
                   <li><a href="/longevity#hareket">Hareket</a></li>
@@ -68,7 +68,7 @@ const chevron = 'M1 1L5 5L9 1';
                 </ul>
               </div>
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Hücresel Temeller</h4>
+                <p class="megamenu__title">Hücresel Temeller</p>
                 <ul class="megamenu__links">
                   <li><a href="/blog/otofaji-nedir">Otofaji</a></li>
                   <li><a href="/blog/mitokondri-sagligi-nasil-desteklenir">Mitokondri</a></li>
@@ -78,7 +78,7 @@ const chevron = 'M1 1L5 5L9 1';
                 </ul>
               </div>
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Günlük Alışkanlıklar</h4>
+                <p class="megamenu__title">Günlük Alışkanlıklar</p>
                 <ul class="megamenu__links">
                   <li><a href="/blog/aralikli-oruc-longevity">Aralıklı Oruç</a></li>
                   <li><a href="/blog/mavi-bolge-diyeti">Mavi Bölge Diyeti</a></li>
@@ -100,7 +100,7 @@ const chevron = 'M1 1L5 5L9 1';
           <div class="megamenu megamenu--center megamenu--2col">
             <div class="megamenu__container">
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Cilt Biyolojisi</h4>
+                <p class="megamenu__title">Cilt Biyolojisi</p>
                 <ul class="megamenu__links">
                   <li><a href="/blog/ciltte-kollajen-kaybi">Ciltte Kollajen Kaybı</a></li>
                   <li><a href="/blog/cilt-bariyeri-nasil-guclendirilir">Cilt Bariyeri</a></li>
@@ -110,7 +110,7 @@ const chevron = 'M1 1L5 5L9 1';
                 </ul>
               </div>
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Medikal Estetik</h4>
+                <p class="megamenu__title">Medikal Estetik</p>
                 <ul class="megamenu__links">
                   <li><a href="/blog/botoks">Botulinum Toksin (Botoks)</a></li>
                   <li><a href="/blog/dermal-dolgu">Dermal Dolgu</a></li>
@@ -133,7 +133,7 @@ const chevron = 'M1 1L5 5L9 1';
           <div class="megamenu megamenu--compact">
             <div class="megamenu__container">
               <div class="megamenu__column">
-                <h4 class="megamenu__title">Keşfet</h4>
+                <p class="megamenu__title">Keşfet</p>
                 <ul class="megamenu__links">
                   <li><a href="/blog">İçerik Kütüphanesi</a></li>
                   <li><a href="/rehberler">Rehberler</a></li>

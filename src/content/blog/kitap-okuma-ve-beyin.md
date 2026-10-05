@@ -19,13 +19,13 @@ relatedArticles:
 
 Kitap okumak, sadece bilgi edinme süreci değil, beyni çok yönlü çalıştıran zihinsel bir egzersizdir. Okuma eylemi esnasında beyin, karmaşık bir görsel, dilsel ve zihinsel entegrasyon gerçekleştirir.
 
-### 1. Beyin Bağlantıları
+## 1. Beyin Bağlantıları
 Berns ve arkadaşlarının (2013) küçük çalışmasında katılımcılar 9 gün boyunca her akşam bir romanın bir bölümünü okudu ve her sabah beyin görüntülemesi yapıldı. Okuma günlerinde dil işlemeyle ilişkili sol temporal bölgede dinlenme hâlindeki bağlantılar arttı; bu artışın bir kısmı roman bittikten sonraki 5 gün boyunca da sürdü. Çalışma küçük ve kısa sürelidir; ancak okumanın beyin ağları üzerinde ölçülebilir izler bırakabileceğine işaret eder.
 
-### 2. Empati Ağları ve Zihin Teorisi
+## 2. Empati Ağları ve Zihin Teorisi
 Kurgusal eserler okumak, başkalarının düşünce ve duygularını anlama becerisi olan **zihin teorisi (Theory of Mind)** ile ilişkilendirilmiştir. 2013'te Science dergisinde yayımlanan ve kısa bir edebi metin okumanın bu beceriyi hemen artırdığını bildiren çalışma, sonraki tekrar denemelerinde doğrulanamadı. Ancak 70 deneyi kapsayan güncel meta-analizler, kurgu okumanın sosyal-bilişsel becerilerle küçük ama anlamlı bir ilişkisi olduğunu; yaşam boyu daha çok kurgu okuyanların empati ölçümlerinde daha yüksek puan aldığını bildiriyor (Wimmer ve ark., 2024).
 
-### 3. Bilişsel Rezerv Oluşturma
+## 3. Bilişsel Rezerv Oluşturma
 **Bilişsel rezerv**, beynin yaşa bağlı değişikliklere ve hastalıklara rağmen işlevini sürdürebilme kapasitesidir. Ölüm sonrası beyin incelemelerini de içeren bir çalışmada, yaşam boyu okuma ve yazma gibi zihinsel etkinliklere daha çok katılanlarda, beyindeki hastalık bulgularından bağımsız olarak bilişsel gerilemenin daha yavaş olduğu bulundu (Wilson ve ark., 2013). 50 yaş üstü 3.600'den fazla kişinin 12 yıl izlendiği bir çalışmada ise kitap okuyanlarda ölüm riski okumayanlara göre yaklaşık %20 daha düşüktü (Bavishi ve ark., 2016). Bunlar gözlemsel çalışmalardır; okumanın tek başına demansı önlediği kanıtlanmış değildir. Yine de keyif veren, zihni zorlayan bir alışkanlık olarak okumak, sağlıklı yaşlanmanın değerli bir parçasıdır.
 
 ## Kaynaklar

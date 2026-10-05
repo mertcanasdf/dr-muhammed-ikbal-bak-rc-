@@ -11,7 +11,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
 const categories = ['Tümü', ...BLOG_CATEGORIES];
 ---
-<BaseLayout title="Dünyada Sağlık — Dr. Muhammed İkbal Bakırcı" pageType="CollectionPage">
+<BaseLayout title="Dünyada Sağlık — Dr. Muhammed İkbal Bakırcı" pageType="CollectionPage" noindex>
 <style is:global>
   .ds-page-header {
     padding: 56px 0 40px;
@@ -110,7 +110,7 @@ const categories = ['Tümü', ...BLOG_CATEGORIES];
     gap: 10px;
   }
   .ds-item__cat {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .6px;

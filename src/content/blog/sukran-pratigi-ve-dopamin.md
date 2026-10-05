@@ -19,13 +19,13 @@ relatedArticles:
 
 Zihinsel esenlik ve mutluluk, kimyasal düzeyde nörotransmitterlerin dengesiyle ilişkilidir. Pozitif psikoloji ve beyin görüntüleme çalışmaları, basit bir "şükran ve minnettarlık duyma" pratiğinin ruh hâli ve iyi oluş üzerinde ölçülebilir etkileri olabileceğini gösteriyor.
 
-### 1. Beyinde Ne Oluyor?
+## 1. Beyinde Ne Oluyor?
 Fonksiyonel MR çalışmalarında, katılımcılar şükran hissettiğinde beynin ön bölgesindeki medial prefrontal korteks gibi ödül değerlendirmesi, ahlaki ve sosyal bilişle ilişkili alanlarda etkinlik gözlenmiştir (Fox ve ark., 2015). Bir başka çalışmada, birkaç hafta boyunca şükran mektupları yazan kişilerde aylar sonra bile bu bölgelerde farklı bir yanıt kaydedilmiştir (Kini ve ark., 2016). Bu alanların ödül sistemiyle bağlantılı olması nedeniyle dopaminin rol oynadığı düşünülse de şükranın dopamin ya da serotonin salınımını doğrudan ölçen insan çalışmaları yoktur.
 
-### 2. Beynin Pozitif Eğilim Kazanması
+## 2. Beynin Pozitif Eğilim Kazanması
 Beyin, evrimsel nedenlerle tehlikeleri ve olumsuzlukları öncelikli algılama eğilimindedir (negatiflik sapması). Düzenli olarak şükran günlüğü tutmak veya minnettar olunan birkaç konuyu yazmak, dikkati olumlu deneyimlere de yöneltmeye yardımcı olabilir. Klasik bir çalışmada, haftalık olarak şükran duydukları şeyleri yazan katılımcılar, sıkıntılarını ya da nötr olayları yazanlara göre hayatlarını daha olumlu değerlendirmiştir (Emmons ve McCullough, 2003). 64 randomize çalışmayı birleştiren bir meta-analiz de şükran uygulamalarının ruh sağlığını iyileştirdiğini ve kaygı ile depresyon belirtilerini azalttığını bildirmiştir (Diniz ve ark., 2023); etkiler genellikle küçük-orta düzeydedir.
 
-### 3. Sosyal Bağlantılar ve Oksitosin
+## 3. Sosyal Bağlantılar ve Oksitosin
 Şükran hissini başkalarıyla paylaşmak (teşekkür etmek, takdir etmek) ilişkileri güçlendirir. Güçlü sosyal bağlar ise daha iyi ruh sağlığı ve daha uzun yaşamla ilişkilidir. Şükranın **oksitosin** sistemiyle bağlantılı olabileceğine dair ön bulgular olsa da bu alandaki araştırmalar henüz sınırlıdır.
 
 Önemli bir not: Depresyon veya kaygı bozukluğu yaşayan kişiler için şükran pratikleri bir tamamlayıcıdır, tedavinin yerini tutmaz.

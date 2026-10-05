@@ -1,5 +1,6 @@
 ---
 title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
+seoTitle: "Mavi Bölge Diyeti: Uzun Yaşayanların Beslenmesi"
 date: 2026-03-28
 updated: 2026-10-05
 description: "Dünyanın beş mavi bölgesinde 100 yıl ve üzeri yaşayan insanların ortak beslenme ilkeleri ve bunları hayatınıza nasıl taşıyabileceğiniz."

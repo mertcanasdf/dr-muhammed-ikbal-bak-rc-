@@ -1,5 +1,6 @@
 ---
 title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
+seoTitle: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Etkisi"
 date: 2026-09-15
 description: "Sosyal bağların stres, günlük işlev ve sağlıklı yaşlanma ile ilişkisi; yalnızlık hissini azaltmak için uygulanabilir küçük adımlar."
 category: "Zihin & Sosyal Yaşam"

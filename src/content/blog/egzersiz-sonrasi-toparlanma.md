@@ -1,5 +1,6 @@
 ---
 title: "Egzersiz Sonrası Toparlanma: Uyku, Beslenme ve Yük Yönetimi"
+seoTitle: "Egzersiz Sonrası Toparlanma: Uyku, Beslenme, Yük"
 date: 2026-09-15
 description: "Egzersiz sonrası kasların toparlanmasını desteklemek için uyku, sıvı, beslenme ve antrenman yoğunluğu nasıl dengelenir?"
 category: "Hareket"

@@ -1,5 +1,6 @@
 ---
 title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
+seoTitle: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt Rutini"
 date: 2026-09-15
 description: "Cilt bariyeri ne işe yarar, bozulduğunda hangi belirtiler görülür ve hassas ciltte temizleme ile nemlendirme rutini nasıl sadeleştirilir?"
 category: "Skin Longevity"

@@ -1,5 +1,6 @@
 ---
 title: "Kronik Uyku Bozuklukları ve Longevity: Glymphatic Sistem Temizliği ve Hücresel Yenilenme"
+seoTitle: "Glimfatik Sistem: Uyku Beyni Nasıl Temizler?"
 date: 2026-06-20
 updated: 2026-10-05
 description: "Yetersiz uykunun beynin atık temizleme sistemi (glimfatik sistem) ve büyüme hormonu salınımı üzerindeki etkileri; kaliteli uyku için kanıta dayalı öneriler."

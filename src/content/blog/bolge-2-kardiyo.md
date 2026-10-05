@@ -1,5 +1,6 @@
 ---
 title: "Bölge 2 Kardiyo: Uzun Ömürlülük için En İyi Egzersiz mi?"
+seoTitle: "Zone 2 (Bölge 2) Kardiyo Nedir? Ne Kadar Yapılmalı?"
 date: 2026-02-20
 updated: 2026-10-05
 description: "Bölge 2 kardiyo neden mitokondriyal biyogenez ve kardiyorespiratuvar fitness açısından longevity biliminin en güçlü egzersiz müdahalesi olarak öne çıkıyor?"
@@ -27,7 +28,7 @@ Spor salonunda en hızlı koşan, en ağır kaldıran değil; en uzun yaşayan k
 
 Peki Bölge 2 nedir, neden bu denli özel ve haftada kaç saat yapmalısınız?
 
-## Bölge 2 Nedir?
+## Bölge 2 (Zone 2) Kardiyo Nedir?
 
 Egzersiz yoğunluğu genellikle 5 kalp atış hızı bölgesinde sınıflandırılır. Bölge 2, maksimum kalp atış hızının (MHR) yaklaşık %60-70'ine karşılık gelir. Kabaca tahmin için sık kullanılan formül MHR = 220 − yaş'tır; bu formül kişiden kişiye önemli sapmalar gösterebilir. 40 yaşında biri için bu 108-126 atış/dakika arasına denk düşer.
 

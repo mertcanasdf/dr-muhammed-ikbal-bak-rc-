@@ -1,5 +1,6 @@
 ---
 title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
+seoTitle: "Günlük Yürüyüşün Faydaları: Günde Ne Kadar Yürümeli?"
 date: 2026-09-15
 description: "Günlük yürüyüşün kalp-damar sağlığı, hareket kapasitesi ve ruh haliyle ilişkisi; süre, tempo ve sürdürülebilirlik için pratik öneriler."
 category: "Hareket"

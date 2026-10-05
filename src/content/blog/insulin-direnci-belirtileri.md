@@ -1,5 +1,6 @@
 ---
 title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
+seoTitle: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır?"
 date: 2026-09-15
 description: "İnsülin direnci nedir, hangi belirtiler eşlik edebilir, tanı için hangi testler kullanılır ve yaşam tarzı planı nasıl kurulabilir?"
 category: "Beslenme"

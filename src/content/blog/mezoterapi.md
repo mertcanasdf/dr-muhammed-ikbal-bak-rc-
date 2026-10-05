@@ -1,5 +1,6 @@
 ---
 title: "Cilt Mezoterapisi ve Gençlik Aşıları: Nem Aşıları, Somon DNA ve Kanıtlar"
+seoTitle: "Mezoterapi ve Gençlik Aşıları: Nem Aşısı, Somon DNA"
 date: 2026-06-17
 updated: 2026-10-05
 description: "Mezoterapi ve cilt gençlik aşıları (skin booster) nedir, hyaluronik asit ve polinükleotit (somon DNA) uygulamaları hakkında kanıtlar ne söylüyor?"

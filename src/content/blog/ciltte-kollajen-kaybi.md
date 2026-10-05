@@ -1,5 +1,6 @@
 ---
 title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
+seoTitle: "Ciltte Kollajen Kaybı Neden Olur?"
 date: 2026-09-15
 description: "Kollajen ciltte ne işe yarar, yaşla birlikte neden azalır ve cilt görünümünü korumak için kanıta dayalı temel alışkanlıklar nelerdir?"
 category: "Skin Longevity"

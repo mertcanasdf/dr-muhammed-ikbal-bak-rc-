@@ -4,7 +4,6 @@ import { getAbsoluteUrl, getCanonicalUrl } from '../lib/seo';
 const staticRoutes = [
   '/',
   '/blog',
-  '/dunyada-saglik',
   '/gecmis-yillar',
   '/gizlilik-politikasi',
   '/hakkinda',
@@ -18,7 +17,7 @@ const staticRoutes = [
 ];
 
 // Yazı listeleyen sayfalar en yeni yazının tarihini taşır; diğer statik sayfalar için güvenilir tarih yok, lastmod verilmez.
-const listingRoutes = new Set(['/', '/blog', '/dunyada-saglik']);
+const listingRoutes = new Set(['/', '/blog']);
 
 function escapeXml(value: string): string {
   return value

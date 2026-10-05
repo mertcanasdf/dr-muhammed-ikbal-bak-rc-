@@ -1,5 +1,6 @@
 ---
 title: "Botulinum Toksin (Botoks): Mimik Kırışıklıklar, Masseter Uygulaması ve Bilinmesi Gerekenler"
+seoTitle: "Botoks Nedir? Etki Süresi, Masseter ve Yan Etkiler"
 date: 2026-06-18
 updated: 2026-10-05
 description: "Botoks nasıl etki eder, hangi kırışıklıklarda kullanılır, masseter uygulaması ve diş sıkma hakkında kanıtlar ne söylüyor, olası yan etkiler nelerdir?"
@@ -33,7 +34,7 @@ Botoks, *Clostridium botulinum* bakterisinden laboratuvar koşullarında elde ed
 
 Etki genellikle birkaç gün içinde başlar, yaklaşık iki haftada belirginleşir ve çoğunlukla 3–4 ay sürer.
 
-## Dinamik vs. Statik Kırışıklıklar: Neden Erken Başlamak Önemli?
+## Dinamik ve Statik Kırışıklıklar
 
 - **Dinamik Kırışıklıklar**: Gülerken, kaş çatarken veya şaşırırken mimik hareketleriyle ortaya çıkan, mimik bırakıldığında kaybolan çizgilerdir. Botoks bu aşamada uygulandığında en yüksek verim alınır.
 - **Statik Kırışıklıklar**: Mimik yapmadığınızda bile ciltte kalıcı olan derin çizgilerdir. Eğer dinamik çizgiler uzun süre tedavi edilmezse, zamanla statik kırışıklıklara dönüşür.

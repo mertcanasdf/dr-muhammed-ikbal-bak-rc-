@@ -1,5 +1,6 @@
 ---
 title: "Dermal Dolgu Uygulamaları: Yüz Kontürü, Hacim ve Bilinmesi Gerekenler"
+seoTitle: "Dermal Dolgu Nedir? Ne Kadar Sürer, Riskleri Neler?"
 date: 2026-06-20
 updated: 2026-10-05
 description: "Hyaluronik asit dolgular nasıl çalışır, hangi bölgelerde kullanılır, yüz analizi neden önemlidir ve olası riskler nelerdir?"

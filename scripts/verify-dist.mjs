@@ -109,7 +109,13 @@ check('canonical = sitemap adresi (uzantısız, her sayfa sitemap\'te)', () => {
   const locs = new Set([...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]));
   const problems = [];
   for (const f of htmlFiles.filter((f) => f !== '404.html')) {
-    const canonical = read(f).match(/rel="canonical" href="([^"]+)"/)?.[1];
+    const html = read(f);
+    const canonical = html.match(/rel="canonical" href="([^"]+)"/)?.[1];
+    const noindex = /<meta name="robots" content="noindex/.test(html);
+    if (noindex) {
+      if (canonical && locs.has(canonical)) problems.push(`${f}: noindex sayfa sitemap'te`);
+      continue;
+    }
     if (!canonical) problems.push(`${f}: canonical yok`);
     else if (/\.html$/.test(canonical)) problems.push(`${f}: ${canonical}`);
     else if (!locs.has(canonical)) problems.push(`${f}: sitemap'te yok → ${canonical}`);

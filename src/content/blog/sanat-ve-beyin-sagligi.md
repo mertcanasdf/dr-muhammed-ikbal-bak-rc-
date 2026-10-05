@@ -19,13 +19,13 @@ relatedArticles:
 
 Sanat üretimi, sadece duygusal bir dışavurum değil, beyni çok yönlü çalıştıran bir uğraştır. Dünya Sağlık Örgütü'nün 3.000'den fazla çalışmayı inceleyen raporu, görsel sanatlar, müzik, yazarlık veya el sanatları gibi yaratıcı etkinliklerin ruh sağlığını desteklemede ve bazı hastalıkların yönetiminde rol oynayabileceğini ortaya koymuştur (Fancourt ve Finn, 2019).
 
-### 1. Nöroplastisite ve Zihinsel Esneklik
+## 1. Nöroplastisite ve Zihinsel Esneklik
 Sanat üretirken motor beceriler, görsel işleme ve duygusal düzenlemeyle ilgili beyin bölgeleri birlikte çalışır. Emekli yetişkinlerle yapılan bir çalışmada, 10 hafta boyunca resim yapan grupta, sadece sanat eserlerini inceleyip değerlendiren gruba göre beyin bölgeleri arasındaki bağlantılarda değişiklik ve psikolojik dayanıklılıkta artış gözlendi (Bolwerk ve ark., 2014). Beynin deneyimle değişebilme yeteneği olan **nöroplastisite** açısından ilgi çekici bir bulgudur; ancak katılımcı sayısı küçüktür.
 
-### 2. Kortizol Seviyelerinde Azalma
+## 2. Kortizol Seviyelerinde Azalma
 39 sağlıklı yetişkinle yapılan bir çalışmada, 45 dakikalık sanat üretiminden (resim, kil, kolaj) sonra tükürükteki stres hormonu **kortizol** düzeyinin anlamlı şekilde düştüğü bulundu; bu etki önceki sanat deneyiminden bağımsızdı (Kaimal ve ark., 2016). Çalışmada kontrol grubu olmadığı için bu düşüşün ne kadarının sanata, ne kadarının dinlenmeye bağlı olduğu net değildir.
 
-### 3. Akış Hâli ve Ödül Duygusu
+## 3. Akış Hâli ve Ödül Duygusu
 Yaratıcı bir sürece kendini kaptırmak (akış hâli, *flow state*) keyif ve tatmin duygusu yaratır. Bu deneyimin beynin ödül sistemiyle ilişkili olduğu düşünülmektedir. Pratik açıdan önemli olan, yeteneğe değil sürece odaklanmaktır: Haftada birkaç kez, sonuç kaygısı olmadan resim, el işi, yazı ya da müzikle uğraşmak, stresle başa çıkmayı destekleyen erişilebilir bir alışkanlıktır.
 
 ## Kaynaklar

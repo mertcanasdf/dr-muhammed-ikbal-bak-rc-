@@ -39,7 +39,7 @@ for (const [label, re] of FORBIDDEN) {
 
 // Revizyon kontrol raporu (2026-10-05): kesin vaat ve klinik hedef dili.
 const scriptFiles = files.filter((f) => f.endsWith('.js'));
-const CLAIMS = /izleri giderir|katlayarak artır|hızlıca yenilen|gıcırdatmayı engelleyen|geri sararak|saç dökülmesini önleme|Her test bilimsel kaynaklara dayanır|Kritik Biomarker ve Klinik Hedefler|Biyolojik Yaşınız Kronolojik/i;
+const CLAIMS = /izleri giderir|katlayarak artır|hızlıca yenilen|gıcırdatmayı engelleyen|geri sararak|saç dökülmesini önleme|Her test bilimsel kaynaklara dayanır|Kritik Biomarker ve Klinik Hedefler|Biyolojik Yaşınız Kronolojik|Yaşlanmayı Tersine Çevirmek|7 Kanıtlanmış|Yaşayanlarının Sırrı|etkinliği kanıtlanmıştır|kalıcı olarak artırır|maksimum anti-aging/i;
 check('yasak içerik yok: kesin vaat / tanı dili', () =>
   [...textFiles, ...scriptFiles].filter((f) => CLAIMS.test(read(f))));
 

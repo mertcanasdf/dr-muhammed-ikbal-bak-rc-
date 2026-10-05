@@ -144,7 +144,14 @@ const featured = featuredSlugs.map((slug) => {
   .hp-hero__fields { font-size: 16px; line-height: 1.7; color: #c3cbd2; }
   .hp-hero__message { max-width: 520px; margin-top: 18px; font-size: 18px; line-height: 1.7; color: #e8ecef; }
   .hp-hero__portrait { height: 600px; }
-  .hp-hero__portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 22%; }
+  .hp-hero__portrait img {
+    width: 100%; height: 100%; object-fit: cover; object-position: center 22%;
+    /* Fotoğrafın arka planı hero siyahından açık; kenarları eriterek keskin geçişi kaldır. */
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 22%, #000 78%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 14%);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(to right, transparent 0, #000 22%, #000 78%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 14%);
+    mask-composite: intersect;
+  }
 
   .hp-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
   .hp-btn-outline, .hp-btn-border { display: inline-block; padding: 12px 24px; border-radius: var(--r-btn); border: 2px solid; font-weight: 700; font-size: 15px; line-height: 1.4; }

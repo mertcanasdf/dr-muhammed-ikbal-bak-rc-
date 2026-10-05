@@ -66,6 +66,39 @@ Botoks, dolgu, PRP, mezoterapi, kimyasal peeling, mikro iğneleme, lazer, altın
 
 > Longevity Show basın haberlerinde (ör. [Sağlık Dünyası](https://www.saglikdunyasidergisi.com/haber/5_the_longevity_show_istanbulda_ilham_veren_bulusmalar-21547.html)) adı geçmiyor; program listesi ya da fotoğraf istenmeli.
 
+## Konuşma, seminer ve medya (ek araştırma, 2026-10-05)
+
+| Tarih | Ne | Kaynak | Teyit |
+|---|---|---|---|
+| 23 Haziran 2021 | "Sağlık Hizmetlerinde Hasta Memnuniyeti" konuşması (~70 dk), Genç Akademisyenler Birliği — "Genç Akademi" programı | [YouTube, Genç Akademisyenler Birliği kanalı](https://www.youtube.com/watch?v=xfWZGKVrzLM) | ✔ bağımsız kaynak |
+| — (tarihsiz) | Bütüncül Sağlıklı Yaşam Platformu kapsamında her pazartesi Zoom üzerinden "iyi ve sağlıklı yaşam" seminerleri | turizmatlasitv.com haber başlığı ("Dr. M.İkbal Bakırcı ile Sağlıklı Yaşam Sohbetleri"; sayfa artık yayında değil) | |
+| — | Kendi YouTube kanalı: "Dr. Muhammed İkbal Bakırcı'nın sağlık ve insan adına içerik paylaştığı kanalıdır" | [youtube.com/@drmuhammedikbalbakirci](https://youtube.com/@drmuhammedikbalbakirci) | ✔ |
+
+> BSY platformunun kendi sitesinde ([bsyplatformu.org](https://bsyplatformu.org/)) adı geçmiyor; HK'deki "Danışma Kurulu Üyeliği" doğrulanamadı.
+
+## Profesyonel sosyal medya hesapları
+
+Doktor sitesinin (DT) bağlantı verdiği hesaplar — siteye eklenecekse bunlar kullanılmalı:
+
+| Platform | Hesap |
+|---|---|
+| Instagram | [@dr.muhammedikbalbakirci](https://www.instagram.com/dr.muhammedikbalbakirci) |
+| YouTube | [@drmuhammedikbalbakirci](https://youtube.com/@drmuhammedikbalbakirci) |
+| LinkedIn | [muhammed-ikbal-bakirci-221ab3243](https://www.linkedin.com/in/muhammed-ikbal-bakirci-221ab3243) |
+| X | [@mikbalbakirci](https://x.com/mikbalbakirci) |
+| Facebook | DT'de yalnızca paylaşım kısa linki var; profil adresi sorulmalı |
+
+> Aramada ayrıca **@mikbalbakirci** (Instagram) ve **@IkbalRc** (X) hesapları çıkıyor; bunlar kişisel hesap olabilir. Hangilerinin sitede yer alacağı sorulmalı.
+
+## Doğrulanamayan ya da dikkat gerektiren iddialar
+
+| İddia | Nerede | Durum |
+|---|---|---|
+| "BM UNF Türkiye Temsilcisi" (geçmiş) | HK | Hiçbir kaynakta bulunamadı. "Birleşmiş Milletler" adı geçtiği için belge/bağlantı istenmeli; gelene kadar öne çıkarılmamalı. |
+| Bütüncül Sağlıklı Yaşam Platformu Danışma Kurulu üyeliği | HK | Platform sitesinde yok. |
+| 5. Longevity Show (2026) konuşması | HK | Basın haberlerinde yok. |
+| 2017 jeopolitik görüş yazısı | [sahipkiran.org](https://sahipkiran.org/tag/muhammed-ikbal-bakirci/) | Sağlık sitesiyle ilgisiz; Media Kit'e alınmamalı. |
+
 ## Bulunamayanlar
 
 - **Bilimsel yayın / kitap:** DergiPark ve genel aramada yazar olarak kaydı bulunamadı (çıkan sonuçlar düşünür Muhammed İkbal hakkında).

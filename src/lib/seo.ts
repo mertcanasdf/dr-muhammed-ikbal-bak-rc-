@@ -39,7 +39,9 @@ const routeLabel: Record<string, string> = {
 export function normalizePathname(pathname: string): string {
   if (!pathname || pathname === '/') return '/';
   const normalized = pathname.startsWith('/') ? pathname : `/${pathname}`;
-  return normalized.replace(/\/+$/, '');
+  // build.format 'file' sırasında Astro.url.pathname "/hakkinda.html" olur; canonical uzantısız adrestir.
+  const clean = normalized.replace(/(\/index)?\.html$/, '').replace(/\/+$/, '');
+  return clean || '/';
 }
 
 export function getCanonicalUrl(pathname: string): string {

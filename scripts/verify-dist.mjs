@@ -104,6 +104,28 @@ check('görsel yolları (og:image, CSS dahil) var olan dosyalara gidiyor', () =>
   return [...missing];
 });
 
+// Her sayfanın canonical'ı uzantısız ve sitemap'teki adresle birebir aynı olmalı (404 sayfası hariç).
+check('canonical = sitemap adresi (uzantısız, her sayfa sitemap\'te)', () => {
+  const locs = new Set([...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]));
+  const problems = [];
+  for (const f of htmlFiles.filter((f) => f !== '404.html')) {
+    const canonical = read(f).match(/rel="canonical" href="([^"]+)"/)?.[1];
+    if (!canonical) problems.push(`${f}: canonical yok`);
+    else if (/\.html$/.test(canonical)) problems.push(`${f}: ${canonical}`);
+    else if (!locs.has(canonical)) problems.push(`${f}: sitemap'te yok → ${canonical}`);
+  }
+  return problems;
+});
+
+check('meta description sayfaya özgü (tekrar yok)', () => {
+  const seen = new Map();
+  for (const f of htmlFiles) {
+    const d = read(f).match(/<meta name="description" content="([^"]*)"/)?.[1];
+    if (d) seen.set(d, [...(seen.get(d) || []), f]);
+  }
+  return [...seen.values()].filter((fs) => fs.length > 1).map((fs) => fs.join(', '));
+});
+
 check('sayfa içi bağlantılar (#) var olan bölümlere gidiyor', () => {
   const broken = new Set();
   for (const f of htmlFiles) {

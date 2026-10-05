@@ -17,11 +17,11 @@ relatedArticles:
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "kas-kutlesi-ve-yaslanma"
     category: "Hareket"
-    title: "Kas Kütlesi ve Yaşlanma"
+    title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
-    title: "Yaşlanmada Protein İhtiyacı"
+    title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
     image: "/assets/images/generated/nutrition-longevity.webp"
 ---
 

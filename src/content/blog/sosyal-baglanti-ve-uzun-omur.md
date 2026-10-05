@@ -13,15 +13,15 @@ takeaways:
 relatedArticles:
   - slug: "dijital-tukenmislik"
     category: "Zihin & Sosyal Yaşam"
-    title: "Dijital Tükenmişlik Nedir?"
+    title: "Dijital Tükenmişlik Nedir? Ekran Yükünü Azaltma Rehberi"
     image: "/assets/images/generated/topics/tukenmislik.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
-    title: "Uyku Kalitesi Nasıl Artırılır?"
+    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
-    title: "Günlük Yürüyüşün Sağlığa Etkileri"
+    title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
 ---
 

@@ -13,11 +13,11 @@ takeaways:
 relatedArticles:
   - slug: "kas-kutlesi-ve-yaslanma"
     category: "Hareket"
-    title: "Kas Kütlesi ve Yaşlanma"
+    title: "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım"
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "lifli-beslenme-ve-mikrobiyota"
     category: "Beslenme"
-    title: "Lifli Beslenme ve Mikrobiyota"
+    title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
     image: "/assets/images/generated/topics/tarifler-keto.webp"
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"

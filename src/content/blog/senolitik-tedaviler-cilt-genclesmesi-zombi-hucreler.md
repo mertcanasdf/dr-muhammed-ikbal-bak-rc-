@@ -8,7 +8,7 @@ readTime: "5 dk"
 takeaways:
   - "Senesans (zombi) hücreler, bölünmeyen ancak çevrelerindeki sağlıklı hücreleri zehirleyen yaşlı hücrelerdir."
   - "Güncel klinik araştırmalar, topikal senolitiklerin ciltteki zombi hücreleri temizleyerek kök hücreleri canlandırdığını ve kolajen üretimini başlattığını kanıtlamaktadır."
-  - "Doğal senolitikler arasında en etkilisi çilek ve elmada bolca bulunan Fisetin bileşiğidir."
+  - "Senolitik etkisi en çok incelenen doğal bileşiklerden biri çilek ve elmada bulunan fisetindir; insanlarda etkinliği henüz netleşmemiştir."
   - "Kırmızı soğan ve kaparide bulunan Kersetin, hücresel arınmayı destekleyen diğer bir güçlü sirtuin destekçisidir."
   - "Aralıklı oruç ve otofaji protokolleri, zombi hücrelerin vücuttan doğal yollarla elenmesine yardımcı olur."
 relatedArticles:
@@ -18,11 +18,11 @@ relatedArticles:
     image: "/assets/images/generated/topics/aralikli-oruc.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
-    title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
+    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
     image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
+    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 
@@ -46,7 +46,7 @@ Araştırmacılar, yaşlı dokulara topikal olarak uygulanan **ABT-263** adlı s
 
 ## Doğal Senolitikler ve Hücresel Arınma
 
-Klinik senolitik ilaçların insanlarda yaygın ve reçetesiz kullanımına yönelik çalışmalar sürerken, günlük yaşam alışkanlıklarımız ve beslenmemiz ile vücudumuzun zombi hücre temizleme kapasitesini doğal yollardan desteklemek mümkündür. Bilimsel olarak kanıtlanmış en güçlü doğal senolitikler şunlardır:
+Klinik senolitik ilaçların insanlarda yaygın ve reçetesiz kullanımına yönelik çalışmalar sürerken, günlük yaşam alışkanlıklarımız ve beslenmemiz ile vücudumuzun zombi hücre temizleme kapasitesini doğal yollardan desteklemek mümkündür. Laboratuvar ve hayvan çalışmalarında senolitik etkileri incelenen doğal bileşikler şunlardır:
 
 ### 1. Fisetin (Çilek ve Elma Polifenolü)
 

@@ -13,7 +13,7 @@ takeaways:
 relatedArticles:
   - slug: "dermal-dolgu-guvenligi"
     category: "Skin Longevity"
-    title: "Dermal Dolgu Güvenliği"
+    title: "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi"
     image: "/assets/images/generated/topics/dermal-dolgu.webp"
   - slug: "botoks-sonrasi-dikkat-edilmesi-gerekenler"
     category: "Skin Longevity"
@@ -21,7 +21,7 @@ relatedArticles:
     image: "/assets/images/generated/topics/medikal-estetik.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
-    title: "Ciltte Kollajen Kaybı Neden Olur?"
+    title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---
 

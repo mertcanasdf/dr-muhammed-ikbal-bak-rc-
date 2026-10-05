@@ -13,11 +13,11 @@ takeaways:
 relatedArticles:
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
-    title: "Uyku Kalitesi Nasıl Artırılır?"
+    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "ekran-kullanimi-ve-uyku"
     category: "Uyku"
-    title: "Ekran Kullanımı ve Uyku"
+    title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
     image: "/assets/images/generated/stress-sleep.webp"
   - slug: "mitokondri-sagligi-nasil-desteklenir"
     category: "Longevity Bilimi"

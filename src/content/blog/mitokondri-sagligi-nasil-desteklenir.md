@@ -13,7 +13,7 @@ takeaways:
 relatedArticles:
   - slug: "biyolojik-yas-nasil-olculur"
     category: "Longevity Bilimi"
-    title: "Biyolojik Yaş Nasıl Ölçülür?"
+    title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
     image: "/assets/images/generated/topics/cellular-science.webp"
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
@@ -21,7 +21,7 @@ relatedArticles:
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
     category: "Uyku"
-    title: "Sirkadiyen Ritim ve Uyku Düzeni"
+    title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---
 

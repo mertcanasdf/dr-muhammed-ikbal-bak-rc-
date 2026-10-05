@@ -13,11 +13,11 @@ takeaways:
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
+    title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
-    title: "Stres ve Cilt: Kortizolün Rolü"
+    title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---
 

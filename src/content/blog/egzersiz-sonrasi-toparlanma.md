@@ -17,11 +17,11 @@ relatedArticles:
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
-    title: "Uyku Kalitesi Nasıl Artırılır?"
+    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
-    title: "Yaşlanmada Protein İhtiyacı"
+    title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
     image: "/assets/images/generated/nutrition-longevity.webp"
 ---
 

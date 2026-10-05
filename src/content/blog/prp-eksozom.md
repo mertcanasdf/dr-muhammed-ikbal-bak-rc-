@@ -13,11 +13,11 @@ takeaways:
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
+    title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
+    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Mavi Bölge Diyeti: Dünyanın En Uzun Yaşayanlarının Sırrı"
+title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
 date: 2026-03-28
 description: "Dünyanın beş mavi bölgesinde 100 yıl ve üzeri yaşayan insanların ortak beslenme ilkeleri ve bunları hayatınıza nasıl taşıyabileceğiniz."
 category: "Beslenme"
@@ -18,7 +18,7 @@ relatedArticles:
     image: "/assets/images/generated/topics/aralikli-oruc.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
-    title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
+    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
     image: "/assets/images/generated/topics/telomer.webp"
 ---
 

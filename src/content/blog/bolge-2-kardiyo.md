@@ -38,7 +38,7 @@ Bölge 2 egzersizleri: tempolu yürüyüş, hafif koşu, bisiklet, yüzme, küre
 
 ### Mitokondriyal Biyogenez
 
-Bölge 2, hücrelerdeki mitokondri sayısını ve kalitesini artıran en etkili uyaranlardan biridir. Mitokondri, hücrenin enerji santralleridir ve yaşla birlikte sayıları ile verimlilikleri azalır. Daha fazla, daha sağlıklı mitokondri; daha fazla enerji, daha iyi metabolik sağlık ve daha yavaş hücresel yaşlanma demektir. Haftada 3-4 saat Bölge 2 egzersizi, mitokondriyal kapasiteyi 3-6 ayda belirgin şekilde artırır.
+Bölge 2, hücrelerdeki mitokondri sayısını ve kalitesini artıran en etkili uyaranlardan biridir. Mitokondri, hücrenin enerji santralleridir ve yaşla birlikte sayıları ile verimlilikleri azalır. Daha fazla, daha sağlıklı mitokondri; daha fazla enerji, daha iyi metabolik sağlık ve daha yavaş hücresel yaşlanma demektir. Düzenli Bölge 2 egzersizi zamanla mitokondriyal kapasiteyi artırmaya yardımcı olabilir; yanıt kişiden kişiye değişir.
 
 ### Yağ Yakımı ve Metabolik Esneklik
 

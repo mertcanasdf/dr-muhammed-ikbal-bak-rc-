@@ -13,15 +13,15 @@ takeaways:
 relatedArticles:
   - slug: "lifli-beslenme-ve-mikrobiyota"
     category: "Beslenme"
-    title: "Lifli Beslenme ve Mikrobiyota"
+    title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
     image: "/assets/images/generated/topics/tarifler-keto.webp"
   - slug: "hareketsizlik-ve-metabolik-saglik"
     category: "Hareket"
-    title: "Hareketsizlik ve Metabolik Sağlık"
+    title: "Hareketsizlik ve Metabolik Sağlık: Gün İçindeki Oturma Süresini Azaltmak"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "omega-3-ne-ise-yarar"
     category: "Beslenme"
-    title: "Omega-3 Ne İşe Yarar?"
+    title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
     image: "/assets/images/generated/topics/urun-omega3.webp"
 ---
 

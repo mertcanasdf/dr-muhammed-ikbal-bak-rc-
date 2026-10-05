@@ -7,18 +7,18 @@ image: "/assets/images/generated/topics/d3-vitamini.webp"
 readTime: "8 dk"
 takeaways:
   - "D vitamini bir hormon gibi davranır ve 200'den fazla gen ifadesini düzenler."
-  - "Türkiye'de eksiklik oranı %70'e ulaşmaktadır; kan testi ile kontrol şarttır."
+  - "Türkiye'de D vitamini eksikliği yaygındır; takviyeye başlamadan önce kan düzeyinin ölçülmesi önerilir."
   - "Longevity için optimal seviye 50-80 ng/mL arasındadır."
   - "D3 ve K2 birlikte alınmalıdır; K2 kalsiyumun kemiklere yönlendirilmesini sağlar."
   - "Günlük öğle güneşi (15-20 dk) en doğal D vitamini kaynağıdır."
 relatedArticles:
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
-    title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
+    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
     image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
+    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 

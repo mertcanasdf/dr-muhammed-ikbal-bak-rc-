@@ -13,15 +13,15 @@ takeaways:
 relatedArticles:
   - slug: "ekran-kullanimi-ve-uyku"
     category: "Uyku"
-    title: "Ekran Kullanımı ve Uyku"
+    title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
     image: "/assets/images/generated/stress-sleep.webp"
   - slug: "sosyal-baglanti-ve-uzun-omur"
     category: "Zihin & Sosyal Yaşam"
-    title: "Sosyal Bağlantı ve Uzun Ömür"
+    title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
     image: "/assets/images/generated/topics/doga-zihin.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
     category: "Uyku"
-    title: "Sirkadiyen Ritim ve Uyku Düzeni"
+    title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---
 

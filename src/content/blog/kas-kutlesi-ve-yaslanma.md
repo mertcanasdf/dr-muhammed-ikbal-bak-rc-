@@ -17,7 +17,7 @@ relatedArticles:
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
-    title: "Yaşlanmada Protein İhtiyacı"
+    title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "kavrama-gucu-ve-saglik"
     category: "Hareket"

@@ -12,11 +12,11 @@ takeaways:
 relatedArticles:
   - slug: "d3-vitamini-eksikligi"
     category: "Beslenme"
-    title: "D3 Vitamini Eksikliği: Gizli Yaşlanma Hızlandırıcı"
+    title: "D3 Vitamini Eksikliği ve Erken Yaşlanma Arasındaki Bağ"
     image: "/assets/images/generated/topics/d3-vitamini.webp"
 ---
 
-Modern şehir hayatı ve sürekli ekran başında olmak, beynimizi sürekli bir "aşırı uyarılma" durumunda tutar. Japon kültüründe *Shinrin-yoku* (orman banyosu) olarak bilinen doğa ile temas, zihinsel yenilenme ve biyolojik iyileşme için bilimsel olarak kanıtlanmış bir yöntemdir.
+Modern şehir hayatı ve sürekli ekran başında olmak, beynimizi sürekli bir "aşırı uyarılma" durumunda tutar. Japon kültüründe *Shinrin-yoku* (orman banyosu) olarak bilinen doğa ile temas, zihinsel yenilenme üzerindeki olumlu etkileri araştırmalarda gösterilen bir uygulamadır.
 
 ### 1. Dikkat Yenileme Teorisi
 Sürekli bildirimlere ve yapay ışıklara odaklanmak, beynin istemli dikkat mekanizmasını yorar. Doğadaki doğal desenler, esintiler ve sesler ise "istemsiz dikkat" mekanizmasını devreye sokarak yorulmuş prefrontal korteksimizin dinlenmesine ve bilişsel yeteneklerimizin tazelenmesine olanak tanır.

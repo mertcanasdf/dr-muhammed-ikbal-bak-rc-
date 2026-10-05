@@ -1,7 +1,7 @@
 ---
 title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
 date: 2026-05-15
-description: "Hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü otofaji mekanizması nedir ve onu güçlendirmenin kanıtlanmış yolları nelerdir?"
+description: "Hücrelerin hasarlı bileşenlerini parçalayıp geri dönüştürdüğü otofaji mekanizması nedir ve onu desteklediği düşünülen yaklaşımlar nelerdir?"
 category: "Longevity Bilimi"
 image: "/assets/images/generated/topics/otofaji.webp"
 readTime: "8 dk"
@@ -19,11 +19,11 @@ relatedArticles:
     image: "/assets/images/generated/topics/aralikli-oruc.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
-    title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
+    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
     image: "/assets/images/generated/topics/telomer.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
+    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 
@@ -51,7 +51,7 @@ Otofaji işlevi bozukluğu ile pek çok kronik hastalık arasında güçlü bir 
 
 ### 1. Aralıklı Oruç
 
-Otofajiyi tetiklemenin en güçlü ve en iyi belgelenmiş yolu, aralıklı oruçtur. Yemek yemediğinizde insülin seviyeleri düşer ve glikojen depoları azalır; bu, hücreleri enerji için iç kaynaklara — yani hasarlı bileşenlerine — yönelmeye iter. Araştırmalar, 12-16 saatlik oruç süresinin otofajiyi belirgin şekilde artırdığını göstermektedir. 16:8 protokolü (günde 16 saat oruç, 8 saatlik yemek penceresi) bu amaç için yaygın olarak kullanılmaktadır.
+Otofajiyi uyardığı en çok incelenen yollardan biri aralıklı oruçtur. Yemek yemediğinizde insülin seviyeleri düşer ve glikojen depoları azalır; bu, hücreleri enerji için iç kaynaklara — yani hasarlı bileşenlerine — yönelmeye iter. Bu etki büyük ölçüde hayvan ve hücre çalışmalarında gösterilmiştir; insanlarda otofajiyi doğrudan ölçmek zordur ve hangi oruç süresinin yeterli olduğu net değildir. 16:8 protokolü (günde 16 saat oruç, 8 saatlik yemek penceresi) bu amaç için yaygın olarak kullanılmaktadır.
 
 ### 2. Egzersiz — Özellikle Dayanıklılık Antrenmanı
 

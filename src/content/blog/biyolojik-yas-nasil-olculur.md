@@ -21,7 +21,7 @@ relatedArticles:
     image: "/assets/images/generated/topics/cellular-science.webp"
   - slug: "sirkadiyen-ritim-ve-uyku"
     category: "Uyku"
-    title: "Sirkadiyen Ritim ve Uyku Düzeni"
+    title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---
 

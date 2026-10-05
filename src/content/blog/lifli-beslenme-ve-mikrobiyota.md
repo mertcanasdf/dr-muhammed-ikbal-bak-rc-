@@ -13,15 +13,15 @@ takeaways:
 relatedArticles:
   - slug: "protein-ihtiyaci-yaslanma"
     category: "Beslenme"
-    title: "Yaşlanmada Protein İhtiyacı"
+    title: "Yaşlanmada Protein İhtiyacı: Ne Kadar ve Nasıl Alınır?"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "insulin-direnci-belirtileri"
     category: "Beslenme"
-    title: "İnsülin Direnci Belirtileri ve Değerlendirme"
+    title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
     image: "/assets/images/generated/success_insulin_resistance.webp"
   - slug: "polifenoller-ve-saglik"
     category: "Beslenme"
-    title: "Polifenoller ve Sağlık"
+    title: "Polifenoller ve Sağlık: Hangi Besinlerde Bulunur?"
     image: "/assets/images/generated/topics/cellular-science.webp"
 ---
 

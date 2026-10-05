@@ -12,7 +12,7 @@ takeaways:
 relatedArticles:
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
+    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 

@@ -12,7 +12,7 @@ takeaways:
 relatedArticles:
   - slug: "kortizol-yaslanma"
     category: "Zihin & Sosyal Yaşam"
-    title: "Kortizol ve Yaşlanma: Kronik Stresin Hücresel Etkileri"
+    title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
     image: "/assets/images/generated/guide_cortisol_stress.webp"
 ---
 

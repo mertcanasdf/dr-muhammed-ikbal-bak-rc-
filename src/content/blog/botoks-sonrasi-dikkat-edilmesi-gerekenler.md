@@ -17,11 +17,11 @@ relatedArticles:
     image: "/assets/images/generated/topics/dermal-dolgu.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir?"
+    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
-    title: "Güneş Kremi Nasıl Seçilir?"
+    title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
 ---
 

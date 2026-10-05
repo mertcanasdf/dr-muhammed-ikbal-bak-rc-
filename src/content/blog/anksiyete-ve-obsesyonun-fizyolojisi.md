@@ -17,7 +17,7 @@ relatedArticles:
     image: "/assets/images/generated/guide_cortisol_stress.webp"
   - slug: "tukenmislik-sendromu"
     category: "Zihin & Sosyal Yaşam"
-    title: "Tükenmişlik Sendromu (Burnout) ile Mücadele Kılavuzu"
+    title: "Tükenmişlik Sendromu: Biyolojik Nedenleri ve Çıkış Yolları"
     image: "/assets/images/generated/topics/tukenmislik.webp"
 ---
 

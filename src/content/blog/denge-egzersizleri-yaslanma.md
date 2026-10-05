@@ -17,11 +17,11 @@ relatedArticles:
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
-    title: "Günlük Yürüyüşün Sağlığa Etkileri"
+    title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
-    title: "Uyku Kalitesi Nasıl Artırılır?"
+    title: "Uyku Kalitesi Nasıl Artırılır? Uygulanabilir Uyku Hijyeni Rehberi"
     image: "/assets/images/generated/topics/uyku-glymphatic.webp"
 ---
 

@@ -13,11 +13,11 @@ takeaways:
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
+    title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "d3-vitamini-eksikligi"
     category: "Beslenme"
-    title: "D3 Vitamini Eksikliği ve Cilt"
+    title: "D3 Vitamini Eksikliği ve Erken Yaşlanma Arasındaki Bağ"
     image: "/assets/images/generated/topics/d3-vitamini.webp"
 ---
 
@@ -32,8 +32,8 @@ Mezoterapi, cildin nemini, elastikiyetini ve parlaklığını artıran biyo-akti
 ## Gençlik Aşıları ve H-100 Nem Aşısı
 
 Gençlik aşıları, nem oranını ve kollajen yapısını hızla toparlamak için tasarlanmış yüksek konsantrasyonlu formüllerdir:
-- **H-100 Aşısı**: İçeriğindeki yüksek oranda hyaluronik asidin yanı sıra **Mannitol** adı verilen güçlü bir antioksidan barındırır. Mannitol, hyaluronik asidin dokuda daha uzun süre kalmasını sağlar ve serbest radikallerin neden olduğu hücresel hasarı engeller.
-- **Kollajen Aşısı**: Doğrudan kolajen sentezini başlatan amino asit kombinasyonları içerir; cildin elastikiyet kaybını giderir.
+- **H-100 Aşısı**: İçeriğindeki yüksek oranda hyaluronik asidin yanı sıra **Mannitol** adı verilen güçlü bir antioksidan barındırır. Mannitol, hyaluronik asidin dokuda daha uzun süre kalmasını sağlar ve antioksidan özelliğiyle serbest radikal hasarını azaltmaya yardımcı olabilir.
+- **Kollajen Aşısı**: Kolajen yapımına katkı sağlaması hedeflenen amino asit kombinasyonları içerir; cilt elastikiyetini desteklemeyi amaçlar.
 
 ## Somon DNA: DNA Onarım Gücü
 

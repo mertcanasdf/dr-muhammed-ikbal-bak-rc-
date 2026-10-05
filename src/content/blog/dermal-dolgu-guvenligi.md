@@ -17,11 +17,11 @@ relatedArticles:
     image: "/assets/images/generated/topics/medikal-estetik.webp"
   - slug: "prp-mi-eksozom-mu"
     category: "Skin Longevity"
-    title: "PRP mi Eksozom mu? Kanıtları Nasıl Okumalı?"
+    title: "PRP mi Eksozom mu? Kanıtları ve Güvenliği Nasıl Okumalı?"
     image: "/assets/images/generated/topics/prp-eksozom.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir?"
+    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
 ---
 

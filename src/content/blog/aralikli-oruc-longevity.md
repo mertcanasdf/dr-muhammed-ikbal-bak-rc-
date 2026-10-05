@@ -18,7 +18,7 @@ relatedArticles:
     image: "/assets/images/generated/topics/otofaji.webp"
   - slug: "mavi-bolge-diyeti"
     category: "Beslenme"
-    title: "Mavi Bölge Diyeti: Dünyanın En Uzun Yaşayanlarının Sırrı"
+    title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
     image: "/assets/images/generated/topics/mavi-bolge.webp"
 ---
 
@@ -49,7 +49,7 @@ Açlık sırasında hücresel enerji sensörü AMPK (AMP-activated protein kinas
 
 ### Sirtuinlerin Aktivasyonu
 
-Aralıklı oruç, "longevity genleri" olarak bilinen sirtuin ailesini (SIRT1-7) uyarır. Sirtuinler, DNA onarımı, inflamasyon kontrolü, mitokondriyal sağlık ve epigenetik düzenleme gibi kritik süreçleri yönetir. SIRT1 ve SIRT3 özellikle hücresel stres direncini artırır ve hasarlı mitokondriyi ortadan kaldırır (mitofaji).
+Aralıklı orucun, "longevity genleri" olarak bilinen sirtuin ailesini (SIRT1-7) etkileyebileceği düşünülmektedir. Sirtuinler, DNA onarımı, inflamasyon kontrolü, mitokondriyal sağlık ve epigenetik düzenleme gibi kritik süreçleri yönetir. SIRT1 ve SIRT3 özellikle hücresel stres direncini artırır ve hasarlı mitokondriyi ortadan kaldırır (mitofaji).
 
 ## Hangi Protokol Size Uygun?
 

@@ -1,5 +1,5 @@
 ---
-title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
+title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
 date: 2026-04-10
 description: "NAD+ neden hücresel yaşlanmanın merkezindedir ve NMN takviyesinin insan çalışmalarında ne gibi sonuçlar verdiği."
 category: "Longevity Bilimi"
@@ -18,7 +18,7 @@ relatedArticles:
     image: "/assets/images/generated/topics/otofaji.webp"
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
-    title: "Telomerleri Korumak için 7 Kanıtlanmış Yöntem"
+    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
     image: "/assets/images/generated/topics/telomer.webp"
 ---
 

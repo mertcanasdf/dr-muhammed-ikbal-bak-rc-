@@ -13,15 +13,15 @@ takeaways:
 relatedArticles:
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
-    title: "Güneş Kremi Nasıl Seçilir?"
+    title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "retinoid-nedir"
     category: "Skin Longevity"
-    title: "Retinoid Nedir ve Nasıl Kullanılır?"
+    title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
-    title: "Ciltte Kollajen Kaybı Neden Olur?"
+    title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---
 

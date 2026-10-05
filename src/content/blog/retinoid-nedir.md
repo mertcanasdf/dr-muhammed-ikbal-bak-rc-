@@ -13,15 +13,15 @@ takeaways:
 relatedArticles:
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir?"
+    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
-    title: "Güneş Kremi Nasıl Seçilir?"
+    title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
     image: "/assets/images/generated/topics/cilt-sagligi-temel.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
-    title: "Ciltte Kollajen Kaybı Neden Olur?"
+    title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---
 

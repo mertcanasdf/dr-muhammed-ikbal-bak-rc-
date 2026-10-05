@@ -13,11 +13,11 @@ takeaways:
 relatedArticles:
   - slug: "otofaji-nedir"
     category: "Longevity Bilimi"
-    title: "Otofaji: Hücresel Yenilenme ve Temizlik Rehberi"
+    title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
     image: "/assets/images/generated/topics/otofaji.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
+    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 
@@ -27,9 +27,9 @@ Longevity ve sağlıklı yaşam söz konusu olduğunda genellikle beslenme ve eg
 
 Vücudumuzdaki lenfatik sistem atıkları toplar, ancak bu sistem kan-beyin bariyeri nedeniyle beyne ulaşamaz. Beynin kendine ait özel bir atık temizleme mekanizması vardır: **Glymphatic Sistem**. 
 
-Glymphatic sistem, gün boyunca beyin hücrelerinin metabolik faaliyeti sonucu biriken beta-amiloid, tau ve diğer toksik proteinleri temizler. İlginç olan şudur ki, bu sistem uyanıkken neredeyse tamamen kapalıdır. Derin uykuya (yavaş dalga uykusu - NREM) geçildiğinde:
+Glymphatic sistem, gün boyunca beyin hücrelerinin metabolik faaliyeti sonucu biriken beta-amiloid, tau ve diğer toksik proteinleri temizler. İlginç olan şudur ki, bu sistem uyanıklıkta çok daha az aktiftir. Derin uykuya (yavaş dalga uykusu - NREM) geçildiğinde:
 
-1. **Beyin Hücreleri Büzülür:** Nöronlar arasındaki mesafe yaklaşık %60 oranında genişler.
+1. **Hücreler Arası Boşluk Genişler:** Farelerde yapılan çalışmalarda uyku sırasında beyin hücreleri arasındaki boşluğun yaklaşık %60 genişlediği gözlenmiştir.
 2. **BOS Akışı Hızlanır:** Beyin omurilik sıvısı (BOS), bu genişleyen alanlardan hızla geçerek hücresel atıkları adeta süpürür ve kan dolaşımına tahliye eder.
 
 Eğer derin uykunuzu yeterince alamazsanız, bu temizlik yarım kalır. Yıllar boyunca biriken beta-amiloid plakları, nöron hasarına ve Alzheimer hastalığına zemin hazırlar.

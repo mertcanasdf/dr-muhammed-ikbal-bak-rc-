@@ -13,7 +13,7 @@ takeaways:
 relatedArticles:
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
-    title: "Günlük Yürüyüşün Sağlığa Etkileri"
+    title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
     image: "/assets/images/generated/topics/bolge-2-kardiyo.webp"
   - slug: "direnc-antrenmani-yaslanma"
     category: "Hareket"
@@ -21,7 +21,7 @@ relatedArticles:
     image: "/assets/images/generated/guide_longevity_exercise.webp"
   - slug: "biyolojik-yas-nasil-olculur"
     category: "Longevity Bilimi"
-    title: "Biyolojik Yaş Nasıl Ölçülür?"
+    title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
     image: "/assets/images/generated/topics/cellular-science.webp"
 ---
 

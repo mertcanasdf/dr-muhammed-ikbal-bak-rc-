@@ -12,7 +12,7 @@ takeaways:
 relatedArticles:
   - slug: "mavi-bolge-diyeti"
     category: "Beslenme"
-    title: "Mavi Bölge Diyeti: 100 Yıl Yaşamanın Sırrı"
+    title: "Mavi Bölge Diyeti: Uzun Yaşayan Toplulukların Beslenme Alışkanlıkları"
     image: "/assets/images/generated/topics/mavi-bolge.webp"
 ---
 
@@ -25,4 +25,4 @@ Büyük ölçekli uzun vadeli çalışmalar, hayatta net bir yönü ve amacı ol
 Zihinsel amaç ve anlam duygusu, vücuttaki kronik enflamasyon belirteçleri ile doğrudan ilişkilidir. Amacı olan kişilerin biyolojik analizlerinde, enflamasyon yollarını tetikleyen sitokinlerin (örneğin İnterlökin-6) daha düşük seviyede olduğu görülür.
 
 ### 3. Stres Direnci ve Hücre Sağlığı
-Hayata dair bir sorumluluk ve hedef bilinci taşımak, günlük stres etkenlerini "tehdit" yerine "mücadele edilebilir durumlar" olarak algılamamızı sağlar. Bu algı farkı, kortizol yükünü azaltarak telomerlerimizin aşırı kısalmasını engeller.
+Hayata dair bir sorumluluk ve hedef bilinci taşımak, günlük stres etkenlerini "tehdit" yerine "mücadele edilebilir durumlar" olarak algılamamızı sağlar. Bu algı farkı, kortizol yükünü azaltmaya ve dolaylı olarak telomer sağlığını desteklemeye yardımcı olabilir.

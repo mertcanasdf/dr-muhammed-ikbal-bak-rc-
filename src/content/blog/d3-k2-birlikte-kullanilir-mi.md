@@ -13,15 +13,15 @@ takeaways:
 relatedArticles:
   - slug: "magnezyum-eksikligi"
     category: "Beslenme"
-    title: "Magnezyum Eksikliği Belirtileri"
+    title: "Magnezyum Eksikliği Belirtileri ve Magnezyum Kaynakları"
     image: "/assets/images/generated/topics/urun-magnezyum.webp"
   - slug: "omega-3-ne-ise-yarar"
     category: "Beslenme"
-    title: "Omega-3 Ne İşe Yarar?"
+    title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
     image: "/assets/images/generated/topics/urun-omega3.webp"
   - slug: "ciltte-kollajen-kaybi"
     category: "Skin Longevity"
-    title: "Ciltte Kollajen Kaybı Neden Olur?"
+    title: "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler"
     image: "/assets/images/generated/topics/cilt-genclesmesi.webp"
 ---
 

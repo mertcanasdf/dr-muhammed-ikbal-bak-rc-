@@ -13,15 +13,15 @@ takeaways:
 relatedArticles:
   - slug: "polifenoller-ve-saglik"
     category: "Beslenme"
-    title: "Polifenoller ve Sağlık"
+    title: "Polifenoller ve Sağlık: Hangi Besinlerde Bulunur?"
     image: "/assets/images/generated/topics/cellular-science.webp"
   - slug: "d3-k2-birlikte-kullanilir-mi"
     category: "Beslenme"
-    title: "D3 ve K2 Birlikte Kullanılır mı?"
+    title: "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik"
     image: "/assets/images/generated/topics/d3-vitamini.webp"
   - slug: "lifli-beslenme-ve-mikrobiyota"
     category: "Beslenme"
-    title: "Lifli Beslenme ve Mikrobiyota"
+    title: "Lifli Beslenme ve Mikrobiyota: Bağırsak Sağlığı İçin Temel Yaklaşım"
     image: "/assets/images/generated/topics/tarifler-keto.webp"
 ---
 

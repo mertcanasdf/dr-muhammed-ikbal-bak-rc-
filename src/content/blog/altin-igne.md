@@ -8,20 +8,20 @@ readTime: "5 dk"
 takeaways:
   - "Altın iğne, fraksiyonel mikro iğneleme yöntemiyle dermis tabakasına radyofrekans (RF) enerjisi iletir."
   - "Epidermisi korurken cilt altında kontrollü termal hasar oluşturarak neokolajenez sürecini tetikler."
-  - "Akne izleri (skarlar), geniş gözenekler, ince kırışıklıklar ve cilt sarkmalarında klinik etkinliği kanıtlanmıştır."
+  - "Akne izleri (skarlar), geniş gözenekler, ince kırışıklıklar ve cilt sarkmalarında kullanılır; etkinlik kişiye ve seans sayısına göre değişir."
   - "Leke riski son derece düşük olduğundan her mevsim güvenle uygulanabilen bir anti-aging tedavisidir."
 relatedArticles:
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt Gençleşmesi"
+    title: "Senolitik Tedaviler ve Cilt Gençleşmesi: Hücresel \"Zombi\" Hücrelerin Temizlenmesi"
     image: "/assets/images/generated/nutrition-longevity.webp"
   - slug: "nmn-nad-yaslanma"
     category: "Longevity Bilimi"
-    title: "NMN ve NAD+: Hücresel Yaşlanmayı Tersine Çevirmek"
+    title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
     image: "/assets/images/generated/topics/nmn-nad.webp"
 ---
 
-Cildin yaşlanmasıyla birlikte hücrelerin kendini yenileme hızı yavaşlar, elastin ve kolajen lifleri zayıflar. **Altın İğne** (Fraksiyonel Radyofrekans), iki güçlü teknolojiyi (mikro iğneleme ve radyofrekans enerjisi) tek bir tedavi protokolünde birleştirerek bu yaşlanma süreçlerini hücresel düzeyde tersine çeviren yenilikçi bir dermakozmetik yöntemdir.
+Cildin yaşlanmasıyla birlikte hücrelerin kendini yenileme hızı yavaşlar, elastin ve kolajen lifleri zayıflar. **Altın İğne** (Fraksiyonel Radyofrekans), iki güçlü teknolojiyi (mikro iğneleme ve radyofrekans enerjisi) tek bir tedavi protokolünde birleştirerek kolajen yapımını uyarmayı hedefleyen bir dermakozmetik yöntemdir.
 
 ## İki Güçlü Teknolojinin Sinerjisi
 

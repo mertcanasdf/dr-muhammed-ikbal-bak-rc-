@@ -77,11 +77,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="quiz-grid">
 
         <div class="quiz-card">
-          <CardImage src="/assets/images/generated/quiz_body_type.webp" alt="Vücut Tipi Quizi" class="quiz-card__img" />
+          <CardImage src="/assets/images/generated/quiz_body_type.webp" alt="Yaşam Tarzı Odak Testi" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
-            <h3 class="quiz-card__title">Vücut Tipi Quizi</h3>
-            <p class="quiz-card__desc">Popüler “hormonal vücut tipi” yaklaşımından (Dr. Berg) esinlenen farkındalık anketi. Bilimsel olarak doğrulanmış bir sınıflama değildir; sonuç tıbbi tanı yerine geçmez.</p>
+            <h3 class="quiz-card__title">Yaşam Tarzı Odak Testi</h3>
+            <p class="quiz-card__desc">Belirtileriniz ve alışkanlıklarınız üzerinden öncelik verebileceğiniz yaşam tarzı alanını (stres ve uyku, enerji, sindirim, hormonal döngü) gösteren farkındalık anketi. Bilimsel bir sınıflama değildir; tanı koymaz.</p>
             <button class="btn btn-dark" onclick="openQuiz('vucut')">Teste Başla</button>
           </div>
         </div>
@@ -91,7 +91,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Longevity Skoru</h3>
-            <p class="quiz-card__desc">NOVOS ve DaVinci Labs’in yaşam tarzı değerlendirmelerinden esinlenen, 15 alışkanlık üzerinden puanlanan farkındalık anketi. Biyolojik yaş ölçümü değildir.</p>
+            <p class="quiz-card__desc">Hareket, uyku, beslenme, stres, sigara, alkol ve sosyal bağlar gibi 15 yaşam tarzı alışkanlığı üzerinden puanlanan farkındalık anketi. Biyolojik yaş ölçümü değildir.</p>
             <button class="btn btn-dark" onclick="openQuiz('longevity')">Teste Başla</button>
           </div>
         </div>
@@ -101,34 +101,34 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Bağırsak Sağlığı Testi</h3>
-            <p class="quiz-card__desc">The Gut Health Doctor’ın yaşam tarzı önerilerinden esinlenen farkındalık anketi. Bağırsak sağlığını etkileyen alışkanlıklarınızı gözden geçirin; mikrobiyom testi değildir.</p>            <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Teste Başla</button>
+            <p class="quiz-card__desc">Bitkisel çeşitlilik, lif, fermente gıdalar, uyku ve stres gibi bağırsak sağlığını etkileyen alışkanlıklarınızı gözden geçiren farkındalık anketi; mikrobiyom testi değildir.</p>            <button class="btn btn-dark" onclick="openQuiz('bagırsak')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <CardImage src="/assets/images/generated/quiz_stress_cortisol.webp" alt="Stres ve Kortizol" class="quiz-card__img" />
+          <CardImage src="/assets/images/generated/quiz_stress_cortisol.webp" alt="Stres Belirtileri Anketi" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
-            <h3 class="quiz-card__title">Stres ve Kortizol Profili</h3>
-            <p class="quiz-card__desc">Women's Health Network’ün adrenal değerlendirmesinden uyarlanan farkındalık anketi. Stresle ilişkili belirtileri gözden geçirmenize yardımcı olur; kortizol düzeyini ölçmez.</p>            <button class="btn btn-dark" onclick="openQuiz('stres')">Teste Başla</button>
+            <h3 class="quiz-card__title">Stres Belirtileri Anketi</h3>
+            <p class="quiz-card__desc">Uyku, enerji ve sinirlilik gibi stresle ilişkilendirilebilecek belirtileri gözden geçirmenize yardımcı olan farkındalık anketi. Kortizol düzeyini ölçmez; tanı koymaz.</p>            <button class="btn btn-dark" onclick="openQuiz('stres')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <CardImage src="/assets/images/generated/quiz_inflammation.webp" alt="Enflamasyon ve Otoimmünite" class="quiz-card__img" />
+          <CardImage src="/assets/images/generated/quiz_inflammation.webp" alt="Enflamasyonla İlişkili Belirtiler" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
-            <h3 class="quiz-card__title">Enflamasyon & Otoimmünite Riski</h3>
+            <h3 class="quiz-card__title">Enflamasyonla İlişkili Belirtiler</h3>
             <p class="quiz-card__desc">Enflamasyonla ilişkilendirilen belirti ve alışkanlıkları gözden geçirin: beslenme, eklem ve bağırsak hassasiyeti. Laboratuvar testinin yerine geçmez.</p>            <button class="btn btn-dark" onclick="openQuiz('enflamasyon')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <CardImage src="/assets/images/generated/quiz_mitochondria.webp" alt="Mitokondri ve Hücresel Enerji" class="quiz-card__img" />
+          <CardImage src="/assets/images/generated/quiz_mitochondria.webp" alt="Enerji ve Yaşam Tarzı Skoru" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
-            <h3 class="quiz-card__title">Mitokondri & Hücresel Enerji Skoru</h3>
-            <p class="quiz-card__desc">Enerji düzeyinizle ilişkili yaşam tarzı faktörlerini gözden geçirin: egzersiz, uyku, beslenme ve hormesis.</p>            <button class="btn btn-dark" onclick="openQuiz('mitokondri')">Teste Başla</button>
+            <h3 class="quiz-card__title">Enerji ve Yaşam Tarzı Skoru</h3>
+            <p class="quiz-card__desc">Enerji düzeyinizle ilişkili yaşam tarzı faktörlerini gözden geçirin: egzersiz, kuvvet, uyku ve toparlanma. Mitokondri işlevini ölçmez.</p>            <button class="btn btn-dark" onclick="openQuiz('mitokondri')">Teste Başla</button>
           </div>
         </div>
 
@@ -142,10 +142,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
 
         <div class="quiz-card">
-          <CardImage src="/assets/images/generated/quiz_skin_health.webp" alt="Cilt Sağlığı ve Gençleşme Testi" class="quiz-card__img" />
+          <CardImage src="/assets/images/generated/quiz_skin_health.webp" alt="Cilt Sağlığı Alışkanlıkları Testi" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
-            <h3 class="quiz-card__title">Cilt Sağlığı & Gençleşme Testi</h3>
+            <h3 class="quiz-card__title">Cilt Sağlığı Alışkanlıkları Testi</h3>
             <p class="quiz-card__desc">Günlük bakım rutini, beslenme, uyku ve yaşam tarzı alışkanlıklarınız cilt sağlığınızı nasıl etkiliyor? 12 soruda cilt sağlığı skorunuzu öğrenin.</p>            <button class="btn btn-dark" onclick="openQuiz('cilt-sagligi')">Teste Başla</button>
           </div>
         </div>
@@ -205,7 +205,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <script is:inline>
   const QUIZZES = {
     vucut: {
-      title: 'Vücut Tipi Quizi',
+      title: 'Yaşam Tarzı Odak Testi',
       meta: '12 soru · 3 dakika',
       questions: [
         { text: 'Yağ birikiminin en çok hangi bölgede olduğunu hissediyorsunuz?', options: [{ label: 'Karın ve bel çevresinde (stres kilogramı)', type: 'adrenal' }, { label: 'Tüm vücutta eşit dağılmış', type: 'tiroid' }, { label: 'Karın altında, pot belly görünümü', type: 'karaciger' }, { label: 'Kalça, uyluk ve bacaklarda', type: 'over' }] },
@@ -217,16 +217,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         { text: 'Hangi fiziksel belirtilerle en çok karşılaşıyorsunuz?', options: [{ label: 'Çarpıntı, terleme, baş ağrısı', type: 'adrenal' }, { label: 'Soğuk eller-ayaklar, saç dökülmesi, kabızlık', type: 'tiroid' }, { label: 'Karın şişliği, gaz, karaciğer bölgesinde hassasiyet', type: 'karaciger' }, { label: 'Adet düzensizliği, PMS, su tutma', type: 'over' }] },
         { text: 'Sabahları ayna karşısında ne fark ediyorsunuz?', options: [{ label: 'Gözaltı morlukları veya şişlik', type: 'adrenal' }, { label: 'Soluk ten, kabaran yüz', type: 'tiroid' }, { label: 'Sarımtırak ten, dil üzerinde beyaz tabaka', type: 'karaciger' }, { label: 'Hormonlarla ilişkili cilt sorunları (akne, yağlanma)', type: 'over' }] },
         { text: 'Yemeklerden sonra sindirim sisteminiz nasıl tepki veriyor?', options: [{ label: 'Bazen, özellikle stresli dönemlerde mideme kramplar giriyor', type: 'adrenal' }, { label: 'Genellikle genel bir yavaşlık, aşırı şişkinlik ve kabızlık eşlik ediyor', type: 'tiroid' }, { label: 'Sağ kaburga altında dolgunluk, hazımsızlık veya gaz sık yaşanıyor', type: 'karaciger' }, { label: 'Genellikle sindirim sistemim gayet rahattır (özel günler hariç)', type: 'over' }] },
-        { text: 'Egzersiz yaptıktan sonra kendinizi nasıl hissediyorsunuz?', options: [{ label: 'Aşırı bitkin düşüyorum ve toparlanmam saatler sürüyor', type: 'adrenal' }, { label: 'Genellikle yorgun ve halsiz hissediyorum ama normal sınırlarda kalıyor', type: 'tiroid' }, { label: 'Daha enerjik, hafiflemiş ve toksinlerden arınmış gibi hissediyorum', type: 'karaciger' }, { label: 'Genellikle gayet dengeli ve iyi hissediyorum', type: 'over' }] },
+        { text: 'Egzersiz yaptıktan sonra kendinizi nasıl hissediyorsunuz?', options: [{ label: 'Aşırı bitkin düşüyorum ve toparlanmam saatler sürüyor', type: 'adrenal' }, { label: 'Genellikle yorgun ve halsiz hissediyorum ama normal sınırlarda kalıyor', type: 'tiroid' }, { label: 'Daha enerjik ve hafiflemiş hissediyorum', type: 'karaciger' }, { label: 'Genellikle gayet dengeli ve iyi hissediyorum', type: 'over' }] },
         { text: 'Ortam sıcaklığına karşı genel duyarlılığınız nasıl?', options: [{ label: 'Sıcak-soğuk geçişlerinde terleme, çarpıntı veya anksiyete hissi oluşuyor', type: 'adrenal' }, { label: 'Soğuğa aşırı hassasım; ellerim ve ayaklarım neredeyse hiç ısınmaz', type: 'tiroid' }, { label: 'Vücudumda içsel bir hararet var, sıcak basması ve terleme sık olur', type: 'karaciger' }, { label: 'Dönemsel sıcak basmaları yaşıyorum', type: 'over' }] },
         { text: 'Zihinsel odaklanma ve gün içi konsantrasyon durumunuzu en iyi hangisi tarif eder?', options: [{ label: 'Yoğun beyin sisi yaşıyorum; özellikle öğleden sonra odaklanmak imkansızlaşıyor', type: 'adrenal' }, { label: 'Sürekli bir uyuşukluk, odaklanma güçlüğü ve zihinsel yavaşlık hissediyorum', type: 'tiroid' }, { label: 'Sabahları odaksız ve huysuzum ancak gün ortasında zihnim tamamen açılıyor', type: 'karaciger' }, { label: 'Hormonal döngüme bağlı olarak konsantrasyonum çok değişken', type: 'over' }] },
       ],
       scoring: 'type',
       types: {
-        adrenal: { label: 'Adrenal Tip', title: 'Adrenal Vücut Tipi', desc: 'Vücut tipiniz Adrenal tipe işaret ediyor. Bu tipte kortizol ve adrenalin hormonları baskın rol oynar. Stres bel ve karın çevresinde yağ birikimine, enerji çöküşlerine ve uyku sorunlarına yol açar.', pct: 75, tips: ['Günde 7–9 saat kaliteli uyku hedefleyin', 'Magnezyum ve B vitamini takviyeleri adrenal desteği sağlar', 'Aralıklı oruç (16:8) kortizol ritmine zarar vermeden uygulanabilir', 'Tuz kısıtlamasından kaçının — adrenal tip tuz ihtiyacı duyar', 'Meditasyon veya nefes egzersizleri ile stres yönetimi kritik'] },
-        tiroid: { label: 'Tiroid Tip', title: 'Tiroid Vücut Tipi', desc: 'Vücut tipiniz Tiroid tipe işaret ediyor. Tiroid hormonu yavaşladığında tüm vücutta yağlanma, yorgunluk, soğukluk hissi ve metabolizma düşüklüğü görülür.', pct: 68, tips: ['İyot ve selenyum kaynakları tüketin (deniz ürünleri, ceviz)', 'Guatrojenik gıdaları pişirerek tüketin', 'D3 vitamini düzeyinizi kontrol ettirin', 'Düşük yoğunluklu egzersiz metabolizmayı uyarır', 'Gluten hassasiyeti tiroid üzerinde olumsuz etki yapabilir'] },
-        karaciger: { label: 'Karaciğer Tip', title: 'Karaciğer Vücut Tipi', desc: 'Vücut tipiniz Karaciğer tipe işaret ediyor. Karaciğer aşırı yüklendiğinde karın altında pot belly tarzı yağlanma, şişkinlik ve sindirim sorunları görülür.', pct: 65, tips: ['Alkol ve işlenmiş yağları sınırlandırın', 'Hardal yaprağı, enginar, turp karaciğeri destekler', 'Sabah limonlu su karaciğer safra akışını uyarır', 'Sülfür içeren sebzeler (sarımsak, soğan) önemli', 'Derin nefes egzersizleri diyafram yoluyla karaciğere masaj yapar'] },
-        over: { label: 'Over Tip', title: 'Over / Gonad Vücut Tipi', desc: 'Vücut tipiniz Over (Gonad) tipe işaret ediyor. Östrojen baskınlığı kalça, uyluk ve alt vücut yağlanmasına, duygusal değişkenliğe ve hormonal döngü sorunlarına neden olur.', pct: 70, tips: ['Çapraz sebzeler (brokoli, karnabahar) östrojen dengesini destekler', 'Şeker ve rafine karbonhidratları azaltın', 'Zinc ve B6 vitamini progesterone sentezi için gereklidir', 'Güçlendirme antrenmanı önceliklidir', 'Stres yönetimi kritik — kortizol progesteron çalar'] },
+        adrenal: { label: "Stres & Uyku Odağı", title: "Öncelikli Odak: Stres ve Uyku", desc: "Yanıtlarınız en çok stres, uyku ve enerji dalgalanmalarıyla ilgili belirtilerde yoğunlaşıyor. Bu bir tanı ya da \"vücut tipi\" değildir; yaşam tarzında öncelik verebileceğiniz alanı gösterir.", pct: 75, tips: ["Her gün benzer saatlerde yatıp kalkmayı ve 7 saat ve üzeri uykuyu hedefleyin","Kafeini öğleden sonra azaltın","Yavaş nefes, yürüyüş ve sosyal destek stresle başa çıkmayı kolaylaştırır","Uzun süren uykusuzluk, çarpıntı veya kaygıda hekime başvurun"] },
+        tiroid: { label: "Enerji & Metabolizma Odağı", title: "Öncelikli Odak: Enerji ve Metabolizma", desc: "Yanıtlarınız en çok sürekli yorgunluk, üşüme, kilo değişimi ve yavaşlık hissinde yoğunlaşıyor. Bu belirtiler yaşam tarzıyla ilişkili olabileceği gibi tiroid hastalıkları, kansızlık veya vitamin eksikliği gibi tıbbi nedenlerle de ortaya çıkabilir.", pct: 68, tips: ["Belirtiler haftalardır sürüyorsa hekiminize başvurun; tiroid fonksiyon testleri ve kan sayımı gibi tetkikler gerekebilir","Takviye kullanmadan önce eksiklik olup olmadığını kan testiyle öğrenin","Düzenli hareket ve yeterli protein enerji düzeyini destekler","Düzenli uyku saatleri yorgunlukla başa çıkmada temeldir"] },
+        karaciger: { label: "Sindirim & Beslenme Odağı", title: "Öncelikli Odak: Sindirim ve Beslenme", desc: "Yanıtlarınız en çok şişkinlik, hazımsızlık ve karın bölgesinde yağlanmayla ilgili belirtilerde yoğunlaşıyor. Karın çevresinde yağlanma, karaciğer yağlanması ve insülin direnciyle ilişkili olabilir; bu test bir tanı koymaz.", pct: 65, tips: ["Alkolü ve işlenmiş gıdaları sınırlayın","Sebze, baklagil ve tam tahıl ağırlıklı, lifli bir beslenme düzeni hedefleyin","Bel çevreniz artıyorsa kan şekeri, lipit ve karaciğer testleri için hekiminize danışın","Sarılık, sağ üst karında ağrı veya istemsiz kilo kaybında gecikmeden hekime başvurun"] },
+        over: { label: "Hormonal Döngü Odağı", title: "Öncelikli Odak: Hormonal Döngü", desc: "Yanıtlarınız en çok adet döngüsüyle değişen belirtilerde (adet düzensizliği, PMS, sıcak basması, cilt değişiklikleri) yoğunlaşıyor. Bu belirtilerin polikistik over sendromu, tiroid sorunları veya menopoz geçişi gibi tıbbi nedenleri olabilir.", pct: 70, tips: ["Düzensiz adet, belirgin akne veya kıllanma artışında kadın hastalıkları uzmanına başvurun","Düzenli kuvvet antrenmanı ve dengeli beslenme metabolik sağlığı destekler","Rafine şeker ve işlenmiş gıdaları azaltın","Takviye ya da hormon kullanmadan önce hekiminize danışın"] },
       }
     },
     longevity: {
@@ -234,28 +234,28 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       meta: '15 soru · 4 dakika',
       questions: [
         { text: 'Haftada kaç gün en az 30 dakika egzersiz yapıyorsunuz?', options: [{ label: '0–1 gün', pts: 0 }, { label: '2–3 gün', pts: 1 }, { label: '4–5 gün', pts: 2 }, { label: '6–7 gün', pts: 3 }] },
-        { text: 'Gecede ortalama kaç saat uyuyorsunuz?', options: [{ label: '5 saatten az', pts: 0 }, { label: '5–6 saat arası', pts: 1 }, { label: '7–8 saat (ideal)', pts: 3 }, { label: '9 saatten fazla', pts: 1 }] },
+        { text: 'Gecede ortalama kaç saat uyuyorsunuz?', options: [{ label: '5 saatten az', pts: 0 }, { label: '5–6 saat arası', pts: 1 }, { label: '7–8 saat', pts: 3 }, { label: '9 saatten fazla', pts: 1 }] },
         { text: 'Sebze ve meyve tüketiminiz nasıl?', options: [{ label: 'Neredeyse hiç yemiyorum', pts: 0 }, { label: 'Haftada 1–2 kez', pts: 1 }, { label: 'Her gün 1–2 porsiyon', pts: 2 }, { label: 'Her gün 5+ porsiyon', pts: 3 }] },
         { text: 'İşlenmiş ve hazır gıda tüketiminiz ne sıklıkla?', options: [{ label: 'Her öğünde veya her gün', pts: 0 }, { label: 'Haftada 4–6 kez', pts: 1 }, { label: 'Haftada 1–3 kez', pts: 2 }, { label: 'Nadiren veya hiç', pts: 3 }] },
         { text: 'Stres seviyenizi nasıl değerlendiriyorsunuz?', options: [{ label: 'Sürekli yüksek stres altındayım', pts: 0 }, { label: 'Sıklıkla stresli hissediyorum', pts: 1 }, { label: 'Orta düzey, kontrol altında', pts: 2 }, { label: 'Genellikle sakin ve dengeli', pts: 3 }] },
         { text: 'Sigara veya tütün ürünleri kullanıyor musunuz?', options: [{ label: 'Evet, düzenli kullanıyorum', pts: 0 }, { label: 'Ara sıra kullanıyorum', pts: 1 }, { label: 'Bıraktım (1+ yıl önce)', pts: 2 }, { label: 'Hiç kullanmadım', pts: 3 }] },
         { text: 'Alkol tüketiminiz nasıl?', options: [{ label: 'Her gün 2+ içki', pts: 0 }, { label: 'Haftada birkaç kez', pts: 1 }, { label: 'Ayda birkaç kez', pts: 2 }, { label: 'Nadiren veya hiç', pts: 3 }] },
         { text: 'Sosyal bağlantılarınız ve topluluk hissiniz nasıl?', options: [{ label: 'Çok az sosyal ilişkim var, yalnız hissediyorum', pts: 0 }, { label: 'Sınırlı ama var', pts: 1 }, { label: 'Orta düzeyde sosyal bağlantılarım var', pts: 2 }, { label: 'Güçlü, destekleyici ilişkilerim var', pts: 3 }] },
-        { text: 'Aralıklı oruç veya yemek pencerenizi kısıtlıyor musunuz?', options: [{ label: 'Hayır, gün boyunca atıştırıyorum', pts: 0 }, { label: 'Bazen öğün atlıyorum', pts: 1 }, { label: 'Düzenli 16:8 veya benzeri protokol', pts: 2 }, { label: 'Düzenli oruç, OMAD veya uzun oruçlar', pts: 3 }] },
-        { text: 'Günlük güneş ışığına maruziyetiniz nasıl?', options: [{ label: 'Neredeyse hiç güneş görmüyorum', pts: 0 }, { label: 'Haftada birkaç kez kısa', pts: 1 }, { label: 'Her gün 15–30 dakika (ideal)', pts: 3 }, { label: 'Çok fazla, korumasız maruziyet', pts: 1 }] },
+        { text: 'Öğün düzeniniz nasıl?', options: [{ label: 'Gün boyu düzensiz atıştırıyorum ve gece geç saatte yiyorum', pts: 0 }, { label: 'Öğün saatlerim çoğunlukla düzensiz', pts: 1 }, { label: 'Çoğu gün düzenli öğün saatlerim var', pts: 2 }, { label: 'Düzenli öğünler; gece geç saatte yemek yemiyorum', pts: 3 }] },
+        { text: 'Günlük güneş ışığına maruziyetiniz nasıl?', options: [{ label: 'Neredeyse hiç güneş görmüyorum', pts: 0 }, { label: 'Haftada birkaç kez kısa', pts: 1 }, { label: 'Her gün 15–30 dakika', pts: 3 }, { label: 'Çok fazla, korumasız maruziyet', pts: 1 }] },
         { text: 'Her gün düzenli olarak diş ipi kullanıyor musunuz?', options: [{ label: 'Evet, her gün düzenli olarak diş ipi kullanırım', pts: 3 }, { label: 'Evet, dişlerimi fırçalarım ama diş ipini ara sıra kullanırım', pts: 1 }, { label: 'Hayır, diş ipi kullanma alışkanlığım yok', pts: 0 }] },
         { text: 'Haftada kaç gün direnç/kuvvet antrenmanı yapıyorsunuz?', options: [{ label: '3 gün veya daha fazla', pts: 3 }, { label: 'Haftada 1–2 gün', pts: 2 }, { label: 'Düzensiz veya çok nadir', pts: 1 }, { label: 'Hiç kuvvet antrenmanı yapmıyorum', pts: 0 }] },
         { text: 'Ailenizde kronik hastalıklara yakalanmadan 85+ yaşını görmüş bireyler var mı?', options: [{ label: 'Evet, birden fazla uzun yaşayan aile büyüğüm var', pts: 3 }, { label: 'Evet, en az bir kişi var', pts: 2 }, { label: 'Hayır veya aile geçmişimi tam bilmiyorum', pts: 1 }] },
-        { text: 'Günde ortalama ne kadar temiz su tüketiyorsunuz?', options: [{ label: '2–3 litre (düzenli ve ideal hidrasyon)', pts: 3 }, { label: '1–2 litre arası', pts: 2 }, { label: '1 litreden az, sadece susadıkça içerim', pts: 0 }, { label: '4 litreden fazla veya çoğunlukla çay/kahve tüketimi', pts: 1 }] },
+        { text: 'Günde ortalama ne kadar temiz su tüketiyorsunuz?', options: [{ label: 'Gün boyu düzenli, yaklaşık 2 litre ve üzeri', pts: 3 }, { label: '1–2 litre arası', pts: 2 }, { label: '1 litreden az, sadece susadıkça içerim', pts: 0 }, { label: '4 litreden fazla veya çoğunlukla çay/kahve tüketimi', pts: 1 }] },
         { text: 'Zihninizi aktif tutmak için ne kadar sıklıkla yeni bilgiler öğreniyor, kitap okuyor veya bulmaca çözüyorsunuz?', options: [{ label: 'Her gün düzenli olarak zihnimi zorlayacak aktiviteler yaparım', pts: 3 }, { label: 'Haftada birkaç kez vakit ayırırım', pts: 2 }, { label: 'Nadiren veya rutin zihinsel işler dışına çıkmam', pts: 1 }, { label: 'Zihnimi aktif tutacak özel bir uğraşım yok', pts: 0 }] },
       ],
       scoring: 'points',
       maxPoints: 45,
       levels: [
-        { min: 0, max: 14, label: 'Kritik Bölge', title: 'Birçok Alışkanlık Gözden Geçirilmeli', pct: 20, desc: 'Yanıtlarınız, sağlıklı yaş almayı destekleyen alışkanlıkların birçoğunda gelişime açık alanlar olduğunu gösteriyor.', tips: ['Önce uyku kalitesini düzeltin', 'Günlük 15 dakika yürüyüşle başlayın', 'İşlenmiş gıdaları azaltmak en hızlı etki yaratan değişikliktir', 'D3 vitamini ve Omega-3 takviyesi başlangıç için idealdir'] },
-        { min: 15, max: 27, label: 'Gelişim Alanı', title: 'Ortalama — Birkaç Kritik Faktör Dikkat İster', pct: 50, desc: 'Bazı alanlarda iyi gidiyorsunuz; birkaç alışkanlık üzerinde çalışmak fark yaratabilir.', tips: ['Egzersiz sıklığını haftada 4 güne çıkarmayı hedefleyin', 'Uyku süresini 7 saatin altına düşürmeyin', 'Stres yönetimi için günlük bir pratik belirleyin', 'Bitki çeşitliliğinizi artırın'] },
-        { min: 28, max: 36, label: 'İyi Skor', title: 'İyi — Alışkanlıklarınız Büyük Ölçüde Destekleyici', pct: 78, desc: 'Longevity açısından güçlü bir temel oluşturmuşsunuz.', tips: ['Bölge 2 kardiyo ile mitokondriyal kapasiteyi artırın', 'Protein alımını optimize edin', 'Sauna veya soğuk duş gibi hormesis protokollerini deneyin', 'Yıllık kan tahlili ile biyobelirteçleri takip edin'] },
-        { min: 37, max: 45, label: 'Mükemmel', title: 'Mükemmel — Güçlü Longevity Alışkanlıkları', pct: 96, desc: 'Longevity yaşam tarzını büyük ölçüde benimsemişsiniz.', tips: ['Epigenetik yaş testleri araştırma aşamasındadır; yaptırmayı düşünüyorsanız sonuçları hekiminizle değerlendirin', 'NMN, Resveratrol gibi longevity takviyelerini araştırın', 'VO2 max takipi ile kardiyorespiratuar kapasiteyi izleyin', 'Kan şekeri monitörü ile metabolik sağlığı gerçek zamanlı takip edin'] },
+        { min: 0, max: 14, label: "Gelişime Açık", title: "Birçok Alışkanlık Gözden Geçirilebilir", pct: 20, desc: "Yanıtlarınız, sağlıklı yaş almayı destekleyen alışkanlıkların birçoğunda gelişime açık alanlar olduğunu gösteriyor.", tips: ["Önce uyku düzenine odaklanın: her gün benzer saatlerde 7 saat ve üzeri uyku","Günde 15–20 dakikalık yürüyüşle başlayın, süreyi kademeli artırın","İşlenmiş gıdaları azaltıp sebze ve baklagilleri artırın","Sigara kullanıyorsanız bırakmak en büyük kazanımdır; destek için hekiminize başvurun"] },
+        { min: 15, max: 27, label: "Orta", title: "Orta — Birkaç Alışkanlık Fark Yaratabilir", pct: 50, desc: "Bazı alanlarda iyi gidiyorsunuz; birkaç alışkanlık üzerinde çalışmak fark yaratabilir.", tips: ["Haftada en az 150 dakika orta yoğunlukta hareketi hedefleyin","Haftada 2 gün kuvvet antrenmanı ekleyin","Stres yönetimi için günlük bir pratik belirleyin: yürüyüş, yavaş nefes ya da sosyal bağlantı","Bitkisel gıda çeşitliliğinizi artırın"] },
+        { min: 28, max: 36, label: "İyi", title: "İyi — Alışkanlıklarınız Büyük Ölçüde Destekleyici", pct: 78, desc: "Sağlıklı yaş almayı destekleyen güçlü bir temel oluşturmuşsunuz.", tips: ["Aerobik kapasiteyi Zone 2 kardiyo ve uygunsa haftada bir yüksek yoğunluklu seansla destekleyin","Yaş ilerledikçe yeterli protein alımına dikkat edin","Yaşınıza uygun tarama ve kontrolleri hekiminizle planlayın","Alışkanlıklarınızı sürdürülebilir kılmaya odaklanın"] },
+        { min: 37, max: 45, label: "Çok İyi", title: "Çok İyi — Güçlü Sağlıklı Yaşam Alışkanlıkları", pct: 96, desc: "Sağlıklı yaş almayı destekleyen alışkanlıkların büyük bölümünü benimsemişsiniz.", tips: ["Kazandığınız alışkanlıkları korumak en değerli adımdır","Yaşınıza uygun tarama testlerini (tansiyon, kan şekeri, lipitler, kanser taramaları) aksatmayın","Epigenetik yaş testleri araştırma aşamasındadır; yaptırmayı düşünüyorsanız sonuçları hekiminizle değerlendirin","Takviyeler sağlıklı alışkanlıkların yerini tutmaz; kullanmadan önce hekiminize danışın"] },
       ]
     },
     'bagırsak': {
@@ -280,14 +280,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 42,
       levels: [
-        { min: 0, max: 14, label: 'Dikkat Gerektiriyor', title: 'Bağırsak Sağlığınız Ciddi Destek İsteyebilir', pct: 22, desc: 'Bağırsak mikrobiyomunuz önemli baskı altında olabilir.', tips: ['Probiyotik gıdalar ekleyin (kefir, yoğurt, turşu)', 'İşlenmiş şeker ve tatlandırıcıları azaltın', 'Bitkisel çeşitlilik en güçlü mikrobiyom destekçisidir', 'Stres yönetimi bağırsak-beyin aksını doğrudan etkiler'] },
-        { min: 15, max: 25, label: 'Gelişime Açık', title: 'Ortalama Bağırsak Sağlığı', pct: 52, desc: 'Bağırsak sağlığınız ortalama düzeyde.', tips: ['Haftada 30 farklı bitki hedefleyin', 'Fermente gıda tüketimini artırın', 'Antibiyotik kullandıktan sonra mutlaka probiyotik alın', 'Uyku süresini 7 saatin üzerine çıkarın'] },
-        { min: 26, max: 34, label: 'İyi', title: 'İyi Bağırsak Sağlığı — Güçlü Mikrobiyom', pct: 76, desc: 'Bağırsak sağlığınız iyi durumda.', tips: ['Polifenol zengini gıdaları artırın', 'Mevsimsel ve yerel üretim gıdalar daha zengin mikrobiyom destekler', 'Stres yönetimini sürdürün'] },
-        { min: 35, max: 42, label: 'Mükemmel', title: 'Olağanüstü Bağırsak Sağlığı', pct: 95, desc: 'Mikrobiyomunuz sağlıklı bir çeşitliliğe ve dengeye sahip.', tips: ['Bağırsak mikrobiyom testi ile profilinizi somut olarak görün', 'Mevsimsel gıda programınızı çeşitlendirin', 'Polifenol ve prebiyotik takviyelerini araştırın'] },
+        { min: 0, max: 14, label: "Gelişime Açık", title: "Bağırsak Sağlığını Destekleyen Alışkanlıklar Geliştirilebilir", pct: 22, desc: "Yanıtlarınız, bağırsak sağlığını etkileyen birçok alışkanlıkta gelişime açık alanlar olduğunu gösteriyor. Bu bir mikrobiyom testi değildir.", tips: ["Sebze, meyve, baklagil ve tam tahıl gibi bitkisel gıdaların çeşitliliğini kademeli artırın","Kefir ve yoğurt gibi fermente gıdaları beslenmenize ekleyebilirsiniz","İşlenmiş şeker ve şekerli içecekleri azaltın","Süren karın ağrısı, dışkıda kan, istemsiz kilo kaybı veya dışkılama alışkanlığında değişiklik varsa hekime başvurun"] },
+        { min: 15, max: 25, label: "Orta", title: "Orta Düzey — Birkaç Değişiklik Fark Yaratabilir", pct: 52, desc: "Bağırsak sağlığını destekleyen alışkanlıklarınız orta düzeyde.", tips: ["Haftada 30 farklı bitkisel gıdayı hedefleyebilirsiniz","Fermente gıda tüketimini artırın","Antibiyotikleri yalnızca hekim önerisiyle ve önerilen süre boyunca kullanın","Uyku süresini 7 saatin üzerine çıkarın"] },
+        { min: 26, max: 34, label: "İyi", title: "İyi — Destekleyici Alışkanlıklar", pct: 76, desc: "Bağırsak sağlığını destekleyen alışkanlıklarınız iyi düzeyde.", tips: ["Lif ve polifenol içeren gıdalardan (sebze, meyve, zeytinyağı, baklagil) beslenmeye devam edin","Mevsimine uygun, çeşitli gıdalar tüketin","Stres yönetimini sürdürün"] },
+        { min: 35, max: 42, label: "Çok İyi", title: "Çok İyi — Bağırsak Dostu Bir Yaşam Tarzı", pct: 95, desc: "Bağırsak sağlığını destekleyen alışkanlıkların büyük bölümünü benimsemişsiniz.", tips: ["Çeşitli ve lifli beslenme düzeninizi sürdürün","Ticari mikrobiyom testlerinin kişisel sağlık kararlarındaki faydası henüz sınırlıdır","Takviyeler yerine gıda çeşitliliğine odaklanın"] },
       ]
     },
     stres: {
-      title: 'Stres ve Kortizol Profili',
+      title: 'Stres Belirtileri Anketi',
       meta: '16 soru · 4 dakika',
       questions: [
         { text: 'Uyuya dalmakta veya gece uykuyu sürdürmekte güçlük çekiyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
@@ -310,14 +310,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 16,
       levels: [
-        { min: 0, max: 4, label: 'Dengeli', title: 'Kortizol Dengeniz Sağlıklı', pct: 88, desc: 'Adrenal bezleriniz iyi çalışıyor ve kortizol ritminiz dengeli görünüyor.', tips: ['Mevcut uyku ve stres düzeninizi koruyun', 'Adaptogen bitkiler önleyici kullanılabilir', 'Düzenli egzersiz kortizol ritmini güçlü tutar'] },
-        { min: 5, max: 8, label: 'Hafif Yüksek', title: 'Hafif Adrenal Yüklenme — Dikkat Edin', pct: 55, desc: 'Adrenal bezleriniz normalden biraz daha fazla çalışıyor.', tips: ['Magnezyum glisin akşam saatlerinde kortizolü düşürür', 'Kafein tüketimini öğleden sonra sıfıra indirin', 'Adaptogen bitkiler (Ashwagandha) denenebilir', 'Günde 10 dakika derin nefes veya meditasyon'] },
-        { min: 9, max: 12, label: 'Orta Düzey', title: 'Orta Düzey Adrenal Stres — Değişiklik Gerekli', pct: 35, desc: 'Kortizol seviyeniz kronik olarak yüksek olabilir.', tips: ['Uyku öncelik #1 olmalı', 'Stres kaynaklarınızı aktif olarak azaltın', 'Yüksek yoğunluklu egzersizi geçici olarak azaltın', 'B5 vitamini adrenal destek için kritik'] },
-        { min: 13, max: 16, label: 'Yüksek Yük', title: 'Yüksek Kortizol Yükü — Profesyonel Destek Önerilir', pct: 12, desc: 'Adrenal bezleriniz uzun süredir aşırı yüklenmiş olabilir.', tips: ['Doktor gözetiminde kortizol ve DHEA testi yaptırın', 'Tüm yüksek yoğunluklu egzersizi geçici olarak bırakın', 'Adaptogen protokolü: Ashwagandha + Rhodiola + Eleuthero', 'Günde minimum 8 saat uyku ve öğle uykusu deneyin'] },
+        { min: 0, max: 4, label: "Az", title: "Stresle İlişkili Belirtiler Az", pct: 88, desc: "Yanıtlarınız stresle ilişkilendirilebilecek belirtilerin az olduğunu gösteriyor. Bu anket kortizol düzeyini ölçmez.", tips: ["Mevcut uyku ve hareket düzeninizi koruyun","Düzenli egzersiz stresle başa çıkmayı destekler","Sosyal bağlarınızı güçlü tutun"] },
+        { min: 5, max: 8, label: "Hafif", title: "Hafif Düzeyde Stres Belirtileri", pct: 55, desc: "Stresle ilişkilendirilebilecek bazı belirtiler bildirdiniz.", tips: ["Kafein tüketimini öğleden sonra azaltın","Günde birkaç dakika yavaş nefes veya farkındalık pratiği deneyin","Her gün kısa bir yürüyüşe çıkın","Uyku saatlerinizi düzenli tutun"] },
+        { min: 9, max: 12, label: "Orta", title: "Orta Düzeyde Stres Belirtileri", pct: 35, desc: "Bildirdiğiniz belirtiler uzun süreli strese işaret ediyor olabilir; benzer belirtilere başka sağlık sorunları da yol açabilir.", tips: ["Uykuyu önceliklendirin","Stres kaynaklarınızı belirleyip azaltmaya çalışın","Algılanan Stres Ölçeği (PSS-10) ile stres düzeyinizi ayrıca değerlendirebilirsiniz","Belirtiler haftalardır sürüyorsa hekiminize danışın"] },
+        { min: 13, max: 16, label: "Belirgin", title: "Belirgin Stres Belirtileri — Hekime Başvurun", pct: 12, desc: "Çok sayıda belirti bildirdiniz. Çarpıntı, baş dönmesi, sık hastalanma ve sürekli yorgunluk stres dışında tiroid hastalıkları, kansızlık veya kalp ritim bozuklukları gibi tıbbi nedenlerle de ortaya çıkabilir.", tips: ["Belirtilerin nedenini değerlendirmek için bir hekimle görüşün","Kaygı veya çökkünlük eşlik ediyorsa bir ruh sağlığı uzmanından destek alın","Bitkisel ürün ve takviyeleri hekiminize danışmadan kullanmayın","Uyku, hareket ve sosyal destek toparlanmanın temel taşlarıdır"] },
       ]
     },
     enflamasyon: {
-      title: 'Enflamasyon & Otoimmünite Riski',
+      title: 'Enflamasyonla İlişkili Belirtiler Anketi',
       meta: '8 soru · 2 dakika',
       questions: [
         { text: 'Sık sık eklem ağrısı, kas sızısı veya açıklanamayan ağrılar yaşıyor musunuz?', options: [{ label: 'Evet', pts: 1 }, { label: 'Hayır', pts: 0 }] },
@@ -332,20 +332,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 8,
       levels: [
-        { min: 0, max: 2, label: 'Düşük Risk', title: 'Sistemik Enflamasyon Seviyeniz Düşük', pct: 90, desc: 'Vücudunuzda belirgin bir kronik enflamasyon veya otoimmünite tetikleyicisi bulunmuyor.', tips: ['Anti-inflamatuar beslenmeyi sürdürün', 'Polifenol zengini sızma zeytinyağı ve yaban mersini tüketin', 'Antioksidan kapasite için yeşil çay tercih edin'] },
-        { min: 3, max: 5, label: 'Orta Risk', title: 'Hafif / Orta Düzey Enflamasyon Yükü', pct: 55, desc: 'Vücudunuzda hafif veya orta düzeyde bir enflamasyon yükü olabilir.', tips: ['Şeker, beyaz un ve tohum yağlarını diyetinizden çıkarın', 'Kemik suyu tüketin', 'Omega-3 takviyesi enflamasyon sönümlemeye yardımcı olur', 'Haftada en az 150 dakika egzersiz yapın'] },
-        { min: 6, max: 8, label: 'Yüksek Risk', title: 'Yüksek Enflamasyon ve Otoimmün Uyarılım', pct: 20, desc: 'Sistemik enflamasyon ve otoimmünite yükünüz yüksek görünüyor. Bir fonksiyonel tıp uzmanından destek almanız tavsiye edilir.', tips: ['Eliminasyon diyeti uygulayın', 'D3 Vitamini seviyenizi optimize edin', 'Zerdeçal (Kurkumin) ve Resveratrol kullanın', 'L-Glutamin desteğini araştırın'] },
+        { min: 0, max: 2, label: "Az", title: "Bildirilen Belirti Sayısı Az", pct: 90, desc: "Enflamasyonla ilişkilendirilebilecek belirtileri az bildirdiniz. Bu anket enflamasyonu ölçmez; kesin değerlendirme için muayene ve laboratuvar testleri gerekir.", tips: ["Sebze, meyve, zeytinyağı ve baklagil ağırlıklı Akdeniz tipi beslenmeyi sürdürün","Düzenli hareket ve yeterli uyku kronik iltihabı azaltmaya yardımcı olan alışkanlıklardır","Sigaradan uzak durun"] },
+        { min: 3, max: 5, label: "Orta", title: "Orta Sayıda Belirti", pct: 55, desc: "Birkaç belirti bildirdiniz. Bu belirtilerin enflamasyon dışında da birçok nedeni olabilir.", tips: ["Şekerli içecekleri, rafine un ve işlenmiş gıdaları azaltın","Haftada en az 150 dakika hareket edin","Haftada iki kez balık tüketmek omega-3 almanın iyi bir yoludur; takviye için hekiminize danışın","Belirtiler sürüyorsa hekiminizle değerlendirin"] },
+        { min: 6, max: 8, label: "Çok", title: "Çok Sayıda Belirti — Hekim Değerlendirmesi Önerilir", pct: 20, desc: "Çok sayıda belirti bildirdiniz. Eklem ağrısı, döküntü, kronik yorgunluk ve sindirim sorunlarının birlikte görülmesi farklı hastalıkların işareti olabilir.", tips: ["Bir hekime başvurarak muayene ve gerekli kan testlerini (ör. CRP, sedimantasyon) değerlendirin","Eklem şişliği ve sabah tutukluğu varsa romatoloji değerlendirmesi gerekebilir","Kendi başınıza kısıtlayıcı eliminasyon diyetlerine başlamayın","Takviye kullanmadan önce hekiminize danışın"] },
       ]
     },
     mitokondri: {
-      title: 'Mitokondri & Hücresel Enerji Skoru',
+      title: 'Enerji ve Yaşam Tarzı Skoru',
       meta: '8 soru · 2 dakika',
       questions: [
         { text: 'Haftada kaç gün Bölge 2 kardiyo yapıyorsunuz?', options: [{ label: '3 gün veya daha fazla', pts: 3 }, { label: 'Haftada 1–2 gün', pts: 2 }, { label: 'Ayda birkaç kez veya hiç yapmıyorum', pts: 0 }] },
         { text: 'Sabahları güneş ışığına maruz kaldıktan sonra enerjiniz nasıl etkileniyor?', options: [{ label: 'Hemen canlanıyorum, zihnim açılıyor ve enerjim artıyor', pts: 3 }, { label: 'Biraz daha zinde hissettiriyor', pts: 2 }, { label: 'Pek bir etki hissetmiyorum veya yorgun olmaya devam ediyorum', pts: 0 }] },
-        { text: 'Soğuk duş veya sauna uygulamalarını ne sıklıkla yapıyorsunuz?', options: [{ label: 'Haftada 2-3 kez veya daha fazla', pts: 3 }, { label: 'Haftada 1 kez veya çok nadiren', pts: 1 }, { label: 'Hiç yapmıyorum', pts: 0 }] },
+        { text: 'Gecede ortalama kaç saat uyuyorsunuz?', options: [{ label: '7 saat veya daha fazla', pts: 3 }, { label: '6–7 saat arası', pts: 1 }, { label: '6 saatten az', pts: 0 }] },
         { text: 'Yoğun aktivite sonrası toparlanma hızınız nasıldır?', options: [{ label: 'Çok hızlı, kısa dinlenmeyle hemen kendime gelirim', pts: 3 }, { label: 'Orta düzeyde, ertesi gün biraz hamlık kalır', pts: 2 }, { label: 'Çok yavaş, günlerce yorgunluk ve kas ağrısı sürer', pts: 0 }] },
-        { text: 'CoQ10, NAD+ veya Magnezyum gibi mitokondriyal takviyeler kullanıyor musunuz?', options: [{ label: 'Evet, düzenli veya periyodik olarak kullanıyorum', pts: 3 }, { label: 'Ara sıra veya sadece magnezyum kullanıyorum', pts: 2 }, { label: 'Hayır, hiç kullanmıyorum', pts: 0 }] },
+        { text: 'Haftada kaç gün kuvvet (direnç) antrenmanı yapıyorsunuz?', options: [{ label: '2 gün veya daha fazla', pts: 3 }, { label: 'Haftada 1 gün', pts: 2 }, { label: 'Hiç yapmıyorum', pts: 0 }] },
         { text: 'Gün içinde kafein almadan enerjinizi koruyabiliyor musunuz?', options: [{ label: 'Evet, sabahları da gün içinde de doğal olarak enerjim yerindedir', pts: 3 }, { label: 'Öğleden sonraları hafif çöküş yaşıyorum', pts: 2 }, { label: 'Hayır, kafeinsiz ayılamıyorum ve gün boyu bitkinim', pts: 0 }] },
         { text: 'Kas gücünüzü ve fiziksel dayanıklılığınızı yaşınıza göre nasıl değerlendiriyorsunuz?', options: [{ label: 'Ortalamanın üzerinde, güçlü ve oldukça dayanıklıyım', pts: 3 }, { label: 'Ortalama düzeydeyim', pts: 2 }, { label: 'Zayıf, dayanıksız ve çabuk yorulan bir yapıdayım', pts: 0 }] },
         { text: 'Zihinsel netliğiniz ve hafıza performansınız genellikle nasıldır?', options: [{ label: 'Çok berrak ve keskin bir zihne sahibim', pts: 3 }, { label: 'Ara sıra hafif unutkanlık veya dikkat dağınıklığı yaşıyorum', pts: 2 }, { label: 'Sık sık beyin sisi ve zihinsel uyuşukluk yaşıyorum', pts: 0 }] },
@@ -353,9 +353,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 24,
       levels: [
-        { min: 0, max: 8, label: 'Düşük Kapasite', title: 'Mitokondriyal Kapasiteniz Düşük Olabilir', pct: 25, desc: 'Mitokondrileriniz yeterli verimle çalışmıyor olabilir.', tips: ['Haftada en az 3 gün Bölge 2 antrenman yapın', 'CoQ10 ve PQQ takviyelerini araştırın', 'NMN veya NR desteğini değerlendirin', 'Her sabah soğuk duş ile hormetik stresi uyarın'] },
-        { min: 9, max: 17, label: 'Orta Kapasite', title: 'Orta Düzey Hücresel Enerji Kapasitesi', pct: 60, desc: 'Mitokondriyal sağlığınız ortalama düzeyde.', tips: ['Aralıklı oruç ve kalori kısıtlaması otofaji yoluyla hasarlı mitokondrileri temizler', 'Magnezyum ve B vitaminleri Krebs döngüsü için esastır', 'Sauna ve soğuk banyo maruziyetini artırın'] },
-        { min: 18, max: 24, label: 'Yüksek Kapasite', title: 'Mükemmel Mitokondriyal Sağlık!', pct: 95, desc: 'Hücresel motorlarınız son derece yüksek verimle çalışıyor.', tips: ['Zone 2 kardiyo ve direnç antrenmanı rutininizi koruyun', 'Alpha Lipoic Acid ve Glutatyon öncüllerini araştırın', 'Periyodik mitokondriyal detoks uygulayın'] },
+        { min: 0, max: 8, label: "Gelişime Açık", title: "Enerjinizi Destekleyen Alışkanlıklar Geliştirilebilir", pct: 25, desc: "Yanıtlarınız düşük enerji ve az hareketle ilgili alışkanlıklara işaret ediyor. Bu anket mitokondri işlevini ölçmez.", tips: ["Haftada en az 150 dakika orta yoğunlukta aerobik aktiviteyi kademeli olarak hedefleyin","Haftada 2 gün kuvvet antrenmanı ekleyin","Düzenli uyku saatleri edinin","Sürekli yorgunluk ve halsizlik varsa kansızlık, tiroid ve diğer nedenler için hekime başvurun"] },
+        { min: 9, max: 17, label: "Orta", title: "Orta Düzey — Birkaç Alışkanlık Fark Yaratabilir", pct: 60, desc: "Enerjinizi destekleyen alışkanlıklarınız orta düzeyde.", tips: ["Düzenli aerobik egzersiz, mitokondri işlevini desteklemenin en iyi kanıtlanmış yoludur","Sabah gün ışığı ve düzenli uyku saatleri enerji düzeyini destekler","Yeterli protein içeren dengeli bir beslenmeye dikkat edin"] },
+        { min: 18, max: 24, label: "Çok İyi", title: "Çok İyi — Enerjinizi Destekleyen Alışkanlıklar", pct: 95, desc: "Enerjinizi destekleyen alışkanlıkların büyük bölümünü benimsemişsiniz.", tips: ["Zone 2 kardiyo ve direnç antrenmanı rutininizi koruyun","Toparlanmaya ve uykuya önem vermeye devam edin","Takviyeler sağlıklı alışkanlıkların yerini tutmaz; kullanmadan önce hekiminize danışın"] },
       ]
     },
     'cilt-estetik': {
@@ -376,14 +376,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 30,
       levels: [
-        { min: 25, max: 30, label: 'Glogau Grup I', title: 'Minimal Fotoyaşlanma — Önleyici Bakım Dönemi', pct: 90, desc: 'Cildiniz genel olarak genç ve sağlıklı görünüyor. Bu dönem, cilt yaşlanmasını ileride önleyecek tedbirleri almak için idealdir.', tips: ['SPF 50+ güneş koruma her gün uygulanmalı', 'Düzenli retinol kullanımına başlanabilir', 'C Vitamini serumu antioksidan koruması sağlar', 'Yılda 1–2 kez dermatolojik kontrol önerilir', 'Hyalüronik asit nemlendirici cilt bariyerini güçlendirir'] },
-        { min: 18, max: 24, label: 'Glogau Grup II', title: 'Erken-Orta Yaşlanma — Hafif Estetik Prosedürler', pct: 65, desc: 'Hafif ila orta düzeyde fotoyaşlanma belirtileri mevcut. Bu aşamada uygulanan tedaviler çok etkili sonuçlar verir.', tips: ['Botulinum toksin uygulaması ifade çizgilerini düzeltir', 'Kimyasal peeling cilt yenilenmesini hızlandırır', 'Hyalüronik asit filler hafif hacim kayıpları için ideal', 'Lazer veya IPL fotoyaşlanma lekelerini tedavi eder', 'Retinoik asit bazlı medikal cilt bakımı şarttır'] },
-        { min: 10, max: 17, label: 'Glogau Grup III', title: 'İleri Yaşlanma — Orta-İleri Estetik Tedaviler', pct: 40, desc: 'Belirgin yaşlanma belirtileri mevcut. Birden fazla prosedürü kapsayan kombine tedavi yaklaşımı gerekebilir.', tips: ['Dolgu maddeleri ile yüz orta bölge hacim restorasyonu', 'Cilt sıkılaştırma için RF veya ultrason tedavisi', 'Ablative lazer yüzey yenileme değerlendirilebilir', 'Medikal cilt bakım protokolü şarttır', 'Bir estetik hekimle kapsamlı tedavi planı oluşturulmalı'] },
-        { min: 0, max: 9, label: 'Glogau Grup IV', title: 'Ciddi Fotoyaşlanma — İleri Estetik Tedaviler Gerekli', pct: 15, desc: 'Ciddi yaşlanma belirtileri mevcut. Kapsamlı ve kişiselleştirilmiş tedavi planlaması için bir estetik uzmanı ile görüşmeniz önerilir.', tips: ['Kombine prosedür planı: filler + botoks + lazer', 'Cilt sıkılaştırma için ileri teknoloji cihazlar değerlendirilmeli', 'Plazma zengin büyüme faktörü (PRGF/PRP) yüz gençleştirme', 'Periodik bakım protokolü ile sürdürülebilir gençlik', 'Yıllık takip ve tedavi planı güncellemesi kritik'] },
+        { min: 25, max: 30, label: "Glogau Grup I", title: "Minimal Fotoyaşlanma — Koruma Dönemi", pct: 90, desc: "Belirgin fotoyaşlanma bulgusu bildirmediniz. Güneşten korunma bu dönemde de en etkili önlemdir.", tips: ["Her gün geniş spektrumlu, SPF 30 ve üzeri güneş koruyucu kullanın","Retinol gibi retinoidler uygun cilt tiplerinde rutine eklenebilir","Nemlendirici ile cilt bariyerini destekleyin","Yeni ya da değişen benler için dermatolojik kontrol yaptırın"] },
+        { min: 18, max: 24, label: "Glogau Grup II", title: "Erken-Orta Fotoyaşlanma", pct: 65, desc: "Hafif ila orta düzeyde fotoyaşlanma belirtileri bildirdiniz. Size uygun seçenekler hekim muayenesiyle belirlenir.", tips: ["Düzenli güneş koruması ve retinoid içeren bakım temel adımlardır","Mimik çizgileri için botulinum toksin, hekim değerlendirmesiyle seçenekler arasında olabilir","Leke ve doku değişiklikleri için peeling veya lazer gibi uygulamalar değerlendirilebilir","Her uygulamanın olası yan etkilerini hekiminizle konuşun"] },
+        { min: 10, max: 17, label: "Glogau Grup III", title: "Orta-İleri Fotoyaşlanma", pct: 40, desc: "Belirgin fotoyaşlanma bulguları bildirdiniz. Kişiye özel bir plan için hekim muayenesi gerekir.", tips: ["Hacim kaybı için dolgu, cilt gevşekliği için radyofrekans gibi seçenekler muayene sonrası değerlendirilebilir","Günlük güneş koruması ve medikal cilt bakımı her aşamada temeldir","Beklentilerinizi gerçekçi tutun; sonuçlar kişiden kişiye değişir","Uygulamaları lisanslı bir hekime yaptırın"] },
+        { min: 0, max: 9, label: "Glogau Grup IV", title: "İleri Fotoyaşlanma — Hekim Muayenesi Önerilir", pct: 15, desc: "İleri fotoyaşlanma bulguları bildirdiniz. Kapsamlı bir değerlendirme için dermatoloji veya medikal estetik hekimiyle görüşmeniz önerilir.", tips: ["Tedavi seçenekleri ve olası riskleri muayene sonrasında birlikte değerlendirilir","Güneşten korunma ve sigaradan uzak durma ileri aşamada da faydalıdır","Cilt kanseri açısından şüpheli lezyonların kontrolünü aksatmayın","Tek seferde çok sayıda işlem yerine kademeli bir plan daha güvenlidir"] },
       ]
     },
     'cilt-sagligi': {
-      title: 'Cilt Sağlığı & Gençleşme Testi',
+      title: 'Cilt Sağlığı Alışkanlıkları Testi',
       meta: '12 soru · 3 dakika',
       questions: [
         { text: 'Güneş koruma (SPF) uygulamanız nasıl?', options: [{ label: 'Her gün düzenli SPF 30+ sürüyorum', pts: 3 }, { label: 'Çoğunlukla sürüyorum, sık atlıyorum', pts: 2 }, { label: 'Sadece yaz aylarında veya denizde', pts: 1 }, { label: 'Güneş kremi kullanmıyorum', pts: 0 }] },
@@ -402,10 +402,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 36,
       levels: [
-        { min: 29, max: 36, label: 'Mükemmel', title: 'Mükemmel Cilt Sağlığı Rutini', pct: 93, desc: 'Yaklaşımınız son derece kapsamlı; cilt sağlığını destekleyen alışkanlıkları büyük ölçüde benimsemişsiniz.', tips: ['Kolajen sentezi için C vitamini ve retinol kombinasyonunu sürdürün', 'Yıllık dermatoloji kontrolüyle durumunuzu takip edin', 'Periyodik medikal cilt bakımı (peeling, lazer) koruyucu etki sağlar', 'NAD+ ve Resveratrol takviyelerini araştırın'] },
-        { min: 20, max: 28, label: 'İyi', title: 'İyi — Birkaç Alanda İyileştirme Mümkün', pct: 68, desc: 'Cilt sağlığı konusunda iyi bir temel oluşturmuşsunuz ancak bazı önemli boşluklar var.', tips: ['Günlük SPF uygulamasını mutlaka rutine ekleyin', 'Retinol kullanımına başlamak için ideal zaman', 'Su tüketiminizi 2 litrenin üzerine çıkarın', 'Antioksidan bakımı (C vitamini serumu) ekleyin'] },
-        { min: 10, max: 19, label: 'Orta', title: 'Orta — Kapsamlı Cilt Bakımı Gerekiyor', pct: 40, desc: 'Cilt sağlığı alışkanlıklarınızda önemli boşluklar mevcut. Bu dönemde yapılacak değişiklikler ciddi fark yaratır.', tips: ['Öncelik #1: Her gün SPF sürmeye başlayın', 'Basit bir sabah-akşam rutin oluşturun: Temizlik + nemlendirici', 'Sigarayı ve aşırı alkolü bırakmak cilt için en büyük gençleştiricidir', 'Düzenli uyku cilt yenilenmesi için kritiktir'] },
-        { min: 0, max: 9, label: 'Dikkat', title: 'Dikkat — Cilt Yaşlanmasını Hızlandıran Alışkanlıklar', pct: 18, desc: 'Mevcut yaşam tarzı alışkanlıklarınız cilt yaşlanmasını önemli ölçüde hızlandırıyor olabilir. Uzman desteğiyle kişiselleştirilmiş bir plan oluşturun.', tips: ['Dermatoloji uzmanı ile kapsamlı cilt analizi yapın', 'Önce sigara ve alkol kısıtlaması — en büyük etki buradan', 'Güneş kremi hayatınıza girene kadar her şey daha zordur', 'Beslenme değişikliği: günde 5 porsiyon meyve-sebze hedefleyin'] },
+        { min: 29, max: 36, label: "Çok İyi", title: "Çok İyi Cilt Sağlığı Rutini", pct: 93, desc: "Cilt sağlığını destekleyen alışkanlıkların büyük bölümünü benimsemişsiniz.", tips: ["Günlük güneş koruması ve retinoid içeren rutininizi sürdürün","Yıllık dermatoloji kontrolüyle durumunuzu takip edin","Medikal uygulamalar gerekiyorsa hekim değerlendirmesiyle planlanmalıdır","Takviyeler yerine güneş koruması, uyku ve dengeli beslenmeye odaklanmaya devam edin"] },
+        { min: 20, max: 28, label: "İyi", title: "İyi — Birkaç Alanda İyileştirme Mümkün", pct: 68, desc: "Cilt sağlığı konusunda iyi bir temel oluşturmuşsunuz ancak bazı önemli boşluklar var.", tips: ["Günlük güneş koruyucu kullanımını rutine ekleyin","Retinol gibi retinoidler rutine eklenebilir; tahrişe karşı yavaş başlayın","Gün içinde yeterli sıvı alın","C vitamini içeren antioksidan bir serum rutine eklenebilir"] },
+        { min: 10, max: 19, label: "Orta", title: "Orta — Temel Bakım Adımları Eksik", pct: 40, desc: "Cilt sağlığı alışkanlıklarınızda önemli boşluklar mevcut. Bu dönemde yapılacak değişiklikler fark yaratabilir.", tips: ["Öncelik: Her gün güneş koruyucu kullanmaya başlayın","Basit bir sabah-akşam rutini oluşturun: temizlik ve nemlendirici","Sigarayı bırakmak ve alkolü azaltmak cilt sağlığı için önemli adımlardır","Düzenli uyku cildin onarımı için önemlidir"] },
+        { min: 0, max: 9, label: "Dikkat", title: "Dikkat — Cilt Yaşlanmasını Hızlandırabilecek Alışkanlıklar", pct: 18, desc: "Mevcut alışkanlıklarınız cilt yaşlanmasını hızlandırıyor olabilir. Uzman desteğiyle kişiselleştirilmiş bir plan oluşturabilirsiniz.", tips: ["Bir dermatoloji uzmanıyla cilt değerlendirmesi yaptırın","Önce sigara ve alkol — en büyük etki buradan gelir","Günlük güneş koruması her şeyin temelidir","Günde 5 porsiyon meyve ve sebzeyi hedefleyin"] },
       ]
     },
     pss: {
@@ -427,8 +427,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       maxPoints: 40,
       levels: [
         { min: 0, max: 13, label: 'Düşük Stres', title: 'Stres Düzeyiniz Düşük — İyi Bir Denge', pct: 88, desc: 'PSS-10 skorunuz düşük stres düzeyine işaret ediyor. Psikolojik stres yükünüzü genel olarak iyi yönetiyorsunuz.', tips: ['Mevcut stres yönetim stratejilerinizi sürdürün', 'Önleyici pratikler: mindfulness, egzersiz, kaliteli uyku', 'Stres belirteçlerinizi düzenli aralıklarla yeniden değerlendirin'] },
-        { min: 14, max: 26, label: 'Orta Stres', title: 'Orta Düzey Stres — Bilinçli Yönetim Gerekiyor', pct: 55, desc: 'PSS-10 skorunuz orta düzey psikolojik strese işaret ediyor. Bu düzey uzun vadede sağlık üzerinde olumsuz etki yaratabilir.', tips: ['Günde 10 dakika derin nefes (4-7-8 veya box breathing tekniği)', 'Stres günlüğü tutmak tetikleyicileri belirlemenizi sağlar', 'Sosyal destek ağınızı güçlendirin', 'Haftada 3 kez aerobik egzersiz kortizol seviyesini düzenler', 'Uyku hijyenini iyileştirin — uyku stres döngüsünü kırar'] },
-        { min: 27, max: 40, label: 'Yüksek Stres', title: 'Yüksek Stres — Profesyonel Destek Önerilir', pct: 22, desc: 'PSS-10 skorunuz yüksek psikolojik strese işaret ediyor. Bu düzey bağışıklık sistemi, kalp sağlığı ve zihinsel sağlık üzerinde ciddi risk oluşturur.', tips: ['Bir psikolog veya psikiyatrist ile görüşmeyi değerlendirin', 'Bilişsel Davranışçı Terapi (BDT) stres yönetiminde kanıta dayalı en etkili yöntemdir', 'Ashwagandha ve Rhodiola kortizol yönetimini destekleyebilir', 'Yaşam tarzı değişikliklerine öncelik verin: uyku, egzersiz, beslenme', 'Kronik stres medikal değerlendirme gerektirebilir'] },
+        { min: 14, max: 26, label: 'Orta Stres', title: 'Orta Düzey Stres — Bilinçli Yönetim Gerekiyor', pct: 55, desc: 'PSS-10 skorunuz orta düzey psikolojik strese işaret ediyor. Bu düzey uzun vadede sağlık üzerinde olumsuz etki yaratabilir.', tips: ['Günde 10 dakika derin nefes (4-7-8 veya box breathing tekniği)', 'Stres günlüğü tutmak tetikleyicileri belirlemenizi sağlar', 'Sosyal destek ağınızı güçlendirin', 'Düzenli aerobik egzersiz stresle başa çıkmayı destekler', 'Uyku hijyenini iyileştirin — uyku stres döngüsünü kırar'] },
+        { min: 27, max: 40, label: 'Yüksek Stres', title: 'Yüksek Stres — Profesyonel Destek Önerilir', pct: 22, desc: 'PSS-10 skorunuz yüksek psikolojik strese işaret ediyor. Uzun süren yüksek stres ruh ve beden sağlığını olumsuz etkileyebilir; destek almak faydalı olur.', tips: ['Bir psikolog veya psikiyatrist ile görüşmeyi değerlendirin', 'Bilişsel Davranışçı Terapi (BDT) stres yönetiminde kanıta dayalı yöntemlerden biridir', 'Bitkisel ürün veya takviye kullanmadan önce hekiminize danışın', 'Yaşam tarzı değişikliklerine öncelik verin: uyku, egzersiz, beslenme', 'Kronik stres medikal değerlendirme gerektirebilir'] },
       ]
     },
     anksiyete: {
@@ -446,9 +446,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 21,
       levels: [
-        { min: 0, max: 4, label: 'Minimal', title: 'Minimal Anksiyete — Klinik Anlamlılık Yok', pct: 92, desc: 'GAD-7 skorunuz minimal düzeyde anksiyete belirtisi gösteriyor. Genel ruh sağlığınız iyi görünüyor.', tips: ['Önleyici stres yönetimi pratiklerini sürdürün', 'Düzenli egzersiz anksiyetenin doğal dengeleyicisidir', 'Sosyal bağlantılar ruh sağlığının en güçlü destekçisidir'] },
+        { min: 0, max: 4, label: 'Minimal', title: 'Minimal Anksiyete — Klinik Anlamlılık Yok', pct: 92, desc: 'GAD-7 skorunuz minimal düzeyde anksiyete belirtisi gösteriyor. Genel ruh sağlığınız iyi görünüyor.', tips: ['Önleyici stres yönetimi pratiklerini sürdürün', 'Düzenli egzersiz kaygı belirtilerini azaltmaya yardımcı olabilir', 'Sosyal bağlantılar ruh sağlığının en güçlü destekçisidir'] },
         { min: 5, max: 9, label: 'Hafif', title: 'Hafif Anksiyete — İzleme Önerilir', pct: 68, desc: 'GAD-7 skorunuz hafif düzeyde anksiyete belirtisine işaret ediyor. Yaşam tarzı değişiklikleri ve öz-yardım stratejileri etkili olabilir.', tips: ['Diyafragmatik nefes: günde 2 kez 5 dakika pratik yapın', 'Kaygı günlüğü tutarak düşünce kalıplarını tanıyın', 'Kafeini sınırlandırın — anksiyeteyi artırabilir', 'Mindfulness meditation uygulamaları deneyin', 'Düzenli uyku rutini anksiyete belirtilerini azaltır'] },
-        { min: 10, max: 14, label: 'Orta', title: 'Orta Düzey Anksiyete — Profesyonel Değerlendirme Önerilir', pct: 42, desc: 'GAD-7 skorunuz orta düzey anksiyete belirtisine işaret ediyor. Günlük işlevselliğiniz etkileniyor olabilir. Bir uzmandan destek almanız önerilir.', tips: ['Psikolog veya psikiyatrist ile görüşün', 'BDT (Bilişsel Davranışçı Terapi) GAD için birinci seçenek tedavidir', 'Maruz kalma terapisi yaygın kaygı bozukluğunda etkilidir', 'Magnezyum ve L-theanin takviyelerini araştırın', 'Alkol anksiyeteyi kısa vadede azaltır ama uzun vadede artırır'] },
+        { min: 10, max: 14, label: 'Orta', title: 'Orta Düzey Anksiyete — Profesyonel Değerlendirme Önerilir', pct: 42, desc: 'GAD-7 skorunuz orta düzey anksiyete belirtisine işaret ediyor. Günlük işlevselliğiniz etkileniyor olabilir. Bir uzmandan destek almanız önerilir.', tips: ['Psikolog veya psikiyatrist ile görüşün', 'BDT (Bilişsel Davranışçı Terapi) GAD için birinci seçenek tedavidir', 'Maruz kalma terapisi yaygın kaygı bozukluğunda etkilidir', 'Takviye kullanmadan önce hekiminize danışın', 'Alkol anksiyeteyi kısa vadede azaltır ama uzun vadede artırır'] },
         { min: 15, max: 21, label: 'Ağır', title: 'Ağır Anksiyete — Klinik Değerlendirme Gerekli', pct: 15, desc: 'GAD-7 skorunuz ağır düzey anksiyete belirtisine işaret ediyor. Bu düzey günlük yaşamı ciddi ölçüde etkileyebilir ve klinik müdahale gerektirebilir.', tips: ['Psikiyatrik değerlendirme için randevu alın', 'Anksiyolitik ilaç tedavisi değerlendirilebilir', 'BDT + ilaç kombinasyonu ağır GAD\'de en etkili yaklaşımdır', 'Alkol ve kafein kesin olarak azaltılmalı'] },
       ]
     },
@@ -499,7 +499,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       maxPoints: 28,
       levels: [
         { min: 0, max: 7, label: 'İnsomnia Yok', title: 'Klinik Olarak Anlamlı İnsomnia Yok', pct: 92, desc: 'ISI skorunuz klinik insomnia eşiğinin altında. Uyku kaliteniz genel olarak iyi görünüyor.', tips: ['Uyku hijyeninizi koruyun', 'Düzenli uyku-uyanış saati biyolojik saatinizi güçlendirir', 'Ekran süresini yatmadan 1 saat önce sınırlandırın'] },
-        { min: 8, max: 14, label: 'Subklinik', title: 'Subklinik İnsomnia — Dikkat Edilmesi Önerilir', pct: 65, desc: 'ISI skorunuz eşik altı (subklinik) insomniaya işaret ediyor. Bu düzey kronik soruna dönüşebilir.', tips: ['Kafein tüketimini öğlen 12\'den sonra bırakın', 'Yatak odasını 18–20°C arasında tutun', 'Magnezyum bisglisinat (400mg) uyku kalitesini artırabilir', 'Düşük doz melatonin (0.3–1mg) deneyin', 'Yatakta yalnızca uykulu olduğunuzda kalın'] },
+        { min: 8, max: 14, label: 'Subklinik', title: 'Subklinik İnsomnia — Dikkat Edilmesi Önerilir', pct: 65, desc: 'ISI skorunuz eşik altı (subklinik) insomniaya işaret ediyor. Bu düzey kronik soruna dönüşebilir.', tips: ['Kafein tüketimini öğlen 12\'den sonra bırakın', 'Yatak odasını 18–20°C arasında tutun', 'Uyku için takviye kullanmadan önce hekiminize danışın', 'Melatonin gibi ürünleri hekiminize danışmadan kullanmayın', 'Yatakta yalnızca uykulu olduğunuzda kalın'] },
         { min: 15, max: 21, label: 'Orta İnsomnia', title: 'Orta Düzey Klinik İnsomnia', pct: 40, desc: 'ISI skorunuz orta düzey klinik insomniaya işaret ediyor. Uyku problemi günlük işlevselliğinizi etkiliyor.', tips: ['Bilişsel Davranışçı Terapi - İnsomnia (BDT-I) birinci seçenek tedavidir', 'Uyarım kontrolü: yatak sadece uyku için kullanılmalı', 'Uyku kısıtlaması terapisi (SRT) uyku verimliliğini artırır', 'Bir uyku uzmanına veya psikiyatriste başvurun', 'Uyku apnesi ve RLS değerlendirin'] },
         { min: 22, max: 28, label: 'Ağır İnsomnia', title: 'Ağır Klinik İnsomnia — Klinik Değerlendirme Gerekli', pct: 15, desc: 'ISI skorunuz ağır klinik insomniaya işaret ediyor. Kapsamlı değerlendirme ve tedavi planı için bir uyku uzmanıyla görüşmeniz önerilir.', tips: ['Uyku bozukluğu kliniğine veya uyku uzmanına başvurun', 'Uyku polisomnografisi (uyku testi) değerlendirilebilir', 'BDT-I en güçlü kanıta sahip tedavidir', 'Uyku apnesi değerlendirmesi için KBB veya göğüs hastalıkları konsültasyonu', 'Eşlik eden depresyon ve anksiyete araştırılmalı'] },
       ]

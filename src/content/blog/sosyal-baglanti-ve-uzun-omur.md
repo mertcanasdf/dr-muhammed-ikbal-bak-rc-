@@ -48,7 +48,7 @@ Haftada aynı gün bir kişiyi aramak, yürüyüşe komşuyu davet etmek, bir ku
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [yaşam amacı ve uzun ömür](/blog/yasam-amaci-ve-longevity) ve [şükran pratiği](/blog/sukran-pratigi-ve-dopamin) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge toplulukları](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın sosyal ilişkiler alanında](/longevity#sosyal-iliskiler) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [yaşam amacı ve uzun ömür](/blog/yasam-amaci-ve-longevity) ve [şükran pratiği](/blog/sukran-pratigi-ve-dopamin) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge toplulukları](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sosyal ilişkiler ve sağlıklı yaşlanma rehberimizde](/longevity/sosyal-iliskiler) bulabilirsiniz.
 
 ## Kaynaklar
 

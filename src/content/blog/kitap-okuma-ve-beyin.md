@@ -38,7 +38,7 @@ Kurgusal eserler okumak, başkalarının düşünce ve duygularını anlama bece
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [sanat ve beyin sağlığı](/blog/sanat-ve-beyin-sagligi) ve [sosyal bağlantı ve uzun ömür](/blog/sosyal-baglanti-ve-uzun-omur) konularını da okuyabilirsiniz. Ayrıca [müzik dinlemenin etkileri](/blog/muzik-ve-stres-kortizol) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [sanat ve beyin sağlığı](/blog/sanat-ve-beyin-sagligi) ve [sosyal bağlantı ve uzun ömür](/blog/sosyal-baglanti-ve-uzun-omur) konularını da okuyabilirsiniz. Ayrıca [müzik dinlemenin etkileri](/blog/muzik-ve-stres-kortizol) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

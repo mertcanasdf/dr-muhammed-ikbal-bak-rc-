@@ -11,11 +11,11 @@ const check = process.argv.includes('--check');
 const HUB = {
   skin: ['/medikal-estetik', 'Skin Longevity ve medikal estetik rehberimizde'],
   hucre: ['/longevity#hucresel-temeller', 'longevity sayfamızın hücresel temeller bölümünde'],
-  beslenme: ['/longevity#beslenme', 'sağlıklı yaş almanın beslenme alanında'],
-  hareket: ['/longevity#hareket', 'sağlıklı yaş almanın hareket alanında'],
-  uyku: ['/longevity#uyku', 'sağlıklı yaş almanın uyku alanında'],
-  zihin: ['/longevity#zihin', 'sağlıklı yaş almanın zihin sağlığı alanında'],
-  sosyal: ['/longevity#sosyal-iliskiler', 'sağlıklı yaş almanın sosyal ilişkiler alanında'],
+  beslenme: ['/longevity/beslenme', 'beslenme ve sağlıklı yaşlanma rehberimizde'],
+  hareket: ['/longevity/hareket', 'hareket ve sağlıklı yaşlanma rehberimizde'],
+  uyku: ['/longevity/uyku', 'uyku ve sağlıklı yaşlanma rehberimizde'],
+  zihin: ['/longevity/zihin', 'zihin ve sağlıklı yaşlanma rehberimizde'],
+  sosyal: ['/longevity/sosyal-iliskiler', 'sosyal ilişkiler ve sağlıklı yaşlanma rehberimizde'],
 };
 
 // slug: [hub, [[hedef, bağlantı metni], ...]]  — ilk üç hedef ilgili makale kartları olur.

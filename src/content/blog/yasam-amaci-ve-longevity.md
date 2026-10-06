@@ -38,7 +38,7 @@ Hayata dair bir sorumluluk ve hedef bilinci taşımak, günlük stres etkenlerin
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [sosyal bağlantının sağlığa etkisi](/blog/sosyal-baglanti-ve-uzun-omur) ve [şükran pratiği](/blog/sukran-pratigi-ve-dopamin) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın sosyal ilişkiler alanında](/longevity#sosyal-iliskiler) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [sosyal bağlantının sağlığa etkisi](/blog/sosyal-baglanti-ve-uzun-omur) ve [şükran pratiği](/blog/sukran-pratigi-ve-dopamin) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sosyal ilişkiler ve sağlıklı yaşlanma rehberimizde](/longevity/sosyal-iliskiler) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -51,7 +51,7 @@ Balık yağı bazı kişilerde geğirme, mide rahatsızlığı veya ishal yapabi
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) konularını da okuyabilirsiniz. Ayrıca [D3 vitamini eksikliği](/blog/d3-vitamini-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) konularını da okuyabilirsiniz. Ayrıca [D3 vitamini eksikliği](/blog/d3-vitamini-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

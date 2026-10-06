@@ -38,7 +38,7 @@ Ağaçların ve bitkilerin salgıladığı uçucu organik bileşiklere **fitonsi
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) ve [müzik ve stres](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [kitap okumanın beyne etkisi](/blog/kitap-okuma-ve-beyin) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) ve [müzik ve stres](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [kitap okumanın beyne etkisi](/blog/kitap-okuma-ve-beyin) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -58,7 +58,7 @@ Uyku hijyeni için genel olarak önerilen adımlar şunlardır:
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [uyku kalitesini artırmanın yolları](/blog/uyku-kalitesi-nasil-artirilir) ve [sirkadiyen ritim](/blog/sirkadiyen-ritim-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [hücresel temizlik (otofaji)](/blog/otofaji-nedir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın uyku alanında](/longevity#uyku) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [uyku kalitesini artırmanın yolları](/blog/uyku-kalitesi-nasil-artirilir) ve [sirkadiyen ritim](/blog/sirkadiyen-ritim-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [hücresel temizlik (otofaji)](/blog/otofaji-nedir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [uyku ve sağlıklı yaşlanma rehberimizde](/longevity/uyku) bulabilirsiniz.
 
 ## Kaynaklar
 

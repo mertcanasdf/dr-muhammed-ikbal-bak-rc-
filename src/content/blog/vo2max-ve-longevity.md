@@ -51,7 +51,7 @@ Bilinen kalp-damar hastalığı, kontrolsüz tansiyon, ciddi eklem sorunu veya u
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [Zone 2 (bölge 2) kardiyo](/blog/bolge-2-kardiyo) ve [günlük yürüyüşün faydaları](/blog/gunluk-yuruyus-sagligi) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [Zone 2 (bölge 2) kardiyo](/blog/bolge-2-kardiyo) ve [günlük yürüyüşün faydaları](/blog/gunluk-yuruyus-sagligi) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

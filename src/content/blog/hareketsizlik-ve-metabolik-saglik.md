@@ -48,7 +48,7 @@ CDC ve WHO fiziksel aktivitenin haftalık plana yayılmasını ve kas güçlendi
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) ve [insülin direnci belirtileri](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) ve [insülin direnci belirtileri](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

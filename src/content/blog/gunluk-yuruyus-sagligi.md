@@ -48,7 +48,7 @@ Diyabeti olanlarda ayak bakımı ve uygun ayakkabı önemlidir. Dolaşım sorunu
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [uzun süre oturmanın etkileri](/blog/hareketsizlik-ve-metabolik-saglik) ve [aerobik kapasite (VO₂max)](/blog/vo2max-ve-longevity) konularını da okuyabilirsiniz. Ayrıca [doğada vakit geçirmenin zihinsel etkileri](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [uzun süre oturmanın etkileri](/blog/hareketsizlik-ve-metabolik-saglik) ve [aerobik kapasite (VO₂max)](/blog/vo2max-ve-longevity) konularını da okuyabilirsiniz. Ayrıca [doğada vakit geçirmenin zihinsel etkileri](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -52,7 +52,7 @@ Derlemeler, lif müdahalelerinin bazı mikrobiyota ölçümlerini değiştirebil
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [insülin direnci](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [insülin direnci](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

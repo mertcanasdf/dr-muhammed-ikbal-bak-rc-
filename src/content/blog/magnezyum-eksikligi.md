@@ -47,7 +47,7 @@ Takviye seçilecekse form, elemental magnezyum miktarı, doz ve ilaçlarla aras�
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [D3 ve K2 takviyeleri](/blog/d3-k2-birlikte-kullanilir-mi) ve [uyku düzenini iyileştirmek](/blog/uyku-kalitesi-nasil-artirilir) konularını da okuyabilirsiniz. Ayrıca [D3 vitamini eksikliği](/blog/d3-vitamini-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [D3 ve K2 takviyeleri](/blog/d3-k2-birlikte-kullanilir-mi) ve [uyku düzenini iyileştirmek](/blog/uyku-kalitesi-nasil-artirilir) konularını da okuyabilirsiniz. Ayrıca [D3 vitamini eksikliği](/blog/d3-vitamini-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

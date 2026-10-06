@@ -51,7 +51,7 @@ Beslenme ile yeterli protein alınabiliyorsa protein tozu zorunlu değildir. Tak
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [kas kütlesini korumak](/blog/kas-kutlesi-ve-yaslanma) ve [kreatin ve kas gücü](/blog/kreatin-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [kas kütlesini korumak](/blog/kas-kutlesi-ve-yaslanma) ve [kreatin ve kas gücü](/blog/kreatin-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -81,7 +81,7 @@ En zengin D vitamini kaynakları şunlardır:
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [D3 ve K2 birlikte kullanılır mı](/blog/d3-k2-birlikte-kullanilir-mi) ve [magnezyum eksikliği](/blog/magnezyum-eksikligi) konularını da okuyabilirsiniz. Ayrıca [omega-3 takviyeleri](/blog/omega-3-ne-ise-yarar) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [D3 ve K2 birlikte kullanılır mı](/blog/d3-k2-birlikte-kullanilir-mi) ve [magnezyum eksikliği](/blog/magnezyum-eksikligi) konularını da okuyabilirsiniz. Ayrıca [omega-3 takviyeleri](/blog/omega-3-ne-ise-yarar) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

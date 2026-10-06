@@ -51,7 +51,7 @@ Direnç antrenmanı aerobik hareket, uyku ve yeterli beslenmeyle birlikte daha a
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [kas kütlesi ve yaşlanma](/blog/kas-kutlesi-ve-yaslanma) ve [kreatin](/blog/kreatin-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [kas kütlesi ve yaşlanma](/blog/kas-kutlesi-ve-yaslanma) ve [kreatin](/blog/kreatin-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

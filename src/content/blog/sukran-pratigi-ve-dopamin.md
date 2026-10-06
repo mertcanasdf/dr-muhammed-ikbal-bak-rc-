@@ -40,7 +40,7 @@ Beyin, evrimsel nedenlerle tehlikeleri ve olumsuzlukları öncelikli algılama e
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [yaşam amacı](/blog/yasam-amaci-ve-longevity) ve [sosyal bağlantı](/blog/sosyal-baglanti-ve-uzun-omur) konularını da okuyabilirsiniz. Ayrıca [stres ve kortizol](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın sosyal ilişkiler alanında](/longevity#sosyal-iliskiler) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [yaşam amacı](/blog/yasam-amaci-ve-longevity) ve [sosyal bağlantı](/blog/sosyal-baglanti-ve-uzun-omur) konularını da okuyabilirsiniz. Ayrıca [stres ve kortizol](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sosyal ilişkiler ve sağlıklı yaşlanma rehberimizde](/longevity/sosyal-iliskiler) bulabilirsiniz.
 
 ## Kaynaklar
 

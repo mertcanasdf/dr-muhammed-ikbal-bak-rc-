@@ -51,7 +51,7 @@ Her ana öğünde farklı renkte bir sebze veya meyve, haftada birkaç kez bakla
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [omega-3 yağ asitleri](/blog/omega-3-ne-ise-yarar) ve [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) konularını da okuyabilirsiniz. Ayrıca [lif ve mikrobiyota](/blog/lifli-beslenme-ve-mikrobiyota) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [omega-3 yağ asitleri](/blog/omega-3-ne-ise-yarar) ve [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) konularını da okuyabilirsiniz. Ayrıca [lif ve mikrobiyota](/blog/lifli-beslenme-ve-mikrobiyota) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

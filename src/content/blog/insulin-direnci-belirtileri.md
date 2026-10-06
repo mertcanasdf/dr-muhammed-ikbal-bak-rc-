@@ -52,7 +52,7 @@ Beslenmede sebze, baklagil, tam tahıl, uygun protein ve ölçülü yağ kaynakl
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [oturma süresi ve metabolik sağlık](/blog/hareketsizlik-ve-metabolik-saglik) ve [lifli beslenme](/blog/lifli-beslenme-ve-mikrobiyota) konularını da okuyabilirsiniz. Ayrıca [aralıklı oruç hakkında kanıtlar](/blog/aralikli-oruc-longevity) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [oturma süresi ve metabolik sağlık](/blog/hareketsizlik-ve-metabolik-saglik) ve [lifli beslenme](/blog/lifli-beslenme-ve-mikrobiyota) konularını da okuyabilirsiniz. Ayrıca [aralıklı oruç hakkında kanıtlar](/blog/aralikli-oruc-longevity) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -75,7 +75,7 @@ Bakıcılar, yüksek stresli çalışanlar ve travma deneyimleyenler üzerinde y
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [kronik kaygının bedene etkileri](/blog/anksiyete-ve-obsesyonun-fizyolojisi) ve [tükenmişlik sendromu](/blog/tukenmislik-sendromu) konularını da okuyabilirsiniz. Ayrıca [uyku kalitesi](/blog/uyku-kalitesi-nasil-artirilir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [kronik kaygının bedene etkileri](/blog/anksiyete-ve-obsesyonun-fizyolojisi) ve [tükenmişlik sendromu](/blog/tukenmislik-sendromu) konularını da okuyabilirsiniz. Ayrıca [uyku kalitesi](/blog/uyku-kalitesi-nasil-artirilir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

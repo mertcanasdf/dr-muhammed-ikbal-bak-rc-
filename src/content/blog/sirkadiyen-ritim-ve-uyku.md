@@ -47,7 +47,7 @@ Ulusal Kalp, Akciğer ve Kan Enstitüsü uyku-uyanıklık döngüsünü ve ış�
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [uyku kalitesi nasıl artırılır](/blog/uyku-kalitesi-nasil-artirilir) ve [akşam ekran kullanımı](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [glimfatik sistem](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın uyku alanında](/longevity#uyku) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [uyku kalitesi nasıl artırılır](/blog/uyku-kalitesi-nasil-artirilir) ve [akşam ekran kullanımı](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [glimfatik sistem](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [uyku ve sağlıklı yaşlanma rehberimizde](/longevity/uyku) bulabilirsiniz.
 
 ## Kaynaklar
 

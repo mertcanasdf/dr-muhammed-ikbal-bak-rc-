@@ -76,7 +76,7 @@ Aralıklı oruç üzerine yapılan randomize çalışmalarda, kilo kaybı ve met
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [otofajinin ne olduğu](/blog/otofaji-nedir) ve [insülin direnci belirtileri](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [yaşlanmada protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [otofajinin ne olduğu](/blog/otofaji-nedir) ve [insülin direnci belirtileri](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [yaşlanmada protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -89,7 +89,7 @@ Araştırmalar ve klinik öneri olarak:
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [VO₂max ve uzun ömür](/blog/vo2max-ve-longevity) ve [mitokondri sağlığı](/blog/mitokondri-sagligi-nasil-desteklenir) konularını da okuyabilirsiniz. Ayrıca [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [VO₂max ve uzun ömür](/blog/vo2max-ve-longevity) ve [mitokondri sağlığı](/blog/mitokondri-sagligi-nasil-desteklenir) konularını da okuyabilirsiniz. Ayrıca [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

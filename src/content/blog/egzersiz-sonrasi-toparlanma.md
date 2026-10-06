@@ -48,7 +48,7 @@ Haftalık yük hızla artırılmamalı, zor günler daha kolay günlerle dengele
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [toparlanmada uykunun rolü](/blog/uyku-kalitesi-nasil-artirilir) ve [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [toparlanmada uykunun rolü](/blog/uyku-kalitesi-nasil-artirilir) ve [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

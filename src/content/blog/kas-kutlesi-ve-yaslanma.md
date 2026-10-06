@@ -56,7 +56,7 @@ Kas gelişimi yalnızca antrenman sırasında değil, toparlanma döneminde ger�
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [yaşlanmada protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) ve [kavrama gücünün sağlık hakkında söyledikleri](/blog/kavrama-gucu-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [yaşlanmada protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) ve [kavrama gücünün sağlık hakkında söyledikleri](/blog/kavrama-gucu-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -44,7 +44,7 @@ Tükenmişlik iş koşullarıyla yakından ilişkili olduğu için çıkışın 
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [dijital tükenmişlik](/blog/dijital-tukenmislik) ve [kronik kaygı](/blog/anksiyete-ve-obsesyonun-fizyolojisi) konularını da okuyabilirsiniz. Ayrıca [kortizol ve yaşlanma](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [dijital tükenmişlik](/blog/dijital-tukenmislik) ve [kronik kaygı](/blog/anksiyete-ve-obsesyonun-fizyolojisi) konularını da okuyabilirsiniz. Ayrıca [kortizol ve yaşlanma](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

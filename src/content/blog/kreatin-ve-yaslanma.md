@@ -47,7 +47,7 @@ Böbrek fonksiyon testleriyle ilgili yorumlar, takviye başlanmadan önce ve tak
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) ve [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) konularını da okuyabilirsiniz. Ayrıca [kas kütlesi ve yaşlanma](/blog/kas-kutlesi-ve-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) ve [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) konularını da okuyabilirsiniz. Ayrıca [kas kütlesi ve yaşlanma](/blog/kas-kutlesi-ve-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

@@ -48,7 +48,7 @@ Uyku için satılan ürünleri rastgele kullanmak yerine içerik ve etkileşimle
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [sirkadiyen ritmi desteklemek](/blog/sirkadiyen-ritim-ve-uyku) ve [ekran kullanımı ve uyku](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [uyku sırasında beynin glimfatik temizliği](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) ve [magnezyum eksikliği](/blog/magnezyum-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın uyku alanında](/longevity#uyku) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [sirkadiyen ritmi desteklemek](/blog/sirkadiyen-ritim-ve-uyku) ve [ekran kullanımı ve uyku](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [uyku sırasında beynin glimfatik temizliği](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) ve [magnezyum eksikliği](/blog/magnezyum-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [uyku ve sağlıklı yaşlanma rehberimizde](/longevity/uyku) bulabilirsiniz.
 
 ## Kaynaklar
 

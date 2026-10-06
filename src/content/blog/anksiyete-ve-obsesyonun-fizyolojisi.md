@@ -55,7 +55,7 @@ Kaygı bozukluğu ve obsesif-kompulsif bozukluk (OKB) tedavi edilebilir durumlar
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [tükenmişlik sendromu](/blog/tukenmislik-sendromu) ve [müziğin stres üzerindeki etkisi](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [kortizol ve yaşlanma](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [tükenmişlik sendromu](/blog/tukenmislik-sendromu) ve [müziğin stres üzerindeki etkisi](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [kortizol ve yaşlanma](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

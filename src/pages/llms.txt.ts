@@ -6,6 +6,11 @@ import { getCanonicalUrl } from '../lib/seo';
 const PAGES: [string, string, string][] = [
   ['Hakkında', '/hakkinda', 'Eğitim, kariyer ve görevler'],
   ['Longevity: Sağlıklı Yaş Almanın 6 Alanı', '/longevity', 'Longevity nedir, 6 alan ve hücresel temeller'],
+  ['Beslenme ve sağlıklı yaşlanma', '/longevity/beslenme', 'Beslenme alanının özeti ve tüm yazıları'],
+  ['Hareket ve sağlıklı yaşlanma', '/longevity/hareket', 'Kardiyo, kuvvet ve denge; alanın tüm yazıları'],
+  ['Uyku ve sağlıklı yaşlanma', '/longevity/uyku', 'Uyku alanının özeti ve tüm yazıları'],
+  ['Zihin ve sağlıklı yaşlanma', '/longevity/zihin', 'Stres, kaygı ve zihinsel iyi oluş; alanın tüm yazıları'],
+  ['Sosyal ilişkiler ve sağlıklı yaşlanma', '/longevity/sosyal-iliskiler', 'Sosyal bağlantı, yaşam amacı ve şükran; alanın tüm yazıları'],
   ['Skin Longevity ve Medikal Estetik', '/medikal-estetik', 'Botoks, dolgu, altın iğne, PRP ve mezoterapi hakkında bilgilendirici rehber'],
   ['Tüm makaleler', '/blog', 'Kategorilere göre tüm yazılar'],
   ['Sağlık testleri', '/quizler', 'Farkındalık amaçlı ölçekler; tanı koymaz'],

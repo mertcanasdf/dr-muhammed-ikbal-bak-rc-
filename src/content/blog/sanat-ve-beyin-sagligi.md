@@ -38,7 +38,7 @@ Yaratıcı bir sürece kendini kaptırmak (akış hâli, *flow state*) keyif ve 
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [kitap okuma ve bilişsel yaşlanma](/blog/kitap-okuma-ve-beyin) ve [müzik ve stres](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [doğa ve zihinsel toparlanma](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [kitap okuma ve bilişsel yaşlanma](/blog/kitap-okuma-ve-beyin) ve [müzik ve stres](/blog/muzik-ve-stres-kortizol) konularını da okuyabilirsiniz. Ayrıca [doğa ve zihinsel toparlanma](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

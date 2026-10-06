@@ -1,0 +1,141 @@
+---
+// Sağlıklı yaş almanın alanları için ayrı sayfalar (menüdeki Beslenme, Hareket, Uyku, Zihin, Sosyal İlişkiler).
+// Her sayfa ilgili konu kümesinin ana sayfasıdır: alan özeti, kanıtlar, göstergeler ve alandaki tüm yazılar.
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CardImage from '../../components/CardImage.astro';
+import { AREAS, AREA_PAGE, NOTE, areaOf, type Area } from '../../lib/longevity-areas';
+
+const DESCRIPTIONS: Record<string, string> = {
+  beslenme: 'Sağlıklı yaşlanmada beslenme: Akdeniz tipi beslenme, protein ihtiyacı, lif ve mikrobiyota, D3, omega-3 ve magnezyum üzerine kaynaklı yazılar ve temel ilkeler.',
+  hareket: 'Sağlıklı yaşlanmada hareket: Zone 2 kardiyo, VO₂max, direnç antrenmanı, kas kütlesi, denge ve günlük yürüyüş üzerine kaynaklı yazılar ve temel öneriler.',
+  uyku: 'Sağlıklı yaşlanmada uyku: uyku hijyeni, sirkadiyen ritim, ekran kullanımı ve glimfatik sistem üzerine kaynaklı yazılar ve uygulanabilir temel öneriler.',
+  zihin: 'Sağlıklı yaşlanmada zihin sağlığı: kronik stres ve kortizol, tükenmişlik, kaygı, doğa, müzik, sanat ve okuma üzerine kaynaklı yazılar ve temel öneriler.',
+  'sosyal-iliskiler': 'Sağlıklı yaşlanmada sosyal ilişkiler: sosyal bağlantı, yaşam amacı (ikigai) ve şükran pratiği üzerine araştırmalar, kaynaklı yazılar ve günlük öneriler.',
+};
+
+export async function getStaticPaths() {
+  return AREAS.filter((area) => AREA_PAGE[area.id] === `/longevity/${area.id}`).map((area) => ({
+    params: { alan: area.id },
+    props: { area },
+  }));
+}
+
+const { area } = Astro.props as { area: Area };
+const slug = (id: string) => id.replace(/\.mdx?$/, '');
+const allPosts = await getCollection('blog');
+const inArea = allPosts.filter((p) => areaOf(slug(p.id), p.data.category) === area.id);
+// Önce alan için seçilmiş yazılar, ardından diğerleri alfabetik.
+const posts = [
+  ...area.posts.map((s) => inArea.find((p) => slug(p.id) === s)).filter((p) => p !== undefined),
+  ...inArea.filter((p) => !area.posts.includes(slug(p.id))).sort((a, b) => a.data.title.localeCompare(b.data.title, 'tr')),
+];
+const others = AREAS.filter((a) => a.id !== area.id);
+const heading = `${area.title} ve Sağlıklı Yaşlanma`;
+---
+<BaseLayout
+  title={`${heading} — Dr. Muhammed İkbal Bakırcı`}
+  description={DESCRIPTIONS[area.id]}
+  image={posts[0]?.data.image}
+  pageType="CollectionPage"
+>
+  <section class="area-hero">
+    <div class="container area-hero__inner">
+      <nav class="area-crumbs" aria-label="Sayfa yolu"><a href="/">Ana Sayfa</a> / <a href="/longevity">Longevity</a> / <span>{area.title}</span></nav>
+      <h1 class="area-hero__title">{heading}</h1>
+      <p class="area-hero__sub">{area.desc}</p>
+    </div>
+  </section>
+
+  <section class="area-section">
+    <div class="container area-grid">
+      <div>
+        <h2 class="area-h2">Kanıtlar ne söylüyor?</h2>
+        <ul class="area-points">
+          {area.points.map((p) => <li>{p}</li>)}
+        </ul>
+      </div>
+      {area.metrics.length > 0 && (
+        <aside class="area-metrics" aria-labelledby="metrics-title">
+          <h2 id="metrics-title" class="area-h2">{area.metricsTitle ?? 'Takip edilen göstergeler'}</h2>
+          {!area.metricsTitle && <p class="area-note">{NOTE}</p>}
+          <dl>
+            {area.metrics.map((m) => (
+              <div class="area-metric">
+                <dt>{m.lbl}</dt>
+                <dd class="area-metric__val">{m.val}</dd>
+                <dd class="area-metric__tip">{m.tip}</dd>
+              </div>
+            ))}
+          </dl>
+        </aside>
+      )}
+    </div>
+  </section>
+
+  <section class="area-section area-section--posts">
+    <div class="container">
+      <h2 class="area-h2">{area.title} yazıları</h2>
+      <div class="blog-grid">
+        {posts.map((post, i) => (
+          <article class="blog-card">
+            <a href={`/blog/${slug(post.id)}`}>
+              <CardImage src={post.data.image} alt={post.data.title} class="blog-card__img" priority={i === 0} />
+            </a>
+            <div class="blog-card__body">
+              <span class="blog-card__cat">{post.data.category}</span>
+              <h3 class="blog-card__title"><a href={`/blog/${slug(post.id)}`}>{post.data.title}</a></h3>
+              <p class="blog-card__excerpt">{post.data.description}</p>
+              <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="area-section">
+    <div class="container">
+      <nav class="area-others" aria-labelledby="others-title">
+        <h2 id="others-title" class="area-h2">Sağlıklı yaş almanın diğer alanları</h2>
+        <ul>
+          {others.map((o) => <li><a href={AREA_PAGE[o.id]}>{o.title}</a></li>)}
+          <li><a href="/longevity">Longevity nedir? Genel bakış</a></li>
+        </ul>
+      </nav>
+      <p class="area-disclaimer">Bu sayfadaki bilgiler genel bilgilendirme amaçlıdır. Kişisel değerlendirme için <a href="/iletisim#randevu">iletişim formunu</a> kullanabilirsiniz.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .area-hero { background: radial-gradient(circle at 50% -20%, #162419 0%, #080a08 60%, #040504 100%); color: #e5ede7; padding: 72px 0 64px; }
+  .area-hero__inner { max-width: 860px; }
+  .area-crumbs { font-size: 14px; color: #9fb3a4; margin-bottom: 18px; }
+  .area-crumbs a { color: #cfe3d4; }
+  .area-crumbs a:hover { text-decoration: underline; }
+  .area-hero__title { font-size: clamp(30px, 4.5vw, 46px); font-weight: 800; color: #fff; margin-bottom: 16px; line-height: 1.15; }
+  .area-hero__sub { font-size: 18px; line-height: 1.7; color: #cfd8d1; }
+  .area-section { padding: 56px 0; }
+  .area-section--posts { padding-top: 0; }
+  .area-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: start; }
+  @media (max-width: 900px) { .area-grid { grid-template-columns: 1fr; } }
+  .area-h2 { font-size: 24px; font-weight: 800; margin-bottom: 18px; }
+  .area-points { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+  .area-points li { position: relative; padding-left: 28px; font-size: 16px; line-height: 1.7; color: var(--gray-700); }
+  .area-points li::before { content: '✓'; position: absolute; left: 0; color: var(--green); font-weight: 900; }
+  .area-metrics { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 24px; }
+  .area-note { font-size: 13px; line-height: 1.6; color: var(--gray-500); margin: -6px 0 16px; }
+  .area-metrics dl { display: grid; gap: 12px; margin: 0; }
+  .area-metric { background: var(--tertiary); border-radius: 10px; padding: 14px; }
+  .area-metric dt { font-size: 13px; font-weight: 700; color: var(--primary); }
+  .area-metric dd { margin: 0; }
+  .area-metric__val { font-size: 17px; font-weight: 800; margin: 4px 0 6px !important; }
+  .area-metric__tip { font-size: 14px; line-height: 1.6; color: var(--gray-700); }
+  .area-others { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 24px 28px; }
+  .area-others ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+  .area-others a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border: 1px solid var(--border); border-radius: 999px; font-weight: 600; color: var(--main); }
+  .area-others a:hover { border-color: var(--green); color: #164e34; }
+  .area-disclaimer { margin-top: 24px; font-size: 14px; color: var(--gray-500); }
+  .area-disclaimer a { color: #1e45da; text-decoration: underline; }
+</style>

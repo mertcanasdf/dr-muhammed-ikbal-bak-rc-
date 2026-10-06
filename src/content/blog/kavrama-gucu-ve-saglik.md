@@ -51,7 +51,7 @@ Tüm vücuda yönelik direnç egzersizi, yeterli beslenme ve düzenli hareket ka
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [kas kütlesini korumak](/blog/kas-kutlesi-ve-yaslanma) ve [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) konularını da okuyabilirsiniz. Ayrıca [denge egzersizleri](/blog/denge-egzersizleri-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [kas kütlesini korumak](/blog/kas-kutlesi-ve-yaslanma) ve [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) konularını da okuyabilirsiniz. Ayrıca [denge egzersizleri](/blog/denge-egzersizleri-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

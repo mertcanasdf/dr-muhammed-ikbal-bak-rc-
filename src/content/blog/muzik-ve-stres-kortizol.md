@@ -38,7 +38,7 @@ Ameliyat öncesi müzik dinletilen hastalarla yapılan çalışmaları inceleyen
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [doğada vakit geçirmek](/blog/doga-ve-zihin-sagligi) ve [sanat üretmenin beyin sağlığına etkisi](/blog/sanat-ve-beyin-sagligi) konularını da okuyabilirsiniz. Ayrıca [kronik stres ve kortizol](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın zihin sağlığı alanında](/longevity#zihin) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [doğada vakit geçirmek](/blog/doga-ve-zihin-sagligi) ve [sanat üretmenin beyin sağlığına etkisi](/blog/sanat-ve-beyin-sagligi) konularını da okuyabilirsiniz. Ayrıca [kronik stres ve kortizol](/blog/kortizol-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.
 
 ## Kaynaklar
 

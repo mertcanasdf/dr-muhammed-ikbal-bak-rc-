@@ -3,6 +3,7 @@ import CardImage from '../components/CardImage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { sortPostsNewestFirst } from '../lib/posts';
+import { AREAS, AREA_PAGE, NOTE, areaOf } from '../lib/longevity-areas';
 
 const allPosts = await getCollection('blog');
 const longevityPosts = sortPostsNewestFirst(
@@ -16,117 +17,13 @@ const postBySlug = (s: string) => {
   return { href: `/blog/${s}`, title: post.data.title };
 };
 
-// Yazıların 6 alana dağılımı: kategoriye göre; "Zihin & Sosyal Yaşam" kategorisi iki alana ayrılır.
-const SOSYAL = ['sosyal-baglanti-ve-uzun-omur', 'yasam-amaci-ve-longevity', 'sukran-pratigi-ve-dopamin'];
-const AREA_BY_CATEGORY: Record<string, string> = {
-  Beslenme: 'beslenme',
-  Hareket: 'hareket',
-  Uyku: 'uyku',
-  'Zihin & Sosyal Yaşam': 'zihin',
-  'Skin Longevity': 'skin-longevity',
-};
-const areaOf = (p: (typeof allPosts)[number]) =>
-  SOSYAL.includes(slug(p.id)) ? 'sosyal-iliskiler' : AREA_BY_CATEGORY[p.data.category];
-
-const NOTE ='Değerler literatürde sık anılan referans aralıklarıdır. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.';
-
-// Revizyon planı madde 16: "Tutarlı ve Uzun Yaşam" — 6 alan.
-const areas = [
-  {
-    id: 'beslenme', title: 'Beslenme',
-    icon: ['M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z', 'M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12'],
-    desc: 'Sağlıklı yaşlanmada beslenme, tek bir "süper gıdadan" çok yıllar boyunca sürdürülebilen bir düzendir. Sebze, meyve, baklagil, tam tahıl ve yeterli protein içeren, işlenmiş gıdası az bir beslenme metabolik sağlığın temelidir.',
-    points: [
-      'Akdeniz tipi beslenme düzenleri, kalp-damar hastalığı riskinin daha düşük olmasıyla ilişkilendirilmektedir.',
-      'Yaş ilerledikçe kas kütlesini korumak için yeterli protein alımı önem kazanır; ihtiyaç kişiye göre değişir.',
-      'Lifli besinler bağırsak mikrobiyotasını ve kan şekeri dengesini destekler.',
-    ],
-    metrics: [
-      { lbl: 'HbA1c (Üç Aylık Şeker)', val: '< %5.2', tip: 'Glukoz dalgalanmalarının az olması, damar sağlığını korumaya ve ileri glikasyon son ürünlerinin (AGEs) birikimini azaltmaya yardımcı olabilir.' },
-      { lbl: 'ApoB (Aterojenik Lipoprotein)', val: '< 80 mg/dL', tip: 'Kardiyovasküler riski değerlendirmede kullanılan önemli belirteçlerden biridir; hedef değer kişisel risk profiline göre belirlenir.' },
-    ],
-    posts: ['mavi-bolge-diyeti', 'protein-ihtiyaci-yaslanma', 'lifli-beslenme-ve-mikrobiyota'],
-  },
-  {
-    id: 'hareket', title: 'Hareket',
-    icon: ['M22 12h-4l-3 9L9 3l-3 9H2'],
-    desc: 'Düzenli fiziksel aktivite, sağlıklı yaşlanmayla en tutarlı biçimde ilişkilendirilen alışkanlıklardan biridir. Aerobik kapasite, kas gücü ve denge birlikte ele alınmalıdır.',
-    points: [
-      'Dünya Sağlık Örgütü yetişkinler için haftada en az 150 dakika orta yoğunlukta aerobik aktivite ve haftada 2 gün kas güçlendirici egzersiz önerir.',
-      'Yüksek kardiyorespiratuvar kondisyon, tüm nedenlere bağlı ölüm riskinin daha düşük olmasıyla ilişkilidir.',
-      'Denge çalışmaları ileri yaşta düşme riskini azaltmaya yardımcı olabilir.',
-    ],
-    metrics: [
-      { lbl: 'VO2 Max', val: 'Yaş grubunun üst dilimleri', tip: 'Kendi yaş ve cinsiyet grubunuzun üst dilimlerinde yer almak, daha iyi yaşam kalitesi ve sağlık sonuçlarıyla ilişkilendirilmektedir.' },
-      { lbl: 'Dinlenme Kalp Hızı', val: '< 60 bpm', tip: 'Düşük dinlenme kalp hızı çoğu zaman iyi kardiyovasküler kondisyonla ilişkilidir; sporcularda ve bazı ilaçları kullananlarda farklı yorumlanır.' },
-      { lbl: 'Kas Kütlesi', val: 'Yaş grubunun üzeri', tip: 'DEXA gibi yöntemlerle ölçülen yeterli kas kütlesi, metabolik rezerv ve iskelet sağlığıyla ilişkilidir.' },
-      { lbl: 'El Kavrama Gücü', val: 'Üst dilim skorları', tip: 'Genel fiziksel kapasiteyle ilişkili, basit ve yaygın kullanılan bir ölçümdür.' },
-    ],
-    posts: ['direnc-antrenmani-yaslanma', 'vo2max-ve-longevity', 'denge-egzersizleri-yaslanma'],
-  },
-  {
-    id: 'uyku', title: 'Uyku',
-    icon: ['M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z'],
-    desc: 'Uyku; hafıza, metabolizma, bağışıklık ve duygu düzenlemesi için temel bir biyolojik ihtiyaçtır. Süresi kadar düzenliliği de önemlidir.',
-    points: [
-      'Yetişkinlerin çoğu için gecede 7 saat ve üzeri uyku önerilmektedir.',
-      'Her gün benzer saatlerde yatıp kalkmak sirkadiyen ritmi destekler.',
-      'Uzun süren uykusuzluk ya da uykuda horlama ve nefes durması gibi belirtiler hekim değerlendirmesi gerektirir.',
-    ],
-    metrics: [
-      { lbl: 'Uyku Süresi', val: '7 saat ve üzeri', tip: 'Önerilen süre yaşa göre değişir; ihtiyacınızı uyku düzeniniz ve gün içindeki enerjiniz gösterir.' },
-      { lbl: 'Derin Uyku Oranı', val: '%15 – %20', tip: 'Beynin glimfatik temizlik sisteminin özellikle derin uykuda daha aktif çalıştığı düşünülmektedir.' },
-    ],
-    posts: ['uyku-kalitesi-nasil-artirilir', 'sirkadiyen-ritim-ve-uyku', 'ekran-kullanimi-ve-uyku'],
-  },
-  {
-    id: 'zihin', title: 'Zihin',
-    icon: ['M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z', 'M9 21h6'],
-    desc: 'Kronik stres; uyku, beslenme ve kalp-damar sağlığı üzerinden yaşlanma sürecini etkileyebilir. Zihinsel iyi oluş, sağlıklı yaşlanmanın ayrılmaz bir parçasıdır.',
-    points: [
-      'Kronik yüksek kortizol, uyku bozukluğu ve metabolik sorunlarla ilişkilendirilmektedir.',
-      'Doğada vakit geçirmek, düzenli hareket ve nefes çalışmaları stres yönetimini destekleyebilir.',
-      'Uzun süren kaygı ya da çökkünlük belirtilerinde bir ruh sağlığı uzmanından destek almak önemlidir.',
-    ],
-    metrics: [],
-    posts: ['kortizol-yaslanma', 'tukenmislik-sendromu', 'doga-ve-zihin-sagligi'],
-  },
-  {
-    id: 'sosyal-iliskiler', title: 'Sosyal İlişkiler',
-    icon: ['M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2', 'M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0', 'M22 21v-2a4 4 0 0 0-3-3.87', 'M16 3.13a4 4 0 0 1 0 7.75'],
-    desc: 'Güçlü sosyal bağlar ve yaşamda bir amaç duygusu, uzun yaşamla ilişkilendirilen en tutarlı faktörlerden biridir.',
-    points: [
-      'Sosyal izolasyon ve yalnızlık, daha yüksek ölüm riskiyle ilişkilendirilmektedir.',
-      'Yaşamda bir amaç duygusu, daha sağlıklı yaşlanmayla ilişkili bulunmuştur.',
-      'Ortak etkinlikler, gönüllülük ve düzenli görüşmeler sosyal bağları güçlendirir.',
-    ],
-    metrics: [],
-    posts: ['sosyal-baglanti-ve-uzun-omur', 'yasam-amaci-ve-longevity', 'sukran-pratigi-ve-dopamin'],
-  },
-  {
-    id: 'skin-longevity', title: 'Skin Longevity',
-    icon: ['M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z'],
-    desc: 'Cilt, yaşlanmanın en görünür yüzüdür. Skin longevity; güneşten korunma, cilt bariyerinin desteklenmesi ve uygun hastalarda medikal estetik uygulamalarla cildin uzun vadeli sağlığını hedefler.',
-    points: [
-      'Güneşten korunma, ciltte fotoyaşlanmayı azaltmada en güçlü kanıta sahip yaklaşımdır.',
-      'Retinoidler, cilt yaşlanması bulgularında en çok çalışılmış topikal ajanlardandır.',
-      'Medikal estetik uygulamalar kişisel değerlendirmeyle ve gerçekçi beklentilerle planlanmalıdır.',
-    ],
-    metricsTitle: 'Uygulamalar ve Hedeflenen Etkiler',
-    metrics: [
-      { lbl: 'PRP & Eksozom', val: 'Rejeneratif uygulamalar', tip: 'Hücreler arası iletişimi destekleyerek doku onarımına ve kolajen–elastin yapımına katkı sağlamayı hedefler.' },
-      { lbl: 'Altın İğne (RF)', val: 'Fraksiyonel radyofrekans', tip: 'Mikro iğnelerle oluşturulan kontrollü ısı etkisiyle yeni kolajen oluşumunu uyarmayı ve cilt sıkılığını artırmayı hedefler.' },
-    ],
-    posts: ['gunes-kremi-nasil-secilir', 'retinoid-nedir', 'ciltte-kollajen-kaybi'],
-    more: { href: '/medikal-estetik', label: 'Skin Longevity & Medikal Estetik sayfası' },
-  },
-].map((area) => {
+const areas = AREAS.map((area) => {
   // Seçili yazılardan sonra alanın diğer tüm yazıları da listelenir (hub → her yazı bağlantısı).
   const rest = allPosts
-    .filter((p) => areaOf(p) === area.id && !area.posts.includes(slug(p.id)))
+    .filter((p) => areaOf(slug(p.id), p.data.category) === area.id && !area.posts.includes(slug(p.id)))
     .sort((a, b) => a.data.title.localeCompare(b.data.title, 'tr'))
     .map((p) => postBySlug(slug(p.id)));
-  return { ...area, links: [...area.posts.map(postBySlug), ...rest] };
+  return { ...area, page: AREA_PAGE[area.id], links: [...area.posts.map(postBySlug), ...rest] };
 });
 
 // Hücresel temeller: yaşlanma biyolojisinin araştırma alanları (Longevity Bilimi kategorisi).
@@ -1263,7 +1160,7 @@ const cellular = [
                   <span class="pillar-links__title">Okumaya devam edin</span>
                   <ul>
                     {area.links.map((l) => <li><a href={l.href}>{l.title}</a></li>)}
-                    {area.more && <li><a href={area.more.href}>{area.more.label} &rarr;</a></li>}
+                    <li><a href={area.page} class="pillar-links__page">{area.more?.label ?? `${area.title} rehberinin tamamı`} &rarr;</a></li>
                   </ul>
                 </div>
               </div>
@@ -1303,7 +1200,7 @@ const cellular = [
       <div class="timeline-header">
         <h2 class="timeline-header__title">Sirkadiyen Ritim &amp; Günlük Rutin</h2>
         <p class="timeline-header__desc">
-          Biyolojik saatimizle uyumlu yaşamak, hücresel yenilenmeyi ve hormon dengesini en üst düzeye ulaştırmanın en pratik yoludur.
+          Gün ışığı, hareket, öğün düzeni ve uyku saatleri biyolojik saatimizi etkiler. Aşağıdaki öneriler herkese uygun bir program değil, günlük rutine eklenebilecek genel alışkanlıklardır.
         </p>
       </div>
 
@@ -1316,17 +1213,17 @@ const cellular = [
           </div>
           <div class="v-time-item__node"></div>
           <div class="v-time-card">
-            <span class="v-time-card__tag v-time-card__tag--morning">Sabah Protokolü</span>
-            <h3 class="v-time-card__title">Güneş Işığı &amp; Mitokondri Aktivasyonu</h3>
+            <span class="v-time-card__tag v-time-card__tag--morning">Sabah</span>
+            <h3 class="v-time-card__title">Gün Işığı ve Hareket</h3>
             <div class="v-time-card__list">
               <div class="v-time-card__step">
-                <strong>Doğrudan Işık Maruziyeti:</strong> Uyanıştan sonra ilk 30 dakika içinde doğrudan gün ışığı alın. Bu melatonin salınımını sıfırlar ve akşam uykusunu hazırlar.
+                <strong>Sabah Gün Işığı:</strong> Uyandıktan sonraki ilk saat içinde dışarıda gün ışığı almak biyolojik saati ayarlamaya ve akşam uykuya dalmayı kolaylaştırmaya yardımcı olabilir.
               </div>
               <div class="v-time-card__step">
-                <strong>Bölge 2 Egzersiz:</strong> Sohbet temposunda hafif aerobik egzersiz mitokondri kalitesini doğrudan artırır.
+                <strong>Orta Yoğunlukta Hareket:</strong> Konuşabileceğiniz tempoda yürüyüş veya bisiklet gibi aerobik aktiviteler, haftalık en az 150 dakika önerisine katkı sağlar.
               </div>
               <div class="v-time-card__step">
-                <strong>Soğuk Hidroterapi:</strong> Sabah duşunun sonundaki kısa süreli soğuk suyun dopamin salınımını ve kahverengi yağ dokusunun aktivitesini artırabileceğini gösteren çalışmalar vardır. Kalp-damar hastalığı olanlar önce hekimine danışmalıdır.
+                <strong>Kafein Zamanlaması:</strong> Kahve ve çay gibi kafeinli içecekleri öğleden sonranın ilk saatlerinden sonra azaltmak, gece uykusunu korumaya yardımcı olabilir.
               </div>
             </div>
           </div>
@@ -1339,17 +1236,17 @@ const cellular = [
           </div>
           <div class="v-time-item__node"></div>
           <div class="v-time-card">
-            <span class="v-time-card__tag v-time-card__tag--midday">Öğle Protokolü</span>
-            <h3 class="v-time-card__title">Metabolik Kararlılık &amp; Beslenme</h3>
+            <span class="v-time-card__tag v-time-card__tag--midday">Öğle</span>
+            <h3 class="v-time-card__title">Dengeli Öğün ve Hareket Araları</h3>
             <div class="v-time-card__list">
               <div class="v-time-card__step">
-                <strong>Düşük Glisemik Yük:</strong> Lif, protein ve sağlıklı yağlar içeren bir öğünle glukoz dalgalanmalarını engelleyin.
+                <strong>Dengeli Tabak:</strong> Lif, protein ve sebze içeren öğünler kan şekerindeki ani yükselişleri sınırlamaya yardımcı olur.
               </div>
               <div class="v-time-card__step">
-                <strong>Anti-Enflamatuar Gıdalar:</strong> Polifenoller yönünden zengin zeytinyağı, koyu yeşil sebzeler ve mevsim meyveleri tüketin.
+                <strong>Akdeniz Tipi Seçimler:</strong> Zeytinyağı, sebze, baklagil ve mevsim meyvelerine ağırlık veren beslenme düzenleri kalp-damar sağlığıyla ilişkilendirilmektedir.
               </div>
               <div class="v-time-card__step">
-                <strong>Mikro Hareketler:</strong> Oturarak geçen her bir saat için 5 dakikalık mobilite egzersizleri veya yürüyüş yapın.
+                <strong>Hareket Araları:</strong> Uzun süre oturuyorsanız yaklaşık her saatte birkaç dakikalık yürüyüş veya esneme molası verin.
               </div>
             </div>
           </div>
@@ -1362,17 +1259,17 @@ const cellular = [
           </div>
           <div class="v-time-item__node"></div>
           <div class="v-time-card">
-            <span class="v-time-card__tag v-time-card__tag--evening">Akşam Protokolü</span>
-            <h3 class="v-time-card__title">Mavi Işık Bloklama &amp; Glymphatic Temizlik</h3>
+            <span class="v-time-card__tag v-time-card__tag--evening">Akşam</span>
+            <h3 class="v-time-card__title">Uykuya Hazırlık</h3>
             <div class="v-time-card__list">
               <div class="v-time-card__step">
-                <strong>Sirkadiyen Karartma:</strong> Uykudan en az 2 saat önce ekran ışığını kesin. Mavi ışık maruziyeti melatonini baskılayarak derin uykuyu böler.
+                <strong>Ekranı Azaltmak:</strong> Yatmadan önceki 1–2 saatte ekran kullanımını azaltın; parlak ışık ve uyarıcı içerik uykuya dalmayı geciktirebilir.
               </div>
               <div class="v-time-card__step">
-                <strong>Magnezyum Desteği:</strong> Sinir sistemini yatıştırmak ve kasları gevşetmek için akşamları Magnezyum Bisglisinat veya Treonat tercih edin.
+                <strong>Takviyeler Herkes İçin Değil:</strong> Magnezyum gibi takviyeler herkese gerekli değildir; eksiklik şüphesinde ya da takviye düşünüyorsanız böbrek hastalığı ve kullandığınız ilaçlar açısından hekiminize danışın.
               </div>
               <div class="v-time-card__step">
-                <strong>Isı Düşüşü:</strong> Yatak odası sıcaklığını 18-19 derecede tutarak vücudun derin uyku fazına geçişini kolaylaştırın.
+                <strong>Serin ve Karanlık Oda:</strong> Serin, karanlık ve sessiz bir yatak odası uyku kalitesini destekler.
               </div>
             </div>
           </div>

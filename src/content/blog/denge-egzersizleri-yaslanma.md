@@ -64,7 +64,7 @@ Düşme riskini artırabilecek sakinleştirici, tansiyon, uyku veya başka ilaç
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) ve [kas kütlesi](/blog/kas-kutlesi-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [kavrama gücü](/blog/kavrama-gucu-ve-saglik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın hareket alanında](/longevity#hareket) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) ve [kas kütlesi](/blog/kas-kutlesi-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [kavrama gücü](/blog/kavrama-gucu-ve-saglik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.
 
 ## Kaynaklar
 

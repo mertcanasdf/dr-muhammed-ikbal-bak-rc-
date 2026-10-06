@@ -45,7 +45,7 @@ Vitamin K yeşil yapraklı sebzelerde, bazı yağlarda, yumurta, peynir ve soya 
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [D3 eksikliği belirtileri ve kan düzeyleri](/blog/d3-vitamini-eksikligi) ve [magnezyum ve D vitamini ilişkisi](/blog/magnezyum-eksikligi) konularını da okuyabilirsiniz. Ayrıca [omega-3 takviyelerinde güvenlik](/blog/omega-3-ne-ise-yarar) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [D3 eksikliği belirtileri ve kan düzeyleri](/blog/d3-vitamini-eksikligi) ve [magnezyum ve D vitamini ilişkisi](/blog/magnezyum-eksikligi) konularını da okuyabilirsiniz. Ayrıca [omega-3 takviyelerinde güvenlik](/blog/omega-3-ne-ise-yarar) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

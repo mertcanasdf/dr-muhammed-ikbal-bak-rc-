@@ -47,7 +47,7 @@ CDC, yetişkinlerin düzenli uyku saatleri ve yeterli uyku süresini korumasın�
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [sirkadiyen ritim](/blog/sirkadiyen-ritim-ve-uyku) ve [uyku hijyeni](/blog/uyku-kalitesi-nasil-artirilir) konularını da okuyabilirsiniz. Ayrıca [dijital tükenmişlik](/blog/dijital-tukenmislik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın uyku alanında](/longevity#uyku) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [sirkadiyen ritim](/blog/sirkadiyen-ritim-ve-uyku) ve [uyku hijyeni](/blog/uyku-kalitesi-nasil-artirilir) konularını da okuyabilirsiniz. Ayrıca [dijital tükenmişlik](/blog/dijital-tukenmislik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [uyku ve sağlıklı yaşlanma rehberimizde](/longevity/uyku) bulabilirsiniz.
 
 ## Kaynaklar
 

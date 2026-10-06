@@ -84,7 +84,7 @@ Mavi bölge çalışmaları gözlemseldir: uzun yaşayan toplulukların ortak ö
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [lifli beslenme ve bağırsak mikrobiyotası](/blog/lifli-beslenme-ve-mikrobiyota) ve [polifenol içeren besinler](/blog/polifenoller-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [yaşam amacı (ikigai) ve uzun ömür](/blog/yasam-amaci-ve-longevity) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [sağlıklı yaş almanın beslenme alanında](/longevity#beslenme) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [lifli beslenme ve bağırsak mikrobiyotası](/blog/lifli-beslenme-ve-mikrobiyota) ve [polifenol içeren besinler](/blog/polifenoller-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [yaşam amacı (ikigai) ve uzun ömür](/blog/yasam-amaci-ve-longevity) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.
 
 ## Kaynaklar
 

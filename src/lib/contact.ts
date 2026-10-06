@@ -29,12 +29,13 @@ export function validateContact(input: ContactInput): ContactErrors {
   return errors;
 }
 
-// Gönderim yöntemi (karar D1-A): sunucu gerektirmeyen WhatsApp; mesajı kullanıcı kendisi gönderir,
-// form verisi bu sitede saklanmaz. Sprint 1 kararı gereği kişisel GSM kullanılmaz: buraya yalnızca
-// hekimin İŞ WhatsApp hattı yazılır (ülke koduyla, örn. '90XXXXXXXXXX'). Boş kaldıkça form gizlenir
-// ve iletişim sayfası kurumsal kanalları gösterir.
-export const WHATSAPP_NUMBER = '';
-export const WHATSAPP_DISPLAY = '';
+// Gönderim yöntemi (karar D1): sunucu gerektirmeyen WhatsApp; mesajı kullanıcı kendisi gönderir,
+// form verisi bu sitede saklanmaz. 2026-10-06: kullanıcı kararıyla revizyon planı madde 14 geri alındı,
+// hekimin numarası ve e-postası yeniden yayında. Boş bırakılırsa form gizlenir.
+export const WHATSAPP_NUMBER = '905442244813';
+export const WHATSAPP_DISPLAY = '0544 224 48 13';
+export const PHONE_TEL = '+905442244813';
+export const EMAIL = 'Muhammedikbalb@gmail.com';
 
 // İş birliği, akademik ve medya talepleri için doğrulanmış profesyonel profil.
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/muhammed-ikbal-bakirci-221ab3243';

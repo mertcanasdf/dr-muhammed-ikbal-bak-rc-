@@ -30,8 +30,6 @@ const checks = [];
 const check = (name, fn) => checks.push({ name, fn });
 
 const FORBIDDEN = [
-  ['kişisel GSM', /905442244813|90-544-224|0\s?544\s?224\s?48\s?13|224\s?4813/],
-  ['kişisel Gmail', /gmail\.com/i],
   ['FDA metni', /Gıda ve İlaç İdaresi/],
   ['eski unvan "Dr. Longevity"', /Dr\. Longevity/],
   ['kaldırılan sayfalara link', new RegExp(`href="/(${REMOVED.join('|')})(?=["/#?])`)],

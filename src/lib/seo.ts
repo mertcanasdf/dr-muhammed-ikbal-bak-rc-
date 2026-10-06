@@ -142,6 +142,8 @@ export function buildSiteStructuredData({
         alumniOf: { '@type': 'CollegeOrUniversity', name: 'Atatürk Üniversitesi Tıp Fakültesi' },
         hasOccupation: { '@type': 'Occupation', name: 'Hekim' },
         knowsAbout: ['Longevity', 'Sağlıklı yaşlanma', 'Medikal estetik', 'Acil tıp', 'Sağlık yönetimi'],
+        email: 'mailto:Muhammedikbalb@gmail.com',
+        telephone: '+90-544-224-48-13',
         sameAs: SAME_AS,
       },
       {

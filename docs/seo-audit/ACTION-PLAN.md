@@ -123,3 +123,4 @@ Puanlar claude-seo'nun sezgisel modelinden gelir; Google verisi değildir. Düze
 - **Quiz lisansları:** GAD-7 ve PSS-10 serbest, kaynak notları eklendi. ISI ve OCI-R telifli; kaldırıldı, ISI yerine özgün bir uyku anketi kondu. Lisans talep taslakları `docs/olcek-lisans-talepleri.md` içinde.
 - **Gizlilik politikası ve kullanım koşulları** sitenin gerçekte yaptığıyla eşleştirildi: mağaza, bülten, çerez, hesap ve iade maddeleri kaldırıldı.
 - **/sitelerimiz** kaldırıldı (listelenen alan adları yayında değil); adres 301 ile ana sayfaya yönleniyor.
+- **Güncelleme (aynı gün):** Kullanıcı kararıyla revizyon planı madde 14 geri alındı. 0544 224 48 13 ve Muhammedikbalb@gmail.com hakkında ve iletişim sayfalarında ve schema'da yeniden yer alıyor; iletişim formu bu WhatsApp hattıyla çalışıyor.

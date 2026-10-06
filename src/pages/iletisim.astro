@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { CONTACT_CHANNELS, WHATSAPP_NUMBER, WHATSAPP_DISPLAY, WORKPLACE, LINKEDIN_URL } from '../lib/contact';
+import { CONTACT_CHANNELS, WHATSAPP_NUMBER, WHATSAPP_DISPLAY, WORKPLACE, LINKEDIN_URL, PHONE_TEL, EMAIL } from '../lib/contact';
 // İş WhatsApp hattı tanımlanana kadar form gösterilmez; kanallar kurumsal iletişim yollarına yönlenir.
 const formEnabled = WHATSAPP_NUMBER.length > 0;
 const channelHref = (id: string) => (formEnabled ? '#iletisim-formu' : id === 'randevu' ? '#ct-info-title' : LINKEDIN_URL);
@@ -41,8 +41,10 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComp
       </div>
       {formEnabled ? (
         <div class="ct-info__item">
-          <h3>WhatsApp</h3>
-          <p><a href={`https://wa.me/${WHATSAPP_NUMBER}`} rel="noopener" target="_blank" class="ct-info__big">{WHATSAPP_DISPLAY}</a></p>
+          <h3>Telefon ve WhatsApp</h3>
+          <p><a href={`tel:${PHONE_TEL}`} class="ct-info__big">{WHATSAPP_DISPLAY}</a></p>
+          <p><a href={`https://wa.me/${WHATSAPP_NUMBER}`} rel="noopener" target="_blank">WhatsApp'tan yazın &rarr;</a></p>
+          <p class="ct-info__mail">E-posta: <a href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
           <p class="ct-info__note">Aşağıdaki form da mesajınızı bu hatta WhatsApp üzerinden iletir.</p>
         </div>
       ) : (
@@ -207,6 +209,7 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComp
   .ct-info__item address { font-style: normal; line-height: 1.6; margin-bottom: 10px; }
   .ct-info__item a { color: #1e45da; font-weight: 600; }
   .ct-info__big { font-size: 22px; font-weight: 800; color: var(--main) !important; }
+  .ct-info__mail { margin-top: 8px; font-size: 14px; word-break: break-all; }
   .ct-info__note { font-size: 13px; color: var(--gray-500); margin-top: 6px; }
   .ct-privacy { font-size: 13px; color: var(--gray-500); line-height: 1.6; margin: 4px 0 14px; }
   .ct-status a { font-weight: 700; text-decoration: underline; }

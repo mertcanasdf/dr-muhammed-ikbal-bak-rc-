@@ -5,6 +5,8 @@ export interface TimelineItem {
   type: string;
   title: string;
   description: string;
+  /** Tarih ve yer, ör. "15–16 Aralık 2025 · Bursa" */
+  meta?: string;
   href?: string;
   linkLabel?: string;
 }
@@ -22,6 +24,7 @@ const { items } = Astro.props;
       <div class="timeline__card">
         <span class="timeline__type">{item.type}</span>
         <h3 class="timeline__title">{item.title}</h3>
+        {item.meta && <p class="timeline__meta">{item.meta}</p>}
         <p class="timeline__description">{item.description}</p>
         {item.href && (
           <a class="timeline__link" href={item.href} target="_blank" rel="noopener">{item.linkLabel ?? 'Kaynağı görüntüleyin'} &rarr;</a>
@@ -41,6 +44,7 @@ const { items } = Astro.props;
   .timeline__card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
   .timeline__type { display: block; margin-bottom: 8px; color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .7px; text-transform: uppercase; }
   .timeline__title { margin-bottom: 8px; color: var(--main); font-size: 20px; font-weight: 800; line-height: 1.3; }
+  .timeline__meta { margin: -2px 0 10px; color: var(--gray-500); font-size: 14px; font-weight: 600; }
   .timeline__description { color: var(--gray-700); font-size: 15px; line-height: 1.7; }
   .timeline__link { display: inline-block; margin-top: 12px; color: var(--blue); font-size: 14px; font-weight: 700; }
   .timeline__link:hover { text-decoration: underline; }

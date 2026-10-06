@@ -33,6 +33,8 @@ const FORBIDDEN = [
   ['FDA metni', /Gıda ve İlaç İdaresi/],
   ['eski unvan "Dr. Longevity"', /Dr\. Longevity/],
   ['kaldırılan sayfalara link', new RegExp(`href="/(${REMOVED.join('|')})(?=["/#?])`)],
+  // Kurumun resmî adı "VM Medical Park Bursa Hastanesi" (medicalpark.com.tr); farklı yazımlar kullanılmaz.
+  ['hastane adının resmî olmayan yazımı', /Medikal ?park|Medicalpark (?!\.com)|Bursa VM Medical/i],
 ];
 for (const [label, re] of FORBIDDEN) {
   check(`yasak içerik yok: ${label}`, () => textFiles.filter((f) => re.test(read(f))));

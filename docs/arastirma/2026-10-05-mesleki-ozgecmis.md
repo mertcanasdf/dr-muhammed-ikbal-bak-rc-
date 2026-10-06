@@ -60,9 +60,11 @@ Botoks, dolgu, PRP, mezoterapi, kimyasal peeling, mikro iğneleme, lazer, altın
 
 | Yıl | Etkinlik | Konu | Teyit |
 |---|---|---|---|
-| 2025 | Multidisipliner Çevre ve Kenevir Kongresi | Kanabinoidlerin dermokozmetik kullanımı | |
-| 2025 | Uluslararası Medikal Estetik ve Tamamlayıcı Tıp Kongresi | Kollajen stimülasyonu | |
-| 2026 | 5. The Longevity Show İstanbul (24–25 Ocak 2026) | Kişiselleştirilmiş longevity ve genetik | |
+| 2025 | 2. Uluslararası Multidisipliner Çevre ve Kenevir Kongresi (15–16 Aralık 2025, Bursa Uludağ Üniversitesi) | Kanabinoidlerin dermokozmetik kullanımı | ✔ katılım bağımsız kaynakta: [Kilim Gazetesi, 22.12.2025](https://kilimgazetesi.de/haber/bilim-dunyasi-keneviri-masaya-yatirdi) |
+| 2025 | 1. Uluslararası Medikal Estetik ve Tamamlayıcı Tıp Kongresi, MESTAD (26–28 Eylül 2025, İstanbul) | Kollajen stimülasyonu | Etkinlik ve tarih doğrulandı ([kongreuzmani.com](https://www.kongreuzmani.com/1-uluslarasi-medikal-estetik-ve-tamamlayici-tip-kongresi.html)); katılım yalnızca HK. Program/sertifika istenmeli |
+| 2026 | 5. The Longevity Show İstanbul (24–25 Ocak 2026) | Kişiselleştirilmiş longevity ve genetik | Etkinlik ve tarih doğrulandı; katılım yalnızca HK. Program/fotoğraf istenmeli |
+
+> 2026-10-06: Geçmiş Yıllar sayfasındaki etkinlik adları resmî adlarıyla düzeltildi, tarih ve yer eklendi. Bağımsız kaynağı olan maddelere kaynak bağlantısı verildi.
 
 > Longevity Show basın haberlerinde (ör. [Sağlık Dünyası](https://www.saglikdunyasidergisi.com/haber/5_the_longevity_show_istanbulda_ilham_veren_bulusmalar-21547.html)) adı geçmiyor; program listesi ya da fotoğraf istenmeli.
 

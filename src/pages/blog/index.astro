@@ -30,7 +30,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
       <p class="blog-search-status" id="blogSearchStatus" role="status" hidden></p>
       <div class="blog-grid" id="blogGrid">
         {posts.map(post => (
-          <article class="blog-card" data-cat={post.data.category}>
+          <article class="blog-card" data-cat={post.data.category} data-title={post.data.title} data-desc={`${post.data.description} ${(post.data.takeaways ?? []).join(' ')}`}>
             <a href={`/blog/${slug(post.id)}`} class="blog-card__img-link">
               <CardImage src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
@@ -54,19 +54,44 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
 <script is:inline>
   document.addEventListener('astro:page-load', function () {
     var btns  = document.querySelectorAll('.filter-btn');
-    var cards = document.querySelectorAll('#blogGrid .blog-card');
+    var grid  = document.getElementById('blogGrid');
+    var cards = Array.prototype.slice.call(document.querySelectorAll('#blogGrid .blog-card'));
 
-    // Başlıktaki arama kutusu /blog?q=... ile gelir: başlık ve özette geçen yazılar gösterilir.
+    // Türkçe karakterleri ve çift harfleri sadeleştirir: "Güneş"/"gunes", "kollajen"/"kolajen" aynı aranır.
+    function fold(s) {
+      return s.toLocaleLowerCase('tr')
+        .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u')
+        .replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/([a-z])\1+/g, '$1');
+    }
+
+    // Başlıktaki arama kutusu /blog?q=... ile gelir. Her kelime başlıkta, kategoride, özette ya da
+    // öne çıkanlarda geçmelidir; başlıkta geçen kelimeler sonucu üst sıralara taşır.
     var status = document.getElementById('blogSearchStatus');
     var q = (new URLSearchParams(location.search).get('q') || '').trim();
     if (q && status) {
-      var needle = q.toLocaleLowerCase('tr');
-      var shown = 0;
+      var words = fold(q).split(/\s+/).filter(function (w) { return w.length > 1; });
+      var scored = [];
       cards.forEach(function (card) {
-        var match = card.textContent.toLocaleLowerCase('tr').indexOf(needle) !== -1;
-        card.style.display = match ? '' : 'none';
-        if (match) shown++;
+        var title = fold(card.getAttribute('data-title') || '');
+        var rest = fold((card.getAttribute('data-cat') || '') + ' ' + (card.getAttribute('data-desc') || ''));
+        var score = 0;
+        var all = words.length > 0 && words.every(function (w) {
+          if (title.indexOf(w) !== -1) { score += 3; return true; }
+          if (rest.indexOf(w) !== -1) { score += 1; return true; }
+          return false;
+        });
+        var phrase = fold(q);
+        if (all && title.indexOf(phrase) !== -1) score += 5;
+        if (all && title.indexOf(phrase) === 0) score += 3;
+        if (all && fold(card.getAttribute('data-cat') || '').indexOf(phrase) !== -1) score += 2;
+        card.style.display = all ? '' : 'none';
+        if (all) scored.push({ card: card, score: score });
       });
+      scored.sort(function (a, b) { return b.score - a.score; });
+      scored.forEach(function (s) { grid.appendChild(s.card); });
+      var shown = scored.length;
       status.textContent = '';
       var text = document.createElement('span');
       text.textContent = '"' + q + '" için ' + shown + ' yazı bulundu. ';
@@ -81,6 +106,8 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
     btns.forEach(function (btn) {
       btn.addEventListener('click', function () {
         if (status) status.hidden = true;
+        // Arama sırasını bırakıp yazıları yeniden en yeniden eskiye diz.
+        cards.forEach(function (card) { grid.appendChild(card); });
         btns.forEach(function (b) { b.classList.remove('active'); });
         btn.classList.add('active');
         var filter = btn.getAttribute('data-filter');

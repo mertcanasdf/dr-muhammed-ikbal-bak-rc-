@@ -49,6 +49,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .q-result.is-active{display:block;}
     .q-result__label{font-size: 12px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#fff;background:var(--green);padding:4px 14px;border-radius:99px;display:inline-block;margin-bottom:16px;}
     .q-result__title{font-size:22px;font-weight:900;margin-bottom:12px;color:var(--main);}
+    .q-result__score{font-size:14px;color:var(--gray-700);margin:-4px 0 0;}
     .q-result__score-bar{background:var(--tertiary);border-radius:99px;height:10px;margin:16px 0;overflow:hidden;}
     .q-result__score-fill{height:100%;background:var(--green);border-radius:99px;transition:width .8s ease;}
     .q-result__desc{font-size:15px;color:var(--gray-700);line-height:1.7;margin-bottom:20px;}
@@ -66,7 +67,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <section class="pg-hero"><div class="container">
       <p class="pg-hero__tag">Sağlık Değerlendirmesi</p>
-      <h1 class="pg-hero__title">Vücudunuzu 5 Dakikada<br>Tanıyın</h1>
+      <h1 class="pg-hero__title">Alışkanlıklarınızı<br>5 Dakikada Gözden Geçirin</h1>
       <p class="pg-hero__sub">Yaşam tarzı alışkanlıklarınızı ve iyi oluşunuzu gözden geçirmeniz için hazırlanmış testler; her biri 2–5 dakikada tamamlanır. Testler bilgilendirme amaçlıdır ve tanı koymaz.</p>
       <a href="#quizler" class="btn btn-light">Testlere Göz At</a>
     </div></section>
@@ -118,7 +119,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <CardImage src="/assets/images/generated/quiz_inflammation.webp" alt="Enflamasyonla İlişkili Belirtiler" class="quiz-card__img" />
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
-            <h3 class="quiz-card__title">Enflamasyonla İlişkili Belirtiler</h3>
+            <h3 class="quiz-card__title">Enflamasyonla İlişkili Belirtiler Anketi</h3>
             <p class="quiz-card__desc">Enflamasyonla ilişkilendirilen belirti ve alışkanlıkları gözden geçirin: beslenme, eklem ve bağırsak hassasiyeti. Laboratuvar testinin yerine geçmez.</p>            <button class="btn btn-dark" onclick="openQuiz('enflamasyon')">Teste Başla</button>
           </div>
         </div>
@@ -146,7 +147,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="quiz-card__body">
             <span class="quiz-card__tag">Farkındalık anketi</span>
             <h3 class="quiz-card__title">Cilt Sağlığı Alışkanlıkları Testi</h3>
-            <p class="quiz-card__desc">Günlük bakım rutini, beslenme, uyku ve yaşam tarzı alışkanlıklarınız cilt sağlığınızı nasıl etkiliyor? 12 soruda cilt sağlığı skorunuzu öğrenin.</p>            <button class="btn btn-dark" onclick="openQuiz('cilt-sagligi')">Teste Başla</button>
+            <p class="quiz-card__desc">Güneş koruması, bakım rutini, beslenme ve uyku gibi cilt sağlığını etkileyen 12 alışkanlığı gözden geçiren farkındalık anketi. Dermatolojik muayenenin yerine geçmez.</p>            <button class="btn btn-dark" onclick="openQuiz('cilt-sagligi')">Teste Başla</button>
           </div>
         </div>
 
@@ -345,7 +346,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       maxPoints: 24,
       levels: [
         { min: 0, max: 8, label: "Gelişime Açık", title: "Enerjinizi Destekleyen Alışkanlıklar Geliştirilebilir", pct: 25, desc: "Yanıtlarınız düşük enerji ve az hareketle ilgili alışkanlıklara işaret ediyor. Bu anket mitokondri işlevini ölçmez.", tips: ["Haftada en az 150 dakika orta yoğunlukta aerobik aktiviteyi kademeli olarak hedefleyin","Haftada 2 gün kuvvet antrenmanı ekleyin","Düzenli uyku saatleri edinin","Sürekli yorgunluk ve halsizlik varsa kansızlık, tiroid ve diğer nedenler için hekime başvurun"] },
-        { min: 9, max: 17, label: "Orta", title: "Orta Düzey — Birkaç Alışkanlık Fark Yaratabilir", pct: 60, desc: "Enerjinizi destekleyen alışkanlıklarınız orta düzeyde.", tips: ["Düzenli aerobik egzersiz, mitokondri işlevini desteklemenin en iyi kanıtlanmış yoludur","Sabah gün ışığı ve düzenli uyku saatleri enerji düzeyini destekler","Yeterli protein içeren dengeli bir beslenmeye dikkat edin"] },
+        { min: 9, max: 17, label: "Orta", title: "Orta Düzey — Birkaç Alışkanlık Fark Yaratabilir", pct: 60, desc: "Enerjinizi destekleyen alışkanlıklarınız orta düzeyde.", tips: ["Düzenli aerobik egzersizin mitokondri işlevini desteklediği araştırmalarla gösterilmiştir","Sabah gün ışığı ve düzenli uyku saatleri enerji düzeyini destekler","Yeterli protein içeren dengeli bir beslenmeye dikkat edin"] },
         { min: 18, max: 24, label: "Çok İyi", title: "Çok İyi — Enerjinizi Destekleyen Alışkanlıklar", pct: 95, desc: "Enerjinizi destekleyen alışkanlıkların büyük bölümünü benimsemişsiniz.", tips: ["Zone 2 kardiyo ve direnç antrenmanı rutininizi koruyun","Toparlanmaya ve uykuya önem vermeye devam edin","Takviyeler sağlıklı alışkanlıkların yerini tutmaz; kullanmadan önce hekiminize danışın"] },
       ]
     },
@@ -367,7 +368,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 30,
       levels: [
-        { min: 25, max: 30, label: "Glogau Grup I", title: "Minimal Fotoyaşlanma — Koruma Dönemi", pct: 90, desc: "Belirgin fotoyaşlanma bulgusu bildirmediniz. Güneşten korunma bu dönemde de en etkili önlemdir.", tips: ["Her gün geniş spektrumlu, SPF 30 ve üzeri güneş koruyucu kullanın","Retinol gibi retinoidler uygun cilt tiplerinde rutine eklenebilir","Nemlendirici ile cilt bariyerini destekleyin","Yeni ya da değişen benler için dermatolojik kontrol yaptırın"] },
+        { min: 25, max: 30, label: "Glogau Grup I", title: "Minimal Fotoyaşlanma — Koruma Dönemi", pct: 90, desc: "Belirgin fotoyaşlanma bulgusu bildirmediniz. Fotoyaşlanmayı önlemede güneşten korunma temel önlemdir.", tips: ["Her gün geniş spektrumlu, SPF 30 ve üzeri güneş koruyucu kullanın","Retinol gibi retinoidler uygun cilt tiplerinde rutine eklenebilir","Nemlendirici ile cilt bariyerini destekleyin","Yeni ya da değişen benler için dermatolojik kontrol yaptırın"] },
         { min: 18, max: 24, label: "Glogau Grup II", title: "Erken-Orta Fotoyaşlanma", pct: 65, desc: "Hafif ila orta düzeyde fotoyaşlanma belirtileri bildirdiniz. Size uygun seçenekler hekim muayenesiyle belirlenir.", tips: ["Düzenli güneş koruması ve retinoid içeren bakım temel adımlardır","Mimik çizgileri için botulinum toksin, hekim değerlendirmesiyle seçenekler arasında olabilir","Leke ve doku değişiklikleri için peeling veya lazer gibi uygulamalar değerlendirilebilir","Her uygulamanın olası yan etkilerini hekiminizle konuşun"] },
         { min: 10, max: 17, label: "Glogau Grup III", title: "Orta-İleri Fotoyaşlanma", pct: 40, desc: "Belirgin fotoyaşlanma bulguları bildirdiniz. Kişiye özel bir plan için hekim muayenesi gerekir.", tips: ["Hacim kaybı için dolgu, cilt gevşekliği için radyofrekans gibi seçenekler muayene sonrası değerlendirilebilir","Günlük güneş koruması ve medikal cilt bakımı her aşamada temeldir","Beklentilerinizi gerçekçi tutun; sonuçlar kişiden kişiye değişir","Uygulamaları lisanslı bir hekime yaptırın"] },
         { min: 0, max: 9, label: "Glogau Grup IV", title: "İleri Fotoyaşlanma — Hekim Muayenesi Önerilir", pct: 15, desc: "İleri fotoyaşlanma bulguları bildirdiniz. Kapsamlı bir değerlendirme için dermatoloji veya medikal estetik hekimiyle görüşmeniz önerilir.", tips: ["Tedavi seçenekleri ve olası riskleri muayene sonrasında birlikte değerlendirilir","Güneşten korunma ve sigaradan uzak durma ileri aşamada da faydalıdır","Cilt kanseri açısından şüpheli lezyonların kontrolünü aksatmayın","Tek seferde çok sayıda işlem yerine kademeli bir plan daha güvenlidir"] },
@@ -417,9 +418,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 40,
       levels: [
-        { min: 0, max: 13, label: 'Düşük Stres', title: 'Stres Düzeyiniz Düşük — İyi Bir Denge', pct: 88, desc: 'PSS-10 skorunuz düşük stres düzeyine işaret ediyor. Psikolojik stres yükünüzü genel olarak iyi yönetiyorsunuz.', tips: ['Mevcut stres yönetim stratejilerinizi sürdürün', 'Önleyici pratikler: mindfulness, egzersiz, kaliteli uyku', 'Stres belirteçlerinizi düzenli aralıklarla yeniden değerlendirin'] },
-        { min: 14, max: 26, label: 'Orta Stres', title: 'Orta Düzey Stres — Bilinçli Yönetim Gerekiyor', pct: 55, desc: 'PSS-10 skorunuz orta düzey psikolojik strese işaret ediyor. Bu düzey uzun vadede sağlık üzerinde olumsuz etki yaratabilir.', tips: ['Günde 10 dakika derin nefes (4-7-8 veya box breathing tekniği)', 'Stres günlüğü tutmak tetikleyicileri belirlemenizi sağlar', 'Sosyal destek ağınızı güçlendirin', 'Düzenli aerobik egzersiz stresle başa çıkmayı destekler', 'Uyku hijyenini iyileştirin — uyku stres döngüsünü kırar'] },
-        { min: 27, max: 40, label: 'Yüksek Stres', title: 'Yüksek Stres — Profesyonel Destek Önerilir', pct: 22, desc: 'PSS-10 skorunuz yüksek psikolojik strese işaret ediyor. Uzun süren yüksek stres ruh ve beden sağlığını olumsuz etkileyebilir; destek almak faydalı olur.', tips: ['Bir psikolog veya psikiyatrist ile görüşmeyi değerlendirin', 'Bilişsel Davranışçı Terapi (BDT) stres yönetiminde kanıta dayalı yöntemlerden biridir', 'Bitkisel ürün veya takviye kullanmadan önce hekiminize danışın', 'Yaşam tarzı değişikliklerine öncelik verin: uyku, egzersiz, beslenme', 'Kronik stres medikal değerlendirme gerektirebilir'] },
+        { min: 0, max: 13, label: 'Düşük Stres', title: 'Stres Düzeyiniz Düşük — İyi Bir Denge', pct: 88, desc: 'PSS-10 skorunuz düşük stres düzeyine işaret ediyor. Psikolojik stres yükünüzü genel olarak iyi yönetiyorsunuz.', tips: ['Mevcut stres yönetim stratejilerinizi sürdürün', 'Farkındalık egzersizleri, düzenli hareket ve kaliteli uyku stresle başa çıkmayı destekler', 'Stres algınızı birkaç ayda bir bu ölçekle yeniden değerlendirebilirsiniz'] },
+        { min: 14, max: 26, label: 'Orta Stres', title: 'Orta Düzey Stres — Bilinçli Yönetim Gerekiyor', pct: 55, desc: 'PSS-10 skorunuz orta düzey psikolojik strese işaret ediyor. Bu düzey uzun vadede sağlık üzerinde olumsuz etki yaratabilir.', tips: ['Günde birkaç dakika yavaş ve derin nefes egzersizi deneyin', 'Stres günlüğü tutmak tetikleyicileri fark etmenize yardımcı olabilir', 'Sosyal destek ağınızı güçlendirin', 'Düzenli aerobik egzersiz stresle başa çıkmayı destekler', 'Düzenli uyku saatleri stresle başa çıkmayı kolaylaştırır'] },
+        { min: 27, max: 40, label: 'Yüksek Stres', title: 'Yüksek Stres — Profesyonel Destek Önerilir', pct: 22, desc: 'PSS-10 skorunuz yüksek psikolojik strese işaret ediyor. Uzun süren yüksek stres ruh ve beden sağlığını olumsuz etkileyebilir; destek almak faydalı olur.', tips: ['Bir psikolog veya psikiyatrist ile görüşmeyi değerlendirin', 'Bilişsel Davranışçı Terapi (BDT) stres yönetiminde kanıta dayalı yöntemlerden biridir', 'Bitkisel ürün veya takviye kullanmadan önce hekiminize danışın', 'Yaşam tarzı değişikliklerine öncelik verin: uyku, egzersiz, beslenme', 'Uzun süren stresle birlikte bedensel yakınmalarınız varsa bir hekime başvurun'] },
       ]
     },
     anksiyete: {
@@ -437,10 +438,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       scoring: 'points',
       maxPoints: 21,
       levels: [
-        { min: 0, max: 4, label: 'Minimal', title: 'Minimal Anksiyete — Klinik Anlamlılık Yok', pct: 92, desc: 'GAD-7 skorunuz minimal düzeyde anksiyete belirtisi gösteriyor. Genel ruh sağlığınız iyi görünüyor.', tips: ['Önleyici stres yönetimi pratiklerini sürdürün', 'Düzenli egzersiz kaygı belirtilerini azaltmaya yardımcı olabilir', 'Sosyal bağlantılar ruh sağlığının en güçlü destekçisidir'] },
-        { min: 5, max: 9, label: 'Hafif', title: 'Hafif Anksiyete — İzleme Önerilir', pct: 68, desc: 'GAD-7 skorunuz hafif düzeyde anksiyete belirtisine işaret ediyor. Yaşam tarzı değişiklikleri ve öz-yardım stratejileri etkili olabilir.', tips: ['Diyafragmatik nefes: günde 2 kez 5 dakika pratik yapın', 'Kaygı günlüğü tutarak düşünce kalıplarını tanıyın', 'Kafeini sınırlandırın — anksiyeteyi artırabilir', 'Mindfulness meditation uygulamaları deneyin', 'Düzenli uyku rutini anksiyete belirtilerini azaltır'] },
-        { min: 10, max: 14, label: 'Orta', title: 'Orta Düzey Anksiyete — Profesyonel Değerlendirme Önerilir', pct: 42, desc: 'GAD-7 skorunuz orta düzey anksiyete belirtisine işaret ediyor. Günlük işlevselliğiniz etkileniyor olabilir. Bir uzmandan destek almanız önerilir.', tips: ['Psikolog veya psikiyatrist ile görüşün', 'BDT (Bilişsel Davranışçı Terapi) GAD için birinci seçenek tedavidir', 'Maruz kalma terapisi yaygın kaygı bozukluğunda etkilidir', 'Takviye kullanmadan önce hekiminize danışın', 'Alkol anksiyeteyi kısa vadede azaltır ama uzun vadede artırır'] },
-        { min: 15, max: 21, label: 'Ağır', title: 'Ağır Anksiyete — Klinik Değerlendirme Gerekli', pct: 15, desc: 'GAD-7 skorunuz ağır düzey anksiyete belirtisine işaret ediyor. Bu düzey günlük yaşamı ciddi ölçüde etkileyebilir ve klinik müdahale gerektirebilir.', tips: ['Psikiyatrik değerlendirme için randevu alın', 'Anksiyolitik ilaç tedavisi değerlendirilebilir', 'BDT + ilaç kombinasyonu ağır GAD\'de en etkili yaklaşımdır', 'Alkol ve kafein kesin olarak azaltılmalı'] },
+        { min: 0, max: 4, label: 'Minimal', title: 'Minimal Düzeyde Kaygı Belirtisi', pct: 92, desc: 'Son iki haftaya ait yanıtlarınız minimal düzeyde kaygı belirtisine işaret ediyor.', tips: ['Uyku, hareket ve sosyal bağlar gibi iyi gelen alışkanlıklarınızı sürdürün', 'Düzenli egzersiz kaygıyla başa çıkmayı destekler', 'Belirtileriniz artarsa ölçeği birkaç hafta sonra yeniden doldurabilirsiniz'] },
+        { min: 5, max: 9, label: 'Hafif', title: 'Hafif Düzeyde Kaygı Belirtileri', pct: 68, desc: 'Yanıtlarınız hafif düzeyde kaygı belirtilerine işaret ediyor. Belirtilerin seyrini izlemek ve iyi gelen alışkanlıkları güçlendirmek yararlı olabilir.', tips: ['Yavaş ve derin nefes egzersizlerini günde birkaç dakika deneyin', 'Kaygı yaratan düşünceleri not etmek, tekrarlayan kalıpları fark etmenize yardımcı olabilir', 'Kafein kaygı belirtilerini artırabilir; tüketiminizi gözden geçirin', 'Farkındalık (mindfulness) egzersizleri deneyebilirsiniz', 'Düzenli uyku saatleri kaygıyla başa çıkmayı kolaylaştırır'] },
+        { min: 10, max: 14, label: 'Orta', title: 'Orta Düzeyde Kaygı Belirtileri — Değerlendirme Önerilir', pct: 42, desc: 'Yanıtlarınız orta düzeyde kaygı belirtilerine işaret ediyor. GAD-7 puanının 10 ve üzerinde olması, belirtilerin bir hekim ya da ruh sağlığı uzmanı tarafından değerlendirilmesi için bir eşik olarak kullanılır.', tips: ['Bir hekim, psikolog ya da psikiyatristle görüşmeyi planlayın', 'Kaygı belirtilerinde bilişsel davranışçı terapi (BDT) etkinliği gösterilmiş yöntemlerdendir', 'Bitkisel ürün veya takviye kullanmadan önce hekiminize danışın', 'Alkol kaygıyı kısa süre bastırsa da uzun vadede artırabilir'] },
+        { min: 15, max: 21, label: 'Ağır', title: 'Belirgin Kaygı Belirtileri — Bir Uzmana Başvurun', pct: 15, desc: 'Yanıtlarınız ağır düzeyde kaygı belirtilerine işaret ediyor. Bu düzey günlük yaşamı ciddi biçimde etkileyebilir; bir hekim ya da ruh sağlığı uzmanından destek almanız önerilir.', tips: ['Yakın zamanda bir hekim ya da psikiyatristle görüşün', 'Uygun tedavi seçenekleri muayene sonrasında birlikte belirlenir', 'Kendinize zarar verme düşünceleriniz varsa beklemeden 112 Acil Çağrı Merkezini arayın', 'Bu dönemde güvendiğiniz biriyle duygularınızı paylaşmak yardımcı olabilir'] },
       ]
     },
     uyku: {
@@ -733,8 +734,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         if (ansIdx !== null) total += q.questions[qIdx].options[ansIdx].pts;
       });
       const level = q.levels.find(l => total >= l.min && total <= l.max) || q.levels[q.levels.length - 1];
-      const pctScore = Math.round((total / q.maxPoints) * 100);
-      renderResult({ ...level, pct: pctScore });
+      // Çubuk her testte "ne kadar iyi" gösterir. PSS-10, GAD-7 gibi testlerde yüksek puan kötüdür;
+      // yön, seviyelerin pct değerlerinden çıkarılır (en yüksek puanlı seviye en düşük pct'ye sahipse ters).
+      const byMin = [...q.levels].sort((a, b) => a.min - b.min);
+      const higherIsWorse = byMin[byMin.length - 1].pct < byMin[0].pct;
+      const raw = Math.round((total / q.maxPoints) * 100);
+      renderResult({ ...level, pct: higherIsWorse ? 100 - raw : raw, score: `${total} / ${q.maxPoints}` });
     }
   }
 
@@ -743,6 +748,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     const html = `<div class="q-result is-active">
       <div class="q-result__label">${r.label}</div>
       <h3 class="q-result__title">${r.title}</h3>
+      ${r.score ? `<p class="q-result__score">Puanınız: <strong>${r.score}</strong></p>` : ''}
       <div class="q-result__score-bar"><div class="q-result__score-fill" id="scoreFill" style="width:0%"></div></div>
       <div class="q-result__desc">${r.desc}</div>
       <div class="q-result__tips"><h4>Önerilen Adımlar</h4><ul>${tipsHTML}</ul></div>

@@ -2,29 +2,37 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Timeline, { type TimelineItem } from '../components/Timeline.astro';
 
+// Etkinlik adı, tarihi ve yeri düzenleyici kaynaklarından doğrulandı (2026-10-06). Kaynak bağlantısı olan
+// maddelerde katılım da bağımsız kaynakta geçiyor; diğerlerinde katılım hekimin beyanıdır.
 const events: TimelineItem[] = [
   {
     year: '2026',
     type: 'Etkinlik',
-    title: '5. Longevity Show İstanbul',
+    title: '5. The Longevity Show İstanbul',
+    meta: '24–25 Ocak 2026 · İstanbul',
     description: 'Kişiselleştirilmiş longevity ve genetik yaklaşımları üzerine paylaşımlar.',
   },
   {
     year: '2025',
     type: 'Kongre & Sunum',
-    title: 'Uluslararası Medikal Estetik ve Tamamlayıcı Tıp Kongresi',
-    description: 'Kollajen stimülasyonu üzerine gerçekleştirilen sunum.',
+    title: '2. Uluslararası Multidisipliner Çevre ve Kenevir Kongresi',
+    meta: '15–16 Aralık 2025 · Bursa Uludağ Üniversitesi',
+    description: 'Kanabinoidlerin dermokozmetik uygulamalardaki kullanımı üzerine sunum.',
+    href: 'https://kilimgazetesi.de/haber/bilim-dunyasi-keneviri-masaya-yatirdi',
+    linkLabel: 'Kongre haberini okuyun',
   },
   {
     year: '2025',
     type: 'Kongre & Sunum',
-    title: 'Multidisipliner Çevre ve Kenevir Kongresi',
-    description: 'Kanabinoidlerin dermokozmetik kullanımı üzerine gerçekleştirilen sunum.',
+    title: '1. Uluslararası Medikal Estetik ve Tamamlayıcı Tıp Kongresi (MESTAD 2025)',
+    meta: '26–28 Eylül 2025 · İstanbul',
+    description: 'Kollajen stimülasyonu üzerine sunum.',
   },
   {
     year: '2021',
     type: 'Konuşma',
     title: 'Sağlık Hizmetlerinde Hasta Memnuniyeti',
+    meta: '23 Haziran 2021',
     description: 'Genç Akademisyenler Birliği’nin “Genç Akademi” programında konuşmacı olarak katıldı.',
     href: 'https://www.youtube.com/watch?v=xfWZGKVrzLM',
     linkLabel: 'Konuşmayı izleyin',

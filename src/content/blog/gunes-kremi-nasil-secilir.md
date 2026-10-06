@@ -43,7 +43,7 @@ Mineral (fiziksel) filtreler çinko oksit ve titanyum dioksit içerir; ışığ�
 
 ## Ne kadar sürmeli?
 
-Etiketteki SPF değerine ulaşmak için ürünün cömertçe sürülmesi gerekir. Amerikan Dermatoloji Akademisi, tüm vücut için yetişkinlerde yaklaşık bir shot bardağı dolusu (30 mL kadar) güneş kremi kullanılmasını önerir. Yüz ve boyun için bunun çok daha azı yeterlidir; ancak çoğu kişi önerilenin yarısından azını sürer ve bu durumda koruma etiketteki değerin belirgin şekilde altında kalır. Dışarıda yaklaşık her iki saatte bir ve yüzme ya da yoğun terlemeden sonra yenilenmelidir.
+Etiketteki SPF değerine ulaşmak için ürünün cömertçe sürülmesi gerekir. Amerikan Dermatoloji Akademisi, tüm vücut için yetişkinlerde yaklaşık bir shot bardağı dolusu (30 mL kadar) güneş kremi kullanılmasını önerir. Yüz ve boyun için daha az miktar gerekir. Amerikan Dermatoloji Akademisi'ne göre çoğu kişi önerilen miktarın yalnızca dörtte biri ile yarısı kadarını sürer; bu durumda koruma etiketteki değerin belirgin şekilde altında kalabilir. Dışarıda yaklaşık her iki saatte bir ve yüzme ya da yoğun terlemeden sonra yenilenmelidir.
 
 ## Uygulama nasıl yapılır?
 
@@ -53,7 +53,7 @@ Gölge, geniş kenarlı şapka, güneş gözlüğü ve sık dokunmuş kıyafetle
 
 ## Güneş kremi gerçekten işe yarıyor mu?
 
-Bu sorunun cevabı randomize çalışmalardan geliyor. Avustralya'nın Nambour kasabasında yapılan bir çalışmada, düzenli güneş kremi kullanmaları istenen yetişkinlerde 4,5 yıl sonunda cilt yaşlanması belirtileri, istedikleri zaman kullanan gruba göre %24 daha azdı (Hughes ve ark., 2013). Aynı katılımcıların uzun dönem izleminde düzenli güneş kremi kullanan grupta invaziv melanom sayısı daha düşük bulundu (Green ve ark., 2011). Yani güneş kremi hem cilt kanseri riskini hem de fotoyaşlanmayı azaltmada kanıtı olan nadir uygulamalardan biridir.
+Bu sorunun cevabının bir kısmı randomize çalışmalardan geliyor. Avustralya'nın Nambour kasabasında 55 yaş altı yaklaşık 900 yetişkinle yapılan bir çalışmada, her gün güneş kremi kullanmaları istenen grupta 4,5 yıl içinde cilt yaşlanmasında artış görülme olasılığı, istediği zaman kullanan gruba göre %24 daha düşüktü (Hughes ve ark., 2013). Aynı çalışmanın uzun dönem izleminde düzenli kullanan grupta daha az invaziv melanom görüldü (Green ve ark., 2011); ancak melanom sayısı az olduğu için bu bulgu dikkatle yorumlanmalıdır. Bu sonuçlar, güneş kreminin fotoyaşlanmayı ve bazı cilt kanserlerini azaltmadaki rolünü randomize çalışmalarla destekleyen az sayıdaki kanıt arasındadır.
 
 ## Cilt tipine göre seçim
 
@@ -71,7 +71,6 @@ Bu yazıyla bağlantılı olarak [retinoid kullanırken güneş korumasının ö
 
 - [AAD: Doğru güneş kremi nasıl seçilir?](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/choosing-right-sunscreen)
 - [AAD: Güneş kremi seçimi ve cilt kanserinden korunma](https://www.aad.org/spot-skin-cancer/learn-about-skin-cancer/prevent-skin-cancer/how-to-select-a-sunscreen)
-
 - [American Academy of Dermatology: Sunscreen FAQs](https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/sunscreen-faqs)
 - [FDA: Sunscreen: How to Help Protect Your Skin from the Sun](https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun)
 - [Hughes MC ve ark. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013](https://pubmed.ncbi.nlm.nih.gov/23732711/)

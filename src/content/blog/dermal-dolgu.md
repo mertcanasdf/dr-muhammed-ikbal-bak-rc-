@@ -32,7 +32,7 @@ Yaşlanma süreciyle birlikte cilt altı yağ dokusunda azalmalar, kemik yapıs�
 ## Hyaluronik Asit ve Hücresel Su Tutma Gücü
 
 Vücudumuzda doğal olarak bulunan ancak yaşlandıkça üretimi azalan en önemli maddelerden biri **Hyaluronik Asittir (HA)**. HA, kendi ağırlığının 1000 katı kadar su molekülünü üzerine çekerek bağlama kapasitesine sahiptir. Dermal dolguların büyük bir çoğunluğu, çapraz bağlı hyaluronik asit teknolojisiyle üretilir. Bu yapı:
-- Dokuya anında hacim kazandırır.
+- Uygulandığı bölgede hacim etkisi genellikle hemen görülür.
 - Uygulandığı bölgede nem tutmaya yardımcı olur.
 - Çizgi ve çöküntülerin görünümünü azaltabilir.
 

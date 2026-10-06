@@ -27,7 +27,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/dermal-dolgu-guvenligi.webp"
 ---
 
-Medikal estetiğin en bilinen ve en yaygın olarak uygulanan işlemlerinden biri olan **Botulinum Toksin** (Botoks), mimik hareketlerine bağlı kırışıklıkların görünümünü geçici olarak azaltan bir uygulamadır. Doğru ellerde ve doğru dozlarda uygulandığında, cildin dinlenmiş, canlı ve tamamen doğal görünmesini sağlar.
+Medikal estetiğin en bilinen ve en yaygın olarak uygulanan işlemlerinden biri olan **Botulinum Toksin** (Botoks), mimik hareketlerine bağlı kırışıklıkların görünümünü geçici olarak azaltan bir uygulamadır. Deneyimli bir hekim tarafından uygun dozda uygulandığında amaç, mimikleri dondurmadan daha dinlenmiş bir görünüm elde etmektir; sonuç kişiden kişiye değişir.
 
 ## Botoksun Nöromüsküler Etki Mekanizması
 

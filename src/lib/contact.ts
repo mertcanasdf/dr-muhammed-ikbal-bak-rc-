@@ -49,7 +49,7 @@ export const WORKPLACE = {
   region: 'Bursa',
   appointmentPhone: '444 44 84',
   appointmentTel: '+904444484',
-  profileUrl: 'https://www.medicalpark.com.tr/en/doctors/muhammed-ikbal-bakirci',
+  profileUrl: 'https://www.medicalpark.com.tr/hekimler/muhammed-ikbal-bakirci',
 } as const;
 
 /** WhatsApp'ta açılacak, alanları doldurulmuş mesaj bağlantısını üretir. */

@@ -88,7 +88,7 @@ export const SAME_AS = [
   'https://www.youtube.com/@drmuhammedikbalbakirci',
   'https://www.linkedin.com/in/muhammed-ikbal-bakirci-221ab3243',
   'https://x.com/mikbalbakirci',
-  'https://www.medicalpark.com.tr/en/doctors/muhammed-ikbal-bakirci',
+  'https://www.medicalpark.com.tr/hekimler/muhammed-ikbal-bakirci',
 ];
 
 export type PageType = 'WebPage' | 'AboutPage' | 'ContactPage' | 'CollectionPage';

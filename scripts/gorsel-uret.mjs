@@ -40,7 +40,7 @@ ${STYLE}
 Adımlar:
 1. Görseli yatay 3:2 (1536x1024) olarak BİR KEZ üret.
 2. Üretilen görsele bak. Yalnızca şunlardan biri varsa yeniden üret (en fazla 2 kez): görselde herhangi bir yazı/harf/rakam/logo,
-   tanınabilir bir insan yüzü, fazladan ya da bozuk parmak, cilde değen iğne, önce/sonra kurgusu.
+   gerçek/ünlü birine benzeyen yüz, fazladan ya da bozuk parmak, cilde batan iğne, kan, önce/sonra kurgusu.
 3. Son ürettiğin görsel kullanılacak. Son mesajında tek satırla görselde ne olduğunu yaz.`;
 }
 

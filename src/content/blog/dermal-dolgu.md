@@ -58,7 +58,6 @@ Medikal estetiğin amacı, kişinin kendi özgün hatlarını bozmadan daha dinl
 
 Sık görülen yan etkiler şişlik, kızarıklık, hassasiyet ve morarmadır. Daha seyrek olarak nodül, enfeksiyon ve granülom gelişebilir. ABD Gıda ve İlaç Dairesi (FDA), en ciddi riskin dolgunun yanlışlıkla bir damara enjekte edilmesi olduğunu belirtir: bu durum doku ölümüne, inmeye veya görme kaybına yol açabilir. Uygulamanın onaylı ürünle ve yüz anatomisine hâkim, lisanslı bir hekim tarafından yapılması bu nedenle önemlidir.
 
-[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 
 ## Konuyu derinleştirmek için
 

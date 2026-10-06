@@ -56,7 +56,6 @@ Botoks sadece kozmetik amaçlarla değil, yaşam kalitesini doğrudan artıran t
 
 Yan etkiler genellikle hafif ve geçicidir: enjeksiyon yerinde morarma, baş ağrısı, kaş ya da göz kapağında geçici düşüklük, asimetri. Uygulamanın lisanslı bir hekim tarafından, onaylı ürünle yapılması önemlidir; Amerikan Dermatoloji Akademisi, ehliyetsiz uygulamalarla ciddi komplikasyonlar bildirildiği konusunda uyarmaktadır. Gebelik, emzirme ve bazı nöromüsküler hastalıklarda uygulanmaz.
 
-[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---
 
 ## Konuyu derinleştirmek için

@@ -73,7 +73,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <section class="section" id="quizler"><div class="container">
       <h2 class="section-title">Ücretsiz Sağlık Testleri</h2>
-      <p class="quiz-notice"><strong>Bilimsel ölçek</strong> etiketli testler (PSS-10, GAD-7, OCI-R, ISI) araştırmalarda kullanılan ölçeklerdir; burada tarama amacıyla sunulur. <strong>Farkındalık anketi</strong> ve <strong>öz değerlendirme</strong> etiketli testler ise alışkanlıklarınızı gözden geçirmeniz için hazırlanmıştır ve bilimsel olarak doğrulanmış ölçekler değildir. Hiçbir test tanı koymaz; sonuçlarınızla ilgili endişeniz varsa bir hekime ya da ruh sağlığı uzmanına başvurun.</p>
+      <p class="quiz-notice"><strong>Bilimsel ölçek</strong> etiketli testler (PSS-10, GAD-7) araştırmalarda kullanılan ölçeklerdir; burada tarama amacıyla sunulur. <strong>Farkındalık anketi</strong> ve <strong>öz değerlendirme</strong> etiketli testler ise alışkanlıklarınızı gözden geçirmeniz için hazırlanmıştır ve bilimsel olarak doğrulanmış ölçekler değildir. Hiçbir test tanı koymaz; sonuçlarınızla ilgili endişeniz varsa bir hekime ya da ruh sağlığı uzmanına başvurun.</p>
       <div class="quiz-grid">
 
         <div class="quiz-card">
@@ -155,7 +155,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="quiz-card__body">
             <span class="quiz-card__tag quiz-card__tag--scale">Bilimsel ölçek</span>
             <h3 class="quiz-card__title">Algılanan Stres Ölçeği (PSS-10)</h3>
-            <p class="quiz-card__desc">Cohen ve arkadaşlarının geliştirdiği, araştırmalarda yaygın kullanılan Algılanan Stres Ölçeği. Son bir aydaki stres algınızı değerlendirir.</p>            <button class="btn btn-dark" onclick="openQuiz('pss')">Teste Başla</button>
+            <p class="quiz-card__desc">Cohen ve arkadaşlarının geliştirdiği, araştırmalarda yaygın kullanılan Algılanan Stres Ölçeği. Son bir aydaki stres algınızı değerlendirir. Kaynak: Cohen, Kamarck ve Mermelstein, 1983 (eğitim amaçlı kullanım).</p>            <button class="btn btn-dark" onclick="openQuiz('pss')">Teste Başla</button>
           </div>
         </div>
 
@@ -164,25 +164,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="quiz-card__body">
             <span class="quiz-card__tag quiz-card__tag--scale">Bilimsel ölçek</span>
             <h3 class="quiz-card__title">Anksiyete Değerlendirmesi (GAD-7)</h3>
-            <p class="quiz-card__desc">Yaygın anksiyete belirtilerinin şiddetini taramak için kullanılan 7 soruluk GAD-7 ölçeği. Tarama aracıdır; yüksek skor tanı anlamına gelmez.</p>            <button class="btn btn-dark" onclick="openQuiz('anksiyete')">Teste Başla</button>
+            <p class="quiz-card__desc">Yaygın anksiyete belirtilerinin şiddetini taramak için kullanılan 7 soruluk GAD-7 ölçeği. Tarama aracıdır; yüksek skor tanı anlamına gelmez. Kaynak: Spitzer ve ark., 2006; Pfizer tarafından serbest kullanıma açılmıştır.</p>            <button class="btn btn-dark" onclick="openQuiz('anksiyete')">Teste Başla</button>
           </div>
         </div>
 
         <div class="quiz-card">
-          <CardImage src="/assets/images/generated/quiz_obsession.webp" alt="Obsesif Düşünce Taraması OCI-R" class="quiz-card__img" />
+          <CardImage src="/assets/images/generated/quiz_sleep.webp" alt="Uyku Alışkanlıkları Testi" class="quiz-card__img" />
           <div class="quiz-card__body">
-            <span class="quiz-card__tag quiz-card__tag--scale">Bilimsel ölçek</span>
-            <h3 class="quiz-card__title">Obsesif Düşünce Taraması (OCI-R)</h3>
-            <p class="quiz-card__desc">Foa ve arkadaşlarının geliştirdiği Obsesif-Kompulsif Envanter (OCI-R) temel alınmıştır. Obsesif-kompulsif belirtilerin şiddetini 18 soruda gözden geçirin; tarama aracıdır.</p>            <button class="btn btn-dark" onclick="openQuiz('obsesyon')">Teste Başla</button>
-          </div>
-        </div>
-
-        <div class="quiz-card">
-          <CardImage src="/assets/images/generated/quiz_sleep.webp" alt="Uyku Kalitesi ve İnsomnia Testi ISI" class="quiz-card__img" />
-          <div class="quiz-card__body">
-            <span class="quiz-card__tag quiz-card__tag--scale">Bilimsel ölçek</span>
-            <h3 class="quiz-card__title">Uyku Kalitesi Testi (ISI)</h3>
-            <p class="quiz-card__desc">Uyku araştırmalarında yaygın kullanılan Uykusuzluk Şiddet İndeksi (ISI). Uykusuzluk belirtilerinin şiddetini 7 soruda değerlendirir; tanı koymaz.</p>            <button class="btn btn-dark" onclick="openQuiz('uyku')">Teste Başla</button>
+            <span class="quiz-card__tag">Farkındalık anketi</span>
+            <h3 class="quiz-card__title">Uyku Alışkanlıkları Testi</h3>
+            <p class="quiz-card__desc">Uyku süresi, düzeni, uykuya dalma, gece uyanma ve gün içi yorgunluk üzerine 8 soruluk farkındalık anketi. Bilimsel bir ölçek değildir; tanı koymaz.</p>            <button class="btn btn-dark" onclick="openQuiz('uyku')">Teste Başla</button>
           </div>
         </div>
 
@@ -452,58 +443,197 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         { min: 15, max: 21, label: 'Ağır', title: 'Ağır Anksiyete — Klinik Değerlendirme Gerekli', pct: 15, desc: 'GAD-7 skorunuz ağır düzey anksiyete belirtisine işaret ediyor. Bu düzey günlük yaşamı ciddi ölçüde etkileyebilir ve klinik müdahale gerektirebilir.', tips: ['Psikiyatrik değerlendirme için randevu alın', 'Anksiyolitik ilaç tedavisi değerlendirilebilir', 'BDT + ilaç kombinasyonu ağır GAD\'de en etkili yaklaşımdır', 'Alkol ve kafein kesin olarak azaltılmalı'] },
       ]
     },
-    obsesyon: {
-      title: 'Obsesif Düşünce Taraması (OCI-R)',
-      meta: '18 soru · 5 dakika',
-      questions: [
-        { text: 'İhtiyacım olmayacağını bilsem bile eşyaları saklarım.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Şeyleri gereğinden fazla kontrol ederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Nesneler düzgün yerleştirilmemişse rahatsız olurum.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Bir şeyler yaparken kendimi saymak zorunda hissederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Yabancılar veya belirli kişiler tarafından dokunulmuş nesnelere dokunmak beni rahatsız eder.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Kendi düşüncelerimi kontrol etmekte zorlanırım.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'İhtiyacım olmayan şeyler biriktiririm.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Kapıları, pencereleri, çekmeceleri tekrar tekrar kontrol ederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Başkaları düzenlediğim şeyleri değiştirirse rahatsız olurum.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Belirli sayıları tekrarlamak zorunda hissederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Kirlenmiş hissettiğim için kendimi yıkamam veya temizlemem gerekir.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Aklıma isteğim dışında giren nahoş düşünceler beni rahatsız eder.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Belki ileride işime yarar diye eşyaları atmaktan kaçınırım.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Gaz, su vanalarını ve ışık düğmelerini kapattıktan sonra tekrar tekrar kontrol ederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Eşyaların belirli bir düzende olması gerekir.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'İyi ve kötü sayılar olduğunu hissederim.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Ellerimi gereğinden fazla ve uzun süre yıkarım.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
-        { text: 'Sık sık nahoş düşünceler geliyor ve bunlardan kurtulmakta güçlük çekiyorum.', options: [{ label: 'Hiç değil', pts: 0 }, { label: 'Çok az', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok', pts: 3 }, { label: 'Aşırı derecede', pts: 4 }] },
+    uyku: {
+      "title": "Uyku Alışkanlıkları Testi",
+      "meta": "8 soru · 2 dakika",
+      "questions": [
+        {
+          "text": "Hafta içi gecelerin çoğunda kaç saat uyuyorsunuz?",
+          "options": [
+            {
+              "label": "7–9 saat",
+              "pts": 3
+            },
+            {
+              "label": "6–7 saat",
+              "pts": 2
+            },
+            {
+              "label": "9 saatten fazla ama yine de yorgun uyanıyorum",
+              "pts": 1
+            },
+            {
+              "label": "6 saatten az",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "text": "Yatma ve kalkma saatleriniz ne kadar düzenli?",
+          "options": [
+            {
+              "label": "Her gün benzer saatlerde (yarım saat içinde)",
+              "pts": 3
+            },
+            {
+              "label": "Hafta sonları belirgin şekilde kayıyor",
+              "pts": 2
+            },
+            {
+              "label": "Çoğu gün değişken",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "text": "Yattıktan sonra uykuya dalmanız genellikle ne kadar sürüyor?",
+          "options": [
+            {
+              "label": "20 dakikadan kısa",
+              "pts": 3
+            },
+            {
+              "label": "20–40 dakika",
+              "pts": 1
+            },
+            {
+              "label": "40 dakikadan uzun",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "text": "Gece uyanıp yeniden uyumakta zorlandığınız oluyor mu?",
+          "options": [
+            {
+              "label": "Nadiren",
+              "pts": 3
+            },
+            {
+              "label": "Haftada 1–2 gece",
+              "pts": 1
+            },
+            {
+              "label": "Haftada 3 gece veya daha sık",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "text": "Gün içinde uykululuk veya yorgunluk işlerinizi ya da dikkatinizi etkiliyor mu?",
+          "options": [
+            {
+              "label": "Hayır",
+              "pts": 3
+            },
+            {
+              "label": "Bazen",
+              "pts": 1
+            },
+            {
+              "label": "Sık sık",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "text": "Yatmadan önceki saatte telefon, tablet veya televizyon kullanıyor musunuz?",
+          "options": [
+            {
+              "label": "Nadiren",
+              "pts": 3
+            },
+            {
+              "label": "Bazen",
+              "pts": 2
+            },
+            {
+              "label": "Hemen her gece",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "text": "Öğleden sonra kahve, çay veya enerji içeceği gibi kafeinli içecekler tüketiyor musunuz?",
+          "options": [
+            {
+              "label": "Hayır",
+              "pts": 3
+            },
+            {
+              "label": "Bazen",
+              "pts": 2
+            },
+            {
+              "label": "Her gün",
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "text": "Size uykuda horladığınız ya da nefesinizin durduğu söylendi mi?",
+          "options": [
+            {
+              "label": "Hayır",
+              "pts": 3
+            },
+            {
+              "label": "Horladığım söylendi, nefes durması fark edilmedi",
+              "pts": 2
+            },
+            {
+              "label": "Evet, nefes durması veya boğulur gibi uyanma fark edildi",
+              "pts": 0
+            }
+          ]
+        }
       ],
-      scoring: 'points',
-      maxPoints: 72,
-      levels: [
-        { min: 0, max: 20, label: 'Düşük', title: 'Düşük OKB Belirtisi — Klinik Eşik Altı', pct: 87, desc: 'OCI-R skorunuz klinik eşiğin altında. Obsesif-kompulsif belirtiler genel yaşamınızı olumsuz etkilemiyor görünüyor.', tips: ['Genel zihinsel esnekliği korumak için farkındalık meditasyonu faydalı olabilir', 'Mükemmeliyetçilik eğilimlerinizi gözlemleyin', 'Olağanüstü stres dönemlerinde belirtiler artabilir'] },
-        { min: 21, max: 40, label: 'Orta-Yüksek', title: 'Orta-Yüksek Düzey OKB Belirtisi — Değerlendirme Önerilir', pct: 50, desc: 'OCI-R skorunuz klinik eşiğin üzerinde. Obsesif-kompulsif belirtiler günlük işlevselliğinizi etkiliyor olabilir. Bir ruh sağlığı uzmanından değerlendirme almanız önerilir.', tips: ['Psikolog veya psikiyatrist ile görüşmeyi planlayın', 'BDT içindeki Maruz Kalma ve Tepki Önleme (ERP) OKB\'de en etkili yöntemdir', 'SSRI grubu ilaçlar OKB belirtilerini azaltmada etkilidir', 'OKB belirtileri stresle artabilir — stres yönetimi önemlidir', 'Yargılamadan farkındalık (defusion tekniği) düşünce baskısını azaltır'] },
-        { min: 41, max: 72, label: 'Yüksek', title: 'Yüksek OKB Belirtisi — Klinik Destek Gerekli', pct: 18, desc: 'OCI-R skorunuz belirgin OKB belirtisi gösteriyor. Obsesif düşünceler ve kompulsif davranışlar günlük yaşamı ciddi ölçüde etkiliyor olabilir. Klinik değerlendirme ve uzman desteği önerilir.', tips: ['Psikiyatrik değerlendirme için randevu alın', 'ERP (Maruz Kalma ve Tepki Önleme) destekli BDT birinci seçenek tedavidir', 'SSRI ve/veya klomipramin tedavisi değerlendirilebilir', 'Bir OKB destek grubu yalnızlık hissini azaltabilir', 'Aile psychoeducation süreci destekleyebilir'] },
+      "scoring": "points",
+      "maxPoints": 24,
+      "levels": [
+        {
+          "min": 0,
+          "max": 9,
+          "label": "Gelişime Açık",
+          "title": "Uyku Alışkanlıklarınız Gözden Geçirilmeli",
+          "pct": 25,
+          "desc": "Yanıtlarınız uyku süresi, düzeni veya kalitesiyle ilgili birkaç soruna işaret ediyor. Bu anket tanı koymaz.",
+          "tips": [
+            "Her gün aynı saatte kalkmayı ilk hedef yapın",
+            "Yatmadan önceki saatte ekranı bırakın; odayı karanlık, sessiz ve serin tutun",
+            "Uykusuzluk haftada en az 3 gece ve 3 aydan uzun sürüyorsa hekime başvurun; uykusuzlukta birinci seçenek tedavi bilişsel davranışçı terapidir (BDT-I)",
+            "Horlamayla birlikte uykuda nefes durması ya da gündüz aşırı uykululuk varsa uyku apnesi açısından değerlendirme gerekir"
+          ]
+        },
+        {
+          "min": 10,
+          "max": 17,
+          "label": "Orta",
+          "title": "Orta — Birkaç Alışkanlık Fark Yaratabilir",
+          "pct": 60,
+          "desc": "Uyku alışkanlıklarınızın bir kısmı iyi; birkaç değişiklik uyku kalitenizi artırabilir.",
+          "tips": [
+            "Yatma ve kalkma saatlerinizi hafta sonu da yakın tutun",
+            "Kafeini öğleden sonra azaltın",
+            "Sabahları gün ışığı almak biyolojik saati destekler",
+            "Uyku ilacı veya takviye kullanmadan önce hekiminize danışın"
+          ]
+        },
+        {
+          "min": 18,
+          "max": 24,
+          "label": "İyi",
+          "title": "İyi — Uykuyu Destekleyen Alışkanlıklar",
+          "pct": 90,
+          "desc": "Uykuyu destekleyen alışkanlıkların çoğunu benimsemişsiniz.",
+          "tips": [
+            "Düzenli uyku saatlerinizi koruyun",
+            "Seyahat ve yoğun dönemlerde de düzeni olabildiğince sürdürün",
+            "Uykunuzda yeni ve kalıcı bir değişiklik olursa hekiminize danışın"
+          ]
+        }
       ]
     },
-    uyku: {
-      title: 'Uyku Kalitesi Testi (ISI)',
-      meta: '7 soru · 2 dakika',
-      questions: [
-        { text: 'Uykuya dalmaktaki güçlüğünüzün şiddetini nasıl değerlendirirsiniz?', options: [{ label: 'Hiç yok', pts: 0 }, { label: 'Hafif', pts: 1 }, { label: 'Orta', pts: 2 }, { label: 'Ağır', pts: 3 }, { label: 'Çok ağır', pts: 4 }] },
-        { text: 'Gece uyanmakta veya uyku sürdürmekteki güçlüğünüzün şiddetini nasıl değerlendirirsiniz?', options: [{ label: 'Hiç yok', pts: 0 }, { label: 'Hafif', pts: 1 }, { label: 'Orta', pts: 2 }, { label: 'Ağır', pts: 3 }, { label: 'Çok ağır', pts: 4 }] },
-        { text: 'Sabah çok erken (istediğinizden önce) uyanmanızın şiddetini nasıl değerlendirirsiniz?', options: [{ label: 'Hiç yok', pts: 0 }, { label: 'Hafif', pts: 1 }, { label: 'Orta', pts: 2 }, { label: 'Ağır', pts: 3 }, { label: 'Çok ağır', pts: 4 }] },
-        { text: 'Şu anki uyku düzeninizden ne kadar memnunsunuz?', options: [{ label: 'Çok memnunum', pts: 0 }, { label: 'Memnunum', pts: 1 }, { label: 'Biraz memnunum', pts: 2 }, { label: 'Memnun değilim', pts: 3 }, { label: 'Hiç memnun değilim', pts: 4 }] },
-        { text: 'Uyku sorununuzu yakın çevrendekiler fark ediyor mu? (Yorgun görünmek, dikkat eksikliği vb.)', options: [{ label: 'Hiç fark etmiyor', pts: 0 }, { label: 'Biraz fark ediyor', pts: 1 }, { label: 'Kısmen fark ediyor', pts: 2 }, { label: 'Çok fark ediyor', pts: 3 }, { label: 'Aşırı derecede fark ediyor', pts: 4 }] },
-        { text: 'Uyku sorununuzdan ne kadar endişe veya rahatsızlık duyuyorsunuz?', options: [{ label: 'Hiç endişe duymuyorum', pts: 0 }, { label: 'Biraz', pts: 1 }, { label: 'Orta düzeyde', pts: 2 }, { label: 'Çok endişe duyuyorum', pts: 3 }, { label: 'Aşırı derecede endişe duyuyorum', pts: 4 }] },
-        { text: 'Uyku sorununuzun gündüz işlevselliğinizi (iş, sosyal yaşam, günlük görevler) ne ölçüde etkilediğini düşünüyorsunuz?', options: [{ label: 'Hiç etkilemiyor', pts: 0 }, { label: 'Biraz etkiliyor', pts: 1 }, { label: 'Orta düzeyde etkiliyor', pts: 2 }, { label: 'Çok etkiliyor', pts: 3 }, { label: 'Aşırı derecede etkiliyor', pts: 4 }] },
-      ],
-      scoring: 'points',
-      maxPoints: 28,
-      levels: [
-        { min: 0, max: 7, label: 'İnsomnia Yok', title: 'Klinik Olarak Anlamlı İnsomnia Yok', pct: 92, desc: 'ISI skorunuz klinik insomnia eşiğinin altında. Uyku kaliteniz genel olarak iyi görünüyor.', tips: ['Uyku hijyeninizi koruyun', 'Düzenli uyku-uyanış saati biyolojik saatinizi güçlendirir', 'Ekran süresini yatmadan 1 saat önce sınırlandırın'] },
-        { min: 8, max: 14, label: 'Subklinik', title: 'Subklinik İnsomnia — Dikkat Edilmesi Önerilir', pct: 65, desc: 'ISI skorunuz eşik altı (subklinik) insomniaya işaret ediyor. Bu düzey kronik soruna dönüşebilir.', tips: ['Kafein tüketimini öğlen 12\'den sonra bırakın', 'Yatak odasını 18–20°C arasında tutun', 'Uyku için takviye kullanmadan önce hekiminize danışın', 'Melatonin gibi ürünleri hekiminize danışmadan kullanmayın', 'Yatakta yalnızca uykulu olduğunuzda kalın'] },
-        { min: 15, max: 21, label: 'Orta İnsomnia', title: 'Orta Düzey Klinik İnsomnia', pct: 40, desc: 'ISI skorunuz orta düzey klinik insomniaya işaret ediyor. Uyku problemi günlük işlevselliğinizi etkiliyor.', tips: ['Bilişsel Davranışçı Terapi - İnsomnia (BDT-I) birinci seçenek tedavidir', 'Uyarım kontrolü: yatak sadece uyku için kullanılmalı', 'Uyku kısıtlaması terapisi (SRT) uyku verimliliğini artırır', 'Bir uyku uzmanına veya psikiyatriste başvurun', 'Uyku apnesi ve RLS değerlendirin'] },
-        { min: 22, max: 28, label: 'Ağır İnsomnia', title: 'Ağır Klinik İnsomnia — Klinik Değerlendirme Gerekli', pct: 15, desc: 'ISI skorunuz ağır klinik insomniaya işaret ediyor. Kapsamlı değerlendirme ve tedavi planı için bir uyku uzmanıyla görüşmeniz önerilir.', tips: ['Uyku bozukluğu kliniğine veya uyku uzmanına başvurun', 'Uyku polisomnografisi (uyku testi) değerlendirilebilir', 'BDT-I en güçlü kanıta sahip tedavidir', 'Uyku apnesi değerlendirmesi için KBB veya göğüs hastalıkları konsültasyonu', 'Eşlik eden depresyon ve anksiyete araştırılmalı'] },
-      ]
-    }
   };
 
   let activeQuiz = null;
@@ -619,7 +749,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <p class="q-result__note">Bu sonuç bilgilendirme amaçlıdır ve tanı koymaz. Sonucunuzla ilgili endişeniz varsa bir hekime ya da ruh sağlığı uzmanına başvurun.</p>
       <div class="q-result__actions">
         <button class="q-result__retake" onclick="retakeQuiz()">Tekrar Al</button>
-        <a href="/iletisim" class="btn btn-dark">Uzmanla Görüş</a>
       </div>
     </div>`;
     document.getElementById('modalBody').innerHTML = html;

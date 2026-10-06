@@ -1,12 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { CONTACT_CHANNELS } from '../lib/contact';
+import { CONTACT_CHANNELS, WHATSAPP_NUMBER, WHATSAPP_DISPLAY, WORKPLACE, LINKEDIN_URL } from '../lib/contact';
+// İş WhatsApp hattı tanımlanana kadar form gösterilmez; kanallar kurumsal iletişim yollarına yönlenir.
+const formEnabled = WHATSAPP_NUMBER.length > 0;
+const channelHref = (id: string) => (formEnabled ? '#iletisim-formu' : id === 'randevu' ? '#ct-info-title' : LINKEDIN_URL);
+const channelCta = (id: string, label: string) =>
+  formEnabled ? `${label} talebi için yazın` : id === 'randevu' ? 'Hastane randevu bilgileri' : `${label} talepleri: LinkedIn`;
+const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${WORKPLACE.name}, ${WORKPLACE.street}, ${WORKPLACE.locality}/${WORKPLACE.region}`)}`;
 ---
-<BaseLayout title="İletişim — Dr. Muhammed İkbal Bakırcı" pageType="ContactPage" description="Randevu, iş birliği, akademik davet ve medya talepleriniz için Dr. Muhammed İkbal Bakırcı ile iletişime geçin; talebinize uygun formu seçin.">
+<BaseLayout title="İletişim — Dr. Muhammed İkbal Bakırcı" pageType="ContactPage" description="Dr. Muhammed İkbal Bakırcı iletişim: VM Medical Park Bursa Hastanesi adresi, hastane randevu hattı ve iş birliği, akademik davet ve medya talepleri.">
   <section class="ct-hero">
     <div class="container">
       <h1>İletişim</h1>
-      <p>Talebinizin konusunu seçin; mesajınız ilgili kanala iletilir.</p>
+      <p>Görev yeri, hastane randevu hattı ve mesaj seçenekleri.</p>
     </div>
   </section>
 
@@ -15,12 +21,41 @@ import { CONTACT_CHANNELS } from '../lib/contact';
       <article class="ct-channel" id={c.id}>
         <h2>{c.label}</h2>
         <p>{c.description}</p>
-        <a href="#iletisim-formu" data-pick-channel={c.id}>{c.label} talebi için yazın &rarr;</a>
+        <a href={channelHref(c.id)} data-pick-channel={formEnabled ? c.id : undefined} rel={channelHref(c.id).startsWith('http') ? 'noopener' : undefined} target={channelHref(c.id).startsWith('http') ? '_blank' : undefined}>{channelCta(c.id, c.label)} &rarr;</a>
       </article>
     ))}
   </section>
 
-  <section class="container ct-form-wrap" id="iletisim-formu" aria-labelledby="ct-form-title">
+  <section class="container ct-info" aria-labelledby="ct-info-title">
+    <h2 id="ct-info-title" class="ct-info__title">İletişim bilgileri</h2>
+    <div class="ct-info__grid">
+      <div class="ct-info__item">
+        <h3>Görev yeri</h3>
+        <address>{WORKPLACE.name}<br />{WORKPLACE.street}<br />{WORKPLACE.postalCode} {WORKPLACE.locality}/{WORKPLACE.region}</address>
+        <a href={mapsUrl} rel="noopener" target="_blank">Haritada görüntüle &rarr;</a>
+      </div>
+      <div class="ct-info__item">
+        <h3>Hastane randevu hattı</h3>
+        <p><a href={`tel:${WORKPLACE.appointmentTel}`} class="ct-info__big">{WORKPLACE.appointmentPhone}</a></p>
+        <a href={WORKPLACE.profileUrl} rel="noopener" target="_blank">Medical Park e-randevu &rarr;</a>
+      </div>
+      {formEnabled ? (
+        <div class="ct-info__item">
+          <h3>WhatsApp</h3>
+          <p><a href={`https://wa.me/${WHATSAPP_NUMBER}`} rel="noopener" target="_blank" class="ct-info__big">{WHATSAPP_DISPLAY}</a></p>
+          <p class="ct-info__note">Aşağıdaki form da mesajınızı bu hatta WhatsApp üzerinden iletir.</p>
+        </div>
+      ) : (
+        <div class="ct-info__item">
+          <h3>İş birliği, akademik ve medya</h3>
+          <p>Bu talepler için profesyonel profil üzerinden ulaşabilirsiniz.</p>
+          <a href={LINKEDIN_URL} rel="noopener" target="_blank">LinkedIn profili &rarr;</a>
+        </div>
+      )}
+    </div>
+  </section>
+
+  {formEnabled && <section class="container ct-form-wrap" id="iletisim-formu" aria-labelledby="ct-form-title">
     <form class="ct-form" id="contactForm" novalidate>
       <h2 id="ct-form-title">Mesaj gönderin</h2>
 
@@ -57,14 +92,15 @@ import { CONTACT_CHANNELS } from '../lib/contact';
         <p class="ct-error" id="ct-consent-error" data-error-for="consent" hidden></p>
       </div>
 
-      <button type="submit" class="btn btn-dark ct-submit">Gönder</button>
+      <p class="ct-privacy">Gönder'e bastığınızda mesajınız doldurulmuş olarak WhatsApp'ta açılır ve mesajı siz gönderirsiniz. Form bilgileri bu sitede saklanmaz. Sağlık durumunuzla ilgili ayrıntıları mesajda paylaşmanız gerekmez.</p>
+      <button type="submit" class="btn btn-dark ct-submit">WhatsApp ile gönder</button>
       <p class="ct-status" data-form-status role="status" hidden></p>
     </form>
-  </section>
+  </section>}
 </BaseLayout>
 
 <script>
-  import { CONTACT_CHANNELS, validateContact, submitContact, type ContactInput } from '../lib/contact';
+  import { CONTACT_CHANNELS, validateContact, buildWhatsAppUrl, type ContactInput } from '../lib/contact';
 
   function initContactForm() {
     const form = document.querySelector<HTMLFormElement>('#contactForm');
@@ -85,7 +121,7 @@ import { CONTACT_CHANNELS } from '../lib/contact';
       });
     });
 
-    form.addEventListener('submit', async (event) => {
+    form.addEventListener('submit', (event) => {
       event.preventDefault();
       const data = new FormData(form);
       const input: ContactInput = {
@@ -108,18 +144,23 @@ import { CONTACT_CHANNELS } from '../lib/contact';
         return;
       }
 
-      submitButton.disabled = true;
-      const result = await submitContact(input);
-      submitButton.disabled = false;
+      // Kullanıcı etkileşimi içinde açılır; açılmazsa (açılır pencere engeli) bağlantı gösterilir.
+      const url = buildWhatsAppUrl(input);
+      // 'noopener' özelliği window.open'ın her zaman null dönmesine yol açar; bu yüzden opener elle kesilir.
+      const opened = window.open(url, '_blank');
+      if (opened) opened.opener = null;
       status.hidden = false;
-      if (result.ok) {
-        status.dataset.state = 'success';
-        status.textContent = 'Mesajınız iletildi. En kısa sürede dönüş yapılacaktır.';
-        form.reset();
-      } else {
-        status.dataset.state = 'error';
-        status.textContent = 'Mesajınız şu anda gönderilemedi. Lütfen daha sonra tekrar deneyin.';
-      }
+      status.dataset.state = 'success';
+      status.textContent = '';
+      const text = document.createElement('span');
+      text.textContent = 'Mesajınız WhatsApp’ta hazırlandı; iletmek için WhatsApp’ta “Gönder”e basın. ';
+      const link = document.createElement('a');
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.textContent = opened ? 'WhatsApp’ı yeniden aç' : 'WhatsApp’ı açmak için tıklayın';
+      status.append(text, link);
+      submitButton.blur();
     });
   }
 
@@ -157,6 +198,18 @@ import { CONTACT_CHANNELS } from '../lib/contact';
   .ct-error { margin-top: 6px; font-size: 13px; color: var(--red); }
   .ct-submit { width: 100%; }
   .ct-submit:disabled { opacity: .6; cursor: wait; }
+  .ct-info { padding-top: 40px; }
+  .ct-info__title { font-size: 24px; font-weight: 800; margin-bottom: 16px; }
+  .ct-info__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  @media (max-width: 900px) { .ct-info__grid { grid-template-columns: 1fr; } }
+  .ct-info__item { background: var(--base); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 22px; }
+  .ct-info__item h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .5px; color: var(--gray-500); margin-bottom: 10px; }
+  .ct-info__item address { font-style: normal; line-height: 1.6; margin-bottom: 10px; }
+  .ct-info__item a { color: #1e45da; font-weight: 600; }
+  .ct-info__big { font-size: 22px; font-weight: 800; color: var(--main) !important; }
+  .ct-info__note { font-size: 13px; color: var(--gray-500); margin-top: 6px; }
+  .ct-privacy { font-size: 13px; color: var(--gray-500); line-height: 1.6; margin: 4px 0 14px; }
+  .ct-status a { font-weight: 700; text-decoration: underline; }
   .ct-status { margin-top: 16px; padding: 12px 16px; border-radius: var(--r); font-size: 14px; }
   .ct-status[data-state='success'] { background: #ecf7ee; color: #1d6b2a; }
   .ct-status[data-state='error'] { background: #fdeeee; color: #9b1c1c; }

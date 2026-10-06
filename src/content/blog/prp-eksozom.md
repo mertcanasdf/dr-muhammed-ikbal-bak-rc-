@@ -64,7 +64,6 @@ PRP'nin hazırlanışında kullanılan tüp, trombosit yoğunluğu, aktivasyon v
 
 > **Not:** Bu uygulamalar kanıtlanmış bir hastalık tedavisinin yerine konulmamalıdır. Komplikasyon gelişirse uygulamayı yapan hekime başvurun.
 
-[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 
 ## Konuyu derinleştirmek için
 

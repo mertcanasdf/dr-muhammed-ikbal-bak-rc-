@@ -180,8 +180,11 @@ check('iletişim: 4 kanal çapası', () => {
   return ['randevu', 'is-birligi', 'akademik', 'medya'].filter((id) => !html.includes(`id="${id}"`));
 });
 
-check('iletişim: KVKK onay kutusu', () =>
-  read(pageFile('iletisim')).includes('name="consent"') ? [] : [pageFile('iletisim')]);
+// Form yalnızca iş WhatsApp hattı tanımlıyken yayında; form varsa KVKK onay kutusu da olmalı.
+check('iletişim: form varsa KVKK onay kutusu var', () => {
+  const html = read(pageFile('iletisim'));
+  return !html.includes('id="contactForm"') || html.includes('name="consent"') ? [] : [pageFile('iletisim')];
+});
 
 let failed = 0;
 for (const { name, fn } of checks) {

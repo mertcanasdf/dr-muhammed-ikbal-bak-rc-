@@ -111,7 +111,7 @@ export const AREAS: Area[] = [
     ],
     metricsTitle: 'Uygulamalar ve Hedeflenen Etkiler',
     metrics: [
-      { lbl: 'PRP & Eksozom', val: 'Rejeneratif uygulamalar', tip: 'Hücreler arası iletişimi destekleyerek doku onarımına ve kolajen–elastin yapımına katkı sağlamayı hedefler.' },
+      { lbl: 'PRP', val: 'Kişinin kendi kanından', tip: 'Trombositten zengin plazma; cilt ve saç için umut verici ama sınırlı kanıt vardır. Eksozom ürünlerinin ise onaylı bir örneği yoktur.' },
       { lbl: 'Altın İğne (RF)', val: 'Fraksiyonel radyofrekans', tip: 'Mikro iğnelerle oluşturulan kontrollü ısı etkisiyle yeni kolajen oluşumunu uyarmayı ve cilt sıkılığını artırmayı hedefler.' },
     ],
     posts: ['gunes-kremi-nasil-secilir', 'retinoid-nedir', 'ciltte-kollajen-kaybi'],

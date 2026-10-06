@@ -55,7 +55,6 @@ Uygulamanın oluşturduğu kontrollü ısı, dermisteki kolajen liflerinde büz�
 
 Uygulama sonrasında birkaç gün süren kızarıklık, şişlik ve hassasiyet sık görülür. Üst cilt tabakası soyulmadığı için leke riski ablatif lazerlere göre daha düşük kabul edilir; ancak özellikle koyu ten tiplerinde ve güneş maruziyetinde leke gelişebilir. Uygulama sonrası güneşten korunma önemlidir. Aktif cilt enfeksiyonu, kalp pili gibi elektronik implantlar ve gebelik durumlarında uygulama hekim tarafından değerlendirilmelidir.
 
-[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---
 
 ## Konuyu derinleştirmek için

@@ -105,3 +105,21 @@ Puanlar claude-seo'nun sezgisel modelinden gelir; Google verisi değildir. Düze
 - "botoks bursa" gibi yerel hizmet aramaları hizmet sayfası, İşletme Profili ve yorumlar olmadan kazanılmaz.
 - "longevity nedir" gibi genel aramalar için otorite ve backlink gerekir (6–12+ ay).
 - Hiçbir sıralama garanti edilemez.
+
+## Güncelleme: 2026-10-06 (araştırma ile çözülenler)
+
+- **Sağlık tanıtım mevzuatı** (Sağlık Hizmetlerinde Tanıtım ve Bilgilendirme Faaliyetleri Hakkında Yönetmelik, RG 29.07.2023) siteye uygulandı:
+  - test ve quiz sonuçlarından ve bilgilendirme yazılarından hekime "randevu" yönlendirmesi kaldırıldı (md. 5/1-g, h)
+  - "Uzman" ve "Medikal Estetik Hekimi" ifadeleri "medikal estetik uygulamaları" oldu (md. 5/1-e; Medical Park kaydı: acil servis pratisyen hekimi + medikal estetik)
+  - kanıtı ve onaylı ürünü olmayan eksozom, sunulan uygulamalar listesinden çıkarıldı (md. 5/1-d)
+  - yönetmeliğin izin verdiği görev yeri, adres ve randevu bilgisi iletişim sayfasına eklendi
+  - "botoks bursa" türü satış odaklı hizmet sayfaları yönetmeliğin hasta yönlendirme yasağı nedeniyle **önerilmiyor**
+- **Görev yeri ve randevu:** VM Medical Park Bursa, Kırcaali Mah. Fevzi Çakmak Cd. No:76 Osmangazi/Bursa (Sağlık Bakanlığı healthturkiye kaydı). Randevu 444 44 84 ve Medical Park e-randevu (Medical Park doktor profili). Schema'ya eklendi.
+- **İletişim formu:** WhatsApp altyapısı hazır (sunucusuz). Sprint 1 kararı gereği kişisel GSM kullanılmıyor; hekimin **iş WhatsApp numarası** `src/lib/contact.ts` içindeki `WHATSAPP_NUMBER` alanına yazıldığında form otomatik olarak açılır. Numara girilene kadar kurumsal kanallar (hastane hattı, e-randevu, LinkedIn) gösteriliyor.
+- **Özgeçmiş:**
+  - Medical Park kaydına göre doktora programları sürüyor (İstinye Üniversitesi, 2023–). Siteye "doktora çalışmalarını sürdürmekte" olarak yazıldı.
+  - ATİK Bursa İl Başkanlığı (2024–) ve Türkiye Atletizm Federasyonu eski yönetim kurulu üyeliği eklendi.
+  - "BM UNF Türkiye Temsilcisi" hiçbir kaynakta doğrulanamadığı için kaldırıldı; belge gelirse geri eklenebilir.
+- **Quiz lisansları:** GAD-7 ve PSS-10 serbest, kaynak notları eklendi. ISI ve OCI-R telifli; kaldırıldı, ISI yerine özgün bir uyku anketi kondu. Lisans talep taslakları `docs/olcek-lisans-talepleri.md` içinde.
+- **Gizlilik politikası ve kullanım koşulları** sitenin gerçekte yaptığıyla eşleştirildi: mağaza, bülten, çerez, hesap ve iade maddeleri kaldırıldı.
+- **/sitelerimiz** kaldırıldı (listelenen alan adları yayında değil); adres 301 ile ana sayfaya yönleniyor.

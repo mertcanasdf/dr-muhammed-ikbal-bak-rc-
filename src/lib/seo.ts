@@ -18,7 +18,6 @@ export const ROUTE_DESCRIPTIONS: Record<string, string> = {
   '/quizler': "Ücretsiz sağlık testleri: uyku, stres, kaygı, metabolik sağlık ve cilt sağlığı için bilimsel ölçekler ve farkındalık anketleri. Tanı koymaz.",
   '/dunyada-saglik': 'Dünyada sağlık ve longevity alanındaki güncel yaklaşımlar, araştırmalar ve sağlık sistemleri üzerine içerikler.',
   '/gecmis-yillar': "Dr. Muhammed İkbal Bakırcı’nın kongre, konferans ve konuşmaları: sağlık hizmetleri yönetimi, longevity ve sağlık eğitimi alanındaki etkinlikler.",
-  '/sitelerimiz': "Dr. Muhammed İkbal Bakırcı’nın sağlık, longevity ve günlük yaşam için geliştirdiği dijital projeler ve araçlar hakkında kısa tanıtımlar.",
   '/gizlilik-politikasi': "Dr. Muhammed İkbal Bakırcı web sitesinin gizlilik politikası: hangi kişisel verilerin, hangi amaçla işlendiği ve KVKK kapsamındaki haklarınız.",
   '/kullanim-kosullari': "Dr. Muhammed İkbal Bakırcı web sitesinin kullanım koşulları: içeriklerin bilgilendirme amacı, sorumluluk sınırları ve kullanıcı yükümlülükleri.",
 };
@@ -34,7 +33,6 @@ const routeLabel: Record<string, string> = {
   'medikal-estetik': 'Skin Longevity & Medikal Estetik',
   quizler: 'Quizler',
   rehberler: 'Rehberler',
-  sitelerimiz: 'Sitelerimiz',
   'gecmis-yillar': 'Geçmiş Yıllar',
 };
 
@@ -131,7 +129,15 @@ export function buildSiteStructuredData({
         worksFor: {
           '@type': 'Hospital',
           name: 'VM Medical Park Bursa Hastanesi',
-          address: { '@type': 'PostalAddress', addressLocality: 'Bursa', addressCountry: 'TR' },
+          // Sağlık Bakanlığı healthturkiye kaydı ve Medical Park doktor profiliyle doğrulandı.
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Kırcaali Mah. Fevzi Çakmak Cd. No:76',
+            postalCode: '16220',
+            addressLocality: 'Osmangazi',
+            addressRegion: 'Bursa',
+            addressCountry: 'TR',
+          },
         },
         alumniOf: { '@type': 'CollegeOrUniversity', name: 'Atatürk Üniversitesi Tıp Fakültesi' },
         hasOccupation: { '@type': 'Occupation', name: 'Hekim' },

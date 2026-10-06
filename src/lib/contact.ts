@@ -29,12 +29,37 @@ export function validateContact(input: ContactInput): ContactErrors {
   return errors;
 }
 
-export type SubmitResult = { ok: true } | { ok: false; reason: 'not-configured' | 'failed' };
+// Gönderim yöntemi (karar D1-A): sunucu gerektirmeyen WhatsApp; mesajı kullanıcı kendisi gönderir,
+// form verisi bu sitede saklanmaz. Sprint 1 kararı gereği kişisel GSM kullanılmaz: buraya yalnızca
+// hekimin İŞ WhatsApp hattı yazılır (ülke koduyla, örn. '90XXXXXXXXXX'). Boş kaldıkça form gizlenir
+// ve iletişim sayfası kurumsal kanalları gösterir.
+export const WHATSAPP_NUMBER = '';
+export const WHATSAPP_DISPLAY = '';
 
-/**
- * Formu iletir. Gönderim yöntemi henüz seçilmedi (spec, karar D1).
- * Yöntem seçildiğinde yalnızca bu fonksiyon değişir; form ve doğrulama aynı kalır.
- */
-export async function submitContact(_input: ContactInput): Promise<SubmitResult> {
-  return { ok: false, reason: 'not-configured' };
+// İş birliği, akademik ve medya talepleri için doğrulanmış profesyonel profil.
+export const LINKEDIN_URL = 'https://www.linkedin.com/in/muhammed-ikbal-bakirci-221ab3243';
+
+// Görev yeri ve hastane randevu bilgisi (Medical Park doktor profili ve Sağlık Bakanlığı healthturkiye kaydı).
+export const WORKPLACE = {
+  name: 'VM Medical Park Bursa Hastanesi',
+  street: 'Kırcaali Mah. Fevzi Çakmak Cd. No:76',
+  postalCode: '16220',
+  locality: 'Osmangazi',
+  region: 'Bursa',
+  appointmentPhone: '444 44 84',
+  appointmentTel: '+904444484',
+  profileUrl: 'https://www.medicalpark.com.tr/en/doctors/muhammed-ikbal-bakirci',
+} as const;
+
+/** WhatsApp'ta açılacak, alanları doldurulmuş mesaj bağlantısını üretir. */
+export function buildWhatsAppUrl(input: ContactInput, number: string = WHATSAPP_NUMBER): string {
+  const channel = CONTACT_CHANNELS.find((c) => c.id === input.channel)?.label ?? input.channel;
+  const text = [
+    `Konu: ${channel}`,
+    `Ad Soyad: ${input.name.trim()}`,
+    `E-posta: ${input.email.trim()}`,
+    '',
+    input.message.trim(),
+  ].join('\n');
+  return `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
 }

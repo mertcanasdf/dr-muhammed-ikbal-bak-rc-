@@ -32,5 +32,4 @@ Aşağıdaki sayfa görselleri [Unsplash](https://unsplash.com/license) ücretsi
 | `generated/quiz_skin_health.webp` | Avtar Singh | https://unsplash.com/photos/MkuwnDkT1s0 |
 | `generated/quiz_pss_stress.webp` | Vitor Monthay | https://unsplash.com/photos/tO7jItIoDYE |
 | `generated/quiz_anxiety.webp` | Ismi Fitri Hodijah | https://unsplash.com/photos/wdvO_ipOhWs |
-| `generated/quiz_obsession.webp` | nilufar nattaq | https://unsplash.com/photos/yxhSq84HM0w |
 | `generated/quiz_sleep.webp` | MChe Lee | https://unsplash.com/photos/-Fe_er8ZTuU |

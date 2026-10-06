@@ -51,7 +51,6 @@ Seanslar kişinin ihtiyacına göre genellikle birkaç hafta arayla 2–4 seans 
 
 Enjeksiyon noktalarında kızarıklık, şişlik, küçük kabarcıklar ve morarma sık görülür ve genellikle birkaç gün içinde geçer. Steril olmayan koşullarda ya da denetimsiz ürünlerle yapılan uygulamalarda enfeksiyon (atipik mikobakteri enfeksiyonları dahil) bildirilmiştir. Bu nedenle onaylı ürünlerle ve hekim tarafından uygulanması önemlidir.
 
-[Birebir değerlendirme ve randevu talebi için iletişim formunu kullanın →](/iletisim#randevu)
 ---
 
 ## Konuyu derinleştirmek için

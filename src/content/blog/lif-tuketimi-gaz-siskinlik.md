@@ -4,7 +4,7 @@ seoTitle: "Lif Tüketimi Gaz ve Şişkinlik Yaparsa Ne Yapılmalı?"
 date: 2026-10-06
 description: "Lif tüketimi gaz ve şişkinlik yaparsa değişimi nasıl izlersiniz? Besin ve belirti günlüğünü, kademeli yaklaşımı ve yardım belirtilerini öğrenin."
 category: "Beslenme"
-image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
+image: "/assets/images/generated/articles/lif-tuketimi-gaz-siskinlik.webp"
 readTime: "5 dk"
 takeaways:
   - "Lif içeren besinleri birden artırmak bazı kişilerde gaz yakınmalarını belirginleştirebilir."

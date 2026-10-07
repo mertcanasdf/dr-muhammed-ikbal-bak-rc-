@@ -4,7 +4,7 @@ seoTitle: "Egzersiz Sonrası Kas Ağrısı: Ne Zaman Yardım Alınmalı?"
 date: 2026-10-06
 description: "Egzersiz sonrası kas ağrısında şiddetli güçsüzlük, koyu idrar ve yaralanma belirtilerini öğrenin. Yardım alma yönünü seçin; görüşme notunu hazırlayın."
 category: "Hareket"
-image: "/assets/images/generated/articles/egzersiz-sonrasi-toparlanma.webp"
+image: "/assets/images/generated/articles/egzersiz-sonrasi-kas-agrisi-ne-zaman-basvurulmali.webp"
 readTime: "6 dk"
 takeaways:
   - "Ağrının başlama zamanı tek başına gecikmeli kas ağrısını veya yaralanmayı doğrulamaz."

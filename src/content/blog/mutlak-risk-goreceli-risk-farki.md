@@ -4,7 +4,7 @@ seoTitle: "Mutlak ve Göreceli Risk Farkı: Sağlık Yüzdesi Rehberi"
 date: 2026-10-06
 description: "Mutlak risk ve göreceli risk farkını örnek hesaplarla öğrenin. Yüzde puan, başlangıç riski ve takip süresini sağlık haberlerinde birlikte okuyun."
 category: "Longevity Bilimi"
-image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
+image: "/assets/images/generated/articles/mutlak-risk-goreceli-risk-farki.webp"
 readTime: "5 dk"
 takeaways:
   - "Aynı göreceli azalma, başlangıç riskine bağlı olarak farklı mutlak değişimler anlamına gelir."

@@ -4,7 +4,7 @@ seoTitle: "Yaşlılarda Düşmeyi Önleme: Ev Güvenliği Rehberi"
 date: 2026-10-06
 description: "Yaşlılarda düşmeyi önlemek için evde neler değiştirilebilir? Banyo, yatak odası ve merdiven kontrol listesi; ilaç değerlendirmesi ve destek gerektiren durumlar."
 category: "Hareket"
-image: "/assets/images/generated/articles/denge-egzersizleri-yaslanma.webp"
+image: "/assets/images/generated/articles/yaslilarda-dusme-onleme-ev-guvenligi.webp"
 readTime: "4 dk"
 takeaways:
   - "Ev düzenlemesi, görme kontrolü ve uygun hareket planı birlikte ele alınmalıdır."

@@ -4,7 +4,7 @@ seoTitle: "İleri Yaşta Egzersize Başlama: Güvenli İlk Adım Rehberi"
 date: 2026-10-06
 description: "İleri yaşta egzersize başlama için ilk adımı seçin. Sağlık görüşmesi, güvenli ortam ve kademeli ilerlemeyi uygulanabilir kontrol listesiyle planlayın."
 category: "Hareket"
-image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
+image: "/assets/images/generated/articles/ileri-yasta-egzersize-baslama.webp"
 readTime: "6 dk"
 takeaways:
   - "Başlangıç, yalnızca yaşa değil mevcut hareket kapasitesine, belirtilere ve sağlık durumuna göre seçilir."

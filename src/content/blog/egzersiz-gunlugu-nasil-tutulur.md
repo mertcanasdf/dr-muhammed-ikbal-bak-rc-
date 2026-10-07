@@ -4,7 +4,7 @@ seoTitle: "Egzersiz Günlüğü Nasıl Tutulur? Kullanışlı Takip Tablosu"
 date: 2026-10-06
 description: "Egzersiz günlüğü nasıl tutulur? Süre, efor ve ertesi gün toparlanmayı kaydeden örnek ve boş tabloyla hareket alışkanlığınızı takip edin."
 category: "Hareket"
-image: "/assets/images/generated/articles/egzersiz-sonrasi-toparlanma.webp"
+image: "/assets/images/generated/articles/egzersiz-gunlugu-nasil-tutulur.webp"
 readTime: "6 dk"
 takeaways:
   - "Aktivitenin türünü, gerçek süresini ve nasıl hissettirdiğini aynı kayıtta gösterin."

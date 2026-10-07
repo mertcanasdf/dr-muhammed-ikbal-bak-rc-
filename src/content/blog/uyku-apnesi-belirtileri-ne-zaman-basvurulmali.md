@@ -4,7 +4,7 @@ seoTitle: "Uyku Apnesi Belirtileri: Ne Zaman Hekime Başvurmalı?"
 date: 2026-10-06
 description: "Uyku apnesi belirtilerini, horlama ile farkını ve ne zaman hekime başvurulacağını öğrenin. Gözlem tablosuyla hazırlanın; testin sınırlarını görün."
 category: "Uyku"
-image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
+image: "/assets/images/generated/articles/uyku-apnesi-belirtileri-ne-zaman-basvurulmali.webp"
 readTime: "6 dk"
 takeaways:
   - "Uykuda nefes durması, hava açlığıyla uyanma ve gündüz uyuklama hekimle görüşülmelidir."

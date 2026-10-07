@@ -4,7 +4,7 @@ seoTitle: "Sağlık Araştırmaları Nasıl Okunur? 8 Soruluk Rehber"
 date: 2026-10-06
 description: "Sağlık araştırmalarını çalışma türü, katılımcı ve sonuç ölçütüyle değerlendirin. Longevity haberlerini okumak için sekiz soruluk kontrol listesini kullanın."
 category: "Longevity Bilimi"
-image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
+image: "/assets/images/generated/articles/saglik-arastirmalari-nasil-okunur.webp"
 readTime: "5 dk"
 takeaways:
   - "İnsan, hayvan ve hücre araştırmaları farklı soruları yanıtlar; sonuçları doğrudan birbirine taşınmaz."

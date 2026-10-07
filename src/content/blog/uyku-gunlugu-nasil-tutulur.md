@@ -4,7 +4,7 @@ seoTitle: "Uyku Günlüğü Nasıl Tutulur? Örnek Tablo ve Yorumlama"
 date: 2026-10-06
 description: "Uyku günlüğü nasıl tutulur? Sabah doldurulan örnek tabloyu, uyku süresi hesabını ve hekime götürülecek notları öğrenin; iki haftalık kayda başlayın."
 category: "Uyku"
-image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
+image: "/assets/images/generated/articles/uyku-gunlugu-nasil-tutulur.webp"
 readTime: "6 dk"
 takeaways:
   - "Uyku günlüğü sabah yaklaşık bilgilerle doldurulur; gece sürekli saat kontrolü gerekmez."

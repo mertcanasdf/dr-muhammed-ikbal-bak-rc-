@@ -4,7 +4,7 @@ seoTitle: "Nemlendirici İçerikleri: Seramid ve Humektan Rehberi"
 date: 2026-10-07
 description: "Nemlendiricide seramid, humektan, emolyan ve oklüzif ne işe yarar? İçerik listesini, ürün dokusunu ve cildin verdiği yanıtı birlikte değerlendirin."
 category: "Skin Longevity"
-image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
+image: "/assets/images/generated/articles/nemlendirici-icerikleri-seramid-humektan.webp"
 readTime: "6 dk"
 takeaways:
   - "Humektan, emolyan ve oklüzifler farklı görevler görür; tek bir içerik adı ürünün bütün performansını açıklamaz."

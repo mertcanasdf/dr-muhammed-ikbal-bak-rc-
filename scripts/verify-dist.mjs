@@ -104,6 +104,15 @@ check('görsel yolları (og:image, CSS dahil) var olan dosyalara gidiyor', () =>
   return [...missing];
 });
 
+// Her yazının kendi kapağı olmalı: başka yazının görselini kullanan kart, listede aynı resmin
+// yan yana tekrarlanmasına yol açar. Yeni kapak: scripts/gorsel-konulari.mjs + gorsel-uret.mjs.
+check('her yazı kendi kapağını kullanıyor (articles/<slug>.webp)', () =>
+  htmlFiles.filter((f) => /^blog\/[^/]+\.html$/.test(f)).flatMap((f) => {
+    const slug = f.slice('blog/'.length, -'.html'.length);
+    const og = read(f).match(/property="og:image" content="([^"]+)"/)?.[1] ?? '';
+    return og.endsWith(`/assets/images/generated/articles/${slug}.webp`) ? [] : [`${slug} → ${og.replace(/^https?:\/\/[^/]+/, '')}`];
+  }));
+
 // Her sayfanın canonical'ı uzantısız ve sitemap'teki adresle birebir aynı olmalı (404 sayfası hariç).
 check('canonical = sitemap adresi (uzantısız, her sayfa sitemap\'te)', () => {
   const locs = new Set([...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]));

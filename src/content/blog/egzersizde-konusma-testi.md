@@ -4,7 +4,7 @@ seoTitle: "Egzersizde Konuşma Testi: Tempo İçin Uygulama Rehberi"
 date: 2026-10-06
 description: "Egzersizde konuşma testi ile yürüyüş temponuzu değerlendirin. Orta şiddet, algılanan efor ve testin sınırlarını pratik örneklerle öğrenin."
 category: "Hareket"
-image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
+image: "/assets/images/generated/articles/egzersizde-konusma-testi.webp"
 readTime: "6 dk"
 takeaways:
   - "Konuşma testi, aerobik aktivitede yoğunluğu yaklaşık değerlendiren pratik bir araçtır."

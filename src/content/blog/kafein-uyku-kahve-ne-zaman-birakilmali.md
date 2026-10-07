@@ -4,7 +4,7 @@ seoTitle: "Kafein ve Uyku: Kahveyi Ne Zaman Bırakmalı? Rehber"
 date: 2026-10-06
 description: "Kafein ve uyku ilişkisini, kahveyi bırakma saatini ve çay gibi diğer kaynakları öğrenin. Günlük takip tablosuyla alışkanlıklarınızı değerlendirin."
 category: "Uyku"
-image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
+image: "/assets/images/generated/articles/kafein-uyku-kahve-ne-zaman-birakilmali.webp"
 readTime: "6 dk"
 takeaways:
   - "Kahveyi bırakma saati, planlanan uyku saatine ve kişisel hassasiyete göre değerlendirilir."

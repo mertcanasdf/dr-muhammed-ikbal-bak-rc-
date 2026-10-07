@@ -4,7 +4,7 @@ seoTitle: "Hafta Sonu Uykusu ve Sosyal Jetlag: Telafi Rehberi"
 date: 2026-10-06
 description: "Hafta sonu uykusu uyku borcunu tamamen siler mi? Sosyal jetlag, telafi uykusu ve araştırmaların sınırlarını öğrenin; haftalık planınızı değerlendirin."
 category: "Uyku"
-image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
+image: "/assets/images/generated/articles/hafta-sonu-uykusu-sosyal-jetlag.webp"
 readTime: "6 dk"
 takeaways:
   - "Hafta sonu daha uzun uyumak ile uyku saatlerini ileri kaydırmak farklı durumlardır."

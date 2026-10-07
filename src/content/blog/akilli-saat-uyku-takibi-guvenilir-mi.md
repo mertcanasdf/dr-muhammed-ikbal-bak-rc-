@@ -4,7 +4,7 @@ seoTitle: "Akıllı Saat Uyku Takibi Güvenilir mi? Verileri Okumak"
 date: 2026-10-06
 description: "Akıllı saat uyku takibi güvenilir mi? Uyku süresi, evre ve puan tahminlerinin sınırlarını öğrenin; verileri günlük yaşamınızla birlikte değerlendirin."
 category: "Uyku"
-image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
+image: "/assets/images/generated/articles/akilli-saat-uyku-takibi-guvenilir-mi.webp"
 readTime: "6 dk"
 takeaways:
   - "Uyku süresini tahmin etmek ile uyku evrelerini doğru ayırmak farklı ölçüm görevleridir."

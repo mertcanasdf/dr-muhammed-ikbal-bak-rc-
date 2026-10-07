@@ -4,7 +4,7 @@ seoTitle: "Kas Gücü ve Kas Kütlesi Farkı: Ölçümleri Doğru Okumak"
 date: 2026-10-06
 description: "Kas gücü ve kas kütlesi farkını öğrenin. Tartı, kavrama ve günlük işlev ölçümlerinin sınırlarını karşılaştırın; görüşmeye hazırlık tablosunu kullanın."
 category: "Hareket"
-image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
+image: "/assets/images/generated/articles/kas-gucu-kas-kutlesi-farki.webp"
 readTime: "6 dk"
 takeaways:
   - "Kas miktarı, üretilen kuvvet ve günlük hareket performansı farklı sorulara yanıt verir."

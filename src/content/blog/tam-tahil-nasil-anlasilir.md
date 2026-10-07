@@ -4,7 +4,7 @@ seoTitle: "Tam Tahıl Nasıl Anlaşılır? Ekmek Etiketini Okuma Rehberi"
 date: 2026-10-06
 description: "Tam tahıl nasıl anlaşılır? Ekmekte renk, kepekli ve çok tahıllı ifadelerini içerik listesiyle değerlendirin; alışveriş kontrol listesini uygulayın."
 category: "Beslenme"
-image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
+image: "/assets/images/generated/articles/tam-tahil-nasil-anlasilir.webp"
 readTime: "5 dk"
 takeaways:
   - "Koyu renk, tahıl resmi veya çok tahıllı ifadesi tek başına tam tahıl kanıtı değildir."

@@ -4,7 +4,7 @@ seoTitle: "Yaşlılarda Sıvı Tüketimi: Susama ve Günlük Takip Rehberi"
 date: 2026-10-06
 description: "Yaşlılarda sıvı tüketimi ve azalan susama hissi için günlük gözlem rehberi. Bakım veren kontrolü, sıvı kısıtlaması ve yardım belirtilerini öğrenin."
 category: "Beslenme"
-image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
+image: "/assets/images/generated/articles/yaslilarda-sivi-tuketimi-susama.webp"
 readTime: "5 dk"
 takeaways:
   - "İleri yaşta susama hissi tek başına yeterli sıvı alındığını göstermeyebilir."

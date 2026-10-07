@@ -4,7 +4,7 @@ seoTitle: "Besin Etiketi Nasıl Okunur? 100 Gram, Porsiyon ve Şeker"
 date: 2026-10-06
 description: "Besin etiketi nasıl okunur? 100 gram ile porsiyon farkını örnek hesapla öğrenin; şeker, tuz, içerik ve alerjen kontrolünü alışverişte uygulayın."
 category: "Beslenme"
-image: "/assets/images/generated/articles/lifli-beslenme-ve-mikrobiyota.webp"
+image: "/assets/images/generated/articles/besin-etiketi-nasil-okunur.webp"
 readTime: "5 dk"
 takeaways:
   - "Benzer ürünleri aynı 100 gram veya 100 mililitre sütunuyla karşılaştırın."

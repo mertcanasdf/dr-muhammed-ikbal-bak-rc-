@@ -4,7 +4,7 @@ seoTitle: "Healthspan Nedir? Sağlıklı Yaşam Süresini İzleme Rehberi"
 date: 2026-10-06
 description: "Sağlıklı yaşam süresi ile toplam ömür arasındaki farkı öğrenin. Günlük işlev, çevre desteği ve hekim görüşmesi için takip tablosunu inceleyin."
 category: "Longevity Bilimi"
-image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
+image: "/assets/images/generated/articles/saglikli-yasam-suresi-healthspan-nedir.webp"
 readTime: "5 dk"
 takeaways:
   - "Healthspan, yaşamın sağlıkla geçirilen bölümünü anlatır; tek bir testten hesaplanan kişisel garanti değildir."

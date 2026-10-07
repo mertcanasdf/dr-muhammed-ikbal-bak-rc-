@@ -4,7 +4,7 @@ seoTitle: "Baklagillerle Protein Planlama: Kuru ve Pişmiş Ağırlık"
 date: 2026-10-06
 description: "Baklagillerle protein planlama için kuru ve pişmiş ağırlık farkını öğrenin; örnek hesap, öğün seçenekleri, bütçe ve güvenli saklamayı değerlendirin."
 category: "Beslenme"
-image: "/assets/images/generated/articles/protein-ihtiyaci-yaslanma.webp"
+image: "/assets/images/generated/articles/baklagiller-protein-planlama.webp"
 readTime: "5 dk"
 takeaways:
   - "Kuru, pişmiş ve süzülmüş ağırlığa ait protein değerleri aynı ölçü gibi kullanılamaz."

@@ -4,7 +4,7 @@ seoTitle: "Ultra İşlenmiş Gıda Nedir? NOVA ve Etiket Okuma Rehberi"
 date: 2026-10-06
 description: "Ultra işlenmiş gıda nedir? NOVA ile etiket farkını, 2019 deneyini ve 2024 derlemesinin sınırlarını öğrenin; alışveriş kararlarını gözden geçirin."
 category: "Beslenme"
-image: "/assets/images/generated/articles/mavi-bolge-diyeti.webp"
+image: "/assets/images/generated/articles/ultra-islenmis-gida-nedir.webp"
 readTime: "5 dk"
 takeaways:
   - "NOVA işlenme biçimini sınıflandırır; beslenme tablosu farklı bir bilgi sağlar."

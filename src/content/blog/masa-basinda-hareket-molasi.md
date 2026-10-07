@@ -4,7 +4,7 @@ seoTitle: "Masa Başında Hareket Molası: Uygulanabilir İş Günü Planı"
 date: 2026-10-06
 description: "Masa başında hareket molasını iş akışınıza ekleyin. Toplantı, telefon ve görev geçişleri için seçenekleri, deneme tablosunu, kanıt sınırlarını okuyun."
 category: "Hareket"
-image: "/assets/images/generated/articles/hareketsizlik-ve-metabolik-saglik.webp"
+image: "/assets/images/generated/articles/masa-basinda-hareket-molasi.webp"
 readTime: "6 dk"
 takeaways:
   - "Hareket molası, günlük görev geçişleri ve çalışma koşullarıyla birlikte planlanmalıdır."

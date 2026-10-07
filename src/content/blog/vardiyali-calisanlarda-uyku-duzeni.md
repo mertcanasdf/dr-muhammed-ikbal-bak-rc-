@@ -4,7 +4,7 @@ seoTitle: "Vardiyalı Çalışanlarda Uyku Düzeni ve Güvenli Eve Dönüş"
 date: 2026-10-06
 description: "Vardiyalı çalışanlarda uyku düzenini iş, ulaşım ve ev sorumluluklarıyla birlikte planlayın. Gündüz uykusu ve uykulu sürüş için tabloyu inceleyin."
 category: "Uyku"
-image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
+image: "/assets/images/generated/articles/vardiyali-calisanlarda-uyku-duzeni.webp"
 readTime: "6 dk"
 takeaways:
   - "Vardiya planında mesai kadar ulaşım, ev işleri ve korunacak uyku zamanı da görünür olmalıdır."

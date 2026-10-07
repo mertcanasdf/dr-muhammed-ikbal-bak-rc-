@@ -1,3 +1,53 @@
+# Apache 2.4 / Plesk: Astro build.format = file, trailingSlash = never.
+# Disable content negotiation so /blog/botoks is resolved by mod_rewrite.
+Options -MultiViews -Indexes
+DirectoryIndex index.html
+DirectorySlash Off
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Canonical production host; localhost previews remain accessible.
+  RewriteCond %{HTTP_HOST} ^muhammedikbalbakirci\.com(?::[0-9]+)?$ [NC]
+  RewriteRule ^ https://www.muhammedikbalbakirci.com%{REQUEST_URI} [R=301,L]
+  # Respect TLS termination at the Plesk reverse proxy to avoid redirect loops.
+  RewriteCond %{HTTP_HOST} ^www\.muhammedikbalbakirci\.com(?::[0-9]+)?$ [NC]
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !^https$ [NC]
+  RewriteRule ^ https://www.muhammedikbalbakirci.com%{REQUEST_URI} [R=301,L]
+
+  # Legacy content remains available on the archived site; keep query strings.
+  RewriteRule ^(?:haberdetay|makale|foto|video|urun|urun-kategori|mavi|mavi-kategori)/.*$ https://eski.muhammedikbalbakirci.com/$0 [R=301,L]
+  RewriteRule ^(?:belgelerimiz|sss|ekibimiz|musteri-gorusleri|insan-kaynaklari|urunler|mavialan|makaleler|haberler|foto-galeri|video-galeri)/?$ https://eski.muhammedikbalbakirci.com/$0 [R=301,L]
+  RewriteRule ^icerik/(?:icindeki|umuttan-bir-yol|bayrak)/?$ https://eski.muhammedikbalbakirci.com/$0 [R=301,L]
+
+  # Permanently removed pages, including old directory and .html addresses.
+  RewriteRule ^(?:basari-hikayeleri|podcast|kurslar|soylesiler)(?:/index\.html|\.html)?/?$ - [G,END]
+
+  # Replaced and merged pages point directly to their current canonical URL.
+  RewriteRule ^icerik/(?:biyografi|gece-yolculugu-dua-si)(?:/index\.html|\.html)?/?$ /hakkinda [R=301,L]
+  RewriteRule ^blog/prp-mi-eksozom-mu(?:/index\.html|\.html)?/?$ /blog/prp-eksozom [R=301,L]
+  RewriteRule ^sitelerimiz(?:/index\.html|\.html)?/?$ / [R=301,L]
+
+  # THE_REQUEST only matches browser requests, preventing internal rewrite loops.
+  RewriteCond %{THE_REQUEST} \s/+index\.html(?:[?\s])
+  RewriteRule ^index\.html$ / [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+[^?\s]+/index\.html(?:[?\s])
+  RewriteRule ^(.+)/index\.html$ /$1 [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+[^?\s]+\.html(?:[?\s])
+  RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+  # Remove trailing slashes on pages; leave actual asset directories alone.
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f [OR]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+  # Serve the matching file with status 200, even when a same-name directory exists.
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+  RewriteRule ^(.+)$ $1.html [END]
+</IfModule>
+
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/webp "access plus 30 days"
@@ -10,8 +60,17 @@
 </IfModule>
 
 <IfModule mod_headers.c>
-  <FilesMatch "\.(?:webp|jpe?g|png|svg|woff2)$">
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  # Set HSTS only on HTTPS responses, including when Plesk proxies HTTPS.
+  Header always set Strict-Transport-Security "max-age=15552000" "expr=%{HTTPS} == 'on' || req('X-Forwarded-Proto') == 'https'"
+  <FilesMatch "\.(?:webp|jpe?g|png|svg)$">
     Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  <FilesMatch "\.woff2$">
+    Header set Cache-Control "public, max-age=31536000"
   </FilesMatch>
   <FilesMatch "\.(?:css|js)$">
     Header set Cache-Control "public, max-age=604800"
@@ -19,4 +78,8 @@
   <FilesMatch "\.(?:html|xml|txt)$">
     Header set Cache-Control "no-cache, must-revalidate"
   </FilesMatch>
+  # Astro assets include a content hash and may be cached for a year.
+  <If "%{REQUEST_URI} =~ m#^/_astro/#">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </If>
 </IfModule>

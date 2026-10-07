@@ -4,6 +4,7 @@ import { getCanonicalUrl } from '../lib/seo';
 
 // llms.txt: yapay zekâ arama araçları için sitenin özeti ve makale dizini (her build'de yazılardan üretilir).
 const PAGES: [string, string, string][] = [
+  ['Yayın ilkeleri', '/yayin-ilkeleri', 'Kaynaklar, kanıtın sınırları, yazar ve tarih bilgisi, düzeltme bildirimi'],
   ['Hakkında', '/hakkinda', 'Eğitim, kariyer ve görevler'],
   ['Longevity: Sağlıklı Yaş Almanın 6 Alanı', '/longevity', 'Longevity nedir, 6 alan ve hücresel temeller'],
   ['Beslenme ve sağlıklı yaşlanma', '/longevity/beslenme', 'Beslenme alanının özeti ve tüm yazıları'],

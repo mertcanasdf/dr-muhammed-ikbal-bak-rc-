@@ -95,7 +95,28 @@ function paragraph(hubKey, targets) {
 const files = fs.readdirSync(DIR).filter((f) => f.endsWith('.md'));
 const slugs = new Set(files.map((f) => f.replace(/\.md$/, '')));
 const problems = [];
-for (const s of slugs) if (!MATRIX[s]) problems.push(`matriste yok: ${s}`);
+// Yeni günlük yazılar açık frontmatter/gövde bağlantılarıyla doğrulanır; eski matris değişmez.
+// --check ve normal çalışma yeni yazının içeriğini otomatik olarak değiştirmez.
+for (const slug of slugs) {
+  if (MATRIX[slug]) continue;
+  const source = fs.readFileSync(path.join(DIR, `${slug}.md`), 'utf8');
+  const match = source.match(/^---\s*\r?\n([\s\S]*?)\r?\n---(?:\s*\r?\n|$)/);
+  if (!match) { problems.push(`${slug}: yeni yazıda frontmatter yok`); continue; }
+  const frontmatter = match[1];
+  const body = source.slice(match[0].length);
+  const relatedSection = frontmatter.match(/^relatedArticles:\r?\n([\s\S]*?)(?=^[a-zA-Z]|(?![\s\S]))/m)?.[1] ?? '';
+  const related = [...relatedSection.matchAll(/^\s+- slug: "([^"]+)"/gm)].map((m) => m[1]);
+  if (new Set(related).size < 2 || new Set(related).size !== related.length)
+    problems.push(`${slug}: yeni yazı en az iki farklı açık relatedArticles hedefi taşımalı`);
+  for (const target of related) if (target === slug || !slugs.has(target)) problems.push(`${slug}: geçersiz ilgili makale ${target}`);
+  const bodyTargets = [...body.matchAll(/\]\(\/blog\/([a-z0-9-]+)(?:#[^)\s]+)?\)/g)].map((m) => m[1]);
+  if (new Set(bodyTargets).size < 2) problems.push(`${slug}: gövdede en az iki mevcut makaleye bağlantı gerekli`);
+  for (const target of bodyTargets) if (target === slug || !slugs.has(target)) problems.push(`${slug}: geçersiz gövde hedefi ${target}`);
+  for (const target of related) if (!bodyTargets.includes(target)) problems.push(`${slug}: ilgili makale gövdede de bağlanmalı ${target}`);
+  const hubs = Object.values(HUB).map(([href]) => href);
+  if (!hubs.some((href) => body.includes(`](${href})`))) problems.push(`${slug}: mevcut konu hub'ına gövde bağlantısı gerekli`);
+  if (!/^## Kaynaklar\s*$/m.test(body)) problems.push(`${slug}: yeni yazıda Kaynaklar bölümü yok`);
+}
 for (const [s, [hub, targets]] of Object.entries(MATRIX)) {
   if (!slugs.has(s)) problems.push(`yazı yok: ${s}`);
   if (!HUB[hub]) problems.push(`${s}: bilinmeyen hub ${hub}`);
@@ -106,7 +127,7 @@ if (problems.length) { console.error(problems.join('\n')); process.exit(1); }
 let changed = 0;
 for (const [slug, [hub, targets]] of Object.entries(MATRIX)) {
   const file = path.join(DIR, `${slug}.md`);
-  const src = fs.readFileSync(file, 'utf8');
+  const src = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
   let next = src;
   // 1) Gövde paragrafı: önceki sürüm varsa değiştir, yoksa Kaynaklar'dan önce ekle.
   const block = `${HEADING}\n\n${paragraph(hub, targets)}\n\n`;

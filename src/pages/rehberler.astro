@@ -1,4 +1,5 @@
 ---
+import { getArticleMetrics } from '../lib/article-metrics';
 import CardImage from '../components/CardImage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
@@ -64,7 +65,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
               <p class="blog-card__excerpt">{post.data.description}</p>
               <div class="blog-card__meta">
                 <span>{post.data.date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-                <span>{post.data.readTime} okuma</span>
+                <span>{getArticleMetrics(post.body ?? '').readTime} okuma</span>
               </div>
               <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
             </div>

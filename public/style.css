@@ -496,3 +496,9 @@
 /* Yazı içi bağlantılar ve kaynak listesi: uzun adresler taşmasın, kaynaklar gövdeden küçük ve sık olsun. */
 .article-body a{overflow-wrap:anywhere}
 .article-body #kaynaklar+ul li,.article-body #kaynaklar+ol li{font-size:15px;line-height:1.6;margin-bottom:10px}
+
+/* Makale tablolari: mobilde sayfayi tasirmadan yatay okunabilir. */
+.article-body table{display:block;width:100%;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;border-collapse:collapse;margin:24px 0 32px;background:var(--base);-webkit-overflow-scrolling:touch}
+.article-body th,.article-body td{min-width:145px;padding:12px 14px;border:1px solid var(--border);font-size:15px;line-height:1.6;text-align:left;vertical-align:top;white-space:normal}
+.article-body th{font-weight:700;background:var(--tertiary)}
+.article-body td a{color:#1e45da;text-decoration:underline;text-underline-offset:2px}

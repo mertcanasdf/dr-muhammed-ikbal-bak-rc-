@@ -2,7 +2,9 @@
 import CardImage from '../../components/CardImage.astro';
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getAbsoluteUrl, getCanonicalUrl, SITE_URL } from '../../lib/seo';
+import { getAbsoluteUrl, getCanonicalUrl, PERSON_NAME, SITE_URL } from '../../lib/seo';
+import { getArticleMetrics } from '../../lib/article-metrics';
+import { AREAS, AREA_PAGE, areaOf } from '../../lib/longevity-areas';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -14,7 +16,12 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
-const { title, seoTitle, date, updated, description, category, image, readTime, takeaways, relatedArticles } = post.data;
+const { title, seoTitle, date, updated, description, category, image, takeaways, relatedArticles } = post.data;
+const { wordCount, readTime } = getArticleMetrics(post.body ?? '');
+const areaId = areaOf(post.id.replace(/\.mdx?$/, ''), category);
+const area = AREAS.find((a) => a.id === areaId);
+const hubPath = area ? AREA_PAGE[area.id] : '/longevity#hucresel-temeller';
+const hubLabel = area ? `${area.title} ve sağlıklı yaşlanma` : 'Longevity biliminin hücresel temelleri';
 const articlePath = `/blog/${post.id.replace(/\.mdx?$/, '')}`;
 const articleUrl = getCanonicalUrl(articlePath);
 const isoDate = (d: Date) => d.toISOString().slice(0, 10);
@@ -31,11 +38,12 @@ const articleStructuredData = {
   image: [getAbsoluteUrl(image)],
   datePublished: isoDate(date),
   dateModified: isoDate(modified),
-  author: { '@type': 'Person', '@id': `${SITE_URL}/#person`, name: 'Dr. Muhammed İkbal Bakırcı', url: `${SITE_URL}/hakkinda` },
+  author: { '@type': 'Person', '@id': `${SITE_URL}/#person`, name: PERSON_NAME, honorificPrefix: 'Dr.', url: `${SITE_URL}/hakkinda` },
   publisher: { '@id': `${SITE_URL}/#person` },
   isPartOf: { '@id': `${articleUrl}#webpage` },
   mainEntityOfPage: { '@id': `${articleUrl}#webpage` },
   articleSection: category,
+  wordCount,
   inLanguage: 'tr-TR',
   ...(citations.length ? { citation: citations } : {}),
 };
@@ -50,23 +58,32 @@ const encodedShareText = encodeURIComponent(`${title}\n${articleUrl}`);
 const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle paylaşmak istedim:\n${articleUrl}`);
 ---
 <BaseLayout
-  title={`${seoTitle ?? title} — Dr. Muhammed İkbal Bakırcı`}
+  title={seoTitle ?? `${title} — Dr. Muhammed İkbal Bakırcı`}
   description={description}
   image={image}
   type="article"
+  pageType="MedicalWebPage"
+  publishedTime={isoDate(date)}
+  modifiedTime={isoDate(modified)}
   structuredData={articleStructuredData}
 >
   <section class="article-hero">
     <div class="container">
       <div class="article-hero__inner">
+        <nav class="article-breadcrumbs" aria-label="Sayfa yolu">
+          <a href="/">Ana Sayfa</a><span aria-hidden="true"> / </span>
+          <a href="/blog">Makaleler</a><span aria-hidden="true"> / </span>
+          <span aria-current="page">{title}</span>
+        </nav>
         <span class="article-hero__cat">{category}</span>
         <h1 class="article-hero__title">{title}</h1>
         <div class="article-hero__meta">
           <a href="/hakkinda" rel="author">Dr. Muhammed İkbal Bakırcı</a>
-          <span>{formatDate(date)}</span>
-          {updated && <span>Güncellendi: {formatDate(updated)}</span>}
+          <time datetime={isoDate(date)}>{formatDate(date)}</time>
+          {updated && <span>Güncellendi: <time datetime={isoDate(updated)}>{formatDate(updated)}</time></span>}
           <span>{readTime} okuma</span>
         </div>
+        <a class="article-hub-link" href={hubPath}>{hubLabel} rehberi &rarr;</a>
 
       </div>
     </div>
@@ -76,18 +93,18 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
     <div class="article-layout">
 
       <article class="article-body">
-        <img src={image} alt={title} class="article-body__featured-img" width="1200" height="800" loading="eager" fetchpriority="high" decoding="async" />
-
-        <Content />
+        <CardImage src={image} alt={title} class="article-body__featured-img" sizes="(max-width: 900px) calc(100vw - 48px), 760px" priority />
 
         {takeaways && takeaways.length > 0 && (
-          <div class="takeaways">
-            <p class="takeaways__title">&#10003; Kilit Çıkarımlar</p>
+          <section class="takeaways article-summary" aria-labelledby="article-summary-title">
+            <h2 class="takeaways__title" id="article-summary-title">Kısa özet</h2>
             <ul>
               {takeaways.map(t => <li>{t}</li>)}
             </ul>
-          </div>
+          </section>
         )}
+
+        <Content />
 
         <section
           class="article-share"
@@ -232,7 +249,7 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
               2008'de Atatürk Üniversitesi Tıp Fakültesi'nden mezun oldu; acil hekimliği ve hava ambulansı hekimliği deneyiminin
               ardından 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi olarak görev yapıyor. Medikal estetik ve
               sağlıklı yaşlanma alanlarında kanıta dayalı içerikler hazırlıyor; yazılarda kullanılan kaynaklar her makalenin
-              sonunda listelenir. <a href="/hakkinda">Özgeçmişin tamamı &rarr;</a>
+              sonunda listelenir. <a href="/hakkinda">Özgeçmişin tamamı &rarr;</a> · <a href="/yayin-ilkeleri">Yayın ilkeleri</a>
             </p>
           </div>
         </div>
@@ -361,3 +378,11 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
     });
   </script>
 </BaseLayout>
+
+<style>
+  .article-breadcrumbs { margin-bottom: 20px; font-size: 13px; line-height: 1.6; }
+  .article-breadcrumbs a, .article-hub-link { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  .article-hub-link { display: inline-block; margin-top: 16px; font-size: 14px; }
+  .article-summary { margin-top: 24px; }
+  .article-summary .takeaways__title { font-size: 18px; }
+</style>

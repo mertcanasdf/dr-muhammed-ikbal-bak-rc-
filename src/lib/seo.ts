@@ -1,5 +1,8 @@
+import { EMAIL, PHONE_TEL, WORKPLACE } from './contact';
+
 export const SITE_URL = 'https://www.muhammedikbalbakirci.com';
 export const SITE_NAME = 'Dr. Muhammed İkbal Bakırcı';
+export const PERSON_NAME = 'Muhammed İkbal Bakırcı';
 export const SITE_LOCALE = 'tr-TR';
 // Varsayılan paylaşım görseli 1200x630; kişi şemasındaki görsel her zaman portredir.
 export const DEFAULT_IMAGE = `${SITE_URL}/assets/images/og/dr-muhammed-ikbal-bakirci-og.jpg`;
@@ -91,7 +94,7 @@ export const SAME_AS = [
   'https://www.medicalpark.com.tr/hekimler/muhammed-ikbal-bakirci',
 ];
 
-export type PageType = 'WebPage' | 'AboutPage' | 'ContactPage' | 'CollectionPage';
+export type PageType = 'WebPage' | 'AboutPage' | 'ContactPage' | 'CollectionPage' | 'MedicalWebPage';
 
 // Breadcrumb ve WebPage adında marka soneki tekrar etmesin.
 const stripBrand = (title: string) => title.replace(/\s+[—|-]\s+Dr\. Muhammed İkbal Bakırcı$/, '');
@@ -111,6 +114,8 @@ export function buildSiteStructuredData({
 }) {
   const canonicalUrl = getCanonicalUrl(pathname);
   const pageName = stripBrand(title);
+  const breadcrumbs = buildBreadcrumbs(pathname, pageName);
+  const hasBreadcrumbs = breadcrumbs.length >= 2;
 
   return {
     '@context': 'https://schema.org',
@@ -118,7 +123,7 @@ export function buildSiteStructuredData({
       {
         '@type': 'Person',
         '@id': `${SITE_URL}/#person`,
-        name: SITE_NAME,
+        name: PERSON_NAME,
         honorificPrefix: 'Dr.',
         url: `${SITE_URL}/hakkinda`,
         mainEntityOfPage: `${SITE_URL}/hakkinda`,
@@ -128,22 +133,22 @@ export function buildSiteStructuredData({
           "Hekim; 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi. Longevity, sağlıklı yaşlanma ve medikal estetik üzerine kanıta dayalı içerikler üretiyor.",
         worksFor: {
           '@type': 'Hospital',
-          name: 'VM Medical Park Bursa Hastanesi',
+          name: WORKPLACE.name,
           // Sağlık Bakanlığı healthturkiye kaydı ve Medical Park doktor profiliyle doğrulandı.
           address: {
             '@type': 'PostalAddress',
-            streetAddress: 'Kırcaali Mah. Fevzi Çakmak Cd. No:76',
-            postalCode: '16220',
-            addressLocality: 'Osmangazi',
-            addressRegion: 'Bursa',
+            streetAddress: WORKPLACE.street,
+            postalCode: WORKPLACE.postalCode,
+            addressLocality: WORKPLACE.locality,
+            addressRegion: WORKPLACE.region,
             addressCountry: 'TR',
           },
         },
         alumniOf: { '@type': 'CollegeOrUniversity', name: 'Atatürk Üniversitesi Tıp Fakültesi' },
         hasOccupation: { '@type': 'Occupation', name: 'Hekim' },
         knowsAbout: ['Longevity', 'Sağlıklı yaşlanma', 'Medikal estetik', 'Acil tıp', 'Sağlık yönetimi'],
-        email: 'mailto:Muhammedikbalb@gmail.com',
-        telephone: '+90-544-224-48-13',
+        ...(EMAIL ? { email: EMAIL } : {}),
+        ...(PHONE_TEL ? { telephone: PHONE_TEL } : {}),
         sameAs: SAME_AS,
       },
       {
@@ -156,22 +161,22 @@ export function buildSiteStructuredData({
         publisher: { '@id': `${SITE_URL}/#person` },
       },
       {
-        '@type': pageType,
+        '@type': pageType === 'AboutPage' ? ['AboutPage', 'ProfilePage'] : pageType,
         '@id': `${canonicalUrl}#webpage`,
         url: canonicalUrl,
         name: pageName,
         description,
         primaryImageOfPage: { '@type': 'ImageObject', url: getAbsoluteUrl(image) },
         isPartOf: { '@id': `${SITE_URL}/#website` },
-        ...(pageType === 'AboutPage' ? { mainEntity: { '@id': `${SITE_URL}/#person` } } : {}),
-        breadcrumb: { '@id': `${canonicalUrl}#breadcrumb` },
+        ...(['AboutPage', 'ContactPage'].includes(pageType) ? { mainEntity: { '@id': `${SITE_URL}/#person` } } : {}),
+        ...(hasBreadcrumbs ? { breadcrumb: { '@id': `${canonicalUrl}#breadcrumb` } } : {}),
         inLanguage: SITE_LOCALE,
       },
-      {
+      ...(hasBreadcrumbs ? [{
         '@type': 'BreadcrumbList',
         '@id': `${canonicalUrl}#breadcrumb`,
-        itemListElement: buildBreadcrumbs(pathname, pageName),
-      },
+        itemListElement: breadcrumbs,
+      }] : []),
     ],
   };
 }

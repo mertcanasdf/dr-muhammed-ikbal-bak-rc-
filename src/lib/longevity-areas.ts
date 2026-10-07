@@ -15,13 +15,15 @@ export const areaOf = (slug: string, category: string) =>
 
 export const NOTE = 'Bu göstergeler genel bilgilendirme içindir ve herkes için geçerli bir "hedef" değildir. Kişisel hedefler yaş, sağlık durumu ve kullanılan ilaçlara göre hekiminizle birlikte belirlenir.';
 
-export interface AreaMetric { lbl: string; val: string; tip: string }
+export interface AreaSource { href: string; label: string }
+export interface AreaMetric { lbl: string; val: string; tip: string; source?: AreaSource }
 export interface Area {
   id: string;
   title: string;
   icon: string[];
   desc: string;
   points: string[];
+  sources?: AreaSource[];
   metricsTitle?: string;
   metrics: AreaMetric[];
   posts: string[];
@@ -31,6 +33,9 @@ export interface Area {
 export const AREAS: Area[] = [
   {
     id: 'beslenme', title: 'Beslenme',
+    sources: [
+      { href: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet', label: 'WHO: Sağlıklı beslenmenin temel ilkeleri' },
+    ],
     icon: ['M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z', 'M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12'],
     desc: 'Sağlıklı yaşlanmada beslenme, tek bir "süper gıdadan" çok yıllar boyunca sürdürülebilen bir düzendir. Sebze, meyve, baklagil, tam tahıl ve yeterli protein içeren, işlenmiş gıdası az bir beslenme metabolik sağlığın temelidir.',
     points: [
@@ -39,13 +44,16 @@ export const AREAS: Area[] = [
       'Lifli besinler bağırsak mikrobiyotasını ve kan şekeri dengesini destekler.',
     ],
     metrics: [
-      { lbl: 'HbA1c (Üç Aylık Şeker Ortalaması)', val: 'Normal: %5,7 altı', tip: 'Amerikan Diyabet Derneği sınıflamasında %5,7–6,4 prediyabet, %6,5 ve üzeri diyabet aralığıdır. Diyabeti olan kişilerde hedef hekimle belirlenir.' },
+      { lbl: 'HbA1c (Üç Aylık Şeker Ortalaması)', val: 'Normal: %5,7 altı', tip: 'Amerikan Diyabet Derneği sınıflamasında %5,7–6,4 prediyabet, %6,5 ve üzeri diyabet aralığıdır. Diyabeti olan kişilerde hedef hekimle belirlenir.', source: { href: 'https://diabetes.org/about-diabetes/diagnosis', label: 'ADA: HbA1c tanı aralıkları' } },
       { lbl: 'ApoB (Aterojenik Lipoprotein)', val: 'Hedef kişisel riske göre', tip: 'Kalp-damar riskini değerlendirmede LDL kolesterole ek bilgi verebilen bir belirteçtir. Uygun değer yaş, diyabet, aile öyküsü ve diğer risk faktörlerine göre hekimle belirlenir.' },
     ],
     posts: ['mavi-bolge-diyeti', 'protein-ihtiyaci-yaslanma', 'lifli-beslenme-ve-mikrobiyota'],
   },
   {
     id: 'hareket', title: 'Hareket',
+    sources: [
+      { href: 'https://www.who.int/publications/i/item/9789240014886', label: 'WHO: Fiziksel aktivite ve hareketsizlik rehberi (2020)' },
+    ],
     icon: ['M22 12h-4l-3 9L9 3l-3 9H2'],
     desc: 'Düzenli fiziksel aktivite, sağlıklı yaşlanmayla en tutarlı biçimde ilişkilendirilen alışkanlıklardan biridir. Aerobik kapasite, kas gücü ve denge birlikte ele alınmalıdır.',
     points: [
@@ -63,6 +71,9 @@ export const AREAS: Area[] = [
   },
   {
     id: 'uyku', title: 'Uyku',
+    sources: [
+      { href: 'https://www.cdc.gov/sleep/about/index.html', label: 'CDC: Uyku süresi ve uyku alışkanlıkları' },
+    ],
     icon: ['M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z'],
     desc: 'Uyku; hafıza, metabolizma, bağışıklık ve duygu düzenlemesi için temel bir biyolojik ihtiyaçtır. Süresi kadar düzenliliği de önemlidir.',
     points: [
@@ -78,6 +89,10 @@ export const AREAS: Area[] = [
   },
   {
     id: 'zihin', title: 'Zihin',
+    sources: [
+      { href: 'https://www.nature.com/articles/nn0598_69', label: 'Lupien ve ark.: Kortizol ve hafıza üzerine insan çalışması (1998)' },
+      { href: 'https://pubmed.ncbi.nlm.nih.gov/31019479/', label: 'Hunter ve ark.: Doğada vakit geçirme ve stres belirteçleri (2019)' },
+    ],
     icon: ['M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z', 'M9 21h6'],
     desc: 'Kronik stres; uyku, beslenme ve kalp-damar sağlığı üzerinden yaşlanma sürecini etkileyebilir. Zihinsel iyi oluş, sağlıklı yaşlanmanın ayrılmaz bir parçasıdır.',
     points: [
@@ -90,6 +105,10 @@ export const AREAS: Area[] = [
   },
   {
     id: 'sosyal-iliskiler', title: 'Sosyal İlişkiler',
+    sources: [
+      { href: 'https://www.hhs.gov/surgeongeneral/reports-and-publications/connection/index.html', label: 'ABD Surgeon General: Sosyal bağlantı ve sağlık' },
+      { href: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2734064', label: 'Alimujiang ve ark.: Yaşam amacı ve ölüm riski üzerine gözlemsel çalışma (2019)' },
+    ],
     icon: ['M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2', 'M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0', 'M22 21v-2a4 4 0 0 0-3-3.87', 'M16 3.13a4 4 0 0 1 0 7.75'],
     desc: 'Güçlü sosyal bağlar ve yaşamda bir amaç duygusu, uzun yaşamla ilişkilendirilen en tutarlı faktörlerden biridir.',
     points: [

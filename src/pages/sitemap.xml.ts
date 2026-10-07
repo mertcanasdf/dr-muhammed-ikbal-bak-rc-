@@ -18,6 +18,7 @@ const staticRoutes = [
   '/medikal-estetik',
   '/quizler',
   '/rehberler',
+  '/yayin-ilkeleri',
 ];
 
 // Yazı listeleyen sayfalar en yeni yazının tarihini taşır; diğer statik sayfalar için güvenilir tarih yok, lastmod verilmez.

@@ -1,4 +1,5 @@
 ---
+import { getArticleMetrics } from '../lib/article-metrics';
 import CardImage from '../components/CardImage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
@@ -17,7 +18,7 @@ const skinPosts = allPosts
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 
 ---
-<BaseLayout title="Skin Longevity & Medikal Estetik — Dr. Muhammed İkbal Bakırcı" description="Skin longevity ve medikal estetik: botoks, dermal dolgu, altın iğne, PRP, eksozom ve mezoterapi nasıl çalışır, kanıtlar ve riskler neler?">
+<BaseLayout title="Medikal Estetik ve Skin Longevity — Bursa" description="Bursa’da Dr. Muhammed İkbal Bakırcı: medikal estetik ve skin longevity: botoks, dolgu, PRP ve mezoterapi hakkında kaynaklı bilgiler, kanıtlar ve riskler.">
   <style is:global>
     .pg-hero {
       background: radial-gradient(circle at 50% -20%, #151c16 0%, #0c0f0d 60%, #060806 100%);
@@ -582,7 +583,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
               <p class="blog-card__excerpt">{post.data.description}</p>
               <div class="blog-card__meta">
                 <span>{post.data.date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-                <span>{post.data.readTime} okuma</span>
+                <span>{getArticleMetrics(post.body ?? '').readTime} okuma</span>
               </div>
               <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
             </div>

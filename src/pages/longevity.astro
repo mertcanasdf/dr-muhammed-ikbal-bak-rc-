@@ -1,4 +1,5 @@
 ---
+import { getArticleMetrics } from '../lib/article-metrics';
 import CardImage from '../components/CardImage.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
@@ -594,6 +595,12 @@ const cellular = [
       margin-bottom: 24px;
     }
     
+    .pillar-sources { margin: 20px 0; font-size: 14px; line-height: 1.7; }
+    .pillar-sources h4 { margin-bottom: 8px; font-size: 14px; }
+    .pillar-sources ul { margin: 0; padding-left: 20px; }
+    .pillar-sources a, .metric-box__source a { color: #1e45da; text-decoration: underline; text-underline-offset: 3px; }
+    .metric-box__source { margin-top: 8px; font-size: 13px; line-height: 1.6; }
+
     /* Target Dashboard inside panel */
     .pillar-dashboard {
       background: var(--tertiary);
@@ -1141,6 +1148,12 @@ const cellular = [
                 <ul class="pillar-points">
                   {area.points.map((p) => <li>{p}</li>)}
                 </ul>
+                {area.sources && area.sources.length > 0 && (
+                  <div class="pillar-sources">
+                    <h4>Bu bölüm için kaynaklar</h4>
+                    <ul>{area.sources.map((source) => <li><a href={source.href}>{source.label}</a></li>)}</ul>
+                  </div>
+                )}
                 {area.metrics.length > 0 && (
                   <div class="pillar-dashboard">
                     <h4 class="pillar-dashboard__title">{area.metricsTitle ?? 'Takip Edilen Göstergeler'}</h4>
@@ -1151,6 +1164,7 @@ const cellular = [
                           <span class="metric-box__lbl">{m.lbl}</span>
                           <div class="metric-box__val">{m.val}</div>
                           <p class="metric-box__tip">{m.tip}</p>
+                          {m.source && <p class="metric-box__source"><a href={m.source.href}>{m.source.label}</a></p>}
                         </div>
                       ))}
                     </div>
@@ -1300,7 +1314,7 @@ const cellular = [
               <p class="blog-card__excerpt">{post.data.description}</p>
               <div class="blog-card__meta">
                 <span>{post.data.date.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-                <span>{post.data.readTime} okuma</span>
+                <span>{getArticleMetrics(post.body ?? '').readTime} okuma</span>
               </div>
               <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
             </div>

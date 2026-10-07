@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CardImage from '../components/CardImage.astro';
+import { WORKPLACE } from '../lib/contact';
 
 const portrait = '/assets/images/dr-muhammed-ikbal-bakirci.jpg';
 
@@ -29,11 +31,11 @@ const identities = [
 ];
 
 const pillars = [
-  { title: 'Beslenme', text: 'Sürdürülebilir beslenme alışkanlıkları ve metabolik sağlık.', href: '/blog/lifli-beslenme-ve-mikrobiyota' },
-  { title: 'Hareket', text: 'Günlük hareket, kas gücü ve fiziksel kapasite.', href: '/blog/direnc-antrenmani-yaslanma' },
-  { title: 'Uyku', text: 'Düzenli uyku ritmi ve dinlenmeye alan açmak.', href: '/blog/uyku-kalitesi-nasil-artirilir' },
-  { title: 'Zihin', text: 'Psikolojik denge ve stresle baş etme.', href: '/blog/kortizol-yaslanma' },
-  { title: 'Sosyal İlişkiler', text: 'Bağ kurmak, paylaşmak ve yaşamda anlam bulmak.', href: '/blog/sosyal-baglanti-ve-uzun-omur' },
+  { title: 'Beslenme', text: 'Sürdürülebilir beslenme alışkanlıkları ve metabolik sağlık.', href: '/longevity/beslenme' },
+  { title: 'Hareket', text: 'Günlük hareket, kas gücü ve fiziksel kapasite.', href: '/longevity/hareket' },
+  { title: 'Uyku', text: 'Düzenli uyku ritmi ve dinlenmeye alan açmak.', href: '/longevity/uyku' },
+  { title: 'Zihin', text: 'Psikolojik denge ve stresle baş etme.', href: '/longevity/zihin' },
+  { title: 'Sosyal İlişkiler', text: 'Bağ kurmak, paylaşmak ve yaşamda anlam bulmak.', href: '/longevity/sosyal-iliskiler' },
   { title: 'Skin Longevity', text: 'Cildin uzun vadeli sağlığı ve bakımı.', href: '/medikal-estetik' },
 ];
 
@@ -47,7 +49,7 @@ const featured = featuredSlugs.map((slug) => {
 });
 ---
 <BaseLayout
-  title="Dr. Muhammed İkbal Bakırcı | Longevity ve Medikal Estetik"
+  title="Dr. Muhammed İkbal Bakırcı | Bursa, Longevity"
   description="Dr. Muhammed İkbal Bakırcı, VM Medical Park Bursa Hastanesi Başhekimi. Longevity, sağlıklı yaşlanma ve medikal estetik üzerine kanıta dayalı içerikler."
 >
   <section class="hp-hero" aria-labelledby="hp-title">
@@ -108,7 +110,7 @@ const featured = featuredSlugs.map((slug) => {
       <div class="hp-reading">
         {featured.map((post) => (
           <article class="hp-card">
-            <img src={post.data.image} alt="" width="1200" height="800" loading="lazy" decoding="async" />
+            <CardImage src={post.data.image} alt="" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 46vw, 380px" />
             <p class="hp-card__cat">{post.data.category}</p>
             <h3><a href={`/blog/${slugOf(post.id)}`}>{post.data.title}</a></h3>
             <p class="hp-card__desc">{post.data.description}</p>
@@ -128,6 +130,22 @@ const featured = featuredSlugs.map((slug) => {
         <div class="hp-actions">
           <a class="btn btn-dark" href="/hakkinda">Hakkımda</a>
           <a class="hp-btn-border" href="/iletisim">İletişime geçin</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hp-section hp-section--soft" aria-labelledby="hp-local-title">
+    <div class="container hp-local">
+      <div>
+        <h2 id="hp-local-title">Bursa’da görev yeri ve iletişim</h2>
+        <p>Dr. Muhammed İkbal Bakırcı, {WORKPLACE.name} bünyesinde görev yapmaktadır. Randevu ve iletişim kanalları için iletişim sayfasını veya hastanenin hekim profilini ziyaret edebilirsiniz.</p>
+      </div>
+      <div class="hp-local__details">
+        <address>{WORKPLACE.name}<br />{WORKPLACE.street}<br />{WORKPLACE.postalCode} {WORKPLACE.locality}/{WORKPLACE.region}</address>
+        <div class="hp-actions">
+          <a class="btn btn-dark" href="/iletisim">Randevu ve iletişim bilgileri</a>
+          <a class="hp-link" href={WORKPLACE.profileUrl} rel="noopener" target="_blank">Medical Park hekim profili &rarr;</a>
         </div>
       </div>
     </div>
@@ -183,7 +201,7 @@ const featured = featuredSlugs.map((slug) => {
   .hp-pillar p { font-size: 15px; line-height: 1.6; color: var(--gray-500); }
 
   .hp-reading { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-  .hp-card img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--r); }
+  .hp-card :global(img) { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--r); }
   .hp-card__cat { margin: 16px 0 6px; font-size: 13px; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: .6px; }
   .hp-card h3 { font-size: 19px; font-weight: 800; line-height: 1.35; }
   .hp-card h3 a:hover { text-decoration: underline; }
@@ -194,6 +212,11 @@ const featured = featuredSlugs.map((slug) => {
   .hp-bio h2 { font-size: clamp(26px, 3vw, 36px); font-weight: 800; margin-bottom: 18px; }
   .hp-bio p { font-size: 16px; line-height: 1.8; color: var(--gray-700); margin-bottom: 14px; }
 
+  .hp-local { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+  .hp-local h2 { font-size: clamp(24px, 3vw, 32px); line-height: 1.25; margin-bottom: 16px; }
+  .hp-local p, .hp-local address { font-size: 16px; line-height: 1.8; color: var(--gray-700); }
+  .hp-local address { font-style: normal; }
+  .hp-local .hp-actions { align-items: center; margin-top: 20px; }
   @media (max-width: 900px) {
     .hp-hero__grid { grid-template-columns: 1fr; gap: 0; }
     .hp-hero__copy { padding: 48px 0 32px; }
@@ -202,7 +225,7 @@ const featured = featuredSlugs.map((slug) => {
     .hp-id, .hp-id:first-child, .hp-id:last-child { padding: 24px 0; border-right: 0; }
     .hp-ids__grid .hp-id:nth-child(odd) { padding-right: 20px; }
     .hp-pillars, .hp-reading { grid-template-columns: 1fr 1fr; }
-    .hp-bio { grid-template-columns: 1fr; gap: 28px; }
+    .hp-bio, .hp-local { grid-template-columns: 1fr; gap: 28px; }
   }
   @media (max-width: 600px) {
     .hp-section { padding: 56px 0; }

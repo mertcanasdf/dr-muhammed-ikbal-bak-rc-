@@ -72,6 +72,12 @@ Quercetin ve resveratrol gibi bileşiklerin laboratuvar çalışmalarında sirtu
 
 SIRT6 çalışması, yaşlanmanın bazı moleküler izlerinin geri döndürülebilir olabileceğine dair heyecan verici bir temel araştırmadır. Bugün için pratik çıkarım değişmiyor: düzenli hareket, dengeli beslenme, yeterli uyku ve stres yönetimi sağlıklı yaşlanmanın en sağlam dayanaklarıdır. Yeni takviye ya da diyet protokollerine başlamadan önce hekiminize danışın.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Sağlık Araştırmaları Nasıl Okunur? Longevity Haberlerine 8 Soru](/blog/saglik-arastirmalari-nasil-okunur) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [sirtuinler ve NAD+](/blog/nmn-nad-yaslanma) ve [kalori kısıtlaması ve aralıklı oruç](/blog/aralikli-oruc-longevity) konularını da okuyabilirsiniz. Ayrıca [epigenetik saatler ve biyolojik yaş](/blog/biyolojik-yas-nasil-olculur) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.

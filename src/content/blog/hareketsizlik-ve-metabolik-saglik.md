@@ -46,6 +46,12 @@ CDC ve WHO fiziksel aktivitenin haftalık plana yayılmasını ve kas güçlendi
 
 > **Not:** Diyabet, kalp hastalığı veya hareket kısıtlılığı olan kişiler mola ve egzersiz planını sağlık ekibiyle belirlemelidir. Kan şekeri düşmesi riski olanlar aktivite öncesi ve sonrası ölçüm planını doktoruna sormalıdır.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Masa Başında Hareket Molası: İş Akışına Uyan Bir Plan](/blog/masa-basinda-hareket-molasi) yazısına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) ve [insülin direnci belirtileri](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.

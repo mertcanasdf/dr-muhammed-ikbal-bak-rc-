@@ -54,6 +54,16 @@ Kas gelişimi yalnızca antrenman sırasında değil, toparlanma döneminde ger�
 
 > **Not:** Böbrek hastalığı, yutma sorunu, kanser tedavisi veya hızlı kilo kaybı gibi durumlarda protein ve egzersiz planı kişisel tıbbi değerlendirme olmadan değiştirilmemelidir.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?](/blog/kas-gucu-kas-kutlesi-farki), [Egzersiz Sonrası Kas Ağrısı: Ne Zaman Yardım Alınmalı?](/blog/egzersiz-sonrasi-kas-agrisi-ne-zaman-basvurulmali) yazılarına bakabilirsiniz.
+
+
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Yaşlılarda Sıvı Tüketimi: Susamayı Beklemeden Günlük Takip](/blog/yaslilarda-sivi-tuketimi-susama), [Sağlıklı Yaşam Süresi (Healthspan) Nedir? Nasıl İzlenir?](/blog/saglikli-yasam-suresi-healthspan-nedir) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [yaşlanmada protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) ve [kavrama gücünün sağlık hakkında söyledikleri](/blog/kavrama-gucu-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.

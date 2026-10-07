@@ -62,6 +62,12 @@ Retinoid kullanırken gündüz geniş spektrumlu güneş koruyucu kullanmak öne
 
 > **Not:** Gebelikte ve gebelik planında retinoid kullanımı doktorla mutlaka görüşülmelidir. Reçeteli ürünleri başkasının önerisiyle kullanmayın; akne veya lekelenmenin nedeni farklı olabilir.
 
+
+
+## Uygulama ve okuma notları
+
+Nemlendirici bileşenlerinin görevlerini ve ürün dokusunu birlikte değerlendirmek için [Nemlendirici İçerikleri: Seramid, Humektan ve Oklüzif Ne Yapar?](/blog/nemlendirici-icerikleri-seramid-humektan) yazısına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [geniş spektrumlu güneş kremi seçimi](/blog/gunes-kremi-nasil-secilir) ve [retinoid döneminde cilt bariyerini desteklemek](/blog/cilt-bariyeri-nasil-guclendirilir) konularını da okuyabilirsiniz. Ayrıca [kollajen kaybının nedenleri](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.

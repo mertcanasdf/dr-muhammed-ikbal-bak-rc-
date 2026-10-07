@@ -63,6 +63,12 @@ Retinoid veya peeling kullanan kişiler güneşten korunmaya daha fazla dikkat e
 
 > **Not:** Değişen, kanayan, büyüyen veya iyileşmeyen bir lezyon varsa güneş kremi sürüp beklemeyin, dermatoloji muayenesi alın.
 
+
+
+## Uygulama ve okuma notları
+
+Nemlendirici bileşenlerinin görevlerini ve ürün dokusunu birlikte değerlendirmek için [Nemlendirici İçerikleri: Seramid, Humektan ve Oklüzif Ne Yapar?](/blog/nemlendirici-icerikleri-seramid-humektan) yazısına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [retinoid kullanırken güneş korumasının önemi](/blog/retinoid-nedir) ve [cilt bariyerini koruyan bir bakım rutini](/blog/cilt-bariyeri-nasil-guclendirilir) konularını da okuyabilirsiniz. Ayrıca [güneşin kollajen kaybına etkisi](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.

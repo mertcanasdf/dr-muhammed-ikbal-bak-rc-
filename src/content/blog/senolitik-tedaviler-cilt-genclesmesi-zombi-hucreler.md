@@ -68,6 +68,12 @@ Otofaji ile hücresel yaşlanma arasındaki bağlantılar araştırılmaktadır;
 
 Senolitikler, yaşlanma biyolojisinin heyecan verici bir araştırma alanıdır; ancak bugün için cilde ya da ağızdan kullanılabilecek kanıtlanmış bir senolitik ürün yoktur. Cildin uzun vadeli sağlığı için kanıtı en güçlü adımlar değişmiyor: güneşten korunma, sigaradan uzak durma, sebze ve meyveden zengin beslenme ve uygun hastalarda hekim tarafından planlanan dermatolojik tedaviler.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Sağlık Araştırmaları Nasıl Okunur? Longevity Haberlerine 8 Soru](/blog/saglik-arastirmalari-nasil-okunur) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [otofaji ve hücresel geri dönüşüm](/blog/otofaji-nedir) ve [NAD+ ve hücresel yaşlanma](/blog/nmn-nad-yaslanma) konularını da okuyabilirsiniz. Ayrıca [ciltte kollajen kaybı](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.

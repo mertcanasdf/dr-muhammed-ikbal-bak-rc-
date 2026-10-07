@@ -49,6 +49,12 @@ Tüm vücuda yönelik direnç egzersizi, yeterli beslenme ve düzenli hareket ka
 
 > **Not:** Kavrama gücü bir tarama göstergesidir, tanı aracı değildir. Sağlık kararını yalnızca bu değere, akıllı saat skoruna veya çevrim içi yaş tablolarına göre vermeyin.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?](/blog/kas-gucu-kas-kutlesi-farki) yazısına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [kas kütlesini korumak](/blog/kas-kutlesi-ve-yaslanma) ve [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) konularını da okuyabilirsiniz. Ayrıca [denge egzersizleri](/blog/denge-egzersizleri-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.

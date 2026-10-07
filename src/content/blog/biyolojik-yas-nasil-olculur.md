@@ -74,6 +74,12 @@ Düzenli hareket, yeterli protein ve lif içeren dengeli beslenme, iyi uyku, sig
 
 > **Not:** Biyolojik yaş testleri tıbbi tanı koymaz. Takviye, yoğun oruç veya egzersiz programı başlatmadan önce mevcut hastalıklarınızı, kullandığınız ilaçları ve kişisel risklerinizi doktorunuzla değerlendirin.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Sağlıklı Yaşam Süresi (Healthspan) Nedir? Nasıl İzlenir?](/blog/saglikli-yasam-suresi-healthspan-nedir), [Mutlak Risk ve Göreceli Risk Farkı: Yüzdeleri Nasıl Okumalı?](/blog/mutlak-risk-goreceli-risk-farki) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [telomer sağlığını destekleyen alışkanlıklar](/blog/telomerleri-korumak) ve [VO₂max ve aerobik kapasite](/blog/vo2max-ve-longevity) konularını da okuyabilirsiniz. Ayrıca [mitokondri sağlığı](/blog/mitokondri-sagligi-nasil-desteklenir) ve [epigenetik yaşlanma üzerine güncel bir çalışma](/blog/sirt6-proteini-epigenetik-genclesme) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.

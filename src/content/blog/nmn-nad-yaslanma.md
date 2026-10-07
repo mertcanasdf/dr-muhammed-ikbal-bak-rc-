@@ -80,6 +80,12 @@ Takviye düşünmeden önce veya takviyeyle birlikte uygulanabilecek yaşam tarz
 - **Niasin (B3 Vitamini):** NAD+ sentezinin temel hammaddesi; et, balık, mantar, yer fıstığı zengin kaynaklardır.
 - **Resveratrol:** Laboratuvar çalışmalarında sirtuin aktivitesini etkilediği bildirilmiştir; insanlarda yaşlanma üzerine etkisi gösterilmemiştir.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Mutlak Risk ve Göreceli Risk Farkı: Yüzdeleri Nasıl Okumalı?](/blog/mutlak-risk-goreceli-risk-farki), [Sağlık Araştırmaları Nasıl Okunur? Longevity Haberlerine 8 Soru](/blog/saglik-arastirmalari-nasil-okunur) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [hücrenin enerji üretimi ve mitokondri](/blog/mitokondri-sagligi-nasil-desteklenir) ve [otofaji](/blog/otofaji-nedir) konularını da okuyabilirsiniz. Ayrıca [sirtuinler ve SIRT6](/blog/sirt6-proteini-epigenetik-genclesme) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.

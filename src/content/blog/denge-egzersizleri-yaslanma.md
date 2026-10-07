@@ -62,6 +62,14 @@ Düşme riskini artırabilecek sakinleştirici, tansiyon, uyku veya başka ilaç
 
 > **Not:** Denge egzersizi kişiye göre uyarlanmalıdır. Osteoporoz, eklem protezi veya nörolojik hastalıkta programı fizyoterapist rehberliğinde yapmak daha güvenlidir.
 
+Egzersiz alanını düzenlemek için [yaşlılarda düşmeyi önleme ve ev güvenliği kontrol listemizi](/blog/yaslilarda-dusme-onleme-ev-guvenligi) de inceleyebilirsiniz.
+
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [İleri Yaşta Egzersize Başlama: Güvenli Bir İlk Adım Rehberi](/blog/ileri-yasta-egzersize-baslama) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) ve [kas kütlesi](/blog/kas-kutlesi-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [kavrama gücü](/blog/kavrama-gucu-ve-saglik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.

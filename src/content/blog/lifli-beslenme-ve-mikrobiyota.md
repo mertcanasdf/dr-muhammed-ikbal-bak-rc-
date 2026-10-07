@@ -50,6 +50,16 @@ Derlemeler, lif müdahalelerinin bazı mikrobiyota ölçümlerini değiştirebil
 
 > **Not:** Dışkıda kan, gece uyandıran karın ağrısı, sürekli ishal veya kabızlık, ateş ya da açıklanamayan kilo kaybı varsa yalnızca beslenme değişikliğiyle yetinmeyin, tıbbi değerlendirme alın.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Ultra İşlenmiş Gıda Nedir? NOVA ve Araştırmaları Okuma Rehberi](/blog/ultra-islenmis-gida-nedir), [Lif Tüketimi Gaz ve Şişkinlik Yaparsa Nasıl İlerlenir?](/blog/lif-tuketimi-gaz-siskinlik), [Baklagillerle Protein Planlama: Kuru ve Pişmiş Ağırlık Rehberi](/blog/baklagiller-protein-planlama) yazılarına bakabilirsiniz.
+
+
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Besin Etiketi Nasıl Okunur? 100 Gram ve Porsiyon Rehberi](/blog/besin-etiketi-nasil-okunur), [Tam Tahıl Nasıl Anlaşılır? Ekmek ve Ürün Etiketi Rehberi](/blog/tam-tahil-nasil-anlasilir), [Yaşlılarda Sıvı Tüketimi: Susamayı Beklemeden Günlük Takip](/blog/yaslilarda-sivi-tuketimi-susama) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [insülin direnci](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.

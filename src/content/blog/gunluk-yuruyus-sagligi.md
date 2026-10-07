@@ -46,6 +46,16 @@ Diyabeti olanlarda ayak bakımı ve uygun ayakkabı önemlidir. Dolaşım sorunu
 
 > **Not:** Yürüyüş tanı veya tedavi değildir. Göğüs ağrısı, bayılma, yeni başlayan çarpıntı veya dinlenmeyle geçmeyen nefes darlığı yaşarsanız egzersizi durdurun ve acil değerlendirme alın.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Masa Başında Hareket Molası: İş Akışına Uyan Bir Plan](/blog/masa-basinda-hareket-molasi) yazısına bakabilirsiniz.
+
+
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Egzersizde Konuşma Testi: Temponuzu Nasıl Değerlendirirsiniz?](/blog/egzersizde-konusma-testi), [Egzersiz Günlüğü Nasıl Tutulur? Süre, Efor ve Toparlanma Takibi](/blog/egzersiz-gunlugu-nasil-tutulur), [İleri Yaşta Egzersize Başlama: Güvenli Bir İlk Adım Rehberi](/blog/ileri-yasta-egzersize-baslama) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [uzun süre oturmanın etkileri](/blog/hareketsizlik-ve-metabolik-saglik) ve [aerobik kapasite (VO₂max)](/blog/vo2max-ve-longevity) konularını da okuyabilirsiniz. Ayrıca [doğada vakit geçirmenin zihinsel etkileri](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.

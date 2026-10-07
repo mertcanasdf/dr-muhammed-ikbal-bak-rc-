@@ -49,6 +49,12 @@ Balık yağı bazı kişilerde geğirme, mide rahatsızlığı veya ishal yapabi
 
 > **Not:** Bir takviyeyi yüksek dozda başlatmadan önce kullandığınız ilaçları ve mevcut hastalıkları doktorunuza bildirin. Omega-3 kapsülü dengeli beslenmenin, tıbbi tedavinin veya takip planının yerine geçmez.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Mutlak Risk ve Göreceli Risk Farkı: Yüzdeleri Nasıl Okumalı?](/blog/mutlak-risk-goreceli-risk-farki) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) konularını da okuyabilirsiniz. Ayrıca [D3 vitamini eksikliği](/blog/d3-vitamini-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.

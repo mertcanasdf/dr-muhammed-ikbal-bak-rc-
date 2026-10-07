@@ -46,6 +46,12 @@ Aynı anda birden fazla asit, retinoid, peeling, maske ve parfümlü ürün kull
 
 > **Not:** Şiddetli şişlik, su toplaması, yaygın döküntü, enfeksiyon şüphesi veya göz çevresinde ani değişiklik olursa sağlık kuruluşuna başvurun. Cilt bariyeri ürünleri dermatolojik hastalık tedavisinin yerine geçmez.
 
+
+
+## Uygulama ve okuma notları
+
+Nemlendirici bileşenlerinin görevlerini ve ürün dokusunu birlikte değerlendirmek için [Nemlendirici İçerikleri: Seramid, Humektan ve Oklüzif Ne Yapar?](/blog/nemlendirici-icerikleri-seramid-humektan) yazısına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [retinol ve türevlerinin doğru kullanımı](/blog/retinoid-nedir) ve [SPF ve güneş kremi seçimi](/blog/gunes-kremi-nasil-secilir) konularını da okuyabilirsiniz. Ayrıca [ciltte kollajen kaybı](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.

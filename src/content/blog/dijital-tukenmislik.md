@@ -45,6 +45,12 @@ Sosyal medya için kısa, belirli zaman aralıkları seçmek ve akışı takip e
 
 > **Not:** Çökkünlük, panik, işe gidememe, uzun süren uyku bozukluğu veya kendine zarar düşüncesi varsa profesyonel destek alın. İş yükü kaynaklı sorunlar yalnızca kişisel disiplin eksikliği değildir.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Masa Başında Hareket Molası: İş Akışına Uyan Bir Plan](/blog/masa-basinda-hareket-molasi) yazısına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [tükenmişlik sendromu](/blog/tukenmislik-sendromu) ve [ekran kullanımı ve uyku](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [doğada geçirilen zaman](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.

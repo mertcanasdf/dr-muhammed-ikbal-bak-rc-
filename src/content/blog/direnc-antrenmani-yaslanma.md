@@ -49,6 +49,16 @@ Direnç antrenmanı aerobik hareket, uyku ve yeterli beslenmeyle birlikte daha a
 
 > **Not:** Egzersiz planı tıbbi tedavinin yerine geçmez. Uzun süre hareketsiz kaldıysanız veya kronik bir hastalığınız varsa yoğunluğu doktorunuz ya da egzersiz uzmanınızla belirleyin.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?](/blog/kas-gucu-kas-kutlesi-farki), [Egzersiz Sonrası Kas Ağrısı: Ne Zaman Yardım Alınmalı?](/blog/egzersiz-sonrasi-kas-agrisi-ne-zaman-basvurulmali) yazılarına bakabilirsiniz.
+
+
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Egzersiz Günlüğü Nasıl Tutulur? Süre, Efor ve Toparlanma Takibi](/blog/egzersiz-gunlugu-nasil-tutulur), [İleri Yaşta Egzersize Başlama: Güvenli Bir İlk Adım Rehberi](/blog/ileri-yasta-egzersize-baslama) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [kas kütlesi ve yaşlanma](/blog/kas-kutlesi-ve-yaslanma) ve [kreatin](/blog/kreatin-ve-yaslanma) konularını da okuyabilirsiniz. Ayrıca [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.

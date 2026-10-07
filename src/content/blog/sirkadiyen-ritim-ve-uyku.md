@@ -45,6 +45,16 @@ Ulusal Kalp, Akciğer ve Kan Enstitüsü uyku-uyanıklık döngüsünü ve ış�
 
 > **Not:** Horlama, uykuda nefes kesilmesi, sabah baş ağrısı, gündüz kontrol edilemeyen uyku hali veya uzun süren ritim bozukluğu varsa uyku hastalıkları açısından değerlendirme alın.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Akıllı Saat Uyku Takibi Güvenilir mi? Verileri Okuma Rehberi](/blog/akilli-saat-uyku-takibi-guvenilir-mi), [Vardiyalı Çalışanlarda Uyku Düzeni: Planlama ve Eve Dönüş](/blog/vardiyali-calisanlarda-uyku-duzeni), [Hafta Sonu Uykusu ve Sosyal Jetlag: Telafinin Sınırları](/blog/hafta-sonu-uykusu-sosyal-jetlag) yazılarına bakabilirsiniz.
+
+
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Kafein ve Uyku: Kahve Ne Zaman Bırakılmalı?](/blog/kafein-uyku-kahve-ne-zaman-birakilmali), [Uyku Günlüğü Nasıl Tutulur? Örnek Tablo ve Yorumlama](/blog/uyku-gunlugu-nasil-tutulur), [Uyku Apnesi Belirtileri: Ne Zaman Hekime Başvurmalı?](/blog/uyku-apnesi-belirtileri-ne-zaman-basvurulmali) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [uyku kalitesi nasıl artırılır](/blog/uyku-kalitesi-nasil-artirilir) ve [akşam ekran kullanımı](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [glimfatik sistem](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [uyku ve sağlıklı yaşlanma rehberimizde](/longevity/uyku) bulabilirsiniz.

@@ -82,6 +82,16 @@ Beslenme kritik olmakla birlikte, longevity araştırmaları mavi bölge sakinle
 
 Mavi bölge çalışmaları gözlemseldir: uzun yaşayan toplulukların ortak özelliklerini tanımlar, ancak tek tek alışkanlıkların ömrü ne kadar uzattığını kanıtlamaz. Bazı araştırmacılar, çok ileri yaşlara ait kayıtların bir kısmında belge hataları olabileceğine dikkat çekiyor. Yine de bu bölgelerde öne çıkan beslenme ilkeleri — bol sebze, baklagil ve tam tahıl, az işlenmiş gıda — genel sağlık önerileriyle örtüşür.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Ultra İşlenmiş Gıda Nedir? NOVA ve Araştırmaları Okuma Rehberi](/blog/ultra-islenmis-gida-nedir), [Lif Tüketimi Gaz ve Şişkinlik Yaparsa Nasıl İlerlenir?](/blog/lif-tuketimi-gaz-siskinlik), [Baklagillerle Protein Planlama: Kuru ve Pişmiş Ağırlık Rehberi](/blog/baklagiller-protein-planlama) yazılarına bakabilirsiniz.
+
+
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Tam Tahıl Nasıl Anlaşılır? Ekmek ve Ürün Etiketi Rehberi](/blog/tam-tahil-nasil-anlasilir) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [lifli beslenme ve bağırsak mikrobiyotası](/blog/lifli-beslenme-ve-mikrobiyota) ve [polifenol içeren besinler](/blog/polifenoller-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [yaşam amacı (ikigai) ve uzun ömür](/blog/yasam-amaci-ve-longevity) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.

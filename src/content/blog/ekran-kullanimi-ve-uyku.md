@@ -45,6 +45,16 @@ CDC, yetişkinlerin düzenli uyku saatleri ve yeterli uyku süresini korumasın�
 
 > **Not:** Gündüz sürekli uyuklama, uykuda nefes kesilmesi, araç kullanırken uyku basması veya haftalarca süren belirgin uyku bozukluğu varsa doktor değerlendirmesi alın.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Akıllı Saat Uyku Takibi Güvenilir mi? Verileri Okuma Rehberi](/blog/akilli-saat-uyku-takibi-guvenilir-mi), [Vardiyalı Çalışanlarda Uyku Düzeni: Planlama ve Eve Dönüş](/blog/vardiyali-calisanlarda-uyku-duzeni), [Hafta Sonu Uykusu ve Sosyal Jetlag: Telafinin Sınırları](/blog/hafta-sonu-uykusu-sosyal-jetlag) yazılarına bakabilirsiniz.
+
+
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Kafein ve Uyku: Kahve Ne Zaman Bırakılmalı?](/blog/kafein-uyku-kahve-ne-zaman-birakilmali), [Uyku Günlüğü Nasıl Tutulur? Örnek Tablo ve Yorumlama](/blog/uyku-gunlugu-nasil-tutulur), [Uyku Apnesi Belirtileri: Ne Zaman Hekime Başvurmalı?](/blog/uyku-apnesi-belirtileri-ne-zaman-basvurulmali) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [sirkadiyen ritim](/blog/sirkadiyen-ritim-ve-uyku) ve [uyku hijyeni](/blog/uyku-kalitesi-nasil-artirilir) konularını da okuyabilirsiniz. Ayrıca [dijital tükenmişlik](/blog/dijital-tukenmislik) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [uyku ve sağlıklı yaşlanma rehberimizde](/longevity/uyku) bulabilirsiniz.

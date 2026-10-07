@@ -1,0 +1,492 @@
+{
+  "version": 1,
+  "timezone": "Europe/Istanbul",
+  "publications": [
+    {
+      "day": "2026-10-06",
+      "slug": "yaslilarda-dusme-onleme-ev-guvenligi",
+      "commit": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "parent": "e4f3ec57303432b708f03368769bcea42f7e8304",
+      "preparedAt": "2026-10-06T19:59:42.067Z",
+      "status": "live_verified",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/yaslilarda-dusme-onleme-ev-guvenligi",
+        "headline": "Yaşlılarda Düşmeyi Önleme: Ev Güvenliği Kontrol Listesi",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 593,
+        "bodyTextSha256": "8ded8cb3e3eb39bcc4fd70cdcd5e9a0b88a2fb4d29cadb811032253a1721b47f",
+        "htmlSha256": "fa34b0673273b19da6ff7429a277e4b7f7442bde0b3aa50a651c59c856c4e4ff"
+      },
+      "sourceArticleSha256": "681bf6319185a0d9758be29eda215bf42aa4c1e34ce0e9d146f06dfbbf93b5ef",
+      "pushedAt": "2026-10-06T19:59:44.859Z",
+      "liveVerifiedAt": "2026-10-06T20:09:56.502Z",
+      "indexNow": {
+        "status": "accepted_key_validation_pending",
+        "httpStatus": 202,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "kafein-uyku-kahve-ne-zaman-birakilmali",
+      "sourceArticleSha256": "9dbf6b48fa454d86d14181e28e455af8e0567c38cd44f849a7050d1dce82e944",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kafein-uyku-kahve-ne-zaman-birakilmali",
+        "headline": "Kafein ve Uyku: Kahve Ne Zaman Bırakılmalı?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 829,
+        "bodyTextSha256": "5c7a2b5f3253f47d7c25eab9fcc3e417edc8a06a98ec7ecde3e8c0b810b9d618",
+        "htmlSha256": "523506ce709524b70a8194c33fc1842594ada83ad77db747fea187d8804f137f"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "uyku-gunlugu-nasil-tutulur",
+      "sourceArticleSha256": "b732feaafb13299fb6cee37750ef9a0fee39f157e46fa7a89600507f7a8a17dc",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/uyku-gunlugu-nasil-tutulur",
+        "headline": "Uyku Günlüğü Nasıl Tutulur? Örnek Tablo ve Yorumlama",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 868,
+        "bodyTextSha256": "970d145d328dcdbe8e629549ec3b4ea9ce66ee53cc1a085826afde791c856ae1",
+        "htmlSha256": "e47e396ba8d9f9f4782dab246c932268452fe2ba882ed047b04fc61c9c50a653"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "uyku-apnesi-belirtileri-ne-zaman-basvurulmali",
+      "sourceArticleSha256": "5aa5c693fff0dbb85a5a5ef6f730984ad2e23095bd615787dea44dedb6975bec",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/uyku-apnesi-belirtileri-ne-zaman-basvurulmali",
+        "headline": "Uyku Apnesi Belirtileri: Ne Zaman Hekime Başvurmalı?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 870,
+        "bodyTextSha256": "908b4ca0cfebd98cb73efbfa4b197d8c88c63801f6b5c4f7128ccb10a9c6941f",
+        "htmlSha256": "37cc32e13559c8ef5a2955dab240bb69a15431452bbfce39a104f7e80b77af86"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "besin-etiketi-nasil-okunur",
+      "sourceArticleSha256": "9e55b8a14e033859a3ce9f31328b5f94d69081436714834bf7d0ff5e546f842f",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/besin-etiketi-nasil-okunur",
+        "headline": "Besin Etiketi Nasıl Okunur? 100 Gram ve Porsiyon Rehberi",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 853,
+        "bodyTextSha256": "6f9cf5b725ee619c7db6949600beeecef3c9ca02199affa968ddcdeb0da7706e",
+        "htmlSha256": "0a70910fbd7f6cb5604f0a9a844b0f53aad88ee9570ca75b8cc887ef8c137c41"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "tam-tahil-nasil-anlasilir",
+      "sourceArticleSha256": "14aac5aeacc141d29a0b1828e3123f5b1531ef7feb3dc345b3dbb8e36492d351",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/tam-tahil-nasil-anlasilir",
+        "headline": "Tam Tahıl Nasıl Anlaşılır? Ekmek ve Ürün Etiketi Rehberi",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 865,
+        "bodyTextSha256": "e1ad8056da3f8037e3b0ed3581a63eee576c2ef0b3d50980417268311cf13c38",
+        "htmlSha256": "36d8666f9315098e193b23da2953dcc721a4294d249b0b37fa90217c59ad7175"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "yaslilarda-sivi-tuketimi-susama",
+      "sourceArticleSha256": "648c2466a6179aa51283dbd275282c10ba4f6ba0354a8b1fbd10698290340eb3",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/yaslilarda-sivi-tuketimi-susama",
+        "headline": "Yaşlılarda Sıvı Tüketimi: Susamayı Beklemeden Günlük Takip",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 827,
+        "bodyTextSha256": "8a943bc25681af0bfc46e2617df277707407b68577c2dd508f7395a09181a016",
+        "htmlSha256": "8a2b65739ac40fe79154ba191006b5c8a384d8d35d6bf986026dd48a83f98ab4"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "egzersizde-konusma-testi",
+      "sourceArticleSha256": "58c032ac2ad4dbe5204f94e8ab20357ebfc91a15236d4b71689faf4340249c44",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/egzersizde-konusma-testi",
+        "headline": "Egzersizde Konuşma Testi: Temponuzu Nasıl Değerlendirirsiniz?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 855,
+        "bodyTextSha256": "37ef00ea3e40d382337e15abdd0e6db6d56c11c6d2d6fd510c402ef7f8aaaf33",
+        "htmlSha256": "9bd1c3a5bb7f68c633c48bd8fd8379cad448d8e25dcd8c64e6309e0d3f908840"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "egzersiz-gunlugu-nasil-tutulur",
+      "sourceArticleSha256": "642f0f6e510ca48f077223b1aa971ff4ac47fd48a2fd781a8f65405ca58a83c1",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/egzersiz-gunlugu-nasil-tutulur",
+        "headline": "Egzersiz Günlüğü Nasıl Tutulur? Süre, Efor ve Toparlanma Takibi",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 890,
+        "bodyTextSha256": "459090b310012da197c58cf8c54127d8a81de0503cbc6158d84901a83b1c3cec",
+        "htmlSha256": "314a6e604cb0339e608ebbb4daa6cdbbd75d04bdbeeac7b29be6036a588025bb"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "ileri-yasta-egzersize-baslama",
+      "sourceArticleSha256": "ff851af7b3a37e77dd0a4ba7acf7cfc6c5eb425eced3db00cce9c33a912c7915",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ileri-yasta-egzersize-baslama",
+        "headline": "İleri Yaşta Egzersize Başlama: Güvenli Bir İlk Adım Rehberi",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 971,
+        "bodyTextSha256": "a0a7fb433882876d8b9fad93a469e88c183c02e4b32d502bc45ef1b57a72909b",
+        "htmlSha256": "a2033979459ac5687365ee63599b5cc7b9868eed95a75cda281d3050a4ef806e"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "saglikli-yasam-suresi-healthspan-nedir",
+      "sourceArticleSha256": "1f1702b5a85e56e283fa5d756d17593efea158e4d49de86e8bf54f3a9d009251",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/saglikli-yasam-suresi-healthspan-nedir",
+        "headline": "Sağlıklı Yaşam Süresi (Healthspan) Nedir? Nasıl İzlenir?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 780,
+        "bodyTextSha256": "caf9edca34ebf8e7b1ae15062508ceddb55de1041f65a0f2c40845d2bfda8c03",
+        "htmlSha256": "537dfc43b95ec8a990202b81051536cea9ff72bf7aa6f459a39b376b727555c7"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "mutlak-risk-goreceli-risk-farki",
+      "sourceArticleSha256": "94b58dae713c9c2666c85100e47393876e05f1af884ae9281f3c08d3058333fe",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/mutlak-risk-goreceli-risk-farki",
+        "headline": "Mutlak Risk ve Göreceli Risk Farkı: Yüzdeleri Nasıl Okumalı?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 815,
+        "bodyTextSha256": "60eda327be442761919ea2e3fad8bdabe8aa5e563a614fdcc127c20632a4901c",
+        "htmlSha256": "0245e7fb6cbe2ec7f442f7d488c8fafed9aa1dcbca99cc0b3770a1402114fdd4"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "saglik-arastirmalari-nasil-okunur",
+      "sourceArticleSha256": "2d58fd0fa133afe513ac8b81583a7c16552660df11791b2df21ca058473e199e",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/saglik-arastirmalari-nasil-okunur",
+        "headline": "Sağlık Araştırmaları Nasıl Okunur? Longevity Haberlerine 8 Soru",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 873,
+        "bodyTextSha256": "e2383101f447821d87a9c93fefdd767413886abed224a38e77904896948b24ce",
+        "htmlSha256": "cb381b7b94850c5baa47b88b493e5c6b39d5e548b13da8995c2f7c9e21abd34c"
+      },
+      "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
+      "preparedAt": "2026-10-06T20:48:10.765Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-01",
+      "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
+      "pushedAt": "2026-10-06T20:48:13.405Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "akilli-saat-uyku-takibi-guvenilir-mi",
+      "sourceArticleSha256": "d6d2a6c3b113aa3db9a9052d0775b3bc6880f2a5c9bb1b43735e67bf799d6464",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/akilli-saat-uyku-takibi-guvenilir-mi",
+        "headline": "Akıllı Saat Uyku Takibi Güvenilir mi? Verileri Okuma Rehberi",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 865,
+        "bodyTextSha256": "b28ad42ad99282866f017a3843341a9df67d37f71f7d456b6af7e204c87e892d",
+        "htmlSha256": "326ecd8f2fcd88953acd684f1268a05b3aba13b194bed1bda343861ad585dc17"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "vardiyali-calisanlarda-uyku-duzeni",
+      "sourceArticleSha256": "aa7518667ce2f8e1fe3bbbb1a0dd8368f28160029b8e535373410b04458897c6",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/vardiyali-calisanlarda-uyku-duzeni",
+        "headline": "Vardiyalı Çalışanlarda Uyku Düzeni: Planlama ve Eve Dönüş",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 891,
+        "bodyTextSha256": "2f4d09b914802db91f1a90a82dbdaa9e31967bc35e4d02eac1602ec8b9fde95d",
+        "htmlSha256": "fe0b99444b290de554dcbc8ae23e0fc8066155929177ed74bffbe41c79ffe657"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "hafta-sonu-uykusu-sosyal-jetlag",
+      "sourceArticleSha256": "0b9000e3f5ef977ef480d133af206c8a467dabc77191890d423eb3a8b8c79a1a",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/hafta-sonu-uykusu-sosyal-jetlag",
+        "headline": "Hafta Sonu Uykusu ve Sosyal Jetlag: Telafinin Sınırları",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 903,
+        "bodyTextSha256": "1f36b0ff795b08c49c96b659ea51010547d4037407efcdf329d37ef9cb65c3b5",
+        "htmlSha256": "d6cc8edb211535121e540229496e0858f08cfa9543edf0748ee4901b9bb60771"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "ultra-islenmis-gida-nedir",
+      "sourceArticleSha256": "73251be43d65f31b79728639d6b0a808108148680a5b71348993f7d2e7fee0c6",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ultra-islenmis-gida-nedir",
+        "headline": "Ultra İşlenmiş Gıda Nedir? NOVA ve Araştırmaları Okuma Rehberi",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 802,
+        "bodyTextSha256": "354edba63a8a36ae05c580bc987378527edb4010c5db7429b34c534787d41921",
+        "htmlSha256": "dcbcfadcf7015e221058a81c3f60b21df6d6b556c59f366e01ae43a685edbca0"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "lif-tuketimi-gaz-siskinlik",
+      "sourceArticleSha256": "2a1c1f0b0c7a830cb759bf7b56a052b6c66fce15cc810805b85a66cf98dcf33d",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/lif-tuketimi-gaz-siskinlik",
+        "headline": "Lif Tüketimi Gaz ve Şişkinlik Yaparsa Nasıl İlerlenir?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 810,
+        "bodyTextSha256": "855704f97cb8590b062b4d14f55b35bf1138da8076b44e956361f923ed1e96d4",
+        "htmlSha256": "15d5e5cd5cae2e67b8af705a75e04548b1c6d281314ba7ce612ac0812579a968"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "baklagiller-protein-planlama",
+      "sourceArticleSha256": "6ff38cfd2e93a8a09990aa5b890bb7a9e17c5c7bb133d8048ae9001637e49c2d",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/baklagiller-protein-planlama",
+        "headline": "Baklagillerle Protein Planlama: Kuru ve Pişmiş Ağırlık Rehberi",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 863,
+        "bodyTextSha256": "396184c06aca6b4450d04ca20b8f594785c0cf1e484ea83cd7756812468d64ac",
+        "htmlSha256": "190ed041473d11a91042d62cdab938441f47679c8f1167408be4802b5a201b83"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "kas-gucu-kas-kutlesi-farki",
+      "sourceArticleSha256": "00adb23070ce0abe8d18e674c2d93a5d517bb70a4a3459ada5d3a6381a5ecfe0",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kas-gucu-kas-kutlesi-farki",
+        "headline": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 880,
+        "bodyTextSha256": "846b0cc6e1223979681ed833171d83b3e4b638c5ae2c567778852c0934e88554",
+        "htmlSha256": "70f891cd995121d72fd4f6bb217e83d7f82252958ff4574ddf4f3f51002128b2"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "masa-basinda-hareket-molasi",
+      "sourceArticleSha256": "f28a80f05d806c3101156f3127c0bfb466dbe320aaff799779d120e4eb319969",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/masa-basinda-hareket-molasi",
+        "headline": "Masa Başında Hareket Molası: İş Akışına Uyan Bir Plan",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 968,
+        "bodyTextSha256": "fbf9777722462790459f811893c16a3fe7175b56e9db5d2c9284adf28b4a9391",
+        "htmlSha256": "0d04a765d58fd2bd07b29da34c576073a4cd1170f59fa2fb3cdf1e7b6a770244"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-06",
+      "slug": "egzersiz-sonrasi-kas-agrisi-ne-zaman-basvurulmali",
+      "sourceArticleSha256": "7b008364121af92ce1d1963af995dd36ec22b8d8b466b15a32077cca02229218",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/egzersiz-sonrasi-kas-agrisi-ne-zaman-basvurulmali",
+        "headline": "Egzersiz Sonrası Kas Ağrısı: Ne Zaman Yardım Alınmalı?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 920,
+        "bodyTextSha256": "3b0c8efd5c88a7dffe2c0655fade691187dc553f0076867b32bfa0c2d563184b",
+        "htmlSha256": "0e8f98d8287bf38425b828387a80f6c16609367d279e18f337ad87efbd278d27"
+      },
+      "commit": "c5c036195f008608e92ea601064b5868e75d45af",
+      "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
+      "preparedAt": "2026-10-06T20:57:59.978Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-06-researched-blogs-02",
+      "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
+      "pushedAt": "2026-10-06T20:58:02.823Z"
+    },
+    {
+      "day": "2026-10-07",
+      "slug": "nemlendirici-icerikleri-seramid-humektan",
+      "sourceArticleSha256": "235f9b6fd6f9ee22ab449b4c87fb29c6a0e3bdbd06d1be6a6f133d94d8d9d61a",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/nemlendirici-icerikleri-seramid-humektan",
+        "headline": "Nemlendirici İçerikleri: Seramid, Humektan ve Oklüzif Ne Yapar?",
+        "datePublished": "2026-10-07",
+        "dateModified": "2026-10-07",
+        "wordCount": 829,
+        "bodyTextSha256": "24d6243f5e9156f91af2d11747a19c8a551f7875b487523b47a30e19582b2684",
+        "htmlSha256": "26e81b41999c44d02744caf54ba802273e2b1dee4cce148b237fe1052cf0b6e6"
+      },
+      "commit": "313038c8455bc845a52a0eafdb05774a56610736",
+      "parent": "c5c036195f008608e92ea601064b5868e75d45af",
+      "preparedAt": "2026-10-07T07:02:08.435Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-07T07:02:10.997Z"
+    }
+  ]
+}

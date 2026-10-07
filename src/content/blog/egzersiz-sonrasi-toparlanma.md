@@ -46,6 +46,16 @@ Haftalık yük hızla artırılmamalı, zor günler daha kolay günlerle dengele
 
 > **Not:** Koyu idrar, bayılma, aşırı halsizlik, göğüs ağrısı veya egzersiz sonrası geçmeyen çarpıntı varsa tıbbi yardım alın. Takviye ve ağrı kesici kullanımı doktor önerisi olmadan rutin hale getirilmemelidir.
 
+
+
+## Uygulama ve okuma notları
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Egzersiz Sonrası Kas Ağrısı: Ne Zaman Yardım Alınmalı?](/blog/egzersiz-sonrasi-kas-agrisi-ne-zaman-basvurulmali) yazısına bakabilirsiniz.
+
+
+
+Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Egzersizde Konuşma Testi: Temponuzu Nasıl Değerlendirirsiniz?](/blog/egzersizde-konusma-testi), [Egzersiz Günlüğü Nasıl Tutulur? Süre, Efor ve Toparlanma Takibi](/blog/egzersiz-gunlugu-nasil-tutulur) yazılarına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [toparlanmada uykunun rolü](/blog/uyku-kalitesi-nasil-artirilir) ve [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.

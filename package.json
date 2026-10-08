@@ -7,7 +7,11 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "test": "node --test \"tests/**/*.test.ts\"",
+    "seo:gorev": "node scripts/seo/gunluk-gorev.mjs",
+    "seo:gsc": "node scripts/seo/gsc.mjs --denetle 25",
+    "seo:denetim": "node scripts/seo/canli-denetim.mjs",
+    "seo:kaynak": "node scripts/seo/kaynak-kontrol.mjs",
+    "test":"node --test \"tests/**/*.test.ts\"",
     "verify": "node scripts/sync-related.mjs --check && node scripts/ic-baglantilar.mjs --check && astro build && node scripts/verify-dist.mjs && node scripts/verify-seo.mjs"
   },
   "dependencies": {

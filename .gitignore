@@ -19,3 +19,8 @@ build-output.txt
 # Görsel üretim taslakları ve kayıtları
 gorsel-taslak/
 .gorsel-kayit/
+
+# SEO otomasyonu: Search Console verisi ve önbellekler yerel kalır (repo herkese açık).
+# Yalnız görev geçmişi paylaşılır; aynı yazıya 30 gün içinde ikinci görev verilmesin diye.
+data/seo/*
+!data/seo/gorev-gecmisi.json

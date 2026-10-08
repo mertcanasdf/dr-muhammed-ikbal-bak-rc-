@@ -4,6 +4,7 @@
 
 ## Günlük iş
 
+0. **Önce** `node scripts/seo/gunluk-gorev.mjs` çalıştırılır ve çıktıdaki tek görev yapılır (kurallar: `docs/seo-otomasyon.md`). Aşağıdaki adımlar görev `yeni-yazi` olduğunda uygulanır; diğer görevlerde de 7–10. adımlar (kapılar, yayın, canlı kontrol, bildirim) aynıdır.
 1. `data/content-plan.json` ve `data/content-automation-state.json` okunur. Aynı gün ikinci içerik gönderilmez.
 2. Sıradaki aday soru canlı aramada araştırılır. Sorgu, görülen URL'ler, tarih, niyet ve mevcut siteyle çakışma kaydedilir. Hacim, CPC veya Google konumuna erişim yoksa boş bırakılır.
 3. Aynı soru mevcut bir yazıda karşılanıyorsa o yazı esaslı biçimde geliştirilir. Ayrı kullanıcı işi varsa yeni URL açılır. Yeni Bursa/ilçe kopyaları üretilmez.

@@ -8,7 +8,30 @@ import { DATA, loadArticles, readJson, writeJson, trDay, daysBetween } from './o
 const EXPECTED_CTR = [0, 0.28, 0.15, 0.1, 0.07, 0.05, 0.04, 0.03, 0.025, 0.02, 0.018];
 const THIN_WORDS = 600;
 
-export function computeOpportunities(articles = loadArticles(), gsc = readJson(path.join(DATA, 'gsc-son.json'))) {
+// Eski site "/blog/x/" biçimini kullanıyordu; yeni adres "/blog/x". Search Console ikisini ayrı sayar,
+// aynı sayfanın verisi bölünmesin diye sondaki "/" kaldırılıp satırlar birleştirilir.
+const norm = (u) => (u.endsWith('/') && new URL(u).pathname !== '/' ? u.slice(0, -1) : u);
+function mergeRows(rows, keyOf) {
+  const m = new Map();
+  for (const r of rows) {
+    const k = keyOf(r);
+    const prev = m.get(k);
+    if (!prev) { m.set(k, { ...r, page: norm(r.page) }); continue; }
+    const impressions = prev.impressions + r.impressions;
+    prev.position = +((prev.position * prev.impressions + r.position * r.impressions) / (impressions || 1)).toFixed(1);
+    prev.clicks += r.clicks;
+    prev.impressions = impressions;
+    prev.ctr = +(prev.clicks / (impressions || 1)).toFixed(4);
+  }
+  return [...m.values()];
+}
+
+export function computeOpportunities(articles = loadArticles(), raw = readJson(path.join(DATA, 'gsc-son.json'))) {
+  const gsc = raw && {
+    ...raw,
+    pages: mergeRows(raw.pages, (r) => norm(r.page)),
+    queryPage: mergeRows(raw.queryPage, (r) => `${r.query}\u0000${norm(r.page)}`),
+  };
   const byUrl = new Map(articles.map((a) => [a.url, a]));
   const pageStats = new Map((gsc?.pages ?? []).map((p) => [p.page, p]));
   const out = { day: trDay(), gscWindow: gsc ? `${gsc.start}–${gsc.end}` : null, striking: [], lowCtr: [], cannibal: [], thin: [], fewSources: [], noImpressions: [] };

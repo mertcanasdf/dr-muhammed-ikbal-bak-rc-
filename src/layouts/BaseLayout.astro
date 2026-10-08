@@ -75,6 +75,10 @@ const jsonLd = JSON.stringify({
   <meta name="theme-color" content="#0c0f0d" />
   <title>{documentTitle}</title>
   <link rel="canonical" href={canonicalUrl} />
+  <!-- Site simgeleri: scripts/favicon.mjs üretir. Google arama sonucundaki site simgesi bunlardan alınır. -->
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="alternate" hreflang="tr" href={canonicalUrl} />
   <meta property="og:type" content={type} />
   {type === 'article' && publishedTime && <meta property="article:published_time" content={publishedTime} />}

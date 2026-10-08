@@ -50,6 +50,10 @@ Aynı anda birden fazla asit, retinoid, peeling, maske ve parfümlü ürün kull
 
 ## Uygulama ve okuma notları
 
+Bakım ürünlerinin arka yüzündeki adları ve parfüm ifadelerini yorumlamak için [kozmetik etiketi ve INCI okuma rehberine](/blog/kozmetik-etiketi-inci-nasil-okunur) bakabilirsiniz.
+
+
+
 Nemlendirici bileşenlerinin görevlerini ve ürün dokusunu birlikte değerlendirmek için [Nemlendirici İçerikleri: Seramid, Humektan ve Oklüzif Ne Yapar?](/blog/nemlendirici-icerikleri-seramid-humektan) yazısına bakabilirsiniz.
 
 ## Konuyu derinleştirmek için

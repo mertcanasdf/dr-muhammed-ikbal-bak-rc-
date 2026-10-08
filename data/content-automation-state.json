@@ -44,10 +44,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:47.306Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -65,10 +72,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:48.379Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -86,10 +100,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:49.200Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -107,10 +128,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:50.073Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -128,10 +156,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:51.134Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -149,10 +184,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:52.119Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -170,10 +212,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:53.126Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -191,10 +240,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:54.004Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -212,10 +268,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:54.872Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -233,10 +296,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:55.755Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -254,10 +324,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:56.705Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -275,10 +352,17 @@
       "commit": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "parent": "82f941af300ee19ae7e68c454bea8136c499de4c",
       "preparedAt": "2026-10-06T20:48:10.765Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-01",
       "batchSha256": "5b9593f34f0e1cbf52932da49cfbdc32ea8db6b6eaf1d04890def9154e98041d",
-      "pushedAt": "2026-10-06T20:48:13.405Z"
+      "pushedAt": "2026-10-06T20:48:13.405Z",
+      "liveVerifiedAt": "2026-10-08T07:05:57.849Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -296,10 +380,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:05:58.980Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -317,10 +408,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:05:59.803Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -338,10 +436,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:06:00.957Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -359,10 +464,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:06:01.916Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -380,10 +492,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:06:02.986Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -401,10 +520,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:06:03.910Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -422,10 +548,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:06:04.972Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -443,10 +576,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:06:06.004Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-06",
@@ -464,10 +604,17 @@
       "commit": "c5c036195f008608e92ea601064b5868e75d45af",
       "parent": "6f536a95844337b4aaec7069dcb5866e3fb84611",
       "preparedAt": "2026-10-06T20:57:59.978Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-06-researched-blogs-02",
       "batchSha256": "1b4b9b2620052a1a84434a758b5add27c8ddc6c421a1441ce306daf82f66af22",
-      "pushedAt": "2026-10-06T20:58:02.823Z"
+      "pushedAt": "2026-10-06T20:58:02.823Z",
+      "liveVerifiedAt": "2026-10-08T07:06:07.125Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-07",
@@ -485,8 +632,34 @@
       "commit": "313038c8455bc845a52a0eafdb05774a56610736",
       "parent": "c5c036195f008608e92ea601064b5868e75d45af",
       "preparedAt": "2026-10-07T07:02:08.435Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-07T07:02:10.997Z",
+      "liveVerifiedAt": "2026-10-08T07:06:07.978Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-08",
+      "slug": "kozmetik-etiketi-inci-nasil-okunur",
+      "sourceArticleSha256": "d540a5bd65550aff79ffba3014b3b88fd619d9c141d14071b84b014c1d7d0ccd",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kozmetik-etiketi-inci-nasil-okunur",
+        "headline": "Kozmetik Etiketi Nasıl Okunur? INCI, İçerik Sırası ve Parfüm",
+        "datePublished": "2026-10-08",
+        "dateModified": "2026-10-08",
+        "wordCount": 896,
+        "bodyTextSha256": "d8676512e4df7a5ed3f827ef22bfce4efa2f8584556be5de3f1feb34031f0808",
+        "htmlSha256": "88cd8ea0bff67ee6575463980d85152f4fa956cfa5129c642b9dcccecb72f79a"
+      },
+      "commit": "2d3f50d2266b4622b571c1c0b4968da1116e7f1e",
+      "parent": "fa27c6d68e1132d3e4ca7d2420bfbee41763e3e2",
+      "preparedAt": "2026-10-08T07:14:30.875Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-10-07T07:02:10.997Z"
+      "pushedAt": "2026-10-08T07:14:33.556Z"
     }
   ]
 }

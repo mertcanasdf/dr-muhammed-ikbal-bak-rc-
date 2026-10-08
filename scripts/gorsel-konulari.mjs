@@ -93,6 +93,7 @@ const ARTICLES = {
   'saglik-arastirmalari-nasil-okunur': 'A fictional adult at a desk reading a printed scientific journal article with a highlighter in hand and reading glasses on, a laptop and a cup of tea nearby; the page shows only blurred text blocks and an abstract chart with no readable words or numbers; focused, calm study mood.',
   'saglikli-yasam-suresi-healthspan-nedir': 'A fictional active couple in their 70s hiking together on a sunny coastal trail, smiling and walking with light backpacks; golden morning light, vital and hopeful.',
   'nemlendirici-icerikleri-seramid-humektan': 'Close-up of a fictional woman\'s hands applying a dollop of rich white moisturizer from an unlabeled jar to the back of her hand, with an unlabeled serum dropper bottle beside it on a stone bathroom shelf; soft daylight, natural skin texture.',
+  'kozmetik-etiketi-inci-nasil-okunur': "A fictional adult's hands inspecting the blank back label of an unbranded white cosmetic tube with a magnifying glass, an unlabeled amber skincare bottle on a pale stone bathroom shelf, soft natural daylight, warm neutral editorial health photography, no visible face, no writing or numbers.",
 };
 
 // Sayfalarda doğrudan kullanılan ve Codex ile üretilen görseller (aynı dosya adıyla yerinde yenilenir).

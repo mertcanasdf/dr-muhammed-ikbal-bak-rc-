@@ -179,7 +179,7 @@ check('ana menü sırası', () => {
 });
 
 check('logo unvanı', () =>
-  read('index.html').includes('Hekim · Sağlık Yöneticisi · Akademisyen') ? [] : ['index.html']);
+  read('index.html').includes('Akademisyen · Sağlık Yöneticisi · Medikal Estetik Hekimi') ? [] : ['index.html']);
 
 check('footer bilgilendirme metni', () =>
   htmlFiles.filter((f) => !read(f).includes(DISCLAIMER)));

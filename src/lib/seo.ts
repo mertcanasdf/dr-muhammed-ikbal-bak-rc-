@@ -130,7 +130,7 @@ export function buildSiteStructuredData({
         image: PERSON_IMAGE,
         jobTitle: 'Başhekim',
         description:
-          "Hekim; 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi. Longevity, sağlıklı yaşlanma ve medikal estetik üzerine kanıta dayalı içerikler üretiyor.",
+          "Akademisyen, sağlık yöneticisi ve medikal estetik hekimi; 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi. Longevity, sağlıklı yaşlanma ve medikal estetik üzerine kanıta dayalı içerikler üretiyor.",
         worksFor: {
           '@type': 'Hospital',
           name: WORKPLACE.name,
@@ -145,7 +145,7 @@ export function buildSiteStructuredData({
           },
         },
         alumniOf: { '@type': 'CollegeOrUniversity', name: 'Atatürk Üniversitesi Tıp Fakültesi' },
-        hasOccupation: { '@type': 'Occupation', name: 'Hekim' },
+        hasOccupation: { '@type': 'Occupation', name: 'Medikal Estetik Hekimi' },
         knowsAbout: ['Longevity', 'Sağlıklı yaşlanma', 'Medikal estetik', 'Acil tıp', 'Sağlık yönetimi'],
         ...(EMAIL ? { email: EMAIL } : {}),
         ...(PHONE_TEL ? { telephone: PHONE_TEL } : {}),

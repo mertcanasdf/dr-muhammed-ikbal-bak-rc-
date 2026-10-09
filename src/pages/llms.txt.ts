@@ -23,7 +23,7 @@ export async function GET() {
   const lines = [
     '# Dr. Muhammed İkbal Bakırcı',
     '',
-    "> Hekim; 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi. Bu sitede longevity (sağlıklı yaşlanma), beslenme, hareket, uyku, zihin sağlığı ve medikal estetik üzerine Türkçe, kaynaklı ve bilgilendirici içerikler yer alır. İçerikler genel bilgilendirme amaçlıdır; tanı ve tedavi yerine geçmez.",
+    "> Akademisyen, sağlık yöneticisi ve medikal estetik hekimi; 2022'den bu yana VM Medical Park Bursa Hastanesi Başhekimi. Bu sitede longevity (sağlıklı yaşlanma), beslenme, hareket, uyku, zihin sağlığı ve medikal estetik üzerine Türkçe, kaynaklı ve bilgilendirici içerikler yer alır. İçerikler genel bilgilendirme amaçlıdır; tanı ve tedavi yerine geçmez.",
     '',
     'Her makalenin sonunda "Kaynaklar" bölümü bulunur (PubMed, Cochrane, FDA, AAD, CDC, NIH gibi birincil kaynaklar).',
     '',

@@ -596,7 +596,7 @@
       "publishedSlug": "kozmetik-etiketi-inci-nasil-okunur",
       "commit": "2d3f50d2266b4622b571c1c0b4968da1116e7f1e",
       "publicationDay": "2026-10-08",
-      "publicationStatus": "pushed_waiting_manual_pull",
+      "publicationStatus": "live_verified",
       "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-08\\research.json",
       "completionNote": "Kendi kapağı, üç ilgili yazı ve konu merkezi bağlantılarıyla 42 yayın/SEO kontrolü geçti; normal GitHub main push tamamlandı."
     },
@@ -938,6 +938,27 @@
       "researchStatus": "candidate_validate_on_run",
       "decision": "Güncel arama niyeti ve içerik çakışması üretim gününde doğrulanır. Gerekirse mevcut yazı geliştirilir; bu kayıt hazır makale değildir.",
       "plannedDate": "2026-11-06"
+    },
+    {
+      "id": "automation-2026-10-09-kitap-okuma-ve-beyin",
+      "slug": "kitap-okuma-ve-beyin",
+      "keyword": "kitap okumak beyni nasıl etkiler",
+      "title": "Kitap Okumak Beyni ve Bilişsel Yaşlanmayı Nasıl Etkiler?",
+      "category": "Zihin & Sosyal Yaşam",
+      "hub": "/longevity/zihin",
+      "action": "improve",
+      "taskType": "yazi-genisletme",
+      "plannedDate": "2026-10-09",
+      "status": "completed",
+      "commit": "3487dc5984a0e955d9c10713823b909012b9bb3f",
+      "publicationDay": "2026-10-09",
+      "publicationStatus": "pushed_waiting_manual_pull",
+      "publishedSlug": "kitap-okuma-ve-beyin",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-09\\research.json",
+      "decision": "Günlük görev seçicinin seçtiği mevcut makale 271→988 kelimeye genişletildi; yeni yazı plan adayı işlenmedi.",
+      "researchStatus": "researched_article_expanded",
+      "searchVolume": null,
+      "difficulty": null
     }
   ],
   "refreshedAt": "2026-10-07T07:04:50.795547+00:00",

@@ -658,8 +658,34 @@
       "commit": "2d3f50d2266b4622b571c1c0b4968da1116e7f1e",
       "parent": "fa27c6d68e1132d3e4ca7d2420bfbee41763e3e2",
       "preparedAt": "2026-10-08T07:14:30.875Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-08T07:14:33.556Z",
+      "liveVerifiedAt": "2026-10-09T06:55:49.016Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-09",
+      "slug": "kitap-okuma-ve-beyin",
+      "sourceArticleSha256": "a73cdbf324703516e855f31c7df4a9cce904b45b6cd945cf3d5ac97dd9a7f441",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kitap-okuma-ve-beyin",
+        "headline": "Kitap Okumak Beyni ve Bilişsel Yaşlanmayı Nasıl Etkiler?",
+        "datePublished": "2026-06-21",
+        "dateModified": "2026-10-09",
+        "wordCount": 988,
+        "bodyTextSha256": "64ca809a27110041dccd0f7611621a34a65c174d294c5fdb2ffc66ef8aa29c2d",
+        "htmlSha256": "83d849c4136b0ff5b5834120ee4eef73119b970101c07df3d1a3ebdf95e082f8"
+      },
+      "commit": "3487dc5984a0e955d9c10713823b909012b9bb3f",
+      "parent": "00bb89b35237ddf9e223e62a59798d115d1d25ae",
+      "preparedAt": "2026-10-09T07:02:03.834Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-10-08T07:14:33.556Z"
+      "pushedAt": "2026-10-09T07:02:06.228Z"
     }
   ]
 }

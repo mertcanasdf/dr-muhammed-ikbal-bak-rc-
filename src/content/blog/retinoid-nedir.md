@@ -66,6 +66,10 @@ Retinoid kullanırken gündüz geniş spektrumlu güneş koruyucu kullanmak öne
 
 ## Uygulama ve okuma notları
 
+Cilt bakımından ayrı olarak yeni veya değişen benlerde nelere dikkat edileceğini [ben takibinde ABCDE rehberinde](/blog/ben-takibi-abcde-nedir) okuyabilirsiniz.
+
+
+
 Bakım ürünlerinin arka yüzündeki adları ve parfüm ifadelerini yorumlamak için [kozmetik etiketi ve INCI okuma rehberine](/blog/kozmetik-etiketi-inci-nasil-okunur) bakabilirsiniz.
 
 

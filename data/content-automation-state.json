@@ -684,8 +684,34 @@
       "commit": "3487dc5984a0e955d9c10713823b909012b9bb3f",
       "parent": "00bb89b35237ddf9e223e62a59798d115d1d25ae",
       "preparedAt": "2026-10-09T07:02:03.834Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-09T07:02:06.228Z",
+      "liveVerifiedAt": "2026-10-10T07:03:29.561Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-10",
+      "slug": "ben-takibi-abcde-nedir",
+      "sourceArticleSha256": "f98f9451e78654bea8f210cf3839aab712c986ac8fe1009a29b828cc71dffcf6",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ben-takibi-abcde-nedir",
+        "headline": "Ben Takibinde ABCDE Nedir? Değişiklikleri Fark Etme Rehberi",
+        "datePublished": "2026-10-10",
+        "dateModified": "2026-10-10",
+        "wordCount": 838,
+        "bodyTextSha256": "5e7872586d3ee26fded814bf6068ac2cc958c83038c6055841267c1372cf600b",
+        "htmlSha256": "c84968c0560322f2e0058167c2de1ceadde53027e49d5e32233ec906f2636e67"
+      },
+      "commit": "4457f8ceecc72142f8fc173c2f24806148d3a582",
+      "parent": "a7614ac57bbbc8aab88df88ba46c465826a814bf",
+      "preparedAt": "2026-10-10T07:12:01.101Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-10-09T07:02:06.228Z"
+      "pushedAt": "2026-10-10T07:12:03.706Z"
     }
   ]
 }

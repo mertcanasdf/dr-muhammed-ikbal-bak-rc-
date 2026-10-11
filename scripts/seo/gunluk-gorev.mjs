@@ -88,6 +88,12 @@ if (realCritical.length) {
 }
 
 if (task.slug && !task.page) task.page = `https://www.muhammedikbalbakirci.com/blog/${task.slug}`;
+// Fırsat sayfası kısa yazıysa tek paragraf eklemek yetmez: sorguyu yanıtlarken yazıyı da tam genişlet.
+const thinPage = ['sorgu-optimizasyonu', 'ctr-iyilestirme'].includes(task.type) && opp.thin.find((t) => t.slug === task.slug);
+if (thinPage) {
+  task.reason += ` — sayfa kısa (${thinPage.words} kelime, ${thinPage.sources} kaynak)`;
+  task.alsoExpand = true;
+}
 const result = { day: today, weekday, ...task, cannibal: opp.cannibal.slice(0, 3), gsc: opp.gscWindow };
 if (!dry) {
   writeJson(TODAY_FILE, result);
@@ -110,5 +116,6 @@ function print(t, repeated) {
   console.log(`Neden : ${t.reason}`);
   if (t.details?.length) console.log('Ayrıntı:\n' + t.details.map((d) => '  - ' + (typeof d === 'string' ? d : JSON.stringify(d))).join('\n'));
   console.log(`Yapılacak: ${steps[t.type]}`);
+  if (t.alsoExpand) console.log(`Ayrıca : Sayfa kısa; ${steps['yazi-genisletme']} Sorgu bu yazının ana konusuysa genişletme sorguya göre kurgulanır.`);
   console.log('Kurallar ve kapılar: docs/seo-otomasyon.md');
 }

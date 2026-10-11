@@ -29,7 +29,7 @@ async function gscToken() {
     exp: now + 3600,
   })}`;
   const sig = crypto.createSign('RSA-SHA256').update(unsigned).sign(key.private_key).toString('base64url');
-  const res = await fetch('https://oauth2.googleapis.com/token', {
+  const res = await fetchRetry('https://oauth2.googleapis.com/token', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({ grant_type: 'urn:ietf:params:oauth:grant-type:jwt-bearer', assertion: `${unsigned}.${sig}` }),
@@ -39,8 +39,22 @@ async function gscToken() {
   return json.access_token;
 }
 
+// Geçici ağ hatası ya da 429/5xx yanıtında 3 kez, artan beklemeyle yeniden dener.
+async function fetchRetry(url, init) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const res = await fetch(url, { ...init, signal: AbortSignal.timeout(60000) });
+      if ((res.status === 429 || res.status >= 500) && attempt < 3) throw new Error(`HTTP ${res.status}`);
+      return res;
+    } catch (e) {
+      if (attempt >= 3) throw e;
+      await new Promise((r) => setTimeout(r, attempt * 5000));
+    }
+  }
+}
+
 const api = async (token, url, body) => {
-  const res = await fetch(url, {
+  const res = await fetchRetry(url, {
     method: 'POST',
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
     body: JSON.stringify(body),

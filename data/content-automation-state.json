@@ -710,8 +710,34 @@
       "commit": "4457f8ceecc72142f8fc173c2f24806148d3a582",
       "parent": "a7614ac57bbbc8aab88df88ba46c465826a814bf",
       "preparedAt": "2026-10-10T07:12:01.101Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-10T07:12:03.706Z",
+      "liveVerifiedAt": "2026-10-11T06:58:17.220Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-11",
+      "slug": "dermal-dolgu-guvenligi",
+      "sourceArticleSha256": "df35d5fc06945939b89c32699a359ceb9ca78cafc6232cc74763adc54f43991f",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/dermal-dolgu-guvenligi",
+        "headline": "Dermal Dolgu Güvenliği: İşlem Öncesi Kontrol Listesi",
+        "datePublished": "2026-09-15",
+        "dateModified": "2026-10-11",
+        "wordCount": 949,
+        "bodyTextSha256": "3e3178f46fdc39e84fbf40d4960aef1785bbd1252fa8007624bf0dadd2d23c96",
+        "htmlSha256": "3d7dc1f8ca86ef04059cc9975f7ea714583d713099674cf9706eb7db9080107e"
+      },
+      "commit": "b460d759633c3d039939d5d498e9e714e9939683",
+      "parent": "4457f8ceecc72142f8fc173c2f24806148d3a582",
+      "preparedAt": "2026-10-11T07:04:33.023Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-10-10T07:12:03.706Z"
+      "pushedAt": "2026-10-11T07:04:35.549Z"
     }
   ]
 }

@@ -17,9 +17,21 @@
     "slug": "ben-takibi-abcde-nedir",
     "status": "completed",
     "commit": "4457f8ceecc72142f8fc173c2f24806148d3a582",
-    "publicationStatus": "pushed_waiting_manual_pull",
+    "publicationStatus": "live_verified",
     "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-10\\research.json",
     "wordCount": 838,
     "completedAt": "2026-10-10T07:12:29.999Z"
+  },
+  {
+    "day": "2026-10-11",
+    "type": "yazi-genisletme",
+    "slug": "dermal-dolgu-guvenligi",
+    "status": "completed",
+    "commit": "b460d759633c3d039939d5d498e9e714e9939683",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-11\\research.json",
+    "beforeWords": 206,
+    "afterWords": 949,
+    "completedAt": "2026-10-11T07:05:50.736Z"
   }
 ]

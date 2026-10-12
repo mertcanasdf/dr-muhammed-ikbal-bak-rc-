@@ -987,6 +987,28 @@
       "researchStatus": "researched_article_expanded",
       "searchVolume": null,
       "difficulty": null
+    },
+    {
+      "id": "automation-2026-10-12-omega-3-ne-ise-yarar",
+      "slug": "omega-3-ne-ise-yarar",
+      "keyword": "omega 3",
+      "title": "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik",
+      "category": "Beslenme",
+      "hub": "/longevity/beslenme",
+      "action": "improve",
+      "taskType": "ctr-iyilestirme",
+      "alsoExpand": true,
+      "plannedDate": "2026-10-12",
+      "status": "completed",
+      "commit": "8fcb4b05439869106a25ad36c9926eefc3fba81f",
+      "publicationDay": "2026-10-12",
+      "publicationStatus": "pushed_waiting_manual_pull",
+      "publishedSlug": "omega-3-ne-ise-yarar",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-12\\research.json",
+      "decision": "Mevcut omega-3 URLsi geliştirildi. Diğer D3, polifenol, Mavi Bölge, telomer ve risk yazıları ayrı niyetleri karşılıyor; omega-3 atıfları yeni kopya URL gerektirmiyor. Yeni plan adayı işlenmedi.",
+      "researchStatus": "researched_metadata_and_article_improved",
+      "searchVolume": null,
+      "difficulty": null
     }
   ],
   "refreshedAt": "2026-10-07T07:04:50.795547+00:00",

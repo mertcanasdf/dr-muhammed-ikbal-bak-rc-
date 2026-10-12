@@ -738,6 +738,44 @@
       "preparedAt": "2026-10-11T07:04:33.023Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-11T07:04:35.549Z"
+    },
+    {
+      "day": "2026-10-12",
+      "slug": "omega-3-ne-ise-yarar",
+      "sourceArticleSha256": "9822c08eaf2a46a1b5c6d9a8795924d3c10f6c6e8086604d9823cc14db27650a",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/omega-3-ne-ise-yarar",
+        "headline": "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik",
+        "datePublished": "2026-09-15",
+        "dateModified": "2026-10-12",
+        "wordCount": 961,
+        "bodyTextSha256": "6dfa51c5f00c3a1c6a695110d5e57f7e1fa45a4d23a702861f8a645bcaedd05e",
+        "htmlSha256": "e29f70c016c9b0ef8ea0cc823c069a754b463fcb05db045823f23dadabed5c9b"
+      },
+      "commit": "8fcb4b05439869106a25ad36c9926eefc3fba81f",
+      "parent": "b460d759633c3d039939d5d498e9e714e9939683",
+      "preparedAt": "2026-10-12T07:17:24.095Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-12T07:17:26.803Z",
+      "taskType": "ctr-iyilestirme",
+      "alsoExpand": true,
+      "seoChange": {
+        "before": {
+          "title": "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik",
+          "seoTitle": null,
+          "description": "ALA, EPA ve DHA arasındaki farklar, omega-3 kaynakları, takviye seçerken dikkat edilecekler ve kan sulandırıcı kullananlar için uyarılar.",
+          "wordCount": 309,
+          "readTime": "2 dk"
+        },
+        "after": {
+          "title": "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik",
+          "seoTitle": "Omega-3 Ne İşe Yarar? Faydaları, Besinler ve Etiket Okuma",
+          "description": "Omega-3 ne işe yarar? ALA, EPA ve DHA farkını, besin kaynaklarını, balık yağı etiketindeki miktarları ve takviye güvenliğini örneklerle öğrenin.",
+          "wordCount": 961,
+          "readTime": "5 dk"
+        }
+      },
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-12\\research.json"
     }
   ]
 }

@@ -33,5 +33,34 @@
     "beforeWords": 206,
     "afterWords": 949,
     "completedAt": "2026-10-11T07:05:50.736Z"
+  },
+  {
+    "day": "2026-10-12",
+    "type": "ctr-iyilestirme",
+    "slug": "omega-3-ne-ise-yarar",
+    "status": "completed",
+    "alsoExpand": true,
+    "commit": "8fcb4b05439869106a25ad36c9926eefc3fba81f",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-12\\research.json",
+    "beforeWords": 309,
+    "afterWords": 961,
+    "seoChange": {
+      "before": {
+        "title": "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik",
+        "seoTitle": null,
+        "description": "ALA, EPA ve DHA arasındaki farklar, omega-3 kaynakları, takviye seçerken dikkat edilecekler ve kan sulandırıcı kullananlar için uyarılar.",
+        "wordCount": 309,
+        "readTime": "2 dk"
+      },
+      "after": {
+        "title": "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik",
+        "seoTitle": "Omega-3 Ne İşe Yarar? Faydaları, Besinler ve Etiket Okuma",
+        "description": "Omega-3 ne işe yarar? ALA, EPA ve DHA farkını, besin kaynaklarını, balık yağı etiketindeki miktarları ve takviye güvenliğini örneklerle öğrenin.",
+        "wordCount": 961,
+        "readTime": "5 dk"
+      }
+    },
+    "completedAt": "2026-10-12T07:18:11.323Z"
   }
 ]

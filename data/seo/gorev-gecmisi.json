@@ -62,5 +62,46 @@
       }
     },
     "completedAt": "2026-10-12T07:18:11.323Z"
+  },
+  {
+    "day": "2026-10-13",
+    "type": "yeni-yazi",
+    "slug": "kas-kutlesi-ve-yaslanma",
+    "status": "completed",
+    "action": "improve",
+    "planEntryId": "day-03",
+    "commit": "6043e52455e382ddf0004e2d4bbcc61374c22969",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-13\\research.json",
+    "beforeWords": 285,
+    "afterWords": 987,
+    "completedAt": "2026-10-13T07:16:26.351Z"
+  },
+  {
+    "day": "2026-10-14",
+    "type": "yazi-genisletme",
+    "slug": "muzik-ve-stres-kortizol",
+    "status": "completed",
+    "action": "improve",
+    "commit": "e107cd896c21215f88bdbc60d62ba4e13bc4aa61",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-14\\research.json",
+    "beforeWords": 218,
+    "afterWords": 928,
+    "completedAt": "2026-10-14T16:41:08.664Z"
+  },
+  {
+    "day": "2026-10-15",
+    "type": "yeni-yazi",
+    "slug": "sirkadiyen-ritim-ve-uyku",
+    "status": "completed",
+    "action": "improve",
+    "planEntryId": "day-05",
+    "commit": "eb7ea02e94a7872985b1e4fc4c061eff8ca03f00",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-15\\research.json",
+    "beforeWords": 279,
+    "afterWords": 1013,
+    "completedAt": "2026-10-15T07:08:53.181Z"
   }
 ]

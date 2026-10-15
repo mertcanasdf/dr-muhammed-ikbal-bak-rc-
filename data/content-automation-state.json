@@ -776,6 +776,74 @@
         }
       },
       "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-12\\research.json"
+    },
+    {
+      "day": "2026-10-13",
+      "slug": "kas-kutlesi-ve-yaslanma",
+      "sourceArticleSha256": "97a2ce8f04ceea52e94f9721ed167ea09f2481081d328ca5d8e88c0946e0cd34",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kas-kutlesi-ve-yaslanma",
+        "headline": "Kas Kütlesi ve Yaşlanma: Gücü Korumak İçin Kanıta Dayalı Yaklaşım",
+        "datePublished": "2026-09-15",
+        "dateModified": "2026-10-13",
+        "wordCount": 987,
+        "bodyTextSha256": "75943d8528aae92c399b88059b918710e434a47fd3412cb2da70a53a34694c57",
+        "htmlSha256": "0b5bb759cab05e52b7652593fcdd66b50e06b5099ef0578546fcb41320193313"
+      },
+      "commit": "6043e52455e382ddf0004e2d4bbcc61374c22969",
+      "parent": "8fcb4b05439869106a25ad36c9926eefc3fba81f",
+      "preparedAt": "2026-10-13T07:15:50.128Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-13T07:15:52.789Z",
+      "taskType": "yeni-yazi",
+      "action": "improve",
+      "planEntryId": "day-03",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-13\\research.json"
+    },
+    {
+      "day": "2026-10-14",
+      "slug": "muzik-ve-stres-kortizol",
+      "sourceArticleSha256": "5f3c044234cc5aaa21889cd9e29ee345ef3e66c8dfb8cc97facb55270d9a788b",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/muzik-ve-stres-kortizol",
+        "headline": "Müzik Dinlemek Stresi Nasıl Etkiler? Kortizol ve Kanıtlar",
+        "datePublished": "2026-06-21",
+        "dateModified": "2026-10-14",
+        "wordCount": 928,
+        "bodyTextSha256": "04848f9f40c30c9ccfb6da1b5086be1d1e43fd74acacdfabee936b2b878f28c5",
+        "htmlSha256": "ffb9bc2f74a359219b97caebdbb36daa71f44e934b9f3ebeeab68390c9534ffe"
+      },
+      "commit": "e107cd896c21215f88bdbc60d62ba4e13bc4aa61",
+      "parent": "6043e52455e382ddf0004e2d4bbcc61374c22969",
+      "preparedAt": "2026-10-14T16:40:37.494Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-14T16:40:40.479Z",
+      "taskType": "yazi-genisletme",
+      "action": "improve",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-14\\research.json"
+    },
+    {
+      "day": "2026-10-15",
+      "slug": "sirkadiyen-ritim-ve-uyku",
+      "sourceArticleSha256": "eaf2fa0913e3c5992a413ee11ee733785e352d197599131920538062cb8b5ccd",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/sirkadiyen-ritim-ve-uyku",
+        "headline": "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?",
+        "datePublished": "2026-09-15",
+        "dateModified": "2026-10-15",
+        "wordCount": 1013,
+        "bodyTextSha256": "023c9bc5aa9f8f277cb62a4bd7afdab70c16ad3128e64cd32e74f4b86c13eeea",
+        "htmlSha256": "860450c4d2890c3086f4a1d8b51392eb53b90ad348680023fd5602fa7dce0703"
+      },
+      "commit": "eb7ea02e94a7872985b1e4fc4c061eff8ca03f00",
+      "parent": "e107cd896c21215f88bdbc60d62ba4e13bc4aa61",
+      "preparedAt": "2026-10-15T07:08:28.710Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-15T07:08:31.354Z",
+      "taskType": "yeni-yazi",
+      "action": "improve",
+      "planEntryId": "day-05",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-15\\research.json"
     }
   ]
 }

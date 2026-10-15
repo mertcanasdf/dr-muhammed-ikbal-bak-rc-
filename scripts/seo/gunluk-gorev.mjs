@@ -3,6 +3,7 @@
 //   node scripts/seo/gunluk-gorev.mjs --kuru   ağ denetimlerini atlar (yalnız seçimi gösterir)
 //
 // Öncelik sırası:
+// Search Console verisi her gün yenilenir (anahtar varsa); URL Denetleme günde 25 adres.
 //   1. Canlı sitede kritik teknik sorun      -> teknik-duzeltme
 //   2. Kırık kaynak bağlantısı (Pazar)        -> kaynak-onarim
 //   3. Haftalık takvim:
@@ -47,7 +48,7 @@ const ageDays = (file, key) => {
 if (!dry) {
   run('canli-denetim.mjs');
   const gscKey = process.env.GSC_KEY_FILE || path.join(os.homedir(), '.secrets', 'gsc-muhammedikbalbakirci.json');
-  if (fs.existsSync(gscKey) && (ageDays('gsc-son.json', 'fetchedAt') >= 6 || weekday === 1)) run('gsc.mjs', '--denetle', '25');
+  if (fs.existsSync(gscKey) && ageDays('gsc-son.json', 'fetchedAt') >= 1) run('gsc.mjs', '--denetle', '25');
   if (weekday === 7 || ageDays('kaynak-durumu.json', 'updatedAt') >= 7) run('kaynak-kontrol.mjs', '--adet', '120');
 }
 
@@ -58,7 +59,7 @@ const broken = readJson(path.join(DATA, 'kirik-kaynaklar.json'), []);
 const recentlyTouched = new Set(history.filter((h) => h.slug && daysBetween(h.day, today) < 30).map((h) => h.slug));
 const fresh = (slug) => slug && !recentlyTouched.has(slug);
 
-// Plesk çekmesi beklenirken canlı/yerel fark doğal olabilir; yalnız yerelde de var olan sorun kritik görevdir.
+// Sunucunun yayını çekmesi beklenirken (en geç 15 dk) canlı/yerel fark doğal olabilir; yalnız yerelde de var olan sorun kritik görevdir.
 const realCritical = audit.critical.filter((c) => {
   const m = c.match(/^https:\/\/www\.muhammedikbalbakirci\.com(\/[^:\s]*)/);
   if (!m) return true;

@@ -6,13 +6,13 @@ Codex günlük otomasyonu ("Günlük SEO makalesi ve analiz", her gün 10.00) bu
 
 1. `node scripts/seo/gunluk-gorev.mjs` çalıştırılır. Sırasıyla şunları yapar:
    - canlı siteyi denetler;
-   - Search Console verisini çeker (anahtar varsa, haftada bir);
+   - Search Console verisini çeker (anahtar varsa, her gün);
    - kaynak bağlantılarını kontrol eder (Pazar ya da 7 günde bir);
    - günün görevini `data/seo/bugun.json` dosyasına yazar.
 2. Çıktıdaki görev bu belgedeki ilgili bölüme göre yapılır.
 3. Kapılardan geçilir. `node scripts/sync-related.mjs` çalıştırılır, ardından `scripts/publish-content.mjs --article <slug> … --dry-run` ve `npm test`. Kapılar geçerse aynı komut `--publish` ile çalıştırılır.
 4. Önceki yayınların canlı durumu `--retry-live` ile kontrol edilir. Canlı doğrulanan adresler IndexNow'a bildirilir.
-5. Kullanıcıya kısa bir sonuç verilir: görev, neden seçildiği, ne değişti, kontroller, GitHub commit'i ve Plesk durumu.
+5. Kullanıcıya kısa bir sonuç verilir: görev, neden seçildiği, ne değişti, kontroller, GitHub commit'i ve canlı durum.
 
 Aynı gün betik tekrar çalışırsa aynı görevi döndürür. Gün içinde ikinci bir içerik yayını yapılmaz; yayın betiği bunu ayrıca engeller.
 
@@ -66,7 +66,7 @@ Sayfa ilk 10'da ama tıklanma oranı beklenenin yarısından az. **Yalnızca ba�
 - O da yoksa ilgili cümle kaynaklı biçimde yeniden yazılır ya da çıkarılır.
 
 ### teknik-duzeltme
-`data/seo/canli-denetim.json` dosyasındaki kritik sorun **yerel build'de de** varsa kaynakta düzeltilir. Yalnızca canlıda varsa (Plesk çekmesi bekleniyorsa) görev oluşmaz.
+`data/seo/canli-denetim.json` dosyasındaki kritik sorun **yerel build'de de** varsa kaynakta düzeltilir. Yalnızca canlıda varsa (sunucunun yayını çekmesi bekleniyorsa) görev oluşmaz.
 
 ## Değişmez kurallar
 

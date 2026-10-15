@@ -1,6 +1,6 @@
 # Günlük makale ve analiz akışı
 
-**Saat:** Her gün 10.00, Türkiye saati. **Hedef:** `mertcanasdf/mib-site` reposunun `main` dalı. **Canlıya alma:** Kullanıcı her gün Plesk'ten çeker.
+**Saat:** Her gün 10.00, Türkiye saati. **Hedef:** `mertcanasdf/mib-site` reposunun `main` dalı. **Canlıya alma:** Veridyen sunucusu `mib-site` main dalını 15 dakikada bir çeker (cron); elle işlem gerekmez.
 
 ## Günlük iş
 
@@ -13,12 +13,12 @@
 6. Bir konu rehberi ve en az iki ilgili yazı bağlanır. Yeni sosyal ilişki yazısının doğru merkezde listelenmesi için alan eşlemesi güncellenir. Her yeni yazının **kendi kapağı** üretilir; başka yazının görseli kullanılmaz (`verify-dist` "her yazı kendi kapağını kullanıyor" kontrolü bunu engeller). Adımlar: `scripts/gorsel-konulari.mjs` içindeki `ARTICLES` nesnesine konuyu ilk bakışta anlatan bir istem eklenir (sanat yönü: `docs/gorsel-sanat-yonu.md`), ardından `node scripts/gorsel-konulari.mjs`, `node scripts/gorsel-uret.mjs --ids <slug>`, taslak gözle kontrol edilir, `node scripts/gorsel-uret.mjs --uygula <slug>` ve `node scripts/kucuk-gorseller.mjs` çalıştırılır; yazının `image` alanı `/assets/images/generated/articles/<slug>.webp` olur.
 7. `sync-related`, bağlantı kontrolü, Astro build ve kalıcı SEO kontrolleri geçer. Hata varsa GitHub'a gönderilmez.
 8. Yayın scripti yalnız build çıktısını yayın reposuna yeni normal commit olarak gönderir. Kaynak projedeki diğer değişiklikler sıfırlanmaz. Uzak main değişmişse üzerine yazılmaz.
-9. Kullanıcı Plesk'ten çeker. Canlı yeni içerik görünene kadar durum **GitHub hazır / Plesk çekme bekliyor** olarak kalır. Bu bekleme kullanıcı tarafından kabul edilen normal akıştır.
+9. Veridyen sunucusu `mib-site` main dalını 15 dakikada bir çeker (cron). Canlı yeni içerik görünene kadar (en geç ~15 dk) durum **GitHub hazır / sunucu çekmesi bekliyor** olarak kalır.
 10. Sonraki çalışmada önceki içeriğin canlı durumu okunur. Canlı olduğu doğrulanan adresler IndexNow'a bildirilebilir. Search Console işlemlerinin yerini tutmaz.
 
 ## Kullanıcıya sonuç
 
-Her anlamlı tamamlanmada konu, hedef sorgu, yeni/güncelleme kararı, kaynaklar, kontrol sonucu, GitHub commit ve canlı durum kısaca bildirilir. Plesk bekleme durumu değişmedikçe tekrarlayan uyarı verilmez. Kaynak veya doğrulama hatası yayınlamayı engellerse neden açıkça bildirilir.
+Her anlamlı tamamlanmada konu, hedef sorgu, yeni/güncelleme kararı, kaynaklar, kontrol sonucu, GitHub commit ve canlı durum kısaca bildirilir. Sunucu çekme bekleme durumu değişmedikçe tekrarlayan uyarı verilmez. Kaynak veya doğrulama hatası yayınlamayı engellerse neden açıkça bildirilir.
 
 Her yedinci içerikte son yayınların özeti ve sorgu/sayfa planı değerlendirilir. Search Console erişimi yoksa gösterim, tıklama ve gerçek sıra artışı uydurulmaz. Veri geldiğinde sorgu→sayfa, gösterim, tıklama ve CTR karşılaştırması kullanılır.
 

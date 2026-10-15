@@ -219,7 +219,7 @@ async function finishLive(publication) {
   if (!report.live.verified) {
     publication.status = 'pushed_waiting_manual_pull';
     report.status = 'pushed_waiting_manual_pull';
-    report.action = 'Plesk Şimdi çek / Şimdi dağıt sonrası aynı slug ile --retry-live çalıştırın. Yeni makale push edilmez.';
+    report.action = 'Sunucunun yayını çekmesi bekleniyor (Veridyen cron, 15 dk); sonra aynı slug ile --retry-live çalıştırın. Yeni makale push edilmez.';
     report.indexNow = { status: 'not_submitted_article_not_live' };
   } else {
     publication.status = 'live_verified'; publication.liveVerifiedAt = now();

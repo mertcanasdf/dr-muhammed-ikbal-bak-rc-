@@ -283,7 +283,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
   <section class="pg-hero">
     <div class="container">
       <h1 class="pg-hero__title">Skin Longevity &amp; Medikal Estetik</h1>
-      <p class="pg-hero__sub">Cilt sağlığı, yaşlanma biyolojisi ve doğal görünümlü estetik uygulamalar.</p>
+      <p class="pg-hero__sub">Cilt sağlığı, yaşlanma biyolojisi ve medikal estetik uygulamalar hakkında kaynaklı bilgiler.</p>
     </div>
   </section>
 
@@ -295,14 +295,14 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
         <button class="me-tab is-active" role="tab" aria-selected="true" onclick="filterCategory(this, 'all')">Tüm İçerikler</button>
         <button class="me-tab" role="tab" aria-selected="false" onclick="filterCategory(this, 'cilt-sagligi')">Cilt Sağlığı</button>
         <button class="me-tab" role="tab" aria-selected="false" onclick="filterCategory(this, 'genclesme')">Hücresel Gençleşme</button>
-        <button class="me-tab" role="tab" aria-selected="false" onclick="filterCategory(this, 'uygulamalar')">Klinik Uygulamalar</button>
+        <button class="me-tab" role="tab" aria-selected="false" onclick="filterCategory(this, 'uygulamalar')">Uygulamalar Hakkında</button>
         <button class="me-tab" role="tab" aria-selected="false" onclick="filterCategory(this, 'guzellik')">Güzellik &amp; Yaşam</button>
       </div>
 
       <!-- SUB-TABS NAV (Only visible when 'uygulamalar' category is active) -->
       <div class="me-sub-tabs-container" id="sub-tabs-wrapper" style="display: none;">
         <div class="me-sub-tabs" role="tablist" aria-label="Uygulama alt kategorileri">
-          <button class="me-sub-tab is-active" role="tab" aria-selected="true" onclick="filterSubCategory(this, 'all-apps')">Tüm Uygulamalar</button>
+          <button class="me-sub-tab is-active" role="tab" aria-selected="true" onclick="filterSubCategory(this, 'all-apps')">Uygulamalar Hakkında Bilgiler</button>
           <button class="me-sub-tab" role="tab" aria-selected="false" onclick="filterSubCategory(this, 'dolgu')">Dermal Dolgu</button>
           <button class="me-sub-tab" role="tab" aria-selected="false" onclick="filterSubCategory(this, 'altin-igne')">Altın İğne (RF)</button>
           <button class="me-sub-tab" role="tab" aria-selected="false" onclick="filterSubCategory(this, 'botoks')">Botoks</button>
@@ -431,10 +431,10 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
           </div>
         </section>
 
-        <!-- SECTION 3: Klinik Uygulamalar -->
+        <!-- SECTION 3: Uygulamalar hakkında bilgiler -->
         <section class="estetik-section" id="me-uygulamalar" data-section="uygulamalar">
           <div class="estetik-section__header">
-            <h2 class="estetik-section__title">Klinik Uygulamalar &amp; Tedaviler</h2>
+            <h2 class="estetik-section__title">Medikal Estetik Uygulamalar Hakkında Bilgiler</h2>
             <p class="estetik-section__desc">Medikal estetik uygulamalar nasıl çalışır, kanıtlar ve olası riskler neler? Bilgilendirici yazılar.</p>
           </div>
           <div class="estetik-grid">
@@ -443,8 +443,8 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
               <CardImage src="/assets/images/generated/articles/dermal-dolgu.webp" alt="Dermal dolgu ve yüz kontür analizi" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Dermal Dolgu</span>
-                <h3 class="estetik-card__title">Dermal Dolgu &amp; Kontür Analizi</h3>
-                <p class="estetik-card__desc">Yüz kontür analizi eşliğinde kişiselleştirilmiş hyaluronik asit dolgu planlaması. Dudak, çene hattı (jawline) ve hacim kaybı olan bölgelerin uygun hastalarda değerlendirilmesi.</p>
+                <h3 class="estetik-card__title">Dermal Dolgu Nedir?</h3>
+                <p class="estetik-card__desc">Hyaluronik asit dolgu nedir, nasıl uygulanır, hangi bölgelerde kullanılır ve riskleri nelerdir?</p>
                 <a href="/blog/dermal-dolgu" class="estetik-card__cta">Makaleyi Oku &rarr;</a>
               </div>
             </div>
@@ -455,7 +455,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Altın İğne (RF)</span>
                 <h3 class="estetik-card__title">Altın İğne (Fraksiyonel Radyofrekans)</h3>
-                <p class="estetik-card__desc">Mikro iğnelerle cildin alt katmanlarına radyofrekans enerjisi. Kollajen yapımını desteklemeyi; gözenek ve iz görünümünü azaltmaya yardımcı olmayı hedefler.</p>
+                <p class="estetik-card__desc">Fraksiyonel radyofrekans nedir, nasıl uygulanır, kanıtlar ne söylüyor ve riskleri nelerdir?</p>
                 <a href="/blog/altin-igne" class="estetik-card__cta">Makaleyi Oku &rarr;</a>
               </div>
             </div>
@@ -465,8 +465,8 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
               <CardImage src="/assets/images/generated/articles/botoks.webp" alt="Botulinum toksin uygulamaları" class="estetik-card__img" />
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Botoks</span>
-                <h3 class="estetik-card__title">Botulinum Toksin (Kırışıklık &amp; Masseter)</h3>
-                <p class="estetik-card__desc">Mimik kırışıklıklarının görünümünü azaltmaya yönelik uygulamalar. Uygun hastalarda diş sıkmaya bağlı masseter kas aktivitesi ve bölgesel aşırı terleme için de değerlendirilebilir.</p>
+                <h3 class="estetik-card__title">Botulinum Toksin Nedir?</h3>
+                <p class="estetik-card__desc">Botulinum toksin nedir, hangi amaçlarla kullanılır, nasıl uygulanır ve riskleri nelerdir?</p>
                 <a href="/blog/botoks" class="estetik-card__cta">Makaleyi Oku &rarr;</a>
               </div>
             </div>
@@ -477,7 +477,7 @@ const slug = (id: string) => id.replace(/\.mdx?$/, '');
               <div class="estetik-card__body">
                 <span class="estetik-card__tag">Mezoterapi</span>
                 <h3 class="estetik-card__title">Gençlik Aşıları &amp; Cilt Mezoterapisi</h3>
-                <p class="estetik-card__desc">Hiyalüronik asit, amino asit ve vitamin içeren uygulamalarla cildin nem ve canlılığını desteklemeyi hedefleyen mezoterapi seçenekleri.</p>
+                <p class="estetik-card__desc">Cilt mezoterapisi nedir, içeriğinde neler bulunur, kanıtlar ne söylüyor ve riskleri nelerdir?</p>
                 <a href="/blog/mezoterapi" class="estetik-card__cta">Makaleyi Oku &rarr;</a>
               </div>
             </div>

@@ -184,15 +184,15 @@ check('logo unvanı', () =>
 check('footer bilgilendirme metni', () =>
   htmlFiles.filter((f) => !read(f).includes(DISCLAIMER)));
 
-check('iletişim: 4 kanal çapası', () => {
+check('iletişim: 3 kanal çapası (randevu kanalı yok)', () => {
   const html = read(pageFile('iletisim'));
-  return ['randevu', 'is-birligi', 'akademik', 'medya'].filter((id) => !html.includes(`id="${id}"`));
+  return ['is-birligi', 'akademik', 'medya'].filter((id) => !html.includes(`id="${id}"`));
 });
 
 // Form yalnızca iş WhatsApp hattı tanımlıyken yayında; form varsa KVKK onay kutusu da olmalı.
-check('iletişim: form varsa KVKK onay kutusu var', () => {
+check('iletişim: form varsa gizlilik notu ve bağlantısı var', () => {
   const html = read(pageFile('iletisim'));
-  return !html.includes('id="contactForm"') || html.includes('name="consent"') ? [] : [pageFile('iletisim')];
+  return !html.includes('id="contactForm"') || html.includes('href="/gizlilik-politikasi"') ? [] : [pageFile('iletisim')];
 });
 
 let failed = 0;

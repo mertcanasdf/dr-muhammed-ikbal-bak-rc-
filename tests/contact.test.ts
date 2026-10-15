@@ -7,11 +7,10 @@ const valid: ContactInput = {
   email: 'ayse@example.com',
   channel: 'medya',
   message: 'Röportaj talebimiz hakkında bilgi almak istiyoruz.',
-  consent: true,
 };
 
 test('dört kanal tanımlı ve sırası sabit', () => {
-  assert.deepEqual(CONTACT_CHANNELS.map((c) => c.id), ['randevu', 'is-birligi', 'akademik', 'medya']);
+  assert.deepEqual(CONTACT_CHANNELS.map((c) => c.id), ['is-birligi', 'akademik', 'medya']);
 });
 
 test('geçerli girdi hata üretmez', () => {
@@ -19,8 +18,8 @@ test('geçerli girdi hata üretmez', () => {
 });
 
 test('boş form her alan için hata üretir', () => {
-  const errors = validateContact({ name: '', email: '', channel: '', message: '', consent: false });
-  assert.deepEqual(Object.keys(errors).sort(), ['channel', 'consent', 'email', 'message', 'name']);
+  const errors = validateContact({ name: '', email: '', channel: '', message: '' });
+  assert.deepEqual(Object.keys(errors).sort(), ['channel', 'email', 'message', 'name']);
 });
 
 test('yalnızca boşluktan oluşan ad geçersizdir', () => {
@@ -38,10 +37,6 @@ test('tanımsız kanal reddedilir', () => {
 
 test('10 karakterden kısa mesaj reddedilir', () => {
   assert.ok(validateContact({ ...valid, message: 'Merhaba' }).message);
-});
-
-test('onay verilmeden gönderilemez', () => {
-  assert.ok(validateContact({ ...valid, consent: false }).consent);
 });
 
 test('WhatsApp bağlantısı numarayı ve tüm alanları içerir', () => {

@@ -15,7 +15,7 @@ const PAGES: [string, string, string][] = [
   ['Skin Longevity ve Medikal Estetik', '/medikal-estetik', 'Botoks, dolgu, altın iğne, PRP ve mezoterapi hakkında bilgilendirici rehber'],
   ['Tüm makaleler', '/blog', 'Kategorilere göre tüm yazılar'],
   ['Sağlık testleri', '/quizler', 'Farkındalık amaçlı ölçekler; tanı koymaz'],
-  ['İletişim', '/iletisim', 'Randevu, iş birliği, akademik ve medya talepleri'],
+  ['İletişim', '/iletisim', 'İş birliği, akademik ve medya talepleri'],
 ];
 
 export async function GET() {

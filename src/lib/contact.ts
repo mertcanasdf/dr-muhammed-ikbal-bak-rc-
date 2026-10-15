@@ -1,7 +1,7 @@
-export type ContactChannelId = 'randevu' | 'is-birligi' | 'akademik' | 'medya';
+// Sağlık tanıtım yönetmeliği (hasta yönlendirme yasağı) gereği sitede randevu kanalı yoktur.
+export type ContactChannelId = 'is-birligi' | 'akademik' | 'medya';
 
 export const CONTACT_CHANNELS: readonly { id: ContactChannelId; label: string; description: string }[] = [
-  { id: 'randevu', label: 'Randevu', description: 'Medikal estetik ve skin longevity değerlendirmesi için randevu talebi.' },
   { id: 'is-birligi', label: 'İş Birliği', description: 'Kurumlar, markalar ve projeler için iş birliği önerileri.' },
   { id: 'akademik', label: 'Akademik', description: 'Kongre, konuşma, eğitim ve akademik çalışma davetleri.' },
   { id: 'medya', label: 'Medya', description: 'Röportaj, basın ve yayın talepleri.' },
@@ -12,7 +12,6 @@ export interface ContactInput {
   email: string;
   channel: string;
   message: string;
-  consent: boolean;
 }
 
 export type ContactErrors = Partial<Record<keyof ContactInput, string>>;
@@ -25,7 +24,6 @@ export function validateContact(input: ContactInput): ContactErrors {
   if (!EMAIL_PATTERN.test(input.email.trim())) errors.email = 'Geçerli bir e-posta adresi yazın.';
   if (!CONTACT_CHANNELS.some((c) => c.id === input.channel)) errors.channel = 'Lütfen bir konu seçin.';
   if (input.message.trim().length < 10) errors.message = 'Mesajınız en az 10 karakter olmalı.';
-  if (!input.consent) errors.consent = 'Devam etmek için aydınlatma metnini onaylayın.';
   return errors;
 }
 

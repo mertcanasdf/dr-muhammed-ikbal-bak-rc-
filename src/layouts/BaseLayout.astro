@@ -43,7 +43,7 @@ const {
 const BRAND_SUFFIX = ' — Dr. Muhammed İkbal Bakırcı';
 const SHORT_SUFFIX = ' | Dr. Bakırcı';
 let documentTitle = title;
-if (title.length > 60 && title.endsWith(BRAND_SUFFIX)) {
+if (title.length >= 60 && title.endsWith(BRAND_SUFFIX)) {
   const base = title.slice(0, -BRAND_SUFFIX.length);
   documentTitle = (base + SHORT_SUFFIX).length <= 60 ? base + SHORT_SUFFIX : base;
 }

@@ -64,18 +64,24 @@ const api = async (token, url, body) => {
   return json;
 };
 
+// Üç pencere: son 28 gün (fırsatlar), son 7 gün (güncel sıra takibi), önceki 28 gün (içerik çürümesi).
+// GSC verisi ~2-3 gün gecikmelidir; son 3 günü dışarıda bırak.
 async function performance(token) {
-  // GSC verisi ~2-3 gün gecikmelidir; son 3 günü dışarıda bırak.
-  const end = new Date(Date.now() - 3 * 86400000).toISOString().slice(0, 10);
-  const start = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
+  const day = (n) => new Date(Date.now() - n * 86400000).toISOString().slice(0, 10);
+  const end = day(3), start = day(30), start7 = day(9), prevEnd = day(31), prevStart = day(58);
   const url = `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(GSC_PROPERTY)}/searchAnalytics/query`;
-  const q = (dimensions) => api(token, url, { startDate: start, endDate: end, dimensions, rowLimit: 5000, dataState: 'all' });
-  const [byQueryPage, byPage] = await Promise.all([q(['query', 'page']), q(['page'])]);
+  const q = (dimensions, s = start, e = end) => api(token, url, { startDate: s, endDate: e, dimensions, rowLimit: 5000, dataState: 'all' });
+  const [byQueryPage, byPage, qp7, prevPages, prevQueryPage] = await Promise.all([
+    q(['query', 'page']), q(['page']), q(['query', 'page'], start7, end), q(['page'], prevStart, prevEnd), q(['query', 'page'], prevStart, prevEnd),
+  ]);
   const row = (r, keys) => ({ ...Object.fromEntries(keys.map((k, i) => [k, r.keys[i]])), clicks: r.clicks, impressions: r.impressions, ctr: +r.ctr.toFixed(4), position: +r.position.toFixed(1) });
   return {
-    fetchedAt: new Date().toISOString(), start, end,
+    fetchedAt: new Date().toISOString(), start, end, start7, prevStart, prevEnd,
     queryPage: (byQueryPage.rows ?? []).map((r) => row(r, ['query', 'page'])),
     pages: (byPage.rows ?? []).map((r) => row(r, ['page'])),
+    queryPage7: (qp7.rows ?? []).map((r) => row(r, ['query', 'page'])),
+    prevPages: (prevPages.rows ?? []).map((r) => row(r, ['page'])),
+    prevQueryPage: (prevQueryPage.rows ?? []).map((r) => row(r, ['query', 'page'])),
   };
 }
 
@@ -106,6 +112,8 @@ async function inspect(token, count) {
   const hist = readJson(path.join(DATA, 'gsc-gecmis.json'), []);
   hist.push({ day: trDay(), start: perf.start, end: perf.end, clicks: tot.c, impressions: tot.i, pages: perf.pages.length, queries: new Set(perf.queryPage.map((r) => r.query)).size });
   writeJson(path.join(DATA, 'gsc-gecmis.json'), hist.slice(-120));
+  // Günlük anlık görüntü: son 7 günlük sorgu/sayfa sıraları. Anahtar kelime takibi bunları karşılaştırır.
+  writeJson(path.join(DATA, 'gunluk', `${trDay()}.json`), { day: trDay(), start7: perf.start7, end: perf.end, queryPage7: perf.queryPage7 });
   console.log(`Search Console ${perf.start}–${perf.end}: ${tot.c} tıklama, ${tot.i} gösterim, ${perf.pages.length} sayfa, ${hist.at(-1).queries} sorgu.`);
   const n = Number(process.argv[process.argv.indexOf('--denetle') + 1]);
   if (process.argv.includes('--denetle') && n > 0) {

@@ -34,7 +34,25 @@ export function computeOpportunities(articles = loadArticles(), raw = readJson(p
   };
   const byUrl = new Map(articles.map((a) => [a.url, a]));
   const pageStats = new Map((gsc?.pages ?? []).map((p) => [p.page, p]));
-  const out = { day: trDay(), gscWindow: gsc ? `${gsc.start}–${gsc.end}` : null, striking: [], lowCtr: [], cannibal: [], thin: [], fewSources: [], noImpressions: [] };
+  const out = { day: trDay(), gscWindow: gsc ? `${gsc.start}–${gsc.end}` : null, striking: [], lowCtr: [], cannibal: [], thin: [], fewSources: [], noImpressions: [], decay: [], droppingKeywords: [], gaps: [] };
+
+  if (gsc?.prevPages?.length) {
+    // İçerik çürümesi (claude-blog/blog-decay modeli): önceki 28 güne göre gösterim %40+ düştü ve önceki dönem anlamlıydı.
+    const prev = new Map(mergeRows(gsc.prevPages, (r) => norm(r.page)).map((p) => [p.page, p]));
+    for (const [page, p0] of prev) {
+      if (p0.impressions < 30) continue;
+      const now = pageStats.get(page)?.impressions ?? 0;
+      if (now < p0.impressions * 0.6) out.decay.push({ page, slug: byUrl.get(page)?.slug ?? null, prevImpressions: p0.impressions, impressions: now, change: +((now - p0.impressions) / p0.impressions * 100).toFixed(0) });
+    }
+    out.decay.sort((a, b) => a.change - b.change);
+  }
+  // Anahtar kelime takibinden: bir haftada 3+ sıra kaybeden, anlamlı gösterimli sorgular; içerik boşlukları.
+  const kw = readJson(path.join(DATA, 'anahtar-kelimeler.json'));
+  if (kw?.day === out.day) {
+    out.droppingKeywords = kw.keywords.filter((k) => !k.brand && k.delta != null && k.delta <= -3 && k.impressions28 >= 10)
+      .map((k) => ({ query: k.query, page: k.page, slug: k.page?.startsWith('/blog/') ? k.page.slice(6) : null, delta: k.delta, position7: k.position7 }));
+    out.gaps = kw.gaps;
+  }
 
   if (gsc) {
     // 1) Vuruş mesafesi: 4–20. sırada, anlamlı gösterimi olan sorgu. Sayfa bu sorguyu daha iyi yanıtlarsa ilk 3'e çıkabilir.
@@ -87,5 +105,5 @@ export function computeOpportunities(articles = loadArticles(), raw = readJson(p
 if (process.argv[1]?.replaceAll('\\', '/').endsWith('scripts/seo/firsatlar.mjs')) {
   const o = computeOpportunities();
   writeJson(path.join(DATA, 'firsatlar.json'), o);
-  console.log(`Fırsatlar (${o.gscWindow ?? 'Search Console verisi yok'}): vuruş mesafesi ${o.striking.length}, düşük CTR ${o.lowCtr.length}, yamyamlık ${o.cannibal.length}, gösterimsiz ${o.noImpressions.length}, kısa yazı ${o.thin.length}, az kaynak ${o.fewSources.length}.`);
+  console.log(`Fırsatlar (${o.gscWindow ?? 'Search Console verisi yok'}): vuruş mesafesi ${o.striking.length}, düşük CTR ${o.lowCtr.length}, yamyamlık ${o.cannibal.length}, gösterimsiz ${o.noImpressions.length}, kısa yazı ${o.thin.length}, az kaynak ${o.fewSources.length}, çürüyen ${o.decay.length}, düşen sorgu ${o.droppingKeywords.length}, içerik boşluğu ${o.gaps.length}.`);
 }

@@ -70,7 +70,7 @@ export function computeOpportunities(articles = loadArticles(), raw = readJson(p
     // 2) Düşük tıklama oranı: ilk 10'da ama beklenenin yarısından az tıklanıyor -> başlık/açıklama sorgu niyetine uymuyor.
     for (const p of gsc.pages) {
       const pos = Math.round(p.position);
-      if (pos < 1 || pos > 10 || p.impressions < 80) continue;
+      if (pos < 1 || pos > 10 || p.impressions < 40) continue; // küçük sitede 40+ gösterim anlamlı
       if (p.ctr < EXPECTED_CTR[pos] * 0.5) {
         const top = gsc.queryPage.filter((r) => r.page === p.page).sort((a, b) => b.impressions - a.impressions).slice(0, 5).map((r) => r.query);
         out.lowCtr.push({ page: p.page, slug: byUrl.get(p.page)?.slug ?? null, position: p.position, impressions: p.impressions, ctr: p.ctr, expected: EXPECTED_CTR[pos], topQueries: top });

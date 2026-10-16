@@ -62,6 +62,10 @@ const QUEUE_FILE = path.join(DATA, 'kuyruk.json');
 const queue = readJson(QUEUE_FILE, []);
 const recentlyTouched = new Set(history.filter((h) => h.slug && daysBetween(h.day, today) < 30).map((h) => h.slug));
 const fresh = (slug) => slug && !recentlyTouched.has(slug);
+// Başlık/açıklama değişikliği içeriğe dokunmaz: CTR görevinde bekleme yalnız önceki CTR görevine bakar
+// (ör. yeni genişletilmiş yazı ilk 10'da ama tıklanmıyorsa başlığı hemen düzeltilebilir).
+const recentCtr = new Set(history.filter((h) => h.slug && h.type === 'ctr-iyilestirme' && daysBetween(h.day, today) < 30).map((h) => h.slug));
+const freshCtr = (slug) => slug && !recentCtr.has(slug);
 
 // Sunucunun yayını çekmesi beklenirken (en geç 15 dk) canlı/yerel fark doğal olabilir; yalnız yerelde de var olan sorun kritik görevdir.
 const realCritical = audit.critical.filter((c) => {
@@ -79,8 +83,8 @@ if (realCritical.length) {
   task = { type: q.type, slug: q.slug, reason: `Haftalık denetim kuyruğu: ${q.reason}`, details: q.details, queueId: q.id };
 } else if (weekday === 7 && broken.length) {
   task = { type: 'kaynak-onarim', reason: `${broken.length} kırık kaynak bağlantısı`, details: broken.slice(0, 10) };
-} else if ([1, 5].includes(weekday) && (opp.striking.some((s) => fresh(s.slug)) || opp.lowCtr.some((s) => fresh(s.slug)))) {
-  const low = opp.lowCtr.find((s) => fresh(s.slug));
+} else if ([1, 5].includes(weekday) && (opp.striking.some((s) => fresh(s.slug)) || opp.lowCtr.some((s) => freshCtr(s.slug)))) {
+  const low = opp.lowCtr.find((s) => freshCtr(s.slug));
   const strike = opp.striking.find((s) => fresh(s.slug));
   // Pazartesi önce başlık/açıklama (CTR), Cuma önce içerik (sorgu); biri yoksa diğeri.
   task = low && (weekday === 1 || !strike)

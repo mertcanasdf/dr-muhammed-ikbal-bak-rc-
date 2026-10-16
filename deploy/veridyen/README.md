@@ -7,7 +7,20 @@ Akış:
 
 Elle çekme gerekmez.
 
-## Kurulum (bir kerelik, cPanel)
+## Kurulum (16 Ekim 2026'da yapıldı)
+
+Hesapta kabuk (shell) erişimi kapalı, bu yüzden Terminal yok. Kurulum yalnızca cPanel › Cron İşleri ile yapıldı. Komut betiği ilk çalışmada GitHub'dan kendisi indirir:
+
+```
+*/15 * * * *  [ -f $HOME/mib-deploy.sh ] || curl -fsSL -o $HOME/mib-deploy.sh https://raw.githubusercontent.com/mertcanasdf/dr-muhammed-ikbal-bak-rc-/sprint-1/deploy/veridyen/mib-deploy.sh; /bin/bash $HOME/mib-deploy.sh >>$HOME/mib-deploy.cron.log 2>&1
+```
+
+İlk yayın: `2026-10-16 20:20 yayınlandı c556545: 325 dosya`. Betik bir kez indirildikten sonra güncellenmez. Betik değişirse sunucudaki `~/mib-deploy.sh` silinir; cron bir sonraki çalışmada yenisini indirir.
+
+Günlükler shell olmadan da okunabilir. cPanel oturumundayken şu adres açılır (`cpsessXXXX` oturum numarasıdır):
+`https://asral.veridyen.com:2083/cpsessXXXX/execute/Fileman/get_file_content?dir=%2Fhome%2Fdrmuhammedikbal&file=mib-deploy.log`
+
+## Elle kurulum (shell erişimi olan bir sunucuda)
 
 1. **Betiği yükle:** cPanel › Dosya Yöneticisi › ev dizini (`/home/drmuhammedikbal`, `public_html`'in bir üstü). Bu klasördeki `mib-deploy.sh` dosyasını oraya yükle.
    - Terminal varsa tek komut yeterli:

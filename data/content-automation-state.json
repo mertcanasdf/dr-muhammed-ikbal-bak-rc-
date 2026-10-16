@@ -736,8 +736,15 @@
       "commit": "b460d759633c3d039939d5d498e9e714e9939683",
       "parent": "4457f8ceecc72142f8fc173c2f24806148d3a582",
       "preparedAt": "2026-10-11T07:04:33.023Z",
-      "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-10-11T07:04:35.549Z"
+      "status": "live_verified",
+      "pushedAt": "2026-10-11T07:04:35.549Z",
+      "liveVerifiedAt": "2026-10-16T07:05:11.803Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-12",
@@ -755,7 +762,7 @@
       "commit": "8fcb4b05439869106a25ad36c9926eefc3fba81f",
       "parent": "b460d759633c3d039939d5d498e9e714e9939683",
       "preparedAt": "2026-10-12T07:17:24.095Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-12T07:17:26.803Z",
       "taskType": "ctr-iyilestirme",
       "alsoExpand": true,
@@ -775,7 +782,14 @@
           "readTime": "5 dk"
         }
       },
-      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-12\\research.json"
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-12\\research.json",
+      "liveVerifiedAt": "2026-10-16T07:05:12.925Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-13",
@@ -793,12 +807,19 @@
       "commit": "6043e52455e382ddf0004e2d4bbcc61374c22969",
       "parent": "8fcb4b05439869106a25ad36c9926eefc3fba81f",
       "preparedAt": "2026-10-13T07:15:50.128Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-13T07:15:52.789Z",
       "taskType": "yeni-yazi",
       "action": "improve",
       "planEntryId": "day-03",
-      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-13\\research.json"
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-13\\research.json",
+      "liveVerifiedAt": "2026-10-16T07:05:13.821Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-14",
@@ -816,11 +837,18 @@
       "commit": "e107cd896c21215f88bdbc60d62ba4e13bc4aa61",
       "parent": "6043e52455e382ddf0004e2d4bbcc61374c22969",
       "preparedAt": "2026-10-14T16:40:37.494Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-14T16:40:40.479Z",
       "taskType": "yazi-genisletme",
       "action": "improve",
-      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-14\\research.json"
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-14\\research.json",
+      "liveVerifiedAt": "2026-10-16T07:05:15.150Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-15",
@@ -838,12 +866,41 @@
       "commit": "eb7ea02e94a7872985b1e4fc4c061eff8ca03f00",
       "parent": "e107cd896c21215f88bdbc60d62ba4e13bc4aa61",
       "preparedAt": "2026-10-15T07:08:28.710Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-15T07:08:31.354Z",
       "taskType": "yeni-yazi",
       "action": "improve",
       "planEntryId": "day-05",
-      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-15\\research.json"
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-15\\research.json",
+      "liveVerifiedAt": "2026-10-16T07:05:15.927Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-16",
+      "slug": "d3-k2-birlikte-kullanilir-mi",
+      "sourceArticleSha256": "ac7f8543b826e4e8c63a052cb923cf89806f4bca7758a26aa7b9ed13a605e1bc",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/d3-k2-birlikte-kullanilir-mi",
+        "headline": "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik",
+        "datePublished": "2026-09-15",
+        "dateModified": "2026-10-16",
+        "wordCount": 990,
+        "bodyTextSha256": "f50c840e26cdfa9f24b5a7366e2eac419d7d77b5babaa0f88e3f58673d008ab3",
+        "htmlSha256": "1e7db901fe6e262bb89d1b06922be7168a6ef6b488e50f57607086b19aa9f78c"
+      },
+      "commit": "c556545a7fbfffca18d0f03d5076936ae6a9ecd4",
+      "parent": "bdbc8e9b4d6281a17f2f68c38deedef98fbf5d5f",
+      "preparedAt": "2026-10-16T07:18:25.369Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-16T07:18:27.882Z",
+      "taskType": "yazi-genisletme",
+      "action": "improve",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-16\\research.json"
     }
   ]
 }

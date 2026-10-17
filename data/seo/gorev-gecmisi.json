@@ -111,10 +111,23 @@
     "status": "completed",
     "action": "improve",
     "commit": "c556545a7fbfffca18d0f03d5076936ae6a9ecd4",
-    "publicationStatus": "pushed_waiting_manual_pull",
+    "publicationStatus": "live_verified",
     "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-16\\research.json",
     "beforeWords": 211,
     "afterWords": 990,
     "completedAt": "2026-10-16T07:20:08.495Z"
+  },
+  {
+    "day": "2026-10-17",
+    "type": "yeni-yazi",
+    "slug": "emeklilikte-sosyal-baglar",
+    "status": "completed",
+    "action": "new",
+    "commit": "749187a16acc06db5a1f2e0ab7e3c2eb5c79095d",
+    "publicationStatus": "live_verified",
+    "planEntryId": "day-13",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-17\\research.json",
+    "wordCount": 959,
+    "completedAt": "2026-10-17T07:16:25.000Z"
   }
 ]

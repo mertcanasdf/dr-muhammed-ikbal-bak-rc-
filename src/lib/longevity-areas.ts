@@ -2,7 +2,7 @@
 // Revizyon planı madde 16: "Tutarlı ve Uzun Yaşam".
 
 // Yazıların alanlara dağılımı: kategoriye göre; "Zihin & Sosyal Yaşam" kategorisi iki alana ayrılır.
-export const SOSYAL = ['sosyal-baglanti-ve-uzun-omur', 'yasam-amaci-ve-longevity', 'sukran-pratigi-ve-dopamin'];
+export const SOSYAL = ['sosyal-baglanti-ve-uzun-omur', 'yasam-amaci-ve-longevity', 'sukran-pratigi-ve-dopamin', 'emeklilikte-sosyal-baglar'];
 const AREA_BY_CATEGORY: Record<string, string> = {
   Beslenme: 'beslenme',
   Hareket: 'hareket',

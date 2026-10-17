@@ -896,11 +896,48 @@
       "commit": "c556545a7fbfffca18d0f03d5076936ae6a9ecd4",
       "parent": "bdbc8e9b4d6281a17f2f68c38deedef98fbf5d5f",
       "preparedAt": "2026-10-16T07:18:25.369Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-16T07:18:27.882Z",
       "taskType": "yazi-genisletme",
       "action": "improve",
-      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-16\\research.json"
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-16\\research.json",
+      "liveVerifiedAt": "2026-10-17T07:06:44.890Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-17",
+      "slug": "emeklilikte-sosyal-baglar",
+      "sourceArticleSha256": "5117c262d13c1731a7900df94957be9a5c45d9eb85e364d8c85a0e13efb308a7",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/emeklilikte-sosyal-baglar",
+        "headline": "Emeklilikte Sosyal Bağlar: Yeni Bir İlişki Takvimi Kurmak",
+        "datePublished": "2026-10-17",
+        "dateModified": "2026-10-17",
+        "wordCount": 959,
+        "bodyTextSha256": "a063453f1595b9cd520c61b4d96938326a0b98d9d0b405388f14a79c91dcf8df",
+        "htmlSha256": "2bec7914198ec56f0dcea4016a1648ded03a8ddd43a06159eec578a3129f4a5e"
+      },
+      "commit": "749187a16acc06db5a1f2e0ab7e3c2eb5c79095d",
+      "parent": "c556545a7fbfffca18d0f03d5076936ae6a9ecd4",
+      "preparedAt": "2026-10-17T07:14:45.666Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-17T07:14:48.411Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "planEntryId": "day-13",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-17\\research.json",
+      "liveVerifiedAt": "2026-10-17T07:16:10.363Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     }
   ]
 }

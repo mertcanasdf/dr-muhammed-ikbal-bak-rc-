@@ -33,7 +33,7 @@ Kafein ve uyku ilişkisi için kahveyi yalnızca gece yatarken bırakmak yeterli
 
 Örneğin 23.00'te uyumayı planlayan bir kişi için altı saat öncesi 17.00, sekiz saat öncesi 15.00'tir. Bu hesap bir kişisel reçete değildir. Saat 17.00'de içilen içeceğin herkese uygun olduğunu veya 15.00'ten sonra kahvenin mutlaka uykuyu bozacağını söylemez. Planlanan uyku saatine göre aralığı görünür kılar.
 
-Uyku başlangıcınız değişiyorsa takvimde tek bir saate bağlanmak yanıltıcı olabilir. Gece vardiyasından sonra sabah uyuyan birinin kafein zamanlaması, gece uyuyan birininkiyle aynı değildir. NHLBI vardiyalı çalışanlarda kafeini vardiyanın ilk bölümünde sınırlamayı önerir. Zamanlamanın genel mantığı için [sirkadiyen ritim ve uyku düzeni](/blog/sirkadiyen-ritim-ve-uyku) yazısını okuyabilirsiniz.
+Uyku başlangıcınız değişiyorsa takvimde tek bir saate bağlanmak yanıltıcı olabilir. Gece vardiyasından sonra sabah uyuyan birinin kafein zamanlaması, gece uyuyan birininkiyle aynı değildir. NHLBI vardiyalı çalışanlarda kafeini vardiyanın ilk bölümünde sınırlamayı önerir. Gündüz uykusunu planlamak için [vardiyalı çalışanlarda uyku düzeni](/blog/vardiyali-calisanlarda-uyku-duzeni) yazısı ayrıntılı bir çerçeve sunar. Zamanlamanın genel mantığı için [sirkadiyen ritim ve uyku düzeni](/blog/sirkadiyen-ritim-ve-uyku) yazısını okuyabilirsiniz.
 
 ## Altı saat kuralının araştırmadaki karşılığı nedir?
 

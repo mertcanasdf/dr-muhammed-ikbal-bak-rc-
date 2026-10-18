@@ -69,7 +69,7 @@ Ev halkıyla “bugün dinleneceğim” yerine korunmasını istediğiniz saat a
 
 ## Kafein, ekran ve şekerleme planda nerede yer alır?
 
-Kafeini yalnızca mesai başlangıcına göre değil, sonraki uyku fırsatına göre düşünün. Eve dönmeden hemen önce içilen bir içeceğin hedeflenen gündüz uykusuyla çakışması mümkündür. HSE kafeini uyanık kalmanın sürekli güvencesi olarak kullanmamayı ve alkolü uyumak amacıyla tercih etmemeyi vurgular.
+Kafeini yalnızca mesai başlangıcına göre değil, sonraki uyku fırsatına göre düşünün. Eve dönmeden hemen önce içilen bir içeceğin hedeflenen gündüz uykusuyla çakışması mümkündür. HSE kafeini uyanık kalmanın sürekli güvencesi olarak kullanmamayı ve alkolü uyumak amacıyla tercih etmemeyi vurgular. Kafeinin uykuya etkisi ve son fincanın zamanlaması için [kafein ve uyku](/blog/kafein-uyku-kahve-ne-zaman-birakilmali) yazısına bakabilirsiniz.
 
 Şekerleme bazı planlarda toplam uyku fırsatını destekleyebilir; çalışma koşulları, görev ve sonrasındaki uyanıklık gereksinimi dikkate alınır. İşyerindeki mola düzeni veya izin verilen uygulamalarla uyumlu bir plan konuşulmalıdır. Bu yazı belirli saat, ışık tedavisi, melatonin veya ilaç dozu vermez.
 

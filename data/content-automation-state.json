@@ -938,6 +938,28 @@
         "urlCount": 1,
         "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
       }
+    },
+    {
+      "day": "2026-10-18",
+      "slug": "ciltte-kollajen-kaybi",
+      "sourceArticleSha256": "eff16b64efbeb7e115471480af2ea537d3b08156b40696fc438d4d9b3f2dd28e",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ciltte-kollajen-kaybi",
+        "headline": "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler",
+        "datePublished": "2026-09-15",
+        "dateModified": "2026-10-18",
+        "wordCount": 913,
+        "bodyTextSha256": "b191d4ca13299ee1bf5d7a141e3a7d29091b2bbee60e7a623d08421b2e10f62b",
+        "htmlSha256": "ed7e1f480dc30800078b05f6fd10e8d279be600e4738cc598c837b70f0dc2495"
+      },
+      "commit": "a8ef599045139b289bf28114427505f95f57cca7",
+      "parent": "e08b9f5cfbd89ae481e5cfdc8a8ff656accf9d1e",
+      "preparedAt": "2026-10-18T07:10:21.944Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-18T07:10:24.428Z",
+      "taskType": "yazi-genisletme",
+      "action": "improve",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-18\\research.json"
     }
   ]
 }

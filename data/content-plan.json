@@ -1110,6 +1110,35 @@
       ],
       "searchVolume": null,
       "difficulty": null
+    },
+    {
+      "id": "automation-2026-10-18-ciltte-kollajen-kaybi",
+      "slug": "ciltte-kollajen-kaybi",
+      "keyword": "ciltte kollajen kaybı neden olur",
+      "title": "Ciltte Kollajen Kaybı Neden Olur? Görünümü Etkileyen Faktörler",
+      "category": "Skin Longevity",
+      "hub": "/medikal-estetik",
+      "action": "improve",
+      "taskType": "yazi-genisletme",
+      "plannedDate": "2026-10-18",
+      "status": "completed",
+      "commit": "a8ef599045139b289bf28114427505f95f57cca7",
+      "publicationDay": "2026-10-18",
+      "publicationStatus": "pushed_waiting_manual_pull",
+      "publishedSlug": "ciltte-kollajen-kaybi",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-18\\research.json",
+      "researchStatus": "researched_article_expanded",
+      "decision": "Seçicinin yazi-genisletme görevindeki mevcut kollajen URLsini güçlendirme; yeni URL ve plan adayı yok. Retinoid ve güneş kremi yazıları ürün kullanımı/korunma ayrıntısını karşılıyor; burada nedenler ve kanıtları yorumlama odağı korundu.",
+      "sources": [
+        "https://my.clevelandclinic.org/health/articles/23089-collagen",
+        "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/reduce-premature-aging-skin",
+        "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/choosing-right-sunscreen",
+        "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/wrinkle-remedies",
+        "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol",
+        "https://onlinelibrary.wiley.com/doi/full/10.1111/jocd.71041"
+      ],
+      "searchVolume": null,
+      "difficulty": null
     }
   ],
   "refreshedAt": "2026-10-07T07:04:50.795547+00:00",

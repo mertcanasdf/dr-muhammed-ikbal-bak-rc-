@@ -142,5 +142,19 @@
     "beforeWords": 211,
     "afterWords": 913,
     "completedAt": "2026-10-18T07:11:13.931Z"
+  },
+  {
+    "day": "2026-10-19",
+    "type": "sorgu-optimizasyonu",
+    "slug": "otofaji-nedir",
+    "status": "completed",
+    "action": "improve",
+    "commit": "998f747d69aaa9f43cb9db4b80dfd02af7c64554",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-19\\research.json",
+    "queueId": "2026-10-18-otofaji-sure-sorgulari",
+    "beforeWords": 549,
+    "afterWords": 906,
+    "completedAt": "2026-10-19T07:10:03.858Z"
   }
 ]

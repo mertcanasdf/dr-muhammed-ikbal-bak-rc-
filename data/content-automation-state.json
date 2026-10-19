@@ -955,11 +955,41 @@
       "commit": "a8ef599045139b289bf28114427505f95f57cca7",
       "parent": "e08b9f5cfbd89ae481e5cfdc8a8ff656accf9d1e",
       "preparedAt": "2026-10-18T07:10:21.944Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-18T07:10:24.428Z",
       "taskType": "yazi-genisletme",
       "action": "improve",
-      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-18\\research.json"
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-18\\research.json",
+      "liveVerifiedAt": "2026-10-19T07:00:46.024Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-19",
+      "slug": "otofaji-nedir",
+      "sourceArticleSha256": "0bea24a3b308dd0e4db2041195527d1f1c81a431948e3cf38ec4599fcd40dacc",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/otofaji-nedir",
+        "headline": "Otofaji Nedir ve Nasıl Aktive Edilir?",
+        "datePublished": "2026-05-15",
+        "dateModified": "2026-10-19",
+        "wordCount": 906,
+        "bodyTextSha256": "1aa17951eaad7e5b5331d26fb6e9ba8656c1b155157b1e6a3b80f35357217aeb",
+        "htmlSha256": "a8f75095d2ce956bc4675e155705340157df494a4856701452af7fb8fd3c622e"
+      },
+      "commit": "998f747d69aaa9f43cb9db4b80dfd02af7c64554",
+      "parent": "30c54c9c1dafc04fa1bb386c4363b7c2aa151077",
+      "preparedAt": "2026-10-19T07:08:17.442Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-19T07:08:19.983Z",
+      "taskType": "sorgu-optimizasyonu",
+      "action": "improve",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-19\\research.json",
+      "queueId": "2026-10-18-otofaji-sure-sorgulari"
     }
   ]
 }

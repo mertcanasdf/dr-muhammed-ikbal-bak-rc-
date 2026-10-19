@@ -1139,6 +1139,36 @@
       ],
       "searchVolume": null,
       "difficulty": null
+    },
+    {
+      "id": "automation-2026-10-19-otofaji-nedir",
+      "slug": "otofaji-nedir",
+      "keyword": "otofaji nedir",
+      "title": "Otofaji Nedir ve Nasıl Aktive Edilir?",
+      "category": "Longevity Bilimi",
+      "hub": "/longevity#hucresel-temeller",
+      "action": "improve",
+      "taskType": "sorgu-optimizasyonu",
+      "plannedDate": "2026-10-19",
+      "status": "completed",
+      "commit": "998f747d69aaa9f43cb9db4b80dfd02af7c64554",
+      "publicationDay": "2026-10-19",
+      "publicationStatus": "pushed_waiting_manual_pull",
+      "publishedSlug": "otofaji-nedir",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-19\\research.json",
+      "researchStatus": "researched_existing_article_optimized_and_expanded",
+      "decision": "Seçicinin sorgu-optimizasyonu + alsoExpand görevini aynı otofaji URLsinde tamamlama; yeni URL veya plan adayı yok. Aralıklı oruç sayfası beslenme yöntemlerini, bu sayfa hücresel geri dönüşümü ve süre iddiasının sınırını karşılıyor.",
+      "sources": [
+        "https://evandrofanglab.com/wp-content/uploads/2021/08/aman_et_al-2021-nature_aging.pdf",
+        "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1113/JP287938",
+        "https://link.springer.com/article/10.1007/s11357-025-02035-4",
+        "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725",
+        "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/patients-intermittent-fasting",
+        "https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know"
+      ],
+      "searchVolume": null,
+      "CPC": null,
+      "difficulty": null
     }
   ],
   "refreshedAt": "2026-10-07T07:04:50.795547+00:00",

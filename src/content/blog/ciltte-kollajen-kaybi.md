@@ -100,7 +100,7 @@ Kalıcı veya belirgin tahriş, açıklayamadığınız hızlı değişiklik ya 
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [fotoyaşlanma ve güneş koruması](/blog/gunes-kremi-nasil-secilir) ve [kollajen yapımını uyarmayı hedefleyen altın iğne](/blog/altin-igne) konularını da okuyabilirsiniz. Ayrıca [retinoidlerin cilt yaşlanmasındaki yeri](/blog/retinoid-nedir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [fotoyaşlanma ve güneş koruması](/blog/gunes-kremi-nasil-secilir) ve [kollajen yapımını uyarmayı hedefleyen altın iğne](/blog/altin-igne) konularını da okuyabilirsiniz. Ayrıca [retinoidlerin cilt yaşlanmasındaki yeri](/blog/retinoid-nedir) ve [yaşlanan (senesan) hücrelerin cilde etkisi](/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.
 
 ## Kaynaklar
 

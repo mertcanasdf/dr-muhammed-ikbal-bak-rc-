@@ -95,7 +95,7 @@ Bir beslenme değişikliğini görüşmeden önce şu bilgileri hazırlamak yara
 
 ## Konuyu derinleştirmek için
 
-Bu yazıyla bağlantılı olarak [aralıklı oruç ve kanıtlar](/blog/aralikli-oruc-longevity) ve [mitokondri sağlığı](/blog/mitokondri-sagligi-nasil-desteklenir) konularını da okuyabilirsiniz. Ayrıca [biyolojik yaşın nasıl ölçüldüğü](/blog/biyolojik-yas-nasil-olculur) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.
+Bu yazıyla bağlantılı olarak [aralıklı oruç ve kanıtlar](/blog/aralikli-oruc-longevity) ve [mitokondri sağlığı](/blog/mitokondri-sagligi-nasil-desteklenir) konularını da okuyabilirsiniz. Ayrıca [biyolojik yaşın nasıl ölçüldüğü](/blog/biyolojik-yas-nasil-olculur) ve [senesan "zombi" hücreler ve senolitikler](/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [longevity sayfamızın hücresel temeller bölümünde](/longevity#hucresel-temeller) bulabilirsiniz.
 
 ## Kaynaklar
 

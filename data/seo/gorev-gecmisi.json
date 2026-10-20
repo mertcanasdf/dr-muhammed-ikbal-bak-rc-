@@ -156,5 +156,61 @@
     "beforeWords": 549,
     "afterWords": 906,
     "completedAt": "2026-10-19T07:10:03.858Z"
+  },
+  {
+    "day": "2026-10-20",
+    "type": "ctr-iyilestirme",
+    "slug": "kas-gucu-kas-kutlesi-farki",
+    "status": "completed",
+    "action": "metadata",
+    "commit": "c5ae72e93c580e82f9091a21dc341d1da467bc90",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "queueId": "2026-10-18-kas-gucu-ctr",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-20\\research.json",
+    "beforeWords": 880,
+    "afterWords": 880,
+    "completedAt": "2026-10-20T07:09:19.158Z",
+    "ctrChange": {
+      "before": {
+        "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+        "seoTitle": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümleri Doğru Okumak",
+        "description": "Kas gücü ve kas kütlesi farkını öğrenin. Tartı, kavrama ve günlük işlev ölçümlerinin sınırlarını karşılaştırın; görüşmeye hazırlık tablosunu kullanın.",
+        "date": "2026-10-06",
+        "updated": null
+      },
+      "after": {
+        "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+        "seoTitle": "Kas Gücü ve Kas Kütlesi Farkı Nedir? Ölçümler Ne Söyler?",
+        "description": "Kas kütlesi miktarı, kas gücü kuvvet üretimini anlatır. Kavrama ve sandalyeden kalkma ölçümlerinin neyi gösterdiğini, sınırlarıyla öğrenin.",
+        "date": "2026-10-06",
+        "updated": null
+      },
+      "baseline": {
+        "fetchedAt": "2026-10-20T02:36:52.259Z",
+        "start": "2026-09-20",
+        "end": "2026-10-17",
+        "rows": 1,
+        "impressions": 80,
+        "clicks": 0,
+        "ctr": 0,
+        "averagePosition": 7.4,
+        "queryRows": [
+          {
+            "query": "kas gücü",
+            "page": "https://www.muhammedikbalbakirci.com/blog/kas-gucu-kas-kutlesi-farki",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 19
+          }
+        ]
+      },
+      "followUp": {
+        "firstReview": "2026-11-03",
+        "secondReview": "2026-11-17",
+        "earliestNewCtrEditUnder30DayRule": "2026-11-19",
+        "method": "Aynı canonical URL ve sorgular; benzer uzunluktaki yayın öncesi/sonrası dönem, tıklama/gösterim/CTR ve konum birlikte. Küçük örneklemde sonuç çıkarma; Google snippet yeniden yazabilir."
+      }
+    }
   }
 ]

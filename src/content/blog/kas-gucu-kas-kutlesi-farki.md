@@ -1,8 +1,8 @@
 ---
 title: "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?"
-seoTitle: "Kas Gücü ve Kas Kütlesi Farkı: Ölçümleri Doğru Okumak"
+seoTitle: "Kas Gücü ve Kas Kütlesi Farkı Nedir? Ölçümler Ne Söyler?"
 date: 2026-10-06
-description: "Kas gücü ve kas kütlesi farkını öğrenin. Tartı, kavrama ve günlük işlev ölçümlerinin sınırlarını karşılaştırın; görüşmeye hazırlık tablosunu kullanın."
+description: "Kas kütlesi miktarı, kas gücü kuvvet üretimini anlatır. Kavrama ve sandalyeden kalkma ölçümlerinin neyi gösterdiğini, sınırlarıyla öğrenin."
 category: "Hareket"
 image: "/assets/images/generated/articles/kas-gucu-kas-kutlesi-farki.webp"
 readTime: "6 dk"

@@ -167,7 +167,11 @@ function articleExpectation(html, slug = options.slug) {
   const body = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1];
   if (!body) throw new Error('Makale gövdesi yok');
   const bodyText = decode(body.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '').replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
-  return { canonical, headline: article.headline, datePublished: article.datePublished, dateModified: article.dateModified,
+  const htmlTitle = decode(html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? '').trim();
+  const descriptionTag = [...html.matchAll(/<meta\b[^>]*>/gi)].map((m) => m[0]).find((tag) => /\bname=["']description["']/i.test(tag));
+  const metaDescription = decode(descriptionTag?.match(/\bcontent=(["'])([\s\S]*?)\1/i)?.[2] ?? '');
+  if (!htmlTitle || !metaDescription) throw new Error('Makale title/description eksik');
+  return { canonical, htmlTitle, metaDescription, headline: article.headline, datePublished: article.datePublished, dateModified: article.dateModified,
     wordCount: article.wordCount, bodyTextSha256: sha(bodyText), htmlSha256: sha(html) };
 }
 async function readLive(url, fetchOptions = {}) {
@@ -187,7 +191,11 @@ async function verifyLive(expected) {
       if (live.status === 200) {
         try {
           const actual = articleExpectation(live.body, new URL(expected.canonical).pathname.split('/').at(-1));
-          observed.matches = ['canonical', 'headline', 'datePublished', 'dateModified', 'wordCount', 'bodyTextSha256'].every((key) => actual[key] === expected[key]);
+          const contentKeys = ['canonical', 'headline', 'datePublished', 'dateModified', 'wordCount', 'bodyTextSha256'];
+          // Older saved publications predate metadata expectations; retain their existing content comparison.
+          const expectedMetaKeys = ['htmlTitle', 'metaDescription'].filter((key) => typeof expected[key] === 'string');
+          observed.metadataMatches = expectedMetaKeys.length ? expectedMetaKeys.every((key) => actual[key] === expected[key]) : null;
+          observed.matches = [...contentKeys, ...expectedMetaKeys].every((key) => actual[key] === expected[key]);
           observed.htmlSha256 = actual.htmlSha256;
         } catch (error) { observed.detail = error.message; }
       }

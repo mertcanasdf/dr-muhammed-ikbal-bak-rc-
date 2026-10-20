@@ -990,6 +990,74 @@
       "action": "improve",
       "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-19\\research.json",
       "queueId": "2026-10-18-otofaji-sure-sorgulari"
+    },
+    {
+      "day": "2026-10-20",
+      "slug": "kas-gucu-kas-kutlesi-farki",
+      "sourceArticleSha256": "d4ab5222ef88aed82383e8cb5fdc93e76f0933cae39e3fc2000bc8a8c2c302c8",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kas-gucu-kas-kutlesi-farki",
+        "htmlTitle": "Kas Gücü ve Kas Kütlesi Farkı Nedir? Ölçümler Ne Söyler?",
+        "metaDescription": "Kas kütlesi miktarı, kas gücü kuvvet üretimini anlatır. Kavrama ve sandalyeden kalkma ölçümlerinin neyi gösterdiğini, sınırlarıyla öğrenin.",
+        "headline": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "wordCount": 880,
+        "bodyTextSha256": "846b0cc6e1223979681ed833171d83b3e4b638c5ae2c567778852c0934e88554",
+        "htmlSha256": "ff4e3cf70220cfc116ecc0ddbff054cf640f785701c8093b3eb89e545cb88681"
+      },
+      "commit": "c5ae72e93c580e82f9091a21dc341d1da467bc90",
+      "parent": "39388916effadcf3a59591a21896fc4784b894c5",
+      "preparedAt": "2026-10-20T07:08:14.081Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-20T07:08:16.590Z",
+      "taskType": "ctr-iyilestirme",
+      "action": "metadata",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-20\\research.json",
+      "queueId": "2026-10-18-kas-gucu-ctr",
+      "ctrChange": {
+        "before": {
+          "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+          "seoTitle": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümleri Doğru Okumak",
+          "description": "Kas gücü ve kas kütlesi farkını öğrenin. Tartı, kavrama ve günlük işlev ölçümlerinin sınırlarını karşılaştırın; görüşmeye hazırlık tablosunu kullanın.",
+          "date": "2026-10-06",
+          "updated": null
+        },
+        "after": {
+          "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+          "seoTitle": "Kas Gücü ve Kas Kütlesi Farkı Nedir? Ölçümler Ne Söyler?",
+          "description": "Kas kütlesi miktarı, kas gücü kuvvet üretimini anlatır. Kavrama ve sandalyeden kalkma ölçümlerinin neyi gösterdiğini, sınırlarıyla öğrenin.",
+          "date": "2026-10-06",
+          "updated": null
+        },
+        "baseline": {
+          "fetchedAt": "2026-10-20T02:36:52.259Z",
+          "start": "2026-09-20",
+          "end": "2026-10-17",
+          "rows": 1,
+          "impressions": 80,
+          "clicks": 0,
+          "ctr": 0,
+          "averagePosition": 7.4,
+          "queryRows": [
+            {
+              "query": "kas gücü",
+              "page": "https://www.muhammedikbalbakirci.com/blog/kas-gucu-kas-kutlesi-farki",
+              "clicks": 0,
+              "impressions": 1,
+              "ctr": 0,
+              "position": 19
+            }
+          ]
+        },
+        "followUp": {
+          "firstReview": "2026-11-03",
+          "secondReview": "2026-11-17",
+          "earliestNewCtrEditUnder30DayRule": "2026-11-19",
+          "method": "Aynı canonical URL ve sorgular; benzer uzunluktaki yayın öncesi/sonrası dönem, tıklama/gösterim/CTR ve konum birlikte. Küçük örneklemde sonuç çıkarma; Google snippet yeniden yazabilir."
+        }
+      },
+      "publisherMetadataVerification": true
     }
   ]
 }

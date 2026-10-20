@@ -1169,6 +1169,74 @@
       "searchVolume": null,
       "CPC": null,
       "difficulty": null
+    },
+    {
+      "id": "automation-2026-10-20-kas-gucu-kas-kutlesi-farki",
+      "slug": "kas-gucu-kas-kutlesi-farki",
+      "keyword": "kas gücü ve kas kütlesi farkı nedir",
+      "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+      "seoTitle": "Kas Gücü ve Kas Kütlesi Farkı Nedir? Ölçümler Ne Söyler?",
+      "category": "Hareket",
+      "hub": "/longevity/hareket",
+      "action": "metadata",
+      "taskType": "ctr-iyilestirme",
+      "plannedDate": "2026-10-20",
+      "status": "completed",
+      "commit": "c5ae72e93c580e82f9091a21dc341d1da467bc90",
+      "publicationDay": "2026-10-20",
+      "publicationStatus": "pushed_waiting_manual_pull",
+      "publishedSlug": "kas-gucu-kas-kutlesi-farki",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-20\\research.json",
+      "researchStatus": "researched_existing_article_metadata_optimized",
+      "decision": "Seçicinin CTR görevi: yalnız seoTitle/description güncellendi; H1, gövde, kaynaklar, date, updated yokluğu, okuma süresi, kapak ve ilgili bağlantılar korundu. Yeni URL ve plan adayı yok.",
+      "sources": [
+        "https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/diabetes-endocrinology-obesity-branch/metabolic-clinical-research-unit/metabolic-testing"
+      ],
+      "searchVolume": null,
+      "CPC": null,
+      "difficulty": null,
+      "ctrChange": {
+        "before": {
+          "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+          "seoTitle": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümleri Doğru Okumak",
+          "description": "Kas gücü ve kas kütlesi farkını öğrenin. Tartı, kavrama ve günlük işlev ölçümlerinin sınırlarını karşılaştırın; görüşmeye hazırlık tablosunu kullanın.",
+          "date": "2026-10-06",
+          "updated": null
+        },
+        "after": {
+          "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+          "seoTitle": "Kas Gücü ve Kas Kütlesi Farkı Nedir? Ölçümler Ne Söyler?",
+          "description": "Kas kütlesi miktarı, kas gücü kuvvet üretimini anlatır. Kavrama ve sandalyeden kalkma ölçümlerinin neyi gösterdiğini, sınırlarıyla öğrenin.",
+          "date": "2026-10-06",
+          "updated": null
+        },
+        "baseline": {
+          "fetchedAt": "2026-10-20T02:36:52.259Z",
+          "start": "2026-09-20",
+          "end": "2026-10-17",
+          "rows": 1,
+          "impressions": 80,
+          "clicks": 0,
+          "ctr": 0,
+          "averagePosition": 7.4,
+          "queryRows": [
+            {
+              "query": "kas gücü",
+              "page": "https://www.muhammedikbalbakirci.com/blog/kas-gucu-kas-kutlesi-farki",
+              "clicks": 0,
+              "impressions": 1,
+              "ctr": 0,
+              "position": 19
+            }
+          ]
+        },
+        "followUp": {
+          "firstReview": "2026-11-03",
+          "secondReview": "2026-11-17",
+          "earliestNewCtrEditUnder30DayRule": "2026-11-19",
+          "method": "Aynı canonical URL ve sorgular; benzer uzunluktaki yayın öncesi/sonrası dönem, tıklama/gösterim/CTR ve konum birlikte. Küçük örneklemde sonuç çıkarma; Google snippet yeniden yazabilir."
+        }
+      }
     }
   ],
   "refreshedAt": "2026-10-07T07:04:50.795547+00:00",

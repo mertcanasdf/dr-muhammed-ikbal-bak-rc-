@@ -212,5 +212,19 @@
         "method": "Aynı canonical URL ve sorgular; benzer uzunluktaki yayın öncesi/sonrası dönem, tıklama/gösterim/CTR ve konum birlikte. Küçük örneklemde sonuç çıkarma; Google snippet yeniden yazabilir."
       }
     }
+  },
+  {
+    "day": "2026-10-21",
+    "type": "sorgu-optimizasyonu",
+    "slug": "vardiyali-calisanlarda-uyku-duzeni",
+    "status": "completed",
+    "action": "improve",
+    "commit": "c746144f1624013e960fdc9ed8e9fc6a30acf2b2",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "queueId": "2026-10-18-vardiya-gece-calisan-sorgulari",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-21\\research.json",
+    "beforeWords": 904,
+    "afterWords": 1226,
+    "completedAt": "2026-10-21T07:08:22.523Z"
   }
 ]

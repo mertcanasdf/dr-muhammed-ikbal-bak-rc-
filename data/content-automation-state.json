@@ -1009,7 +1009,7 @@
       "commit": "c5ae72e93c580e82f9091a21dc341d1da467bc90",
       "parent": "39388916effadcf3a59591a21896fc4784b894c5",
       "preparedAt": "2026-10-20T07:08:14.081Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-20T07:08:16.590Z",
       "taskType": "ctr-iyilestirme",
       "action": "metadata",
@@ -1057,7 +1057,39 @@
           "method": "Aynı canonical URL ve sorgular; benzer uzunluktaki yayın öncesi/sonrası dönem, tıklama/gösterim/CTR ve konum birlikte. Küçük örneklemde sonuç çıkarma; Google snippet yeniden yazabilir."
         }
       },
-      "publisherMetadataVerification": true
+      "publisherMetadataVerification": true,
+      "liveVerifiedAt": "2026-10-21T07:00:37.077Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-21",
+      "slug": "vardiyali-calisanlarda-uyku-duzeni",
+      "sourceArticleSha256": "8d0a25b57156b7da7c0261a30e950bc29a72755aa322abf7959b4fc2457ed17d",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/vardiyali-calisanlarda-uyku-duzeni",
+        "htmlTitle": "Gece Çalışanlar İçin Uyku Düzeni: Gündüz Uyku Rehberi",
+        "metaDescription": "Gece çalışanlar gündüz nasıl uyumalı? Uyku ortamı, vardiya öncesi kısa uyku, izin günleri ve güvenli eve dönüş için planlama önerilerini okuyun.",
+        "headline": "Vardiyalı Çalışanlarda Uyku Düzeni: Planlama ve Eve Dönüş",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-21",
+        "wordCount": 1226,
+        "bodyTextSha256": "4ee3985d6b0cb47ddd13ffb2b602f9cc082230b5a61a0ac294507306ada0aebd",
+        "htmlSha256": "a355859e59bb97e9a9317701472fa292b0de76f7fad7f587e8853d9ed2bc0b75"
+      },
+      "commit": "c746144f1624013e960fdc9ed8e9fc6a30acf2b2",
+      "parent": "c5ae72e93c580e82f9091a21dc341d1da467bc90",
+      "preparedAt": "2026-10-21T07:07:13.212Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-21T07:07:15.821Z",
+      "taskType": "sorgu-optimizasyonu",
+      "action": "improve",
+      "queueId": "2026-10-18-vardiya-gece-calisan-sorgulari",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-21\\research.json"
     }
   ]
 }

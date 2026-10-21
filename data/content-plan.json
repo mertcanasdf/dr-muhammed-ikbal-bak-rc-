@@ -1237,6 +1237,39 @@
           "method": "Aynı canonical URL ve sorgular; benzer uzunluktaki yayın öncesi/sonrası dönem, tıklama/gösterim/CTR ve konum birlikte. Küçük örneklemde sonuç çıkarma; Google snippet yeniden yazabilir."
         }
       }
+    },
+    {
+      "id": "automation-2026-10-21-vardiyali-calisanlarda-uyku-duzeni",
+      "slug": "vardiyali-calisanlarda-uyku-duzeni",
+      "keyword": "gece çalışanlar için uyku düzeni",
+      "title": "Vardiyalı Çalışanlarda Uyku Düzeni: Planlama ve Eve Dönüş",
+      "category": "Uyku",
+      "hub": "/longevity/uyku",
+      "action": "improve",
+      "taskType": "sorgu-optimizasyonu",
+      "plannedDate": "2026-10-21",
+      "status": "completed",
+      "commit": "c746144f1624013e960fdc9ed8e9fc6a30acf2b2",
+      "publicationDay": "2026-10-21",
+      "publicationStatus": "pushed_waiting_manual_pull",
+      "publishedSlug": "vardiyali-calisanlarda-uyku-duzeni",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-21\\research.json",
+      "researchStatus": "researched_existing_article_query_optimized",
+      "decision": "Seçicinin sorgu-optimizasyonu görevindeki mevcut URL geliştirildi. GSCdeki iki gerçek soru yanıtlandı; yeni URL ve plan adayı yok. Genel uyku, biyolojik saat ve kafein yazılarının odağı korunarak burası vardiya koşullarına odaklandı.",
+      "sources": [
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod5/01.html",
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod9/05.html",
+        "https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm",
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod11/03.html",
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod11/04.html",
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod9/03.html",
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod9/06.html",
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod7/05.html",
+        "https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders/treatment"
+      ],
+      "searchVolume": null,
+      "CPC": null,
+      "difficulty": null
     }
   ],
   "refreshedAt": "2026-10-07T07:04:50.795547+00:00",

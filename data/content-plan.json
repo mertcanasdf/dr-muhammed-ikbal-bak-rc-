@@ -1270,6 +1270,35 @@
       "searchVolume": null,
       "CPC": null,
       "difficulty": null
+    },
+    {
+      "id": "automation-2026-10-22-kavrama-gucu-ve-saglik",
+      "slug": "kavrama-gucu-ve-saglik",
+      "keyword": "kavrama gücü nedir",
+      "title": "Kavrama Gücü Sağlık Hakkında Ne Söyler?",
+      "category": "Hareket",
+      "hub": "/longevity/hareket",
+      "action": "improve",
+      "taskType": "yazi-genisletme",
+      "plannedDate": "2026-10-22",
+      "status": "completed",
+      "commit": "03774898ca169f6a4286c857e03a151b670d0b6c",
+      "publicationDay": "2026-10-22",
+      "publicationStatus": "pushed_waiting_manual_pull",
+      "publishedSlug": "kavrama-gucu-ve-saglik",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-22\\research.json",
+      "researchStatus": "researched_existing_article_expanded",
+      "decision": "Seçicinin yazi-genisletme görevi mevcut kavrama gücü URLsi üzerinde yapıldı. Kas gücü/kütle karşılaştırması mevcut ayrı yazıya bağlandı; yeni kopya sayfa veya plan adayı işlenmedi.",
+      "sources": [
+        "https://link.springer.com/article/10.1186/s40814-016-0067-x",
+        "https://pubmed.ncbi.nlm.nih.gov/25982160/",
+        "https://pubmed.ncbi.nlm.nih.gov/27104109/",
+        "https://pubmed.ncbi.nlm.nih.gov/30312372/",
+        "https://www.nhs.uk/symptoms/paralysis/"
+      ],
+      "searchVolume": null,
+      "CPC": null,
+      "difficulty": null
     }
   ],
   "refreshedAt": "2026-10-07T07:04:50.795547+00:00",

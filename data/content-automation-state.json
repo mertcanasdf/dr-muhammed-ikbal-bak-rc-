@@ -1084,12 +1084,44 @@
       "commit": "c746144f1624013e960fdc9ed8e9fc6a30acf2b2",
       "parent": "c5ae72e93c580e82f9091a21dc341d1da467bc90",
       "preparedAt": "2026-10-21T07:07:13.212Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-21T07:07:15.821Z",
       "taskType": "sorgu-optimizasyonu",
       "action": "improve",
       "queueId": "2026-10-18-vardiya-gece-calisan-sorgulari",
-      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-21\\research.json"
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-21\\research.json",
+      "liveVerifiedAt": "2026-10-22T07:00:12.665Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-22",
+      "slug": "kavrama-gucu-ve-saglik",
+      "sourceArticleSha256": "59ee0e5ef1b7e85d90d11bbf07e241051e9f2921326304cd8bbfd5c10ebc0df7",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kavrama-gucu-ve-saglik",
+        "htmlTitle": "Kavrama Gücü Nedir? Ölçüm ve Normal Değer Nasıl Yorumlanır?",
+        "metaDescription": "Kavrama gücü nasıl ölçülür, normal değer neden herkese aynı değildir? El dinamometresi, sarkopeni ve değerlendirme gerektiren belirtileri öğrenin.",
+        "headline": "Kavrama Gücü Sağlık Hakkında Ne Söyler?",
+        "datePublished": "2026-09-15",
+        "dateModified": "2026-10-22",
+        "wordCount": 913,
+        "bodyTextSha256": "c3defbed9942b130268828779311cda08426da7819414f3746e39a34e4f5aca1",
+        "htmlSha256": "6d1237cca8e4db2a4933670a8cbe80ff74dabc4721547b50afa6ec6bc32c03ef"
+      },
+      "commit": "03774898ca169f6a4286c857e03a151b670d0b6c",
+      "parent": "c746144f1624013e960fdc9ed8e9fc6a30acf2b2",
+      "preparedAt": "2026-10-22T07:11:09.757Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-22T07:11:12.470Z",
+      "taskType": "yazi-genisletme",
+      "action": "improve",
+      "queueId": "2026-10-20-kavrama-gucu-genisletme",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-22\\research.json"
     }
   ]
 }

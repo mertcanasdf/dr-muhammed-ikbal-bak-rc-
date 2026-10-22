@@ -226,5 +226,19 @@
     "beforeWords": 904,
     "afterWords": 1226,
     "completedAt": "2026-10-21T07:08:22.523Z"
+  },
+  {
+    "day": "2026-10-22",
+    "type": "yazi-genisletme",
+    "slug": "kavrama-gucu-ve-saglik",
+    "status": "completed",
+    "action": "improve",
+    "commit": "03774898ca169f6a4286c857e03a151b670d0b6c",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "queueId": "2026-10-20-kavrama-gucu-genisletme",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-22\\research.json",
+    "beforeWords": 288,
+    "afterWords": 913,
+    "completedAt": "2026-10-22T07:12:10.963Z"
   }
 ]

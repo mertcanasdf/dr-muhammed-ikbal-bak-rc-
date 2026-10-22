@@ -54,7 +54,9 @@ export function trackKeywords() {
     const delta = pos7 != null && was7 != null ? +(was7 - pos7).toFixed(1) : null; // pozitif = yükseldi
     const fs0 = prevFirst.get(k.query) ?? firstSeen.get(k.query) ?? today;
     const band = k.position <= 3 ? 'ilk3' : k.position <= 10 ? 'ilk10' : k.position <= 20 ? 'vurus' : 'uzak';
-    const trend = daysBetween(fs0, today) <= 7 ? 'yeni' : delta == null ? 'veri-yok' : delta >= 1.5 ? 'yukseldi' : delta <= -1.5 ? 'dustu' : 'sabit';
+    // "yeni": kıyas görüntüsünde yoktu (kıyas yoksa ilk 7 gün). Varsa sıra değişimine bakılır.
+    const isNew = old ? !prev7.has(k.query) : daysBetween(fs0, today) <= 7;
+    const trend = isNew ? 'yeni' : delta == null ? 'veri-yok' : delta >= 1.5 ? 'yukseldi' : delta <= -1.5 ? 'dustu' : 'sabit';
     return { query: k.query, brand: BRAND.test(k.query), page: k.page, pageCount: k.pageCount, impressions28: k.impressions, clicks28: k.clicks, position28: k.position, position7: pos7, positionWeekAgo: was7, delta, band, trend, firstSeen: fs0 };
   }).sort((a, b) => b.impressions28 - a.impressions28);
 

@@ -1,14 +1,14 @@
 # SEO otomasyonu
 
-Sistem üç katmanlıdır. Hepsi bu belgeyi kural kitabı olarak kullanır.
+Hedef: hedef sorgularda Google'da 1. sıra. Sistem üç katmanlıdır. Hepsi bu belgeyi kural kitabı olarak kullanır.
 
 | Katman | Kim, ne zaman | İş |
 |---|---|---|
-| 1. Veri ve görev | Codex, her gün 10.00 ("Günlük SEO makalesi ve analiz") | Search Console, anahtar kelime takibi, fırsat analizi; günün **tek** görevini yapar ve yayınlar |
-| 2. Kalite kapısı ve rapor | Claude, her gün 11.30 (zamanlanmış görev `bakirci-seo-gunluk-kontrol`) | Codex'in işini claude-blog ölçütleriyle puanlar ve doğrular, sorun varsa düzeltip yayınlar, günlük raporu verir |
+| 1. Yeni içerik | Codex, her gün 10.00 ("Günlük SEO makalesi ve analiz") | Veri ve trend keşfini çalıştırır; her gün yükselen bir aramadan **yeni yazı** yazar ve yayınlar |
+| 2. İyileştirme, kalite kapısı, rapor | Claude, her gün 11.30 (`bakirci-seo-gunluk-kontrol`) | Codex'in yazısını claude-blog ölçütleriyle denetler; günün **iyileştirme** görevini yapar; yayınlar ve raporlar |
 | 3. Derin denetim | Claude, her Pazar 13.00 (`bakirci-seo-haftalik-denetim`) | claude-seo denetimi; bulguları `data/seo/kuyruk.json`'a iş olarak ekler |
 
-Görevi `node scripts/seo/gunluk-gorev.mjs` seçer; Codex kendi seçim yapmaz.
+İki görevi de `node scripts/seo/gunluk-gorev.mjs` seçer; kimse kendi seçim yapmaz. `data/seo/bugun.json` içinde üst düzey alanlar Codex'in görevi, `iyilestirme` alanı Claude'un görevidir.
 
 ## Günlük akış
 
@@ -16,42 +16,50 @@ Görevi `node scripts/seo/gunluk-gorev.mjs` seçer; Codex kendi seçim yapmaz.
    - canlı siteyi denetler;
    - Search Console verisini çeker (anahtar varsa, her gün; son 28 gün, son 7 gün ve önceki 28 gün);
    - anahtar kelime takibini günceller (`scripts/seo/anahtar-kelime.mjs`: sorgu başına sıra, haftalık değişim, içerik boşluğu);
+   - yükselen aramaları keşfeder (`scripts/seo/trend-kesif.mjs`, günde bir);
    - kaynak bağlantılarını kontrol eder (Pazar ya da 7 günde bir);
-   - günün görevini `data/seo/bugun.json` dosyasına yazar.
-2. Çıktıdaki görev bu belgedeki ilgili bölüme göre yapılır.
-3. Kapılardan geçilir. `node scripts/sync-related.mjs` çalıştırılır, ardından `scripts/publish-content.mjs --article <slug> … --dry-run` ve `npm test`. Kapılar geçerse aynı komut `--publish` ile çalıştırılır.
-4. Önceki yayınların canlı durumu `--retry-live` ile kontrol edilir. Canlı doğrulanan adresler IndexNow'a bildirilir.
-5. Kullanıcıya kısa bir sonuç verilir: görev, neden seçildiği, ne değişti, kontroller, GitHub commit'i ve canlı durum.
+   - iki görevi `data/seo/bugun.json` dosyasına yazar.
+2. Codex kendi görevini yapar; kapılardan geçer: `node scripts/sync-related.mjs`, ardından `scripts/publish-content.mjs --article <slug> … --dry-run` ve `npm test`. Kapılar geçerse aynı komut `--publish` ile çalıştırılır. Önceki yayınların canlı durumu `--retry-live` ile kontrol edilir; canlı doğrulanan adresler IndexNow'a bildirilir.
+3. Claude 11.30'da Codex'in yazısını denetler, `iyilestirme` görevini yapar, `npm run verify` ve `npm test` sonrası `scripts/seo/mib-yayinla.mjs` ile yayınlar ve kaynağı `sprint-1`'e commit'ler.
 
-Aynı gün betik tekrar çalışırsa aynı görevi döndürür. Gün içinde ikinci bir içerik yayını yapılmaz; yayın betiği bunu ayrıca engeller.
+Aynı gün betik tekrar çalışırsa aynı görevleri döndürür (`--yeniden` yeniden seçer). Codex günde en fazla bir içerik yayınlar; yayın betiği bunu ayrıca engeller.
 
-## Haftalık takvim
+## Trend keşfi (`scripts/seo/trend-kesif.mjs`)
 
-| Gün | Görev | Search Console verisi yoksa |
-|---|---|---|
-| Pazartesi | `ctr-iyilestirme`, yoksa `sorgu-optimizasyonu` | `yazi-genisletme` |
-| Salı | `yeni-yazi` | |
-| Çarşamba | `yazi-genisletme` | |
-| Perşembe | `yeni-yazi` | |
-| Cuma | `sorgu-optimizasyonu`, yoksa `ctr-iyilestirme` | `yazi-genisletme` |
-| Cumartesi | `yeni-yazi` | |
-| Pazar | `kaynak-onarim`, yoksa az kaynaklı yazıyı genişletme | |
+Sitenin konularındaki ~70 tohum (longevity, beslenme, hareket, uyku, zihin, cilt) için Google otomatik tamamlama önerileri toplanır; her gün 12 tohum soru kalıplarıyla (nedir, belirtileri, faydaları, nasıl…) genişletilir. Google Trends Türkiye günlük listesindeki sağlık başlıkları da eklenir.
+- Ticari (fiyat, marka, eczane, doktor, randevu), şehir ve okul sorguları elenir.
+- Her sorgunun mevcut yazılarla örtüşmesi başlık, açıklama ve alt başlıklardan ölçülür. %60 ve üstü örtüşen sorgu mevcut yazıya, kalanı yeni yazı adayına gider.
+- Puan: öneri sırası, birden çok tohumda görünme, kaç gündür görüldüğü, yeni çıkması (yükselen), Trends'te olması ve bilgi niyeti.
+- Ortak kökü olan karşılıksız sorgular tek konu olarak kümelenir. Çıktı `data/seo/trend-adaylari.json`; geçmiş `trend-gecmis.json`.
+- Daha önce işlenen konu (`gorev-gecmisi.json` `topic`) tekrar verilmez.
 
-Takvimin önüne geçenler, sırasıyla:
-1. Canlı sitede kritik teknik sorun (`teknik-duzeltme`).
-2. Haftalık denetim kuyruğundaki `priority: "yuksek"` iş (`data/seo/kuyruk.json`).
-3. Pazar: kırık kaynak.
+## Codex görevi
 
-Takvim içi ek kurallar:
-- **Çarşamba:** Önce gösterimi önceki 28 güne göre %40'tan fazla düşen sayfa ya da bir haftada 3+ sıra kaybeden sorgunun sayfası tazelenir (`icerik-tazeleme`). Yoksa kısa yazı genişletilir.
-- **Yeni yazı günleri:** Search Console'da karşılığı zayıf bir sorgu (içerik boşluğu) varsa onu hedefler. Sorguyu zaten bir yazı alıyorsa yeni sayfa açılmaz; o yazı sorguya göre güçlendirilir (`sorgu-optimizasyonu`).
-- **Kısa sayfa:** Fırsat sayfası 600 kelimenin altındaysa görev, yazının sorguya göre tam genişletilmesini de içerir.
-- Bir yazıya 30 gün içinde ikinci iyileştirme görevi verilmez.
+1. Canlı sitede kritik teknik sorun varsa `teknik-duzeltme`.
+2. Yoksa her gün `yeni-yazi`: önce haftalık denetim kuyruğundaki yeni yazı işi, yoksa trend keşfinin en yüksek puanlı karşılıksız konusu, o da yoksa `data/content-plan.json` sıradaki aday.
+
+## Claude iyileştirme görevi
+
+Önce haftalık denetim kuyruğundaki `priority: "yuksek"` iş. Yoksa günün ilk fırsat türü, sonra kuyruğun normal öncelikli işi, sonra günün kalan sırası:
+
+| Gün | Sıra |
+|---|---|
+| Pazartesi | düşük CTR → 2–20. sıradaki sorgular → çürüme → içerik boşluğu → kısa yazı |
+| Salı | 2–20. sıra → düşük CTR → içerik boşluğu → çürüme → kısa yazı |
+| Çarşamba | çürüme / düşen sorgu → 2–20. sıra → düşük CTR → içerik boşluğu → kısa yazı |
+| Perşembe | düşük CTR → 2–20. sıra → içerik boşluğu → çürüme → kısa yazı |
+| Cuma | 2–20. sıra → düşük CTR → çürüme → içerik boşluğu → kısa yazı |
+| Cumartesi | içerik boşluğu → 2–20. sıra → düşük CTR → çürüme → kısa yazı |
+| Pazar | kırık kaynak → az kaynaklı yazı → 2–20. sıra → düşük CTR → kısa yazı |
+
+- **Düşük CTR** → `ctr-iyilestirme`; **2–20. sıra** ve **içerik boşluğu** → `sorgu-optimizasyonu`; **çürüme** → `icerik-tazeleme`; **kısa / az kaynaklı yazı** → `yazi-genisletme`.
+- **Kısa sayfa:** Fırsat sayfası 600 kelimenin altındaysa görev, yazının sorguya göre tam genişletilmesini de içerir (`alsoExpand`).
+- Bir yazıya 30 gün içinde ikinci iyileştirme görevi verilmez (CTR için yalnız önceki CTR görevleri sayılır).
 
 ## Görev türleri
 
 ### yeni-yazi
-`docs/daily-content-workflow.md` adımları uygulanır: plandaki ilk tamamlanmamış aday işlenir, gerçek arama niyeti araştırılır, kopya sayfa açılmaz ve yazının kendi kapağı üretilir.
+`docs/daily-content-workflow.md` adımları uygulanır. Konu `bugun.json`'daki trend konusudur (yoksa plandaki ilk tamamlanmamış aday). Ana sorgu ve ilişkili sorgular için Google ilk sayfası incelenir; yazı oradaki her sonuçtan daha eksiksiz ve net olur: ilk paragraf ana soruya doğrudan yanıt, ilişkili sorgular H2/H3 ya da SSS, seoTitle'ın ilk 50 karakterinde ana sorgu. Konu mevcut bir yazıyla çakışıyorsa kopya sayfa açılmaz, o yazı güçlendirilir. Konu kapsam dışı, ticari ya da yönetmeliğe aykırıysa sonraki trend konusuna geçilir. Yazının kendi kapağı üretilir.
 
 ### icerik-tazeleme
 Trafiği ya da sırası düşen yazı (claude-blog `blog-decay` modeli).
@@ -70,7 +78,7 @@ Hedef, **arama niyetini tam karşılayan** bir yazı. Kelime sayısı amaç değ
 6. `date` korunur, `updated` bugünün tarihi olur, `readTime` yeniden hesaplanır.
 
 ### sorgu-optimizasyonu
-Görevde listelenen sorgular sayfada 4–20. sırada çıkıyor. Bu sorguların her biri sayfada **doğrudan ve açık** yanıtlanır:
+Görevde listelenen sorgular sayfada 2–20. sırada çıkıyor; hedef 1. sıra. Bu sorguların her biri sayfada **doğrudan ve açık** yanıtlanır:
 - Eksik soru için H2 ya da H3 eklenir. Soru kalıbı, kullanıcının yazdığı biçime yakın olmalı.
 - Gerekirse ilk paragraf, ana sorguya net bir cevapla yeniden yazılır.
 - Sorgu sayfanın konusu değilse sayfa zorlanmaz. O sorguyu karşılayan sayfaya (varsa) bağlantı verilir ya da içerik planına aday eklenir.

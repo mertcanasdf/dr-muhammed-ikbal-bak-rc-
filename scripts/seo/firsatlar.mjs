@@ -55,10 +55,10 @@ export function computeOpportunities(articles = loadArticles(), raw = readJson(p
   }
 
   if (gsc) {
-    // 1) Vuruş mesafesi: 4–20. sırada, anlamlı gösterimi olan sorgu. Sayfa bu sorguyu daha iyi yanıtlarsa ilk 3'e çıkabilir.
+    // 1) Vuruş mesafesi: 2–20. sırada, anlamlı gösterimi olan sorgu. Sayfa bu sorguyu daha iyi yanıtlarsa 1. sıraya çıkabilir.
     const striking = new Map();
     for (const r of gsc.queryPage) {
-      if (r.position < 4 || r.position > 20 || r.impressions < 15) continue;
+      if (r.position < 1.5 || r.position > 20 || r.impressions < 10) continue;
       const s = striking.get(r.page) ?? { page: r.page, slug: byUrl.get(r.page)?.slug ?? null, score: 0, queries: [] };
       s.score += r.impressions * (21 - r.position) / 17;
       s.queries.push({ query: r.query, position: r.position, impressions: r.impressions, clicks: r.clicks });

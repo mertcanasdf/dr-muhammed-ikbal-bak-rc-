@@ -2,9 +2,11 @@
 //   node scripts/seo/gunluk-gorev.mjs          denetimleri + trend keşfini çalıştırır, görevleri seçer
 //   node scripts/seo/gunluk-gorev.mjs --kuru   ağ işlerini atlar (yalnız seçimi gösterir)
 //
-// 1) Codex (10.00): canlı sitede kritik teknik sorun varsa teknik-duzeltme; yoksa HER GÜN yeni yazı:
-//    haftalık denetim kuyruğundaki yeni-yazi, yoksa trend-kesif.mjs'in en yüksek puanlı karşılıksız konusu.
-// 2) Claude (11.30, iyilestirme alanı): denetim kuyruğunun yüksek öncelikli işi, yoksa güne göre sırayla
+// 1) Codex (günde 5 çalışma): bugun.json "isler" listesi. Kritik teknik sorun varsa ilk iş teknik-duzeltme;
+//    ardından GÜNDE ${DAILY_NEW} YENİ YAZI: haftalık denetim kuyruğundaki yeni-yazi işleri, sonra trend-kesif.mjs'in
+//    en yüksek puanlı karşılıksız konuları (her biri farklı tohumdan; atlananların yerine yedek konular).
+//    Her çalışma tek iş yapar:  --is-al  (sıradakini verir; yarım kalan varsa onu)  ·  --is-bitti SLUG  ·  --is-atla "neden"
+// 2) Claude (19.30, iyilestirme alanı): denetim kuyruğunun yüksek öncelikli işi, yoksa güne göre sırayla
 //    düşük CTR, 2–20. sıradaki sorgular (1. sıra hedefi), çürüme/düşen sorgu, içerik boşluğu, kısa yazı;
 //    Pazar kırık kaynak ve az kaynaklı yazı. Aynı yazıya 30 gün içinde ikinci iyileştirme verilmez.
 // Gün içinde tekrar çalışırsa aynı görevleri döndürür (--yeniden ile yeniden seçer).
@@ -23,9 +25,11 @@ const TODAY_FILE = path.join(DATA, 'bugun.json');
 const HISTORY_FILE = path.join(DATA, 'gorev-gecmisi.json');
 const history = readJson(HISTORY_FILE, []);
 
+const DAILY_NEW = 5;
+const claimMode = ['--is-al', '--is-bitti', '--is-atla'].find((f) => process.argv.includes(f));
 const existing = readJson(TODAY_FILE);
 if (!dry && existing?.day === today && !process.argv.includes('--yeniden')) {
-  print(existing, true);
+  if (claimMode) claim(existing); else print(existing, true);
   process.exit(0);
 }
 
@@ -72,7 +76,7 @@ const realCritical = audit.critical.filter((c) => {
   return !fs.existsSync(path.join(ROOT, 'dist', rel)) && !fs.existsSync(path.join(ROOT, 'dist', `${rel}.html`));
 });
 
-// ---- İyileştirme görevi (Claude, her gün 11.30) ----
+// ---- İyileştirme görevi (Claude, her gün 19.30) ----
 // Hedef 1. sıra: önce tıklanmayan ilk-10 sayfası ve 2–20. sıradaki sorgular; gün, hangisinin önce deneneceğini belirler.
 const pickers = {
   ctr: () => { const low = opp.lowCtr.find((s) => freshCtr(s.slug)); return low && { type: 'ctr-iyilestirme', slug: low.slug, page: low.page, reason: `${low.position}. sırada, ${low.impressions} gösterim, CTR %${(low.ctr * 100).toFixed(1)} (beklenen ~%${(low.expected * 100).toFixed(0)})`, details: low.topQueries }; },
@@ -105,44 +109,74 @@ const qNormal = () => {
   const x = queue.find((q) => !q.done && q.type !== 'yeni-yazi' && (!q.slug || fresh(q.slug)));
   return x && { type: x.type, slug: x.slug, reason: `Haftalık denetim kuyruğu: ${x.reason}`, details: x.details, queueId: x.id };
 };
+// Trend keşfinde, konusu zaten yazılmış yükselen aramalar: yeni sayfa yerine o yazı bu sorgularla güçlendirilir.
+const trendStrengthen = () => {
+  const t = (readJson(path.join(DATA, 'trend-adaylari.json'))?.guclendir ?? []).find((x) => fresh(x.owner));
+  return t && { type: 'sorgu-optimizasyonu', slug: t.owner, reason: `Yükselen aramalar bu yazının konusunda: "${t.topic}" (puan ${t.score}; ${t.queries.length} sorgu). Sayfa bunları yanıtlamıyor.`, details: t.queries.slice(0, 12) };
+};
 const [firstKey, ...restKeys] = ORDER[weekday];
-for (const pick of [pickers[firstKey], qNormal, ...restKeys.map((k) => pickers[k])]) { if (improve) break; improve = pick() || null; }
+for (const pick of [pickers[firstKey], qNormal, trendStrengthen, ...restKeys.map((k) => pickers[k])]) { if (improve) break; improve = pick() || null; }
 if (improve?.slug && !improve.page) improve.page = `https://www.muhammedikbalbakirci.com/blog/${improve.slug}`;
 // Fırsat sayfası kısa yazıysa tek paragraf eklemek yetmez: sorguyu yanıtlarken yazıyı da tam genişlet.
 const thinPage = improve && ['sorgu-optimizasyonu', 'ctr-iyilestirme'].includes(improve.type) && opp.thin.find((t) => t.slug === improve.slug);
 if (thinPage) { improve.reason += ` — sayfa kısa (${thinPage.words} kelime, ${thinPage.sources} kaynak)`; improve.alsoExpand = true; }
 
-// ---- Codex görevi (her gün 10.00): kritik teknik sorun yoksa yükselen aramalardan yeni yazı ----
-let task;
-if (realCritical.length) {
-  task = { type: 'teknik-duzeltme', reason: `Canlı denetimde ${realCritical.length} kritik sorun`, details: realCritical.slice(0, 10) };
-} else {
-  const trends = readJson(path.join(DATA, 'trend-adaylari.json'));
-  const usedTopics = new Set(history.filter((h) => h.topic).map((h) => h.topic.toLocaleLowerCase('tr')));
-  const qNew = queue.find((x) => !x.done && x.type === 'yeni-yazi');
-  const topic = trends?.topics?.find((t) => !usedTopics.has(t.topic.toLocaleLowerCase('tr')) && (t.closest?.coverage ?? 0) < 0.6);
-  task = qNew
-    ? { type: 'yeni-yazi', reason: `Haftalık denetim kuyruğu: ${qNew.reason}`, details: qNew.details, queueId: qNew.id }
-    : topic
-      ? { type: 'yeni-yazi', topic: topic.topic, reason: `Yükselen arama konusu: "${topic.topic}" (puan ${topic.score}${topic.rising ? ', yükseliyor' : ''}; ${topic.queries.length} ilişkili sorgu)`, details: topic.queries.slice(0, 12), closest: topic.closest }
-      : { type: 'yeni-yazi', reason: 'Trend adayı yok: data/content-plan.json sıradaki aday' };
+// ---- Codex işleri: kritik teknik sorun önce, sonra günde DAILY_NEW yeni yazı (+3 yedek konu) ----
+const isler = [];
+if (realCritical.length) isler.push({ type: 'teknik-duzeltme', reason: `Canlı denetimde ${realCritical.length} kritik sorun`, details: realCritical.slice(0, 10) });
+for (const q of queue.filter((x) => !x.done && x.type === 'yeni-yazi')) isler.push({ type: 'yeni-yazi', reason: `Haftalık denetim kuyruğu: ${q.reason}`, details: q.details, queueId: q.id });
+const trends = readJson(path.join(DATA, 'trend-adaylari.json'));
+const usedTopics = new Set(history.filter((h) => h.topic).map((h) => h.topic.toLocaleLowerCase('tr')));
+const usedSeeds = new Set();
+for (const t of trends?.topics ?? []) {
+  if (isler.filter((x) => x.type === 'yeni-yazi').length >= DAILY_NEW + 3) break;
+  // Aynı gün aynı tohumdan iki yazı birbirini yer (yamyamlık); her konu ayrı tohumdan.
+  if (usedTopics.has(t.topic.toLocaleLowerCase('tr')) || (t.closest?.coverage ?? 0) >= 0.6 || usedSeeds.has(t.seed)) continue;
+  usedSeeds.add(t.seed);
+  isler.push({ type: 'yeni-yazi', topic: t.topic, reason: `Yükselen arama konusu: "${t.topic}" (puan ${t.score}${t.rising ? ', yükseliyor' : ''}; ${t.queries.length} ilişkili sorgu)`, details: t.queries.slice(0, 12), closest: t.closest });
 }
+if (!isler.some((x) => x.type === 'yeni-yazi')) isler.push({ type: 'yeni-yazi', reason: 'Trend adayı yok: data/content-plan.json sıradaki aday' });
+isler.forEach((x, i) => { x.no = i + 1; });
 
-const result = { day: today, weekday, ...task, iyilestirme: improve, cannibal: opp.cannibal.slice(0, 3), gsc: opp.gscWindow };
+const result = { day: today, weekday, ...isler[0], isler, iyilestirme: improve, cannibal: opp.cannibal.slice(0, 3), gsc: opp.gscWindow };
 if (!dry) {
   writeJson(TODAY_FILE, result);
-  for (const id of [task.queueId, improve?.queueId].filter(Boolean)) {
-    const item = queue.find((q) => q.id === id);
-    if (item) item.done = today;
+  if (improve?.queueId) {
+    const item = queue.find((q) => q.id === improve.queueId);
+    if (item) { item.done = today; writeJson(QUEUE_FILE, queue); }
   }
-  if (task.queueId || improve?.queueId) writeJson(QUEUE_FILE, queue);
-  history.push({ day: today, type: task.type, slug: task.slug ?? null, topic: task.topic ?? null, by: 'codex' });
   if (improve) history.push({ day: today, type: improve.type, slug: improve.slug ?? null, by: 'claude' });
   writeJson(HISTORY_FILE, history.slice(-400));
 }
-print(result, false);
+if (claimMode && !dry) claim(result);
+else print(result, false);
 
-function print(t, repeated) {
+// Codex çalışmasının işi: sıradaki işi "yaziliyor" yapar; bitince tamam/atlandı olarak kapatır ve geçmişe yazar.
+function claim(t) {
+  const list = t.isler ?? [];
+  const active = list.find((x) => x.durum === 'yaziliyor');
+  const doneNew = list.filter((x) => x.type === 'yeni-yazi' && x.durum === 'tamam').length;
+  if (claimMode === '--is-al') {
+    const next = active ?? (doneNew < DAILY_NEW ? list.find((x) => !x.durum) : null);
+    if (!next) { console.log(`Bugünün işleri bitti (${doneNew}/${DAILY_NEW} yeni yazı). Bu çalışmada yeni içerik yok.`); return; }
+    if (!active) { next.durum = 'yaziliyor'; next.basladi = new Date().toISOString(); writeJson(TODAY_FILE, t); }
+    console.log(`\n=== İŞ ${next.no} (${t.day}; yeni yazı ${doneNew}/${DAILY_NEW})${active ? ' — yarım kalan iş, devam et' : ''} ===`);
+    print({ ...next, day: t.day }, false, true);
+    console.log(`Bitince: node scripts/seo/gunluk-gorev.mjs --is-bitti SLUG   ·   Konu uygun değilse: --is-atla "neden" ve --is-al ile sıradakine geç`);
+    return;
+  }
+  if (!active) throw new Error('"yaziliyor" durumunda iş yok; önce --is-al');
+  const arg = process.argv[process.argv.indexOf(claimMode) + 1];
+  active.durum = claimMode === '--is-bitti' ? 'tamam' : 'atlandi';
+  if (claimMode === '--is-bitti') active.slug = arg ?? null; else active.neden = arg ?? '';
+  active.bitti = new Date().toISOString();
+  writeJson(TODAY_FILE, t);
+  history.push({ day: t.day, type: active.type, slug: active.slug ?? null, topic: active.topic ?? null, by: 'codex', durum: active.durum });
+  writeJson(HISTORY_FILE, history.slice(-400));
+  console.log(`İş ${active.no} ${active.durum}${active.slug ? `: ${active.slug}` : ''}.`);
+}
+
+function print(t, repeated, single = false) {
   const steps = {
     'teknik-duzeltme': 'Kritik teknik sorunu kaynakta düzelt; npm run verify geçsin; yayın betiğiyle gönder.',
     'kaynak-onarim': 'Kırık kaynakları aynı kurumun güncel sayfasıyla ya da eşdeğer güvenilir kaynakla değiştir; bulunamazsa ilgili cümleyi kaynaklı biçimde yeniden yaz.',
@@ -152,15 +186,20 @@ function print(t, repeated) {
     'yazi-genisletme': 'Yazıyı 900–1.400 kelimeye kadar GERÇEK bilgiyle genişlet: arama niyeti analizi, okunmuş en az 3 güncel kurum/kılavuz/araştırma kaynağı, SSS, kontrol listesi. Tarih korunur, updated bugün.',
     'yeni-yazi': 'Konu yukarıda (yükselen arama). Google\'da bu sorguların ilk sayfasını incele, arama niyetini karşılayan özgün ve kaynaklı yazıyı docs/daily-content-workflow.md adımlarıyla yaz; ilişkili sorguları alt başlık/SSS olarak yanıtla; mevcut yazıyla çakışıyorsa yeni sayfa açma, o yazıyı güçlendir. Kendi kapağı üretilir.',
   };
-  console.log(`\n=== BUGÜNÜN SEO GÖREVİ (${t.day})${repeated ? ' — daha önce seçildi' : ''} ===`);
+  if (!single) console.log(`\n=== BUGÜNÜN SEO GÖREVİ (${t.day})${repeated ? ' — daha önce seçildi' : ''} ===`);
+  if (!single && t.isler?.length) {
+    console.log(`Codex işleri (${t.isler.length}; günde ${DAILY_NEW} yeni yazı; her çalışmada --is-al ile biri alınır):`);
+    for (const x of t.isler) console.log(`  ${x.no}. [${x.durum ?? 'bekliyor'}] ${x.type}${x.topic ? `: ${x.topic}` : ''}${x.slug ? ` → ${x.slug}` : ''}`);
+    console.log('İlk iş:');
+  }
   console.log(`Görev : ${t.type}${t.slug ? `  →  ${t.slug}` : ''}`);
   console.log(`Neden : ${t.reason}`);
   if (t.details?.length) console.log('Ayrıntı:\n' + t.details.map((d) => '  - ' + (typeof d === 'string' ? d : JSON.stringify(d))).join('\n'));
   console.log(`Yapılacak: ${steps[t.type]}`);
   if (t.type === 'yeni-yazi' && t.details?.length) console.log('İlişkili sorgular (yazı bunları yanıtlamalı): ' + t.details.join(' | '));
-  if (t.iyilestirme) {
+  if (!single && t.iyilestirme) {
     const i = t.iyilestirme;
-    console.log(`\n--- İYİLEŞTİRME (Claude, 11.30) ---\nGörev : ${i.type}${i.slug ? `  →  ${i.slug}` : ''}\nNeden : ${i.reason}`);
+    console.log(`\n--- İYİLEŞTİRME (Claude, 19.30) ---\nGörev : ${i.type}${i.slug ? `  →  ${i.slug}` : ''}\nNeden : ${i.reason}`);
     if (i.details?.length) console.log('Ayrıntı: ' + i.details.map((d) => (typeof d === 'string' ? d : JSON.stringify(d))).join(' | '));
   }
   if (t.alsoExpand) console.log(`Ayrıca : Sayfa kısa; ${steps['yazi-genisletme']} Sorgu bu yazının ana konusuysa genişletme sorguya göre kurgulanır.`);

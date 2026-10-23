@@ -1,10 +1,10 @@
 # Günlük makale ve analiz akışı
 
-**Saat:** Her gün 10.00, Türkiye saati. **Hedef:** `mertcanasdf/mib-site` reposunun `main` dalı. **Canlıya alma:** Veridyen sunucusu `mib-site` main dalını 15 dakikada bir çeker (cron); elle işlem gerekmez.
+**Saat:** Günde 5 çalışma (09, 11, 13, 15, 17), Türkiye saati; her çalışma bir yazı. **Hedef:** `mertcanasdf/mib-site` reposunun `main` dalı. **Canlıya alma:** Veridyen sunucusu `mib-site` main dalını 15 dakikada bir çeker (cron); elle işlem gerekmez.
 
 ## Günlük iş
 
-0. **Önce** `node scripts/seo/gunluk-gorev.mjs` çalıştırılır ve çıktıdaki Codex görevi yapılır (kurallar: `docs/seo-otomasyon.md`; `iyilestirme` bölümü Claude'undur). Kritik teknik sorun yoksa görev her gün `yeni-yazi`dır ve konu ile ilişkili sorgular `data/seo/bugun.json` içindedir. Aşağıdaki adımlar görev `yeni-yazi` olduğunda uygulanır; diğer görevlerde de 7–10. adımlar (kapılar, yayın, canlı kontrol, bildirim) aynıdır.
+0. **Önce** `node scripts/seo/gunluk-gorev.mjs` çalıştırılır ve çıktıdaki Codex görevi yapılır (kurallar: `docs/seo-otomasyon.md`; `iyilestirme` bölümü Claude'undur). Codex günde 5 kez çalışır; her çalışmada `node scripts/seo/gunluk-gorev.mjs --is-al` tek iş verir (kritik teknik sorun yoksa `yeni-yazi`; konu ve ilişkili sorgular çıktıdadır), iş bitince `--is-bitti SLUG`. Aşağıdaki adımlar görev `yeni-yazi` olduğunda uygulanır; diğer görevlerde de 7–10. adımlar (kapılar, yayın, canlı kontrol, bildirim) aynıdır.
 1. `data/content-plan.json` ve `data/content-automation-state.json` okunur. Aynı gün ikinci içerik gönderilmez.
 2. Sıradaki aday soru canlı aramada araştırılır. Sorgu, görülen URL'ler, tarih, niyet ve mevcut siteyle çakışma kaydedilir. Hacim, CPC veya Google konumuna erişim yoksa boş bırakılır.
 3. Aynı soru mevcut bir yazıda karşılanıyorsa o yazı esaslı biçimde geliştirilir. Ayrı kullanıcı işi varsa yeni URL açılır. Yeni Bursa/ilçe kopyaları üretilmez.
@@ -37,4 +37,4 @@ Codex yerel otomasyonu bilgisayar/Codex çalışma ortamına bağlıdır. Kapal�
 
 ## Hazır taslakların kullanımı
 
-`data/content-plan.json` içindeki `draftPath` varsa o taslak başlangıç olarak kullanılır. Kaynaklar ve arama niyeti o gün yeniden kontrol edilir; aynı soruya ikinci yazı üretilmez. Yayınlanmamış taslakların tarihi ilk gerçek üretim gününe ayarlanır. Yayın kaydı olan yazının ilk tarihi korunur. Günlük görev en fazla bir içerik gönderir; önceki toplu üretim isteği günlük çalışmada batch sınırını aşmak için kullanılmaz.
+`data/content-plan.json` içindeki `draftPath` varsa o taslak başlangıç olarak kullanılır. Kaynaklar ve arama niyeti o gün yeniden kontrol edilir; aynı soruya ikinci yazı üretilmez. Yayınlanmamış taslakların tarihi ilk gerçek üretim gününe ayarlanır. Yayın kaydı olan yazının ilk tarihi korunur. Her çalışma en fazla bir içerik gönderir (günde en fazla 5 yeni yazı + 1 teknik düzeltme); önceki toplu üretim isteği günlük çalışmada batch sınırını aşmak için kullanılmaz.

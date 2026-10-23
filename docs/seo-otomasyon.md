@@ -4,11 +4,19 @@ Hedef: hedef sorgularda Google'da 1. sıra. Sistem üç katmanlıdır. Hepsi bu 
 
 | Katman | Kim, ne zaman | İş |
 |---|---|---|
-| 1. Yeni içerik | Codex, her gün 10.00 ("Günlük SEO makalesi ve analiz") | Veri ve trend keşfini çalıştırır; her gün yükselen bir aramadan **yeni yazı** yazar ve yayınlar |
-| 2. İyileştirme, kalite kapısı, rapor | Claude, her gün 11.30 (`bakirci-seo-gunluk-kontrol`) | Codex'in yazısını claude-blog ölçütleriyle denetler; günün **iyileştirme** görevini yapar; yayınlar ve raporlar |
+| 1. Yeni içerik | Codex, günde 5 çalışma: 09, 11, 13, 15, 17 ("Günlük SEO makalesi ve analiz") | Veri ve trend keşfini çalıştırır; her çalışmada yükselen bir aramadan **bir yeni yazı** yazar ve yayınlar (günde 5) |
+| 2. İyileştirme, kalite kapısı, rapor | Claude, her gün 19.30 (`bakirci-seo-gunluk-kontrol`) | Günün yazılarını claude-blog ölçütleriyle denetler; günün **iyileştirme** görevini yapar; yayınlar ve raporlar |
 | 3. Derin denetim | Claude, her Pazar 13.00 (`bakirci-seo-haftalik-denetim`) | claude-seo denetimi; bulguları `data/seo/kuyruk.json`'a iş olarak ekler |
 
-İki görevi de `node scripts/seo/gunluk-gorev.mjs` seçer; kimse kendi seçim yapmaz. `data/seo/bugun.json` içinde üst düzey alanlar Codex'in görevi, `iyilestirme` alanı Claude'un görevidir.
+Görevleri `node scripts/seo/gunluk-gorev.mjs` seçer; kimse kendi seçim yapmaz. `data/seo/bugun.json` içinde `isler` listesi Codex'in işleri, `iyilestirme` alanı Claude'un görevidir.
+
+Codex her çalışmada:
+- `node scripts/seo/gunluk-gorev.mjs --is-al`: sıradaki işi `yaziliyor` yapar ve gösterir; yarım kalan iş varsa onu verir.
+- `--is-bitti SLUG`: işi `tamam` olarak kapatır ve geçmişe yazar.
+- `--is-atla "neden"`: konu ilk sayfa incelemesinde uygun değilse işi atlar; ardından `--is-al` sıradakini (yedek konuları da) verir.
+- 5 yeni yazı tamamlanınca `--is-al` "Bugünün işleri bitti" der; o çalışma içerik üretmez.
+
+Günde beş yazı kaliteden ödün vermek değildir. Google'ın ölçekli içerik politikası, aramada değer katmayan seri sayfaları sitenin tamamı için cezalandırabilir. Her yazı tek başına ilk sayfadaki en iyi sonuçtan daha yararlı olmalı; kalıp giriş, aynı iskelet ve dolgu yasaktır. Claude akşam kapısında aynı günün yazılarını bu açıdan da karşılaştırır.
 
 ## Günlük akış
 
@@ -20,9 +28,9 @@ Hedef: hedef sorgularda Google'da 1. sıra. Sistem üç katmanlıdır. Hepsi bu 
    - kaynak bağlantılarını kontrol eder (Pazar ya da 7 günde bir);
    - iki görevi `data/seo/bugun.json` dosyasına yazar.
 2. Codex kendi görevini yapar; kapılardan geçer: `node scripts/sync-related.mjs`, ardından `scripts/publish-content.mjs --article <slug> … --dry-run` ve `npm test`. Kapılar geçerse aynı komut `--publish` ile çalıştırılır. Önceki yayınların canlı durumu `--retry-live` ile kontrol edilir; canlı doğrulanan adresler IndexNow'a bildirilir.
-3. Claude 11.30'da Codex'in yazısını denetler, `iyilestirme` görevini yapar, `npm run verify` ve `npm test` sonrası `scripts/seo/mib-yayinla.mjs` ile yayınlar ve kaynağı `sprint-1`'e commit'ler.
+3. Claude 19.30'da günün yazılarını denetler, `iyilestirme` görevini yapar, `npm run verify` ve `npm test` sonrası `scripts/seo/mib-yayinla.mjs` ile yayınlar ve kaynağı `sprint-1`'e commit'ler.
 
-Aynı gün betik tekrar çalışırsa aynı görevleri döndürür (`--yeniden` yeniden seçer). Codex günde en fazla bir içerik yayınlar; yayın betiği bunu ayrıca engeller.
+Aynı gün betik tekrar çalışırsa aynı görevleri döndürür (`--yeniden` yeniden seçer). Yayın betiği günde en fazla 6 içerik yayınına izin verir (5 yeni yazı + 1 teknik düzeltme).
 
 ## Trend keşfi (`scripts/seo/trend-kesif.mjs`)
 
@@ -30,17 +38,19 @@ Sitenin konularındaki ~70 tohum (longevity, beslenme, hareket, uyku, zihin, cil
 - Ticari (fiyat, marka, eczane, doktor, randevu), şehir ve okul sorguları elenir.
 - Her sorgunun mevcut yazılarla örtüşmesi başlık, açıklama ve alt başlıklardan ölçülür. %60 ve üstü örtüşen sorgu mevcut yazıya, kalanı yeni yazı adayına gider.
 - Puan: öneri sırası, birden çok tohumda görünme, kaç gündür görüldüğü, yeni çıkması (yükselen), Trends'te olması ve bilgi niyeti.
-- Ortak kökü olan karşılıksız sorgular tek konu olarak kümelenir. Çıktı `data/seo/trend-adaylari.json`; geçmiş `trend-gecmis.json`.
+- Ürün (krem, tablet, serum…) ve kültür sorguları (kitap, şarkı, "ne zaman yazıldı") elenir; yeni yazı konusu yalnız bilgi niyetli sorgudan (nedir, belirtileri, nasıl…) doğar.
+- Ortak kökü olan karşılıksız sorgular tek konu olarak kümelenir.
+- Tohumun kendi yazısı zaten varsa (ör. "magnezyum" → `magnezyum-eksikligi`) o tohumdaki sorgular yeni sayfa açmaz; ikinci sayfa ilkiyle aynı aramalarda yarışır. Bunlar `guclendir` listesine gider ve Claude'un iyileştirme sırasına girer. Çıktı `data/seo/trend-adaylari.json`; geçmiş `trend-gecmis.json`.
 - Daha önce işlenen konu (`gorev-gecmisi.json` `topic`) tekrar verilmez.
 
 ## Codex görevi
 
 1. Canlı sitede kritik teknik sorun varsa `teknik-duzeltme`.
-2. Yoksa her gün `yeni-yazi`: önce haftalık denetim kuyruğundaki yeni yazı işi, yoksa trend keşfinin en yüksek puanlı karşılıksız konusu, o da yoksa `data/content-plan.json` sıradaki aday.
+2. Ardından günde 5 `yeni-yazi`: önce haftalık denetim kuyruğundaki yeni yazı işleri, sonra trend keşfinin en yüksek puanlı karşılıksız konuları. Aynı gün her konu farklı tohumdan seçilir; atlananların yerine 3 yedek konu vardır. Trend konusu yoksa `data/content-plan.json` sıradaki aday.
 
 ## Claude iyileştirme görevi
 
-Önce haftalık denetim kuyruğundaki `priority: "yuksek"` iş. Yoksa günün ilk fırsat türü, sonra kuyruğun normal öncelikli işi, sonra günün kalan sırası:
+Önce haftalık denetim kuyruğundaki `priority: "yuksek"` iş. Yoksa günün ilk fırsat türü, sonra kuyruğun normal öncelikli işi, sonra trend keşfinin `guclendir` listesi (konusu zaten yazılmış yükselen aramalar), sonra günün kalan sırası:
 
 | Gün | Sıra |
 |---|---|
@@ -142,7 +152,7 @@ Anahtar yoksa betik "atlandı" der. Otomasyon çalışmaya devam eder, yalnızca
 | `data/seo/gorev-gecmisi.json` | Hangi gün hangi görev, hangi yazı | ✔ |
 | `data/seo/*.json` (diğerleri) | Search Console verisi ve önbellekler | ✘ (repo herkese açık) |
 
-## Claude kalite kapısı (her gün 11.30)
+## Claude kalite kapısı (her gün 19.30)
 
 Codex'in o günkü değişikliği yayından önce değil, **yayından sonra** denetlenir. Sunucu yeni sürümü 15 dakika içinde çeker; sorun bulunursa düzeltme aynı gün yayınlanır.
 

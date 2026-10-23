@@ -26,7 +26,9 @@ const MODIFIERS = ['nedir', 'ne işe yarar', 'faydaları', 'belirtileri', 'nası
 const MODIFIER_SEEDS_PER_DAY = 12; // kotayı yormamak için soru kalıpları her gün farklı 12 tohumda
 
 // Mevzuat ve niyet filtresi: ticari, hizmet, konum, marka, eğlence ve sağlık dışı aramalar.
-const EXCLUDE = /fiyat|ücret|eczane|satın|indirim|marka|markalar|en iyi|en ucuz|doktor|doktoru|klinik|hastane|randevu|yorum|şikayet|önce[- ]?sonra|bursa|istanbul|ankara|izmir|antalya|ekşi|film|izle|dizi|şarkı|masal|dua|tulum|jelibon|oyun|hap fiyat|ocean|solgar|orzax|voonka|nutraxin|venatura|zade|garnier|nivea|la roche|cerave|bioderma|loreal|neutrogena|vichy|avene|eucerin|sinoz|uykucu|uykuluk|kaç tl|sınıf|ders|ödev|konu anlatımı|test soruları|pdf|slayt|sunum|ingilizce|nedir kısaca 5/i;
+const EXCLUDE = /fiyat|ücret|eczane|satın|indirim|marka|markalar|en iyi|en ucuz|doktor|doktoru|klinik|hastane|randevu|yorum|şikayet|önce[- ]?sonra|bursa|istanbul|ankara|izmir|antalya|ekşi|film|izle|dizi|şarkı|masal|dua|tulum|jelibon|oyun|hap fiyat|ocean|solgar|orzax|voonka|nutraxin|venatura|zade|garnier|nivea|la roche|cerave|bioderma|loreal|neutrogena|vichy|avene|eucerin|sinoz|uykucu|uykuluk|kaç tl|sınıf|ders|ödev|konu anlatımı|test soruları|pdf|slayt|sunum|ingilizce|nedir kısaca 5|yazılır|yazilir|senfoni|müziği|muzigi|sözleri|sozleri|şiir|siir|çıkarıcı|cikarici|yazıldı|yazildi|çıktı|cikti|kitap|kitabı|roman|yazarı|albüm|album|mimarlık|mimarlik|tasarım|tasarim|bilir misin|anlamı|anlami|yüzyıllık|nobel|ödülü|odulu|şarkıcı|sarkici/i;
+// Ürün arayan sorgu (yazıyla değil mağazayla karşılanır): "retinol krem", "magnezyum tablet".
+const PRODUCT = /\b(krem|kremi|kremler|kremleri|serum|serumu|tablet|şurup|surup|sprey|jel)$/i;
 const INFO = /nedir|ne demek|ne işe yarar|faydaları|faydası|belirti|nasıl|ne zaman|neden|zararları|yan etki|eksikliği|fazlalığı|hangi|kaç|nelerde|içeren|nelerdir|ne kadar|düzeyi|normal|testi|egzersiz|beslenme|diyet|önlem|tedavi|etkisi/i;
 const HEALTH = /sağlık|vitamin|uyku|stres|cilt|diyet|egzersiz|kalp|şeker|kolesterol|yaşlan|beslenme|mineral|omega|protein|kas|kemik|bağışıklık|grip|virüs|hastalı|ağrı|tansiyon|obez|kilo/i;
 
@@ -99,7 +101,7 @@ export async function discover() {
 
   const candidates = [];
   for (const o of found.values()) {
-    if (EXCLUDE.test(o.query)) continue;
+    if (EXCLUDE.test(o.query) || PRODUCT.test(o.query)) continue;
     const qt = tokens(o.query);
     if (qt.length < 2) continue;
     let best = null;
@@ -132,19 +134,28 @@ export async function discover() {
   }
   candidates.sort((a, b) => b.score - a.score);
 
+  // Tohumun kendi yazısı varsa (başlık ya da adres tohumu içeriyor) o tohumdaki karşılıksız sorgular yeni sayfa açmaz:
+  // ikinci sayfa aynı aramalarda ilk yazıyla yarışır. Bu sorgular o yazının güçlendirilmesine gider.
+  const ownerOf = (seed) => {
+    const f = fold(seed);
+    return articles.find((a) => fold(a.title).includes(f) || a.slug.includes(f.replace(/ /g, '-')))?.slug ?? null;
+  };
   // Konu kümeleri: aynı tohumda, tohum dışındaki anlamlı kökleri ortak olan karşılıksız sorgular tek yazı konusudur.
   const topics = [];
-  for (const c of candidates.filter((x) => x.action === 'yeni-yazi')) {
+  // Yeni yazı konusu yalnız bilgi niyetli sorgudan doğar (nedir, belirtileri, nasıl…); "dijital detoks kitap" gibi sorgular konu açmaz.
+  for (const c of candidates.filter((x) => x.action === 'yeni-yazi' && x.info)) {
     const seed = c.seeds[0];
     const core = new Set(tokens(c.query).map(stem).filter((t) => !tokens(seed).map(stem).includes(t) && !GENERIC.has(t)));
     // Genel kelime dışında ortak kök yoksa (yalnız "X belirtileri" gibi) tohumun genel kümesine girer.
     const t = topics.find((x) => x.seed === seed && (core.size ? [...core].some((k) => x.core.has(k)) : x.core.size === 0));
     if (t) { t.queries.push(c.query); t.score += Math.round(c.score / 4); t.rising ||= c.rising; core.forEach((k) => t.core.add(k)); }
-    else topics.push({ topic: c.query, seed, score: c.score, rising: c.rising, closest: c.closest, queries: [c.query], core });
+    else topics.push({ topic: c.query, seed, score: c.score, rising: c.rising, closest: c.closest, owner: ownerOf(seed), queries: [c.query], core });
   }
   topics.forEach((t) => delete t.core);
   topics.sort((a, b) => b.score - a.score);
-  const out = { day: today, trackingDays, queriesAsked: queries.length, suggestions: found.size, trendingHealth: trending, topics: topics.slice(0, 60), candidates };
+  const strengthen = topics.filter((t) => t.owner);
+  topics.splice(0, topics.length, ...topics.filter((t) => !t.owner));
+  const out = { day: today, trackingDays, queriesAsked: queries.length, suggestions: found.size, trendingHealth: trending, topics: topics.slice(0, 60), guclendir: strengthen.slice(0, 30), candidates };
   writeJson(path.join(DATA, 'trend-adaylari.json'), out);
   return out;
 }

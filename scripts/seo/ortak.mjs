@@ -10,7 +10,7 @@ export const GSC_PROPERTY = 'sc-domain:muhammedikbalbakirci.com';
 export const DATA = path.join(ROOT, 'data/seo');
 fs.mkdirSync(DATA, { recursive: true });
 
-/** Türkiye saatine göre YYYY-MM-DD (Codex 10.00'da çalışır; UTC gün kaymasın). */
+/** Türkiye saatine göre YYYY-MM-DD (Codex sabahtan akşama çalışır; UTC gün kaymasın). */
 export const trDay = (d = new Date()) =>
   new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Istanbul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
 /** 1 = Pazartesi … 7 = Pazar, Türkiye saatine göre. */

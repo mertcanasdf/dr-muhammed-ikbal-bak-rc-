@@ -18,6 +18,7 @@ const gitEnv = { ...process.env };
 for (const key of ['GIT_DIR', 'GIT_WORK_TREE', 'GIT_INDEX_FILE', 'GIT_PREFIX', 'GIT_COMMON_DIR']) delete gitEnv[key];
 let options;
 let report;
+const DAILY_MAX = 6;
 let lockPath;
 let lockOwned = false;
 let state;
@@ -284,7 +285,8 @@ async function main() {
     const priorBatch = options.slugs.map((slug) => state.publications.findLast((p) => p.slug === slug && p.batchId === options.batchId && p.batchSha256 === batchSha256 && p.pushedAt));
     if (priorBatch.every(Boolean)) { report.priorPush = true; report.commit = priorBatch[0].commit; await finishPublications(priorBatch); return; }
   }
-  if (today.length && !options.batchId) throw new Error(`Türkiye günü ${report.day} için bir içerik zaten push edildi (${today[0].slug}); ikinci yayın/güncelleme durduruldu`);
+  // Günlük düzen: en fazla 5 yeni yazı + 1 teknik düzeltme (docs/seo-otomasyon.md).
+  if (today.length >= DAILY_MAX && !options.batchId) throw new Error(`Türkiye günü ${report.day} için ${today.length} içerik zaten push edildi; günlük sınır ${DAILY_MAX}, yeni yayın durduruldu`);
   if (fs.realpathSync(git(['rev-parse', '--show-toplevel'])) !== options.repo) throw new Error('--publish-repo Git çalışma ağacının tam kökü olmalı');
   if (git(['branch', '--show-current']) !== 'main') throw new Error('Yayın clone main dalında olmalı');
   const remoteUrl = git(['remote', 'get-url', 'origin']);

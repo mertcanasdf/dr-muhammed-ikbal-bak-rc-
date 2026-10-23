@@ -1,9 +1,9 @@
 ---
 title: "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik"
-seoTitle: "D3 ve K2 Birlikte Kullanılır mı? Gereklilik ve Güvenlik"
+seoTitle: "D3 K2 Vitamini Birlikte Alınır mı? Faydası ve Riskleri"
 date: 2026-09-15
 updated: 2026-10-16
-description: "D3 ve K2 birlikte kullanmak gerekli mi? Kanıtların sınırlarını, warfarin etkileşimini ve takviye etiketinde kontrol edilecek bilgileri öğrenin."
+description: "D3 K2 vitamini birlikte alınır mı, ne işe yarar? K2'nin damar ve kemikle ilgili kanıtlarını, warfarin etkileşimini ve etikette bakılacakları öğrenin."
 category: "Beslenme"
 image: "/assets/images/generated/articles/d3-k2-birlikte-kullanilir-mi.webp"
 readTime: "5 dk"
@@ -23,7 +23,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/magnezyum-eksikligi.webp"
   - slug: "omega-3-ne-ise-yarar"
     category: "Beslenme"
-    title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
+    title: "Omega-3 Nedir, Ne İşe Yarar? Faydaları ve Kaynakları"
     image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
 ---
 

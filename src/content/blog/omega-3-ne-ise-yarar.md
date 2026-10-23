@@ -1,9 +1,9 @@
 ---
-title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
-seoTitle: "Omega-3 Ne İşe Yarar? Faydaları, Besinler ve Etiket Okuma"
+title: "Omega-3 Nedir, Ne İşe Yarar? Faydaları ve Kaynakları"
+seoTitle: "Omega 3 Nedir, Ne İşe Yarar? Faydaları ve Kaynakları"
 date: 2026-09-15
-updated: 2026-10-12
-description: "Omega-3 ne işe yarar? ALA, EPA ve DHA farkını, besin kaynaklarını, balık yağı etiketindeki miktarları ve takviye güvenliğini örneklerle öğrenin."
+updated: 2026-10-23
+description: "Omega 3 nedir, ne işe yarar? Kalp, beyin ve göz için kanıtlar, omega 3 içeren balık ve bitkiler, EPA-DHA farkı ve takviye alırken dikkat edilecekler."
 category: "Beslenme"
 image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
 readTime: "5 dk"
@@ -27,9 +27,11 @@ relatedArticles:
     image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
 ---
 
-Omega-3, hücre zarlarında görev yapan bir yağ asidi ailesidir; bitkisel ALA ile deniz kaynaklı EPA ve DHA aynı şey değildir. EPA ve DHA kandaki trigliseridleri düşürebilir, ancak bundan her omega-3 kapsülünün herkeste kalp krizini önleyeceği sonucu çıkmaz. Besin seçimi, kullanım amacı ve takviyenin içeriği birlikte değerlendirilmelidir.
+Omega-3, vücudun yeterince üretemediği ve besinlerle alınması gereken yağ asitlerinin ortak adıdır. Üç ana türü vardır: ceviz, keten tohumu ve chia gibi bitkisel kaynaklardaki ALA ile somon, sardalya ve uskumru gibi yağlı balıklardaki EPA ve DHA.
 
-## ALA, EPA ve DHA arasındaki fark
+Ne işe yaradığının kısa cevabı: omega-3 hücre zarlarının yapısına katılır; DHA beyinde ve gözün retinasında yoğun olarak bulunur; EPA ve DHA kandaki trigliseridi düşürür. Takviyenin kalp krizi riskini, hafızayı ya da göz kuruluğunu iyileştirip iyileştirmediği konusundaki araştırma sonuçları ise karışıktır. Aşağıda hangi faydanın ne kadar kanıtlandığını, omega-3'ün hangi besinlerde bulunduğunu ve takviye alırken neye bakılacağını bulabilirsiniz.
+
+## Omega-3 nedir? ALA, EPA ve DHA farkı
 
 ALA besinlerden alınması gereken temel bir yağ asididir. Vücut bunu EPA ve DHA'ya çevirebilir, fakat dönüşüm sınırlıdır. Dolayısıyla ceviz yemekle belirli miktarda EPA ve DHA almak eşdeğer kabul edilmez. [NIH ODS tüketici bilgi formu](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/) bu ayrımı açıklar.
 
@@ -49,7 +51,7 @@ Somon, sardalya ve uskumru yağlı balık örnekleridir. Ceviz ve tohumlar ise b
 
 Pratik bir başlangıç, son haftayı hatırlayıp kısa bir kayıt tutmaktır: Balık yenildi mi, hangi türdü, nasıl hazırlandı; ceviz veya tohum gibi kaynaklar var mıydı? Bu kayıt yeterlilik tanısı koymaz. Görüşmede beslenme alışkanlığını belirsiz bir “sağlıklı yiyorum” ifadesinden daha somut anlatmaya yardımcı olur.
 
-## Omega-3 faydaları: hangi sonuç ölçülüyor?
+## Omega-3 faydaları nelerdir? Kanıt ne diyor?
 
 **Trigliserid:** EPA ve DHA'nın kandaki bu yağ türünü düşürmesi desteklenen bir etkidir. Bununla birlikte, çok yüksek trigliserid için kullanılan reçeteli omega-3 ürünleriyle markette satılan takviyeler eşdeğer değildir. İçerikleri, inceleme süreçleri ve kullanım amaçları farklı olabilir. [NCCIH'nin kanıt özeti](https://www.nccih.nih.gov/health/omega3-supplements-what-you-need-to-know) bu farkı özellikle vurgular.
 

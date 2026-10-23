@@ -1,9 +1,9 @@
 ---
 title: "Kitap Okumak Beyni ve Bilişsel Yaşlanmayı Nasıl Etkiler?"
-seoTitle: "Kitap Okumak Beyni Nasıl Etkiler? Kanıtlar ve Sınırlar"
+seoTitle: "Kitap Okumanın Beyne Faydaları: Okurken Beyinde Ne Olur?"
 date: 2026-06-21
 updated: 2026-10-09
-description: "Kitap okumak beyni nasıl etkiler? Empati, bellek ve demans araştırmalarını kanıt sınırlarıyla okuyun; günlük okuma notu ve değerlendirme işaretlerini öğrenin."
+description: "Kitap okumanın beyne faydaları neler, okurken beyinde ne olur? Bellek, empati ve demans riskiyle ilgili araştırmaların gerçekte ne gösterdiğini okuyun."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/kitap-okuma-ve-beyin.webp"
 readTime: "5 dk"

@@ -24,7 +24,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/magnezyum-eksikligi.webp"
   - slug: "omega-3-ne-ise-yarar"
     category: "Beslenme"
-    title: "Omega-3 Ne İşe Yarar? Besinler, Takviyeler ve Güvenlik"
+    title: "Omega-3 Nedir, Ne İşe Yarar? Faydaları ve Kaynakları"
     image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
 ---
 

@@ -240,5 +240,25 @@
     "beforeWords": 288,
     "afterWords": 913,
     "completedAt": "2026-10-22T07:12:10.963Z"
+  },
+  {
+    "day": "2026-10-23",
+    "type": "yeni-yazi",
+    "slug": "probiyotik-eksikligi-belirtileri",
+    "topic": "probiyotik eksikliği belirtileri",
+    "by": "codex",
+    "status": "completed",
+    "action": "new",
+    "commit": "3b19fd98e3e3a95956a8d54a543bc298029eb3f2",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-23\\research.json",
+    "wordCount": 1199,
+    "completedAt": "2026-10-23T07:13:48.944Z"
+  },
+  {
+    "day": "2026-10-23",
+    "type": "yazi-genisletme",
+    "slug": "dijital-tukenmislik",
+    "by": "claude"
   }
 ]

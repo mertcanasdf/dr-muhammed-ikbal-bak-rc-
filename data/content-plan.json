@@ -1299,6 +1299,36 @@
       "searchVolume": null,
       "CPC": null,
       "difficulty": null
+    },
+    {
+      "id": "automation-2026-10-23-probiyotik-eksikligi-belirtileri",
+      "slug": "probiyotik-eksikligi-belirtileri",
+      "keyword": "probiyotik eksikliği belirtileri",
+      "title": "Probiyotik Eksikliği Belirtileri: Nasıl Yorumlanmalı?",
+      "category": "Beslenme",
+      "hub": "/longevity/beslenme",
+      "action": "new",
+      "taskType": "yeni-yazi",
+      "plannedDate": "2026-10-23",
+      "status": "completed",
+      "commit": "3b19fd98e3e3a95956a8d54a543bc298029eb3f2",
+      "publicationDay": "2026-10-23",
+      "publicationStatus": "pushed_waiting_manual_pull",
+      "publishedSlug": "probiyotik-eksikligi-belirtileri",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-23\\research.json",
+      "researchStatus": "researched_new_article_written",
+      "decision": "Seçicinin yeni-yazi konusuna sadık yeni bilgi sayfası. Ticari ürün/marka veya hizmet sayfası açılmadı. Sorgunun hatalı tanı varsayımı açıklanarak kapsam içinde yanıtlandı; konu değiştirilmedi. Lifli beslenme yazısı lif kaynaklarını, lif-gaz yazısı beslenme değişikliğinde toleransı, yeni yazı belirtilerden eksiklik çıkarma ve test/takviye kanıt sınırını karşılıyor.",
+      "sources": [
+        "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "https://ods.od.nih.gov/factsheets/Probiotics-Consumer/",
+        "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/symptoms-causes",
+        "https://www.iris.unina.it/retrieve/286d66c5-b764-43b4-aad1-5826e7ff277b/1-s2.0-S246812532400311X-main.pdf",
+        "https://www.nhs.uk/symptoms/bloating/"
+      ],
+      "searchVolume": null,
+      "CPC": null,
+      "difficulty": null
     }
   ],
   "refreshedAt": "2026-10-07T07:04:50.795547+00:00",

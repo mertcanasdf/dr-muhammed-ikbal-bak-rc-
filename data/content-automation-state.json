@@ -1122,6 +1122,31 @@
       "action": "improve",
       "queueId": "2026-10-20-kavrama-gucu-genisletme",
       "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-22\\research.json"
+    },
+    {
+      "day": "2026-10-23",
+      "slug": "probiyotik-eksikligi-belirtileri",
+      "sourceArticleSha256": "f4b6bf1aeba820c6aa1b45e3785aa33e365ae614fc1a4cfa77d3352ada5fc459",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/probiyotik-eksikligi-belirtileri",
+        "htmlTitle": "Probiyotik Eksikliği Belirtileri: Nasıl Yorumlanmalı?",
+        "metaDescription": "Probiyotik eksikliği belirtileri ne anlama gelir? Gaz, kilo değişimi, mikrobiyom testleri ve takviye kanıtlarını; değerlendirme gereken durumları öğrenin.",
+        "headline": "Probiyotik Eksikliği Belirtileri: Nasıl Yorumlanmalı?",
+        "datePublished": "2026-10-23",
+        "dateModified": "2026-10-23",
+        "wordCount": 1199,
+        "bodyTextSha256": "a5723fb52f046a1ee50a408c184e18f26c663467696051a942162e60a79e5a47",
+        "htmlSha256": "c9de2eae5a5d38770dd282ff6e57816e8c2ef66d5a58d72f4773cca45ae04493"
+      },
+      "commit": "3b19fd98e3e3a95956a8d54a543bc298029eb3f2",
+      "parent": "a3c4908254cc140592ceb29bff20e415abdb3b37",
+      "preparedAt": "2026-10-23T07:13:25.133Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-23T07:13:28.296Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "probiyotik eksikliği belirtileri",
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-23\\research.json"
     }
   ]
 }

@@ -8,6 +8,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 // Makale kapakları -> assets/images/generated/articles/<slug>.webp
 const ARTICLES = {
+  'probiyotik-eksikligi-belirtileri': "Editorial health photograph of a fictional adult woman in her forties seated at a simple kitchen table, one relaxed anatomically correct hand resting gently over her abdomen with a mildly uncomfortable but calm expression, a small plain ceramic bowl of natural yogurt and an unlabeled glass of kefir on the table, a few oats in a small dish, soft window daylight, warm off-white and sand palette, subtle muted blue linen detail, realistic everyday scene about digestive symptoms and questions about probiotics, no treatment outcome, no pills, no packaging, no text or numbers or logos anywhere, landscape 3:2.",
   // Longevity Bilimi
   'biyolojik-yas-nasil-olculur': 'An antique brass hourglass beside a modern lab sample tube rack on a pale stone bench, morning light; the idea of chronological versus biological time.',
   'mitokondri-sagligi-nasil-desteklenir': 'Photorealistic 3D medical illustration of a single mitochondrion inside a cell, cutaway view revealing the folded inner membranes (cristae), warm amber-orange organelle against soft translucent blue cytoplasm with a few smaller organelles out of focus; scientific, calm, shallow depth of field.',

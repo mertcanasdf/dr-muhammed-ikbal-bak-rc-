@@ -60,6 +60,8 @@ Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Ultra İşlenmiş
 
 Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Besin Etiketi Nasıl Okunur? 100 Gram ve Porsiyon Rehberi](/blog/besin-etiketi-nasil-okunur), [Tam Tahıl Nasıl Anlaşılır? Ekmek ve Ürün Etiketi Rehberi](/blog/tam-tahil-nasil-anlasilir), [Yaşlılarda Sıvı Tüketimi: Susamayı Beklemeden Günlük Takip](/blog/yaslilarda-sivi-tuketimi-susama) yazılarına bakabilirsiniz.
 
+Belirtilerden bir eksiklik sonucu çıkarılıp çıkarılamayacağı için [probiyotik eksikliği belirtileri ve kanıt sınırları](/blog/probiyotik-eksikligi-belirtileri) yazısına bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [polifenoller](/blog/polifenoller-ve-saglik) ve [insülin direnci](/blog/insulin-direnci-belirtileri) konularını da okuyabilirsiniz. Ayrıca [Mavi Bölge beslenmesi](/blog/mavi-bolge-diyeti) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.

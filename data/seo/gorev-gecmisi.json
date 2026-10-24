@@ -296,5 +296,102 @@
     "type": "ctr-iyilestirme",
     "slug": "kafein-uyku-kahve-ne-zaman-birakilmali",
     "by": "claude"
+  },
+  {
+    "day": "2026-10-24",
+    "type": "yazi-genisletme",
+    "slug": "retinoid-nedir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-24",
+    "type": "yeni-yazi",
+    "slug": "dijital-detoks-nedir",
+    "topic": "dijital detoks nedir",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "cb5a3afd63edcf5423197d57daa0de1b9ec73a97",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\dijital-detoks-nedir\\research.json",
+    "wordCount": 1212,
+    "completedAt": "2026-10-24T06:09:35.941Z"
+  },
+  {
+    "day": "2026-10-24",
+    "type": "yeni-yazi",
+    "slug": "akdeniz-diyeti-nedir",
+    "topic": "akdeniz diyeti nedir",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "7b8cc716a065b08176cf55dc0018d2d1ebf7f4a0",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\akdeniz-diyeti-nedir\\research.json",
+    "wordCount": 1125,
+    "completedAt": "2026-10-24T08:05:47.432Z"
+  },
+  {
+    "day": "2026-10-24",
+    "type": "yeni-yazi",
+    "slug": "uykusuzluk-belirtileri",
+    "topic": "uykusuzluk belirtileri",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "afbbb702f2cfb8b655e6c8843599ac67c68715dd",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\uykusuzluk-belirtileri\\research.json",
+    "wordCount": 1087,
+    "completedAt": "2026-10-24T10:10:52.998Z"
+  },
+  {
+    "day": "2026-10-24",
+    "type": "yeni-yazi",
+    "slug": "kan-sekeri-neden-duser",
+    "topic": "kan şekeri neden düşer",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "f598c4e1baaa3678a081d9a016cca831ebde5390",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\kan-sekeri-neden-duser\\research.json",
+    "wordCount": 1046,
+    "completedAt": "2026-10-24T12:05:02.341Z"
+  },
+  {
+    "day": "2026-10-24",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "kolajen faydaları",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-10-24",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "cilt yaşlanması neden olur",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-10-24",
+    "type": "yeni-yazi",
+    "slug": "d-vitamini-nelerde-var",
+    "topic": "d vitamini nelerde var",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "eedd5556171eb888e021e837c7398c5abf23a76c",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\d-vitamini-nelerde-var\\research.json",
+    "wordCount": 929,
+    "completedAt": "2026-10-24T14:07:30.607Z"
   }
 ]

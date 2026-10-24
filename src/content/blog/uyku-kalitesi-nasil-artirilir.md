@@ -93,6 +93,8 @@ Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Akıllı Saat Uyk
 
 Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Kafein ve Uyku: Kahve Ne Zaman Bırakılmalı?](/blog/kafein-uyku-kahve-ne-zaman-birakilmali), [Uyku Günlüğü Nasıl Tutulur? Örnek Tablo ve Yorumlama](/blog/uyku-gunlugu-nasil-tutulur), [Uyku Apnesi Belirtileri: Ne Zaman Hekime Başvurmalı?](/blog/uyku-apnesi-belirtileri-ne-zaman-basvurulmali) yazılarına bakabilirsiniz.
 
+Gece yakınmalarını gündüz etkileriyle birlikte anlamlandırmak ve uyumaya fırsat bulamamakla ayırmak için [uykusuzluk belirtileri rehberini](/blog/uykusuzluk-belirtileri) okuyabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [sirkadiyen ritmi desteklemek](/blog/sirkadiyen-ritim-ve-uyku) ve [ekran kullanımı ve uyku](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [uyku sırasında beynin glimfatik temizliği](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) ve [magnezyum eksikliği](/blog/magnezyum-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [uyku ve sağlıklı yaşlanma rehberimizde](/longevity/uyku) bulabilirsiniz.

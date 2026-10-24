@@ -93,6 +93,8 @@ Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Ultra İşlenmiş
 
 Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Besin Etiketi Nasıl Okunur? 100 Gram ve Porsiyon Rehberi](/blog/besin-etiketi-nasil-okunur), [Tam Tahıl Nasıl Anlaşılır? Ekmek ve Ürün Etiketi Rehberi](/blog/tam-tahil-nasil-anlasilir) yazılarına bakabilirsiniz.
 
+Düşük kan şekeriyle insülin direncini birbirine karıştırmamak, öğün/ilaç/ölçüm ilişkisini anlamak için [kan şekeri neden düşer rehberini](/blog/kan-sekeri-neden-duser) okuyabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [oturma süresi ve metabolik sağlık](/blog/hareketsizlik-ve-metabolik-saglik) ve [lifli beslenme](/blog/lifli-beslenme-ve-mikrobiyota) konularını da okuyabilirsiniz. Ayrıca [aralıklı oruç hakkında kanıtlar](/blog/aralikli-oruc-longevity) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.

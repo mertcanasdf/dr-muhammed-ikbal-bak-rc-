@@ -1147,6 +1147,169 @@
       "action": "new",
       "topic": "probiyotik eksikliği belirtileri",
       "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-23\\research.json"
+    },
+    {
+      "day": "2026-10-24",
+      "slug": "dijital-detoks-nedir",
+      "sourceArticleSha256": "d7414fea6bb13de7ec649842d2f981111ce97e8ce025ed85425ada1457855a60",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/dijital-detoks-nedir",
+        "htmlTitle": "Dijital Detoks Nedir? Ara Verme ve Geri Dönüş Rehberi",
+        "metaDescription": "Dijital detoks nedir, nasıl yapılır ve faydaları ne kadar güçlü? İnsan araştırmalarını, ara verme kararlarını ve kullanım düzenine dönüşü değerlendirin.",
+        "headline": "Dijital Detoks Nedir? Ara Verme ve Geri Dönüş Rehberi",
+        "datePublished": "2026-10-24",
+        "dateModified": "2026-10-24",
+        "wordCount": 1212,
+        "bodyTextSha256": "b0b79c07b53d9ebbf3a378921e7af783750641075cbe8c3c6cca2158ebd84c1f",
+        "htmlSha256": "1cf731f83c6d3a1ae0a759710878a845aa0e2b4e1083927d02b6a1d48d992fb2"
+      },
+      "commit": "cb5a3afd63edcf5423197d57daa0de1b9ec73a97",
+      "parent": "d8a68d8e723e9f9d54ef86f67d3ee6f7f6e1462e",
+      "preparedAt": "2026-10-24T06:08:39.414Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-24T06:08:42.086Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "dijital detoks nedir",
+      "jobNo": 1,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\dijital-detoks-nedir\\research.json",
+      "liveVerifiedAt": "2026-10-24T07:58:17.641Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-24",
+      "slug": "akdeniz-diyeti-nedir",
+      "sourceArticleSha256": "d36c9f938e5f3486af4aeaf700f06a1e53b64521062fe10c872bbcfa16ec8afe",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/akdeniz-diyeti-nedir",
+        "htmlTitle": "Akdeniz Diyeti Nedir? Besinler ve Günlük Sofra Rehberi",
+        "metaDescription": "Akdeniz diyeti nedir, nasıl yapılır? Besin gruplarını, Türk mutfağından öğün fikirlerini ve kalp sağlığı araştırmalarının sınırlarını birlikte öğrenin.",
+        "headline": "Akdeniz Diyeti Nedir? Besinler ve Günlük Sofra Rehberi",
+        "datePublished": "2026-10-24",
+        "dateModified": "2026-10-24",
+        "wordCount": 1125,
+        "bodyTextSha256": "9ef66e808b9469bb81af585656a9596731ac05383902035b15fdd3bbb2840eb2",
+        "htmlSha256": "d8d649de4c61a631c9058bd1ea75fe9a793a43c8702f1d8ab9de473ee8cce6f6"
+      },
+      "commit": "7b8cc716a065b08176cf55dc0018d2d1ebf7f4a0",
+      "parent": "cb5a3afd63edcf5423197d57daa0de1b9ec73a97",
+      "preparedAt": "2026-10-24T08:05:26.032Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-24T08:05:28.912Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "akdeniz diyeti nedir",
+      "jobNo": 2,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\akdeniz-diyeti-nedir\\research.json",
+      "liveVerifiedAt": "2026-10-24T10:03:44.170Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-24",
+      "slug": "uykusuzluk-belirtileri",
+      "sourceArticleSha256": "3cba5de7cf9d23a3b4e75982eab47fa856cc6f6a9d54cb1fd9445333d5a64657",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/uykusuzluk-belirtileri",
+        "htmlTitle": "Uykusuzluk Belirtileri: Gece ve Gündüz Nasıl Anlaşılır?",
+        "metaDescription": "Uykusuzluk belirtileri nelerdir? Gece ve gündüz yakınmalarını, nedenleri, zararları ve değerlendirme gereken durumları tanı koymadan birlikte öğrenin.",
+        "headline": "Uykusuzluk Belirtileri: Gece ve Gündüz Nasıl Anlaşılır?",
+        "datePublished": "2026-10-24",
+        "dateModified": "2026-10-24",
+        "wordCount": 1087,
+        "bodyTextSha256": "bc6c8b45526ae1eb171e25e4140620527bd71c6d83b819a2fb303b20d6a61d77",
+        "htmlSha256": "28ea5fd02feb1e0c3af6e571a223838ff4879236aabb50247f399a503ab2b31e"
+      },
+      "commit": "afbbb702f2cfb8b655e6c8843599ac67c68715dd",
+      "parent": "7b8cc716a065b08176cf55dc0018d2d1ebf7f4a0",
+      "preparedAt": "2026-10-24T10:10:36.023Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-24T10:10:38.704Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "uykusuzluk belirtileri",
+      "jobNo": 3,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\uykusuzluk-belirtileri\\research.json",
+      "periodicReview": {
+        "threshold": 42,
+        "date": "2026-10-24",
+        "report": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\uykusuzluk-belirtileri\\YEDI-ICERIK-DEGERLENDIRMESI.md"
+      },
+      "liveVerifiedAt": "2026-10-24T11:56:12.714Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-24",
+      "slug": "kan-sekeri-neden-duser",
+      "sourceArticleSha256": "1a80fce5f5165f7b2c54ac9725d0f73f1aa11901c27e240f9de84f5db140de6f",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kan-sekeri-neden-duser",
+        "htmlTitle": "Kan Şekeri Neden Düşer? Hipoglisemiyi Anlama Rehberi",
+        "metaDescription": "Kan şekeri neden düşer? Diyabet ilaçları, öğün ve hareket ilişkisini, yemek sonrası yakınmaları, ölçümün sınırlarını ve acil belirtileri birlikte öğrenin.",
+        "headline": "Kan Şekeri Neden Düşer? Hipoglisemiyi Anlama Rehberi",
+        "datePublished": "2026-10-24",
+        "dateModified": "2026-10-24",
+        "wordCount": 1046,
+        "bodyTextSha256": "0aac42bf999539430d3f981be1fb77b6a1cbc6fbb49a370b04442e2c64a2704b",
+        "htmlSha256": "087b7c85031e1abd1d28c1847927c6c3117c52722050d06aff491d476e80347a"
+      },
+      "commit": "f598c4e1baaa3678a081d9a016cca831ebde5390",
+      "parent": "afbbb702f2cfb8b655e6c8843599ac67c68715dd",
+      "preparedAt": "2026-10-24T12:03:21.907Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-24T12:03:24.569Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "kan şekeri neden düşer",
+      "jobNo": 4,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\kan-sekeri-neden-duser\\research.json",
+      "liveVerifiedAt": "2026-10-24T13:58:51.789Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-24",
+      "slug": "d-vitamini-nelerde-var",
+      "sourceArticleSha256": "d6572cdbc81b7b1f57840881566ce6c294cb71e4193b6df3b5722d75995a8739",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/d-vitamini-nelerde-var",
+        "htmlTitle": "D Vitamini Nelerde Var? Besinler ve Etiket Okuma Rehberi",
+        "metaDescription": "D vitamini nelerde var? Balık, yumurta, mantar ve zenginleştirilmiş besinleri; süt ve meyve ayrımını, porsiyon ve etiket okuma örneğiyle birlikte öğrenin.",
+        "headline": "D Vitamini Nelerde Var? Besinler ve Etiket Okuma Rehberi",
+        "datePublished": "2026-10-24",
+        "dateModified": "2026-10-24",
+        "wordCount": 929,
+        "bodyTextSha256": "fcdcfd451be579a1223747ff33d60f616566ccb8c35411e0454625717a9da406",
+        "htmlSha256": "5a8ccc1d365364d9cfb4016b7bae294f309cb4039a67af6bfa712e93a3e23a58"
+      },
+      "commit": "eedd5556171eb888e021e837c7398c5abf23a76c",
+      "parent": "f598c4e1baaa3678a081d9a016cca831ebde5390",
+      "preparedAt": "2026-10-24T14:06:27.554Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-24T14:06:30.315Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "d vitamini nelerde var",
+      "jobNo": 7,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\d-vitamini-nelerde-var\\research.json"
     }
   ]
 }

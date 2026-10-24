@@ -79,6 +79,8 @@ En zengin D vitamini kaynakları şunlardır:
 - **Yumurta sarısı:** Her yumurta ~40-50 IU içerir.
 - **UV'ye maruz kalmış mantar:** Güneşe bırakılan mantarlar D2 üretir (D3 kadar etkili değil).
 
+Besinleri ve ürün etiketini karşılaştırmak için [D vitamini nelerde var rehberinde](/blog/d-vitamini-nelerde-var) doğal kaynak, zenginleştirme ve porsiyon ayrımını inceleyebilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [D3 ve K2 birlikte kullanılır mı](/blog/d3-k2-birlikte-kullanilir-mi) ve [magnezyum eksikliği](/blog/magnezyum-eksikligi) konularını da okuyabilirsiniz. Ayrıca [omega-3 takviyeleri](/blog/omega-3-ne-ise-yarar) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [beslenme ve sağlıklı yaşlanma rehberimizde](/longevity/beslenme) bulabilirsiniz.

@@ -120,6 +120,8 @@ Her zaman değil. Bölünme sıklığı, mesai dışı erişilebilirlik beklenti
 
 Gerekmeyebilir. Kısa ve belirli zaman aralıkları seçmek, akışı kaydırmak yerine doğrudan birkaç kişiyle iletişim kurmak daha kontrollü bir kullanım sağlayabilir.
 
+Planlı ara verme araştırmalarının neyi gösterdiği ve ara sonrası kullanım düzeni için [dijital detoks rehberine](/blog/dijital-detoks-nedir) bakabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [tükenmişlik sendromu](/blog/tukenmislik-sendromu) ve [ekran kullanımı ve uyku](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [doğada geçirilen zaman](/blog/doga-ve-zihin-sagligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.

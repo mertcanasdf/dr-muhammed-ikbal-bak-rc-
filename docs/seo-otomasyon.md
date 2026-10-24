@@ -12,7 +12,7 @@ Görevleri `node scripts/seo/gunluk-gorev.mjs` seçer; kimse kendi seçim yapmaz
 
 Codex her çalışmada:
 - `node scripts/seo/gunluk-gorev.mjs --is-al`: sıradaki işi `yaziliyor` yapar ve gösterir; yarım kalan iş varsa onu verir.
-- `--is-bitti SLUG`: işi `tamam` olarak kapatır ve geçmişe yazar.
+- `--is-bitti SLUG`: işi `tamam` olarak kapatır, geçmişe yazar ve sitemap'i Search Console API ile Google'a yeniden gönderir (`gsc.mjs --sitemap`).
 - `--is-atla "neden"`: konu ilk sayfa incelemesinde uygun değilse işi atlar; ardından `--is-al` sıradakini (yedek konuları da) verir.
 - 5 yeni yazı tamamlanınca `--is-al` "Bugünün işleri bitti" der; o çalışma içerik üretmez.
 

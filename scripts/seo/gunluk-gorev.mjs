@@ -174,6 +174,11 @@ function claim(t) {
   history.push({ day: t.day, type: active.type, slug: active.slug ?? null, topic: active.topic ?? null, by: 'codex', durum: active.durum });
   writeJson(HISTORY_FILE, history.slice(-400));
   console.log(`İş ${active.no} ${active.durum}${active.slug ? `: ${active.slug}` : ''}.`);
+  // Yeni yazı yayınlandı: sitemap'i Google'a yeniden gönder (anahtar yoksa gsc.mjs sessizce atlar).
+  if (active.durum === 'tamam') {
+    const r = spawnSync(process.execPath, [path.join(ROOT, 'scripts/seo/gsc.mjs'), '--sitemap'], { cwd: ROOT, encoding: 'utf8' });
+    console.log((r.stdout + r.stderr).trim());
+  }
 }
 
 function print(t, repeated, single = false) {

@@ -105,6 +105,13 @@ async function inspect(token, count) {
     console.log(`Search Console: atlandı — anahtar yok (${keyFile}). Kurulum: docs/seo-otomasyon.md`);
     process.exit(0);
   }
+  // --sitemap: yeni yazı yayınlandıktan sonra sitemap'i Search Console'a yeniden gönderir (Google'ın taramasını hızlandırır).
+  if (process.argv.includes('--sitemap')) {
+    const feed = 'https://www.muhammedikbalbakirci.com/sitemap.xml';
+    const r = await fetchRetry(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(GSC_PROPERTY)}/sitemaps/${encodeURIComponent(feed)}`, { method: 'PUT', headers: { Authorization: `Bearer ${token}` } });
+    console.log(`Sitemap Search Console'a gönderildi: HTTP ${r.status}`);
+    process.exit(r.ok ? 0 : 1);
+  }
   const perf = await performance(token);
   writeJson(OUT, perf);
   const tot = perf.pages.reduce((a, p) => ({ c: a.c + p.clicks, i: a.i + p.impressions }), { c: 0, i: 0 });

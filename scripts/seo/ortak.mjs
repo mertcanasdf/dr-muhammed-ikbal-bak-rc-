@@ -28,7 +28,16 @@ export const writeJson = (file, value) => {
   fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n');
 };
 
-const field = (front, key) => front.match(new RegExp(`^${key}:\\s*"?([^"\\r\\n]*)"?\\s*$`, 'm'))?.[1]?.trim();
+// Çift tırnaklı değerde kaçışlı tırnak (\") olabilir; JSON.parse YAML çift tırnak kaçışlarını da çözer.
+const field = (front, key) => {
+  const raw = front.match(new RegExp(`^${key}:[ \\t]*(.*?)[ \\t]*\\r?$`, 'm'))?.[1];
+  if (raw === undefined) return undefined;
+  if (raw.startsWith('"')) {
+    try { return JSON.parse(raw).trim(); } catch { return raw.replace(/^"|"$/g, '').trim(); }
+  }
+  if (raw.startsWith("'")) return raw.slice(1, -1).replace(/''/g, "'").trim();
+  return raw;
+};
 
 /** Tüm yazılar: slug, url, başlık, kategori, tarih, güncelleme, gövde kelime sayısı, kaynak sayısı, dış bağlantılar. */
 export function loadArticles() {

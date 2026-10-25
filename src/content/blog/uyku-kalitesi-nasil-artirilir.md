@@ -95,6 +95,8 @@ Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Kafein ve Uyku: K
 
 Gece yakınmalarını gündüz etkileriyle birlikte anlamlandırmak ve uyumaya fırsat bulamamakla ayırmak için [uykusuzluk belirtileri rehberini](/blog/uykusuzluk-belirtileri) okuyabilirsiniz.
 
+Dışarıdan alınan ürünlere ilişkin gündüz uykululuğu, etkileşim ve uzun dönem belirsizliklerini [melatonin zararları rehberinde](/blog/melatonin-zararlari) ayrıca inceleyebilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [sirkadiyen ritmi desteklemek](/blog/sirkadiyen-ritim-ve-uyku) ve [ekran kullanımı ve uyku](/blog/ekran-kullanimi-ve-uyku) konularını da okuyabilirsiniz. Ayrıca [uyku sırasında beynin glimfatik temizliği](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) ve [magnezyum eksikliği](/blog/magnezyum-eksikligi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [uyku ve sağlıklı yaşlanma rehberimizde](/longevity/uyku) bulabilirsiniz.

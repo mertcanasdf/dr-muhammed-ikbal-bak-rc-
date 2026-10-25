@@ -73,6 +73,8 @@ Bakıcılar, yüksek stresli çalışanlar ve travma deneyimleyenler üzerinde y
 - **Bitkisel takviyeler:** Ashwagandha üzerine yapılan bazı küçük klinik çalışmalarda stres ve kortizol düzeylerinde azalma bildirilmiştir; ancak kanıtlar sınırlıdır ve nadir de olsa karaciğer hasarı gibi yan etkiler raporlanmıştır. Gebelik, tiroid hastalığı veya ilaç kullanımı varsa takviyeye başlamadan önce hekiminize danışın.
 - **Magnezyum:** Yeşil yapraklılar, kabak çekirdeği, baklagiller ve badem iyi magnezyum kaynaklarıdır. Takviye gerekip gerekmediği kişisel değerlendirmeyle belirlenmelidir.
 
+Meditasyon araştırmalarındaki program, karşılaştırma ve güvenlik farklarını [meditasyon faydaları rehberinde](/blog/meditasyon-faydalari) inceleyebilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [kronik kaygının bedene etkileri](/blog/anksiyete-ve-obsesyonun-fizyolojisi) ve [tükenmişlik sendromu](/blog/tukenmislik-sendromu) konularını da okuyabilirsiniz. Ayrıca [uyku kalitesi](/blog/uyku-kalitesi-nasil-artirilir) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [zihin ve sağlıklı yaşlanma rehberimizde](/longevity/zihin) bulabilirsiniz.

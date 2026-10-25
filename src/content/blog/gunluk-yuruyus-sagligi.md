@@ -42,7 +42,7 @@ CDC yetişkinler için haftalık orta yoğunluklu aktivite ve kas güçlendirme 
 
 Rota, ayakkabı, hava koşulları ve güvenli zemin seçimi önceden planlanabilir. Telefon görüşmesini yürüyüşe çevirmek veya takvimde sabit bir zaman ayırmak devamlılığı artırabilir. Sadece saat skoruna odaklanmak yerine enerji, nefes ve ağrı durumunu da gözlemlemek gerekir.
 
-Diyabeti olanlarda ayak bakımı ve uygun ayakkabı önemlidir. Dolaşım sorunu, denge kaybı veya eklem ağrısı varsa yürüyüş biçimi ve süre profesyonelce düzenlenmelidir.
+Diyabeti olanlarda ayak bakımı ve uygun ayakkabı önemlidir. Dolaşım sorunu, denge kaybı veya eklem ağrısı varsa yürüyüş biçimi ve süre profesyonelce düzenlenmelidir. Yürüyüş tek başına dengeyi hedeflemez; bunun için [yaşlılarda denge egzersizleri](/blog/denge-egzersizleri-yaslanma) ayrıca eklenebilir.
 
 > **Not:** Yürüyüş tanı veya tedavi değildir. Göğüs ağrısı, bayılma, yeni başlayan çarpıntı veya dinlenmeyle geçmeyen nefes darlığı yaşarsanız egzersizi durdurun ve acil değerlendirme alın.
 

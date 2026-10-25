@@ -29,7 +29,7 @@ relatedArticles:
 
 Direnç antrenmanı, kasların bir yüke karşı kuvvet üretmesini gerektiren çalışmalardır. Vücut ağırlığı, elastik bant, serbest ağırlık veya makineler kullanılabilir. Düzenli uygulandığında kas kuvveti, hareket kontrolü ve günlük işlev üzerinde olumlu katkı sağlayabilir.
 
-Yaşlanmayla birlikte kas gücü ve denge azalabilir. Bu değişim yalnızca estetik bir konu değildir; sandalyeden kalkma, merdiven çıkma, taşıma ve düşme riskini etkileyebilir. Bu yüzden programın amacı sadece kas hacmi değil, bağımsızlığı korumaktır.
+Yaşlanmayla birlikte kas gücü ve denge azalabilir. Bu değişim yalnızca estetik bir konu değildir; sandalyeden kalkma, merdiven çıkma, taşıma ve düşme riskini etkileyebilir. Bu yüzden programın amacı sadece kas hacmi değil, bağımsızlığı korumaktır. Düşme önleme araştırmalarında kuvvetin dengeyle birleştirildiği programlar öne çıkar; evde yapılabilecek hareketleri [yaşlılarda denge egzersizleri rehberinde](/blog/denge-egzersizleri-yaslanma) bulabilirsiniz.
 
 ## Başlangıç programı nasıl kurulur?
 

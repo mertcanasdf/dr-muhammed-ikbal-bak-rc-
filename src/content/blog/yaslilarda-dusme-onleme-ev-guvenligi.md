@@ -14,7 +14,7 @@ takeaways:
 relatedArticles:
   - slug: "denge-egzersizleri-yaslanma"
     category: "Hareket"
-    title: "Denge Egzersizleri ve Yaşlanma: Düşme Riskini Azaltmaya Yardımcı Yaklaşım"
+    title: "Yaşlılarda Denge Egzersizleri: Evde Güvenli Hareketler ve Kanıtlar"
     image: "/assets/images/generated/articles/denge-egzersizleri-yaslanma.webp"
   - slug: "kas-kutlesi-ve-yaslanma"
     category: "Hareket"

@@ -393,5 +393,103 @@
     "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\d-vitamini-nelerde-var\\research.json",
     "wordCount": 929,
     "completedAt": "2026-10-24T14:07:30.607Z"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "sorgu-optimizasyonu",
+    "slug": "denge-egzersizleri-yaslanma",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "sarkopeni nasıl önlenir",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "kas kaybını önlemek için ne yapmalı",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "yeni-yazi",
+    "slug": "kolajen-hangi-yiyeceklerde-var",
+    "topic": "kolajen hangi yiyeceklerde var",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "e7ea196390442c36ff2adbace4efbe1a764db65e",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-25\\kolajen-hangi-yiyeceklerde-var\\research.json",
+    "wordCount": 948,
+    "completedAt": "2026-10-25T06:11:20.599Z"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "yeni-yazi",
+    "slug": "cilt-yaslanmasina-karsi-hangi-vitamin",
+    "topic": "cilt yaşlanmasına karşı hangi vitamin",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "361cd5086de5d4e2ba07dfa57d230d6c6a629fb8",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-25\\cilt-yaslanmasina-karsi-hangi-vitamin\\research.json",
+    "wordCount": 936,
+    "completedAt": "2026-10-25T08:09:01.067Z"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "ben kontrolü nasıl yapılır",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "zone 2 koşu nedir",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "yeni-yazi",
+    "slug": "meditasyon-faydalari",
+    "topic": "meditasyon faydaları",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "8072e14f6e01270970860a4402ecfd0ab163df43",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-25\\meditasyon-faydalari\\research.json",
+    "wordCount": 914,
+    "completedAt": "2026-10-25T10:04:00.492Z"
+  },
+  {
+    "day": "2026-10-25",
+    "type": "yeni-yazi",
+    "slug": "melatonin-zararlari",
+    "topic": "melatonin zararları",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "d857967a45db7812fcc98c95f6d75ca668f7366b",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-25\\melatonin-zararlari\\research.json",
+    "wordCount": 932,
+    "completedAt": "2026-10-25T12:10:40.918Z"
   }
 ]

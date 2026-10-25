@@ -117,6 +117,8 @@ Cilt bakımından bağımsız olarak, yeni çıkan ya da değişen benlerin nas�
 
 **Bu yazı genel bilgilendirmedir; ürün önerisi, kişisel kullanım planı veya tedavi önerisi değildir.**
 
+Besin ve takviye bilgisinin cilde uygulanan ürünle neden aynı olmadığını [cilt yaşlanmasına karşı hangi vitamin rehberinde](/blog/cilt-yaslanmasina-karsi-hangi-vitamin) ayrıca inceleyebilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [geniş spektrumlu güneş kremi seçimi](/blog/gunes-kremi-nasil-secilir) ve [retinoid döneminde cilt bariyerini desteklemek](/blog/cilt-bariyeri-nasil-guclendirilir) konularını da okuyabilirsiniz. Ayrıca [kollajen kaybının nedenleri](/blog/ciltte-kollajen-kaybi) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.

@@ -98,6 +98,8 @@ Bir işlem düşünülüyorsa önce hangi sorunun hedeflendiği netleştirilmeli
 
 Kalıcı veya belirgin tahriş, açıklayamadığınız hızlı değişiklik ya da sizi rahatsız eden bir cilt yakınması varsa bunu yalnızca yaşlanma diye yorumlamayın; değerlendirme alın. [AAD ürün kullanım uyarıları](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/wrinkle-remedies), fazla ürünün ve tahrişin görünümü olumsuz etkileyebileceğini vurgular. Reçeteli bir ürünle sorun yaşıyorsanız planı kendi başınıza değiştirmek yerine tedaviyi düzenleyen hekimle görüşün.
 
+Yiyecek listelerini değerlendirirken [kolajen hangi yiyeceklerde var rehberinde](/blog/kolajen-hangi-yiyeceklerde-var) doğrudan kaynakları, yapımda kullanılan besin öğelerini ve kemik suyu miktarının sınırlarını ayırabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [fotoyaşlanma ve güneş koruması](/blog/gunes-kremi-nasil-secilir) ve [kollajen yapımını uyarmayı hedefleyen altın iğne](/blog/altin-igne) konularını da okuyabilirsiniz. Ayrıca [retinoidlerin cilt yaşlanmasındaki yeri](/blog/retinoid-nedir) ve [yaşlanan (senesan) hücrelerin cilde etkisi](/blog/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) bulabilirsiniz.

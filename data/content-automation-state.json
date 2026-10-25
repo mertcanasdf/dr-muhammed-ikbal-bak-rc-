@@ -1310,6 +1310,138 @@
       "topic": "d vitamini nelerde var",
       "jobNo": 7,
       "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-24\\d-vitamini-nelerde-var\\research.json"
+    },
+    {
+      "day": "2026-10-25",
+      "slug": "kolajen-hangi-yiyeceklerde-var",
+      "sourceArticleSha256": "b403d57a96f82ff8e7862183fd695772d93da367979590f9f7903e716d71437d",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kolajen-hangi-yiyeceklerde-var",
+        "htmlTitle": "Kolajen Hangi Yiyeceklerde Var? Besinleri Ayırma Rehberi",
+        "metaDescription": "Kolajen hangi yiyeceklerde var? Et, balık, kemik suyu ve jelatini; meyve, sebze ve protein kaynaklarından ayırın. Besin iddialarını örneklerle öğrenin.",
+        "headline": "Kolajen Hangi Yiyeceklerde Var? Besinleri Ayırma Rehberi",
+        "datePublished": "2026-10-25",
+        "dateModified": "2026-10-25",
+        "wordCount": 948,
+        "bodyTextSha256": "d55927ded090f811aa76069894133b3ffead1745eef9161e98ba1765a06edd1b",
+        "htmlSha256": "3ca9fb6d56e4733d9740730c9fa1d5e96a24eeb2a684fa11765381fc2cbe7d62"
+      },
+      "commit": "e7ea196390442c36ff2adbace4efbe1a764db65e",
+      "parent": "4aadd5bdd9788522b7500bdc7346cc874f4fed9f",
+      "preparedAt": "2026-10-25T06:10:57.821Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-25T06:11:00.902Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "kolajen hangi yiyeceklerde var",
+      "jobNo": 3,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-25\\kolajen-hangi-yiyeceklerde-var\\research.json",
+      "liveVerifiedAt": "2026-10-25T07:58:55.933Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-25",
+      "slug": "cilt-yaslanmasina-karsi-hangi-vitamin",
+      "sourceArticleSha256": "8b2119ecc310d2b4ba955a3e77fc786c4691c24d52dfec1149d8d4eb345b16ca",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/cilt-yaslanmasina-karsi-hangi-vitamin",
+        "htmlTitle": "Cilt Yaşlanmasına Karşı Hangi Vitamin? Eksiklik Ayrımı",
+        "metaDescription": "Cilt yaşlanmasına karşı hangi vitamin? A, C ve E'nin rolünü; besin, kapsül ve krem farkını, eksiklik iddialarını ve güvenlik sınırlarını öğrenin.",
+        "headline": "Cilt Yaşlanmasına Karşı Hangi Vitamin? Eksiklik Ayrımı",
+        "datePublished": "2026-10-25",
+        "dateModified": "2026-10-25",
+        "wordCount": 936,
+        "bodyTextSha256": "f4d5d604d182d4c913aef64e349f257688d4d2dde12d30e4abae0b844147ccef",
+        "htmlSha256": "76971e83a87c7835091f3cb110a97984e2aaf1970370633d3d3954e9b137f98e"
+      },
+      "commit": "361cd5086de5d4e2ba07dfa57d230d6c6a629fb8",
+      "parent": "e7ea196390442c36ff2adbace4efbe1a764db65e",
+      "preparedAt": "2026-10-25T08:07:15.042Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-25T08:07:17.623Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "cilt yaşlanmasına karşı hangi vitamin",
+      "jobNo": 4,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-25\\cilt-yaslanmasina-karsi-hangi-vitamin\\research.json",
+      "liveVerifiedAt": "2026-10-25T09:56:32.065Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-25",
+      "slug": "meditasyon-faydalari",
+      "sourceArticleSha256": "a4ca1c2b568d7f192eb283a3de1e874bc6199e62bc9df8db0f32b8d4c4a124a6",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/meditasyon-faydalari",
+        "htmlTitle": "Meditasyon Faydaları: Stres, Uyku ve Kanıtların Sınırı",
+        "metaDescription": "Meditasyon faydaları neler? Stres, kaygı, uyku ve dikkat araştırmalarını; uygulama türlerini, olası rahatsızlıkları ve gerçekçi beklentileri öğrenin.",
+        "headline": "Meditasyon Faydaları: Stres, Uyku ve Kanıtların Sınırı",
+        "datePublished": "2026-10-25",
+        "dateModified": "2026-10-25",
+        "wordCount": 914,
+        "bodyTextSha256": "a6db0fec8f6aec95a5d0bb7377fff00edc4f53bafa83920eb4e66c20f60f5247",
+        "htmlSha256": "084340e6c5f24e044c36c83938a2f7b568cf79ce8adfe134c11e77500c6ae969"
+      },
+      "commit": "8072e14f6e01270970860a4402ecfd0ab163df43",
+      "parent": "361cd5086de5d4e2ba07dfa57d230d6c6a629fb8",
+      "preparedAt": "2026-10-25T10:03:36.439Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-25T10:03:38.974Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "meditasyon faydaları",
+      "jobNo": 7,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-25\\meditasyon-faydalari\\research.json",
+      "liveVerifiedAt": "2026-10-25T12:03:30.040Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-10-25",
+      "slug": "melatonin-zararlari",
+      "sourceArticleSha256": "b9e74302be63b8bd49730eb489c8ab8e2f56c68fe9b23f8ffd5d5310092a72e3",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/melatonin-zararlari",
+        "htmlTitle": "Melatonin Zararları: Yan Etkiler ve Güvenlik Sınırları",
+        "metaDescription": "Melatonin zararları neler? Gündüz uykululuğu, ilaç etkileşimleri, çocuklar ve gebelikteki belirsizlikleri; acil belirtileri kaynaklarıyla öğrenin.",
+        "headline": "Melatonin Zararları: Yan Etkiler ve Güvenlik Sınırları",
+        "datePublished": "2026-10-25",
+        "dateModified": "2026-10-25",
+        "wordCount": 932,
+        "bodyTextSha256": "09878a89bd45f5ecc94d0a0f52064d6889e9b84c6b0c1407e88aa1eeefa07d86",
+        "htmlSha256": "a53b7a79fd670b5c351d306bce7a73fc687adb3b9900875f75a35bf5ffc750c9"
+      },
+      "commit": "d857967a45db7812fcc98c95f6d75ca668f7366b",
+      "parent": "8072e14f6e01270970860a4402ecfd0ab163df43",
+      "preparedAt": "2026-10-25T12:10:13.053Z",
+      "status": "live_verified",
+      "pushedAt": "2026-10-25T12:10:15.884Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "melatonin zararları",
+      "jobNo": 8,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-25\\melatonin-zararlari\\research.json",
+      "liveVerifiedAt": "2026-10-25T13:57:57.691Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     }
   ]
 }

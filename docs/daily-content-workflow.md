@@ -4,7 +4,7 @@
 
 ## Günlük iş
 
-0. **Önce** `node scripts/seo/gunluk-gorev.mjs` çalıştırılır ve çıktıdaki Codex görevi yapılır (kurallar: `docs/seo-otomasyon.md`; `iyilestirme` bölümü Claude'undur). Codex günde 5 kez çalışır; her çalışmada `node scripts/seo/gunluk-gorev.mjs --is-al` tek iş verir (kritik teknik sorun yoksa `yeni-yazi`; konu ve ilişkili sorgular çıktıdadır), iş bitince `--is-bitti SLUG`. Aşağıdaki adımlar görev `yeni-yazi` olduğunda uygulanır; diğer görevlerde de 7–10. adımlar (kapılar, yayın, canlı kontrol, bildirim) aynıdır.
+0. **Önce** `node scripts/seo/gunluk-gorev.mjs` çalıştırılır ve çıktıdaki Codex görevi yapılır (kurallar: `docs/seo-otomasyon.md`; `iyilestirme` bölümü Claude'undur). Yazıyı Claude'un zamanlanmış görevi `bakirci-gunluk-yazi` yazar (Codex yalnızca kapak görselini üretir); günde 5 kez çalışır; her çalışmada `node scripts/seo/gunluk-gorev.mjs --is-al` tek iş verir (kritik teknik sorun yoksa `yeni-yazi`; konu ve ilişkili sorgular çıktıdadır), iş bitince `--is-bitti SLUG`. Aşağıdaki adımlar görev `yeni-yazi` olduğunda uygulanır; diğer görevlerde de 7–10. adımlar (kapılar, yayın, canlı kontrol, bildirim) aynıdır.
 1. `data/content-plan.json` ve `data/content-automation-state.json` okunur. Aynı gün ikinci içerik gönderilmez.
 2. Sıradaki aday soru canlı aramada araştırılır. Sorgu, görülen URL'ler, tarih, niyet ve mevcut siteyle çakışma kaydedilir. Hacim, CPC veya Google konumuna erişim yoksa boş bırakılır.
 3. Aynı soru mevcut bir yazıda karşılanıyorsa o yazı esaslı biçimde geliştirilir. Ayrı kullanıcı işi varsa yeni URL açılır. Yeni Bursa/ilçe kopyaları üretilmez.

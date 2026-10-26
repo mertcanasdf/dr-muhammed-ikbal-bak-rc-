@@ -4,7 +4,7 @@ Hedef: hedef sorgularda Google'da 1. sıra. Sistem üç katmanlıdır. Hepsi bu 
 
 | Katman | Kim, ne zaman | İş |
 |---|---|---|
-| 1. Yeni içerik | Codex, günde 5 çalışma: 09, 11, 13, 15, 17 ("Günlük SEO makalesi ve analiz") | Veri ve trend keşfini çalıştırır; her çalışmada yükselen bir aramadan **bir yeni yazı** yazar ve yayınlar (günde 5) |
+| 1. Yeni içerik | Claude, günde 5 çalışma: 09, 11, 13, 15, 17 (zamanlanmış görev `bakirci-gunluk-yazi`) | Veri ve trend keşfini çalıştırır; her çalışmada yükselen bir aramadan **bir yeni yazı** yazar ve yayınlar (günde 5). Codex yalnızca kapak görselini üretir (`scripts/gorsel-uret.mjs` onu çağırır); Codex'in eski yazı otomasyonu 26 Ekim'den beri duraklatıldı. |
 | 2. İyileştirme, kalite kapısı, rapor | Claude, her gün 19.30 (`bakirci-seo-gunluk-kontrol`) | Günün yazılarını claude-blog ölçütleriyle denetler; günün **iyileştirme** görevini yapar; yayınlar ve raporlar |
 | 3. Derin denetim | Claude, her Pazar 13.00 (`bakirci-seo-haftalik-denetim`) | claude-seo denetimi; bulguları `data/seo/kuyruk.json`'a iş olarak ekler |
 

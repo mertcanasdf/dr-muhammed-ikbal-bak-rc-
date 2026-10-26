@@ -14,7 +14,7 @@ takeaways:
 relatedArticles:
   - slug: "telomerleri-korumak"
     category: "Longevity Bilimi"
-    title: "Telomer Sağlığını Destekleyen 7 Yaşam Tarzı Alışkanlığı"
+    title: "Telomer Nedir, Neden Kısalır? Telomer Sağlığıyla İlişkili 7 Alışkanlık"
     image: "/assets/images/generated/articles/telomerleri-korumak.webp"
   - slug: "vo2max-ve-longevity"
     category: "Hareket"

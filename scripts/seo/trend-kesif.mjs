@@ -21,9 +21,28 @@ const SEEDS = [
   'kortizol', 'stres', 'anksiyete', 'tükenmişlik', 'dijital detoks', 'yalnızlık', 'meditasyon', 'şükran',
   // Skin longevity ve medikal estetik (bilgilendirme)
   'kolajen', 'retinol', 'retinoid', 'güneş kremi', 'cilt bariyeri', 'nemlendirici', 'botoks', 'dolgu', 'mezoterapi', 'prp', 'cilt yaşlanması', 'leke', 'ben kontrolü',
+  // Genişletme (26 Ekim): ilk tohumların çoğunun yazısı var; yeni yazı konusu bu alanlardan doğar.
+  // Metabolik ve kalp-damar sağlığı
+  'kolesterol', 'ldl kolesterol', 'trigliserid', 'tansiyon', 'kalp sağlığı', 'karaciğer yağlanması', 'metabolizma', 'bazal metabolizma', 'bel çevresi', 'vücut yağ oranı', 'inflamasyon', 'glisemik indeks', 'hba1c', 'prediyabet',
+  // Vitamin ve mineraller
+  'b12 vitamini', 'demir eksikliği', 'ferritin', 'çinko', 'c vitamini', 'folik asit', 'kalsiyum', 'potasyum', 'selenyum', 'iyot',
+  // Beslenme alışkanlıkları
+  'ketojenik diyet', 'kahvaltı', 'su tüketimi', 'yeşil çay', 'zerdeçal', 'resveratrol', 'koenzim q10', 'ashwagandha', 'şeker tüketimi', 'tuz tüketimi', 'fermente gıdalar', 'kefir', 'zeytinyağı', 'kuruyemiş', 'baklagiller', 'kırmızı et', 'yumurta',
+  // Hormon ve yaşam dönemleri
+  'menopoz', 'andropoz', 'testosteron', 'tiroid', 'büyüme hormonu', 'osteoporoz', 'kemik yoğunluğu', 'eklem sağlığı',
+  // Hareket ve toparlanma
+  'hiit', 'pilates', 'yoga', 'esneme', 'postür', 'bel ağrısı', 'adım sayısı', 'nefes egzersizi', 'soğuk duş', 'sauna', 'nabız', 'dinlenik nabız', 'kalp hızı değişkenliği',
+  // Beyin ve zihin
+  'demans', 'alzheimer', 'hafıza', 'beyin sisi', 'odaklanma', 'nöroplastisite', 'ruh hali', 'öfke kontrolü', 'mindfulness', 'sosyal ilişkiler',
+  // Uyku
+  'uyku süresi', 'öğle uykusu', 'horlama', 'gece uyanma', 'uyku pozisyonu', 'mavi ışık',
+  // Duyular ve genel
+  'işitme kaybı', 'göz sağlığı', 'diş eti sağlığı', 'bağışıklık sistemi',
+  // Cilt
+  'hiyalüronik asit', 'niasinamid', 'kırışıklık', 'göz altı morluğu', 'akne', 'rozasea', 'saç dökülmesi', 'güneş lekesi', 'cilt tipi', 'selülit', 'gıdı',
 ];
 const MODIFIERS = ['nedir', 'ne işe yarar', 'faydaları', 'belirtileri', 'nasıl', 'ne zaman', 'zararları', 'eksikliği'];
-const MODIFIER_SEEDS_PER_DAY = 12; // kotayı yormamak için soru kalıpları her gün farklı 12 tohumda
+const MODIFIER_SEEDS_PER_DAY = 20; // kotayı yormamak için soru kalıpları her gün farklı 20 tohumda
 
 // Mevzuat ve niyet filtresi: ticari, hizmet, konum, marka, eğlence ve sağlık dışı aramalar.
 const EXCLUDE = /fiyat|ücret|eczane|satın|indirim|marka|markalar|en iyi|en ucuz|doktor|doktoru|klinik|hastane|randevu|yorum|şikayet|önce[- ]?sonra|bursa|istanbul|ankara|izmir|antalya|ekşi|film|izle|dizi|şarkı|masal|dua|tulum|jelibon|oyun|hap fiyat|ocean|solgar|orzax|voonka|nutraxin|venatura|zade|garnier|nivea|la roche|cerave|bioderma|loreal|neutrogena|vichy|avene|eucerin|sinoz|uykucu|uykuluk|kaç tl|sınıf|ders|ödev|konu anlatımı|test soruları|pdf|slayt|sunum|ingilizce|nedir kısaca 5|yazılır|yazilir|senfoni|müziği|muzigi|sözleri|sozleri|şiir|siir|çıkarıcı|cikarici|yazıldı|yazildi|çıktı|cikti|kitap|kitabı|roman|yazarı|albüm|album|mimarlık|mimarlik|tasarım|tasarim|bilir misin|anlamı|anlami|yüzyıllık|nobel|ödülü|odulu|şarkıcı|sarkici|hangi bölüm|hangi bolum|hangi doktor/i;
@@ -67,8 +86,8 @@ export async function discover() {
   for (const [seed, q] of queries) {
     for (const s of await suggest(q)) {
       if (fold(s.q) === fold(seed)) continue;
-      const o = found.get(s.q) ?? { query: s.q, seeds: new Set(), rel: 0, rank: 99 };
-      o.seeds.add(seed); o.rel = Math.max(o.rel, s.rel); o.rank = Math.min(o.rank, s.rank);
+      const o = found.get(s.q) ?? { query: s.q, seeds: new Set(), asked: new Set(), rel: 0, rank: 99 };
+      o.seeds.add(seed); o.asked.add(q); o.rel = Math.max(o.rel, s.rel); o.rank = Math.min(o.rank, s.rank);
       found.set(s.q, o);
     }
     await sleep(250);
@@ -82,9 +101,13 @@ export async function discover() {
   // Geçmiş: her önerinin ilk görüldüğü gün ve kaç gün görüldüğü (yükselen tespiti).
   const histFile = path.join(DATA, 'trend-gecmis.json');
   const hist = readJson(histFile, { started: today, queries: {} });
-  for (const q of found.keys()) {
+  hist.asked ??= {}; // sorulan arama -> ilk sorulduğu gün
+  for (const [, q] of queries) hist.asked[q] ??= today;
+  for (const [q, o] of found) {
     const h = hist.queries[q] ?? { first: today, days: 0, last: null };
     if (h.last !== today) { h.days += 1; h.last = today; }
+    // Getiren aramalardan biri bu öneriden önce de soruluyduysa öneri sonradan belirmiştir (gerçek yükselen).
+    if (h.days === 1) h.emerged = [...(o.asked ?? [])].some((a) => hist.asked[a] && hist.asked[a] < today);
     hist.queries[q] = h;
   }
   writeJson(histFile, hist);
@@ -112,7 +135,7 @@ export async function discover() {
       if (!best || hit > best.hit) best = { slug: a.slug, title: a.title, hit };
     }
     const h = hist.queries[o.query];
-    const isNew = trackingDays >= 3 && daysBetween(h.first, today) <= 2; // takip başladıktan sonra yeni beliren
+    const isNew = !!h.emerged && daysBetween(h.first, today) <= 2; // önceden sorulan aramada sonradan beliren
     const info = INFO.test(o.query);
     const gsc = ranking.get(fold(o.query));
     const score = Math.round(

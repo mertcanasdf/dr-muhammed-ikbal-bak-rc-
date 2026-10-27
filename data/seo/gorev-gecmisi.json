@@ -524,5 +524,13 @@
     "type": "sorgu-optimizasyonu",
     "slug": "kafein-uyku-kahve-ne-zaman-birakilmali",
     "by": "claude"
+  },
+  {
+    "day": "2026-10-27",
+    "type": "yeni-yazi",
+    "slug": "selenyum-eksikligi-belirtileri",
+    "topic": "selenyum eksikliği belirtileri",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

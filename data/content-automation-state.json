@@ -1461,7 +1461,7 @@
       "commit": "4efb5feed221c9b25eadd0294da2fce6ef1b1eb6",
       "parent": "9bd39e6d247b3277bf26c644ecee62f73266af00",
       "preparedAt": "2026-10-26T17:33:37.571Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "pushedAt": "2026-10-26T17:33:40.938Z",
       "taskType": "yeni-yazi",
       "action": "new",
@@ -1482,7 +1482,35 @@
         ],
         "effectMeasured": false,
         "nextThreshold": 56
+      },
+      "liveVerifiedAt": "2026-10-27T12:04:53.837Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
       }
+    },
+    {
+      "day": "2026-10-27",
+      "slug": "selenyum-eksikligi-belirtileri",
+      "sourceArticleSha256": "81f0a777886dffc04339aaf53f7bbe73186e70bff23e94a86867637520d94d29",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/selenyum-eksikligi-belirtileri",
+        "htmlTitle": "Selenyum Eksikliği Belirtileri ve Kan Tahlili",
+        "metaDescription": "Selenyum eksikliği belirtileri neler, kimde görülür, kan tahlilinde çıkar mı? Kas, kalp ve tiroid bulguları, besin kaynakları ve fazlalık riski.",
+        "headline": "Selenyum Eksikliği Belirtileri: Kimde Görülür, Tahlilde Çıkar mı?",
+        "datePublished": "2026-10-27",
+        "dateModified": "2026-10-27",
+        "wordCount": 1420,
+        "bodyTextSha256": "fdf5ab4ef0f8ce1866d16f709f265a3e1e6d3eb9f3f19dcc3c1f86eacc356570",
+        "htmlSha256": "83b1395dcbe273ecb3e408aae74bae4de9b555a08f4eb35a0891e7d49812760e"
+      },
+      "commit": "47c9d482c164564ae480c4f6f2fd4d7f6f5eb054",
+      "parent": "4efb5feed221c9b25eadd0294da2fce6ef1b1eb6",
+      "preparedAt": "2026-10-27T12:04:40.975Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-27T12:04:43.704Z"
     }
   ]
 }

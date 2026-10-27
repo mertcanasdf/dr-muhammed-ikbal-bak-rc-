@@ -24,3 +24,4 @@ gorsel-taslak/
 # Yalnız görev geçmişi paylaşılır; aynı yazıya 30 gün içinde ikinci görev verilmesin diye.
 data/seo/*
 !data/seo/gorev-gecmisi.json
+outputs/

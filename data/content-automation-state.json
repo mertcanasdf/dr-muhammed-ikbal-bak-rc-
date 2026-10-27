@@ -1511,6 +1511,27 @@
       "preparedAt": "2026-10-27T12:04:40.975Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-27T12:04:43.704Z"
+    },
+    {
+      "day": "2026-10-27",
+      "slug": "goz-alti-morlugu-ne-eksikligi",
+      "sourceArticleSha256": "66fad6a0fb375c68f911bec5c647258fe2d464c25d450e9b37ac413573cc4490",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/goz-alti-morlugu-ne-eksikligi",
+        "htmlTitle": "Göz Altı Morluğu Ne Eksikliği? Demir, B12, D Vitamini",
+        "metaDescription": "Göz altı morluğu demir, B12 veya D vitamini eksikliğinden mi? Araştırmaların gösterdiği, çinko ve magnezyum iddiaları, çocuklarda morluk ve tahlil ayrımı.",
+        "headline": "Göz Altı Morluğu Ne Eksikliği? Demir, B12 ve D Vitamini Ayrımı",
+        "datePublished": "2026-10-27",
+        "dateModified": "2026-10-27",
+        "wordCount": 1451,
+        "bodyTextSha256": "b143750676c7ca19bbda06c32c4b32bc728c2e76174a9d4797093b39829584c1",
+        "htmlSha256": "a1fdede989386ec584bb440cbed525810476015f7e9b546cbf2737f4fb6133db"
+      },
+      "commit": "7805fa03572fef74464adc52d51375bfcef3f437",
+      "parent": "47c9d482c164564ae480c4f6f2fd4d7f6f5eb054",
+      "preparedAt": "2026-10-27T16:39:08.945Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-27T16:39:12.470Z"
     }
   ]
 }

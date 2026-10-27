@@ -29,7 +29,7 @@ relatedArticles:
 
 Göz altı morluğu çoğu zaman bir vitamin ya da mineral eksikliğinden kaynaklanmaz. En sık nedenler aileden gelen yatkınlık, ince göz altı derisinden görünen damarlar, alerji ya da egzamadan sonra kalan lekelenme ve yaşla belirginleşen çukurluktur. Eksiklikler arasında bağlantısı en çok araştırılanlar **demir eksikliğine bağlı kansızlık** ve **B12 vitamini eksikliğidir**; ama bu ilişki küçük çalışmalara dayanır ve morluğun tek açıklaması olarak görülmemelidir.
 
-"Hangi vitamin eksikliği?" sorusu doğal bir soru, çünkü bir tahlille çözülecek bir neden aramak kolay görünür. Aşağıda her eksikliği kanıtıyla birlikte tek tek ele alıyor, sonra morluğun rengine ve şekline bakarak hangi türün daha olası olduğunu nasıl ayırt edebileceğinizi anlatıyoruz.
+"Hangi vitamin eksikliği?" diye sormak doğal, çünkü bir tahlille çözülecek bir neden bulmak rahatlatıcıdır. Ama morluğun rengi çoğu zaman tahlilden daha çok ipucu verir: kahverengi, mor ve gölge tipi halkaların nedenleri farklıdır. Her eksikliğin kanıtı tek tek, renk ayrımı ise ardından geliyor.
 
 ## Göz altı morluğu hangi vitamin eksikliğiyle ilişkilendiriliyor?
 
@@ -109,7 +109,7 @@ Morluk tek bulguysa yıllardır aynıysa ve ailede de varsa, tahlilin yeni bir �
 
 Kansızlık için temel test tam kan sayımıdır; [NHS](https://www.nhs.uk/conditions/iron-deficiency-anaemia/) nedenin belirsiz kaldığı durumlarda dışkıda gizli kan gibi ek testler yapılabileceğini belirtir. Demir takviyesini tahlilsiz ve uzun süre kullanmak hem kansızlığın nedenini gizleyebilir hem de fazla demir birikmesine yol açabilir; özellikle çocukların eline geçmemesi gerekir. Beslenmeyle ilgili diğer konular [beslenme ve longevity](/longevity/beslenme) sayfamızda, cilt konuları ise [medikal estetik](/medikal-estetik) bölümünde toplanıyor.
 
-## Ne zaman değerlendirme gerekir?
+## Hangi göz altı morluğu araştırılmalı?
 
 [Cleveland Clinic](https://my.clevelandclinic.org/health/symptoms/23128-dark-circles-under-eyes), morluk ya da şişliğin yalnızca tek gözde olmasının altta yatan bir duruma işaret edebileceğini vurgular. Şu durumlar değerlendirme gerektirir:
 

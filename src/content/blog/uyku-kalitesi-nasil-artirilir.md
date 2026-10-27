@@ -56,7 +56,7 @@ Tablo bir tedavi protokolü değildir. Vardiya, bakım sorumluluğu veya ağrı 
 
 ## Kafein uykudan kaç saat önce bırakılmalı?
 
-Kafein yalnızca kahvede bulunmaz; çay ve enerji içeceklerini de kayda ekleyin. NHLBI, etkisinin sekiz saate kadar sürebileceğini belirtir. Bu, herkesin aynı saat sınırına sahip olduğu anlamına gelmez. Öğleden sonra tüketimi ile gece uykuya dalmanız arasındaki ilişkiyi izlemek yararlı olabilir. Geç saat ağır yemek ve alkolü de gözden geçirin; alkolü uykuya yardımcı bir yöntem olarak kullanmayın.
+Kafein yalnızca kahvede bulunmaz; çay ve enerji içeceklerini de kayda ekleyin. NHLBI, etkisinin sekiz saate kadar sürebileceğini belirtir. Bu, herkesin aynı saat sınırına sahip olduğu anlamına gelmez. Öğleden sonra tüketimi ile gece uykuya dalmanız arasındaki ilişkiyi izlemek yararlı olabilir. [Uyumadan kaç saat önce kahve içilmemeli](/blog/kafein-uyku-kahve-ne-zaman-birakilmali) sorusunu, kafeinin vücutta kalış süresi ve araştırmalardaki 6 saat bulgusuyla ayrı bir yazıda ele aldık. Geç saat ağır yemek ve alkolü de gözden geçirin; alkolü uykuya yardımcı bir yöntem olarak kullanmayın.
 
 Bir gün az kafein tüketip iyi uyumak, kafeinin tek neden olduğunu kanıtlamaz. Günün stresi, çalışma saatleri ve diğer değişiklikler de kayıtta yer almalıdır. Amaç kendinize kesin bir neden atamak değil, görüşmede kullanılabilecek düzenli bilgi toplamaktır.
 

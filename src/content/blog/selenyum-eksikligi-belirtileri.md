@@ -29,7 +29,7 @@ relatedArticles:
 
 Selenyum eksikliğinin bilinen belirtileri kas güçsüzlüğü ve kas erimesi, kalp kasında zayıflama (kardiyomiyopati) ve tiroid işleyişindeki bozukluklardır; bu tablolar genellikle ağır ve uzun süren eksiklikte görülür. Hafif eksiklik çoğu kişide fark edilir bir yakınma yapmaz, yani yorgunluk, saç dökülmesi veya sık hastalanma tek başına "selenyumum düşük" demek değildir. Eksiklik daha çok selenyumdan fakir topraklarda yaşayanlarda, ağır bağırsak hastalığı olanlarda, diyaliz hastalarında ve uzun süre damardan beslenenlerde ortaya çıkar.
 
-İnternetteki listelerin çoğu bu ayrımı yapmaz. Aşağıda belirtileri kanıt düzeyine göre ayırıyor, kan tahlilinin neyi gösterip neyi göstermediğini ve fazlalığın neden en az eksiklik kadar önemli olduğunu anlatıyoruz.
+İnternetteki listelerin çoğu bu ayrımı yapmaz ve bir noktayı atlar: saç ve tırnak dökülmesi, eksiklikten çok fazla selenyum alımında görülür. Bu yüzden belirtiler burada kanıt düzeyine göre ayrıldı; kan tahlilinin sınırları ve fazlalık riski de ayrı başlıklarda.
 
 ## Selenyum eksikliği nedir?
 

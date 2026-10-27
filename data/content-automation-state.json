@@ -1442,6 +1442,47 @@
         "urlCount": 1,
         "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
       }
+    },
+    {
+      "day": "2026-10-26",
+      "slug": "kas-kaybi-ne-zaman-baslar",
+      "sourceArticleSha256": "678a59afe20ef92f4b302488ee8a1fb3a536a2468e98ce3f980413cd291e2806",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kas-kaybi-ne-zaman-baslar",
+        "htmlTitle": "Kas Kaybı Ne Zaman Başlar? Fitness ve Diyette Zamanlama",
+        "metaDescription": "Kas kaybı ne zaman başlar? Spora ara verme, yatak istirahati ve diyette sürelerin neden değiştiğini, tartı ve kuvvet ölçümlerinin sınırlarını öğrenin.",
+        "headline": "Kas Kaybı Ne Zaman Başlar? Fitness ve Diyette Zamanlama",
+        "datePublished": "2026-10-26",
+        "dateModified": "2026-10-26",
+        "wordCount": 930,
+        "bodyTextSha256": "a28ac49e1bf371d2e990c2a8f62fa383d61daa3717804bfcec8b399af7f1ac04",
+        "htmlSha256": "9502645f64a78b6736c80eeeecf574da37f0316af830d2d77d60e9cf12765afa"
+      },
+      "commit": "4efb5feed221c9b25eadd0294da2fce6ef1b1eb6",
+      "parent": "9bd39e6d247b3277bf26c644ecee62f73266af00",
+      "preparedAt": "2026-10-26T17:33:37.571Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-26T17:33:40.938Z",
+      "taskType": "yeni-yazi",
+      "action": "new",
+      "topic": "kas kaybı ne zaman başlar fitness",
+      "jobNo": 1,
+      "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-26\\kas-kaybi-ne-zaman-baslar\\research.json",
+      "periodicReview": {
+        "threshold": 49,
+        "range": [
+          43,
+          49
+        ],
+        "completedAt": "2026-10-26T17:34:57.414Z",
+        "path": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-26\\kas-kaybi-ne-zaman-baslar\\YEDI-ICERIK-DEGERLENDIRMESI.md",
+        "gscPeriod": [
+          "2026-09-26",
+          "2026-10-23"
+        ],
+        "effectMeasured": false,
+        "nextThreshold": 56
+      }
     }
   ]
 }

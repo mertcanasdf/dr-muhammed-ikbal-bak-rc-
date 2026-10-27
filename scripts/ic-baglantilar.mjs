@@ -50,7 +50,7 @@ export const MATRIX = {
   'polifenoller-ve-saglik': ['beslenme', [['omega-3-ne-ise-yarar', 'omega-3 yağ asitleri'], ['mavi-bolge-diyeti', 'Mavi Bölge beslenmesi'], ['lifli-beslenme-ve-mikrobiyota', 'lif ve mikrobiyota']]],
   'd3-vitamini-eksikligi': ['beslenme', [['d3-k2-birlikte-kullanilir-mi', 'D3 ve K2 birlikte kullanılır mı'], ['magnezyum-eksikligi', 'magnezyum eksikliği'], ['omega-3-ne-ise-yarar', 'omega-3 takviyeleri']]],
   'd3-k2-birlikte-kullanilir-mi': ['beslenme', [['d3-vitamini-eksikligi', 'D3 eksikliği belirtileri ve kan düzeyleri'], ['magnezyum-eksikligi', 'magnezyum ve D vitamini ilişkisi'], ['omega-3-ne-ise-yarar', 'omega-3 takviyelerinde güvenlik']]],
-  'magnezyum-eksikligi': ['beslenme', [['d3-k2-birlikte-kullanilir-mi', 'D3 ve K2 takviyeleri'], ['uyku-kalitesi-nasil-artirilir', 'uyku düzenini iyileştirmek'], ['d3-vitamini-eksikligi', 'D3 vitamini eksikliği']]],
+  'magnezyum-eksikligi': ['beslenme', [['d3-k2-birlikte-kullanilir-mi', 'D3 ve K2 takviyeleri'], ['uyku-kalitesi-nasil-artirilir', 'uyku düzenini iyileştirmek'], ['d3-vitamini-eksikligi', 'D3 vitamini eksikliği'], ['selenyum-eksikligi-belirtileri', 'selenyum eksikliği belirtileri']]],
 
   'vo2max-ve-longevity': ['hareket', [['bolge-2-kardiyo', 'Zone 2 (bölge 2) kardiyo'], ['gunluk-yuruyus-sagligi', 'günlük yürüyüşün faydaları'], ['direnc-antrenmani-yaslanma', 'direnç antrenmanı']]],
   'bolge-2-kardiyo': ['hareket', [['vo2max-ve-longevity', 'VO₂max ve uzun ömür'], ['mitokondri-sagligi-nasil-desteklenir', 'mitokondri sağlığı'], ['gunluk-yuruyus-sagligi', 'günlük yürüyüş']]],

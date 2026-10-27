@@ -106,6 +106,8 @@ Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Kas Gücü ve Kas
 
 Bu konuyla ilgili uygulama ve değerlendirme örnekleri için [Yaşlılarda Sıvı Tüketimi: Susamayı Beklemeden Günlük Takip](/blog/yaslilarda-sivi-tuketimi-susama), [Sağlıklı Yaşam Süresi (Healthspan) Nedir? Nasıl İzlenir?](/blog/saglikli-yasam-suresi-healthspan-nedir) yazılarına bakabilirsiniz.
 
+Antrenmana ara verme, yatak istirahati ve diyetteki süreleri [kas kaybı ne zaman başlar rehberinde](/blog/kas-kaybi-ne-zaman-baslar) farklı araştırma koşullarıyla karşılaştırabilirsiniz.
+
 ## Konuyu derinleştirmek için
 
 Bu yazıyla bağlantılı olarak [yaşlanmada protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) ve [kavrama gücünün sağlık hakkında söyledikleri](/blog/kavrama-gucu-ve-saglik) konularını da okuyabilirsiniz. Ayrıca [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) hakkında ayrı bir yazımız bulunuyor. Konunun genel çerçevesini [hareket ve sağlıklı yaşlanma rehberimizde](/longevity/hareket) bulabilirsiniz.

@@ -497,5 +497,32 @@
     "type": "yazi-genisletme",
     "slug": "telomerleri-korumak",
     "by": "claude"
+  },
+  {
+    "day": "2026-10-26",
+    "type": "yeni-yazi",
+    "slug": "kas-kaybi-ne-zaman-baslar",
+    "topic": "kas kaybı ne zaman başlar fitness",
+    "by": "codex",
+    "durum": "tamam",
+    "status": "completed",
+    "action": "new",
+    "commit": "4efb5feed221c9b25eadd0294da2fce6ef1b1eb6",
+    "publicationStatus": "pushed_waiting_manual_pull",
+    "researchPath": "C:\\Users\\mertc\\Documents\\Codex\\2026-10-06\\c-users-mertc-onedrive-desktop-muhammed\\outputs\\keyword-research\\2026-10-26\\kas-kaybi-ne-zaman-baslar\\research.json",
+    "wordCount": 930,
+    "completedAt": "2026-10-26T17:34:10.247Z"
+  },
+  {
+    "day": "2026-10-26",
+    "type": "sorgu-optimizasyonu",
+    "slug": "kas-gucu-kas-kutlesi-farki",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-27",
+    "type": "sorgu-optimizasyonu",
+    "slug": "kafein-uyku-kahve-ne-zaman-birakilmali",
+    "by": "claude"
   }
 ]

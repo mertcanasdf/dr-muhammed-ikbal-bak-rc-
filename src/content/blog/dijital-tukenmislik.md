@@ -110,7 +110,7 @@ Aşağıdaki durumlarda profesyonel destek almak gerekir:
 
 ### Dijital tükenmişlik bir hastalık mı?
 
-Hayır. Resmi bir tanı kategorisi değildir. Yaşanan yorgunluk ve odaklanma güçlüğü gerçektir, ancak "dijital tükenmişlik" bir tanı değil, deneyimi tarif eden bir ifadedir.
+Hayır. Resmi bir tanı kategorisi değildir. Yaşanan yorgunluk ve odaklanma güçlüğü gerçektir, ancak "dijital tükenmişlik" bir tanı değil, deneyimi tarif eden bir ifadedir. Ekran düzeni toparlandığı halde süren dikkat sorununda [odaklanma eksikliğinin diğer nedenlerine](/blog/odaklanma-eksikligi-neden-olur) bakmak gerekir.
 
 ### Ekran süresini azaltmak tek başına yeter mi?
 

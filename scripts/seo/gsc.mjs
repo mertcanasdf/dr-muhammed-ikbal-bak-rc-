@@ -112,6 +112,22 @@ async function inspect(token, count) {
     console.log(`Sitemap Search Console'a gönderildi: HTTP ${r.status}`);
     process.exit(r.ok ? 0 : 1);
   }
+  // --gunluk: son 14 günün gün gün tık/gösterimi ve son 3 günde tık alan sayfa/sorgular (kesinleşmemiş veri dahil, arayüzle aynı).
+  if (process.argv.includes('--gunluk')) {
+    const day = (n) => new Date(Date.now() - n * 86400000).toISOString().slice(0, 10);
+    const url = `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(GSC_PROPERTY)}/searchAnalytics/query`;
+    const q = (dimensions, s, e = day(0)) => api(token, url, { startDate: s, endDate: e, dimensions, rowLimit: 1000, dataState: 'all' });
+    const [byDate, recent, recentPages] = await Promise.all([q(['date'], day(14)), q(['query', 'page'], day(3)), q(['page'], day(3))]);
+    for (const r of byDate.rows ?? []) console.log(`${r.keys[0]}  ${String(r.clicks).padStart(3)} tık  ${String(r.impressions).padStart(4)} gösterim`);
+    // Google küçük sorguları gizler; sayfa toplamı tüm tıkları gösterir.
+    console.log('Son 3 günde tık alan sayfalar:');
+    for (const r of (recentPages.rows ?? []).filter((x) => x.clicks > 0).sort((a, b) => b.clicks - a.clicks))
+      console.log(`  ${r.clicks}  ${r.keys[0].replace(SITE, '')}  (${r.impressions} gösterim, sıra ${r.position.toFixed(1)})`);
+    console.log('Son 3 günde tık alan sorgular (görünenler):');
+    for (const r of (recent.rows ?? []).filter((x) => x.clicks > 0).sort((a, b) => b.clicks - a.clicks))
+      console.log(`  ${r.clicks}  ${r.keys[0]}  →  ${r.keys[1].replace(SITE, '')}  (sıra ${r.position.toFixed(1)})`);
+    process.exit(0);
+  }
   const perf = await performance(token);
   writeJson(OUT, perf);
   const tot = perf.pages.reduce((a, p) => ({ c: a.c + p.clicks, i: a.i + p.impressions }), { c: 0, i: 0 });

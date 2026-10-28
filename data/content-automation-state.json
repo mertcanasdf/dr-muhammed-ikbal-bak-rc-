@@ -1553,6 +1553,27 @@
       "preparedAt": "2026-10-28T06:24:04.619Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-28T06:24:07.391Z"
+    },
+    {
+      "day": "2026-10-28",
+      "slug": "odaklanma-eksikligi-neden-olur",
+      "sourceArticleSha256": "56fd45a5f29bc7072d8ab8450cc8ac1474c90c4a2ab4411540164485301514d6",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/odaklanma-eksikligi-neden-olur",
+        "htmlTitle": "Odaklanma Eksikliği Neden Olur? Uyku, Vitamin ve DEHB",
+        "metaDescription": "Odaklanma eksikliği neden olur? Uyku, stres, demir ve B12 eksikliği, tiroid ve DEHB arasındaki farkı ve hangi tahlilin ne zaman işe yaradığını görün.",
+        "headline": "Odaklanma Eksikliği Neden Olur? Uyku, Stres, Vitaminler ve DEHB",
+        "datePublished": "2026-10-28",
+        "dateModified": "2026-10-28",
+        "wordCount": 1327,
+        "bodyTextSha256": "8ca3182bee07f1da2891e392e91ad9e1b5573d3357505b3f86a239486e33bc61",
+        "htmlSha256": "ca62dec506aeeda4412c0931c4c722e2d344da9116d532e7b1660c5519463da9"
+      },
+      "commit": "acbcaca296f749099ebd093be44efbfdbf9fc5e2",
+      "parent": "841acd0293b6f759a8bfb98edbd7272fc51cec7f",
+      "preparedAt": "2026-10-28T10:31:27.467Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-28T10:31:30.458Z"
     }
   ]
 }

@@ -41,7 +41,7 @@ Bu yazı erişkinlerde başvuru hazırlığına odaklanır. Çocuklarda belirtil
 
 Yorgunluğu uyuklamadan ayırarak anlatın. “Enerjim yok” ile “otururken istemeden uyuyakalıyorum” aynı deneyim değildir. Uykululuğun toplantı, yemek, okuma veya yolculuk gibi hangi koşulda ortaya çıktığını belirtmek görüşmeyi somutlaştırır. Gece belirtilerini siz hatırlamıyorsanız yakınınızın gözlemini ayrı olarak aktarın.
 
-[NHLBI kadınlarda uyku apnesi sayfası](https://www.nhlbi.nih.gov/health/sleep-apnea/women), kadınlarda uykusuzluk, yorgunluk ve sabah baş ağrısı gibi yakınmaların daha fazla öne çıkabileceğini bildirir. Bu nedenle yalnızca yüksek sesli horlama anlatısını beklemek bazı yakınmaların gözden kaçmasına neden olabilir. Bunun tersi de geçerlidir: sabah baş ağrısı tek başına uyku apnesi anlamına gelmez.
+[NHLBI kadınlarda uyku apnesi sayfası](https://www.nhlbi.nih.gov/health/sleep-apnea/women), kadınlarda uykusuzluk, yorgunluk ve sabah baş ağrısı gibi yakınmaların daha fazla öne çıkabileceğini bildirir. Bu nedenle yalnızca yüksek sesli horlama anlatısını beklemek bazı yakınmaların gözden kaçmasına neden olabilir. Bunun tersi de geçerlidir: sabah baş ağrısı tek başına uyku apnesi anlamına gelmez. Sabah baş ağrısını yüksek tansiyona bağlamak da aynı ölçüde yanıltıcıdır; tansiyon belirtiyle değil ölçümle anlaşılır ([tansiyon yüksekliği belirtileri](/blog/tansiyon-yuksekligi-belirtileri)).
 
 ## Görüşmeye hazırlık için gözlem tablosu
 

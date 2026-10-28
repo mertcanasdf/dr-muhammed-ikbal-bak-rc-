@@ -1532,6 +1532,27 @@
       "preparedAt": "2026-10-27T16:39:08.945Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-27T16:39:12.470Z"
+    },
+    {
+      "day": "2026-10-28",
+      "slug": "tansiyon-yuksekligi-belirtileri",
+      "sourceArticleSha256": "4dc2f70eb17ba971a09f4319bc047193a5ba317a6d71b2aedd66234ce0d063c1",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/tansiyon-yuksekligi-belirtileri",
+        "htmlTitle": "Tansiyon Yüksekliği Belirtileri ve Nasıl Anlaşılır?",
+        "metaDescription": "Tansiyon yüksekliği belirtileri neden çoğu zaman hissedilmez? Baş ağrısı ve burun kanamasının kanıtını, evde ölçüm eşiğini ve acil işaretleri görün.",
+        "headline": "Tansiyon Yüksekliği Belirtileri: Neden Çoğu Zaman Hissedilmez?",
+        "datePublished": "2026-10-28",
+        "dateModified": "2026-10-28",
+        "wordCount": 1286,
+        "bodyTextSha256": "2fffc820c16b0b3a786d9f42f4e15fbdff66d430c4a868e17c26b402e293a824",
+        "htmlSha256": "f16a8e4234f96c92009fadcdb94efc08fecc1efbf06a144fe7d9dedc911d2341"
+      },
+      "commit": "841acd0293b6f759a8bfb98edbd7272fc51cec7f",
+      "parent": "2ac069e47cf39c968092595647f98c87f973e588",
+      "preparedAt": "2026-10-28T06:24:04.619Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-28T06:24:07.391Z"
     }
   ]
 }

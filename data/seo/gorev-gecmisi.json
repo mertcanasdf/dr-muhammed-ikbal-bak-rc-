@@ -540,5 +540,19 @@
     "topic": "göz altı morluğu ne eksikliği",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-10-28",
+    "type": "yazi-genisletme",
+    "slug": "ekran-kullanimi-ve-uyku",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-28",
+    "type": "yeni-yazi",
+    "slug": "tansiyon-yuksekligi-belirtileri",
+    "topic": "tansiyon yüksekliği belirtileri",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

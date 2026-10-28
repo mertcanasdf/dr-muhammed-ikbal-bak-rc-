@@ -22,7 +22,7 @@ const areas = AREAS.map((area) => {
   // Seçili yazılardan sonra alanın diğer tüm yazıları da listelenir (hub → her yazı bağlantısı).
   const rest = allPosts
     .filter((p) => areaOf(slug(p.id), p.data.category) === area.id && !area.posts.includes(slug(p.id)))
-    .sort((a, b) => a.data.title.localeCompare(b.data.title, 'tr'))
+    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime() || a.data.title.localeCompare(b.data.title, 'tr'))
     .map((p) => postBySlug(slug(p.id)));
   return { ...area, page: AREA_PAGE[area.id], links: [...area.posts.map(postBySlug), ...rest] };
 });

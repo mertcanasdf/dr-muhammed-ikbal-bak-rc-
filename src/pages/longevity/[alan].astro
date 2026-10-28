@@ -4,6 +4,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CardImage from '../../components/CardImage.astro';
+import { sortPostsNewestFirst } from '../../lib/posts';
 import { AREAS, AREA_PAGE, NOTE, areaOf, type Area } from '../../lib/longevity-areas';
 
 const DESCRIPTIONS: Record<string, string> = {
@@ -25,18 +26,22 @@ const { area } = Astro.props as { area: Area };
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 const allPosts = await getCollection('blog');
 const inArea = allPosts.filter((p) => areaOf(slug(p.id), p.data.category) === area.id);
-// Önce alan için seçilmiş yazılar, ardından diğerleri alfabetik.
+// En yeni 4 yazı ayrı bölümde en üstte; ardından alan için seçilmiş yazılar, sonra kalanlar yeniden eskiye.
+// Yeni yazılar listenin ortasında kaybolmaz; merkezden yeni yazıya bağlantı sayfanın başında olur.
+const recent = sortPostsNewestFirst(inArea).slice(0, 4);
+const isRecent = (p: (typeof inArea)[number]) => recent.includes(p);
 const posts = [
-  ...area.posts.map((s) => inArea.find((p) => slug(p.id) === s)).filter((p) => p !== undefined),
-  ...inArea.filter((p) => !area.posts.includes(slug(p.id))).sort((a, b) => a.data.title.localeCompare(b.data.title, 'tr')),
+  ...area.posts.map((s) => inArea.find((p) => slug(p.id) === s)).filter((p) => p !== undefined && !isRecent(p)),
+  ...sortPostsNewestFirst(inArea.filter((p) => !area.posts.includes(slug(p.id)) && !isRecent(p))),
 ];
+const dateTr = (d: Date) => d.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Istanbul' });
 const others = AREAS.filter((a) => a.id !== area.id);
 const heading = `${area.title} ve Sağlıklı Yaşlanma`;
 ---
 <BaseLayout
   title={`${heading} — Dr. Muhammed İkbal Bakırcı`}
   description={DESCRIPTIONS[area.id]}
-  image={posts[0]?.data.image}
+  image={(recent[0] ?? posts[0])?.data.image}
   pageType="CollectionPage"
 >
   <section class="area-hero">
@@ -80,14 +85,37 @@ const heading = `${area.title} ve Sağlıklı Yaşlanma`;
     </div>
   </section>
 
+  {recent.length > 0 && (
+    <section class="area-section area-section--posts" aria-labelledby="recent-title">
+      <div class="container">
+        <h2 id="recent-title" class="area-h2">Son eklenenler</h2>
+        <div class="blog-grid">
+          {recent.map((post, i) => (
+            <article class="blog-card">
+              <a href={`/blog/${slug(post.id)}`}>
+                <CardImage src={post.data.image} alt={post.data.title} class="blog-card__img" priority={i === 0} />
+              </a>
+              <div class="blog-card__body">
+                <span class="blog-card__cat"><time datetime={post.data.date.toISOString().slice(0, 10)}>{dateTr(post.data.date)}</time></span>
+                <h3 class="blog-card__title"><a href={`/blog/${slug(post.id)}`}>{post.data.title}</a></h3>
+                <p class="blog-card__excerpt">{post.data.description}</p>
+                <a href={`/blog/${slug(post.id)}`} class="blog-card__read-more">Devamını oku &rarr;</a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
   <section class="area-section area-section--posts">
     <div class="container">
-      <h2 class="area-h2">{area.title} yazıları</h2>
+      <h2 class="area-h2">Tüm {area.title.toLocaleLowerCase('tr')} yazıları</h2>
       <div class="blog-grid">
         {posts.map((post, i) => (
           <article class="blog-card">
             <a href={`/blog/${slug(post.id)}`}>
-              <CardImage src={post.data.image} alt={post.data.title} class="blog-card__img" priority={i === 0} />
+              <CardImage src={post.data.image} alt={post.data.title} class="blog-card__img" />
             </a>
             <div class="blog-card__body">
               <span class="blog-card__cat">{post.data.category}</span>

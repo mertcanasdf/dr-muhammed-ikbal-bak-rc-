@@ -50,6 +50,8 @@ Sitenin konularındaki ~70 tohum (longevity, beslenme, hareket, uyku, zihin, cil
 
 ## Claude iyileştirme görevi
 
+Günde **2 iyileştirme** (`bugun.json` `iyilestirmeler`); ilk 20'deki sayfaları itmek yeni yazıdan daha hızlı tık getirir. Aynı gün aynı sayfa iki kez seçilmez. Her biri şu sırayla seçilir:
+
 Önce haftalık denetim kuyruğundaki `priority: "yuksek"` iş. Yoksa günün ilk fırsat türü, sonra kuyruğun normal öncelikli işi, sonra trend keşfinin `guclendir` listesi (konusu zaten yazılmış yükselen aramalar), sonra günün kalan sırası:
 
 | Gün | Sıra |

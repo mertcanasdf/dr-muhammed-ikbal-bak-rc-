@@ -101,12 +101,16 @@ const ORDER = {
   4: ['ctr', 'strike', 'gap', 'decay', 'thin'], 5: ['strike', 'ctr', 'decay', 'gap', 'thin'], 6: ['gap', 'strike', 'ctr', 'decay', 'thin'],
   7: ['broken', 'sources', 'strike', 'ctr', 'thin'],
 };
-let improve = null;
-const qItem = queue.find((x) => !x.done && x.priority === 'yuksek' && x.type !== 'yeni-yazi' && (!x.slug || fresh(x.slug)));
-if (qItem) improve = { type: qItem.type, slug: qItem.slug, reason: `Haftalık denetim kuyruğu: ${qItem.reason}`, details: qItem.details, queueId: qItem.id };
+// Günde DAILY_IMPROVE iyileştirme: ilk 20'ye yakın sayfaları itmek yeni yazıdan daha hızlı tık getirir.
+const DAILY_IMPROVE = 2;
+const usedQueue = new Set();
+const qHigh = () => {
+  const x = queue.find((q) => !q.done && !usedQueue.has(q.id) && q.priority === 'yuksek' && q.type !== 'yeni-yazi' && (!q.slug || fresh(q.slug)));
+  return x && { type: x.type, slug: x.slug, reason: `Haftalık denetim kuyruğu: ${x.reason}`, details: x.details, queueId: x.id };
+};
 // Günün ilk fırsatı denendikten sonra denetim kuyruğunun normal öncelikli işleri gelir; böylece kuyruk da erir.
 const qNormal = () => {
-  const x = queue.find((q) => !q.done && q.type !== 'yeni-yazi' && (!q.slug || fresh(q.slug)));
+  const x = queue.find((q) => !q.done && !usedQueue.has(q.id) && q.type !== 'yeni-yazi' && (!q.slug || fresh(q.slug)));
   return x && { type: x.type, slug: x.slug, reason: `Haftalık denetim kuyruğu: ${x.reason}`, details: x.details, queueId: x.id };
 };
 // Trend keşfinde, konusu zaten yazılmış yükselen aramalar: yeni sayfa yerine o yazı bu sorgularla güçlendirilir.
@@ -115,11 +119,21 @@ const trendStrengthen = () => {
   return t && { type: 'sorgu-optimizasyonu', slug: t.owner, reason: `Yükselen aramalar bu yazının konusunda: "${t.topic}" (puan ${t.score}; ${t.queries.length} sorgu). Sayfa bunları yanıtlamıyor.`, details: t.queries.slice(0, 12) };
 };
 const [firstKey, ...restKeys] = ORDER[weekday];
-for (const pick of [pickers[firstKey], qNormal, trendStrengthen, ...restKeys.map((k) => pickers[k])]) { if (improve) break; improve = pick() || null; }
-if (improve?.slug && !improve.page) improve.page = `https://www.muhammedikbalbakirci.com/blog/${improve.slug}`;
-// Fırsat sayfası kısa yazıysa tek paragraf eklemek yetmez: sorguyu yanıtlarken yazıyı da tam genişlet.
-const thinPage = improve && ['sorgu-optimizasyonu', 'ctr-iyilestirme'].includes(improve.type) && opp.thin.find((t) => t.slug === improve.slug);
-if (thinPage) { improve.reason += ` — sayfa kısa (${thinPage.words} kelime, ${thinPage.sources} kaynak)`; improve.alsoExpand = true; }
+const improvements = [];
+for (let n = 0; n < DAILY_IMPROVE; n++) {
+  let item = null;
+  for (const pick of [qHigh, pickers[firstKey], qNormal, trendStrengthen, ...restKeys.map((k) => pickers[k])]) { item = pick() || null; if (item) break; }
+  if (!item) break;
+  if (item.slug && !item.page) item.page = `https://www.muhammedikbalbakirci.com/blog/${item.slug}`;
+  // Fırsat sayfası kısa yazıysa tek paragraf eklemek yetmez: sorguyu yanıtlarken yazıyı da tam genişlet.
+  const thinPage = ['sorgu-optimizasyonu', 'ctr-iyilestirme'].includes(item.type) && opp.thin.find((t) => t.slug === item.slug);
+  if (thinPage) { item.reason += ` — sayfa kısa (${thinPage.words} kelime, ${thinPage.sources} kaynak)`; item.alsoExpand = true; }
+  improvements.push(item);
+  // Aynı gün aynı sayfa ya da aynı kuyruk işi ikinci kez seçilmez.
+  if (item.slug) { recentlyTouched.add(item.slug); recentCtr.add(item.slug); }
+  if (item.queueId) usedQueue.add(item.queueId);
+}
+const improve = improvements[0] ?? null;
 
 // ---- Codex işleri: kritik teknik sorun önce, sonra günde DAILY_NEW yeni yazı (+3 yedek konu) ----
 const isler = [];
@@ -138,14 +152,13 @@ for (const t of trends?.topics ?? []) {
 if (!isler.some((x) => x.type === 'yeni-yazi')) isler.push({ type: 'yeni-yazi', reason: 'Trend adayı yok: data/content-plan.json sıradaki aday' });
 isler.forEach((x, i) => { x.no = i + 1; });
 
-const result = { day: today, weekday, ...isler[0], isler, iyilestirme: improve, cannibal: opp.cannibal.slice(0, 3), gsc: opp.gscWindow };
+const result = { day: today, weekday, ...isler[0], isler, iyilestirme: improve, iyilestirmeler: improvements, cannibal: opp.cannibal.slice(0, 3), gsc: opp.gscWindow };
 if (!dry) {
   writeJson(TODAY_FILE, result);
-  if (improve?.queueId) {
-    const item = queue.find((q) => q.id === improve.queueId);
-    if (item) { item.done = today; writeJson(QUEUE_FILE, queue); }
-  }
-  if (improve) history.push({ day: today, type: improve.type, slug: improve.slug ?? null, by: 'claude' });
+  const doneIds = improvements.map((i) => i.queueId).filter(Boolean);
+  for (const id of doneIds) { const item = queue.find((q) => q.id === id); if (item) item.done = today; }
+  if (doneIds.length) writeJson(QUEUE_FILE, queue);
+  for (const i of improvements) history.push({ day: today, type: i.type, slug: i.slug ?? null, by: 'claude' });
   writeJson(HISTORY_FILE, history.slice(-400));
 }
 if (claimMode && !dry) claim(result);
@@ -202,9 +215,8 @@ function print(t, repeated, single = false) {
   if (t.details?.length) console.log('Ayrıntı:\n' + t.details.map((d) => '  - ' + (typeof d === 'string' ? d : JSON.stringify(d))).join('\n'));
   console.log(`Yapılacak: ${steps[t.type]}`);
   if (t.type === 'yeni-yazi' && t.details?.length) console.log('İlişkili sorgular (yazı bunları yanıtlamalı): ' + t.details.join(' | '));
-  if (!single && t.iyilestirme) {
-    const i = t.iyilestirme;
-    console.log(`\n--- İYİLEŞTİRME (Claude, 19.30) ---\nGörev : ${i.type}${i.slug ? `  →  ${i.slug}` : ''}\nNeden : ${i.reason}`);
+  for (const [n, i] of (single ? [] : t.iyilestirmeler ?? (t.iyilestirme ? [t.iyilestirme] : [])).entries()) {
+    console.log(`\n--- İYİLEŞTİRME ${n + 1} (Claude, 19.30) ---\nGörev : ${i.type}${i.slug ? `  →  ${i.slug}` : ''}\nNeden : ${i.reason}`);
     if (i.details?.length) console.log('Ayrıntı: ' + i.details.map((d) => (typeof d === 'string' ? d : JSON.stringify(d))).join(' | '));
   }
   if (t.alsoExpand) console.log(`Ayrıca : Sayfa kısa; ${steps['yazi-genisletme']} Sorgu bu yazının ana konusuysa genişletme sorguya göre kurgulanır.`);

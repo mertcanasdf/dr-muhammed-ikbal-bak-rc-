@@ -11,9 +11,7 @@ const estetikPosts = sortPostsNewestFirst(
   allPosts.filter(post => ['Skin Longevity'].includes(post.data.category)),
 ).slice(0, 3);
 // Hub → her cilt yazısı bağlantısı (SEO denetimi: kümedeki tüm yazılar pillar'dan erişilebilir olmalı).
-const skinPosts = allPosts
-  .filter((post) => post.data.category === 'Skin Longevity')
-  .sort((a, b) => a.data.title.localeCompare(b.data.title, 'tr'));
+const skinPosts = sortPostsNewestFirst(allPosts.filter((post) => post.data.category === 'Skin Longevity'));
 
 const slug = (id: string) => id.replace(/\.mdx?$/, '');
 

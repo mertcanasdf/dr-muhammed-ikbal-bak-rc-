@@ -29,7 +29,7 @@ relatedArticles:
 
 Potasyum eksikliğinin (hipokalemi) en sık belirtileri kas güçsüzlüğü ve krampları, yorgunluk, kabızlık, el ve ayaklarda karıncalanma ve çarpıntıdır. Kandaki düşüş hafifse çoğu kişi hiçbir şey hissetmez; belirgin düşüşlerde ise kalp ritmi bozulabilir. Eksiklik genellikle az potasyum yemekten değil, kusma, ishal ya da idrar söktürücü ilaçlarla potasyum kaybından kaynaklanır ve ancak kan testiyle anlaşılır.
 
-İnternetteki listeler "potasyumunuz eksik olabilir" diye uzayıp gider, ama bu belirtilerin hiçbiri potasyuma özgü değildir. Bu yüzden asıl soru "hangi belirti" değil, "potasyumu düşürecek bir durum var mı" sorusudur. Aşağıda ikisini birlikte ele alıyoruz.
+Kramp ya da halsizlik tek başına potasyuma özgü değildir; aynı yakınmalar uykusuzlukta, sıvı kaybında ve başka mineral eksikliklerinde de görülür. Belirtiyi anlamlı kılan, yanında potasyumu düşürebilecek bir durumun olmasıdır: birkaç gündür süren ishal, idrar söktürücü bir ilaç ya da böbrek hastalığı gibi.
 
 ## Potasyum eksikliği nedir?
 
@@ -122,7 +122,7 @@ Tek bir "potasyum besini" aramak yerine her öğüne bir sebze ya da baklagil ek
 
 Kusma ya da ishal sonrası kaybedilen sıvı ve tuzların yerine konması, potasyumun daha fazla düşmesini önlemeye yardım eder. Ayrıca potasyumu düşürebilecek bir ilaç kullanıyorsanız kontrol tahlillerini aksatmamak, "doğal" görünen müshil ve idrar söktürücü çayları düzenli kullanmamak da önemlidir. Sıvı dengesinin yaşla nasıl değiştiğini [yaşlılarda sıvı tüketimi](/blog/yaslilarda-sivi-tuketimi-susama) yazısı ele alıyor.
 
-## Ne zaman değerlendirme gerekir?
+## Potasyum ne zaman ölçülmeli?
 
 Şu durumlarda kan potasyumunun ölçülmesi gündeme gelir:
 

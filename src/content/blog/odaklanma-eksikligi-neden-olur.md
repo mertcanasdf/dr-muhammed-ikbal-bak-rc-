@@ -124,7 +124,7 @@ Kısa nefes ve dikkat egzersizleri bazı kişilere iyi gelir; kanıtın ne kadar
 
 Yukarıdaki demir meta-analizinde dikkatteki iyileşme demir düzeyi normal olan katılımcılarda da görüldü; ama çalışmalar belirli yaş ve cinsiyet gruplarıyla sınırlıydı ve bu sonuç herkesin takviye alması gerektiği anlamına gelmez. Eksiklik varsa tedavi o eksikliğe ve nedenine göre planlanır. DEHB tanısı konmuş kişilerde ilaç tedavisi seçeneklerden biridir; ancak bu karar kapsamlı değerlendirmeden sonra verilir. "Odak artırıcı" diye satılan ürünler bir tanının yerini tutmaz.
 
-## Ne zaman değerlendirme gerekir?
+## Odaklanma sorunu ne zaman ciddiye alınmalı?
 
 Aşağıdakilerden biri varsa odaklanma sorunu bir değerlendirmeyi hak eder:
 

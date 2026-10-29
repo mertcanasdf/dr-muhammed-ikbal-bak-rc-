@@ -568,5 +568,25 @@
     "type": "yazi-genisletme",
     "slug": "sanat-ve-beyin-sagligi",
     "by": "claude"
+  },
+  {
+    "day": "2026-10-29",
+    "type": "ctr-iyilestirme",
+    "slug": "muzik-ve-stres-kortizol",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-29",
+    "type": "ctr-iyilestirme",
+    "slug": "vardiyali-calisanlarda-uyku-duzeni",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-29",
+    "type": "yeni-yazi",
+    "slug": "beyin-sisi-nedir",
+    "topic": "beyin sisi nedir",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

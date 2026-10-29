@@ -41,7 +41,7 @@ Odaklanma sorunu herkeste aynı görünmez. Sık tarif edilenler şunlardır:
 - Basit işlerde bile daha yavaş olmak ve daha çok hata yapmak
 - Karar vermekte zorlanmak
 
-Bu belirtiler kendi başına bir tanı değildir. Asıl ipucu, sorunun **ne zamandan beri** sürdüğü, **ne zaman arttığı** ve **yanında başka ne olduğu**dur.
+Dalgınlığa zihinsel bulanıklık ve yorgunluk da eşlik ediyorsa bu tabloya halk arasında [beyin sisi](/blog/beyin-sisi-nedir) denir. Bu belirtiler kendi başına bir tanı değildir. Asıl ipucu, sorunun **ne zamandan beri** sürdüğü, **ne zaman arttığı** ve **yanında başka ne olduğu**dur.
 
 ## Odaklanma eksikliği neden olur?
 

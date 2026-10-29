@@ -1574,6 +1574,52 @@
       "preparedAt": "2026-10-28T10:31:27.467Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-28T10:31:30.458Z"
+    },
+    {
+      "day": "2026-10-29",
+      "slug": "beyin-sisi-nedir",
+      "sourceArticleSha256": "babb39f3c7c9d1e9eda5eff9a844ecaeae39d7a8af1f7356e705227e191700a8",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/beyin-sisi-nedir",
+        "htmlTitle": "Beyin Sisi Nedir? Belirtileri, Nedenleri, Nasıl Geçer",
+        "metaDescription": "Beyin sisi nedir, neden olur ve ne zaman geçer? Uyku, stres, COVID sonrası, menopoz ve eksikliklerle ilişkisini, toparlanma adımlarını görün.",
+        "headline": "Beyin Sisi Nedir? Belirtileri, Nedenleri ve Ne Zaman Geçtiği",
+        "datePublished": "2026-10-29",
+        "dateModified": "2026-10-29",
+        "wordCount": 1192,
+        "bodyTextSha256": "b7866f884006862bab6bf883a9563979217df89edd5bc69d299db6e32e91bbfb",
+        "htmlSha256": "91f38642601f067b54f23b4b7a6acee944889b4224430a26fdc18cf71ffec75d"
+      },
+      "commit": "4ebe9b3305474619d14b55cfcd8843235c8f76ca",
+      "parent": "b729752550841a4ff51e3d024db2b7da26412f5d",
+      "preparedAt": "2026-10-29T07:37:44.921Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-29-beyin-sisi-potasyum",
+      "batchSha256": "75f05e41fa4f0240bc87218bfe836555123fe1a2d48ca1f59c1156572872541f",
+      "pushedAt": "2026-10-29T07:37:47.958Z"
+    },
+    {
+      "day": "2026-10-29",
+      "slug": "potasyum-eksikligi-belirtileri",
+      "sourceArticleSha256": "f513b2d051cccf108ea57c22d39200a5100ec7412c2791b09dbee528bf6adb3b",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/potasyum-eksikligi-belirtileri",
+        "htmlTitle": "Potasyum Eksikliği Belirtileri, Nedenleri ve Beslenme",
+        "metaDescription": "Potasyum eksikliği belirtileri kan düzeyine göre nasıl değişir? Kusma, ishal ve idrar söktürücü gibi nedenleri, besin kaynaklarını, acil işaretleri görün.",
+        "headline": "Potasyum Eksikliği Belirtileri: Neden Olur, Ne Zaman Önemlidir?",
+        "datePublished": "2026-10-28",
+        "dateModified": "2026-10-28",
+        "wordCount": 1297,
+        "bodyTextSha256": "c7394af353330ada09b779fedef09fa5d2b79a1b65d55745fc498101dadc4a8a",
+        "htmlSha256": "5ac086d8876e3979161f3e743695cf631749d160d58ab5567408f67abf988054"
+      },
+      "commit": "4ebe9b3305474619d14b55cfcd8843235c8f76ca",
+      "parent": "b729752550841a4ff51e3d024db2b7da26412f5d",
+      "preparedAt": "2026-10-29T07:37:44.921Z",
+      "status": "pushed_waiting_manual_pull",
+      "batchId": "2026-10-29-beyin-sisi-potasyum",
+      "batchSha256": "75f05e41fa4f0240bc87218bfe836555123fe1a2d48ca1f59c1156572872541f",
+      "pushedAt": "2026-10-29T07:37:47.958Z"
     }
   ]
 }

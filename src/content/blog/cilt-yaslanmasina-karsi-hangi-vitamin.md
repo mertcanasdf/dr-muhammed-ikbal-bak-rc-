@@ -64,7 +64,7 @@ Gerçek eksiklik tablolarında ise farklı belirtiler birlikte değerlendirilir.
 
 Hayır. [AAD retinoid açıklaması](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol), retinoidleri A vitamini temelli ürünler olarak tanımlar; retinol bu gruptaki örneklerden biridir. Belirli cilt sorunları için kullanılan bir topikal ürünün kanıtı, ağızdan alınan A vitamini takviyesine otomatik olarak aktarılamaz. Form, uygulama yolu ve hedeflenen durum farklıdır.
 
-Ürün kullanımı da risksiz değildir. Retinoidler tahrişe yol açabilir ve gebelikte kullanılmamalıdır. Bu yazı bir başlama sıklığı, ürün yüzdesi veya kullanım takvimi vermiyor. Türevler ve kişisel uygunluğun neden ayrı ele alındığı [retinoid nedir rehberinde](/blog/retinoid-nedir) ayrıntılı anlatılıyor.
+Ürün kullanımı da risksiz değildir. Retinoidler tahrişe yol açabilir ve gebelikte kullanılmamalıdır. Bu yazı bir başlama sıklığı, ürün yüzdesi veya kullanım takvimi vermiyor. Türevler ve kişisel uygunluğun neden ayrı ele alındığı [retinoid nedir rehberinde](/blog/retinoid-nedir) ayrıntılı anlatılıyor. Aynı ayrım B3 vitamini için de geçerlidir: kremdeki niasinamidin cilt etkisi ile ağızdan yüksek doz nikotinamid farklı konulardır; ikisinin kanıtını ve olası zararlarını [niacinamide rehberinde](/blog/niacinamide-zararlari) ayrı ayrı ele aldık.
 
 Bir örnek düşünün: Yeni bir bakım ürünü sonrası cildi kızaran ve gerilen kişi, bunu “vitaminim azaldı” diye yorumlayabilir. Oysa önce ürünün adı, başlama zamanı ve ortaya çıkan yakınma kaydedilmelidir. Bu örnek tanı koymaz; sorunla kullanılan ürün arasındaki zaman ilişkisini görünür kılar. Daha fazla ürün eklemek, sorunun nedenini açıklamaz.
 

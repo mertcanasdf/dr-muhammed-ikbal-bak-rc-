@@ -1593,10 +1593,17 @@
       "commit": "4ebe9b3305474619d14b55cfcd8843235c8f76ca",
       "parent": "b729752550841a4ff51e3d024db2b7da26412f5d",
       "preparedAt": "2026-10-29T07:37:44.921Z",
-      "status": "pushed_waiting_manual_pull",
+      "status": "live_verified",
       "batchId": "2026-10-29-beyin-sisi-potasyum",
       "batchSha256": "75f05e41fa4f0240bc87218bfe836555123fe1a2d48ca1f59c1156572872541f",
-      "pushedAt": "2026-10-29T07:37:47.958Z"
+      "pushedAt": "2026-10-29T07:37:47.958Z",
+      "liveVerifiedAt": "2026-10-29T08:18:17.064Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
     },
     {
       "day": "2026-10-29",
@@ -1620,6 +1627,27 @@
       "batchId": "2026-10-29-beyin-sisi-potasyum",
       "batchSha256": "75f05e41fa4f0240bc87218bfe836555123fe1a2d48ca1f59c1156572872541f",
       "pushedAt": "2026-10-29T07:37:47.958Z"
+    },
+    {
+      "day": "2026-10-29",
+      "slug": "niacinamide-zararlari",
+      "sourceArticleSha256": "a180c80e2bd53eab6e2ff6b59575cf8f17dbedd6f3023c63225b7e1b80a28b8f",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/niacinamide-zararlari",
+        "htmlTitle": "Niacinamide Zararları ve Faydaları: Nasıl Kullanılır?",
+        "metaDescription": "Niacinamide zararları neler, cilde faydası ne kadar kanıtlı? Tahriş riskini, serumun rutindeki yerini, asit ve retinolle kullanımını görün.",
+        "headline": "Niacinamide (Niasinamid) Nedir? Zararları, Faydaları ve Kullanımı",
+        "datePublished": "2026-10-29",
+        "dateModified": "2026-10-29",
+        "wordCount": 1314,
+        "bodyTextSha256": "57ce0dc3ce8ce447d68147bf4b987bbde179a45522b8b6541fa3743145c646b5",
+        "htmlSha256": "f1980addd45e54e3da0075fe4db31896c2f4683aeb9a7c52bb97ade0b5edd9ac"
+      },
+      "commit": "b9e4ce3151414cd14f3348f3450f9d31ccc86287",
+      "parent": "4ebe9b3305474619d14b55cfcd8843235c8f76ca",
+      "preparedAt": "2026-10-29T08:18:03.836Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-29T08:18:07.258Z"
     }
   ]
 }

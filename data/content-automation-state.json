@@ -1648,6 +1648,27 @@
       "preparedAt": "2026-10-29T08:18:03.836Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-29T08:18:07.258Z"
+    },
+    {
+      "day": "2026-10-29",
+      "slug": "nefes-egzersizi-nasil-yapilir",
+      "sourceArticleSha256": "8237c892b6ebd7c5e2bfbe2507561b1267caf0c866ace9edd83c495947fd6112",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/nefes-egzersizi-nasil-yapilir",
+        "htmlTitle": "Nefes Egzersizi Nasıl Yapılır? Adımlar ve 4-7-8 Tekniği",
+        "metaDescription": "Nefes egzersizi nasıl yapılır, ne işe yarar, 4-7-8 tekniği nedir? Adımları, süreyi, olası zararları ve kanıtın nerede durduğunu sade biçimde öğrenin.",
+        "headline": "Nefes Egzersizi Nasıl Yapılır? Adım Adım Teknikler ve Kanıtlar",
+        "datePublished": "2026-10-29",
+        "dateModified": "2026-10-29",
+        "wordCount": 1144,
+        "bodyTextSha256": "effde6d28f53bdd1f6ba0ee68f8155447b6aae4592df6afa11164732aedaa13b",
+        "htmlSha256": "5c2b82f8324f4d8188fa285ee022373d8cafb2bd96461be93077918e4f627ccf"
+      },
+      "commit": "796d485604267d0d0dccffba68250d49bbd9561a",
+      "parent": "1aaa4d9d8c1787f772f8b644d479a4c12fdd2442",
+      "preparedAt": "2026-10-29T14:12:15.208Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-29T14:12:18.511Z"
     }
   ]
 }

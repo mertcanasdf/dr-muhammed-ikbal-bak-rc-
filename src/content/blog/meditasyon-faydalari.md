@@ -58,7 +58,7 @@ Dikkatin dağıldığını fark edip yeniden bir odağa dönmek, uygulamanın bi
 
 ## Başlangıçta zihnin susması gerekmiyor
 
-[NHS başlangıç rehberi](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/), özel ekipman gerekmediğini ve rahat, destekli bir oturuşun kullanılabileceğini anlatır. Dikkat nefese yöneldiğinde düşüncelerin gelmesi başarısızlık sayılmaz; amaç bunu fark edip nazikçe yeniden odaklanmaktır. Burada nefes tutma, zorlayarak derin soluma veya belirli bir dakika hedefi önerilmiyor.
+[NHS başlangıç rehberi](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/), özel ekipman gerekmediğini ve rahat, destekli bir oturuşun kullanılabileceğini anlatır. Dikkat nefese yöneldiğinde düşüncelerin gelmesi başarısızlık sayılmaz; amaç bunu fark edip nazikçe yeniden odaklanmaktır. Burada nefes tutma, zorlayarak derin soluma veya belirli bir dakika hedefi önerilmiyor. Yavaş nefesin kendi başına bir uygulama olarak nasıl yapıldığı ve kanıtın sınırları için [nefes egzersizi rehberine](/blog/nefes-egzersizi-nasil-yapilir) bakabilirsiniz.
 
 Gündelik farkındalık, bir sesin veya yürürken çevrenin farkına varmakla da ilişkilidir. [NHS mindfulness rehberi](https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/), zihinden geçenleri gelip giden düşünceler olarak tanımayı açıklar. Bu, her rahatsızlığı tek başına çözmeniz gerektiği anlamına gelmez.
 

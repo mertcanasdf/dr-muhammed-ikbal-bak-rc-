@@ -50,7 +50,7 @@ Balık çeşitleri, yumurta ve diğer protein kaynakları bir beslenme örüntü
 
 Hayır. Özellikle başka ülkelerin besin tablolarındaki süt miktarları, elinizdeki ürünün değeri gibi okunmamalıdır. [NIH](https://ods.od.nih.gov/factsheets/VitaminD-Consumer/), ABD'de sütün büyük ölçüde zenginleştirildiğini anlatırken [NHS](https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/), Birleşik Krallık'ta inek sütünün genellikle bu şekilde zenginleştirilmediğini belirtir. Ülke ve ürün farkı gerçek bir farktır.
 
-Bu örneklerden Türkiye'deki her sütün içeriği hakkında sonuç çıkarılamaz. Aldığınız sütün veya içeceğin etiketindeki D vitamini satırına bakın. Kalsiyum bulunması, D vitamini de eklendiğini kanıtlamaz; bunlar ayrı besin öğeleridir.
+Bu örneklerden Türkiye'deki her sütün içeriği hakkında sonuç çıkarılamaz. Aldığınız sütün veya içeceğin etiketindeki D vitamini satırına bakın. Kalsiyum bulunması, D vitamini de eklendiğini kanıtlamaz; bunlar ayrı besin öğeleridir ([kalsiyum eksikliği belirtileri ve kaynakları](/blog/kalsiyum-eksikligi-belirtileri) ayrı bir yazıda).
 
 Benzer biçimde badem, yulaf veya soya içeceği adı tek başına D vitamini miktarını söylemez. İki ürün aynı bitkiden yapılmış olsa bile farklı biçimde zenginleştirilmiş olabilir. Etikette D vitamini miktarı belirtilmiyorsa internetteki başka bir ürünün değerini ona atamayın; gerektiğinde üreticinin ürün bilgisini kontrol edin.
 

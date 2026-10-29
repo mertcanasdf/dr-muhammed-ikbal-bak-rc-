@@ -129,7 +129,7 @@ Takviyenin gerekip gerekmediği alımınıza, yaşınıza ve kan değerlerine ba
 
 Besinle bol kalsiyum alan biri için takviye çoğu zaman gereksizdir. Ayrıca D3 ile K2 kombinasyonlarında kalsiyum da bulunabildiği için [D3 ve K2](/blog/d3-k2-birlikte-kullanilir-mi) yazısındaki ürün kontrolü önerisi burada da geçerli.
 
-## Ne zaman değerlendirme gerekir?
+## Kalsiyum belirtilerinde hangileri bekleyebilir, hangileri beklemez?
 
 - Dudak, dil ya da parmak uçlarında tekrarlayan karıncalanma, ellerde ya da ayaklarda spazm
 - Boyun ameliyatı (tiroid ya da paratiroid) sonrası yeni başlayan kramp ve uyuşma

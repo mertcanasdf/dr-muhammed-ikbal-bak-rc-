@@ -29,7 +29,6 @@ relatedArticles:
 
 **Niacinamide** (Türkçe yazımıyla niasinamid, diğer adıyla nikotinamid), B3 vitamininin cilt bakım ürünlerinde kullanılan formudur. Cilde sürüldüğünde genellikle iyi tolere edilir; bilinen zararları çoğunlukla hafif tahriş, yani kızarıklık, batma, kaşıntı ya da kuruluktur ve yüksek oranlı ürünlerde, hassas ciltte veya asitlerle aynı anda sürüldüğünde daha sık görülür. Leke, ince çizgi görünümü, yağlanma ve cilt bariyeri üzerine insan çalışmaları vardır, ama etki ölçülüdür ve haftalar içinde ortaya çıkar.
 
-Bu yazı önce "zararlı mı?" sorusunu cevaplıyor, sonra hangi faydanın ne kadar kanıtlandığını, serumun rutinde nereye konduğunu ve hangi içeriklerle aynı anda sürülmesinin sorun çıkarabileceğini anlatıyor.
 
 ## Niacinamide nedir, ne için kullanılır?
 
@@ -121,7 +120,7 @@ Niacinamide, retinoidler gibi cildi güneşe duyarlı hale getiren bir içerik o
 
 Hassas ciltte genel kural basittir: aynı anda tek yeni aktif başlatılır. Hangi ürünün tahriş yaptığını ancak böyle anlarsınız. Bariyeri zayıflamış ciltte rutini sadeleştirmenin yolunu [cilt bariyeri rehberinde](/blog/cilt-bariyeri-nasil-guclendirilir) adım adım anlattık.
 
-## Ne zaman değerlendirme gerekir?
+## Niacinamide hangi durumda bırakılmalı?
 
 Bir ürünü bıraktıktan sonra birkaç gün içinde geçen hafif kızarıklık genellikle tahriştir. Aşağıdaki durumlar ise ürün değiştirmekle geçiştirilmemelidir:
 

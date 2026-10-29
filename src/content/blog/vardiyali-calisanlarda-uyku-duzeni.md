@@ -1,9 +1,9 @@
 ---
 title: "Vardiyalı Çalışanlarda Uyku Düzeni: Planlama ve Eve Dönüş"
-seoTitle: "Gece Çalışanlar İçin Uyku Düzeni: Gündüz Uyku Rehberi"
+seoTitle: "Gece Çalışanlar İçin Uyku Düzeni: Gündüz Nasıl Uyunur?"
 date: 2026-10-06
 updated: 2026-10-21
-description: "Gece çalışanlar gündüz nasıl uyumalı? Uyku ortamı, vardiya öncesi kısa uyku, izin günleri ve güvenli eve dönüş için planlama önerilerini okuyun."
+description: "Gece çalışanlar gündüz nasıl uyumalı? Uyku saati, karanlık oda, vardiya öncesi kısa uyku, izin günü planı ve güvenli eve dönüş adımlarını görün."
 category: "Uyku"
 image: "/assets/images/generated/articles/vardiyali-calisanlarda-uyku-duzeni.webp"
 readTime: "7 dk"

@@ -3,7 +3,7 @@ title: "Müzik Dinlemek Stresi Nasıl Etkiler? Kortizol ve Kanıtlar"
 seoTitle: "Müzik Dinlemek Stresi Azaltır mı? Kortizol ve Kanıtlar"
 date: 2026-06-21
 updated: 2026-10-14
-description: "Müzik dinlemek stresi azaltır mı? Kortizol, kaygı ve rahatlama arasındaki farkı, araştırma sınırlarını ve güvenli dinleme önerilerini öğrenin."
+description: "Müzik dinlemek stresi azaltır mı? Kortizol ve kaygı üzerine araştırmaların gösterdikleri, sınırları, güvenli ses düzeyi ve dinleme süresi önerileri."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/muzik-ve-stres-kortizol.webp"
 readTime: "5 dk"

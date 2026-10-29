@@ -115,7 +115,7 @@ Ayırt ettiren ipuçları kabaca şunlardır:
 | Kişi sorunun farkında, kendisi dert ediniyor | Yakınlar fark ediyor, kişi pek fark etmiyor |
 | Dinlenince belirgin açılıyor | Tanıdık yerlerde kaybolma, aynı soruyu tekrar sorma var |
 
-## Ne zaman değerlendirme gerekir?
+## Beyin sisi hangi belirtilerle birlikteyse araştırılmalı?
 
 Cleveland Clinic'e göre beyin sisi; sık sık bir şeyleri unutmak, sıradan işleri bitirememek ya da konuşulanı takip edememek gibi günlük yaşamı bozacak düzeye geldiğinde değerlendirilmelidir. Şu durumlarda nedenin araştırılması ertelenmemelidir:
 

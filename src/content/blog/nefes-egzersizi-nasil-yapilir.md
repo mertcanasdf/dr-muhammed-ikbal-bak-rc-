@@ -97,7 +97,7 @@ Yavaş nefes çoğu sağlıklı yetişkin için düşük riskli kabul edilir, am
 - **Nefes tutmak** tüm teknikler için şart değildir; kalp-damar, akciğer ya da gebelik gibi durumlarda tutma süresini uzatan teknikler seçilmeden önce bir sağlık profesyonelinin değerlendirmesi gerekir. 2023 çalışmasında bu durumdaki kişilerin dışlanmış olması, güvenlik verisinin bu gruplar için bulunmadığını gösterir.
 - **Tedavinin yerine geçmesi** asıl zarardır. Panik, sürekli kaygı ya da uyku sorunu varken nefes egzersizine güvenip değerlendirmeyi ertelemek sorun yaratabilir.
 
-## Ne zaman değerlendirme gerekir?
+## Nefes egzersizinin yetmediği durumlar
 
 Şu durumlarda sorun nefes tekniğiyle çözülecek bir şey değildir ve bir sağlık profesyoneli tarafından değerlendirilmesi gerekir:
 

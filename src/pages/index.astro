@@ -56,8 +56,7 @@ const featured = featuredSlugs.map((slug) => {
   <section class="hp-hero" aria-labelledby="hp-title">
     <div class="container hp-hero__grid">
       <div class="hp-hero__copy">
-        <p class="hp-hero__name">Dr. Muhammed İkbal Bakırcı</p>
-        <h1 id="hp-title">Sağlıklı Yaş Almanın Bilimi</h1>
+        <h1 id="hp-title"><span class="hp-hero__name">Dr. Muhammed İkbal Bakırcı</span> <span class="hp-hero__headline">Sağlıklı Yaş Almanın Bilimi</span></h1>
         <p class="hp-hero__fields">Longevity · İnsan Optimizasyonu<br />Skin Longevity · Medikal Estetik</p>
         <p class="hp-hero__message">Sağlıklı yaşam yalnızca daha uzun yaşamak değildir. Bedeni, zihni ve sosyal yaşamı birlikte koruyarak daha iyi yaş almaktır.</p>
         <div class="hp-actions">
@@ -157,8 +156,10 @@ const featured = featuredSlugs.map((slug) => {
   .hp-hero { background: var(--main); color: #fff; overflow: hidden; }
   .hp-hero__grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; align-items: end; }
   .hp-hero__copy { padding: 72px 0; align-self: center; }
-  .hp-hero__name { font-size: 18px; font-weight: 700; color: #d6dbe0; }
-  .hp-hero h1 { font-size: clamp(40px, 5.4vw, 68px); line-height: 1.06; letter-spacing: -1.5px; font-weight: 900; margin: 20px 0 22px; }
+  /* İsim ve slogan tek H1'de: isim aramasında ana başlık hekimin adını taşır. */
+  .hp-hero h1 { margin: 0 0 22px; }
+  .hp-hero__name { display: block; font-size: 18px; line-height: 1.5; letter-spacing: normal; font-weight: 700; color: #d6dbe0; }
+  .hp-hero__headline { display: block; margin-top: 20px; font-size: clamp(40px, 5.4vw, 68px); line-height: 1.06; letter-spacing: -1.5px; font-weight: 900; }
   .hp-hero__fields { font-size: 16px; line-height: 1.7; color: #c3cbd2; }
   .hp-hero__message { max-width: 520px; margin-top: 18px; font-size: 18px; line-height: 1.7; color: #e8ecef; }
   .hp-hero__portrait { height: 600px; }

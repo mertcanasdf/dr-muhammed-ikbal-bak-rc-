@@ -164,8 +164,11 @@ check('sayfa içi bağlantılar (#) var olan bölümlere gidiyor', () => {
   return [...broken];
 });
 
-check('anasayfa H1 "Sağlıklı Yaş Almanın Bilimi"', () =>
-  /<h1[^>]*>\s*Sağlıklı Yaş Almanın Bilimi\s*<\/h1>/.test(read('index.html')) ? [] : ['index.html']);
+// İsim aramasında ana başlık hekimin adını taşımalı: H1 = ad + slogan.
+check('anasayfa H1 "Dr. Muhammed İkbal Bakırcı" + "Sağlıklı Yaş Almanın Bilimi"', () => {
+  const h1 = (read('index.html').match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  return h1 === 'Dr. Muhammed İkbal Bakırcı Sağlıklı Yaş Almanın Bilimi' ? [] : [`index.html: "${h1}"`];
+});
 
 check('anasayfada 4 kimlik kartı', () => {
   const n = (read('index.html').match(/class="hp-id"/g) || []).length;

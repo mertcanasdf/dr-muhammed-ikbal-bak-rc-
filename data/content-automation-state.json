@@ -1753,6 +1753,27 @@
       "preparedAt": "2026-10-30T12:09:14.358Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-30T12:09:17.002Z"
+    },
+    {
+      "day": "2026-10-30",
+      "slug": "selulit-nasil-gecer",
+      "sourceArticleSha256": "c79718015ccae9868bbe98b9115ca600863da74ed0397e34bf963bc4687342e4",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/selulit-nasil-gecer",
+        "htmlTitle": "Selülit Nasıl Geçer? Nedenleri, Belirtileri ve Tedavisi",
+        "metaDescription": "Selülit nedir, neden olur, nasıl geçer? Portakal kabuğu görünümünün nedenlerini, tedavilerin kanıt düzeyini ve enfeksiyon selülitinden farkını öğrenin.",
+        "headline": "Selülit Nasıl Geçer? Nedenleri, Belirtileri ve Kanıtlar Ne Diyor",
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-10-30",
+        "wordCount": 804,
+        "bodyTextSha256": "22322fb05a8ed302356b3ea9e6fa878d8f631260fe5b11621c6e5150e06ae7ef",
+        "htmlSha256": "f26237c84a1b94a138f94db9d24e898cf6e35c4d5c96587e954f8f3787b0b778"
+      },
+      "commit": "41e03953c887300c0e6a876bf44847806f802084",
+      "parent": "0e4657088699d45dcb24b1db995d56de341f875e",
+      "preparedAt": "2026-10-30T14:09:02.238Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-30T14:09:05.199Z"
     }
   ]
 }

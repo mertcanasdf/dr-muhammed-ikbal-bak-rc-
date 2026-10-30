@@ -656,5 +656,21 @@
     "topic": "zerdeçal nasıl kullanılır",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-10-30",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "doping hafıza faydaları",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-10-30",
+    "type": "yeni-yazi",
+    "slug": "selulit-nasil-gecer",
+    "topic": "selülit nasıl geçer",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

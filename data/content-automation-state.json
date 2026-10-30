@@ -1669,6 +1669,27 @@
       "preparedAt": "2026-10-29T14:12:15.208Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-29T14:12:18.511Z"
+    },
+    {
+      "day": "2026-10-30",
+      "slug": "hyaluronik-asit-faydalari",
+      "sourceArticleSha256": "ed022705fa0c0869aafbe6a4f8cc9deb2ec0cb38872709ada96e1b3f849fa755",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/hyaluronik-asit-faydalari",
+        "htmlTitle": "Hyaluronik Asit Faydaları: Cilde Ne Sağlar, Zararı Var mı?",
+        "metaDescription": "Hyaluronik asit nedir, cilde faydaları neler? Serum, ağızdan alınan form ve dolgu arasındaki farkı, kanıtın sınırlarını ve tahriş durumlarını görün.",
+        "headline": "Hyaluronik Asit Nedir, Ne İşe Yarar? Cilde Faydaları ve Kanıtlar",
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-10-30",
+        "wordCount": 1053,
+        "bodyTextSha256": "ded76a4256c3e20bdaa59bf6286cf311a4aa4d76e713d7639245a9cd2b8ac5f9",
+        "htmlSha256": "30517ae127cc0832e4f3bf71e4fe7f6416e4b65bbf9bb8802f2e65f4f36f8be6"
+      },
+      "commit": "a0d2bd15b3250aa28686185119500e78a791d7f1",
+      "parent": "9280b7aa4c48d06af5377c4d4ec00c1fa3fd263d",
+      "preparedAt": "2026-10-30T06:13:23.655Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-30T06:13:26.323Z"
     }
   ]
 }

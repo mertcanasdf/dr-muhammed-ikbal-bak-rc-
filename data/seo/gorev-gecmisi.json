@@ -612,5 +612,25 @@
     "topic": "nefes egzersizi nasıl yapılır",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-10-30",
+    "type": "sorgu-optimizasyonu",
+    "slug": "nemlendirici-icerikleri-seramid-humektan",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-30",
+    "type": "sorgu-optimizasyonu",
+    "slug": "anksiyete-ve-obsesyonun-fizyolojisi",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-30",
+    "type": "yeni-yazi",
+    "slug": "hyaluronik-asit-faydalari",
+    "topic": "hyaluronik asit faydaları",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

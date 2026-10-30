@@ -39,7 +39,7 @@ Meyve suyu, şekerli kahve içeceği veya yüksek kalorili çikolata polifenol i
 
 ## Takviyeler neden farklıdır?
 
-Resveratrol, kurkumin, yeşil çay özütü veya quercetin gibi yoğunlaştırılmış ürünlerdeki doz, besin tüketiminden çok daha yüksek olabilir. Bazı özütlerin kan sulandırıcılar, tansiyon ilaçları veya karaciğer üzerinde etkileri olabilir. “Doğal” ifadesi otomatik güvenlik belgesi değildir.
+Resveratrol, kurkumin, yeşil çay özütü veya quercetin gibi yoğunlaştırılmış ürünlerdeki doz, besin tüketiminden çok daha yüksek olabilir. Bazı özütlerin kan sulandırıcılar, tansiyon ilaçları veya karaciğer üzerinde etkileri olabilir. “Doğal” ifadesi otomatik güvenlik belgesi değildir. Zerdeçalın mutfakta ve takviyede nasıl kullanıldığı için [zerdeçal nasıl kullanılır](/blog/zerdecal-nasil-kullanilir) yazısına bakabilirsiniz.
 
 Polifenollerin bağırsak bakterileriyle etkileşimi araştırılmaktadır; ancak bu alan kişiden kişiye değişen ve henüz tüm sonuçları netleşmemiş bir alandır. [Polifenoller üzerine derleme](https://pubmed.ncbi.nlm.nih.gov/35694805/) kanıtların genişliğini gösterirken kesin tedavi iddialarını desteklemez.
 

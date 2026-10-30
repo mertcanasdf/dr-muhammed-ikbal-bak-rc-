@@ -1732,6 +1732,27 @@
       "preparedAt": "2026-10-30T10:08:42.598Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-30T10:08:45.271Z"
+    },
+    {
+      "day": "2026-10-30",
+      "slug": "zerdecal-nasil-kullanilir",
+      "sourceArticleSha256": "a4783827e49fdf42a3520068af254149cd8e6d56007d63b322b38a33a16ca339",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/zerdecal-nasil-kullanilir",
+        "htmlTitle": "Zerdeçal Nasıl Kullanılır? Ne İşe Yarar, Ne Zaman?",
+        "metaDescription": "Zerdeçal nasıl kullanılır, ne işe yarar, nerede yetişir? Yemekte ve çayda kullanım, karabiberle emilim, kanıtın sınırı ve takviyede karaciğer uyarısı.",
+        "headline": "Zerdeçal Nasıl Kullanılır? Ne İşe Yarar, Ne Zaman Kullanılır?",
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-10-30",
+        "wordCount": 1011,
+        "bodyTextSha256": "3ee93b098744d8d48209a97747b9a8de49c6c988f5b352fefc6d7e7a6371c778",
+        "htmlSha256": "e10162151cc5b1d89d1d93a7d71cd6b90ff33bf1762c14c11829f2e1514e439c"
+      },
+      "commit": "0e4657088699d45dcb24b1db995d56de341f875e",
+      "parent": "97ad9d54b6fc50f436c1794bdb86ce407cd1597e",
+      "preparedAt": "2026-10-30T12:09:14.358Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-30T12:09:17.002Z"
     }
   ]
 }

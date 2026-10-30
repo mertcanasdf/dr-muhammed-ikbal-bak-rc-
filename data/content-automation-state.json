@@ -1711,6 +1711,27 @@
       "preparedAt": "2026-10-30T08:09:02.548Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-30T08:09:06.052Z"
+    },
+    {
+      "day": "2026-10-30",
+      "slug": "ldl-kolesterol-yuksekligi-nedir",
+      "sourceArticleSha256": "35dbcbfa544bfa951e17bc46b42beb5c410c3f86ed517a38371a7fc72c7fd0f4",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ldl-kolesterol-yuksekligi-nedir",
+        "htmlTitle": "LDL Kolesterol Yüksekliği Nedir? Belirti, Neden, Değerler",
+        "metaDescription": "LDL kolesterol yüksekliği nedir, belirti verir mi? mg/dL aralıklarını, nedenlerini, damarlara zararını ve yaşam tarzının payını kaynaklarla görün.",
+        "headline": "LDL Kolesterol Yüksekliği Nedir? Belirtileri, Nedenleri ve Değerler",
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-10-30",
+        "wordCount": 1190,
+        "bodyTextSha256": "77d3189fcb340aadf9b00071cca369b9844972df92a59f6be20cd5ff7fd80734",
+        "htmlSha256": "a42be2e88d1721656b15b065fe8fe8094c15817e1dca2c4da0d2ea4bd0b8c68e"
+      },
+      "commit": "97ad9d54b6fc50f436c1794bdb86ce407cd1597e",
+      "parent": "09b06ac8c5e58590abbcff9b73ebc508fb9c8600",
+      "preparedAt": "2026-10-30T10:08:42.598Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-30T10:08:45.271Z"
     }
   ]
 }

@@ -130,7 +130,7 @@ CDC'nin sınıflamasına göre:
 
 Belirti olmasa da düzenli ölçüm önemlidir. NHS, 40 yaş ve üzerinde olup son beş yıldır tansiyonunu ölçtürmemiş herkesin ölçüm yaptırmasını önerir. Risk etkenleri olanlarda bu aralık daha kısa tutulabilir. Evde 135/85'in üzerinde tekrarlayan değerler görüyorsanız, kayıtlarınızla birlikte değerlendirilmeniz uygun olur. Kullandığınız tansiyon ilacını kendi kararınızla bırakmayın ya da değiştirmeyin.
 
-Tansiyon, sağlıklı yaşlanmanın izlenen temel göstergelerinden biridir. Beslenmenin bu göstergelere etkisini [beslenme ve sağlıklı yaşlanma](/longevity/beslenme) sayfası özetliyor. Düzenli hareketin payı için [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) yazısına bakabilirsiniz. WHO haftada en az 150 dakika orta yoğunlukta hareket önerir.
+Tansiyon, sağlıklı yaşlanmanın izlenen temel göstergelerinden biridir. Beslenmenin bu göstergelere etkisini [beslenme ve sağlıklı yaşlanma](/longevity/beslenme) sayfası özetliyor. Tansiyonla birlikte izlenen bir diğer sessiz gösterge için [LDL kolesterol yüksekliği](/blog/ldl-kolesterol-yuksekligi-nedir) yazısına bakabilirsiniz. Düzenli hareketin payı için [günlük yürüyüş](/blog/gunluk-yuruyus-sagligi) yazısı var. WHO haftada en az 150 dakika orta yoğunlukta hareket önerir.
 
 ## Sık sorulan sorular
 

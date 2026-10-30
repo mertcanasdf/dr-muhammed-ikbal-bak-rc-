@@ -1690,6 +1690,27 @@
       "preparedAt": "2026-10-30T06:13:23.655Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-30T06:13:26.323Z"
+    },
+    {
+      "day": "2026-10-30",
+      "slug": "folik-asit-eksikligi-belirtileri",
+      "sourceArticleSha256": "490a015fc7fbbcb03db57c952a4e8011be2d3dce56cb4d99c0f614d5e035e843",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/folik-asit-eksikligi-belirtileri",
+        "htmlTitle": "Folik Asit Eksikliği Nedir? Belirtileri ve Nedenleri",
+        "metaDescription": "Folik asit eksikliği nedir, hangi belirtilerle gelir, neden olur? Kansızlıkla ilişkisi, risk grupları, besin kaynakları ve B12 ile karışma tuzağı.",
+        "headline": "Folik Asit Eksikliği Nedir? Belirtileri, Nedenleri ve Ne Yapar?",
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-10-30",
+        "wordCount": 1111,
+        "bodyTextSha256": "c24c0c0517caea670b398538d4601e9db985bf9ad839048d3b11ee17b2fa1f59",
+        "htmlSha256": "e87f7fc31874a2f96b46e414cfac37723eb480d5fb45b628baba0fc966dacafd"
+      },
+      "commit": "09b06ac8c5e58590abbcff9b73ebc508fb9c8600",
+      "parent": "a0d2bd15b3250aa28686185119500e78a791d7f1",
+      "preparedAt": "2026-10-30T08:09:02.548Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-30T08:09:06.052Z"
     }
   ]
 }

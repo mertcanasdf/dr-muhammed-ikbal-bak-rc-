@@ -62,7 +62,7 @@ Beyin sisinin tek bir nedeni yoktur. Aşağıdaki tablo, en sık bağlamları ve
 | Kan şekeri düşüklüğü, diyabet | Açlıkla ya da öğün atlamayla artış |
 | Otoimmün hastalıklar (lupus, MS, fibromiyalji) | Sise eşlik eden, uzun süredir devam eden başka belirtiler |
 
-Tabloda Cleveland Clinic'in saydığı nedenler ile NHS'nin [az çalışan tiroid](https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/symptoms/) ve [B12 ya da folat eksikliği](https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/symptoms/) sayfalarındaki belirtiler bir araya getirildi. NHS, tiroid az çalıştığında "net düşünmekte ve odaklanmakta güçlük" yaşanabildiğini, B12 eksikliğinde bellek, kavrama ve muhakemede değişiklikler görülebildiğini yazar.
+Folat tarafının ayrıntısı için [folik asit eksikliği belirtileri](/blog/folik-asit-eksikligi-belirtileri) yazısına bakabilirsiniz. Tabloda Cleveland Clinic'in saydığı nedenler ile NHS'nin [az çalışan tiroid](https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/symptoms/) ve [B12 ya da folat eksikliği](https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/symptoms/) sayfalarındaki belirtiler bir araya getirildi. NHS, tiroid az çalıştığında "net düşünmekte ve odaklanmakta güçlük" yaşanabildiğini, B12 eksikliğinde bellek, kavrama ve muhakemede değişiklikler görülebildiğini yazar.
 
 ### Beyin sisi nasıl olur?
 

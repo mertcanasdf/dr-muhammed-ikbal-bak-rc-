@@ -1816,6 +1816,27 @@
       "preparedAt": "2026-10-31T08:08:22.909Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-31T08:08:25.435Z"
+    },
+    {
+      "day": "2026-10-31",
+      "slug": "yesil-cay-nasil-yapilir",
+      "sourceArticleSha256": "2bec948678ae3e9495da3bc27600eb92ff62b68299b4d4440a256ab26fab27dd",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/yesil-cay-nasil-yapilir",
+        "htmlTitle": "Yeşil Çay Nasıl Yapılır? Demleme, Faydası ve Zararları",
+        "metaDescription": "Yeşil çay nasıl yapılır, kaç derecede ve kaç dakika demlenir? Ne işe yaradığını, faydalarının kanıtını, zararlarını ve özüt riskini kaynaklarla öğrenin.",
+        "headline": "Yeşil Çay Nasıl Yapılır? Demleme, Faydaları ve Zararları",
+        "datePublished": "2026-10-31",
+        "dateModified": "2026-10-31",
+        "wordCount": 1222,
+        "bodyTextSha256": "ecd9115fd3b54337a7e802df5b2dd22beab20cc7bd06709c5611eb680423fe66",
+        "htmlSha256": "35f7ab933301300fabc11bee3c0e37e3f1a8652af7175757bbd953b2bb87ebe9"
+      },
+      "commit": "36c29777c1e850087e5f72b5f16ceed4742e5400",
+      "parent": "5be1cfc320a9e0f6afc927fa359e76f724594fb6",
+      "preparedAt": "2026-10-31T10:08:47.431Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-31T10:08:50.111Z"
     }
   ]
 }

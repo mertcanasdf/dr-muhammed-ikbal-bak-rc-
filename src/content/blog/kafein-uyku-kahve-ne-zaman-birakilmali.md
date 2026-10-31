@@ -59,7 +59,7 @@ Araştırmadan günlük yaşama geçerken içeceğin içeriği, tüketim alışk
 
 ## Yalnızca kahveyi saymak neden eksik kalır?
 
-Kafein kaydına kahve dışında çay, kafeinli kola, enerji içeceği ve kullandığınız ürünlerin etiketindeki kafein bilgisi de eklenmelidir. Kupa büyüklüğü ile içeceğin adı aynı şeyi anlatmaz. “Bir kahve” yerine “orta boy filtre kahve, saat 14.30” yazmak sonraki değerlendirmeyi daha anlaşılır yapar.
+Kafein kaydına kahve dışında çay (örneğin [yeşil çay](/blog/yesil-cay-nasil-yapilir)), kafeinli kola, enerji içeceği ve kullandığınız ürünlerin etiketindeki kafein bilgisi de eklenmelidir. Kupa büyüklüğü ile içeceğin adı aynı şeyi anlatmaz. “Bir kahve” yerine “orta boy filtre kahve, saat 14.30” yazmak sonraki değerlendirmeyi daha anlaşılır yapar.
 
 Etikette bilgi varsa bunu kaydedebilirsiniz; yoksa tahmini bir miligram değeri uydurmanız gerekmez. Hazırlama biçimini, fincan boyutunu ve tekrar sayısını yazmak yeterli bir başlangıçtır. Akşam iş toplantısında içilen çayı unutmak, son kahve saatini olduğundan erken gösterebilir. Kafeinsiz bir ürün için de içerik bilgisini kontrol edin; isimden sıfır kafein sonucu çıkarmayın.
 

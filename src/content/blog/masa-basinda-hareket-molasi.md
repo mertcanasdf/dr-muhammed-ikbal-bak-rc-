@@ -89,7 +89,7 @@ Mola düzeni; haftalık aerobik hareketin, kuvvet çalışmalarının veya size 
 
 Yeni göğüs ağrısı, bayılma hissi veya olağandışı nefes darlığı olursa hareketi bırakın ve yardım alın. Bu belirtilerle alarmı tamamlamak için devam etmeyin. [Cambridge University Hospitals güvenlik açıklaması](https://www.cuh.nhs.uk/patient-information/cardiac-rehabilitation-home-exercise-guidelines/) hareket sırasında durmayı gerektiren belirtilere yer verir.
 
-Yeni başlayan, tekrarlayan veya günlük işi kısıtlayan ağrı ve uyuşmayı yalnızca daha çok esneyerek çözmeye çalışmayın. Sağlık değerlendirmesi ve çalışma alanının gözden geçirilmesi gerekebilir. Mola formu bu yakınmaların tanısını koyamaz; ne zaman ve hangi görevde ortaya çıktığını kaydetmek görüşmeye hazırlık sağlar.
+Yeni başlayan, tekrarlayan veya günlük işi kısıtlayan ağrı ve uyuşmayı yalnızca daha çok esneyerek çözmeye çalışmayın. Sağlık değerlendirmesi ve çalışma alanının gözden geçirilmesi gerekebilir. Mola formu bu yakınmaların tanısını koyamaz; ne zaman ve hangi görevde ortaya çıktığını kaydetmek görüşmeye hazırlık sağlar. Ağrının süresine ve uyarı belirtilerine dair kaynaklı bir özet için [bel ağrısı nasıl geçer](/blog/bel-agrisi-nasil-gecer) yazımıza bakabilirsiniz.
 
 ## Kaynaklar
 

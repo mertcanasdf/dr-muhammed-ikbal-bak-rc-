@@ -1795,6 +1795,27 @@
       "preparedAt": "2026-10-31T06:12:02.591Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-31T06:12:05.496Z"
+    },
+    {
+      "day": "2026-10-31",
+      "slug": "bel-agrisi-nasil-gecer",
+      "sourceArticleSha256": "81ec3a47703f42bd8d563e7a2c8346272ba86c196593b3dbc4de03c9eb59c081",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/bel-agrisi-nasil-gecer",
+        "htmlTitle": "Bel Ağrısı Nasıl Geçer? Nedenleri ve Ne Zaman Geçer",
+        "metaDescription": "Bel ağrısı nasıl geçer, ne zaman geçer, neden olur? Süre evrelerini, sık nedenleri, evde kanıtlı adımları ve uyarı belirtilerini kaynaklarla öğrenin.",
+        "headline": "Bel Ağrısı Nasıl Geçer? Nedenleri, Süresi ve Uyarı Belirtileri",
+        "datePublished": "2026-10-31",
+        "dateModified": "2026-10-31",
+        "wordCount": 1138,
+        "bodyTextSha256": "cac9fbf1589070b429727b016a3c7e469f33bacb351456ff5c7674745721be99",
+        "htmlSha256": "c95037f81b1ecb93e40ca86962a041449c34bde9faea93ef93495cfdf04091e6"
+      },
+      "commit": "5be1cfc320a9e0f6afc927fa359e76f724594fb6",
+      "parent": "fba7a05cefffeb4cd43fd47a927d92632dadd22a",
+      "preparedAt": "2026-10-31T08:08:22.909Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-31T08:08:25.435Z"
     }
   ]
 }

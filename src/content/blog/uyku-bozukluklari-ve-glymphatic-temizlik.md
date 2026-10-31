@@ -43,7 +43,7 @@ Bu bulguların çoğu hayvan çalışmalarından gelir (Xie ve ark., 2013). İns
 
 **Melatonin**, karanlıkla birlikte salgılanan ve vücuda "gece" sinyali veren bir hormondur. Laboratuvar çalışmalarında antioksidan özellikleri de gösterilmiştir; ancak insanlarda bu etkinin yaşlanma üzerindeki önemi net değildir. 
 
-Aynı zamanda uyku sırasında büyüme hormonu (somatotropin) salınımı zirve yapar. Büyüme hormonu, gün boyunca hasar gören proteinlerin, kas liflerinin ve organ hücrelerinin sentezlenmesini ve onarılmasını tetikler. Yetersiz veya bölünmüş uyku bu salınım düzenini bozabilir.
+Aynı zamanda uyku sırasında büyüme hormonu (somatotropin) salınımı zirve yapar. Büyüme hormonu, gün boyunca hasar gören proteinlerin, kas liflerinin ve organ hücrelerinin sentezlenmesini ve onarılmasını tetikler. Yetersiz veya bölünmüş uyku bu salınım düzenini bozabilir. Hipofizin yeterli hormon üretememesi ise ayrı bir durumdur; belirtileri için [büyüme hormonu eksikliği yazımıza](/blog/buyume-hormonu-eksikligi-belirtileri) bakabilirsiniz.
 
 ## Uyku Kalitesini Artırmak İçin Sirkadiyen Uyum Kılavuzu
 

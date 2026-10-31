@@ -672,5 +672,25 @@
     "topic": "selülit nasıl geçer",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-10-31",
+    "type": "sorgu-optimizasyonu",
+    "slug": "mitokondri-sagligi-nasil-desteklenir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-31",
+    "type": "sorgu-optimizasyonu",
+    "slug": "prp-eksozom",
+    "by": "claude"
+  },
+  {
+    "day": "2026-10-31",
+    "type": "yeni-yazi",
+    "slug": "buyume-hormonu-eksikligi-belirtileri",
+    "topic": "büyüme hormonu eksikliği belirtileri",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

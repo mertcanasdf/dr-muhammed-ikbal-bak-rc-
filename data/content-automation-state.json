@@ -1774,6 +1774,27 @@
       "preparedAt": "2026-10-30T14:09:02.238Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-30T14:09:05.199Z"
+    },
+    {
+      "day": "2026-10-31",
+      "slug": "buyume-hormonu-eksikligi-belirtileri",
+      "sourceArticleSha256": "cffb0dbacda932932fbaa3a3648972a3b08cdd2954df38a06834b8b2993e97c3",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/buyume-hormonu-eksikligi-belirtileri",
+        "htmlTitle": "Büyüme Hormonu Eksikliği Belirtileri ve Nedenleri",
+        "metaDescription": "Büyüme hormonu eksikliği belirtileri çocuklarda, bebeklerde ve yetişkinlerde nasıl görülür? Nedenleri, tanı yöntemleri ve genetik rolü kaynaklarla.",
+        "headline": "Büyüme Hormonu Eksikliği Belirtileri: Çocuklarda, Bebeklerde ve Yetişkinlerde",
+        "datePublished": "2026-10-31",
+        "dateModified": "2026-10-31",
+        "wordCount": 1169,
+        "bodyTextSha256": "71c2a93b1fd5b62fe21eabfd6be88ab5110a73f6b049698fa45eb8d8ba57a10e",
+        "htmlSha256": "384786dc6233790d31b970e9ca33cd93d0a768cd46321fe1959b653ffabf2a29"
+      },
+      "commit": "fba7a05cefffeb4cd43fd47a927d92632dadd22a",
+      "parent": "41e03953c887300c0e6a876bf44847806f802084",
+      "preparedAt": "2026-10-31T06:12:02.591Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-31T06:12:05.496Z"
     }
   ]
 }

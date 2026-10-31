@@ -85,7 +85,7 @@ Probiyotik ile prebiyotik aynı değildir: ilki canlı mikroorganizmayı, ikinci
 
 ### Yoğurt, kefir ve fermente besinler aynı etkiyi sağlar mı?
 
-[NIH ODS tüketici rehberi](https://ods.od.nih.gov/factsheets/Probiotics-Consumer/), fermente gıdaların hepsinin kanıtlanmış probiyotik etkiye sahip olmadığını belirtir. Bir gıdanın fermantasyonla üretilmesi, son üründe aynı canlı mikroorganizmanın bulunduğu veya belirli bir yakınmaya yararlı olduğu anlamına gelmez. Besin tercihiyle klinik bir etki iddiasını ayırın.
+[NIH ODS tüketici rehberi](https://ods.od.nih.gov/factsheets/Probiotics-Consumer/), fermente gıdaların hepsinin kanıtlanmış probiyotik etkiye sahip olmadığını belirtir. Bir gıdanın fermantasyonla üretilmesi, son üründe aynı canlı mikroorganizmanın bulunduğu veya belirli bir yakınmaya yararlı olduğu anlamına gelmez. Besin tercihiyle klinik bir etki iddiasını ayırın. Örnekler ve riskler için [fermente gıdalar nelerdir yazısına](/blog/fermente-gidalar-nelerdir) bakabilirsiniz.
 
 Bir ürün inceleniyorsa şu bilgileri ayırt edin:
 

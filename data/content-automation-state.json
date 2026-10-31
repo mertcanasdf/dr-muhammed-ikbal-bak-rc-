@@ -1858,6 +1858,27 @@
       "preparedAt": "2026-10-31T12:08:01.615Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-31T12:08:04.346Z"
+    },
+    {
+      "day": "2026-10-31",
+      "slug": "fermente-gidalar-nelerdir",
+      "sourceArticleSha256": "f1ddb7699f89fc5977f4abe422d8f174fd4c95ff4b9b2f3712a9a67aaf1f4382",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/fermente-gidalar-nelerdir",
+        "htmlTitle": "Fermente Gıdalar Nelerdir? Faydaları ve Zararları",
+        "metaDescription": "Fermente gıdalar nelerdir, ne demek? Yoğurt, kefir, turşu gibi örnekleri, araştırmaların gösterdiklerini ve tuz ile üretim güvenliği risklerini öğrenin.",
+        "headline": "Fermente Gıdalar Nelerdir? Faydaları, Zararları ve Sınırları",
+        "datePublished": "2026-10-31",
+        "dateModified": "2026-10-31",
+        "wordCount": 1006,
+        "bodyTextSha256": "ae157b396b29db5566d9e407197f4d62491d921775af6ec85b7f23d5a84fa9da",
+        "htmlSha256": "9fefaa5de76678d79522417c12754740ac897fff45dab28d8d86247bbd0d2570"
+      },
+      "commit": "3c1c6a052416d2434547962fd8f4149c5812ca3d",
+      "parent": "8c98a64d64afd6b3c1e275433f0987ae8b007f99",
+      "preparedAt": "2026-10-31T14:08:10.335Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-31T14:08:13.015Z"
     }
   ]
 }

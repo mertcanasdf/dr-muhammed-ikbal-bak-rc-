@@ -1837,6 +1837,27 @@
       "preparedAt": "2026-10-31T10:08:47.431Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-31T10:08:50.111Z"
+    },
+    {
+      "day": "2026-10-31",
+      "slug": "alzheimer-belirtileri-nelerdir",
+      "sourceArticleSha256": "38109a677d9085b119cd2fc55f91d1d91dc04e0eb502e3c2c1fca1b73067085b",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/alzheimer-belirtileri-nelerdir",
+        "htmlTitle": "Alzheimer Belirtileri Nelerdir? Erken İşaretler ve Evreler",
+        "metaDescription": "Alzheimer belirtileri nelerdir? Erken işaretleri, normal unutkanlıktan farkı, evreleri ve tedavide bugün neyin mümkün olduğunu kaynaklarla okuyun.",
+        "headline": "Alzheimer Belirtileri Nelerdir? Erken İşaretler, Evreler ve Tedavi",
+        "datePublished": "2026-10-31",
+        "dateModified": "2026-10-31",
+        "wordCount": 1070,
+        "bodyTextSha256": "8f570234be9b3d4837caeb934e64f0e2943f9368164d311bf11972d6bcab65dd",
+        "htmlSha256": "329f8063c01a5dd862dcb4c14192668da4f7be79efcacf2320aafddfa92430f9"
+      },
+      "commit": "8c98a64d64afd6b3c1e275433f0987ae8b007f99",
+      "parent": "36c29777c1e850087e5f72b5f16ceed4742e5400",
+      "preparedAt": "2026-10-31T12:08:01.615Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-10-31T12:08:04.346Z"
     }
   ]
 }

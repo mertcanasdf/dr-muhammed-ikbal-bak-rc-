@@ -74,7 +74,7 @@ export const MATRIX = {
   'anksiyete-ve-obsesyonun-fizyolojisi': ['zihin', [['tukenmislik-sendromu', 'tükenmişlik sendromu'], ['muzik-ve-stres-kortizol', 'müziğin stres üzerindeki etkisi'], ['kortizol-yaslanma', 'kortizol ve yaşlanma']]],
   'muzik-ve-stres-kortizol': ['zihin', [['doga-ve-zihin-sagligi', 'doğada vakit geçirmek'], ['sanat-ve-beyin-sagligi', 'sanat üretmenin beyin sağlığına etkisi'], ['kortizol-yaslanma', 'kronik stres ve kortizol']]],
   'doga-ve-zihin-sagligi': ['zihin', [['gunluk-yuruyus-sagligi', 'günlük yürüyüş'], ['muzik-ve-stres-kortizol', 'müzik ve stres'], ['kitap-okuma-ve-beyin', 'kitap okumanın beyne etkisi']]],
-  'kitap-okuma-ve-beyin': ['zihin', [['sanat-ve-beyin-sagligi', 'sanat ve beyin sağlığı'], ['sosyal-baglanti-ve-uzun-omur', 'sosyal bağlantı ve uzun ömür'], ['muzik-ve-stres-kortizol', 'müzik dinlemenin etkileri']]],
+  'kitap-okuma-ve-beyin': ['zihin', [['sanat-ve-beyin-sagligi', 'sanat ve beyin sağlığı'], ['sosyal-baglanti-ve-uzun-omur', 'sosyal bağlantı ve uzun ömür'], ['muzik-ve-stres-kortizol', 'müzik dinlemenin etkileri'], ['alzheimer-belirtileri-nelerdir', 'Alzheimer belirtileri']]],
   'sanat-ve-beyin-sagligi': ['zihin', [['kitap-okuma-ve-beyin', 'kitap okuma ve bilişsel yaşlanma'], ['muzik-ve-stres-kortizol', 'müzik ve stres'], ['doga-ve-zihin-sagligi', 'doğa ve zihinsel toparlanma']]],
 
   'sosyal-baglanti-ve-uzun-omur': ['sosyal', [['yasam-amaci-ve-longevity', 'yaşam amacı ve uzun ömür'], ['sukran-pratigi-ve-dopamin', 'şükran pratiği'], ['mavi-bolge-diyeti', 'Mavi Bölge toplulukları']]],

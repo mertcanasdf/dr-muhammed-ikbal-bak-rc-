@@ -48,7 +48,7 @@ NAD+ seviyeleri yaşla birlikte azalır çünkü:
 - CD38 enzimi yaşlanmayla birlikte aşırı aktive olur ve NAD+'yı tüketir.
 - Kronik iltihap, PARP enzimlerini sürekli aktif tutarak NAD+ rezervlerini eritir.
 - Besin alımı ve sentez kapasitesi yaşla birlikte azalır.
-- Mitokondriyal disfonksiyon, NAD+ döngüsünü bozar.
+- Mitokondriyal disfonksiyon, NAD+ döngüsünü bozar. (Yaşla gelen bu işlev azalması, gen değişikliklerine bağlı [mitokondriyal hastalıklardan](/blog/mitokondri-sagligi-nasil-desteklenir) farklıdır.)
 
 Sonuç: yorgunluk, bilişsel gerileme, metabolik yavaşlama, kas kaybı ve artan hastalık duyarlılığı.
 

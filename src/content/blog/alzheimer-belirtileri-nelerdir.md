@@ -93,7 +93,7 @@ Bu bölüm genel bilgidir; hangi ilacın ya da yaklaşımın kime uygun olduğu 
 
 ## Alzheimer'a ne iyi gelir? Beyin sağlığı alışkanlıkları
 
-"Ne iyi gelir?" sorusu çoğu zaman bir besin ya da takviye arar. Okuduğumuz kaynaklarda Alzheimer'ı iyileştirdiği gösterilmiş bir besin ya da bitki yoktur. Kaynakların ortak önerdiği şey, risk faktörlerini yönetmeye dönük genel alışkanlıklardır:
+"Ne iyi gelir?" sorusu çoğu zaman bir besin ya da takviye arar. NHS, CDC ve DSÖ'de Alzheimer'ı iyileştirdiği gösterilmiş bir besin ya da bitki yoktur. Kaynakların ortak önerdiği şey, risk faktörlerini yönetmeye dönük genel alışkanlıklardır:
 
 - Düzenli fiziksel aktivite ([ileri yaşta egzersize başlama](/blog/ileri-yasta-egzersize-baslama) yazısı güvenli bir başlangıç çerçevesi sunar)
 - Tansiyon, kolesterol ve kan şekerinin izlenmesi
@@ -105,7 +105,7 @@ Bu bölüm genel bilgidir; hangi ilacın ya da yaklaşımın kime uygun olduğu 
 
 NHS, bunların Alzheimer'ı kesin olarak önlediğini söylemez; yalnızca riski azaltmaya yardımcı olabilecek adımlar olarak sunar. Beyin sağlığına genel bakış için [zihin ve sağlıklı yaşlanma rehberi](/longevity/zihin) sayfasını da kullanabilirsiniz.
 
-## Ne zaman değerlendirme gerekir?
+## Hangi değişiklikler unutkanlığın ötesine geçer?
 
 Şu durumlar, bir sağlık profesyonelince değerlendirilmesi gereken işaretler arasındadır:
 

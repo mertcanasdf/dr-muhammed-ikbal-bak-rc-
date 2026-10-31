@@ -1,11 +1,12 @@
 ---
 title: "PRP mi Eksozom mu? Farkları, Kanıtlar ve Güvenlik"
+seoTitle: "PRP Tedavisi Nedir? PRP ve Eksozom Farkı, Kanıtlar"
 date: 2026-06-16
-updated: 2026-10-05
-description: "PRP ve eksozom nasıl çalışır, aralarındaki fark nedir? Cilt ve saç için kanıtlar ne kadar güçlü, uygulama öncesi hangi sorular sorulmalı? Güncel kaynaklarla."
+updated: 2026-10-31
+description: "PRP tedavisi nedir, nasıl yapılır? Saç, cilt ve eklemde kanıtların gücünü, yan etkileri, kimlere uygun olmadığını ve eksozomdan farkını kaynaklarla okuyun."
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/prp-eksozom.webp"
-readTime: "5 dk"
+readTime: "7 dk"
 takeaways:
   - "PRP, kişinin kendi kanından elde edilen ve büyüme faktörleri içeren trombositten zengin plazmadır."
   - "PRP'nin saç dökülmesi ve cilt yenilenmesindeki etkisine dair çalışmalar umut verici, ancak kanıt düzeyi henüz sınırlıdır ve uygulama protokolleri standart değildir."
@@ -26,7 +27,9 @@ relatedArticles:
     image: "/assets/images/generated/articles/altin-igne.webp"
 ---
 
-Rejeneratif tıp, dokuların kendi onarım kapasitesini desteklemeyi amaçlayan bir alandır. Medikal estetikte bu yaklaşımın en çok konuşulan iki uygulaması **PRP (Trombositten Zengin Plazma)** ve **eksozom** uygulamalarıdır. İkisi de son yıllarda ilgi görüyor; ancak kanıt düzeyleri ve güvenlik durumları birbirinden oldukça farklı.
+**PRP tedavisi**, kişinin kendi kanından santrifüjle ayrıştırılan, trombositten zengin plazmanın (Platelet-Rich Plasma) saçlı deriye, cilde ya da tendon ve eklem gibi dokulara enjekte edilmesidir. Trombositlerin taşıdığı büyüme faktörleriyle dokunun onarım süreçlerini desteklemek amaçlanır. Saç dökülmesi ve diz kireçlenmesi gibi bazı kullanımlarda umut verici sonuçlar vardır; ancak protokoller standart değildir ve kanıt alandan alana belirgin biçimde değişir.
+
+Medikal estetikte PRP ile en çok karşılaştırılan uygulama **eksozomdur**. İkisi de "rejeneratif" başlığı altında anılsa da kanıt düzeyleri ve güvenlik durumları birbirinden oldukça farklıdır.
 
 ## PRP Nedir ve Nasıl Çalışır?
 
@@ -36,7 +39,35 @@ PRP, kişinin kendi kanından elde edilir (otolog). Az miktarda kan alınır ve 
 - Bu plazmanın cilde uygulanmasıyla fibroblastların uyarılması ve kolajen yapımının desteklenmesi hedeflenir.
 - Saç dökülmesinde, özellikle androgenetik alopeside, saç foliküllerini desteklemek amacıyla kullanılır.
 
-**Kanıtlar ne söylüyor?** Sistematik derlemeler, PRP'nin androgenetik alopeside saç yoğunluğunu artırabildiğini ve cilt yenilenmesinde doku ve kırışıklık görünümünde iyileşme sağlayabildiğini bildiriyor. Bununla birlikte çalışmaların çoğu küçük, kanıt düzeyi düşük-orta ve PRP hazırlama yöntemleri arasında büyük farklar var. Amerikan Dermatoloji Akademisi de PRP'nin saç dökülmesinde umut verici olduğunu, ancak kalıcı bir çözüm olmadığını ve idame seansları gerektirdiğini belirtiyor.
+**Kanıtlar ne söylüyor?** Sistematik derlemeler, PRP'nin androgenetik alopeside saç yoğunluğunu artırabildiğini ve cilt yenilenmesinde doku ve kırışıklık görünümünde iyileşme sağlayabildiğini bildiriyor. Bununla birlikte çalışmaların çoğu küçük, kanıt düzeyi düşük-orta ve PRP hazırlama yöntemleri arasında büyük farklar var. Amerikan Dermatoloji Akademisi (AAD) de PRP'nin saç dökülmesinde umut verici olduğunu, ancak kalıcı bir çözüm olmadığını ve idame seansları gerektirdiğini belirtiyor. Cilt yaşlanması için ise AAD, işe yaradığını ya da yaramadığını gösteren kanıtın az olduğunu açıkça yazıyor.
+
+## PRP Tedavisi Nasıl Yapılır?
+
+AAD'nin [cilt](https://www.aad.org/public/cosmetic/younger-looking/platelet-rich-plasma-secret-to-younger-skin) ve [saç dökülmesi](https://www.aad.org/public/diseases/hair-loss/treatment/male-pattern-hair-loss-treatment) sayfalarına göre işlem genel olarak şu basamaklardan oluşur:
+
+1. Kişiden az miktarda kan alınır (yaklaşık 2-4 yemek kaşığı).
+2. Kan santrifüj cihazında döndürülerek katmanlarına ayrılır; trombositten zengin plazma kısmı hazırlanır.
+3. Plazma, iğneyle ya da mikro iğneleme yöntemiyle cilde veya saçlı deriye uygulanır.
+
+Saç dökülmesinde AAD, enjeksiyonun yaklaşık 10 dakika sürdüğünü, ilk üç ay ayda bir, sonrasında 3-6 ayda bir seans yapıldığını anlatır. Cilt uygulamasında işlem 45 dakika ile bir saat sürebilir; sonuç alan kişilerin çoğu üç ya da daha fazla seans olmuştur. Etki birkaç hafta ile birkaç ay içinde ortaya çıkar. Bu sayılar AAD'nin verdiği genel bilgilerdir; standart bir protokol yoktur.
+
+## PRP Hangi Alanlarda Kullanılıyor?
+
+| Alan | Kanıtın durumu |
+|---|---|
+| Saç dökülmesi (androgenetik alopesi) | Umut verici; saç dökülmesinin azaldığı ve bazı kişilerde saçın kalınlaştığı bildiriliyor. Kalıcı değil, idame gerekiyor |
+| Cilt yaşlanması, akne izi | AAD'ye göre etkinliği gösteren ya da dışlayan kanıt az; ideal seans sayısı ve aralığı belirsiz |
+| Diz kireçlenmesi (hafif-orta) | [AAOS OrthoInfo](https://www.orthoinfo.org/treatment/platelet-rich-plasma-prp/), anlamlı etkinliği gösteren kanıt olduğunu, bazı sonuçların 2 yıla kadar sürebildiğini belirtiyor |
+| Kronik tendon sorunları (ör. tenisçi dirseği) | AAOS etkili kabul ediyor; Aşil ve patellar tendinitte umut verici ama standart tedaviden açıkça üstün değil |
+| Rotator manşet ve ön çapraz bağ ameliyatları, kırıklar | AAOS'a göre belirgin yarar gösterilmemiş |
+
+Tablonun gösterdiği gibi bir alanda elde edilen sonuç diğerine taşınamaz.
+
+## PRP'nin Yan Etkileri ve Kimlere Uygun Değildir?
+
+AAD; ağrı, morarma ve şişliğin olası olduğunu, bunların genellikle birkaç gün içinde geçtiğini belirtir. Asıl risk kanın işlenmesiyle ilgilidir: sterilizasyon uygun değilse enfeksiyon gelişebilir ve kişiye yalnızca kendi kanının verildiğinden emin olunmalıdır. Eklem uygulamalarında AAOS, enjeksiyon yerindeki ağrının bir-iki hafta artabildiğini, enfeksiyon ve sinir hasarı riskinin kortizon enjeksiyonlarından farklı görünmediğini bildirir.
+
+AAD'ye göre PRP şu durumlarda önerilmez: hepatit C, HIV, herhangi bir kan kanseri, kan sulandırıcı gerektiren kalp-damar hastalığı ya da uygulama bölgesinde cilt kanseri.
 
 ## Eksozom Nedir?
 
@@ -73,6 +104,7 @@ Bu yazıyla bağlantılı olarak [cilt mezoterapisi ve gençlik aşıları](/blo
 
 - [Platelet-Rich Plasma in Aesthetic Dermatology: Current Evidence and Future Directions (PMC, 2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11391108/)
 - [American Academy of Dermatology: Is platelet-rich plasma the secret to younger-looking skin?](https://www.aad.org/public/cosmetic/younger-looking/platelet-rich-plasma-secret-to-younger-skin)
-- [American Academy of Dermatology: Research demonstrates potential of PRP therapy for hair loss](https://www.aad.org/news/prp-therapy-for-hair-loss)
+- [American Academy of Dermatology: Male pattern hair loss treatment (PRP bölümü)](https://www.aad.org/public/diseases/hair-loss/treatment/male-pattern-hair-loss-treatment)
+- [AAOS OrthoInfo: Platelet-Rich Plasma (PRP)](https://www.orthoinfo.org/treatment/platelet-rich-plasma-prp/)
 - [FDA: Regenerative medicine products, including stem cells and exosomes — consumer alert](https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/consumer-alert-regenerative-medicine-products-including-stem-cells-and-exosomes)
 - [FDA: Public safety alert on unapproved stem cell and exosome products](https://www.fda.gov/safety/medical-product-safety-information/public-safety-alert-due-marketing-unapproved-stem-cell-and-exosome-products)

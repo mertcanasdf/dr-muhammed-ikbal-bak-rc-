@@ -104,7 +104,7 @@ Aşağıdaki durumlarda yeşil çayın miktarına ve özellikle özüt kullanım
 - Hamile olanlar ve emzirenler (kafein toplamı önemlidir; NCCIH emzirmede düşük-orta kafeini genelde uygun bulur, yüksek alımda bebeğin huzursuzlaşabileceğini belirtir)
 - Beta bloker ya da statin gibi ilaç kullananlar
 
-## Ne zaman değerlendirme gerekir?
+## Karaciğer uyarı işaretleri
 
 Yeşil çay özütü kullanıyorsanız ya da çok miktarda içiyorsanız ve şu belirtiler ortaya çıkarsa, kullanımı bırakıp sağlık profesyoneline başvurmak gerekir: gözlerde ya da ciltte sararma, koyu renk idrar, açıklanamayan yorgunluk, bulantı ya da sağ üst karında ağrı. Bunlar karaciğerle ilgili olabilir.
 

@@ -109,7 +109,7 @@ Küçük bir randomize çalışmada fermente gıdayla beslenen sağlıklı kişi
 
 Genel bir "zararlı" ya da "güvenli" cevabı yoktur; ürüne, miktara ve kişiye bağlıdır. Tuz yükü yüksek ürünlerde sınır önem taşır; sade yoğurt ve ayran gibi ürünlerde asıl dikkat edilecek nokta eklenmiş şeker ve toplam beslenme düzenidir.
 
-## Ne zaman değerlendirme gerekir?
+## Botulizm ve ciddi sindirim belirtileri
 
 Fermente ürün tükettikten sonra bulanık görme, çift görme, konuşma ya da yutma güçlüğü, kas güçsüzlüğü veya nefes darlığı gibi belirtiler botulizm açısından **acil durumdur**; CDC bunu tıbbi acil olarak tanımlar. Şiddetli karın ağrısı, kusma ve kanlı ishal de beklenmeyen, ciddi bir tablodur. Bağışıklığı baskılanmış, ciddi kronik hastalığı olan ya da yüksek tansiyon nedeniyle tuz kısıtlaması bulunan kişiler için bu yazıdaki genel bilgi, kişisel beslenme planının yerine geçmez.
 

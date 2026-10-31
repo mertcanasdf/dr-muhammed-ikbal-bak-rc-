@@ -95,7 +95,7 @@ Endocrine Society'ye göre edinsel nedenler arasında beyin tümörleri, bölgey
 
 ## Çocuklarda büyüme hormonu ne zaman salgılanır?
 
-Büyüme hormonu hipofiz tarafından yapılır ve çocuklukta büyümeyi yönlendirir; okuduğumuz kaynaklar belirli yaşlara bağlı bir salgı takvimi vermez. Bilinen şudur: salgının önemli bir kısmı gecenin derin uyku dönemlerinde gerçekleşir. Bu nedenle uyku düzeni, hormon dengesi için önemli olan çevresel etkenlerden biridir. Ayrıntı için [uyku ve büyüme hormonu yazımıza](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) bakabilirsiniz. Yeterli uyku normal bir düzeni destekler; ancak hormon eksikliği olan birinde uykuyu düzeltmek eksikliği gidermez.
+Büyüme hormonu hipofiz tarafından yapılır ve çocuklukta büyümeyi yönlendirir; Endocrine Society ve MedlinePlus belirli yaşlara bağlı bir salgı takvimi vermez. Bilinen şudur: salgının önemli bir kısmı gecenin derin uyku dönemlerinde gerçekleşir. Bu nedenle uyku düzeni, hormon dengesi için önemli olan çevresel etkenlerden biridir. Ayrıntı için [uyku ve büyüme hormonu yazımıza](/blog/uyku-bozukluklari-ve-glymphatic-temizlik) bakabilirsiniz. Yeterli uyku normal bir düzeni destekler; ancak hormon eksikliği olan birinde uykuyu düzeltmek eksikliği gidermez.
 
 ## Büyüme hormonu eksikliğine ne iyi gelir? Tedavi seçenekleri
 
@@ -107,7 +107,7 @@ Beslenme ya da bitkisel takviyeyle eksikliği gidermek mümkün değildir; kayna
 
 Sağlıklı bir yetişkinde "yaşlanmayı yavaşlatmak" amacıyla büyüme hormonu kullanımını destekleyen bir kanıt bu kaynaklarda yer almaz; hormon yalnızca doğrulanmış eksiklik için tanımlanmıştır.
 
-## Ne zaman değerlendirme gerekir?
+## Büyüme takibinde hangi bulgular araştırılmalı?
 
 Aşağıdaki durumlar, çocukta büyüme hormonu dışında da pek çok nedeni olabilecek bir büyüme sorununa işaret edebilir ve tıbbi değerlendirme gerektirir:
 

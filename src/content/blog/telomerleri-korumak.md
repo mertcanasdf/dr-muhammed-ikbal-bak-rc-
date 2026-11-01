@@ -80,7 +80,7 @@ Hemşireler Sağlık Çalışması'nda (BMJ, 2014) Akdeniz diyetine daha çok uy
 
 ### 4. Omega-3 yağ asitleri (gözlemsel, belirli bir hasta grubunda)
 
-Koroner kalp hastalığı olan kişilerde yapılan bir çalışmada (JAMA, 2010) kandaki deniz kaynaklı omega-3 düzeyi yüksek olanlarda beş yıllık izlemde telomer kısalması daha yavaştı. Bu ilişki sağlıklı bireylerde aynı şekilde gösterilmedi. Haftada iki porsiyon yağlı balık, genel beslenme önerileriyle uyumludur.
+Koroner kalp hastalığı olan kişilerde yapılan bir çalışmada (JAMA, 2010) kandaki deniz kaynaklı omega-3 düzeyi yüksek olanlarda beş yıllık izlemde telomer kısalması daha yavaştı. Bu ilişki sağlıklı bireylerde aynı şekilde gösterilmedi. Haftada iki porsiyon yağlı balık, genel beslenme önerileriyle uyumludur; [omega-3'ün besin kaynakları ve kanıt düzeyi](/blog/omega-3-ne-ise-yarar) ayrı yazıda ele alınıyor.
 
 ### 5. Yeterli ve düzenli uyku (sınırlı kanıt)
 

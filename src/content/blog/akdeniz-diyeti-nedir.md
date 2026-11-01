@@ -30,7 +30,7 @@ relatedArticles:
 
 ## Akdeniz tipi beslenmede sofraya neler gelir?
 
-[Amerikan Kalp Derneği](https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/mediterranean-diet), ülkeler ve bölgeler arasında farklılıklar bulunduğunu; ortak örüntünün bitkisel besinler, zeytinyağı ve daha sınırlı kırmızı et etrafında oluştuğunu açıklar. “Bitkisel ağırlıklı” olmak, bütün hayvansal besinleri çıkarmak anlamına gelmez. Balık, yumurta, yoğurt veya peynir kişinin tercihleri ve gereksinimleriyle uyumlu biçimde yer alabilir.
+[Amerikan Kalp Derneği](https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/mediterranean-diet), ülkeler ve bölgeler arasında farklılıklar bulunduğunu; ortak örüntünün bitkisel besinler, zeytinyağı ve daha sınırlı kırmızı et etrafında oluştuğunu açıklar. “Bitkisel ağırlıklı” olmak, bütün hayvansal besinleri çıkarmak anlamına gelmez. Balık, yumurta, yoğurt veya peynir kişinin tercihleri ve gereksinimleriyle uyumlu biçimde yer alabilir. Yağlı balık, beslenmedeki başlıca [omega-3 kaynaklarından](/blog/omega-3-ne-ise-yarar) biridir.
 
 Temel grupları mutfakta karşılığını bulacak şekilde düşünmek mümkündür:
 

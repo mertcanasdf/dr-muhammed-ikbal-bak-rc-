@@ -25,7 +25,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
 ---
 
-Yaşlılarda sıvı tüketimi değerlendirilirken yalnızca “Susadın mı?” diye sormak yeterli olmayabilir. Susama hissi daha geç oluşabilir; bardak taşımak, içeceğe ulaşmak veya tuvalete gitmek de güçleşebilir. Yararlı başlangıç, kişinin günlük alışkanlığını gözlemek ve mevcut sağlık planını öğrenmektir. **Herkes için aynı litre hedefini uygulamak uygun değildir; özellikle sıvı kısıtlaması olan kişilerde kişisel plan önceliklidir.**
+Yaşlılarda sıvı tüketimi değerlendirilirken yalnızca “Susadın mı?” diye sormak yeterli olmayabilir. Susama hissi daha geç oluşabilir; bardak taşımak, içeceğe ulaşmak veya tuvalete gitmek de güçleşebilir. Yararlı başlangıç, kişinin günlük alışkanlığını gözlemek ve mevcut sağlık planını öğrenmektir. **Herkes için aynı litre hedefini uygulamak uygun değildir; özellikle sıvı kısıtlaması olan kişilerde kişisel plan önceliklidir.** Yaş gruplarına göre genel referans miktarlar için [su tüketimi nasıl olmalı yazısına](/blog/su-tuketimi-nasil-olmali) bakabilirsiniz.
 
 ## Susama hissi neden yeterli bir gösterge olmayabilir?
 

@@ -724,5 +724,17 @@
     "topic": "fermente gıdalar nelerdir",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-01",
+    "type": "sorgu-optimizasyonu",
+    "slug": "uyku-apnesi-belirtileri-ne-zaman-basvurulmali",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-01",
+    "type": "sorgu-optimizasyonu",
+    "slug": "sukran-pratigi-ve-dopamin",
+    "by": "claude"
   }
 ]

@@ -35,7 +35,7 @@ SPF yalnızca ürünün laboratuvar koşullarındaki UVB koruma düzeyini anlat�
 
 ## SPF 30 mu, SPF 50 mi?
 
-Amerikan Dermatoloji Akademisi'ne göre SPF 30 UVB ışınlarının yaklaşık %97'sini, SPF 50 ise yaklaşık %98'ini engeller; hiçbir ürün %100 koruma sağlamaz. Aradaki küçük fark, ürünün yeterli miktarda sürülüp düzenli yenilenmesi kadar önemli değildir. Uzun süre dışarıda kalınacaksa, açık tenlilerde ya da leke eğilimi olan ciltlerde daha yüksek SPF tercih edilebilir.
+Amerikan Dermatoloji Akademisi'ne göre SPF 30 UVB ışınlarının yaklaşık %97'sini, SPF 50 ise yaklaşık %98'ini engeller; hiçbir ürün %100 koruma sağlamaz. Aradaki küçük fark, ürünün yeterli miktarda sürülüp düzenli yenilenmesi kadar önemli değildir. Uzun süre dışarıda kalınacaksa, açık tenlilerde ya da leke eğilimi olan ciltlerde daha yüksek SPF tercih edilebilir; var olan lekelerin seyri için [güneş lekesi nasıl geçer](/blog/gunes-lekesi-nasil-gecer) yazımıza bakabilirsiniz.
 
 ## Mineral mi, kimyasal mı?
 

@@ -1900,6 +1900,27 @@
       "preparedAt": "2026-11-01T12:07:21.844Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-01T12:07:26.273Z"
+    },
+    {
+      "day": "2026-11-01",
+      "slug": "gunes-lekesi-nasil-gecer",
+      "sourceArticleSha256": "bfe32357f3dc918348fcdc1a2add90eb63cc4f42bfaa61c4702f96cba8b29e35",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/gunes-lekesi-nasil-gecer",
+        "htmlTitle": "Güneş Lekesi Nasıl Geçer? Nedenleri ve Tedavi Seçenekleri",
+        "metaDescription": "Güneş lekesi nasıl geçer, kendiliğinden kaybolur mu? Nedenlerini, krem, lazer ve kriyoterapi kanıtlarını, tekrarlama riskini ve uyarı işaretlerini öğrenin.",
+        "headline": "Güneş Lekesi Nasıl Geçer? Nedenleri, Süresi ve Tedavi Seçenekleri",
+        "datePublished": "2026-11-01",
+        "dateModified": "2026-11-01",
+        "wordCount": 1488,
+        "bodyTextSha256": "cc10e8ffba0a096eaaf27c5941f4b4e7ebdb207e9dfcbd405b473daf29541247",
+        "htmlSha256": "8fb3a7f11e03e2eb1dc4be87727b10541746c15d3a069df3aa34c95dc25ed7bb"
+      },
+      "commit": "d04a8ac6dc59b28e9e7bb32faad685140644acf2",
+      "parent": "e40c6278146f062ff9384062f6385d89bc7a21fd",
+      "preparedAt": "2026-11-01T14:10:43.318Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-01T14:10:46.106Z"
     }
   ]
 }

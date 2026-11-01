@@ -744,5 +744,13 @@
     "topic": "su tüketimi nasıl olmalı",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-01",
+    "type": "yeni-yazi",
+    "slug": "gunes-lekesi-nasil-gecer",
+    "topic": "güneş lekesi nasıl geçer",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

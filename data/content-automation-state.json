@@ -1879,6 +1879,27 @@
       "preparedAt": "2026-10-31T14:08:10.335Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-10-31T14:08:13.015Z"
+    },
+    {
+      "day": "2026-11-01",
+      "slug": "su-tuketimi-nasil-olmali",
+      "sourceArticleSha256": "280a3a3e712dc13fca820db40da609dd41cfe9575278648ba22b37f20cc21285",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/su-tuketimi-nasil-olmali",
+        "htmlTitle": "Su Tüketimi Nasıl Olmalı? Günlük Ne Kadar Su İçmeli?",
+        "metaDescription": "Su tüketimi nasıl olmalı, günde ne kadar su içilmeli? Yaşa göre referans miktarları, hesaplama yolunu, idrar rengi takibini ve fazla suyun riskini öğrenin.",
+        "headline": "Su Tüketimi Nasıl Olmalı? Günlük Miktar ve Doğru Alışkanlıklar",
+        "datePublished": "2026-11-01",
+        "dateModified": "2026-11-01",
+        "wordCount": 1555,
+        "bodyTextSha256": "915a818bf7297ef32cdc2b3f6b479ad2487e7a0f58d80695606e4bd44fbdc267",
+        "htmlSha256": "60a11d874490e494f770278f8c50d0cd7d1923ea6409a4d694aca9f5171911cc"
+      },
+      "commit": "f7f9f9e8e6d7deb23b4cae58a564e9b7fa030137",
+      "parent": "1c9a548bc698320a7d3b9680286fe88f485e9eff",
+      "preparedAt": "2026-11-01T12:07:21.844Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-01T12:07:26.273Z"
     }
   ]
 }

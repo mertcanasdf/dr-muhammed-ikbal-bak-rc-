@@ -736,5 +736,13 @@
     "type": "sorgu-optimizasyonu",
     "slug": "sukran-pratigi-ve-dopamin",
     "by": "claude"
+  },
+  {
+    "day": "2026-11-01",
+    "type": "yeni-yazi",
+    "slug": "su-tuketimi-nasil-olmali",
+    "topic": "su tüketimi nasıl olmalı",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

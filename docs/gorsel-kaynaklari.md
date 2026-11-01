@@ -5,7 +5,9 @@ Son güncelleme: 2026-10-05
 ## Yapay zekâ ile üretilenler
 
 - `public/assets/images/generated/articles/*.webp`: 55 makale kapağı
-- `generated/online-course.webp`, `generated/quiz_skin_aesthetic.webp`
+- `generated/online-course.webp`, `generated/quiz_skin_aesthetic.webp`, `generated/longevity-testler-cta.webp` (Longevity sayfası test kutusu, 1 Kasım 2026)
+
+Aynı görsel sitede iki kez kullanılmaz: `scripts/gorsel-tekrar.mjs` (npm run verify içinde) birebir aynı ya da görsel olarak neredeyse aynı dosyaları yakalar.
 
 Bunlar Codex (`gpt-6-luna`) ile `scripts/gorsel-uret.mjs` üzerinden üretildi. Konu metinleri `scripts/gorsel-konulari.mjs` içinde, sanat yönü `docs/gorsel-sanat-yonu.md` içinde.
 

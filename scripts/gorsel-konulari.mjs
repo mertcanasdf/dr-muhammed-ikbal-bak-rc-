@@ -132,6 +132,8 @@ const ARTICLES = {
 // Sayfalarda doğrudan kullanılan ve Codex ile üretilen görseller (aynı dosya adıyla yerinde yenilenir).
 // Diğer sayfa görselleri Unsplash stok fotoğraflarıdır; kaynakları docs/gorsel-kaynaklari.md içinde.
 const PAGES = {
+  // Longevity sayfasındaki "Kendini Değerlendir" kutusu (anketler sayfasındaki quiz_longevity_score ile aynı olmasın).
+  'longevity-testler-cta': 'Editorial health magazine photograph of a fictional adult woman in her fifties seated at a sunlit wooden kitchen table, thoughtfully filling in a short paper habit checklist with a pencil, a glass of water and a small plant beside her, calm reflective mood, natural unretouched skin, soft morning window light, no readable text on the paper, no logos.',
   'online-course': 'A calm medical-aesthetics consultation desk: an illuminated magnifying skin-analysis lamp, a closed notebook and pen, a small plant, bright clinic room softly blurred behind, no people, soft professional light.',
   'quiz_skin_aesthetic': 'A bright aesthetic-clinic consultation corner with a mirror reflecting only soft light and plants, a treatment chair edge, calm and professional.',
 };

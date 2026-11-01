@@ -12,7 +12,7 @@
     "seo:denetim": "node scripts/seo/canli-denetim.mjs",
     "seo:kaynak": "node scripts/seo/kaynak-kontrol.mjs",
     "test":"node --test \"tests/**/*.test.ts\"",
-    "verify": "node scripts/sync-related.mjs --check && node scripts/ic-baglantilar.mjs --check && astro build && node scripts/verify-dist.mjs && node scripts/verify-seo.mjs"
+    "verify": "node scripts/sync-related.mjs --check && node scripts/ic-baglantilar.mjs --check && node scripts/gorsel-tekrar.mjs && astro build && node scripts/verify-dist.mjs && node scripts/verify-seo.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0"

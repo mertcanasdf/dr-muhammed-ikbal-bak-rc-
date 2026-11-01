@@ -20,6 +20,11 @@ if (!slug || !url || !page || !author) {
 }
 if (!/^https:\/\/images\.unsplash\.com\/photo-/.test(url)) throw new Error('--url images.unsplash.com/photo-... olmalı (plus.unsplash.com ücretli Unsplash+ görselidir)');
 if (!fs.existsSync(path.join(ROOT, 'src/content/blog', `${slug}.md`))) throw new Error(`Yazı yok: src/content/blog/${slug}.md`);
+// Sitede aynı görsel iki kez kullanılmaz: bu Unsplash fotoğrafı başka bir yerde kayıtlıysa reddet.
+const photoId = page.split('/').filter(Boolean).pop();
+const usedBy = fs.readFileSync(path.join(ROOT, 'docs/gorsel-kaynaklari.md'), 'utf8').split('\n')
+  .find((l) => l.includes(`/photos/${photoId}`) && !l.startsWith(`| \`generated/articles/${slug}.webp\``));
+if (usedBy) throw new Error(`Bu fotoğraf sitede zaten kullanılıyor, başka bir fotoğraf seç: ${usedBy}`);
 
 const src = new URL(url);
 src.searchParams.set('w', '1800');

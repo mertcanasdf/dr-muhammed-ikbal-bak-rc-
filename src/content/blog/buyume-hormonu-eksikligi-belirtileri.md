@@ -53,7 +53,7 @@ Belirtiler yaşa göre çok farklı görünür. Aşağıdaki tablo, Endocrine So
 
 [MedlinePlus](https://medlineplus.gov/ency/article/001176.htm), çocuklarda büyümenin yavaş ya da düz seyrettiğini, çocuğun aynı yaş ve cinsiyetteki akranlarından çok daha kısa olduğunu anlatır. Vücut oranları normaldir; çocuk biraz tombul görünebilir ve yüzü yaşından küçük gösterebilir. Zekâ genellikle normaldir. Yavaş büyüme bazen 2-3 yaşına kadar belirgin olmayabilir.
 
-Endocrine Society'ye göre büyüme hormonuyla birlikte diğer hipofiz hormonları da eksikse ek bulgular çıkabilir: yeni doğan erkeklerde çok küçük penis ya da ergenlik çağında puberte gelişiminin olmaması gibi.
+Endocrine Society'ye göre büyüme hormonuyla birlikte diğer hipofiz hormonları da eksikse ek bulgular çıkabilir: yeni doğan erkeklerde çok küçük penis ya da ergenlik çağında puberte gelişiminin olmaması gibi. Hipofiz kaynaklı erkeklik hormonu düşüklüğünün yetişkinlerdeki belirtileri ve değerlendirilmesi için [testosteron eksikliği nasıl giderilir](/blog/testosteron-eksikligi-nasil-giderilir) yazısına bakabilirsiniz.
 
 Büyüme eğrisinde iki ya da daha fazla persentil aşağı kayma, tanıda en önemli ipuçlarından biri sayılır. Bu nedenle düzenli boy ölçümleri ve büyüme eğrisi takibi değerli bir veridir.
 

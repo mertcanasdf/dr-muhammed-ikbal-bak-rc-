@@ -1970,6 +1970,27 @@
       "preparedAt": "2026-11-02T08:09:28.325Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-02T08:09:31.603Z"
+    },
+    {
+      "day": "2026-11-02",
+      "slug": "testosteron-eksikligi-nasil-giderilir",
+      "sourceArticleSha256": "733b594d37d2f320ddd729214d4ca759b6db4eff5e726c5b269042ed658ba70b",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/testosteron-eksikligi-nasil-giderilir",
+        "htmlTitle": "Testosteron Eksikliği Nasıl Giderilir? Belirti ve Tedavi",
+        "metaDescription": "Testosteron eksikliği nasıl anlaşılır ve giderilir? Belirtiler, sabah tahlili, kilo ve uykunun rolü, hormon tedavisinin kimlere uygun olduğu ve riskleri.",
+        "headline": "Testosteron Eksikliği Nasıl Giderilir? Belirtiler, Nedenler ve Tedavi",
+        "datePublished": "2026-11-02",
+        "dateModified": "2026-11-02",
+        "wordCount": 1352,
+        "bodyTextSha256": "5f9b0f2b91633bb837cbd6d6e36b08bf60038eb5195bce54bf5164498aa850d2",
+        "htmlSha256": "5b080a421d4fccb412e2cae217030934b7acbc18c0a6df41b4336df6e2750b49"
+      },
+      "commit": "4ac6329c57ce29670fc09fe36ef3d25543b3fc1d",
+      "parent": "250338816db06612d59494a8dd6e690a7b397d7f",
+      "preparedAt": "2026-11-02T10:12:29.622Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-02T10:12:32.444Z"
     }
   ]
 }

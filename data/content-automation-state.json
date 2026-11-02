@@ -1940,8 +1940,36 @@
       "commit": "60bcceb61dff811188d9cb8beedac4674723640c",
       "parent": "d04a8ac6dc59b28e9e7bb32faad685140644acf2",
       "preparedAt": "2026-11-02T06:15:17.227Z",
+      "status": "live_verified",
+      "pushedAt": "2026-11-02T06:15:20.187Z",
+      "liveVerifiedAt": "2026-11-02T08:09:46.969Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-11-02",
+      "slug": "bazal-metabolizma-nasil-hesaplanir",
+      "sourceArticleSha256": "910db303d16515cd69819f79bb4b50e27e2205e8021ccead360a9bbe77d2ef51",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/bazal-metabolizma-nasil-hesaplanir",
+        "htmlTitle": "Bazal Metabolizma Nasıl Hesaplanır? Formül ve Örnek",
+        "metaDescription": "Bazal metabolizma hızı Mifflin-St Jeor formülüyle adım adım nasıl hesaplanır, kaç olmalı, nasıl ölçülür? Örnek hesap, aktivite katsayısı ve sınırları.",
+        "headline": "Bazal Metabolizma Nasıl Hesaplanır? Formül, Örnek ve Normal Değer",
+        "datePublished": "2026-11-02",
+        "dateModified": "2026-11-02",
+        "wordCount": 1378,
+        "bodyTextSha256": "fed3351da7de8f6951b1d6d88ecbb5965da4169a7e63bc12c0796168991f23d9",
+        "htmlSha256": "7ff6bd630f8f054822f163ae16c1d4b2e74b6308064e0e3226e3f13132646396"
+      },
+      "commit": "250338816db06612d59494a8dd6e690a7b397d7f",
+      "parent": "60bcceb61dff811188d9cb8beedac4674723640c",
+      "preparedAt": "2026-11-02T08:09:28.325Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-11-02T06:15:20.187Z"
+      "pushedAt": "2026-11-02T08:09:31.603Z"
     }
   ]
 }

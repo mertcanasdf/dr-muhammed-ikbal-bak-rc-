@@ -788,5 +788,13 @@
     "topic": "testosteron eksikliği nasıl giderilir",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-02",
+    "type": "yeni-yazi",
+    "slug": "esneme-nasil-gecer",
+    "topic": "esneme nasıl geçer",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

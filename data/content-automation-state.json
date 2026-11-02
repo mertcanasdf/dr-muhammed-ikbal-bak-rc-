@@ -1991,6 +1991,27 @@
       "preparedAt": "2026-11-02T10:12:29.622Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-02T10:12:32.444Z"
+    },
+    {
+      "day": "2026-11-02",
+      "slug": "esneme-nasil-gecer",
+      "sourceArticleSha256": "be7ce7619530ec3ad5578721a254c0a56c2b4c4dd03f0e7f43486006dc8a3f6f",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/esneme-nasil-gecer",
+        "htmlTitle": "Esneme Nasıl Geçer? Sık Esnemek Ne Belirtisi?",
+        "metaDescription": "Esneme nasıl geçer, sık esnemek neyin belirtisi olabilir? Esnemenin nedeni, faydası, bulaşıcılığı ve hangi durumda araştırılması gerektiği.",
+        "headline": "Esneme Nasıl Geçer? Sık Esnemek Ne Belirtisi, Neden Olur?",
+        "datePublished": "2026-11-02",
+        "dateModified": "2026-11-02",
+        "wordCount": 1491,
+        "bodyTextSha256": "fa763eedda0675f71ac7073a8edeab0df262a3374c715a102caddaf1ef682c05",
+        "htmlSha256": "3c556841a11c891f4f13af50aacd32e8dcb47dc5da89bf65fb4947d2894b69e8"
+      },
+      "commit": "19fa7447bda5f10eaa6251e74c71452f8d3e6244",
+      "parent": "4ac6329c57ce29670fc09fe36ef3d25543b3fc1d",
+      "preparedAt": "2026-11-02T12:09:27.569Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-02T12:09:30.261Z"
     }
   ]
 }

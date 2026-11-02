@@ -38,7 +38,7 @@ relatedArticles:
 | Uyanma sonrası yeniden dalamama | Dinlenmemiş hissetme, işleri bitirmekte zorlanma | Kısa bir uyanma mı, hatırlanan uzun uyanıklık mı? |
 | İstenenden erken uyanıp uyanık kalma | Günün erken saatlerinde tükenmişlik hissi | Kişinin olağan kalkış saati ve gündüz etkisi ne? |
 
-Bu tablo tanı testi değildir; satır sayarak bir sonuç çıkarılmaz. “Uykum kötü” cümlesini, gerçekten yaşanan gece olayı ve gündüz etkisiyle anlatmak içindir. Örneğin bir işi tekrar tekrar okumak ile o işi yaparken istemsiz uyuklamak aynı yakınma değildir. Hangi durumun yaşandığını ayrı ifade edin.
+Bu tablo tanı testi değildir; satır sayarak bir sonuç çıkarılmaz. “Uykum kötü” cümlesini, gerçekten yaşanan gece olayı ve gündüz etkisiyle anlatmak içindir. Örneğin bir işi tekrar tekrar okumak ile o işi yaparken istemsiz uyuklamak aynı yakınma değildir. Hangi durumun yaşandığını ayrı ifade edin. Gün boyu sık esneme de uyku açığının gündüze yansıyan işaretlerinden biridir; hangi esnemenin araştırılması gerektiği [esneme nasıl geçer yazısında](/blog/esneme-nasil-gecer) anlatılıyor.
 
 ## Uyumaya fırsat bulamamak ile uyuyamamak arasındaki fark
 

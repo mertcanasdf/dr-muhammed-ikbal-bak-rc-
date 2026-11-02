@@ -1921,6 +1921,27 @@
       "preparedAt": "2026-11-01T14:10:43.318Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-01T14:10:46.106Z"
+    },
+    {
+      "day": "2026-11-02",
+      "slug": "ferritin-nasil-yukseltilir",
+      "sourceArticleSha256": "bf2d278a0e7619a568d81f4286e9099d11ae4a1e541fef6deba7ae41a8d1209b",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ferritin-nasil-yukseltilir",
+        "htmlTitle": "Ferritin Nasıl Yükseltilir? Beslenme, Tedavi ve Süre",
+        "metaDescription": "Ferritin nasıl yükseltilir, ne kadar sürede yükselir? Beslenmenin sınırı, demir tedavisi, bitkisel kürler ve yüksek ferritinin ne zaman önemli olduğu.",
+        "headline": "Ferritin Nasıl Yükseltilir? Beslenme, Demir Tedavisi ve Süre",
+        "datePublished": "2026-11-02",
+        "dateModified": "2026-11-02",
+        "wordCount": 1479,
+        "bodyTextSha256": "898b80488b6895737332b29ce2b9bb4af42978281ab5add5d64640461c0b9c8f",
+        "htmlSha256": "4ce87d9cfd6e9537467eae587d607ca9de3cf6dbf554187aff0dd3d4e0acde4e"
+      },
+      "commit": "60bcceb61dff811188d9cb8beedac4674723640c",
+      "parent": "d04a8ac6dc59b28e9e7bb32faad685140644acf2",
+      "preparedAt": "2026-11-02T06:15:17.227Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-02T06:15:20.187Z"
     }
   ]
 }

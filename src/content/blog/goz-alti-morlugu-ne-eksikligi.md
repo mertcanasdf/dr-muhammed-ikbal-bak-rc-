@@ -55,7 +55,7 @@ Doğrudan yaptığını gösteren güçlü bir kanıt yok, ama mantıklı bir me
 
 ### Ferritin eksikliği göz altı morluğu yapar mı?
 
-Ferritin vücuttaki demir deposunu gösterir. Ferritin düşük ama hemoglobin normalse, deride kansızlığa bağlı bir solukluk beklenmez. Morluğu düşük ferritinle doğrudan ilişkilendiren güvenilir bir çalışma bulunmuyor. Düşük ferritinin yine de önemi vardır: özellikle yoğun adet kanaması, gebelik ya da sindirim kanalından kan kaybı gibi nedenlerin araştırılmasını gerektirebilir.
+Ferritin vücuttaki demir deposunu gösterir. Ferritin düşük ama hemoglobin normalse, deride kansızlığa bağlı bir solukluk beklenmez. Morluğu düşük ferritinle doğrudan ilişkilendiren güvenilir bir çalışma bulunmuyor. Düşük ferritinin yine de önemi vardır: özellikle yoğun adet kanaması, gebelik ya da sindirim kanalından kan kaybı gibi nedenlerin araştırılmasını gerektirebilir. Düşük ferritinin nasıl yükseltildiğini ve ne kadar sürdüğünü [ferritin nasıl yükseltilir yazımızda](/blog/ferritin-nasil-yukseltilir) ayrıca ele aldık.
 
 ### B12 eksikliği göz altı morluğu yapar mı?
 

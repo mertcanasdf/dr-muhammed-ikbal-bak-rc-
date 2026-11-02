@@ -752,5 +752,25 @@
     "topic": "güneş lekesi nasıl geçer",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-02",
+    "type": "yazi-genisletme",
+    "slug": "tukenmislik-sendromu",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-02",
+    "type": "yazi-genisletme",
+    "slug": "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-02",
+    "type": "yeni-yazi",
+    "slug": "ferritin-nasil-yukseltilir",
+    "topic": "ferritin nasıl yükseltilir",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

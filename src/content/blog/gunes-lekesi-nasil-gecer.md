@@ -29,7 +29,7 @@ relatedArticles:
 
 Güneş lekesi çoğu zaman kendiliğinden geçmez; sıkı güneş korunmasıyla biraz açılabilir, leke açıcı kremlerle haftalar ya da aylar içinde belirgin şekilde hafifleyebilir, lazer, yoğun atımlı ışık (IPL) veya kriyoterapi gibi işlemlerle ise çoğu zaman daha hızlı silinir. Sistematik derlemelerde en yüksek tam yanıt oranları kombinasyon tedavileri ve lazer uygulamalarında görülmüştür. Hangi yol seçilirse seçilsin, güneşten korunma bırakıldığında leke geri dönebilir.
 
-Bu yazıda önce lekenin gerçekten güneş lekesi olup olmadığını ayırt etmeyi, sonra seçeneklerin kanıtlarını ve ne kadar sürdüğünü ele alıyoruz.
+Yöntem seçmeden önceki asıl soru, lekenin gerçekten güneş lekesi olup olmadığıdır: çil, melazma ve incelenmesi gereken lezyonlar ilk bakışta benzer görünebilir ve her birinin yaklaşımı farklıdır.
 
 ## Güneş lekesi nedir?
 
@@ -91,7 +91,7 @@ Güneş lekesi iyi huylu olduğundan tedavi tıbbi bir zorunluluk değildir; gö
 | Yoğun atımlı ışık (IPL) | %74,6–90 (Mardani) | İşlem sonrası koyulaşma riski görece düşük bildirilmiştir |
 | Q-switched lazer | %36,4–76,6 (Mardani) | Sonuç cihaz ayarına ve cilt tipine göre değişir |
 | Kriyoterapi (dondurma) | %37–71,4 (Mardani); tam yanıt %15 (Mukovozov) | Daha ağır yan etkilerle ilişkilendirilmiştir; açık ya da koyu iz kalabilir |
-| Topikal kombinasyonlar ve retinoidler | Kombinasyonda %52,6–80'in üzeri (Mardani) | Tahriş en sık bu grupta görülmüştür |
+| Topikal kombinasyonlar ve retinoidler | Mekinol %2 + tretinoin %0,01 kombinasyonunda %52,6–80'in üzeri (Mardani) | Tahriş en sık bu grupta görülmüştür |
 | Trikloroasetik asit peeling | %12–46 (Mardani) | Tek başına başarı oranı düşüktür |
 
 ### Evde neler yapılabilir?

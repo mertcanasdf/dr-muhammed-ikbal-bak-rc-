@@ -1,15 +1,17 @@
 ---
-title: "Uyku Apnesi Belirtileri: Ne Zaman Hekime Başvurmalı?"
-seoTitle: "Uyku Apnesi Belirtileri: Ne Zaman Hekime Başvurmalı?"
+title: "Uyku Apnesi Belirtileri: Nasıl Teşhis ve Tedavi Edilir?"
+seoTitle: "Uyku Apnesi Belirtileri, Teşhisi ve Tedavisi"
 date: 2026-10-06
-description: "Uyku apnesi belirtilerini, horlama ile farkını ve ne zaman hekime başvurulacağını öğrenin. Gözlem tablosuyla hazırlanın; testin sınırlarını görün."
+updated: 2026-11-01
+description: "Uyku apnesi belirtileri, uyku testiyle nasıl teşhis edildiği, AHI şiddet düzeyleri ve CPAP, ağız içi aparat gibi tedavi seçenekleri tek rehberde."
 category: "Uyku"
 image: "/assets/images/generated/articles/uyku-apnesi-belirtileri-ne-zaman-basvurulmali.webp"
-readTime: "6 dk"
+readTime: "8 dk"
 takeaways:
   - "Uykuda nefes durması, hava açlığıyla uyanma ve gündüz uyuklama hekimle görüşülmelidir."
   - "Horlama veya bir uygulama kaydı tek başına uyku apnesi tanısı koymaz."
-  - "Uygun uyku testini ve tedavi gereksinimini kişinin değerlendirmesini yapan hekim belirler."
+  - "Tanı evde ya da uyku laboratuvarında yapılan uyku testiyle konur; şiddet, saatteki solunum durması ve yavaşlaması sayısıyla (AHI) belirlenir."
+  - "Tedavi şiddete göre yaşam tarzı değişiklikleri, CPAP cihazı, ağız içi aparat veya cerrahi seçenekleri kapsar; uygun yöntemi değerlendirmeyi yapan hekim belirler."
 relatedArticles:
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"
@@ -25,7 +27,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
 ---
 
-Uyku apnesi belirtileri arasında uykuda solunumun durup yeniden başlaması, hava açlığı veya boğulur gibi uyanma ve belirgin gündüz uyku hali bulunur. Bunlar sizde varsa ya da bir yakınınız gözlemliyorsa hekimle görüşün. Yüksek sesli horlama önemli bir ipucu olabilir; tek başına tanı değildir. Belirti listesiyle kendinize hastalık puanı vermek yerine gece gözlemleri ve gündüz etkisiyle değerlendirmeye hazırlanmak daha yararlıdır.
+Uyku apnesi belirtileri arasında uykuda solunumun durup yeniden başlaması, hava açlığı veya boğulur gibi uyanma ve belirgin gündüz uyku hali bulunur. Bunlar sizde varsa ya da bir yakınınız gözlemliyorsa hekimle görüşün. Yüksek sesli horlama önemli bir ipucu olabilir; tek başına tanı değildir. Kesin tanı belirtilerle değil, evde ya da uyku laboratuvarında yapılan uyku testiyle konur. Tedavi hastalığın şiddetine göre yaşam tarzı değişiklikleri, gece takılan CPAP cihazı ya da ağız içi aparatla planlanır. Belirti listesiyle kendinize hastalık puanı vermek yerine gece gözlemleri ve gündüz etkisiyle değerlendirmeye hazırlanmak daha yararlıdır.
 
 ## Uyku apnesi ile sıradan horlama arasındaki fark
 
@@ -60,13 +62,31 @@ Aşağıdaki tablo belirtileri anlatmak için hazırlanmış özgün bir not dü
 
 Yakınınızdan destek almak isterseniz onun gördüğünü, sizin hissettiğinizi ayrı yazın. Görüşmeye birlikte gitmek mümkünse bu gözlemler anlatılabilir. Kayıtlarınızı sosyal medyada paylaşmak veya başka kişilerin yorumlarıyla tanı aramak gerekmez. Asıl amaç, hekimin sorularına daha anlaşılır cevaplar hazırlamaktır.
 
-## Tanı için neden uyku testi gerekebilir?
+## Uyku apnesi nasıl teşhis edilir?
 
 [NHLBI tanı sayfası](https://www.nhlbi.nih.gov/health/sleep-apnea/diagnosis), belirtilerin, risk etkenlerinin ve aile öyküsünün değerlendirilmesinden sonra uyku çalışmasının hastalığın türünü ve şiddetini belirlemeye yardımcı olabileceğini açıklar. Uyku günlüğü de süre, kalite ve gündüz uyku hali konusunda ek bilgi sağlar; solunum ölçümünün yerine geçmez.
 
 Bazı kişiler için evde yapılan tıbbi uyku testi uygun olabilir; bazı durumlarda laboratuvar incelemesi gerekir. Evde test demek, bir telefon uygulamasını açıp horlamayı kaydetmek demek değildir. [AASM evde uyku testi açıklaması](https://aasm.org/advocacy/position-statements/clinical-use-of-a-home-sleep-apnea-test-an-updated-american-academy-of-sleep-medicine-position-statement/), uygunluğun tıbbi değerlendirmeyle belirlenmesini ve verilerin uzmanlıkla yorumlanmasını vurgular.
 
 [AASM erişkin tanı kılavuzu](https://aasm.org/resources/clinicalguidelines/diagnostic-testing-osa.pdf), soru formlarının tek başına tanı koymak için kullanılmamasını önerir. Bir ev testinin negatif, sonuçsuz veya teknik olarak yetersiz olduğu durumda laboratuvar testi gerekebilir. Bu nedenle sonuç raporunu hekiminizle konuşun; “negatif” sözcüğünü devam eden yakınmaların açıklaması olarak tek başına kullanmayın.
+
+[MedlinePlus](https://medlineplus.gov/ency/article/000811.htm), tanıyı doğrulamak için uyku testinin gerektiğini; muayenede ağız, boyun ve boğazın incelendiğini, gerekirse kan gazı, EKG, ekokardiyografi ve tiroid testleri gibi ek incelemelerin istenebileceğini belirtir. NHLBI de tiroid hormonu gibi başka durumları araştıran testleri ve uykuyu ya da solunumu etkileyen ilaçların gözden geçirilmesini tanı sürecinin parçası olarak sayar.
+
+### Uyku apnesi nasıl tespit edilir? Evde test ve laboratuvar
+
+Uyku testinde gece boyunca solunum ve kalp etkinliğini izleyen cihazlar takılır. [NHS](https://www.nhs.uk/conditions/sleep-apnoea/) bunun çoğu zaman evde yapılabildiğini, bazen ise bir gece uyku merkezinde kalmak gerektiğini belirtir. Evde yapılan test daha az kanal kaydeder; laboratuvardaki tam uyku çalışması (polisomnografi) uykunun evrelerini de ölçer. Hangisinin uygun olduğunu, yukarıda değinilen AASM ilkelerinde olduğu gibi, kişinin diğer hastalıkları ve şüphenin düzeyi belirler.
+
+### AHI nedir? Şiddet düzeyleri
+
+Test sonucu genellikle **apne-hipopne indeksi (AHI)** ile özetlenir: uykunun her saatinde solunumun kaç kez durduğu ya da belirgin biçimde yavaşladığı. NHS'in verdiği şiddet aralıkları şöyledir:
+
+| AHI (saatte olay) | Şiddet |
+|---|---|
+| 5–14 | Hafif |
+| 15–30 | Orta |
+| 30'un üzeri | Ağır |
+
+AHI tek başına tedavi kararını vermez; gündüz uykululuğu, eşlik eden hastalıklar ve testin kalitesi birlikte değerlendirilir.
 
 ## Ne zaman başvurmalı, ne zaman beklememeli?
 
@@ -80,7 +100,18 @@ Bir veya iki hafta not tutmak muayeneye hazırlığı kolaylaştırabilir; ancak
 
 Düzenli uyku fırsatı ve uygun ortam günlük uykuyu destekler. Ancak nefes durması şüphesinin değerlendirilmesi, ekranı azaltmak veya yatış saatini değiştirmekle tamamlanmaz. [Uyku kalitesi rehberi](/blog/uyku-kalitesi-nasil-artirilir), [sirkadiyen ritim yazısı](/blog/sirkadiyen-ritim-ve-uyku) ve [ekran kullanımı rehberi](/blog/ekran-kullanimi-ve-uyku) bu alışkanlıkların kapsamını açıklar.
 
-Tanı konursa tedavi, test bulguları ve kişinin durumuna göre planlanır. [NHLBI tedavi sayfası](https://www.nhlbi.nih.gov/health/sleep-apnea/treatment), yaşam tarzı düzenlemeleri yanında hava yolu basıncı cihazları, ağız içi araçlar veya başka yöntemlerin gündeme gelebileceğini belirtir. Hangi yöntemin uygun olduğu bu yazıdan seçilemez. Cihazı kendi başınıza temin etmek veya mevcut tedaviyi bırakmak yerine değerlendirmeyi yapan hekimle plan kurun. Genel uyku sağlığı çerçevesi [uyku ve sağlıklı yaşlanma sayfasında](/longevity/uyku) yer alır.
+## Uyku apnesi nasıl tedavi edilir?
+
+Tedavinin amacı uyku sırasında hava yolunu açık tutmaktır ve seçim test bulgularına, şiddete ve kişinin durumuna göre yapılır. [NHLBI tedavi sayfası](https://www.nhlbi.nih.gov/health/sleep-apnea/treatment), [NHS](https://www.nhs.uk/conditions/sleep-apnoea/) ve [MedlinePlus](https://medlineplus.gov/ency/article/000811.htm) şu seçenekleri sayar:
+
+- **Yaşam tarzı değişiklikleri:** Fazla kiloyu vermek, sigarayı bırakmak, alkolü ve yatmadan önce sakinleştirici ilaçları azaltmak, sırtüstü yerine yan yatmak. NHS ve MedlinePlus, hafif olgularda bunların yeterli olabileceğini belirtir.
+- **Pozitif hava yolu basıncı (CPAP):** Burun ya da burun ve ağzı kapatan bir maskeyle, yatak başındaki cihazdan basınçlı hava verilir. MedlinePlus bunu ana tedavi olarak tanımlar ve çoğu kişide iyi çalıştığını belirtir; NHS en iyi sonucun her gece kullanımla alındığını vurgular. Burun tıkanıklığı, ağız ve göz kuruluğu gibi yan etkiler görülebilir; maske rahatsızsa bunu hekimle konuşmak, cihazı bırakmaktan iyidir.
+- **Ağız içi aparatlar:** Alt çeneyi ya da dili öne doğru tutarak hava yolunu açık tutan, uykuda takılan araçlar. Bazı kişiler için seçenektir.
+- **Ağız ve yüz kası egzersizleri:** NHLBI ve NHS, bu egzersizlerin bazı kişilerde yardımcı olabileceğini belirtir.
+- **Cerrahi ve implantlar:** Büyük bademciklerin alınması, boğaz dokusunun ya da çene yapısının düzeltilmesi, dili kontrol eden sinire (hipoglossal sinir) uyarı veren implant. MedlinePlus cerrahiyi genellikle diğer tedavilere yanıt vermeyen ağır olgular için son seçenek olarak tanımlar.
+- **İlaç:** NHLBI, orta ve ağır uyku apnesi ile obezitesi olan kişiler için yakın zamanda onaylanan, enjeksiyonla kullanılan bir kilo verme ilacından söz eder; bu ilaç beslenme ve hareket planıyla birlikte, hekim kontrolünde kullanılır.
+
+Hangi yöntemin uygun olduğu bu yazıdan seçilemez. Cihazı kendi başınıza temin etmek veya mevcut tedaviyi bırakmak yerine değerlendirmeyi yapan hekimle plan kurun. Genel uyku sağlığı çerçevesi [uyku ve sağlıklı yaşlanma sayfasında](/longevity/uyku) yer alır.
 
 ## Kaynaklar
 
@@ -91,3 +122,4 @@ Tanı konursa tedavi, test bulguları ve kişinin durumuna göre planlanır. [NH
 - [AASM: Clinical Use of a Home Sleep Apnea Test](https://aasm.org/advocacy/position-statements/clinical-use-of-a-home-sleep-apnea-test-an-updated-american-academy-of-sleep-medicine-position-statement/)
 - [AASM, 2017: Diagnostic Testing for Adult Obstructive Sleep Apnea (PDF)](https://aasm.org/resources/clinicalguidelines/diagnostic-testing-osa.pdf)
 - [NHLBI: Sleep Apnea Treatment](https://www.nhlbi.nih.gov/health/sleep-apnea/treatment)
+- [MedlinePlus: Obstructive sleep apnea – adults](https://medlineplus.gov/ency/article/000811.htm)

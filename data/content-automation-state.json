@@ -2012,6 +2012,27 @@
       "preparedAt": "2026-11-02T12:09:27.569Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-02T12:09:30.261Z"
+    },
+    {
+      "day": "2026-11-02",
+      "slug": "ketojenik-diyet-nedir",
+      "sourceArticleSha256": "23d6ca9edeede4b3d66ef3bf1f1e3f1eaa9734626649360f55824517928a91f8",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ketojenik-diyet-nedir",
+        "htmlTitle": "Ketojenik Diyet Nedir? Nasıl Yapılır, Zararları Neler?",
+        "metaDescription": "Ketojenik diyet nedir, nasıl yapılır? Ketozun vücutta yarattığı değişimi, hangi besinlerin azaldığını, kilo kaybı kanıtını ve olası zararlarını öğrenin.",
+        "headline": "Ketojenik Diyet Nedir? Nasıl Yapılır, Zararları Nelerdir?",
+        "datePublished": "2026-11-02",
+        "dateModified": "2026-11-02",
+        "wordCount": 1526,
+        "bodyTextSha256": "fcbefde4622b3b104746ed38cba804da20bb1b658e1e41f1ed7b599c0a736a1b",
+        "htmlSha256": "1e1b8da4adbff70d3ef61914aef8d6010c6643ef99aa55e36d805ee1a368d392"
+      },
+      "commit": "4dc38534b9d71f7b8ac305b847b9e5aaa6a09549",
+      "parent": "19fa7447bda5f10eaa6251e74c71452f8d3e6244",
+      "preparedAt": "2026-11-02T14:11:16.227Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-02T14:11:19.316Z"
     }
   ]
 }

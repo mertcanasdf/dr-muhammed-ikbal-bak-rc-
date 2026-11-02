@@ -56,7 +56,7 @@ Araştırma koşullarında bazı kan hücrelerinde **otofajik akış** ölçüle
 
 ## Otofaji diyeti diye bir şey var mı?
 
-“Otofaji diyeti” ifadesiyle karşılaşıldığında önce hangi beslenme düzeninin kastedildiği sorulmalıdır: zaman kısıtlı beslenme, kalori kısıtlaması, ketojenik yaklaşım ve açlığı taklit eden diyet aynı müdahale değildir. Tek bir ticari isim altında toplanmaları, aynı etkiyi veya güvenliği paylaştıklarını göstermez.
+“Otofaji diyeti” ifadesiyle karşılaşıldığında önce hangi beslenme düzeninin kastedildiği sorulmalıdır: zaman kısıtlı beslenme, kalori kısıtlaması, [ketojenik yaklaşım](/blog/ketojenik-diyet-nedir) ve açlığı taklit eden diyet aynı müdahale değildir. Tek bir ticari isim altında toplanmaları, aynı etkiyi veya güvenliği paylaştıklarını göstermez.
 
 Yemek saatleri, kilo, kan şekeri ya da keton düzeyi ölçülebilir; **bu ölçümlerin hiçbiri tek başına otofaji ölçümü değildir**. Bir çalışmada metabolik göstergelerin düzelmesi de iyileşmenin mutlaka otofaji yoluyla gerçekleştiğini kanıtlamaz. Kan hücrelerinde akış ölçen yeni çalışmalar vardır; tüm oruç araştırmalarının bunu ölçtüğü söylenemez. Genel beslenme kanıtları için [aralıklı oruç yazısına](/blog/aralikli-oruc-longevity) bakabilirsiniz.
 

@@ -8,7 +8,7 @@ category: "Uyku"
 image: "/assets/images/generated/articles/esneme-nasil-gecer.webp"
 readTime: "7 dk"
 takeaways:
-  - "Esneme bir hastalık değil, bir reflekstir; insan günde 20 küsur kez esneyebilir ve en sık uyanınca, yatmadan önce ve sıkıcı, durgun ortamlarda esner."
+  - "Esneme bir hastalık değil, bir reflekstir; insan günde 28 kereye kadar esneyebilir ve en sık uyanınca, yatmadan önce ve sıkıcı, durgun ortamlarda esner."
   - "Esnemeyi en çok azaltan şey nedenini gidermektir: yeterli ve düzenli uyku, kısa hareket molaları, serin ortam ve burundan nefes almak işe yarayabilir."
   - "Esnemenin vücuda oksijen taşıdığı inancı deneylerle desteklenmemiştir; en çok kanıt toplayan açıklama, beynin ısısını dengelemeye yardım ettiğidir."
   - "Uykulu olmadığınız halde yeni başlayan, nöbetler halinde gelen ya da göğüs ağrısı, bayılma, uyuşma, konuşma bozukluğu gibi bulgularla birlikte olan esneme değerlendirilmelidir."
@@ -29,11 +29,11 @@ relatedArticles:
 
 Esneme çoğu zaman tetikleyeni ortadan kalkınca kendiliğinden geçer: uykusuzsanız uyumak, uzun süre hareketsiz kaldıysanız kalkıp yürümek, sıcak ve havasız bir odadaysanız serinlemek esnemeyi belirgin biçimde azaltır. Anlık olarak burundan yavaş nefes almak, alna ya da yüze soğuk bir şey değdirmek ve dikkat isteyen bir işe geçmek de yardımcı olabilir. Uykulu olmadığınız halde sık sık, nöbetler halinde esniyorsanız ise esnemeyi bastırmaya çalışmak yerine nedenini bulmak gerekir.
 
-Kısa bir not: Türkçede "esneme" kelimesi kasları germe hareketleri için de kullanılır. Bu yazı ağzı açarak yapılan esneme refleksini, yani esnemeyi anlatıyor.
+Kısa bir not: Türkçede "esneme" kelimesi kasları germe hareketleri için de kullanılır. Bu yazı ağzı açarak yapılan esneme refleksini, yani esnemeyi anlatıyor; aşağıdaki "faydalar" bölümü de esneme hareketlerinin değil, esnemenin faydalarıyla ilgilidir.
 
 ## Esneme nedir, nasıl gelir?
 
-Esneme, ağzın genişçe açıldığı, gözlerin kısıldığı, derin ve uzun bir nefes alınıp daha kısa bir nefesle bittiği istemsiz bir reflekstir. Brezilyalı nörologların [esneme üzerine derlemesine](https://www.scielo.br/j/anp/a/QbpPTHrsjfns4HTSVxhzHJt/?lang=en) göre tek bir esneme 5 ila 10 saniye sürer, çoğu zaman başın geriye atılması ve kolların gerilmesiyle birlikte olur. Bu refleks anne karnından yaşlılığa kadar görülür ve insanlar günde 28 kereye kadar esneyebilir.
+Esneme, ağzın genişçe açıldığı, gözlerin kısıldığı, derin ve uzun bir nefes alınıp daha kısa bir nefesle bittiği istemsiz bir reflekstir. Brezilyalı nörologların [esneme üzerine derlemesine](https://www.scielo.br/j/anp/a/QbpPTHrsjfns4HTSVxhzHJt/?lang=en) göre tek bir esneme 5 ila 10 saniye sürer, genellikle başın geriye atılmasıyla, bazen de kolların kaldırılıp gerilmesiyle birlikte olur. Bu refleks anne karnından yaşlılığa kadar görülür ve insanlar günde 28 kereye kadar esneyebilir.
 
 Esneme kendi kendine "gelir"; isteyerek başlatmak zordur, başladıktan sonra yarıda kesmek de güçtür. En sık şu anlarda görülür:
 
@@ -66,7 +66,7 @@ Esnemenin faydası konusunda bilinenler sınırlıdır ve çoğu kuramdan çıka
 
 ## Esneme neden bulaşıcıdır?
 
-Birinin esnediğini görmek ya da duymak, karşıdakinde de esnemeyi tetikleyebilir. [Esneme derlemesinde](https://www.scielo.br/j/anp/a/QbpPTHrsjfns4HTSVxhzHJt/?lang=en) aktarılan beyin görüntüleme çalışmaları, bulaşıcı esneme sırasında sosyal algı ve başkasının durumunu anlamayla ilişkili bölgelerin çalıştığını gösterir. Bu nedenle bulaşıcı esneme empatiyle ilişkilendirilir. Yine de esnemeye "yakalanmamak" empati eksikliği anlamına gelmez; yaş, yorgunluk, dikkat ve ortam ısısı da bu tepkiyi etkiler.
+Birinin esnediğini görmek ya da duymak, karşıdakinde de esnemeyi tetikleyebilir. [Esneme derlemesinde](https://www.scielo.br/j/anp/a/QbpPTHrsjfns4HTSVxhzHJt/?lang=en) aktarılan beyin görüntüleme çalışmaları, bulaşıcı esneme sırasında sosyal algı ve başkasının durumunu anlamayla ilişkili bölgelerin çalıştığını gösterir. Bu nedenle bulaşıcı esneme empatiyle ilişkilendirilir. Yine de esnemeye "yakalanmamak" empati eksikliği anlamına gelmez; yukarıdaki kış ve yaz karşılaştırmasında görüldüğü gibi ortam ısısı da bu tepkiyi etkiler.
 
 ## Sık esnemek ne belirtisi?
 
@@ -78,7 +78,7 @@ Sık esnemenin büyük çoğunluğu zararsızdır ve vücudun uykusuz, yorgun ya
 | Gündüz aşırı uyku hali yapan bozukluklar | Uyku apnesi, narkolepsi; yeterince yatıldığı halde gün boyu uyku hali |
 | Sıkıntı, durgunluk, sıcak ortam | Ortam değişince geçen esneme |
 | Stres ve kaygı | Gergin anlarda (sınav, sahneye çıkmadan önce) artan esneme |
-| Bazı ilaçlar ve bırakma dönemleri | Bazı antidepresanlar, uyku ve ağrı ilaçları; opioid ya da kahve bırakılırken |
+| Bazı ilaçlar ve bırakma dönemleri | Başta bazı antidepresanlar, Parkinson'da kullanılan dopaminerjik ilaçlar, opioidler ve benzodiazepinler; uzun süre kullanılan opioid ya da kahve bırakılırken |
 | Migren | Ağrıdan önceki habercilik döneminde art arda esneme |
 | Vazovagal tepki | Bayılma hissi, terleme, solukluk; nadiren kalp krizi ya da aort yırtılmasına eşlik eder |
 | Beyin ve sinir sistemi hastalıkları | İnme, epilepsi, multipl skleroz, beyin tümörü, Parkinson hastalığı; genellikle başka nörolojik bulgularla |
@@ -119,7 +119,7 @@ Esnemeyi tamamen bastırmaya çalışmak genellikle zararsızdır ama çoğu zam
 - **Uzun oturmayı bölün:** Saatte bir kalkıp birkaç dakika hareket etmek gün içi durgunluğu azaltır.
 - **İlaçlarınızı gözden geçirin:** Yeni başlanan bir ilaçtan sonra esneme belirgin arttıysa bunu ilacı yazan hekimle konuşun; ilacı kendi kendinize bırakmayın.
 
-## Ne zaman değerlendirme gerekir?
+## Sık esnemek hangi durumda araştırılmalı?
 
 Uykusuzluk ya da sıkıntıyla açıklanan esneme araştırma gerektirmez. Aşağıdaki durumlardan biri varsa değerlendirme gerekir:
 
@@ -135,6 +135,10 @@ Değerlendirmede [MedlinePlus'ın da belirttiği gibi](https://medlineplus.gov/e
 
 ## Sık sorulan sorular
 
+### Esnemenin belirtileri nelerdir?
+
+Esneme ağzın istemsizce genişçe açılması, derin ve uzun bir nefes, gözlerin kısılması ve çoğu zaman başın geriye atılmasıyla tanınır; tek bir esneme 5 ila 10 saniye sürer. Esnemenin hangi duruma işaret ettiğini merak ediyorsanız yukarıdaki "Sık esnemek ne belirtisi?" bölümüne bakın.
+
 ### Esneme ne belirtisi?
 
 Çoğu zaman uykusuzluk, yorgunluk, sıkıntı ya da sıcak ortamın belirtisidir. Daha seyrek olarak uyku apnesi gibi uyku bozukluklarına, bazı ilaçların yan etkisine, migrene ya da sinir sistemi hastalıklarına eşlik edebilir. Ciddi nedenlerde genellikle başka belirtiler de vardır.
@@ -149,11 +153,11 @@ Hayır. Saf oksijen solumanın esnemeyi azaltmadığı, karbondioksiti yüksek g
 
 ### Esnerken gözler neden yaşarır?
 
-Esnerken yüz kasları kasılır ve göz çevresindeki gözyaşı bezlerine baskı yapar; biriken gözyaşı dışarı çıkar. Bu normaldir ve bir sorun göstermez.
+Bunun en yaygın açıklaması, esnerken kasılan yüz kaslarının göz çevresine baskı yaparak gözyaşının dışarı çıkmasını kolaylaştırmasıdır. Bu normaldir ve bir sorun göstermez.
 
 ### Uykum yokken neden esniyorum?
 
-Sıkıntı, stres, sıcak ortam ya da başka birinin esnediğini görmek, uyku olmadan da esnemeyi tetikleyebilir. Uykulu olmadığınız halde sık ve yeni başlayan esneme varsa yukarıdaki "Ne zaman değerlendirme gerekir?" listesine bakın.
+Sıkıntı, stres, sıcak ortam ya da başka birinin esnediğini görmek, uyku olmadan da esnemeyi tetikleyebilir. Uykulu olmadığınız halde sık ve yeni başlayan esneme varsa yukarıdaki "Sık esnemek hangi durumda araştırılmalı?" bölümüne bakın.
 
 ## Kaynaklar
 

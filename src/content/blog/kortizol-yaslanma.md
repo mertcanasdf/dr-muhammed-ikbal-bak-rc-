@@ -19,7 +19,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/anksiyete-ve-obsesyonun-fizyolojisi.webp"
   - slug: "tukenmislik-sendromu"
     category: "Zihin & Sosyal Yaşam"
-    title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
+    title: "Tükenmişlik Sendromu: Nedir, Belirtileri ve Depresyondan Farkı"
     image: "/assets/images/generated/articles/tukenmislik-sendromu.webp"
   - slug: "uyku-kalitesi-nasil-artirilir"
     category: "Uyku"

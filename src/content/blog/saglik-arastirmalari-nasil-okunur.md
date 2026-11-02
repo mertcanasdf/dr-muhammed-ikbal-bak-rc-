@@ -21,7 +21,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/sirt6-proteini-epigenetik-genclesme.webp"
   - slug: "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler"
     category: "Skin Longevity"
-    title: "Senolitik Tedaviler ve Cilt: \"Zombi\" Hücreler Hakkında Ne Biliniyor?"
+    title: "Senolitik Nedir? \"Zombi\" Hücreler, İnsan Çalışmaları ve Cilt"
     image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
 ---
 

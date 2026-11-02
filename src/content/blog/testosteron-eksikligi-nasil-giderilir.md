@@ -100,7 +100,7 @@ Belirtileri olan ve eksikliği tekrarlanan tahlillerle doğrulanan erkeklerde te
 Bilinmesi gereken başlıca noktalar:
 
 - **Doğurganlık:** Dışarıdan verilen testosteron sperm üretimini baskılar. Kılavuz, yakın zamanda çocuk planlayan erkeklerde tedaviye başlanmamasını önerir; bu durumda farklı ilaç seçenekleri vardır.
-- **Uygun olmayan durumlar:** Prostat ya da meme kanseri, değerlendirilmemiş prostat bulgusu, yüksek hematokrit (kan koyulaşması), tedavi edilmemiş ağır uyku apnesi, kontrolsüz kalp yetmezliği ve son 6 ayda geçirilmiş kalp krizi ya da inme.
+- **Uygun olmayan durumlar:** Prostat ya da meme kanseri, değerlendirilmemiş prostat bulgusu ya da yüksek PSA, yüksek hematokrit (kan koyulaşması), tedavi edilmemiş ağır uyku apnesi, kontrolsüz kalp yetmezliği ve son 6 ayda geçirilmiş kalp krizi ya da inme.
 - **İzlem:** Tedavi sırasında testosteron, hematokrit ve prostat riski düzenli olarak kontrol edilir; hedef, düzeyi normal aralığın ortasında tutmaktır.
 - **Kalp güvenliği:** Kalp-damar riski yüksek 5.246 erkeğin katıldığı [TRAVERSE çalışmasında](https://pubmed.ncbi.nlm.nih.gov/37326322/) testosteron jeli, büyük kalp olaylarını plaseboya göre artırmadı (yüzde 7,0'a karşı yüzde 7,3). Ancak tedavi grubunda atriyal fibrilasyon (bir ritim bozukluğu), akut böbrek hasarı ve akciğer pıhtısı daha sık görüldü.
 - **Jelin bulaşması:** Jel, ten teması yoluyla eşe ya da çocuklara geçebilir; uygulama bölgesinin örtülmesi gerekir.
@@ -111,7 +111,7 @@ Spor amacıyla ya da "gençleşmek" için reçetesiz testosteron ve anabolik ste
 
 Arama sonuçlarında sık görülen "testosteronu yükselten 10 besin" listeleri, çoğunlukla eksikliği olan erkeklerde değil, hayvanlarda ya da küçük gruplarda yapılmış çalışmalara dayanır. Çinko ya da D vitamini eksikliği varsa düzeltilmesi genel sağlık için yararlıdır, ama bu takviyeler kılavuzlarda testosteron eksikliğinin tedavisi olarak yer almaz. "Testosteron artırıcı" diye satılan bitkisel karışımlar, eksikliği giderdiği gösterilmiş tedaviler arasında yer almaz; kılavuzlar tedaviyi doğrulanmış eksiklikte ve izlem altında tanımlar. Kanıtı en güçlü olanlar yukarıdaki sıradan adımlardır: kilo, uyku, hareket ve alkol.
 
-## Ne zaman değerlendirme gerekir?
+## Düşük testosteron hangi belirtilerle araştırılır?
 
 Şu durumlarda testosteron düzeyine ve nedenine bakılması anlamlıdır:
 

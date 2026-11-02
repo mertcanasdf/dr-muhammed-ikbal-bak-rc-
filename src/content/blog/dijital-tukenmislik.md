@@ -16,7 +16,7 @@ takeaways:
 relatedArticles:
   - slug: "tukenmislik-sendromu"
     category: "Zihin & Sosyal Yaşam"
-    title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
+    title: "Tükenmişlik Sendromu: Nedir, Belirtileri ve Depresyondan Farkı"
     image: "/assets/images/generated/articles/tukenmislik-sendromu.webp"
   - slug: "ekran-kullanimi-ve-uyku"
     category: "Uyku"
@@ -28,7 +28,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/doga-ve-zihin-sagligi.webp"
 ---
 
-**Dijital tükenmişlik**, yoğun ekran kullanımı, sürekli bildirim ve her an ulaşılabilir olma beklentisinin yarattığı zihinsel yorgunluk, odaklanma güçlüğü ve dinlenememe hâlini anlatmak için kullanılan bir ifadedir. Resmi bir tıbbi tanı değildir. Sorun çoğu zaman ekran başında geçen saatlerden çok, günün sürekli bölünmesinden ve iş ile özel yaşam arasındaki sınırın silinmesinden kaynaklanır.
+**Dijital tükenmişlik**, yoğun ekran kullanımı, sürekli bildirim ve her an ulaşılabilir olma beklentisinin yarattığı zihinsel yorgunluk, odaklanma güçlüğü ve dinlenememe hâlini anlatmak için kullanılan bir ifadedir. Resmi bir tıbbi tanı değildir ve DSÖ'nün yalnızca iş stresi için kullandığı [tükenmişlik sendromundan](/blog/tukenmislik-sendromu) ayrıdır. Sorun çoğu zaman ekran başında geçen saatlerden çok, günün sürekli bölünmesinden ve iş ile özel yaşam arasındaki sınırın silinmesinden kaynaklanır.
 
 ## Dijital tükenmişlik ne anlama gelir?
 

@@ -41,9 +41,9 @@ Sık karıştırılan bir kavram da dinlenme metabolizma hızıdır (RMR). Bazal
 
 ## Bazal metabolizma nasıl hesaplanır? Adım adım
 
-Mifflin-St Jeor formülü, 19–78 yaş arasında, normal kilolu ve obez 498 sağlıklı yetişkinin ölçümlerinden türetilmiştir. [Mifflin ve arkadaşlarının 1990'da yayımlanan çalışmasında](https://pubmed.ncbi.nlm.nih.gov/2305711/) yalnızca kilo, dinlenme enerji harcamasındaki farkın yaklaşık yarısını açıklıyordu; boy, yaş ve cinsiyet eklenince açıklanan pay belirgin biçimde arttı.
+Mifflin-St Jeor formülü, 19–78 yaş arasında, normal kilolu ve obez 498 sağlıklı yetişkinin ölçümlerinden türetilmiştir. [Mifflin ve arkadaşlarının 1990'da yayımlanan çalışmasında](https://pubmed.ncbi.nlm.nih.gov/2305711/) yalnızca kilo, dinlenme enerji harcamasındaki farkın yaklaşık %56'sını açıklıyordu; boy, yaş ve cinsiyet eklenince bu pay %71'e çıktı.
 
-Hesap için dört bilgi yeter: kilo (kg), boy (cm), yaş (yıl) ve cinsiyet.
+Bazal metabolizma hesaplama, cihazla ölçüm yapmadan bu tür bir formülle kişinin dinlenme harcamasını tahmin etmektir. Hesap için dört bilgi yeter: kilo (kg), boy (cm), yaş (yıl) ve cinsiyet.
 
 1. Kilonuzu 10 ile çarpın.
 2. Boyunuzu santimetre cinsinden 6,25 ile çarpın.
@@ -93,13 +93,14 @@ Daha anlamlı soru, ölçülen ya da hesaplanan değerin kişinin vücut yapıs�
 
 ## Bazal metabolizma hızı nasıl ölçülür?
 
-Gerçek ölçüm indirekt kalorimetri ile yapılır. Kişi bir süre sırtüstü dinlendikten sonra yüzüne maske ya da başına şeffaf bir kubbe yerleştirilir ve 15–20 dakika boyunca normal nefes alıp vermesi istenir. Cihaz, tüketilen oksijen ile üretilen karbondioksiti ölçerek harcanan enerjiyi hesaplar.
+Gerçek ölçüm indirekt kalorimetri ile yapılır. Kişi dinlendikten sonra yüzüne maske ya da başına şeffaf bir kubbe yerleştirilir ve normal nefes alıp vermesi istenir. Cihaz, tüketilen oksijen ile üretilen karbondioksiti ölçerek harcanan enerjiyi hesaplar.
 
-Doğru sonuç için genellikle şunlar istenir:
+Ölçüm yöntemlerini inceleyen [sistematik derlemeye](https://pubmed.ncbi.nlm.nih.gov/16720129/) göre doğru sonuç için:
 
-- Ölçümün sabah, 8–12 saatlik açlıktan sonra yapılması
-- Rahat giysilerle gelinmesi
-- Ölçüm öncesinde sakin, ılık bir odada yaklaşık 10 dakika uzanarak dinlenilmesi
+- Ölçümden önce yemek, kafein, alkol ve nikotin alımı kontrol edilmelidir; bunların her biri değeri bir süre etkiler. Bu yüzden ölçüm çoğunlukla sabah, gece açlığından sonra planlanır.
+- Ölçüm öncesinde 10–20 dakika dinlenmek yeterlidir.
+- Yaklaşık 10 dakikalık kayıtta ilk 5 dakika atılır; kalan 5 dakika değerler kararlıysa kullanılır.
+- Ortamın kişi için rahat olması gerekir.
 
 Bazı spor salonlarında ve eczanelerde kullanılan biyoelektrik empedans tartıları da bir "metabolizma hızı" değeri gösterir. Bu değer ölçülmez; cihaz kendi tahmin ettiği vücut bileşimini bir formüle koyarak hesaplar. Bu yüzden indirekt kalorimetrinin yerini tutmaz.
 
@@ -115,13 +116,13 @@ Bazal metabolizmayı belirgin biçimde yükselten bir besin, çay ya da takviye 
 
 **Günlük hareketi artırmak.** Bu, bazal metabolizmayı değiştirmez ama toplam harcamayı en çok değiştiren etkendir. Oturma süresini azaltmanın metabolik sağlığa etkisini [hareketsizlik ve metabolik sağlık](/blog/hareketsizlik-ve-metabolik-saglik) yazısında anlattık. Beslenme ve hareketle ilgili diğer yazılar [beslenme rehberinde](/longevity/beslenme) toplu olarak yer alıyor.
 
-## Ne zaman değerlendirme gerekir?
+## Metabolizma yavaşlığı hangi durumda bir hastalığa işaret eder?
 
 Bazal metabolizma hesabı kendi başına bir tanı aracı değildir. Ancak şu durumlarda kilo değişiminin arkasında metabolizmayı etkileyen bir sağlık sorunu olup olmadığına bakılması anlamlıdır:
 
 - Beslenme ve hareket değişmediği hâlde birkaç ay içinde açıklanamayan kilo artışı ya da kaybı
-- Kilo değişimine sürekli yorgunluk, üşüme, kabızlık, cilt kuruluğu ya da adet düzensizliği eşlik etmesi
-- Çarpıntı, el titremesi, sıcağa dayanamama ve iştah artmasına rağmen kilo kaybı
+- Kilo değişimine sürekli yorgunluk, üşüme, cilt kuruluğu ya da adet düzensizliği eşlik etmesi
+- [Çarpıntı, el titremesi, sıcağa dayanamama ve iştah artmasına rağmen kilo kaybı](https://www.niddk.nih.gov/health-information/endocrine-diseases/hyperthyroidism)
 - Çok düşük kalorili beslenmeye rağmen kilonun hiç değişmemesi
 
 Bu belirtiler tiroit hastalıkları, ilaç yan etkileri ya da başka hormon sorunlarıyla ilişkili olabilir ve kan tahlilleriyle değerlendirilir.
@@ -157,3 +158,5 @@ Bazal metabolizmayı asıl etkileyen, öğün zamanından çok toplam kilo kayb�
 - Rosenbaum M, Leibel RL. [Adaptive thermogenesis in humans](https://pubmed.ncbi.nlm.nih.gov/20935667/). Int J Obes. 2010;34 Suppl 1:S47-55.
 - FAO/WHO/UNU. [Human energy requirements: Physical activity level](https://www.fao.org/4/y5686e/y5686e07.htm).
 - NIDDK. [Hypothyroidism (Underactive Thyroid)](https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism).
+- NIDDK. [Hyperthyroidism (Overactive Thyroid)](https://www.niddk.nih.gov/health-information/endocrine-diseases/hyperthyroidism).
+- Compher C, Frankenfield D, Keim N, Roth-Yousey L. [Best practice methods to apply to measurement of resting metabolic rate in adults: a systematic review](https://pubmed.ncbi.nlm.nih.gov/16720129/). J Am Diet Assoc. 2006;106(6):881-903.

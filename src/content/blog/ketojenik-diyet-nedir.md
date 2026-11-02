@@ -29,7 +29,7 @@ relatedArticles:
 
 **Ketojenik diyet**, karbonhidratı çok düşük, yağı çok yüksek, proteini orta düzeyde tutan bir beslenme düzenidir. Karbonhidrat genellikle günde 50 gramın, sıkı uygulamada 20 gramın altına indirilir; vücut bir süre sonra yakıt olarak şeker yerine yağı ve karaciğerin yağdan ürettiği keton cisimciklerini kullanmaya başlar. Bu duruma ketoz denir ve diyetin adı da buradan gelir.
 
-Yöntem ilk olarak 1920'lerde ilaçla kontrol edilemeyen epilepsi nöbetleri için geliştirildi. Bugün en çok kilo vermek amacıyla konuşuluyor, ancak bu iki kullanımın kanıt düzeyi ve uygulama biçimi birbirinden oldukça farklı.
+Yöntem ilk olarak 1920'lerde, ilaçla kontrol edilemeyen epilepsisi olan çocuklar için geliştirildi. Bugün en çok kilo vermek amacıyla konuşuluyor, ancak bu iki kullanımın kanıt düzeyi ve uygulama biçimi birbirinden oldukça farklı.
 
 ## Ketojenik ne demek?
 
@@ -77,7 +77,7 @@ Bu tablo, Türk mutfağında günlük öğünün temelini oluşturan ekmek, bulg
 - **Düşük glisemik indeks diyeti:** Karbonhidratı tamamen kesmek yerine kan şekerini yavaş yükselten kaynaklarla sınırlı tutar.
 - **Halk arasındaki "keto":** Kilo vermek için uygulanan, karbonhidratı genellikle günde 20–50 gram arasında tutan, oranların sıkı hesaplanmadığı biçimdir.
 
-İlk üç biçim [Cleveland Clinic'in epilepsi sayfasında](https://my.clevelandclinic.org/health/treatments/7156-ketogenic-diet-keto-diet-for-epilepsy) tedavi seçenekleri olarak anlatılır; orada diyet, sağlık ekibi tarafından başlatılan ve düzenli kontrollerle sürdürülen bir tedavidir.
+İlk üç biçim [Cleveland Clinic'in epilepsi sayfasında](https://my.clevelandclinic.org/health/treatments/7156-ketogenic-diet-keto-diet-for-epilepsy) tedavi seçenekleri olarak anlatılır; orada diyet, sağlık ekibi tarafından başlatılan ve düzenli kontrollerle sürdürülen bir tedavidir. Aynı sayfanın aktardığı araştırmalara göre diyet, bazı kişilerde üç ay içinde nöbet sayısını yarıdan fazla azaltabilir; etki çoğunlukla ilk 3–4 ayda belirginleşir. Ketojenik diyetin en güçlü kanıtı kilo kaybında değil, bu alandadır.
 
 ## Ketojenik diyetle kilo verilir mi?
 
@@ -93,14 +93,14 @@ Yani ketojenik diyet kilo vermenin "sırrı" değil, kaloriyi azaltmanın yollar
 
 ### İlk haftalar: "keto gribi"
 
-Diyetin başında görülen ve halk arasında "keto gribi" denen tablo, enfeksiyon değil, uyum dönemidir. 2026 tarihli bir [kontrendikasyon ve yan etki derlemesine](https://pubmed.ncbi.nlm.nih.gov/41486865/) göre en sık bildirilen yan etkiler halsizlik, baş ağrısı ve bulantı gibi geçici şikâyetler, sindirim sorunları, sık idrara çıkma ve kan şekeri düşmesidir. Harvard'ın listesine açlık hissi, huzursuzluk, keyifsizlik, kabızlık ve "beyin sisi" de eklenir; bu belirtiler günlerden haftalara kadar sürebilir.
+Diyetin başında görülen ve halk arasında "keto gribi" denen tablo, enfeksiyon değil, uyum dönemidir. 2026 tarihli bir [kontrendikasyon ve yan etki derlemesine](https://pubmed.ncbi.nlm.nih.gov/41486865/) göre en sık bildirilen yan etkiler geçici "keto gribi" şikâyetleri, sindirim sorunları, sık idrara çıkma ve kan şekeri düşmesidir. Harvard'ın sıraladığı belirtiler ise açlık hissi, halsizlik, keyifsizlik, huzursuzluk, kabızlık, baş ağrısı ve "beyin sisi"dir; bunlar günlerden haftalara kadar sürebilir.
 
 ### Uzun vadede dikkat edilen riskler
 
 | Risk | Neden olabilir? |
 |---|---|
 | LDL kolesterol artışı | Doymuş yağ alımının artması; bazı kişilerde artış belirgin olabilir |
-| Lif, B vitaminleri, magnezyum, demir ve çinko eksikliği | Tahıl, baklagil ve meyve gibi besin gruplarının çıkması |
+| Lif ile bazı vitamin ve mineral eksiklikleri | Tahıl, baklagil ve meyve gibi besin gruplarının çıkması |
 | Kabızlık | Lif alımının azalması |
 | Böbrek taşı | Uzun süreli uygulamada idrar bileşiminin değişmesi |
 | Ürik asit yükselmesi | Gut atağı riskinin artabilmesi |
@@ -108,7 +108,7 @@ Diyetin başında görülen ve halk arasında "keto gribi" denen tablo, enfeksiy
 
 Bu risklerin çoğu Harvard'ın değerlendirmesinde ve Cleveland Clinic'in epilepsi sayfasında yer alır. Yağ kaynağının seçimi farkı büyütür: Tereyağı ve işlenmiş et yerine zeytinyağı, avokado, kuruyemiş ve yağlı balığa dayanan bir ketojenik düzen, doymuş yağ yükünü azaltır. LDL'nin neden önemli olduğu [LDL kolesterol yüksekliği nedir](/blog/ldl-kolesterol-yuksekligi-nedir) yazısında, magnezyumun hangi besinlerden geldiği [magnezyum eksikliği](/blog/magnezyum-eksikligi) yazısında ayrıntılı anlatılıyor.
 
-Ketojenik diyetin kalp hastalığı ya da ölüm riski üzerindeki uzun vadeli etkisini doğrudan ölçen randomize çalışma yoktur. Bu, "zararsız" ya da "zararlı" demek yerine "bilinmiyor" demek gerektiği anlamına gelir.
+Harvard'ın değerlendirmesi, diyetin uzun vadeli etkilerini ve güvenliğini hâlâ yanıtı netleşmemiş sorular arasında sayar. Bu, "zararsız" ya da "zararlı" demek yerine "bilinmiyor" demek gerektiği anlamına gelir.
 
 ## Kimler ketojenik diyet yapmamalı?
 
@@ -118,9 +118,9 @@ Aynı 2026 derlemesi durumları üç gruba ayırır:
 - **Göreceli olarak uygun olmayanlar:** Akut pankreatit, ileri karaciğer ya da böbrek hastalığı, ailesel hiperkolesterolemi (kalıtsal yüksek kolesterol).
 - **Özel dikkat gerektirenler:** Tip 1 ya da tip 2 diyabetle insülin, sülfonilüre, SGLT2 inhibitörü gibi şeker düşürücü ilaç kullananlar; ilaçla tedavi edilen yüksek tansiyon; safra kesesi hastalığı ya da safra kesesi alınmış olması; elektrolit bozuklukları ve ritim sorunları; gebelik ve emzirme; düşük kilo; yoğun sporcular; ameliyat sonrası iyileşme dönemi.
 
-İlaç kullananlar için risk yalnızca diyetten gelmez: Karbonhidrat birden azalınca bazı ilaçların etkisi değişebilir ve kan şekeri beklenenden fazla düşebilir. Kan şekeri düşmesinin belirtilerini [kan şekeri neden düşer](/blog/kan-sekeri-neden-duser) yazısında bulabilirsiniz. Çocuklarda, yaşlılarda ve birden fazla kronik hastalığı olanlarda ise Harvard'ın vurguladığı gibi güvenlik verisi sınırlıdır.
+İlaç kullananlar için risk yalnızca diyetten gelmez: Karbonhidrat birden azalınca bazı ilaçların etkisi değişebilir ve kan şekeri beklenenden fazla düşebilir. Kan şekeri düşmesinin belirtilerini [kan şekeri neden düşer](/blog/kan-sekeri-neden-duser) yazısında bulabilirsiniz. Diyetin çocukluk ve ergenlikte fazla kısıtlayıcı olup olmadığı ya da birden fazla kronik hastalığı olan yaşlılarda işe yarayıp yaramadığı da Harvard'ın açık sorular arasında saydığı konulardır.
 
-## Ne zaman değerlendirme gerekir?
+## Keto sırasında hangi belirtiler ciddiye alınmalı?
 
 Şu durumlarda ketojenik diyete başlamadan önce sağlık durumunun değerlendirilmesi gerekir:
 

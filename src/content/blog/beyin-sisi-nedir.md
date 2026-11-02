@@ -23,7 +23,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/uyku-kalitesi-nasil-artirilir.webp"
   - slug: "tukenmislik-sendromu"
     category: "Zihin & Sosyal Yaşam"
-    title: "Tükenmişlik Sendromu: Nedir, Stres Biyolojisiyle İlişkisi ve Çıkış Yolları"
+    title: "Tükenmişlik Sendromu: Nedir, Belirtileri ve Depresyondan Farkı"
     image: "/assets/images/generated/articles/tukenmislik-sendromu.webp"
 ---
 

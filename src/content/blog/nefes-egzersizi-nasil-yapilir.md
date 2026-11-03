@@ -43,7 +43,7 @@ Bu uygulamayı "doğru nefes" yarışına çevirmeyin. Sayılar yalnızca ritim 
 
 ## Nefes egzersizi ne işe yarar, nelere iyi gelir?
 
-Burada kanıtı abartmamak önemlidir. [Zaccaro ve arkadaşlarının 2018 sistematik derlemesi](https://www.frontiersin.org/articles/10.3389/fnhum.2018.00353/full), dakikada 10'dan az nefesle yapılan yavaş solunumu inceledi. Yalnızca sağlıklı yetişkinleri içeren 15 çalışmada kalp hızı değişkenliğinde artış, beyin elektriksel aktivitesinde değişiklik ve rahatlama, canlılık gibi duygularda artış, kaygı ve öfkede azalma bildirildi.
+Burada kanıtı abartmamak önemlidir. [Zaccaro ve arkadaşlarının 2018 sistematik derlemesi](https://www.frontiersin.org/articles/10.3389/fnhum.2018.00353/full), dakikada 10'dan az nefesle yapılan yavaş solunumu inceledi. Yalnızca sağlıklı yetişkinleri içeren 15 çalışmada kalp hızı değişkenliğinde artış, beyin elektriksel aktivitesinde değişiklik ve rahatlama, canlılık gibi duygularda artış, kaygı ve öfkede azalma bildirildi. Öfke anında nefesin diğer sakinleştirici adımlarla nasıl birleştirildiğini [öfke kontrolü yazımızda](/blog/ofke-kontrolu-nasil-yapilir) anlattık.
 
 Derlemenin sınırları da açıktı: çalışma yöntemleri ve nefes teknikleri birbirinden çok farklıydı, bazı çalışmalar çok küçüktü, hiçbiri rastgele kontrollü ya da uzun süreli değildi ve bu nedenle sonuçlar birleştirilemedi.
 

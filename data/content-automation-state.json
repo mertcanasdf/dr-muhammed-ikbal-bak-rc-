@@ -2089,6 +2089,27 @@
       "preparedAt": "2026-11-03T08:08:57.069Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-03T08:08:59.724Z"
+    },
+    {
+      "day": "2026-11-03",
+      "slug": "ofke-kontrolu-nasil-yapilir",
+      "sourceArticleSha256": "9b0f1f2c79f78c6bd2d5529e6fb0a17a125b559860ad5cd1bf02c95845e9d956",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ofke-kontrolu-nasil-yapilir",
+        "htmlTitle": "Öfke Kontrolü Nasıl Yapılır? Belirtileri ve Tedavisi",
+        "metaDescription": "Öfke kontrolü nasıl yapılır? Öfke anında işe yarayan adımlar, öfkeyi boşaltmanın neden işe yaramadığı, belirtiler ve tedavi.",
+        "headline": "Öfke Kontrolü Nasıl Yapılır? Anında Sakinleşme ve Kalıcı Değişim",
+        "datePublished": "2026-11-03",
+        "dateModified": "2026-11-03",
+        "wordCount": 1237,
+        "bodyTextSha256": "460b7128a8e2b99a2ce038d559b1c2443fa01ae21db4a98fb55bb3973ac93655",
+        "htmlSha256": "44c9d74c024a20d6dc8f95fd67bd1433de342aa582299eb6bf3b1ab5338e1e27"
+      },
+      "commit": "9fbc9bce5900150aaa959e335d55c860e319e707",
+      "parent": "258741e385769d9ca2a93e597da777ecbadf93cb",
+      "preparedAt": "2026-11-03T10:10:26.620Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-03T10:10:29.513Z"
     }
   ]
 }

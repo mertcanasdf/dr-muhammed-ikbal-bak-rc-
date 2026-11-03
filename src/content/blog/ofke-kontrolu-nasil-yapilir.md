@@ -29,7 +29,7 @@ relatedArticles:
 
 Öfke kontrolü, öfke yükselirken bedenin uyarılmasını düşürmek ve ancak sakinleşince konuşmakla yapılır: ortamdan kısa bir süre uzaklaşmak, yavaş ve derin nefes almak, ona kadar saymak ve kasları gevşetmek bunun en iyi desteklenen yollarıdır. Uzun vadede ise sizi neyin tetiklediğini fark etmek, öfkeyi büyüten düşünceleri sorgulamak ve sorunu sakin bir anda dile getirmek gerekir. Öfkeyi bağırarak, bir şeye vurarak ya da "içini dökerek" boşaltmak ise araştırmalarda öfkeyi azaltmıyor.
 
-Öfke kendi başına bir sorun değildir; haksızlığa ve tehdide karşı verilen doğal bir tepkidir. Sorun, tepkinin sıklığı, şiddeti ve geride bıraktığı hasardır. Bu yazı ikisini ayırmanıza ve hangi yöntemin neden işe yaradığını görmenize yardımcı olmak için hazırlandı.
+Öfke kendi başına bir sorun değildir; haksızlığa ve tehdide karşı verilen doğal bir tepkidir. Sorun, tepkinin sıklığı, şiddeti ve geride bıraktığı hasardır. Sağlıklı öfkeyle sorunlu öfkeyi ayırmak, hangi yöntemin işe yarayacağını da belirler.
 
 ## Öfke kontrolü nedir?
 

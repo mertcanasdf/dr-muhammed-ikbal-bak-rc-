@@ -18,7 +18,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/sanat-ve-beyin-sagligi.webp"
   - slug: "sosyal-baglanti-ve-uzun-omur"
     category: "Zihin & Sosyal Yaşam"
-    title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
+    title: "Sosyal Bağlantı ve Uzun Ömür: Yalnızlık Sağlığı Nasıl Etkiler?"
     image: "/assets/images/generated/articles/sosyal-baglanti-ve-uzun-omur.webp"
   - slug: "muzik-ve-stres-kortizol"
     category: "Zihin & Sosyal Yaşam"

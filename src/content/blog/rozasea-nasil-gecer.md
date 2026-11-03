@@ -29,7 +29,7 @@ relatedArticles:
 
 Rozasea kalıcı olarak geçmez; ama çoğu kişide tedavi ve tetikleyicilerden kaçınmayla belirtiler belirgin biçimde azalır, uzun sakin dönemler sağlanabilir. Hastalık alevlenme ve gerileme dönemleriyle seyreder, bu yüzden kızarıklığın bir süre kaybolması "iyileştim" anlamına gelmez. Tedavinin hedefi de buna göre konur: cildi tam ya da tama yakın temiz tutmak ve atakları seyrekleştirmek.
 
-İngiltere Ulusal Sağlık Servisi'nin (NHS) ifadesiyle [rozasea tedavi edilip tamamen ortadan kaldırılamaz, ama belirtileri kontrol altına alınabilir](https://www.nhs.uk/conditions/rosacea/); tedavi edilmediğinde ise zamanla kötüleşebilir. Bu yazı, rozaseayı tanımanıza, sizi neyin alevlendirdiğini bulmanıza ve tedavi seçeneklerinin hangi belirtiye yönelik olduğunu anlamanıza yardımcı olmak için hazırlandı.
+İngiltere Ulusal Sağlık Servisi'nin (NHS) ifadesiyle [rozasea tedavi edilip tamamen ortadan kaldırılamaz, ama belirtileri kontrol altına alınabilir](https://www.nhs.uk/conditions/rosacea/); tedavi edilmediğinde ise zamanla kötüleşebilir. Kontrolün iki ayağı var: sizi neyin alevlendirdiğini bulmak ve baskın belirtiye uygun tedaviyi seçmek.
 
 ## Rozasea nedir?
 
@@ -132,7 +132,7 @@ Birkaç pratik not:
 
 ## Rozasea ne zaman geçer?
 
-Bu sorunun dürüst cevabı "kendi kendine geçmez, ama sakinleşir"dir. Kabarcıklar çoğu zaman krem ya da ağızdan tedaviyle birkaç hafta içinde geriler; kalıcı kızarıklık ve görünür damarlar ise ilaçlarla değil, genellikle ışık ve lazer uygulamalarıyla azalır. Tedavi bittikten sonra ataklar yeniden başlayabilir; bu yüzden ROSCO rozaseayı uzun süreli yönetim gerektiren kronik bir hastalık olarak tanımlar.
+Kısaca: kendi kendine geçmez, ama sakinleşir. Kabarcıklar çoğu zaman krem ya da ağızdan tedaviyle birkaç hafta içinde geriler; kalıcı kızarıklık ve görünür damarlar ise ilaçlarla değil, genellikle ışık ve lazer uygulamalarıyla azalır. Tedavi bittikten sonra ataklar yeniden başlayabilir; bu yüzden ROSCO rozaseayı uzun süreli yönetim gerektiren kronik bir hastalık olarak tanımlar.
 
 Sakin dönemleri uzatan şey, büyük ölçüde günlük alışkanlıklardır: tetikleyicilerden kaçınmak, güneşten korunmak ve cildi tahriş etmemek.
 

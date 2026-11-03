@@ -43,6 +43,10 @@ Kaydı kendinizi eleştirmek için kullanmayın. Yapılamayan bir seans da plan�
 
 Algılanan efor için farklı ölçekler vardır. Örneğin [Cambridge University Hospitals rehberi](https://www.cuh.nhs.uk/patient-information/cardiac-rehabilitation-home-exercise-guidelines/) 6–20 ölçeğini kullanır. O ölçekten gelen 13 puanı buradaki 0–10 sütununa aynen taşımayın. Kayıtta ölçeğin adını veya aralığını belirtmek karışıklığı önler; klinik planınızı değiştirmeyin.
 
+### Egzersiz süresi nasıl tutulur?
+
+Süreyi hareket başladığında başlatıp bittiğinde durdurun; ısınma ve soğumayı dahil edip etmediğinizi bir kez seçin ve her seferinde aynı kuralı uygulayın. Uzun duraklamaları, bank molalarını ya da set arası dinlenmeyi hareket süresinden ayrı not edin; "35 dakika dışarıdaydım, 25 dakikası yürüyüştü" gibi bir kayıt, tek bir toplamdan daha karşılaştırılabilirdir. Telefonun kronometresi ya da saatin antrenman modu yeterlidir. Ölçmeyi unuttuysanız tahmini süreyi "yaklaşık" diye işaretleyin.
+
 ## Kopyalanabilir haftalık egzersiz günlüğü
 
 Bu tablo kaynaklardaki izleme yaklaşımını günlük kullanıma dönüştüren bir düzenleme örneğidir. Onaylanmış klinik ölçüm aracı, hazır antrenman programı veya risk skoru değildir. Telefon notlarına kopyalayabilir, kağıda aktarabilir ya da elektronik tabloda aynı sütunları açabilirsiniz.

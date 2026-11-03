@@ -21,7 +21,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/kas-kutlesi-ve-yaslanma.webp"
   - slug: "sosyal-baglanti-ve-uzun-omur"
     category: "Zihin & Sosyal Yaşam"
-    title: "Sosyal Bağlantı ve Uzun Ömür: İlişkilerin Sağlıktaki Yeri"
+    title: "Sosyal Bağlantı ve Uzun Ömür: Yalnızlık Sağlığı Nasıl Etkiler?"
     image: "/assets/images/generated/articles/sosyal-baglanti-ve-uzun-omur.webp"
 ---
 

@@ -86,7 +86,7 @@ Andropozu belirtilerden ya da tek bir kan tahlilinden anlamak mümkün değildir
 - **Belirti ve bulgular:** Özellikle yukarıdaki cinsel belirtiler.
 - **Tutarlı biçimde düşük testosteron:** [Kılavuzun teknik notuna göre](https://academic.oup.com/jcem/article/103/5/1715/4939465) total testosteron, aç karnına ve iki ayrı sabah ölçülmelidir. Testosteron gün içinde dalgalanır; öğleden sonra düşük çıkan birçok yaşlı erkeğin sabah değeri normaldir.
 
-EMAS çalışmasının önerdiği tanı ölçütü de benzerdir: en az üç cinsel belirti ile birlikte 11 nmol/L'nin (yaklaşık 3,2 ng/mL) altında total testosteron.
+EMAS çalışmasının önerdiği tanı ölçütü de benzerdir: en az üç cinsel belirti ile birlikte 11 nmol/L'nin (yaklaşık 3,2 ng/mL) altında total testosteron ve 220 pmol/L'nin altında serbest testosteron.
 
 Tahlil sırasında testosteronu geçici olarak düşüren durumlar da göz önüne alınır: akut bir hastalık, uykusuz geçen bir dönem, ağır diyet ya da bazı ilaçlar. Belirtiler tiroid sorunları, kansızlık, uyku apnesi ve depresyonda da görüldüğü için değerlendirme genellikle yalnız hormona bakmakla kalmaz.
 

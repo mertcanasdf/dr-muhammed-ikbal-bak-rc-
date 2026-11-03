@@ -103,7 +103,7 @@ Yüksek HRV'yi hedef hâline getirmek de yanlış olabilir. Bazı kalp ritim dü
 
 Sağlıklı yaşlanmada hareketin yerini ve izlenebilecek diğer göstergeleri [Hareket alanı sayfamızda](/longevity/hareket), stresin bedene etkisini ise [Zihin alanı sayfamızda](/longevity/zihin) bulabilirsiniz.
 
-## Ne zaman değerlendirme gerekir?
+## HRV ne zaman bir sorunun işareti olabilir?
 
 HRV değeri tek başına tıbbi değerlendirme gerektirmez. Ancak şu durumlarda bir sağlık profesyoneliyle konuşmak anlamlıdır:
 

@@ -90,7 +90,7 @@ Bu çalışmalar herkes için zorunlu bir günlük okuma süresi belirlemiyor. B
 
 Bu nottan “hafızam yüzde şu kadar gelişti” sonucu çıkarılmaz. Amaç size uyan bir okuma ortamını bulmaktır. Metni anlamakta zorlanmayı da tek başına hastalık veya başarısızlık göstergesi olarak değerlendirmeyin; bir günlük not tanı koydurmaz.
 
-## Ne zaman değerlendirme gerekir?
+## Unutkanlık ne zaman okumayla açıklanamaz?
 
 Günlük yaşamı etkileyen, tekrarlayan bellek sorunlarını yalnızca daha çok okuyarak çözmeye çalışmayın. [NHS'nin bellek kaybı rehberi](https://www.nhs.uk/symptoms/memory-loss-amnesia/), bu durumda hekim değerlendirmesini önerir; stres, ruhsal sorunlar ve uyku güçlükleri gibi farklı nedenler bulunabileceğini açıklar. Görüşmeye giderken sorunun ne zamandır sürdüğünü ve günlük işlere etkisini somut örneklerle not edebilirsiniz. Yakınınızın gözlemleri de yardımcı olabilir.
 

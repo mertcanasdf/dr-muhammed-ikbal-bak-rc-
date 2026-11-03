@@ -120,7 +120,7 @@ Testosteron tedavisi "andropozu geçiren" genel bir çözüm değildir. Endocrin
 
 "Testosteron artırıcı" diye satılan bitkisel ürünlerin bu şikâyetleri giderdiğine dair güçlü bir kanıt yoktur.
 
-## Ne zaman değerlendirme gerekir?
+## Andropoz şikâyetleri ne zaman araştırılmalı?
 
 Şu durumlarda şikâyetleri bir hekimle konuşmak anlamlıdır:
 

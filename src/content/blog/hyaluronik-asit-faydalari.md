@@ -92,7 +92,7 @@ Cilde sürüldüğünde çoğu kişi iyi tolere eder. Tahriş çoğu zaman ürü
 
 Ağızdan takviyede, Gao ve arkadaşlarının çalışmasında yan etki bildirimi yoktur; ancak 12 haftalık küçük bir çalışma uzun dönem güvenliği göstermez. Dolgu uygulamasının riskleri (kızarıklık, şişlik, nadir damar komplikasyonları) ürünün kendisinden çok işlemle ilgilidir; ayrıntısı [dermal dolgu güvenliği yazısında](/blog/dermal-dolgu-guvenligi) var.
 
-## Ne zaman değerlendirme gerekir?
+## Hyaluronik asit kullanırken hangi belirtiler önemli?
 
 - Ürünü bıraktıktan sonra da geçmeyen, sulanan, kabuklanan ya da genişleyen döküntü,
 - Dudakta, göz kapağında ya da yüzde şişlik,

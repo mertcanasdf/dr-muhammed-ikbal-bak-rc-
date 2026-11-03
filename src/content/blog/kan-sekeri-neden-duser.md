@@ -34,7 +34,7 @@ relatedArticles:
 
 [NIDDK](https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia), diyabetli birçok kişi için **70 mg/dL'nin altındaki** değeri düşük kan şekeri olarak açıklar; kişisel sınır ve yapılacaklar mevcut tedavi planında belirlenir. Bu sayı, diyabeti olmayan herkese tek bir ölçümle hastalık tanısı koymak için kullanılmaz.
 
-[Türkiye Endokrinoloji ve Metabolizma Derneği](https://temd.org.tr/halk/hastaliklar/hipoglisemi-kan-sekeri-dusuklugu), diyabeti olan ve olmayan kişilerde değerlendirmenin farklı olduğunu vurgular. Diyabet tedavisi almayan bir kişide yakınma anında gerçek düşüklüğün gösterilmesi ve yakınmayla ilişkisinin değerlendirilmesi gerekir. Parmak ucu cihazı günlük izlemde yararlı olabilir; tek başına nedenin tanısını açıklamaz.
+[Türkiye Endokrinoloji ve Metabolizma Derneği](https://temd.org.tr/halk/hastaliklar/hipoglisemi-kan-sekeri-dusuklugu), diyabeti olan ve olmayan kişilerde değerlendirmenin farklı olduğunu vurgular. Diyabet tedavisi almayan bir kişide yakınma anında gerçek düşüklüğün gösterilmesi ve yakınmayla ilişkisinin değerlendirilmesi gerekir. Parmak ucu cihazı günlük izlemde yararlı olabilir, ama düşüşün nedenini göstermez.
 
 Ölçümde yazan **birimi** de koruyun. mg/dL ile mmol/L aynı sayı ölçeği değildir; yalnız ekrandaki rakamı aktarmak karışıklık yaratabilir. Kayıt varsa değeri, birimi, zamanı ve kullanılan yöntemi birlikte gösterin. Şiddetli belirtiler varsa bu ayrıntıları tamamlama uğruna yardım geciktirilmez.
 
@@ -64,7 +64,7 @@ Uzun açlıkla yakınmayı yeniden oluşturmayı denemeyin. Bir değerlendirme i
 
 [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/diabetes/expert-answers/reactive-hypoglycemia/faq-20057778), reaktif hipoglisemiyi yemek sonrasında, genellikle dört saat içinde gelişen kan şekeri düşüklüğü olarak açıklar. Diyabeti olmayanlarda nedeni her zaman net değildir; bazı mide ameliyatları ve başka durumlar da değerlendirmeye girer.
 
-Yemek sonrası uykululuk, açlık hissi veya çarpıntı tek başına bu tanı değildir. Değerlendirmede, yakınma sırasında gerçekten kan şekerinin düşük olup olmadığı ve düzelmesiyle yakınmanın ilişkisi araştırılır. Yalnız “tatlı yedim, sonra kötü hissettim” şeklindeki sıralama nedenin kanıtı sayılamaz.
+Yemek sonrası uykululuk, açlık hissi veya çarpıntı bu tanıyı koydurmaz. Değerlendirmede, yakınma sırasında gerçekten kan şekerinin düşük olup olmadığı ve düzelmesiyle yakınmanın ilişkisi araştırılır. Yalnız “tatlı yedim, sonra kötü hissettim” şeklindeki sıralama nedenin kanıtı sayılamaz.
 
 Örneğin şu iki anlatımı karşılaştırın: “Öğleden sonra kötüydüm” ve “Öğle yemeğinden sonra titreme başladı; o sıradaki ölçüm, birim ve kullanılan cihaz kayıtta.” İkinci anlatım değerlendirme için daha fazla bilgi verir; yine de kayıt olmaması yakınmanın önemsiz olduğu anlamına gelmez.
 
@@ -74,7 +74,7 @@ Yemek sonrası uykululuk, açlık hissi veya çarpıntı tek başına bu tanı d
 
 Ev cihazının kullanım koşulları da önemlidir. [FDA'nın ölçüm cihazı rehberi](https://www.fda.gov/medical-devices/in-vitro-diagnostics/blood-glucose-monitoring-devices); ellerin yıkanıp kurulanmasını, uygun strip kullanımını, saklama koşullarını ve cihaz talimatını vurgular. Ölçümün hissettiklerinizle uyuşmaması, sonucu veya yakınmayı otomatik olarak yok sayma nedeni değildir.
 
-Şüpheli bir cihaz kaydını açıklığa kavuşturmak ile acil durumda yardım istemek farklı işlerdir. Bilinç değişikliği, nöbet veya yutma güçlüğünde cihazın doğruluğunu uzun uzun araştırmayın. Yeni bir cihaz satın almak da tekrarlayan olayın nedenini tek başına çözmez.
+Şüpheli bir cihaz kaydını açıklığa kavuşturmak ile acil durumda yardım istemek farklı işlerdir. Bilinç değişikliği, nöbet veya yutma güçlüğünde cihazın doğruluğunu uzun uzun araştırmayın. Yeni bir cihaz almak da tekrarlayan olayın nedenini ortadan kaldırmaz.
 
 ## Görüşme için olayın zaman çizelgesini koruyun
 
@@ -102,7 +102,7 @@ Hayır. NIDDK, uyku sırasında düşüklüğün her zaman fark edilmeyebileceğ
 
 ### Her açlık hissinde şeker yemek gerekir mi?
 
-Açlık hissi tek başına hipoglisemi tanısı değildir. Bilinen diyabet ve doğrulanmış düşüklükte size verilen planı izleyin; belirsiz ve tekrarlayan yakınmaları sürekli yiyecekle bastırarak nedenini araştırmayı ertelemeyin. Bilinci kapalı veya güvenle yutamayan kişiye ağızdan hiçbir şey vermeyin.
+Acıkmak hipoglisemi demek değildir. Bilinen diyabet ve doğrulanmış düşüklükte size verilen planı izleyin; belirsiz ve tekrarlayan yakınmaları sürekli yiyecekle bastırarak nedenini araştırmayı ertelemeyin. Bilinci kapalı veya güvenle yutamayan kişiye ağızdan hiçbir şey vermeyin.
 
 **Bu yazı yetişkinler için genel bilgilendirmedir; kişisel tanı, ilaç/doz, diyet veya tedavi reçetesi değildir.**
 

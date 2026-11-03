@@ -124,7 +124,7 @@ Lazer, IPL ve kriyoterapi lekedeki pigmenti hedefleyerek çalışır. Mardani de
 
 Gelebilir. Tedavi var olan pigmenti azaltır, ama cildin UV'ye verdiği yanıtı değiştirmez. DermNet, sıkı güneş korunmasının tedavi sonrası tekrarlamayı ve yeni lekelerin çıkmasını önlemeye yardımcı olduğunu vurgular. Pratikte bu, yalnızca yaz aylarında değil yıl boyunca, bulutlu günlerde ve araç camı arkasında da koruma demektir.
 
-## Ne zaman değerlendirme gerekir?
+## Hangi leke kontrol ettirilmeli?
 
 Güneş lekesi kanser değildir ve kansere dönüşmez; ancak bazı cilt kanserleri ilk bakışta lekeye benzeyebilir. [Amerikan Kanser Derneği](https://www.cancer.org/cancer/types/melanoma-skin-cancer/detection-diagnosis-staging/signs-and-symptoms.html), melanomu ayırt etmek için ABCDE kuralını ve "çirkin ördek yavrusu" işaretini kullanır. Aşağıdakilerden biri varsa leke bir hekim tarafından değerlendirilmelidir:
 

@@ -121,7 +121,7 @@ Bu yüzden saç dökülmesi yaşayan birinin "belki selenyum eksiktir" diye kend
 
 Selenyum tiroid bezinde yoğun bulunur ve tiroid hormonlarının etkin biçime dönüşmesinde görev alır. Bu yüzden Hashimoto tiroiditinde sık konuşulur. [Linus Pauling Enstitüsü'nün](https://lpi.oregonstate.edu/mic/minerals/selenium) aktardığı dört çalışmalık Cochrane derlemesine göre levotiroksinle birlikte selenyum verilen çalışmaların çoğunda tiroid antikorları düşmüş, ancak hiçbirinde ilaç dozunu azaltmayı sağlayacak bir belirti düzelmesi gösterilmemiştir. Harvard'ın aktardığı dokuz çalışmalık bir meta-analizde de tiroid hormon işlevinde değişiklik bulunmamıştır. Antikor değerindeki düşüşün kişinin günlük yaşamına ne kattığı henüz belirsizdir; çalışmaların nasıl okunacağını [sağlık araştırmalarını okuma rehberimizde](/blog/saglik-arastirmalari-nasil-okunur) anlattık.
 
-## Ne zaman değerlendirme gerekir?
+## Selenyum düzeyine ne zaman bakılmalı?
 
 Aşağıdaki durumlarda selenyum durumunun bir sağlık değerlendirmesinde ele alınması anlamlıdır:
 

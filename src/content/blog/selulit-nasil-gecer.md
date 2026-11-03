@@ -89,7 +89,7 @@ Güçlü kanıta dayanan bir "selülit programı" yoktur; ancak 2024 derlemesini
 
 Bunlar görünümü silmeyi vaat etmez; makul beklenti hafif bir fark olabileceğidir. Cihaz temelli yöntemlerin kanıt çerçevesi için [radyofrekans temelli işlemler üzerine yazımız](/blog/altin-igne) bağlam sağlar.
 
-## Ne zaman değerlendirme gerekir?
+## Selülit sanılan görünüm ne zaman başka bir şey olabilir?
 
 Aşağıdakiler varsa görünüm sıradan selülit olmayabilir ve tıbbi değerlendirme gerekir:
 

@@ -138,7 +138,7 @@ Yaşa bağlı ve genetik kayıp tamamen önlenemez, ama gürültü hasarı büy�
 - İşyerinde gürültü ve kimyasala karşı koruyucu önlemlere uymak
 - Kulak enfeksiyonlarını erken fark edip tedavi ettirmek, çocukluk aşılarını aksatmamak
 
-## Ne zaman değerlendirme gerekir?
+## İşitme kaybında ne zaman acil değerlendirme gerekir?
 
 NHS ölçütleri iki grupta toplanabilir:
 

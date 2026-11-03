@@ -121,7 +121,7 @@ Yaşam tarzı değişikliği bazı kişilerde yeterli olurken, NHS bazı kişile
 
 Bu arama genellikle yanlış anlamayla yapılır: LDL'nin yüksek olması istenen bir durum değildir. Aramanın arkasında çoğunlukla “neden yükselir?” sorusu vardır; yanıtı yukarıdaki nedenler bölümündedir. Düşük LDL'yi merak edenler için de aynı ilke geçerlidir: değerlendirme tek bir sayıyla değil, kişinin tüm tablosuyla yapılır.
 
-## Ne zaman değerlendirme gerekir?
+## LDL yüksekliği ne zaman ayrıntılı incelenmeli?
 
 - LDL 190 mg/dL ve üzerinde ise ya da değerler tekrarlayan ölçümlerde yüksek kalıyorsa.
 - Ailede genç yaşta kalp krizi, inme ya da bilinen yüksek kolesterol öyküsü varsa.

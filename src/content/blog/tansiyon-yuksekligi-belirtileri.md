@@ -121,7 +121,7 @@ Aramalarda "yüksek tansiyon ne işe yarar" ya da "yüksek tansiyonun faydaları
 
 [NHS düşük tansiyon sayfası](https://www.nhs.uk/conditions/low-blood-pressure-hypotension/) şu genel önerileri verir: yatar ya da oturur hâlden yavaş kalkmak, az ve sık yemek, daha fazla su içmek, uzun süre hareketsiz ayakta durmaktan ve çok alkolden kaçınmak. Baş dönmesi ya da bayılma tekrarlıyorsa nedeninin değerlendirilmesi gerekir. Bazı ilaçlar ve diyabet gibi hastalıklar da düşük tansiyona yol açabilir.
 
-## Ne zaman değerlendirme gerekir?
+## Tansiyon kaç olursa acil?
 
 CDC'nin sınıflamasına göre:
 

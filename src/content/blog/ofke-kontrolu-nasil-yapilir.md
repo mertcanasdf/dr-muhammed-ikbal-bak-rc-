@@ -113,7 +113,7 @@ Uyku, düzenli hareket ve stres yönetimi zemini hazırlar. Zihin ve stres üzer
 
 Öfkenin bedeli yalnızca ilişkilerde ödenmez. [Mostofsky ve arkadaşlarının 2014 meta-analizi](https://europepmc.org/article/MED/24591550), dokuz çalışmada öfke patlamasından sonraki iki saat içinde kalp krizi, inme ve ritim bozukluğu gibi olayların daha sık görüldüğünü buldu. Tek bir öfke anının riski düşüktür; ama sık tekrarlandığında küçük artışlar birikir. Bu yüzden öfkeyi yönetmek, uzun ve sağlıklı yaşamın da bir parçasıdır.
 
-## Ne zaman değerlendirme gerekir?
+## Öfke ne zaman destek gerektirir?
 
 NHS'in ölçütleriyle şu durumlarda öfkeyi bir sağlık profesyoneliyle konuşmak anlamlıdır:
 

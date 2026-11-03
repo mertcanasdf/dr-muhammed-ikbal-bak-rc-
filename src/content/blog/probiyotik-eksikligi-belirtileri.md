@@ -38,7 +38,7 @@ Pratik sonuç şudur: “Yararlı bakterim azalmış olabilir” düşüncesi, d
 
 ## Probiyotik eksikliği belirtileri nelerdir?
 
-İnternette bu başlık altında en sık gaz, karında dolgunluk ve dışkılama düzenindeki değişiklikler sıralanır. **Bunlar probiyotik eksikliğine özgü belirtiler değildir.** [NIDDK gaz rehberine göre](https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/symptoms-causes), yutulan hava ve bağırsakta sindirilmemiş karbonhidratların işlenmesi de gaz oluşturabilir. Gazın varlığı tek başına hastalık anlamına gelmez.
+İnternette bu başlık altında en sık gaz, karında dolgunluk ve dışkılama düzenindeki değişiklikler sıralanır. **Bunlar probiyotik eksikliğine özgü belirtiler değildir.** [NIDDK gaz rehberine göre](https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/symptoms-causes), yutulan hava ve bağırsakta sindirilmemiş karbonhidratların işlenmesi de gaz oluşturabilir. Gaz olması hastalık olduğunu göstermez.
 
 | Gözlem | Tek başına neyi göstermez? | Görüşmede neyi anlatabilirsiniz? |
 |---|---|---|
@@ -112,7 +112,7 @@ Görüşmeye hazırlanmak için kısa bir kayıt yeterli olabilir: yakınmanın 
 
 ### Bağırsakta probiyotik eksikliği belirtileri ile vücuttaki belirtiler farklı mı?
 
-Bu ifadeler ayrı, doğrulanmış eksiklik tablolarını tanımlamaz. Bağırsak yakınmaları da yorgunluk gibi genel şikâyetler de tek başına belirli bir mikroorganizma eksikliğini göstermez. Yakınmanın yeri, süresi ve eşlik eden belirtiler birlikte değerlendirilir.
+Bu ifadeler ayrı, doğrulanmış eksiklik tablolarını tanımlamaz. Bağırsak yakınmaları da, yorgunluk gibi genel şikâyetler de belirli bir mikroorganizmanın eksik olduğunu kanıtlamaz. Yakınmanın yeri, süresi ve eşlik eden belirtiler birlikte değerlendirilir.
 
 ### Belirti yokken her gün probiyotik almak gerekir mi?
 

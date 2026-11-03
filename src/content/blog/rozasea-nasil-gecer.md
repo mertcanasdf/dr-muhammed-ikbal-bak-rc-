@@ -149,7 +149,7 @@ Rozasealı cilt hassastır; bariyeri kolay bozulur ve ürünlere batma ile tepki
 
 Yeni bir ürünü önce kulak arkası gibi küçük bir alanda birkaç gün denemek, tüm yüzün alevlenmesini önler.
 
-## Ne zaman değerlendirme gerekir?
+## Yüzdeki kızarıklık ne zaman muayene gerektirir?
 
 - Yüzünüzde haftalardır süren kızarıklık, kolay kızarma ya da sivilceye benzeyen kabarcıklar varsa: tanı konması ve belirtiye uygun tedavinin seçilmesi için.
 - Kullandığınız tedaviye rağmen belirtiler geçmiyor ya da artıyorsa.

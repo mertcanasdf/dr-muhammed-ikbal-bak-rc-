@@ -84,7 +84,7 @@ Zerdeçal için tıbbi bir "saat" ya da "mevsim" yoktur. Yemeğin içinde olduğ
 
 Gazete ve internet köşelerinde dolaşan "kür" tarifleri genellikle zerdeçalı bal, sirke ya da sütle karıştırıp günlerce içmeyi öneriyor. Bu karışımların hiçbirinde belirli bir hastalığa karşı etkinlik gösterilmiş değildir ve miktarları standart değildir. Bir bardak sütle çay kaşığı kadar zerdeçal bir içecek olarak sorun çıkarmaz; ama günlerce, her gün, giderek artan miktarda içilen "kür" yerine yemeğe katmak çok daha öngörülebilir bir yoldur.
 
-## Ne zaman değerlendirme gerekir?
+## Zerdeçal ve kurkumin ne zaman bırakılmalı?
 
 - Sarılık, koyu idrar, belirgin yorgunluk ya da iştahsızlık görürseniz kurkumin ürününü bırakıp bir sağlık profesyoneliyle konuşun.
 - Kan sulandırıcı, diyabet ya da tansiyon ilacı gibi sürekli ilaç kullanıyorsanız, yüksek dozlu bir bitkisel ürün eklemeden önce.

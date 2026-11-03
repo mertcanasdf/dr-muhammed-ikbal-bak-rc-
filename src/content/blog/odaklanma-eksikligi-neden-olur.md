@@ -129,10 +129,10 @@ Yukarıdaki demir meta-analizinde dikkatteki iyileşme demir düzeyi normal olan
 Aşağıdakilerden biri varsa odaklanma sorunu bir değerlendirmeyi hak eder:
 
 - Birkaç haftadır sürüyor ve uyku ile gün düzeni toparlandığı halde geçmiyor
-- İşi, okulu ya da ilişkileri belirgin biçimde aksatıyor
+- Toplantıda, derste ya da araç kullanırken dikkat dağınıklığı iş veya güvenlik sorunu yaratıyor
 - Uyuşma, karıncalanma, denge sorunu, belirgin solukluk veya nefes darlığı eşlik ediyor
-- Keyif alamama, umutsuzluk ya da kontrol edilemeyen endişe var
-- Unutkanlık giderek artıyor ya da yakınlarınız fark ediyor
+- Odaklanamamaya keyifsizlik, umutsuzluk ya da susturulamayan endişe eşlik ediyor; depresyon ve kaygı dikkati doğrudan etkiler
+- Dikkat sorunu çocukluktan beri var ve iş, ev, sosyal yaşam gibi farklı ortamlarda kendini gösteriyor; bu tablo DEHB açısından ayrıca değerlendirilir
 
 Ani başlayan konfüzyon, konuşma bozukluğu, yüzde kayma ya da bir kolda güçsüzlük beklemeye gelmez; acil yardım gerektirir.
 

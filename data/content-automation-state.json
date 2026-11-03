@@ -2110,6 +2110,27 @@
       "preparedAt": "2026-11-03T10:10:26.620Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-03T10:10:29.513Z"
+    },
+    {
+      "day": "2026-11-03",
+      "slug": "kalp-hizi-degiskenligi-kac-olmali",
+      "sourceArticleSha256": "2b1ec6aad4cf59abfc93f0d3295c5a1da31f002f128b8fd6800f73e909a18acf",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kalp-hizi-degiskenligi-kac-olmali",
+        "htmlTitle": "Kalp Hızı Değişkenliği Kaç Olmalı? Normal msn Değerleri",
+        "metaDescription": "Kalp hızı değişkenliği kaç msn olmalı? Sağlıklı yetişkinlerde RMSSD ve SDNN aralıkları, yaşla değişim, saat verisini okuma ve düşük HRV'nin anlamı.",
+        "headline": "Kalp Hızı Değişkenliği Kaç Olmalı? RMSSD ve SDNN Değerleri",
+        "datePublished": "2026-11-03",
+        "dateModified": "2026-11-03",
+        "wordCount": 1380,
+        "bodyTextSha256": "9f69287320b3514f84f2c1ad5741b82fe03d32d4af3738653007fa5fb1ff6b81",
+        "htmlSha256": "ebcdd2ea3d6e81a29fc75be3f1daf62dfd160a212c410d9d8d3a0f9924d54357"
+      },
+      "commit": "f7c60198333a2559401343d0b4bc52f3a50c225f",
+      "parent": "9fbc9bce5900150aaa959e335d55c860e319e707",
+      "preparedAt": "2026-11-03T12:09:09.748Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-03T12:09:12.549Z"
     }
   ]
 }

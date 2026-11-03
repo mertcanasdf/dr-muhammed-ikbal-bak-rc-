@@ -79,7 +79,7 @@ DSÖ de ileri dönemde yakınları tanıyamama ve hareket güçlüğü gibi tabl
 
 NHS'ye göre **yaş** en önemli risk faktörüdür; 65 yaşından sonra risk her beş yılda yaklaşık iki katına çıkar. Yine de her yirmi hastadan biri 65 yaşın altındadır. Aile öyküsü ve genetik katkı vardır, ama çoğu kişide küçüktür.
 
-DSÖ, değiştirilebilir risk faktörlerini şöyle sıralar: yüksek tansiyon, diyabet, obezite, depresyon, görme ve işitme kaybı, sigara, zararlı alkol kullanımı, hareketsizlik, sosyal izolasyon, hava kirliliği ve kafa travması. Bunlar "Alzheimer'a yol açar" demek değildir; riskle ilişkili durumlardır. Örneğin tansiyonla ilgili genel bilgi için [yüksek tansiyon belirtileri](/blog/tansiyon-yuksekligi-belirtileri) yazısına bakılabilir.
+DSÖ, değiştirilebilir risk faktörlerini şöyle sıralar: yüksek tansiyon, diyabet, obezite, depresyon, görme ve [işitme kaybı](/blog/isitme-kaybi-neden-olur), sigara, zararlı alkol kullanımı, hareketsizlik, sosyal izolasyon, hava kirliliği ve kafa travması. Bunlar "Alzheimer'a yol açar" demek değildir; riskle ilişkili durumlardır. Örneğin tansiyonla ilgili genel bilgi için [yüksek tansiyon belirtileri](/blog/tansiyon-yuksekligi-belirtileri) yazısına bakılabilir.
 
 ## Alzheimer'ın tedavisi var mı?
 

@@ -2131,6 +2131,27 @@
       "preparedAt": "2026-11-03T12:09:09.748Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-03T12:09:12.549Z"
+    },
+    {
+      "day": "2026-11-03",
+      "slug": "isitme-kaybi-neden-olur",
+      "sourceArticleSha256": "f79949d93f2f6a79dc039a110c3208e59a54f2432d109353f1f5e316f854bbbd",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/isitme-kaybi-neden-olur",
+        "htmlTitle": "İşitme Kaybı Neden Olur? Belirtileri ve Tedavisi",
+        "metaDescription": "İşitme kaybı neden olur, nasıl fark edilir? Yaş, gürültü, kulak kiri ve enfeksiyon gibi nedenler, ani işitme kaybında acil durum ve tedavi seçenekleri.",
+        "headline": "İşitme Kaybı Neden Olur? Belirtiler, Türler ve Tedavi Seçenekleri",
+        "datePublished": "2026-11-03",
+        "dateModified": "2026-11-03",
+        "wordCount": 1593,
+        "bodyTextSha256": "25e2d63a9b1d27c3b9def81437c0137d7937b724e05795f235bd66d50b80b4db",
+        "htmlSha256": "69b565e375c8f3bcf03fedce48e92d749fc696a565e3b1d897b5e771956c1d11"
+      },
+      "commit": "bd8e34925300be872614b2ae847cea3282fa382a",
+      "parent": "f7c60198333a2559401343d0b4bc52f3a50c225f",
+      "preparedAt": "2026-11-03T14:10:10.217Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-03T14:10:13.319Z"
     }
   ]
 }

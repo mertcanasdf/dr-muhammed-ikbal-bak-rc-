@@ -81,7 +81,7 @@ AAD'nin genel önerileri şunlardır:
 
 - Bulunabilecek en hafif formülle başlamak; ilk haftalarda her gece yerine gün aşırı kullanıp sıklığı yavaş artırmak.
 - Nemlendirici kullanmak. AAD, tahrişin özellikle koyu tenlerde koyu lekeler bırakabileceğini ve yavaş başlamanın bu riski azalttığını belirtir.
-- Belirgin kızarıklığı, iltihabı ya da gülü (rozasea) olan ciltte retinoidden kaçınmak; alerjik ve çok kuru ciltlerin de iyi aday olmadığını bilmek.
+- Belirgin kızarıklığı, iltihabı ya da gülü ([rozasea](/blog/rozasea-nasil-gecer)) olan ciltte retinoidden kaçınmak; alerjik ve çok kuru ciltlerin de iyi aday olmadığını bilmek.
 
 MedlinePlus, tretinoin kullanırken yüksek alkollü, mentollü ya da parfümlü ürünlerin, tüy dökücülerin ve aynı bölgeye sürülen salisilik asit veya benzoil peroksit gibi kurutucu ürünlerin tahrişi artırabileceğini belirtir. Rüzgâr ve soğuk da tahriş edilmiş cildi zorlayabilir. Ürünü göz kapaklarına, burun kenarlarına ve dudak köşelerine taşırmamak bu bölgelerdeki yanmayı azaltır.
 

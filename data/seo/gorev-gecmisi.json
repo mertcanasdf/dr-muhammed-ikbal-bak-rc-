@@ -804,5 +804,25 @@
     "topic": "ketojenik diyet nedir",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-03",
+    "type": "yazi-genisletme",
+    "slug": "sosyal-baglanti-ve-uzun-omur",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-03",
+    "type": "sorgu-optimizasyonu",
+    "slug": "egzersiz-gunlugu-nasil-tutulur",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-03",
+    "type": "yeni-yazi",
+    "slug": "rozasea-nasil-gecer",
+    "topic": "rozasea nasıl geçer",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

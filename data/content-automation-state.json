@@ -2031,8 +2031,36 @@
       "commit": "4dc38534b9d71f7b8ac305b847b9e5aaa6a09549",
       "parent": "19fa7447bda5f10eaa6251e74c71452f8d3e6244",
       "preparedAt": "2026-11-02T14:11:16.227Z",
+      "status": "live_verified",
+      "pushedAt": "2026-11-02T14:11:19.316Z",
+      "liveVerifiedAt": "2026-11-03T06:15:36.382Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-11-03",
+      "slug": "rozasea-nasil-gecer",
+      "sourceArticleSha256": "ad5a0dd2aec1318ce3e357a4411d36b3f01f7b012dacaa5ca1531bd88570fa78",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/rozasea-nasil-gecer",
+        "htmlTitle": "Rozasea Nasıl Geçer? Belirtileri ve Tedavi Seçenekleri",
+        "metaDescription": "Rozasea nasıl geçer, kalıcı olarak iyileşir mi? Belirtileri, akneden farkı, tetikleyicileri, tedavi seçenekleri ve göz belirtilerinde neye dikkat edilir.",
+        "headline": "Rozasea Nasıl Geçer? Belirtileri, Tetikleyicileri ve Tedavisi",
+        "datePublished": "2026-11-03",
+        "dateModified": "2026-11-03",
+        "wordCount": 1409,
+        "bodyTextSha256": "5816280c0363c4979b15c70cad580d1ebce18ccffb6539bd55f51ff34adcb4a8",
+        "htmlSha256": "ee58e81a30359297dab21efa8cb0664f78ade8ee24a90b3c51c985b033085842"
+      },
+      "commit": "217c517cba253b1548d9c3d0f12b9911c242aeff",
+      "parent": "4dc38534b9d71f7b8ac305b847b9e5aaa6a09549",
+      "preparedAt": "2026-11-03T06:15:07.757Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-11-02T14:11:19.316Z"
+      "pushedAt": "2026-11-03T06:15:10.880Z"
     }
   ]
 }

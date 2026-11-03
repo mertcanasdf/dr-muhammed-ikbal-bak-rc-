@@ -39,7 +39,7 @@ Testosteron, büyük kısmı testislerde üretilen ve beyindeki hipofiz bezinin 
 
 ### Yaşla testosteron ne kadar düşer?
 
-[NHS](https://www.nhs.uk/conditions/male-menopause/), testosteronun 30–40 yaşından sonra yılda yaklaşık yüzde 1 azaldığını ve bu yavaş değişimin tek başına sorun yaratmasının beklenmediğini belirtir. Medyada "erkek menopozu" ya da "andropoz" denen tablo, kadınlardaki gibi ani bir hormon düşüşü değildir. Orta yaşta görülen yorgunluk ve isteksizliğin büyük kısmı stres, depresyon, kötü uyku, hareketsizlik ve alkol gibi nedenlerden kaynaklanır. Geç başlangıçlı hipogonadizm ise daha az görülür ve özellikle obezite ya da tip 2 diyabeti olan erkeklerde ortaya çıkar.
+[NHS](https://www.nhs.uk/conditions/male-menopause/), testosteronun 30–40 yaşından sonra yılda yaklaşık yüzde 1 azaldığını ve bu yavaş değişimin tek başına sorun yaratmasının beklenmediğini belirtir. Medyada "erkek menopozu" ya da "andropoz" denen tablo, kadınlardaki gibi ani bir hormon düşüşü değildir; seyrini [andropoz ne zaman biter](/blog/andropoz-ne-zaman-biter) yazısında ayrıca anlattık. Orta yaşta görülen yorgunluk ve isteksizliğin büyük kısmı stres, depresyon, kötü uyku, hareketsizlik ve alkol gibi nedenlerden kaynaklanır. Geç başlangıçlı hipogonadizm ise daha az görülür ve özellikle obezite ya da tip 2 diyabeti olan erkeklerde ortaya çıkar.
 
 ## Testosteron eksikliği belirtileri
 

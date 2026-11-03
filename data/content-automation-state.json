@@ -2059,8 +2059,36 @@
       "commit": "217c517cba253b1548d9c3d0f12b9911c242aeff",
       "parent": "4dc38534b9d71f7b8ac305b847b9e5aaa6a09549",
       "preparedAt": "2026-11-03T06:15:07.757Z",
+      "status": "live_verified",
+      "pushedAt": "2026-11-03T06:15:10.880Z",
+      "liveVerifiedAt": "2026-11-03T08:09:09.480Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-11-03",
+      "slug": "andropoz-ne-zaman-biter",
+      "sourceArticleSha256": "786eb5f015d3a44cadc7e3b73cb512b6db49b3599d4f3a2dda73ea783e2f8c45",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/andropoz-ne-zaman-biter",
+        "htmlTitle": "Andropoz Ne Zaman Biter? Erkeklerde Belirtiler ve Seyir",
+        "metaDescription": "Andropoz ne zaman biter, nasıl anlaşılır? Yaşla testosteron düşüşünün seyri, belirtilerin gerçek nedenleri, tanı tahlili ve neyin geri döndürülebildiği.",
+        "headline": "Andropoz Ne Zaman Biter? Erkeklerde Andropoz Belirtileri ve Seyri",
+        "datePublished": "2026-11-03",
+        "dateModified": "2026-11-03",
+        "wordCount": 1328,
+        "bodyTextSha256": "e85d8aa43209af789e4df0f3b90dd8374a42ffea6af51a15c77ebc6805e72731",
+        "htmlSha256": "0183dd2ee98ff1d6ea31016bbc5a5117214486cc20f0db86b10494b98518dd89"
+      },
+      "commit": "258741e385769d9ca2a93e597da777ecbadf93cb",
+      "parent": "217c517cba253b1548d9c3d0f12b9911c242aeff",
+      "preparedAt": "2026-11-03T08:08:57.069Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-11-03T06:15:10.880Z"
+      "pushedAt": "2026-11-03T08:08:59.724Z"
     }
   ]
 }

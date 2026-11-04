@@ -2192,8 +2192,36 @@
       "commit": "1e92a15a2e0570d284131efdccaed2e8a86d569f",
       "parent": "01dd9c86635c015cbde9df076b0e48b1e46a09a0",
       "preparedAt": "2026-11-04T08:10:12.757Z",
+      "status": "live_verified",
+      "pushedAt": "2026-11-04T08:10:15.688Z",
+      "liveVerifiedAt": "2026-11-04T10:12:09.744Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-11-04",
+      "slug": "pilates-faydalari-ve-zararlari",
+      "sourceArticleSha256": "ffbbb1c0653b4bb117277a4c91162f5144531df100f28091793f6e19424ee39f",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/pilates-faydalari-ve-zararlari",
+        "htmlTitle": "Pilates Faydaları ve Zararları: Kanıtlar ve Riskler",
+        "metaDescription": "Pilatesin faydaları ve zararları araştırmalarda ne kadar destekleniyor? Bel ağrısı, denge, kilo ve ruh hâline etkisini, riskli hareketleri ve başlangıcı görün.",
+        "headline": "Pilates Faydaları ve Zararları: Kanıtlar Ne Diyor, Kimler Dikkat Etmeli?",
+        "datePublished": "2026-11-04",
+        "dateModified": "2026-11-04",
+        "wordCount": 1415,
+        "bodyTextSha256": "df0beb470389129bbcac4a8e15667fe895b1efa84fa97994c6495cbd2661d084",
+        "htmlSha256": "88841c84c80e65a23cf4c7036959079d5bd6acf12250e8aa6b8676268867b859"
+      },
+      "commit": "19a4ab926df5a2799bdd641ee72d02067dc7c354",
+      "parent": "1e92a15a2e0570d284131efdccaed2e8a86d569f",
+      "preparedAt": "2026-11-04T10:11:39.635Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-11-04T08:10:15.688Z"
+      "pushedAt": "2026-11-04T10:11:59.462Z"
     }
   ]
 }

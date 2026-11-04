@@ -85,7 +85,7 @@ Aşağıdakiler genel bilgidir; bir tedavi ya da egzersiz programı değildir. �
 
 1. **Hareketli kalın.** NHS günlük aktivitelere devam etmeyi ve uzun süre yatakta kalmaktan kaçınmayı önerir. MedlinePlus, bir ya da iki günden fazla yatak istirahatinin ağrıyı kötüleştirebileceğini belirtir.
 2. **Isı kullanın.** ACP kılavuzu, akut ve subakut bel ağrısında yüzeyel ısıyı orta düzey kanıtla önerilen yöntemler arasında sayar. NHS ise kas spazmı ve sertlik için ısı paketi ya da sıcak su şişesini, ağrı ve şişlik için havluya sarılı buz paketini anlatır.
-3. **Hafif egzersiz ve esneme yapın.** NHS yürüyüş, yüzme, yoga ve pilatesi örnek verir; ağrı artıyorsa durmayı söyler. Yürüyüş için [günlük yürüyüş rehberimize](/blog/gunluk-yuruyus-sagligi) bakabilirsiniz.
+3. **Hafif egzersiz ve esneme yapın.** NHS yürüyüş, yüzme, yoga ve pilatesi örnek verir ([pilatesin faydaları ve zararları yazısında](/blog/pilates-faydalari-ve-zararlari) kanıtları özetledik); ağrı artıyorsa durmayı söyler. Yürüyüş için [günlük yürüyüş rehberimize](/blog/gunluk-yuruyus-sagligi) bakabilirsiniz.
 4. **Ağrı kesicilerde dikkatli olun.** ACP, ilaç isteniyorsa steroid olmayan antiinflamatuvarların ya da kas gevşeticilerin düşünülebileceğini belirtir. NHS, bunların herkese uygun olmadığını ve emin olunmadığında eczacı ya da hekime sorulmasını söyler. WHO ise ağrı kesicilerin ilk seçenek olmaması gerektiğini ve ilaç dışı yöntemlerin öncelikli olduğunu vurgular.
 
 Bu dört adımın ortak noktası, ağrıyı tamamen bitirmeye çalışmaktan çok günlük hareketi sürdürmektir.

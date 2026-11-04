@@ -36,7 +36,7 @@ Bu yüzden “bariyer onarma” ifadesi her zaman tek bir ürünü veya tek bir 
 
 Sabah ve akşam nazik, parfümsüz bir temizleyici kullanılabilir. Çok sıcak su, sert ovalama ve sık peeling hassasiyeti artırabilir. Temizleme sonrası nemlendiriciyi cilt hafif nemliyken uygulamak su kaybını azaltmaya yardımcı olabilir.
 
-Krem, losyon veya jel seçimi cilt tipine göre değişir. Amerikan Dermatoloji Akademisi, nemlendirici içeriklerde seramid, hyalüronik asit ve gliserin gibi bileşenlere dikkat edilebileceğini belirtir: [AAD nemlendirici seçme rehberi](https://www.aad.org/public/everyday-care/skin-care-basics/dry/pick-moisturizer).
+Krem, losyon veya jel seçimi cilt tipine göre değişir; tipinizden emin değilseniz [cilt tipimi nasıl anlarım](/blog/cilt-tipimi-nasil-anlarim) yazısındaki evde testi kullanabilirsiniz. Amerikan Dermatoloji Akademisi, nemlendirici içeriklerde seramid, hyalüronik asit ve gliserin gibi bileşenlere dikkat edilebileceğini belirtir: [AAD nemlendirici seçme rehberi](https://www.aad.org/public/everyday-care/skin-care-basics/dry/pick-moisturizer).
 
 ## Hangi alışkanlıklar sorun çıkarabilir?
 

@@ -2220,8 +2220,36 @@
       "commit": "19a4ab926df5a2799bdd641ee72d02067dc7c354",
       "parent": "1e92a15a2e0570d284131efdccaed2e8a86d569f",
       "preparedAt": "2026-11-04T10:11:39.635Z",
+      "status": "live_verified",
+      "pushedAt": "2026-11-04T10:11:59.462Z",
+      "liveVerifiedAt": "2026-11-04T12:11:32.204Z",
+      "indexNow": {
+        "status": "submitted",
+        "httpStatus": 200,
+        "urlCount": 1,
+        "note": "Kabul, indekslenme veya Google sıralaması garantisi değildir."
+      }
+    },
+    {
+      "day": "2026-11-04",
+      "slug": "cilt-tipimi-nasil-anlarim",
+      "sourceArticleSha256": "5966a9a5ca2dc281d790bddf51d895f173f70523935d9771e7cc9c88bc24ea4f",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/cilt-tipimi-nasil-anlarim",
+        "htmlTitle": "Cilt Tipimi Nasıl Anlarım? Evde 30 Dakikalık Cilt Testi",
+        "metaDescription": "Cilt tipinizi evde nasıl anlarsınız? Yıkayıp bekleme ve kâğıt testini, T-U bölgesi okumasını, kuru ile nemsiz cilt farkını ve testi yanıltanları görün.",
+        "headline": "Cilt Tipimi Nasıl Anlarım? Evde 30 Dakikalık Test ve Bölge Haritası",
+        "datePublished": "2026-11-04",
+        "dateModified": "2026-11-04",
+        "wordCount": 1373,
+        "bodyTextSha256": "0c618ba3fdd7c6c98a5ff40733992e4435ad412ae4457606a0f0df17fdd0f9cc",
+        "htmlSha256": "3823b9fe93998753ad06c77bf3cb4cb1d9cc89c00a2886ab7976daadeef36490"
+      },
+      "commit": "44598c847a0bad022399496343ffaa0b02ebb018",
+      "parent": "19a4ab926df5a2799bdd641ee72d02067dc7c354",
+      "preparedAt": "2026-11-04T12:11:08.309Z",
       "status": "pushed_waiting_manual_pull",
-      "pushedAt": "2026-11-04T10:11:59.462Z"
+      "pushedAt": "2026-11-04T12:11:11.495Z"
     }
   ]
 }

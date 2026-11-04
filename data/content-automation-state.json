@@ -2250,6 +2250,27 @@
       "preparedAt": "2026-11-04T12:11:08.309Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-04T12:11:11.495Z"
+    },
+    {
+      "day": "2026-11-04",
+      "slug": "seker-tuketiminin-zararlari",
+      "sourceArticleSha256": "4938f747dd6c25bfc652ce4d8ce0f6d4bb0fb048e56d61842cac54e930b4aa64",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/seker-tuketiminin-zararlari",
+        "htmlTitle": "Şeker Tüketiminin Zararları: Günde Ne Kadar Şeker Fazla?",
+        "metaDescription": "Şeker tüketiminin zararları neler? Serbest şekerin ne olduğunu, günlük gram sınırını, gizli şeker kaynaklarını ve tatlının ne zaman yenmesi gerektiğini öğrenin.",
+        "headline": "Şeker Tüketiminin Zararları: Günlük Sınır, Gizli Şeker ve Zamanlama",
+        "datePublished": "2026-11-04",
+        "dateModified": "2026-11-04",
+        "wordCount": 1511,
+        "bodyTextSha256": "79b7d5822414c6464b1fffac925941e9797bc7fafb20559c3de92e7dd7703951",
+        "htmlSha256": "bac3bbc3ed5458b48842f77cccb8b1e0082bcf57d561e4518c4912ccec82b9fc"
+      },
+      "commit": "d00231a4b7f8f1ab6e257fcf1c7b6ce20e80661e",
+      "parent": "44598c847a0bad022399496343ffaa0b02ebb018",
+      "preparedAt": "2026-11-04T14:11:23.385Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-04T14:11:26.620Z"
     }
   ]
 }

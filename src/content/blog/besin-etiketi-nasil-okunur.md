@@ -58,7 +58,7 @@ Bu örnekte seçim için iki ayrı soru vardır: “Ürünün aynı miktarı ne 
 
 ## Şekerler satırı ile ilave şeker aynı şey mi?
 
-Hayır. Şekerler satırı üründeki toplam şekerleri gösterir; doğal olarak bulunan şekerlerle eklenenlerin dağılımını tek başına açıklamaz. Örneğin süt içeren bir üründe laktoz bulunabilir. [NHS şeker açıklaması](https://www.nhs.uk/live-well/eat-well/food-types/how-does-sugar-in-our-diet-affect-our-health/) bu ayrımı anlatır. İçindekiler listesinde şeker, bal veya şurup görmek ise bu bileşenlerin kullanıldığına işaret eder. Listeyi okuyarak bunların kesin gram miktarını her zaman hesaplayamazsınız.
+Hayır. Şekerler satırı üründeki toplam şekerleri gösterir; doğal olarak bulunan şekerlerle eklenenlerin dağılımını tek başına açıklamaz. Örneğin süt içeren bir üründe laktoz bulunabilir. [NHS şeker açıklaması](https://www.nhs.uk/live-well/eat-well/food-types/how-does-sugar-in-our-diet-affect-our-health/) bu ayrımı anlatır. İçindekiler listesinde şeker, bal veya şurup görmek ise bu bileşenlerin kullanıldığına işaret eder; günlük serbest şeker sınırı ve fazlasının etkileri için [şeker tüketiminin zararları](/blog/seker-tuketiminin-zararlari) yazımıza bakabilirsiniz. Listeyi okuyarak bunların kesin gram miktarını her zaman hesaplayamazsınız.
 
 “İlave şeker içermez” ifadesini “hiç şeker içermez” diye yorumlamayın. [WHO sağlıklı beslenme rehberi](https://www.who.int/news-room/fact-sheets/detail/healthy-diet), bal, şuruplar ve meyve sularındaki şekerleri de serbest şeker kapsamında ele alır. “Doğal” kelimesi miktarı önemsiz hale getirmez. Ayrıca şeker, toplam karbonhidratın bir parçasıdır; iki satırı toplayarak karbonhidrat miktarını yeniden hesaplamayın.
 

@@ -68,7 +68,7 @@ HOMA-IR, açlık insülini ve glukozdan hesaplanan bir göstergedir. Bir interne
 
 ## Beslenme ve hareket planı nasıl hazırlanır?
 
-Yaşam tarzı planı kişiye uygun beslenme, fiziksel aktivite, uyku ve gerektiğinde kilo yönetimini içerir. NIDDK bu başlıkların önleme veya geciktirme planında birlikte ele alınmasını önerir. Karbonhidratı tamamen kesmek, uzun açlıklar uygulamak veya bir takviye satın almak herkes için gerekli değildir.
+Yaşam tarzı planı kişiye uygun beslenme, fiziksel aktivite, uyku ve gerektiğinde kilo yönetimini içerir. NIDDK bu başlıkların önleme veya geciktirme planında birlikte ele alınmasını önerir. Karbonhidratı tamamen kesmek, uzun açlıklar uygulamak veya bir takviye satın almak herkes için gerekli değildir. Karbonhidratı en sert kısan yaklaşımın ne olduğu ve kimlere uygun olmadığı [ketojenik diyet nedir](/blog/ketojenik-diyet-nedir) yazısında anlatılıyor.
 
 Başlangıç planını somutlaştırmak için şunları görüşmeye taşıyabilirsiniz:
 

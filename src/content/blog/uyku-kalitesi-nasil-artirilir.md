@@ -66,7 +66,7 @@ Bir gün az kafein tüketip iyi uyumak, kafeinin tek neden olduğunu kanıtlamaz
 
 - Yatağa giriş, yaklaşık uykuya dalış ve son uyanma saati.
 - Hatırladığınız gece uyanmaları ve yaklaşık süreleri.
-- Gündüz şekerlemeleri, uykululuk ve işlerinizi yaparken zorlanma.
+- Gündüz şekerlemeleri, uykululuk ve işlerinizi yaparken zorlanma; gün boyu sık esnemek de bunun bir işareti olabilir ([sık esnemenin nedenleri](/blog/esneme-nasil-gecer)).
 - Kafein, alkol, egzersiz ve kullandığınız ilaçların zamanı.
 
 Örneğin “23.30'da yatağa girdim, 00.15 civarı uyudum, 07.00'de kalktım” kaydı, yatakta 7,5 saat bulunulduğunu fakat gece uyanmaları hariç yaklaşık 6 saat 45 dakika uyunduğunu gösterir. Bu yalnızca hesap örneğidir; bir hasta deneyimi veya tanı değildir. Hatırlamadığınız dakikaları kesinleştirmeye çalışmak yerine “yaklaşık” yazabilirsiniz.

@@ -34,7 +34,7 @@ Aralıklı oruç, belirli zaman dilimlerinde yemek yemeyi kısıtlayan ve bu dö
 
 ## Metabolik Etkileri
 
-Yemek yemediğiniz süre uzadıkça vücudunuzda kritik bir geçiş yaşanır. İlk 4-8 saatte insülin seviyeleri düşer ve karaciğer glikojen depoları azalmaya başlar. 12-14. saate gelindiğinde vücut, yağ asitlerini enerjiye dönüştürmeye başlar; bu süreçte **keton cisimcikleri** üretilir. Ketonlar yalnızca alternatif bir enerji kaynağı değil; aynı zamanda gen ekspresyonunu etkileyen sinyal molekülleridir.
+Yemek yemediğiniz süre uzadıkça vücudunuzda kritik bir geçiş yaşanır. İlk 4-8 saatte insülin seviyeleri düşer ve karaciğer glikojen depoları azalmaya başlar. 12-14. saate gelindiğinde vücut, yağ asitlerini enerjiye dönüştürmeye başlar; bu süreçte **keton cisimcikleri** üretilir. Aynı duruma açlık yerine karbonhidratı çok kısarak ulaşmayı hedefleyen yaklaşım [ketojenik diyettir](/blog/ketojenik-diyet-nedir). Ketonlar yalnızca alternatif bir enerji kaynağı değil; aynı zamanda gen ekspresyonunu etkileyen sinyal molekülleridir.
 
 - **İnsülin duyarlılığı:** Bazı çalışmalarda insülin duyarlılığı ve kan şekeri kontrolü iyileşmiştir.
 - **İltihap belirteçleri:** CRP gibi belirteçlerde azalma bildiren çalışmalar vardır; sonuçlar tutarlı değildir.

@@ -57,7 +57,7 @@ Bu sorunun cevabının bir kısmı randomize çalışmalardan geliyor. Avustraly
 
 ## Cilt tipine göre seçim
 
-Yağlı veya akneye eğilimli ciltlerde hafif, gözenekleri tıkamayan ürünler daha rahat olabilir. Kuru veya hassas ciltlerde parfümsüz krem formu tercih edilebilir. Gözlerde yanma yapan ürün değiştirilebilir; ancak sürekli tahriş veya alerji varsa dermatoloji desteği gerekir.
+Yağlı veya akneye eğilimli ciltlerde hafif, gözenekleri tıkamayan ürünler daha rahat olabilir. Kuru veya hassas ciltlerde parfümsüz krem formu tercih edilebilir. Cildinizin hangi tipte olduğundan emin değilseniz önce [cilt tipimi nasıl anlarım](/blog/cilt-tipimi-nasil-anlarim) yazısındaki basit testlere bakabilirsiniz. Gözlerde yanma yapan ürün değiştirilebilir; ancak sürekli tahriş veya alerji varsa dermatoloji desteği gerekir.
 
 Retinoid veya peeling kullanan kişiler güneşten korunmaya daha fazla dikkat etmelidir. Ürünün ciltte yeni leke veya ben değişikliğini maskelemediği unutulmamalıdır.
 

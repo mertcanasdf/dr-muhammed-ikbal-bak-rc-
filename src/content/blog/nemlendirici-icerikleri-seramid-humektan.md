@@ -52,7 +52,7 @@ Seramidler lipit yapısındaki bileşenlerdir; AAD nemlendirici seçerken serami
 
 ## Krem, losyon, jel ve merhem aynı şey mi?
 
-AAD, jel ve losyonların genellikle daha hafif, kremlerin daha yoğun, merhemlerin ise en yoğun yapıda olduğunu belirtir. Bunlar başlangıç işaretleridir; ürün adı dokunun bütün ayrıntılarını anlatmaz. Kuru cilt için daha yoğun seçenekler gündeme gelebilir, fakat kişiye uygun seçim kuruluğun derecesi ve toleransla bağlantılıdır. [AAD'nin nemlendirici seçimi açıklaması](https://www.aad.org/public/everyday-care/skin-care-basics/dry/pick-moisturizer) bu farkları özetler.
+AAD, jel ve losyonların genellikle daha hafif, kremlerin daha yoğun, merhemlerin ise en yoğun yapıda olduğunu belirtir. Bunlar başlangıç işaretleridir; ürün adı dokunun bütün ayrıntılarını anlatmaz. Kuru cilt için daha yoğun seçenekler gündeme gelebilir, fakat kişiye uygun seçim kuruluğun derecesi ve toleransla bağlantılıdır. Cildinizin kuru, yağlı, karma ya da hassas olduğunu nasıl anlayacağınız [cilt tipimi nasıl anlarım](/blog/cilt-tipimi-nasil-anlarim) yazısında. [AAD'nin nemlendirici seçimi açıklaması](https://www.aad.org/public/everyday-care/skin-care-basics/dry/pick-moisturizer) bu farkları özetler.
 
 Ürün karşılaştırırken küçük bir not tablosu oluşturabilirsiniz:
 

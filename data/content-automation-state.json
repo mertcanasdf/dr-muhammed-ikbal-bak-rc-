@@ -2173,6 +2173,27 @@
       "preparedAt": "2026-11-04T06:15:55.490Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-04T06:15:58.643Z"
+    },
+    {
+      "day": "2026-11-04",
+      "slug": "nabiz-neden-yukselir",
+      "sourceArticleSha256": "890171f8617c07421cf49a279d4cf5d8c9c964568849b274c86f63ac4a7e1a11",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/nabiz-neden-yukselir",
+        "htmlTitle": "Nabız Neden Yükselir? Yüksek Nabız Belirtileri",
+        "metaDescription": "Nabız neden yükselir, ne zaman normaldir? Yüksek nabız belirtilerini, zararlarını, düşük nabzın ne zaman sorun olduğunu ve acil işaretleri görün.",
+        "headline": "Nabız Neden Yükselir? Belirtiler, Zararlar ve Düşük Nabız",
+        "datePublished": "2026-11-04",
+        "dateModified": "2026-11-04",
+        "wordCount": 1502,
+        "bodyTextSha256": "4259775bfe43264cc3cb1d72b1025bb1c248ed2e6c7e2c02260f1067b184732e",
+        "htmlSha256": "b55895a418fea64a7bf34fd3d3f0938c3208f98318a5cc44646d8044aa59900b"
+      },
+      "commit": "1e92a15a2e0570d284131efdccaed2e8a86d569f",
+      "parent": "01dd9c86635c015cbde9df076b0e48b1e46a09a0",
+      "preparedAt": "2026-11-04T08:10:12.757Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-04T08:10:15.688Z"
     }
   ]
 }

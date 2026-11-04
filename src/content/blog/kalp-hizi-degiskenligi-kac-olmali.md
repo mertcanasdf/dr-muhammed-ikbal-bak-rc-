@@ -72,7 +72,7 @@ Pratikte bunun anlamı şu: 30 yaşındaki biri için düşük sayılabilecek bi
 
 Aynı kişide HRV gün içinde ve günden güne belirgin biçimde oynar. Shaffer ve Ginsberg'in derlemesine göre başlıca etkenler şunlardır:
 
-- **Kalp hızı:** Nabız yükseldikçe atımlar arası süre kısalır ve değişkenlik azalır. Hızlı bir nabızla ölçülen düşük HRV kısmen bu matematikten kaynaklanır.
+- **Kalp hızı:** Nabız yükseldikçe atımlar arası süre kısalır ve değişkenlik azalır. Hızlı bir nabızla ölçülen düşük HRV kısmen bu matematikten kaynaklanır. Nabzı dinlenirken bile yükselten etkenleri [nabız neden yükselir yazısında](/blog/nabiz-neden-yukselir) ayrıca ele aldık.
 - **Nefes:** Yavaş ve derin nefes, nefesle oluşan nabız dalgalanmasını büyütür. Ölçüm sırasında nefesinizi değiştirirseniz değer de değişir. Yavaş nefesin HRV'ye etkisini [nefes egzersizi rehberimizde](/blog/nefes-egzersizi-nasil-yapilir) anlattık.
 - **Pozisyon ve hareket:** Yatarak, oturarak ya da ayakta alınan değerler farklıdır; yakın zamanda yapılan egzersiz de değeri düşürür.
 - **Yaş ve cinsiyet:** Zaman ölçütleri yaşla azalır; 24 saatlik kayıtta kadınlarda SDNN biraz daha düşük bulunur.

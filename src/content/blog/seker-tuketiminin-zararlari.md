@@ -29,7 +29,7 @@ relatedArticles:
 
 Fazla şeker tüketiminin en iyi kanıtlanmış zararları **diş çürüğü, kilo artışı ve buna bağlı olarak tip 2 diyabet, kalp hastalığı ve yağlı karaciğer riskinin yükselmesidir**. Burada kastedilen meyvedeki ya da sütteki şeker değil, yiyecek ve içeceklere eklenen şekerle bal, şurup ve meyve suyundaki "serbest şeker"dir. Dünya Sağlık Örgütü bunun günlük enerjinin %10'unu, yani 2.000 kalorilik bir günde yaklaşık 50 gramı geçmemesini öneriyor.
 
-Çayın yanındaki iki kesme şeker çoğu zaman sorunun küçük kısmıdır. Günlük şekerin büyük bölümü farkında olmadan içilen ve yenen ürünlerden gelir. Aşağıda önce hangi şekerin hesaba girdiğini, sonra zararların kanıt gücünü ve pratikte nasıl azaltılacağını anlatıyoruz.
+Çayın yanındaki iki kesme şeker çoğu zaman sorunun küçük kısmıdır. Günlük şekerin büyük bölümü farkında olmadan içilen ve yenen ürünlerden gelir: meyveli yoğurt, hazır soslar, kutu içecekler.
 
 ## Şeker tüketimi nedir, hangi şeker hesaba girer?
 

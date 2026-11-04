@@ -29,7 +29,7 @@ relatedArticles:
 
 Cilt tipinizi anlamanın en basit yolu, yüzünüzü nazik bir temizleyiciyle yıkayıp kurulamak ve **hiçbir ürün sürmeden yaklaşık 30 dakika beklemektir**. Bu sürenin sonunda yüzün her yeri parlıyorsa cildiniz yağlı, gergin ve pul pul hissediyorsa kuru, yalnızca alın-burun-çene parlıyorsa karma, ne parlıyor ne geriliyorsa normaldir. Batma, yanma ya da kızarma ise yağ miktarından bağımsız olarak hassasiyete işaret eder.
 
-Sonuç bir kere bakmakla kesinleşmez; cilt mevsimle, yaşla ve kullandığınız ürünlerle değişir. Aşağıda testi adım adım, yanıltan durumlarla birlikte anlatıyoruz.
+Sonuç bir kere bakmakla kesinleşmez; cilt mevsimle, yaşla ve kullandığınız ürünlerle değişir. Yeni başladığınız bir retinoid ya da sıcak bir duş bile sonucu birkaç gün için kaydırabilir.
 
 ## Cilt tipleri nelerdir?
 

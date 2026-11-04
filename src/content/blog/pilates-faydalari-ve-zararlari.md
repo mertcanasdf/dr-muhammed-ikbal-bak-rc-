@@ -29,7 +29,7 @@ relatedArticles:
 
 Pilatesin araştırmalarla en iyi desteklenen faydaları kronik bel ağrısında ağrı ve hareket kısıtlılığının azalması, ileri yaşta dengenin iyileşmesi ve kaygı ile depresif belirtilerde hafifleme. Zararları ise hareketin kendisinden çok uygulamadan doğar: aşırı ve tekrarlı öne bükülme, hızlı tempo, kişiye uymayan yay ayarı. Kemik erimesi, gebelik ya da yakın zamanda ameliyat gibi durumlarda bazı hareketler değiştirilerek yapılır.
 
-"Pilates her şeye iyi gelir" ile "pilates beli bozar" arasında gidip gelen yorumlar, çoğu zaman aynı soruya farklı yerlerden bakıyor. Aşağıda iddiaları tek tek, arkasındaki çalışmanın büyüklüğüyle birlikte ele alıyoruz; sonra kimin neye dikkat etmesi gerektiğine geçiyoruz.
+"Pilates her şeye iyi gelir" ile "pilates beli bozar" arasında gidip gelen yorumlar, çoğu zaman aynı soruya farklı yerlerden bakıyor. İki tarafın da haklı olduğu yer, çalışmaların hangi kişilerle ve neyle kıyaslanarak yapıldığına bakınca ortaya çıkıyor.
 
 ## Pilates nedir?
 

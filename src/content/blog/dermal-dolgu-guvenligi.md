@@ -15,7 +15,7 @@ takeaways:
 relatedArticles:
   - slug: "dermal-dolgu"
     category: "Skin Longevity"
-    title: "Dermal Dolgu Uygulamaları: Yüz Kontürü, Hacim ve Bilinmesi Gerekenler"
+    title: "Dermal Dolgu Nedir? Çeşitleri, Kalıcılığı ve Uygulandığı Bölgeler"
     image: "/assets/images/generated/articles/dermal-dolgu.webp"
   - slug: "botoks-sonrasi-dikkat-edilmesi-gerekenler"
     category: "Skin Longevity"

@@ -856,5 +856,25 @@
     "topic": "işitme kaybı neden olur",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-04",
+    "type": "yazi-genisletme",
+    "slug": "nmn-nad-yaslanma",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-04",
+    "type": "yazi-genisletme",
+    "slug": "dermal-dolgu",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-04",
+    "type": "yeni-yazi",
+    "slug": "karaciger-yaglanmasi-nasil-gecer",
+    "topic": "karaciğer yağlanması nasıl geçer",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

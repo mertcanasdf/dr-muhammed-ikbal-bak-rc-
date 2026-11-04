@@ -2152,6 +2152,27 @@
       "preparedAt": "2026-11-03T14:10:10.217Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-03T14:10:13.319Z"
+    },
+    {
+      "day": "2026-11-04",
+      "slug": "karaciger-yaglanmasi-nasil-gecer",
+      "sourceArticleSha256": "8798ef40a148329a069197ce024e8fb63986d8d04ac2b515c19a2a99da5145c4",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/karaciger-yaglanmasi-nasil-gecer",
+        "htmlTitle": "Karaciğer Yağlanması Nasıl Geçer? Nedenleri, Belirtileri",
+        "metaDescription": "Karaciğer yağlanması nasıl geçer? Kaç kilo vermek gerektiğini, nedenlerini, belirtilerini, evrelerini ve hangi bulguların tehlikeli sayıldığını öğrenin.",
+        "headline": "Karaciğer Yağlanması Nasıl Geçer? Kilo, Beslenme ve Takip",
+        "datePublished": "2026-11-04",
+        "dateModified": "2026-11-04",
+        "wordCount": 1279,
+        "bodyTextSha256": "342f1bcbd1ce8ed26ac70f5562660713412e469af11978b79e3412d675b3df82",
+        "htmlSha256": "8b122170f40d45ca4e000c066f184d5b26140200ac1cff0debb96ffaefac4edd"
+      },
+      "commit": "01dd9c86635c015cbde9df076b0e48b1e46a09a0",
+      "parent": "cbcde7d2201b44ac5a9d3459bb7ed8f35ada96a7",
+      "preparedAt": "2026-11-04T06:15:55.490Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-04T06:15:58.643Z"
     }
   ]
 }

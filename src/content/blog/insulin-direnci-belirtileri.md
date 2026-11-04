@@ -31,7 +31,7 @@ relatedArticles:
 
 ## İnsülin direnci, prediyabet ve diyabet aynı şey mi?
 
-İnsülin, pankreasın ürettiği ve glukozun kullanılmasında görev alan bir hormondur. İnsülin direncinde kas, yağ ve karaciğer hücreleri insüline beklenen yanıtı daha az verir. Pankreas daha fazla insülin üreterek kan şekerini bir süre normal aralıkta tutabilir. [NIDDK'nin açıklaması](https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance) bu ayrımı vurgular:
+İnsülin, pankreasın ürettiği ve glukozun kullanılmasında görev alan bir hormondur. İnsülin direncinde kas, yağ ve karaciğer hücreleri insüline beklenen yanıtı daha az verir; bu durum karaciğerde yağ birikimiyle de sık görülür (bkz. [karaciğer yağlanması nasıl geçer](/blog/karaciger-yaglanmasi-nasil-gecer)). Pankreas daha fazla insülin üreterek kan şekerini bir süre normal aralıkta tutabilir. [NIDDK'nin açıklaması](https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance) bu ayrımı vurgular:
 
 | Kavram | Ne anlatır? |
 | --- | --- |

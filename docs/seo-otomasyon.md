@@ -4,9 +4,11 @@ Hedef: hedef sorgularda Google'da 1. sıra. Sistem üç katmanlıdır. Hepsi bu 
 
 | Katman | Kim, ne zaman | İş |
 |---|---|---|
-| 1. Yeni içerik | Claude, günde 5 çalışma: 09, 11, 13, 15, 17 (zamanlanmış görev `bakirci-gunluk-yazi`) | Veri ve trend keşfini çalıştırır; her çalışmada yükselen bir aramadan **bir yeni yazı** yazar ve yayınlar (günde 5). Codex yalnızca kapak görselini üretir (`scripts/gorsel-uret.mjs` onu çağırır); Codex'in eski yazı otomasyonu 26 Ekim'den beri duraklatıldı. |
-| 2. İyileştirme, kalite kapısı, rapor | Claude, her gün 19.30 (`bakirci-seo-gunluk-kontrol`) | Günün yazılarını claude-blog ölçütleriyle denetler; günün **iyileştirme** görevini yapar; yayınlar ve raporlar |
-| 3. Derin denetim | Claude, her Pazar 13.00 (`bakirci-seo-haftalik-denetim`) | claude-seo denetimi; bulguları `data/seo/kuyruk.json`'a iş olarak ekler |
+| 1. Yeni içerik | Claude, günde 5 çalışma: 09, 11, 13, 15, 17  | Veri ve trend keşfini çalıştırır; her çalışmada yükselen bir aramadan **bir yeni yazı** yazar ve yayınlar (günde 5). Codex yalnızca kapak görselini üretir (`scripts/gorsel-uret.mjs` onu çağırır); Codex'in eski yazı otomasyonu 26 Ekim'den beri duraklatıldı. |
+| 2. İyileştirme, kalite kapısı, rapor | Claude, her gün 19.00 | Günün yazılarını claude-blog ölçütleriyle denetler; günün **iyileştirme** görevini yapar; yayınlar ve raporlar |
+| 3. Derin denetim | Claude, her pazar 19.00 (akşam işinden önce) | claude-seo denetimi; bulguları `data/seo/kuyruk.json`'a iş olarak ekler |
+
+Üç katman da tek bir Claude zamanlanmış görevidir (`bakirci-gunluk-yazi`, 09–19 arası 2 saatte bir): saat 19'dan önce yazı, 19.00'da akşam işi, pazar 19.00'da önce haftalık denetim. Sonuçlar ana sohbete bildirilir.
 
 Görevleri `node scripts/seo/gunluk-gorev.mjs` seçer; kimse kendi seçim yapmaz. `data/seo/bugun.json` içinde `isler` listesi Codex'in işleri, `iyilestirme` alanı Claude'un görevidir.
 
@@ -28,7 +30,7 @@ Günde beş yazı kaliteden ödün vermek değildir. Google'ın ölçekli içeri
    - kaynak bağlantılarını kontrol eder (Pazar ya da 7 günde bir);
    - iki görevi `data/seo/bugun.json` dosyasına yazar.
 2. Codex kendi görevini yapar; kapılardan geçer: `node scripts/sync-related.mjs`, ardından `scripts/publish-content.mjs --article <slug> … --dry-run` ve `npm test`. Kapılar geçerse aynı komut `--publish` ile çalıştırılır. Önceki yayınların canlı durumu `--retry-live` ile kontrol edilir; canlı doğrulanan adresler IndexNow'a bildirilir.
-3. Claude 19.30'da günün yazılarını denetler, `iyilestirme` görevini yapar, `npm run verify` ve `npm test` sonrası `scripts/seo/mib-yayinla.mjs` ile yayınlar ve kaynağı `sprint-1`'e commit'ler.
+3. Claude 19.00'da günün yazılarını denetler, `iyilestirme` görevini yapar, `npm run verify` ve `npm test` sonrası `scripts/seo/mib-yayinla.mjs` ile yayınlar ve kaynağı `sprint-1`'e commit'ler.
 
 Aynı gün betik tekrar çalışırsa aynı görevleri döndürür (`--yeniden` yeniden seçer). Yayın betiği günde en fazla 6 içerik yayınına izin verir (5 yeni yazı + 1 teknik düzeltme).
 
@@ -154,7 +156,7 @@ Anahtar yoksa betik "atlandı" der. Otomasyon çalışmaya devam eder, yalnızca
 | `data/seo/gorev-gecmisi.json` | Hangi gün hangi görev, hangi yazı | ✔ |
 | `data/seo/*.json` (diğerleri) | Search Console verisi ve önbellekler | ✘ (repo herkese açık) |
 
-## Claude kalite kapısı (her gün 19.30)
+## Claude kalite kapısı (her gün 19.00)
 
 Codex'in o günkü değişikliği yayından önce değil, **yayından sonra** denetlenir. Sunucu yeni sürümü 15 dakika içinde çeker; sorun bulunursa düzeltme aynı gün yayınlanır.
 

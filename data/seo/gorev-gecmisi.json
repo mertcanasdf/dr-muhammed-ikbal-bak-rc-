@@ -916,5 +916,17 @@
     "topic": "şeker tüketiminin zararları",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-05",
+    "type": "ctr-iyilestirme",
+    "slug": "melatonin-zararlari",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-05",
+    "type": "ctr-iyilestirme",
+    "slug": "lif-tuketimi-gaz-siskinlik",
+    "by": "claude"
   }
 ]

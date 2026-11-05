@@ -1,8 +1,8 @@
 ---
 title: "Melatonin Zararları: Yan Etkiler ve Güvenlik Sınırları"
-seoTitle: "Melatonin Zararları: Yan Etkiler ve Güvenlik Sınırları"
+seoTitle: "Melatonin Zararları Var mı? Yan Etkiler ve İlaç Etkileşimi"
 date: 2026-10-25
-description: "Melatonin zararları neler? Gündüz uykululuğu, ilaç etkileşimleri, çocuklar ve gebelikteki belirsizlikleri; acil belirtileri kaynaklarıyla öğrenin."
+description: "Melatonin zararlı mı? Gündüz uykululuğu, baş ağrısı, ilaç ve alkol etkileşimi; çocuk ve gebelikteki belirsizlikler ve acil bulgular, NHS kaynaklı."
 category: "Uyku"
 image: "/assets/images/generated/articles/melatonin-zararlari.webp"
 readTime: "5 dk"

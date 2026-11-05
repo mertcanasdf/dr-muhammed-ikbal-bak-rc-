@@ -1,8 +1,8 @@
 ---
 title: "Lif Tüketimi Gaz ve Şişkinlik Yaparsa Nasıl İlerlenir?"
-seoTitle: "Lif Tüketimi Gaz ve Şişkinlik Yaparsa Ne Yapılmalı?"
+seoTitle: "Lifli Besinler Gaz ve Şişkinlik Yapar mı? Ne Yapılmalı?"
 date: 2026-10-06
-description: "Lif tüketimi gaz ve şişkinlik yaparsa değişimi nasıl izlersiniz? Besin ve belirti günlüğünü, kademeli yaklaşımı ve yardım belirtilerini öğrenin."
+description: "Lif bağırsak bakterilerince işlenirken gaz yapabilir. Lifi kesmeden kademeli artırmayı, besin-belirti günlüğünü ve yardım gerektiren belirtileri görün."
 category: "Beslenme"
 image: "/assets/images/generated/articles/lif-tuketimi-gaz-siskinlik.webp"
 readTime: "5 dk"

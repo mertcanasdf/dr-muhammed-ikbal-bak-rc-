@@ -928,5 +928,13 @@
     "type": "ctr-iyilestirme",
     "slug": "lif-tuketimi-gaz-siskinlik",
     "by": "claude"
+  },
+  {
+    "day": "2026-11-05",
+    "type": "yeni-yazi",
+    "slug": "uyku-pozisyonu-nasil-olmali",
+    "topic": "uyku pozisyonu nasıl olmalı",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

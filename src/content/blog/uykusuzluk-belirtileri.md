@@ -60,7 +60,7 @@ Başlangıcı kesin hatırlamıyorsanız bir olayla ilişkilendirmek daha açık
 
 Her zaman değil. [NHLBI risk etkenleri rehberi](https://www.nhlbi.nih.gov/health/insomnia/causes), vardiya ve saat değişimleri, gece ışık veya gürültü, kafein gibi maddeler ve stresin birlikte rol oynayabileceğini açıklar. Yeterince uyuyup uyuyamayacağını düşünmek ve sürekli saati izlemek de sorunu artırabilir. Bir risk etkeninin bulunması, bütün yakınmanın yalnız ondan kaynaklandığını göstermez.
 
-[NHS uykusuzluk rehberi](https://www.nhs.uk/conditions/insomnia/), ağrı, bazı ruhsal durumlar, ilaçlar ve başka uyku sorunlarının da değerlendirmede önem taşıdığını belirtir. Bu nedenle yalnız “strestendir” veya “telefon yüzünden” sonucuna atlamayın. Kullanılan ilaçları kendi başınıza kesmeyin; hangi ürünün ne zaman kullanılmaya başlandığını mevcut listeyle birlikte kaydedin.
+[NHS uykusuzluk rehberi](https://www.nhs.uk/conditions/insomnia/), ağrı, bazı ruhsal durumlar, ilaçlar ve başka uyku sorunlarının da değerlendirmede önem taşıdığını belirtir. Bu nedenle yalnız “strestendir” veya “telefon yüzünden” sonucuna atlamayın. Gece reflü ya da ağrıyla uyanılıyorsa [uyku pozisyonu](/blog/uyku-pozisyonu-nasil-olmali) da bu tablonun bir parçası olabilir. Kullanılan ilaçları kendi başınıza kesmeyin; hangi ürünün ne zaman kullanılmaya başlandığını mevcut listeyle birlikte kaydedin.
 
 Neden ararken yakınmayı artıran olaylarla sonucu ayırmak yararlıdır. Örneğin stresli bir günde hem kahve tüketimi artmış hem yatış gecikmiş olabilir. O gecenin tek kaydı hangi etkenin belirleyici olduğunu söylemez. Amaç suçlu bir alışkanlık seçmek değil, bir arada değişen koşulları anlaşılır biçimde anlatmaktır.
 

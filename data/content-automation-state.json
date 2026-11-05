@@ -2271,6 +2271,27 @@
       "preparedAt": "2026-11-04T14:11:23.385Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-04T14:11:26.620Z"
+    },
+    {
+      "day": "2026-11-05",
+      "slug": "uyku-pozisyonu-nasil-olmali",
+      "sourceArticleSha256": "f26a037aa30ba8b47e0f24bc56d2f8e636ff41600ee3269ee57977a42321954e",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/uyku-pozisyonu-nasil-olmali",
+        "htmlTitle": "Uyku Pozisyonu Nasıl Olmalı? Gebelik ve Bebekte Kurallar",
+        "metaDescription": "Uyku pozisyonu nasıl olmalı? Yan, sırtüstü ve yüzüstü yatışı; reflü ve bel ağrısında, 28. haftadan sonra gebelikte ve bebekte doğru yatışı öğrenin.",
+        "headline": "Uyku Pozisyonu Nasıl Olmalı? Yetişkin, Gebelik ve Bebek İçin Rehber",
+        "datePublished": "2026-11-05",
+        "dateModified": "2026-11-05",
+        "wordCount": 1348,
+        "bodyTextSha256": "7b06278bb1cbab02a9716ad989da1354adb964b567f283d9237f6526c04c3c0f",
+        "htmlSha256": "6433ebbcf5c134c803bcd92e9ab2eec04c58d2492a061dc06be540f15c0c312e"
+      },
+      "commit": "02b79b0dbfca18356b1f190e0b79772f4f51bb5a",
+      "parent": "954afd87fda0d7b9a0799e82a4e1f99e305704f8",
+      "preparedAt": "2026-11-05T18:01:11.391Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-05T18:01:15.182Z"
     }
   ]
 }

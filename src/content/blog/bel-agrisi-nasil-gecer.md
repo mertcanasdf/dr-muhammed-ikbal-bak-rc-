@@ -134,7 +134,7 @@ Acil olmasa da şu durumlarda nedenin ayrıca araştırılması önerilir (NHS, 
 
 **Sıcak mı soğuk mu uygulanmalı?** ACP akut ağrıda yüzeyel ısıyı destekler. NHS ısıyı sertlik ve kas spazmı, soğuğu ağrı ve şişlik için tarif eder.
 
-**Uyku ve stres bel ağrısını etkiler mi?** NIAMS, kronik kötü uykuyu, depresyonu ve kaygıyı risk etkenleri arasında sayar. [Uyku düzeni](/blog/uyku-kalitesi-nasil-artirilir) bu nedenle bütünün parçasıdır.
+**Uyku ve stres bel ağrısını etkiler mi?** NIAMS, kronik kötü uykuyu, depresyonu ve kaygıyı risk etkenleri arasında sayar. [Uyku düzeni](/blog/uyku-kalitesi-nasil-artirilir) bu nedenle bütünün parçasıdır. Sabah sertlikle uyanılıyorsa yastık ve [uyku pozisyonu](/blog/uyku-pozisyonu-nasil-olmali) da gözden geçirilebilir.
 
 ## Kaynaklar
 

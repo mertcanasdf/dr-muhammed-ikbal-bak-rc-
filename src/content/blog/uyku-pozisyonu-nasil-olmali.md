@@ -40,9 +40,8 @@ Pozisyon araştırmalarının çoğu kişinin kendi bildirimine dayanır; bu yü
 | Yan yatış | Horlama, uyku apnesi, gece reflüsü (sol yan), gebelik | Yastık yüksekliği baş ile omuz arasındaki boşluğu doldurmalı; dizler arasına yastık kalçayı hizalar |
 | Sırtüstü | Ağrısı olmayan, horlamayan kişiler | Horlama ve apneyi artırabilir; ileri gebelikte uykuya dalmak için önerilmez |
 | Yüzüstü | Kanıtla öne çıkan bir grup yok | Boyun uzun süre bir yana dönük kalır; boyun ağrısında rahatsızlık verebilir |
-| Oturur gibi dik | Kısa süreli tıkanıklık dönemleri | Sabah boyun ağrısı ve baş ağrısıyla ilişkilendirilmiştir |
 
-Bu alandaki en kapsamlı derlemelerden biri, [BMJ Open'da yayımlanan 2019 kapsam derlemesi](https://bmjopen.bmj.com/content/9/6/e027633), uyku pozisyonu ile sabah omurga yakınmaları arasındaki ilişkiye bakan çalışmaları topladı. Yan yatış genel olarak daha az uyanma ağrısı ve tutukluğuyla ilişkili çıktı; sırtüstü ve yüzüstü yatışla ilgili sonuçlar ise birbirini tutmadı. Yazarlar yalnızca dört küçük çalışma bulabildi ve neden-sonuç ilişkisi kurmak için yeterli yüksek kaliteli veri olmadığını vurguladı. Yani "yüzüstü yatmak omurgayı bozar" gibi kesin cümlelerin arkasında sağlam bir araştırma yok.
+Bu alandaki en kapsamlı derlemelerden biri, [BMJ Open'da yayımlanan 2019 kapsam derlemesi](https://bmjopen.bmj.com/content/9/6/e027633), uyku pozisyonu ile sabah omurga yakınmaları arasındaki ilişkiye bakan çalışmaları topladı. Yan yatış genel olarak daha az uyanma ağrısı ve tutukluğuyla ilişkili çıktı; sırtüstü ve yüzüstü yatışla ilgili sonuçlar ise birbirini tutmadı. Yazarlar taramada yalnızca dört çalışma bulabildi ve neden-sonuç ilişkisi kurmak için yeterli yüksek kaliteli veri olmadığını vurguladı. Yani "yüzüstü yatmak omurgayı bozar" gibi kesin cümlelerin arkasında sağlam bir araştırma yok.
 
 ## Bel ve boyun ağrısında nasıl yatılmalı?
 

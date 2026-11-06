@@ -17,7 +17,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/hareketsizlik-ve-metabolik-saglik.webp"
   - slug: "gunluk-yuruyus-sagligi"
     category: "Hareket"
-    title: "Günlük Yürüyüşün Sağlığa Etkileri: Ne Kadar Yürümeli?"
+    title: "Günde Kaç Adım Atılmalı? Yürüyüşün Faydaları ve Doğru Tempo"
     image: "/assets/images/generated/articles/gunluk-yuruyus-sagligi.webp"
   - slug: "dijital-tukenmislik"
     category: "Zihin & Sosyal Yaşam"

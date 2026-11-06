@@ -2,7 +2,7 @@
 title: "Potasyum Eksikliği Belirtileri: Neden Olur, Ne Zaman Önemlidir?"
 seoTitle: "Potasyum Eksikliği Belirtileri, Nedenleri ve Beslenme"
 date: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-06
 description: "Potasyum eksikliği belirtileri kan düzeyine göre nasıl değişir? Kusma, ishal ve idrar söktürücü gibi nedenleri, besin kaynaklarını, acil işaretleri görün."
 category: "Beslenme"
 image: "/assets/images/generated/articles/potasyum-eksikligi-belirtileri.webp"
@@ -98,7 +98,18 @@ Dünya Sağlık Örgütü de tuz azaltma önerilerinde potasyum içeren düşük
 
 ## Potasyum eksikliği nasıl giderilir?
 
-Kan testinde düşük potasyum saptanırsa tedavi, nedene ve düşüşün derecesine göre planlanır. MedlinePlus'a göre hafif durumlarda ağızdan potasyum, ağır durumlarda damardan potasyum verilir; idrar söktürücüye bağlıysa ilaç düzenlenebilir. Altta yatan neden (ishal, ilaç, hormon sorunu) çözülmeden yalnızca potasyum yerine koymak kalıcı olmaz.
+Kan testinde düşük potasyum saptanırsa tedavi, nedene ve düşüşün derecesine göre planlanır. İdrar söktürücüye bağlıysa ilaç düzenlenebilir. Altta yatan neden (ishal, ilaç, hormon sorunu) çözülmeden yalnızca potasyum yerine koymak kalıcı olmaz.
+
+### Potasyum ne zaman ve nasıl verilir?
+
+Hafif eksiklikte potasyum ağızdan verilir; MedlinePlus ve Cleveland Clinic ilk adım olarak bunu tarif eder. Cleveland Clinic'e göre damardan potasyum şu durumlarda gündeme gelir:
+
+- Kan potasyumu çok düşükse
+- Düşüklük kalp ritmini bozuyorsa
+- Ağızdan verilen potasyum işe yaramıyorsa
+- Kayıp, ağızdan yerine konabilecek miktarı aşıyorsa
+
+Damardan potasyum evde ya da kendi başına uygulanacak bir tedavi değildir. Çocuklara yönelik [Melbourne Kraliyet Çocuk Hastanesi rehberi](https://www.rch.org.au/clinicalguide/guideline_index/Hypokalaemia/) bunu yüksek riskli ilaç olarak sınıflandırır: hızlı verilmesi ya da fazla kaçması ritim bozukluğuna, hatta kalp durmasına yol açabilir. Bu yüzden damardan verilirken kalp izlemi ve tekrarlanan kan tahlilleri yapılır. Miktar ve hız hastanın durumuna göre hastanede belirlenir.
 
 Takviyeyi kendi başınıza başlatmak iyi bir fikir değildir. [NHS](https://www.nhs.uk/conditions/vitamins-and-minerals/others/), yaşlılarda böbreklerin potasyumu daha az atabildiğini ve bu yaş grubunun hekim önermedikçe potasyum takviyesi almaması gerektiğini belirtir. Fazla potasyum mide ağrısı, bulantı ve ishal yapabilir; böbrek hastalığında kandaki potasyumu tehlikeli biçimde yükseltebilir. Bazı ağrı kesiciler gibi potasyumu vücutta tutan ilaçlar da bu riski artırır.
 
@@ -155,12 +166,13 @@ Evet. Kandaki potasyumun yükselmesine hiperkalemi denir ve bu da kalp ritmini b
 
 ### Bitkilerde potasyum eksikliği belirtileri aynı şey mi?
 
-Hayır. "Bitkilerde potasyum eksikliği" tarım ve gübreleme konusudur; insan sağlığındaki hipokalemiyle bir ilgisi yoktur.
+Hayır. "Bitkilerde potasyum eksikliği" ya da potasyum gübresinin ne zaman verileceği tarım konusudur; insan sağlığındaki hipokalemiyle bir ilgisi yoktur.
 
 ## Kaynaklar
 
 - [MedlinePlus: Low blood potassium](https://medlineplus.gov/ency/article/000479.htm). ABD Ulusal Tıp Kütüphanesi.
 - [Cleveland Clinic: Hypokalemia (Low Potassium)](https://my.clevelandclinic.org/health/diseases/17740-low-potassium-levels-in-your-blood-hypokalemia).
+- [The Royal Children's Hospital Melbourne: Hypokalaemia clinical guideline](https://www.rch.org.au/clinicalguide/guideline_index/Hypokalaemia/).
 - [NHS: Vitamins and minerals, Others (Potassium)](https://www.nhs.uk/conditions/vitamins-and-minerals/others/).
 - [Harvard T.H. Chan School of Public Health: Potassium](https://nutritionsource.hsph.harvard.edu/potassium/).
 - [Aburto NJ ve ark. Effect of increased potassium intake on cardiovascular risk factors and disease: systematic review and meta-analyses. BMJ. 2013;346:f1378](https://www.bmj.com/content/346/bmj.f1378).

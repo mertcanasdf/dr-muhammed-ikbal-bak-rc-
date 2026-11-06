@@ -936,5 +936,17 @@
     "topic": "uyku pozisyonu nasıl olmalı",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-06",
+    "type": "yazi-genisletme",
+    "slug": "gunluk-yuruyus-sagligi",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-06",
+    "type": "sorgu-optimizasyonu",
+    "slug": "potasyum-eksikligi-belirtileri",
+    "by": "claude"
   }
 ]

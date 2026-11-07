@@ -2355,6 +2355,27 @@
       "preparedAt": "2026-11-07T10:14:26.761Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-07T10:14:29.571Z"
+    },
+    {
+      "day": "2026-11-07",
+      "slug": "glisemik-indeks-nedir",
+      "sourceArticleSha256": "8f419a42acfeda131fd4b478c170a61bde7bf4a055e831081a5534e672c32936",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/glisemik-indeks-nedir",
+        "htmlTitle": "Glisemik İndeks Nedir? Besin Tablosu ve Glisemik Yük",
+        "metaDescription": "Glisemik indeks nedir, ne demek? Besin değerleri tablosu, glisemik yük hesabı, yüksek değerlerin olası zararları ve ölçümün sınırları tek yazıda.",
+        "headline": "Glisemik İndeks Nedir? Besin Tablosu ve Glisemik Yük",
+        "datePublished": "2026-11-07",
+        "dateModified": "2026-11-07",
+        "wordCount": 1498,
+        "bodyTextSha256": "05e21e267df8a8d8cf12c5750c681cf146c4c132a3d1a59c4aa4c54474ff4639",
+        "htmlSha256": "015340708ce876cc3ec35eeb513c61f290cb88b49bd0a4dcb3218f21f78bbae0"
+      },
+      "commit": "f985fcd4c9c64d3e48e99c2b6bdc829515080935",
+      "parent": "925acfa1be8af80d357768670f413f5e436c7052",
+      "preparedAt": "2026-11-07T12:16:18.703Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-07T12:16:21.552Z"
     }
   ]
 }

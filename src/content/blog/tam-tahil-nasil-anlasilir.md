@@ -68,7 +68,7 @@ Bu iki listeyle henüz enerji, tuz veya lif karşılaştırması yapmış olmad�
 
 Tam tahıllı bir bisküvi veya kahvaltılık gevrek yine de şeker, doymuş yağ veya tuz içerebilir. “Tam tahıl” ifadesini paketin tamamına sınırsız tüketim izni gibi okumayın. [WHO sağlıklı beslenme rehberi](https://www.who.int/news-room/fact-sheets/detail/healthy-diet), tam tahılları sebze, meyve ve baklagillerle birlikte daha geniş beslenme düzeninin parçası olarak ele alır.
 
-Porsiyon, hazırlama biçimi ve eşlik eden yiyecekler de önemlidir. Sade yulaf ile şekerli bir karışım aynı kullanım deneyimine sahip değildir. Sağlık değerlendirmesi tek bir ekmek türüne indirgenemez. [İnsülin direnci yazısı](/blog/insulin-direnci-belirtileri), ürün adının kişide tanı koymaya veya kan şekeri yanıtını kesin öngörmeye yetmeyeceğini tamamlayan bir çerçeve sunar.
+Porsiyon, hazırlama biçimi ve eşlik eden yiyecekler de önemlidir. Sade yulaf ile şekerli bir karışım aynı kullanım deneyimine sahip değildir. Sağlık değerlendirmesi tek bir ekmek türüne indirgenemez. Tam buğday ekmeği ile beyaz ekmeğin [glisemik indeks](/blog/glisemik-indeks-nedir) değerlerinin tablolarda birbirine yakın çıkması da bunu gösterir. [İnsülin direnci yazısı](/blog/insulin-direnci-belirtileri), ürün adının kişide tanı koymaya veya kan şekeri yanıtını kesin öngörmeye yetmeyeceğini tamamlayan bir çerçeve sunar.
 
 ## Alışveriş kontrol listesini nasıl kullanabilirsiniz?
 

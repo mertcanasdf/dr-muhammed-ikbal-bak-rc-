@@ -29,7 +29,7 @@ Baklagillerle protein planlama, bir tablodaki yüksek sayıyı öğüne doğruda
 
 ## Baklagil öğünde hangi görevi üstlenir?
 
-Mercimek, nohut, fasulye ve benzeri baklagiller protein ve lif sağlayan besinlerdir. [NHS dengeli beslenme rehberi](https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/), baklagilleri protein kaynakları arasında ele alır. Ancak mercimek çorbası, sade pişmiş mercimek ve yağlı bir hazır baklagil yemeğinin aynı gramı aynı bileşimi sağlamaz. Tarifi de bilmek gerekir.
+Mercimek, nohut, fasulye ve benzeri baklagiller protein ve lif sağlayan besinlerdir. [NHS dengeli beslenme rehberi](https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/), baklagilleri protein kaynakları arasında ele alır. Mercimek ve nohut, [glisemik indeks](/blog/glisemik-indeks-nedir) tablolarında da düşük değerli besinler arasında yer alır. Ancak mercimek çorbası, sade pişmiş mercimek ve yağlı bir hazır baklagil yemeğinin aynı gramı aynı bileşimi sağlamaz. Tarifi de bilmek gerekir.
 
 Planlamada ilk soru “Bu öğünde baklagil ana bileşen mi, küçük bir ek mi?” olabilir. Salatada birkaç kaşık nohutla, ana malzemesi nohut olan bir yemeği aynı protein katkısı olarak saymayın. Bir tabak çorbanın ağırlığının önemli kısmı sudan gelebilir. Bu nedenle yalnızca “bir kase” ifadesi, bütün tarifleri karşılaştırmak için yeterli ayrıntı sağlamaz.
 

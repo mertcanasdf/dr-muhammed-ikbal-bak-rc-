@@ -87,7 +87,7 @@ Güçlü kanıta dayanan bir "selülit programı" yoktur; ancak 2024 derlemesini
 - Hareketli yaşam: uzun süre oturmayı bölmek de [genel hareket düzeninin](/longevity/hareket) parçasıdır.
 - Cildin genel yapısı ve kollajen konusu için [kollajen kaybı yazımıza](/blog/ciltte-kollajen-kaybi) bakabilirsiniz.
 
-Bunlar görünümü silmeyi vaat etmez; makul beklenti hafif bir fark olabileceğidir. Cihaz temelli yöntemlerin kanıt çerçevesi için [radyofrekans temelli işlemler üzerine yazımız](/blog/altin-igne) bağlam sağlar.
+Bunlar görünümü silmeyi vaat etmez; makul beklenti hafif bir fark olabileceğidir. Bir bölgeyi çalıştırarak o bölgenin yağını eritme beklentisi de karşılık bulmaz; aynı yanılgıyı [gıdı yazımızda](/blog/gidi-nasil-gider) kanıtlarıyla ele aldık. Cihaz temelli yöntemlerin kanıt çerçevesi için [radyofrekans temelli işlemler üzerine yazımız](/blog/altin-igne) bağlam sağlar.
 
 ## Selülit sanılan görünüm ne zaman başka bir şey olabilir?
 

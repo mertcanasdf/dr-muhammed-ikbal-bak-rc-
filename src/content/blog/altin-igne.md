@@ -49,7 +49,7 @@ Uygulamanın oluşturduğu kontrollü ısı, dermisteki kolajen liflerinde büz�
 - **Akne ve Yara İzleri (Skarlar)**: Sistematik derlemeler, özellikle çökük akne izlerinde iyileşme sağlayabildiğini bildiriyor.
 - **Gözenekler**: Genişlemiş gözeneklerin görünümünü azaltmak amacıyla kullanılır.
 - **İnce Kırışıklıklar**: İnce çizgilerin görünümünde iyileşme hedeflenir.
-- **Hafif Sarkma**: Hafif cilt gevşekliğinde destekleyici olarak kullanılabilir; belirgin sarkmada cerrahi yöntemlerin yerini tutmaz.
+- **Hafif Sarkma**: Hafif cilt gevşekliğinde destekleyici olarak kullanılabilir; belirgin sarkmada cerrahi yöntemlerin yerini tutmaz. Çene altındaki dolgunlukta sarkma ile yağın ayrımı için [gıdı yazımıza](/blog/gidi-nasil-gider) bakılabilir.
 
 ## Olası Yan Etkiler ve Dikkat Edilecekler
 

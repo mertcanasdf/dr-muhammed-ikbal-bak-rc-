@@ -2334,6 +2334,27 @@
       "preparedAt": "2026-11-07T08:12:37.974Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-07T08:12:40.756Z"
+    },
+    {
+      "day": "2026-11-07",
+      "slug": "gidi-nasil-gider",
+      "sourceArticleSha256": "0036a7fef3ee93a0dd683cfd467a5952be5ec199a3e93aa304364e15e42773bc",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/gidi-nasil-gider",
+        "htmlTitle": "Gıdı Nasıl Gider? Evde Yöntemler ve Kanıtlar",
+        "metaDescription": "Gıdı nasıl gider? Kilo vermenin, egzersizin ve masajın gerçek etkisini, tıbbi seçeneklerin risklerini ve çene altı şişliğinin uyarı işaretlerini öğrenin.",
+        "headline": "Gıdı Nasıl Gider? Kilo, Egzersiz ve Tıbbi Seçeneklerin Kanıtı",
+        "datePublished": "2026-11-07",
+        "dateModified": "2026-11-07",
+        "wordCount": 1281,
+        "bodyTextSha256": "ac6fec4f1f9eef7c0f7a0a776cb3e5e3f8347e33ef052919288677c9845dc61f",
+        "htmlSha256": "b2306736421f077bea1736a2299c3ae2da8b41878af1984a43dd28d9e00dc9c1"
+      },
+      "commit": "925acfa1be8af80d357768670f413f5e436c7052",
+      "parent": "9a5f69aa1926625fcb5e546523a632ef208c2cf4",
+      "preparedAt": "2026-11-07T10:14:26.761Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-07T10:14:29.571Z"
     }
   ]
 }

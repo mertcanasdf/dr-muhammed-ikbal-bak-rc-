@@ -15,7 +15,7 @@ takeaways:
 relatedArticles:
   - slug: "magnezyum-eksikligi"
     category: "Beslenme"
-    title: "Magnezyum Eksikliği Belirtileri ve Magnezyum Kaynakları"
+    title: "Magnezyum Nasıl Kullanılır? Eksikliği, Belirtileri ve Kaynakları"
     image: "/assets/images/generated/articles/magnezyum-eksikligi.webp"
   - slug: "tansiyon-yuksekligi-belirtileri"
     category: "Beslenme"

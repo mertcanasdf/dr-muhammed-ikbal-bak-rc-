@@ -14,7 +14,7 @@ takeaways:
 relatedArticles:
   - slug: "baklagiller-protein-planlama"
     category: "Beslenme"
-    title: "Baklagillerle Protein Planlama: Kuru ve Pişmiş Ağırlık Rehberi"
+    title: "Baklagillerin Faydaları ve Zararları: Protein Planlama Rehberi"
     image: "/assets/images/generated/articles/baklagiller-protein-planlama.webp"
   - slug: "tam-tahil-nasil-anlasilir"
     category: "Beslenme"

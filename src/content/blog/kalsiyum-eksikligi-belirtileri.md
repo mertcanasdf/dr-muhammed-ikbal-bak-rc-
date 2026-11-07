@@ -19,7 +19,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/d3-vitamini-eksikligi.webp"
   - slug: "magnezyum-eksikligi"
     category: "Beslenme"
-    title: "Magnezyum Eksikliği Belirtileri ve Magnezyum Kaynakları"
+    title: "Magnezyum Nasıl Kullanılır? Eksikliği, Belirtileri ve Kaynakları"
     image: "/assets/images/generated/articles/magnezyum-eksikligi.webp"
   - slug: "d3-k2-birlikte-kullanilir-mi"
     category: "Beslenme"

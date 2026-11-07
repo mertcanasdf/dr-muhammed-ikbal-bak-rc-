@@ -51,7 +51,7 @@ Gıdı, çenenin altında ikinci bir kıvrım gibi görünen dolgunluktur; tıp 
 
 ### Kilo fazlası varsa
 
-Fazla kilosu olan biri için en makul yol kilo vermektir. Cleveland Clinic'in görüşüne yer verdiği sağlık ve fitness danışmanı, fazla kilonun gıdının sık nedenlerinden olduğunu söyler ve günde 1.200 kalorinin altına inmemeyi önerir. Yine de dürüst olmak gerekir: yalnız diyet ya da egzersizle çene altı yağının ne kadar azaldığını doğrudan ölçen kontrollü bir çalışma bulamadık. Beklenti, yağın vücutta genel olarak azalmasıyla çenenin de payını almasıdır. Nereden azalacağını kişi seçemez.
+Fazla kilosu olan biri için en makul yol kilo vermektir. Cleveland Clinic'in görüşüne yer verdiği sağlık ve fitness danışmanı, fazla kilonun gıdının sık nedenlerinden olduğunu söyler ve günde 1.200 kalorinin altına inmemeyi önerir. Ancak yalnız diyet ya da egzersizle çene altı yağının ne kadar azaldığını doğrudan ölçen kontrollü bir çalışma bulamadık. Beklenti, yağın vücutta genel olarak azalmasıyla çenenin de payını almasıdır. Nereden azalacağını kişi seçemez.
 
 Başlangıç için [günlük enerji ihtiyacını hesaplamak](/blog/bazal-metabolizma-nasil-hesaplanir) ve [beslenme merkezimizdeki](/longevity/beslenme) örneklere bakmak işe yarar. Kilo verirken kasın korunmasına [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) yardım eder; genel çerçeve [hareket merkezimizde](/longevity/hareket) yer alıyor.
 
@@ -79,7 +79,7 @@ Forumlarda ve güzellik sayfalarında en çok masaj, doğal maske ve ısırma al
 
 ## Gıdı ne zaman gider?
 
-Gıdının ne kadar sürede gittiğini ölçen bir çalışma bulamadık, o yüzden "kaç haftada" sorusuna dürüst bir rakam verilemez. Nedene göre beklenti şöyle özetlenebilir: kiloya bağlıysa görünüm toplam yağ azaldıkça değişir, yani süreyi kilo kaybının hızı belirler; deri gevşekliği ya da çene yapısı öndeyse ev yöntemleriyle kaybolması beklenmez. "Üç haftada" gibi süreler kanıta dayanmaz.
+Gıdının ne kadar sürede gittiğini ölçen bir çalışma bulamadık, o yüzden "kaç haftada" sorusuna güvenilir bir rakam verilemez. Nedene göre beklenti şöyle özetlenebilir: kiloya bağlıysa görünüm toplam yağ azaldıkça değişir, yani süreyi kilo kaybının hızı belirler; deri gevşekliği ya da çene yapısı öndeyse ev yöntemleriyle kaybolması beklenmez. "Üç haftada" gibi süreler kanıta dayanmaz.
 
 ## Gıdı nasıl giderilir? Tıbbi seçeneklerin kanıtı
 
@@ -89,7 +89,7 @@ Aşağıdaki tablo kişisel bir seçim rehberi olarak okunmamalı; yalnızca yay
 |---|---|---|
 | Deoksikolik asit enjeksiyonu | En çok çalışılan yöntem. [FDA etiketindeki](https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/206333s000lbl.pdf) iki randomize çalışmada en az bir derece iyileşme %66,5–70 (plaseboda %18,6–22,2); en az iki derece iyileşme %13,4–18,6 | En fazla 6 seans, en az bir ay arayla. Şişlik ve ağrı çok sık; geçici sinir zayıflığı yaklaşık %4, yutma güçlüğü %2. [Nadir ciddi olaylar](https://pmc.ncbi.nlm.nih.gov/articles/PMC11381091/) arasında deride ülser ve doku kaybı var |
 | Soğukla yağ azaltma (kriyolipoliz) | [60 kişilik çalışmada](https://pmc.ncbi.nlm.nih.gov/articles/PMC5396277/) yağ katmanı ortalama 2 mm (yaklaşık %20) inceldi; çalışma kontrolsüz ve sponsorluydu | Tüm vücut bölgelerini kapsayan [meta-analizde](https://pubmed.ncbi.nlm.nih.gov/41322038/) yağın tersine büyümesi 455 kişide 1 (kanıt kesinliği düşük) |
-| Radyofrekans ve odaklı ultrason | [Derlemedeki](https://pmc.ncbi.nlm.nih.gov/articles/PMC13286136/) 20–24 kişilik küçük çalışmalarda iyileşme bildirilmiştir | Birinde etki oranı 2. ayda %82,3 iken 7. ayda %52,9'a düşmüştür |
+| Radyofrekans ve odaklı ultrason | [Derlemedeki](https://pmc.ncbi.nlm.nih.gov/articles/PMC13286136/) 20–24 kişilik küçük çalışmalarda iyileşme bildirilmiştir | Radyofrekans çalışmasında hafiften fazla iyileşme oranı 2. ayda %82,3 iken 7. ayda %52,9'a düşmüştür |
 | Liposuction ve boyun germe | [Derleme](https://pmc.ncbi.nlm.nih.gov/articles/PMC13286136/) etkili olduğunu belirtir, ancak liposuction'ı doğrudan inceleyen yalnız 2 çalışma var | Girişimsel işlemdir; Cleveland Clinic'e göre ağrı ve morluk yaklaşık iki haftada azalır, kesiler aylarca iyileşebilir |
 
 Üç sınır önemlidir. Enjeksiyon çalışmaları fazla deri gevşekliği olmayan yetişkinlerle yapılmıştır, yani sarkma ağırlıklı gıdı için aynı sonuç varsayılamaz. Enjeksiyonlar yalnız üst yağ katmanını hedefler. Kanama bozukluğu olanlar ya da kan sulandırıcı kullananlar için derleme ayrıca dikkat ister. Cihazlı işlemlerin arka planı için [radyofrekans işlemleri yazımız](/blog/altin-igne) bağlam sağlar.

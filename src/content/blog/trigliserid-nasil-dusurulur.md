@@ -89,13 +89,13 @@ Pratik sonuç şu: tek bir "doğru diyet" yoktur. Kilo kaybını sürdürülebil
 
 ## Trigliserid neden yükselir?
 
-Yaşam tarzı en sık nedendir, ama her yüksek sonuç yemekten kaynaklanmaz. [Endocrine Society kılavuzu](https://pmc.ncbi.nlm.nih.gov/articles/PMC3431581), yüksek değer saptanan herkeste ikincil nedenlerin araştırılmasını önerir; en sık endokrin neden yeterince kontrol edilmemiş diyabettir.
+Yaşam tarzı en sık nedendir, ama her yüksek sonuç yemekten kaynaklanmaz. [Endocrine Society kılavuzu](https://pmc.ncbi.nlm.nih.gov/articles/PMC3431581), yüksek değer saptanan herkeste ikincil nedenlerin araştırılmasını önerir; kılavuz, çok yüksek değerlerin en sık tetikleyicisi olarak tedavi edilmemiş diyabeti gösterir.
 
 - **Yaşam tarzı:** Fazla kalori, şekerli besinler, alkol, hareketsizlik, sigara.
 - **Hastalıklar:** Tip 2 diyabet ve [insülin direnci](/blog/insulin-direnci-belirtileri), hipotiroidi, böbrek ve karaciğer hastalıkları.
 - **Dönemler:** [Cleveland Clinic'e göre](https://my.clevelandclinic.org/health/diseases/23942-hypertriglyceridemia) menopoz ve gebeliğin son üç ayı.
 - **İlaçlar:** Kortikosteroidler, oral östrojen, tamoksifen, tiyazid grubu idrar söktürücüler, bazı beta blokerler, retinoidler, bazı antipsikotikler ve antiretroviraller.
-- **Kalıtım:** Ailesel hipertrigliseridemi toplumun yaklaşık %5–10'unda görülür; zayıf ve hareketli kişilerde de yüksek değer bu yüzden çıkabilir.
+- **Kalıtım:** Endocrine Society kılavuzuna göre ailesel hipertrigliseridemi toplumun yaklaşık %1'ini etkiler; zayıf ve hareketli kişilerde de yüksek değer bu yüzden çıkabilir.
 
 Kullandığınız ilaç bu listede olsa bile kendi kendinize bırakmayın; değişiklik kararı ilacı yazan hekimle verilir.
 

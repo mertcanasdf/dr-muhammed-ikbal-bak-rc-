@@ -114,7 +114,7 @@ Merkezin kendi değeri bunlardan düşük olabilir, ama mantık aynıdır: bu pa
 
 ## Kemik mineral yoğunluğu nasıl arttırılır?
 
-Dürüst yanıt: yaşam tarzıyla kazanılan fark küçüktür. Asıl hedef kaybı yavaşlatmak, kası ve dengeyi koruyarak kırığı önlemektir. Reçeteli ilaç kararı ise risk değerlendirmesine göre verilir.
+Yaşam tarzıyla kazanılan fark küçüktür. Asıl hedef kaybı yavaşlatmak, kası ve dengeyi koruyarak kırığı önlemektir. Reçeteli ilaç kararı ise risk değerlendirmesine göre verilir.
 
 - **Egzersiz:** [Cochrane derlemesinde](https://www.cochrane.org/CD000333) (43 çalışma, 4.320 kadın, arama tarihi 2010) egzersiz yapanlar omurgada yaklaşık %0,85, kalçada %1,03 daha az kemik kaybetmiştir. Omurgada karma programlar, femur boynunda bacaklara yönelik yüksek kuvvetli direnç çalışması öne çıkmıştır. Kırık sayısındaki fark ise istatistiksel olarak anlamlı değildir. [19 çalışmalı bir ağ meta-analizi](https://www.frontiersin.org/articles/10.3389/fphys.2023.1105303/full) orta şiddetli, haftada üç günlük direnç çalışmasını ilk sıraya koysa da çalışmaların kalitesi sınırlıdır. Başlangıç için [direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) yazısına ve [hareket](/longevity/hareket) sayfasına bakabilirsiniz.
 - **Kalsiyum:** [50 yaş üstü yetişkinlerde 66 çalışmayı birleştiren BMJ meta-analizi](https://doi.org/10.1136/bmj.h4183), besin ya da takviyeyle artan kalsiyumun kemik yoğunluğunu yaklaşık %0,6–1,8 yükselttiğini, bu artışın zamanla büyümediğini ve kırık riskini anlamlı azaltmasının beklenmediğini bildirir. [NHS](https://www.nhs.uk/conditions/osteoporosis/prevention/) kalsiyumu besinden almayı, takviyeyi hekim önerirse kullanmayı söyler. Besin kaynakları [kalsiyum eksikliği](/blog/kalsiyum-eksikligi-belirtileri) yazısında.

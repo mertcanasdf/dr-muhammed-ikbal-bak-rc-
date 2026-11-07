@@ -2313,6 +2313,27 @@
       "preparedAt": "2026-11-07T06:16:11.671Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-07T06:16:14.531Z"
+    },
+    {
+      "day": "2026-11-07",
+      "slug": "resveratrol-nasil-kullanilir",
+      "sourceArticleSha256": "b0f148e3027c59c52edeed99c31e1e787fec0bcedfa87014395efd17e715c125",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/resveratrol-nasil-kullanilir",
+        "htmlTitle": "Resveratrol Nasıl Kullanılır? Ne İçin, Kimler Almamalı?",
+        "metaDescription": "Resveratrol nedir, nasıl kullanılır? Kapsül, shot ve serum kullanımı, insan çalışmalarının sonuçları, ilaç etkileşimleri ve kimlerin almaması gerektiği.",
+        "headline": "Resveratrol Nasıl Kullanılır? Ne İçin Kullanılır, Kimler Almamalı?",
+        "datePublished": "2026-11-07",
+        "dateModified": "2026-11-07",
+        "wordCount": 1283,
+        "bodyTextSha256": "63b069809a22430a2a8eaa1b53aa8aafe6ea611d43ccea2f6959bda5122607e8",
+        "htmlSha256": "08a67c3edb62a5cfc7f9a4b55362694dcfc8d792e8bed103aa173dba9aa6ab15"
+      },
+      "commit": "9a5f69aa1926625fcb5e546523a632ef208c2cf4",
+      "parent": "1d263c9aca98e1d305389389c51162647a1399c3",
+      "preparedAt": "2026-11-07T08:12:37.974Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-07T08:12:40.756Z"
     }
   ]
 }

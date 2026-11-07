@@ -98,7 +98,7 @@ Sabit bitiş tarihi olan bir kür değildir. Beslenme örüntüsünü anlatır; 
 
 ### Şarap içmek gerekir mi?
 
-Hayır. [Dünya Sağlık Örgütü Avrupa](https://www.who.int/europe/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health), sağlığı etkilemeyen güvenli bir alkol düzeyi bulunmadığını belirtir. Bir geleneğin tarifinde şarap bulunması, sağlık amacıyla alkole başlama gerekçesi değildir.
+Hayır. [Dünya Sağlık Örgütü Avrupa](https://www.who.int/europe/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health), sağlığı etkilemeyen güvenli bir alkol düzeyi bulunmadığını belirtir. Bir geleneğin tarifinde şarap bulunması, sağlık amacıyla alkole başlama gerekçesi değildir. Kırmızı şarapla özdeşleşen [resveratrolün](/blog/resveratrol-nasil-kullanilir) bir kadehteki miktarı da miligramın altında kalır.
 
 ### Mavi bölge diyetiyle aynı şey mi?
 

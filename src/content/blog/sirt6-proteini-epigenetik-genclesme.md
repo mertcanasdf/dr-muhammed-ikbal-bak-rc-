@@ -66,7 +66,7 @@ Kalori kısıtlaması ve aralıklı oruç, hayvan çalışmalarında sirtuin yol
 
 ### Polifenollerden Zengin Besinler
 
-Quercetin ve resveratrol gibi bileşiklerin laboratuvar çalışmalarında sirtuin aktivitesini etkileyebildiği bildirilmiştir. Bu bileşikleri sebze, meyve ve baklagillerden zengin bir beslenme içinde almak makul bir yaklaşımdır; takviye olarak SIRT6 üzerinden yaşlanmayı geri döndürdükleri gösterilmemiştir.
+Quercetin ve [resveratrol](/blog/resveratrol-nasil-kullanilir) gibi bileşiklerin laboratuvar çalışmalarında sirtuin aktivitesini etkileyebildiği bildirilmiştir. Bu bileşikleri sebze, meyve ve baklagillerden zengin bir beslenme içinde almak makul bir yaklaşımdır; takviye olarak SIRT6 üzerinden yaşlanmayı geri döndürdükleri gösterilmemiştir.
 
 ## Son Söz
 

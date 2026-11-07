@@ -2292,6 +2292,27 @@
       "preparedAt": "2026-11-05T18:01:11.391Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-05T18:01:15.182Z"
+    },
+    {
+      "day": "2026-11-07",
+      "slug": "trigliserid-nasil-dusurulur",
+      "sourceArticleSha256": "aaa0b731de2ea31f08f1051c5255510d7330002886da6b92a294655ed5bc204b",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/trigliserid-nasil-dusurulur",
+        "htmlTitle": "Trigliserid Nasıl Düşürülür? Değerler, Neden ve Beslenme",
+        "metaDescription": "Trigliserid nasıl düşürülür? Kilo, şeker, alkol ve hareketin bildirilen etkisini, normal değerleri ve hangi düzeyin riskli sayıldığını kaynaklarla görün.",
+        "headline": "Trigliserid Nasıl Düşürülür? Hangi Adım Ne Kadar Etkili?",
+        "datePublished": "2026-11-07",
+        "dateModified": "2026-11-07",
+        "wordCount": 1237,
+        "bodyTextSha256": "04e5d02307237ab9a22b9ab4224703e3c26d14cf1f0d8da3a7439fe7a22c8305",
+        "htmlSha256": "8b2d25049a5b4f0962b37b42ec7598953def0475eec4be5f9f56e42ae0dc3c36"
+      },
+      "commit": "1d263c9aca98e1d305389389c51162647a1399c3",
+      "parent": "9cb1628b73b2048d601ddcdf02bbcfd05f9b9e11",
+      "preparedAt": "2026-11-07T06:16:11.671Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-07T06:16:14.531Z"
     }
   ]
 }

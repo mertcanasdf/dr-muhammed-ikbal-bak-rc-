@@ -948,5 +948,25 @@
     "type": "sorgu-optimizasyonu",
     "slug": "potasyum-eksikligi-belirtileri",
     "by": "claude"
+  },
+  {
+    "day": "2026-11-07",
+    "type": "sorgu-optimizasyonu",
+    "slug": "magnezyum-eksikligi",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-07",
+    "type": "sorgu-optimizasyonu",
+    "slug": "baklagiller-protein-planlama",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-07",
+    "type": "yeni-yazi",
+    "slug": "trigliserid-nasil-dusurulur",
+    "topic": "trigliserid nasıl düşürülür",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

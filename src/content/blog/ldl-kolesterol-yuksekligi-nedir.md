@@ -67,7 +67,7 @@ Tek bir neden yoktur. MedlinePlus ve CDC'nin sıraladığı etkenleri iki grupta
 
 **Değiştirilebilen etkenler**
 
-- **Beslenme:** Doymuş yağ (yağlı et, tereyağı, peynir, palm ve hindistancevizi yağı gibi tropikal yağlar) ve kolesterol açısından zengin beslenme LDL'yi yükseltir.
+- **Beslenme:** Doymuş yağ (yağlı et, tereyağı, peynir, palm ve hindistancevizi yağı gibi tropikal yağlar) ve kolesterol açısından zengin beslenme LDL'yi yükseltir. Aynı tahlildeki [trigliserid değeri](/blog/trigliserid-nasil-dusurulur) ise daha çok şeker, alkol ve toplam kaloriye yanıt verir.
 - **Fazla kilo:** LDL'yi yükseltir, HDL'yi düşürür.
 - **Hareketsizlik:** Kilo alımına dolaylı yoldan katkıda bulunur.
 - **Sigara:** HDL'yi düşürür; HDL, LDL'nin damarlardan uzaklaştırılmasına yardım eden kolesteroldür.

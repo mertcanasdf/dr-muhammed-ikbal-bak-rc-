@@ -53,7 +53,7 @@ Pratik bir başlangıç, son haftayı hatırlayıp kısa bir kayıt tutmaktır: 
 
 ## Omega-3 faydaları nelerdir? Kanıt ne diyor?
 
-**Trigliserid:** EPA ve DHA'nın kandaki bu yağ türünü düşürmesi desteklenen bir etkidir. Bununla birlikte, çok yüksek trigliserid için kullanılan reçeteli omega-3 ürünleriyle markette satılan takviyeler eşdeğer değildir. İçerikleri, inceleme süreçleri ve kullanım amaçları farklı olabilir. [NCCIH'nin kanıt özeti](https://www.nccih.nih.gov/health/omega3-supplements-what-you-need-to-know) bu farkı özellikle vurgular.
+**Trigliserid:** EPA ve DHA'nın kandaki bu yağ türünü düşürmesi desteklenen bir etkidir. Bununla birlikte, çok yüksek trigliserid için kullanılan reçeteli omega-3 ürünleriyle markette satılan takviyeler eşdeğer değildir. İçerikleri, inceleme süreçleri ve kullanım amaçları farklı olabilir. [NCCIH'nin kanıt özeti](https://www.nccih.nih.gov/health/omega3-supplements-what-you-need-to-know) bu farkı özellikle vurgular. Değeri yüksek çıkan kişide ilk adımlar çoğu zaman kapsül değil, [trigliseridi düşüren](/blog/trigliserid-nasil-dusurulur) kilo, şeker ve alkol değişiklikleridir.
 
 **Kalp ve damar olayları:** Bir kan değerinin değişmesi ile kalp krizi veya ölüm riskinin azalması ayrı sonuçlardır. Araştırma yorumunda katılımcıların başlangıç riski, kullanılan ürün ve takip süresi önemlidir. Takviyeyi herkese aynı korumayı sağlayan bir ürün gibi sunmak doğru değildir. NIH ODS, yüksek kalp-damar riski bulunmayan kişilerde rutin omega-3 takviyesinin genel bir öneri olmadığını aktarır.
 

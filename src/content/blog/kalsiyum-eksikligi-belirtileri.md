@@ -90,7 +90,7 @@ Kortikosteroidler, yüksek tuz alımı, kola türü içeceklerdeki fosforik asit
 
 ## Kalsiyum eksikliği nasıl anlaşılır?
 
-Belirtiye bakarak anlaşılmaz. Kalsiyum kan testi çoğu zaman rutin biyokimya panelinin içindedir; sonuç sınırdaysa albümin ve iyonize kalsiyum, gerekirse paratiroid hormonu, D vitamini ve magnezyum eklenir. Kemik sağlığı sorusu ise ayrı bir değerlendirmedir ve kemik yoğunluğu ölçümüyle yapılır.
+Belirtiye bakarak anlaşılmaz. Kalsiyum kan testi çoğu zaman rutin biyokimya panelinin içindedir; sonuç sınırdaysa albümin ve iyonize kalsiyum, gerekirse paratiroid hormonu, D vitamini ve magnezyum eklenir. Kemik sağlığı sorusu ise ayrı bir değerlendirmedir ve [kemik yoğunluğu ölçümüyle](/blog/kemik-yogunlugu-nasil-olculur) yapılır.
 
 ## Kalsiyum eksikliği nasıl giderilir? Ne yemeli?
 

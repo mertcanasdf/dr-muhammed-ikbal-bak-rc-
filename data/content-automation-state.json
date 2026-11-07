@@ -2376,6 +2376,27 @@
       "preparedAt": "2026-11-07T12:16:18.703Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-07T12:16:21.552Z"
+    },
+    {
+      "day": "2026-11-07",
+      "slug": "kemik-yogunlugu-nasil-olculur",
+      "sourceArticleSha256": "e225baae1b8ffb45c95242b4949d8f5fde00d6d5ab28d901a5e3bb322f109d06",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kemik-yogunlugu-nasil-olculur",
+        "htmlTitle": "Kemik Yoğunluğu Nasıl Ölçülür? DEXA ve T Skoru Rehberi",
+        "metaDescription": "Kemik yoğunluğu DEXA taramasıyla ölçülür. Hazırlığı, T ve Z skorunun anlamını, kimlere yapıldığını ve iki sonucun nasıl karşılaştırıldığını görün.",
+        "headline": "Kemik Yoğunluğu Nasıl Ölçülür? DEXA, T Skoru ve Takip",
+        "datePublished": "2026-11-07",
+        "dateModified": "2026-11-07",
+        "wordCount": 1415,
+        "bodyTextSha256": "48d66d47b8569928f51139cdb88cc6f658f41c484d2fb1bc4c2f54d7bef6b140",
+        "htmlSha256": "a69cb0383036659938e568344171057c5dc124bf8b97af9fc62148c8ad4c636f"
+      },
+      "commit": "591a4629e530cc14c7b5d67dbaaf44fcaa285214",
+      "parent": "f985fcd4c9c64d3e48e99c2b6bdc829515080935",
+      "preparedAt": "2026-11-07T14:11:12.649Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-07T14:11:15.638Z"
     }
   ]
 }

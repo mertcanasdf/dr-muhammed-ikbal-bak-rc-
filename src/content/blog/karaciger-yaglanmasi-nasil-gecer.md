@@ -75,7 +75,7 @@ Ultrasondaki "1. derece, 2. derece yağlanma" ifadesi yağın miktarıyla ilgili
 Kilo fazlası varsa en güçlü kanıt kilo kaybı içindir. Avrupa kılavuzunun verdiği hedefler kalıcı kilo kaybına göredir:
 
 - **yaklaşık %5:** karaciğerdeki yağ azalır;
-- **%7–10:** karaciğerdeki iltihap gerileyebilir;
+- **%7–10:** karaciğerdeki [iltihap](/blog/inflamasyon-nasil-gecer) gerileyebilir;
 - **%10 ve üzeri:** fibrozda iyileşme görülebilir.
 
 90 kilogram gelen biri için bu, %5'te yaklaşık 4,5 kg, %10'da 9 kg demektir. [NIDDK'nin tedavi sayfası](https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment) kilonun yavaş verilmesini ister; çok hızlı kilo kaybı ve yetersiz beslenme karaciğer hastalığını kötüleştirebilir. Şok diyetler bu yüzden kestirme yol değildir.

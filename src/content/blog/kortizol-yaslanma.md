@@ -36,7 +36,7 @@ Araştırmalar, kronik yüksek kortizol düzeylerini erken ölüm, kardiyovaskü
 Kortizol, böbreküstü bezlerinden salgılanan bir glukokortikoid hormondur. Normal fizyolojik rolü şunlardır:
 
 - Stres durumunda enerji mobilizasyonu (glikojen → glikoz)
-- Bağışıklık tepkisinin kısa vadeli baskılanması (inflamasyonun akut kontrolü)
+- Bağışıklık tepkisinin kısa vadeli baskılanması ([inflamasyonun](/blog/inflamasyon-nasil-gecer) akut kontrolü)
 - Uyku-uyanıklık döngüsünün düzenlenmesi (sabah piki)
 - Kan basıncı ve kalp hızının artırılması
 

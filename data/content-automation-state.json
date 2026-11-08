@@ -2439,6 +2439,27 @@
       "preparedAt": "2026-11-08T08:13:04.666Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-08T08:13:07.492Z"
+    },
+    {
+      "day": "2026-11-08",
+      "slug": "inflamasyon-nasil-gecer",
+      "sourceArticleSha256": "da52bfcc0ab6411cd2456d7f2fec66d8e9c3dbe98bfdb31f5d9407b6abd5e4a6",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/inflamasyon-nasil-gecer",
+        "htmlTitle": "İnflamasyon Nasıl Geçer? Akut ve Kronik İltihap",
+        "metaDescription": "İnflamasyon nasıl geçer, ne kadar sürer? Akut ve kronik iltihabın farkını, CRP sonucunun anlamını, beslenme, uyku ve hareketin kanıtını öğrenin.",
+        "headline": "İnflamasyon Nasıl Geçer? Akut ve Kronik İltihapta Süreç",
+        "datePublished": "2026-11-08",
+        "dateModified": "2026-11-08",
+        "wordCount": 1262,
+        "bodyTextSha256": "86f6df7fcea2dd9030e310a5e2079058cc7c46c7a8de33ea39ef9a081310c53b",
+        "htmlSha256": "b8374c80b8211d25d7b9c5ac8ea66d3bc2053480107d34d5bf2a0ea6327dcc1f"
+      },
+      "commit": "c6f1865979fe01ae992d93998f9ab4989ca2ddc0",
+      "parent": "a3a205459b5b62da55b080ccc793b9264538ca31",
+      "preparedAt": "2026-11-08T10:10:39.355Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-08T10:10:42.297Z"
     }
   ]
 }

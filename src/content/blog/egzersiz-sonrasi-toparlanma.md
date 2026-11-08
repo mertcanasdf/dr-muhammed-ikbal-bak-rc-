@@ -42,7 +42,7 @@ Sıcak havada, uzun süren egzersizde veya yoğun terlemede elektrolit ihtiyacı
 
 Antrenman sonrasında karbonhidrat, protein ve renkli bitkisel besin içeren dengeli bir öğün pratik bir seçimdir. Kişinin toplam enerji ve protein ihtiyacı, egzersizin türüne ve hedefe göre değişir. Yalnızca “antrenman sonrası pencere” fikrine odaklanıp günlük düzeni gözden kaçırmamak gerekir.
 
-Haftalık yük hızla artırılmamalı, zor günler daha kolay günlerle dengelenmelidir. Dinlenme günü hiç hareket etmeme anlamına gelmez; hafif yürüyüş veya mobilite çalışması uygun olabilir.
+Haftalık yük hızla artırılmamalı, zor günler daha kolay günlerle dengelenmelidir. Dinlenme günü hiç hareket etmeme anlamına gelmez; hafif yürüyüş veya mobilite çalışması uygun olabilir. Antrenman sonrası soğuk uygulama merak ediliyorsa [soğuk duşun faydaları ve sınırları](/blog/soguk-dus-faydalari) ayrıca ele alınmıştır.
 
 > **Not:** Koyu idrar, bayılma, aşırı halsizlik, göğüs ağrısı veya egzersiz sonrası geçmeyen çarpıntı varsa tıbbi yardım alın. Takviye ve ağrı kesici kullanımı doktor önerisi olmadan rutin hale getirilmemelidir.
 

@@ -33,7 +33,7 @@ Gecikmeli başlangıçlı kas ağrısı, kısaca DOMS, alışılmadık veya yoğ
 
 Bir aktiviteden sonra ağrı hissetmeniz, o aktivitenin etkili olduğunun kanıtı değildir. Ağrının az olması da egzersizin işe yaramadığı sonucunu vermez. [Cleveland Clinic'in DOMS açıklaması](https://my.clevelandclinic.org/health/symptoms/delayed-onset-muscle-soreness), ağrı olmadan da verimli bir antrenman yapılabileceğini belirtir. “Daha fazla ağrı, daha iyi antrenman” düşüncesi belirtileri önemsememeye yol açabilir.
 
-Bu tanımı kendi yakınmanızı sınıflandırmak için tek başına kullanmayın. Gecikmeli başlayan ağrı başka nedenlerle de görülebilir. Toparlanmanın genel bileşenleri [egzersiz sonrası toparlanma rehberinde](/blog/egzersiz-sonrasi-toparlanma) ayrıca anlatılır.
+Bu tanımı kendi yakınmanızı sınıflandırmak için tek başına kullanmayın. Gecikmeli başlayan ağrı başka nedenlerle de görülebilir. Toparlanmanın genel bileşenleri [egzersiz sonrası toparlanma rehberinde](/blog/egzersiz-sonrasi-toparlanma) ayrıca anlatılır. Soğuk suyun gecikmeli kas ağrısına etkisi için [soğuk duş araştırmalarına](/blog/soguk-dus-faydalari) bakılabilir.
 
 ## Hangi durumda hangi yardım yönü düşünülmeli?
 

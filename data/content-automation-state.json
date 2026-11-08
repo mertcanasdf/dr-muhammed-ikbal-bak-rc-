@@ -2481,6 +2481,27 @@
       "preparedAt": "2026-11-08T12:12:20.099Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-08T12:12:22.886Z"
+    },
+    {
+      "day": "2026-11-08",
+      "slug": "soguk-dus-faydalari",
+      "sourceArticleSha256": "cf77ec48fa5e8468453f97c1cf9fe79a555a68643d07df455ae8a53c6c3f35b5",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/soguk-dus-faydalari",
+        "htmlTitle": "Soğuk Duş Faydaları ve Zararları: Kanıtlar Ne Diyor?",
+        "metaDescription": "Soğuk duş faydaları ne kadar gerçek? Stres, uyku, bağışıklık ve kas ağrısı araştırmalarını, kalp riskini ve kaç saniyenin denendiğini tek tabloda görün.",
+        "headline": "Soğuk Duşun Faydaları ve Zararları: Araştırmalar Ne Buldu?",
+        "datePublished": "2026-11-08",
+        "dateModified": "2026-11-08",
+        "wordCount": 1220,
+        "bodyTextSha256": "2385c58d47a198f470d0d4f43ee6cc1a8dd1d3df0c8329c2ec5601076a47c110",
+        "htmlSha256": "410e529f604ec9912fe82ab188f367bd96bc25fb63462614e73fe4061625459e"
+      },
+      "commit": "587d76dca381711617a87d6ae735657112430b64",
+      "parent": "146814e303f514f1e282a56cb78f6f4d36f996cc",
+      "preparedAt": "2026-11-08T14:10:39.075Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-08T14:10:41.666Z"
     }
   ]
 }

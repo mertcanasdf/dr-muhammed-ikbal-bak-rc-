@@ -2460,6 +2460,27 @@
       "preparedAt": "2026-11-08T10:10:39.355Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-08T10:10:42.297Z"
+    },
+    {
+      "day": "2026-11-08",
+      "slug": "bel-cevresi-nasil-olculur",
+      "sourceArticleSha256": "5be5aad91f6ea6711b09e53e6a776b77efa724a9ab434aaa0f732a8b59f70e21",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/bel-cevresi-nasil-olculur",
+        "htmlTitle": "Bel Çevresi Nasıl Ölçülür? Doğru Nokta ve Eşikler",
+        "metaDescription": "Bel çevresi nasıl ölçülür? Mezuranın geçeceği noktayı, sonucu bozan hataları, Türkiye eşiklerini ve bel-boy oranı hesabını örneklerle öğrenin.",
+        "headline": "Bel Çevresi Nasıl Ölçülür? Doğru Nokta, Eşikler ve Bel-Boy Oranı",
+        "datePublished": "2026-11-08",
+        "dateModified": "2026-11-08",
+        "wordCount": 1103,
+        "bodyTextSha256": "46c1b8b764ebcdd92e5e77e5d4e829e8ef684d162f1b353c50f3d0301fd70d86",
+        "htmlSha256": "70d882be31616a5ab4926feff77627f544fa15845f25f619b638f1362a96b820"
+      },
+      "commit": "146814e303f514f1e282a56cb78f6f4d36f996cc",
+      "parent": "c6f1865979fe01ae992d93998f9ab4989ca2ddc0",
+      "preparedAt": "2026-11-08T12:12:20.099Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-08T12:12:22.886Z"
     }
   ]
 }

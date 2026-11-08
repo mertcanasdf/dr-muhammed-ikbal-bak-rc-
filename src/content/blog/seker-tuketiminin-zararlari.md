@@ -133,7 +133,7 @@ Tatlıyı çok sevmek ya da şeker krizleri yaşamak diyabet anlamına gelmez. A
 - bulanık görme, geç iyileşen kesikler ve yaralar;
 - genital bölgede kaşıntı ya da tekrarlayan mantar enfeksiyonu.
 
-Bu belirtiler sinsi başlayabilir ve herkeste görülmez; ailede diyabet, bel çevresinde kilo fazlalığı ya da gebelikte şeker öyküsü olanlarda kan şekerinin belirti beklenmeden kontrol ettirilmesi daha akıllıcadır.
+Bu belirtiler sinsi başlayabilir ve herkeste görülmez; ailede diyabet, [bel çevresinde](/blog/bel-cevresi-nasil-olculur) kilo fazlalığı ya da gebelikte şeker öyküsü olanlarda kan şekerinin belirti beklenmeden kontrol ettirilmesi daha akıllıcadır.
 
 ## Sık sorulan sorular
 

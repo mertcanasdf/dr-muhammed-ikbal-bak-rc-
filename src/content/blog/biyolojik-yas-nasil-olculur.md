@@ -34,7 +34,7 @@ Bu kavram günlük yaşamda ilgi çekici olsa da tek bir sayı gibi sunulduğund
 
 ## Hangi ölçümler kullanılır?
 
-Araştırmalarda biyolojik yaşlanmayı incelemek için farklı biyobelirteçler ve işlevsel ölçümler kullanılır. Kan basıncı, bel çevresi, kan şekeri, kan lipitleri, böbrek ve karaciğer fonksiyonları klinik değerlendirmede sık kullanılan göstergelerdir. Kas gücü, yürüme hızı, denge ve aerobik kapasite de vücudun işlevsel durumuna dair önemli bilgiler verir.
+Araştırmalarda biyolojik yaşlanmayı incelemek için farklı biyobelirteçler ve işlevsel ölçümler kullanılır. Kan basıncı, [bel çevresi](/blog/bel-cevresi-nasil-olculur), kan şekeri, kan lipitleri, böbrek ve karaciğer fonksiyonları klinik değerlendirmede sık kullanılan göstergelerdir. Kas gücü, yürüme hızı, denge ve aerobik kapasite de vücudun işlevsel durumuna dair önemli bilgiler verir.
 
 Bu ölçümleri dört grupta toplamak mümkün:
 

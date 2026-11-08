@@ -83,7 +83,7 @@ Tanıda [DXA taraması](https://www.niams.nih.gov/health-topics/osteoporosis/dia
 
 Tamamen geçen bir hastalık olarak düşünülmemelidir. NHS onu uzun süreli bir durum olarak tanımlar; ilaçlar kemiklerin daha uzun süre güçlü kalmasına yardım eder. [Royal Osteoporosis Society](https://theros.org.uk/information-and-support/treatments-and-medicines/finding-the-right-osteoporosis-treatment/) açıkça söyler: hiçbir ilaç kırığı tamamen önlemez, yalnızca olasılığını düşürür. Dolayısıyla tedavinin ölçütü röntgendeki görüntü değil, gelecekteki kırık sayısıdır.
 
-Bu hedef neden önemli? Kalça kırığı olan hastaları inceleyen [229.851 hastayı kapsayan derlemede](https://pmc.ncbi.nlm.nih.gov/articles/PMC6428998/) tüm kalça kırıkları için bir yıl içindeki ölüm oranı ortalama %22 bulundu (çalışmalar arasında %2,4 ile %34,8). Yazarlar oranın eski tahminlere göre düştüğünü bildiriyor.
+Bu hedef neden önemli? [229.851 kalça kırığı hastasını kapsayan derlemede](https://pmc.ncbi.nlm.nih.gov/articles/PMC6428998/) tüm kalça kırıkları için bir yıl içindeki ölüm oranı ortalama %22 bulundu (çalışmalar arasında %2,4 ile %34,8). Yazarlar oranın eski tahminlere göre düştüğünü bildiriyor.
 
 ## Osteoporoz tedavisi: hangi seçenekler var?
 

@@ -51,7 +51,7 @@ Bu soruya verilebilecek dürüst yanıt "gösterilmedi" olur. [Buijze ve arkada�
 
 Bu tablo, insanların daha az hastalandığını değil, hastayken işe gitmeyi daha sık sürdürdüğünü düşündürüyor. Yazarların kendisi de katılımcıların durumu bilmesinin plasebo etkisini dışlamadığını, verilerin kişilerin kendi beyanına dayandığını belirtiyor. Süre uzadıkça fayda artmadı: 30 saniye ile 90 saniye arasında işe gidememe açısından fark çıkmadı.
 
-Derlemenin kan ölçümlerine dayanan analizinde de bağışıklık göstergeleri anlamlı biçimde değişmedi. Aynı analizde [inflamasyon](/blog/inflamasyon-nasil-gecer) belirteçleri suya girdikten hemen sonra ve bir saat sonra yükseldi. Araştırmacılar bu artışın sistemik iltihaptan çok metabolik bir yanıt olabileceğini yazıyor, yani "soğuk iltihabı söndürür" cümlesi de bu verilerle uyuşmuyor.
+Derlemenin kan ölçümlerine dayanan analizinde de bağışıklık göstergeleri anlamlı biçimde değişmedi. Aynı analizde [inflamasyon](/blog/inflamasyon-nasil-gecer) belirteçleri suya girdikten hemen sonra ve bir saat sonra yükseldi. Araştırmacılar hemen sonraki artışın sistemik iltihaptan çok metabolik bir yanıt olabileceğini yazıyor; bir saatlik yükselişi bu açıklamıyor. Yani "soğuk iltihabı söndürür" cümlesi de bu verilerle uyuşmuyor.
 
 ## Soğuk duş stresi azaltır mı, depresyona iyi gelir mi?
 
@@ -61,7 +61,7 @@ Ruh halinde ise soğuk ve dinlenme grupları arasında fark çıkmadı. Derleme 
 
 ## Soğuk duş uykuya iyi gelir mi?
 
-Olumlu sonuç veren tek çalışma, sıcakta beş gün antrenman yapan erkeklerde 15 dakikalık suya girmeyi denedi. Bu koşulların evde akşam alınan bir duşla ortak yanı az. Buijze denemesinde bazı katılımcılar yan etki olarak uykusuzluk da bildirdi. Uykunuz için önceliği [ışık, kafein saati ve düzenli yatış gibi temel adımlara](/blog/uyku-kalitesi-nasil-artirilir) vermek daha sağlam bir zemin sunar.
+Olumlu sonuç veren tek çalışma, sıcakta beş gün antrenman yapan erkeklerde 15 dakikalık suya girmeyi denedi. Bu koşulların evde akşam alınan bir duşla ortak yanı az. Buijze denemesinde 4 katılımcı akşam duşuyla ilişkili uykusuzluk bildirdi. Uykunuz için önceliği [ışık, kafein saati ve düzenli yatış gibi temel adımlara](/blog/uyku-kalitesi-nasil-artirilir) vermek daha sağlam bir zemin sunar.
 
 ## Spor sonrası soğuk duş kas ağrısını azaltır mı?
 

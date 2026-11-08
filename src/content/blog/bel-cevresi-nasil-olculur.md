@@ -27,7 +27,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
 ---
 
-Bel çevresi, ayakta dik dururken mezurayı çıplak cildin üzerinden, **en alt kaburga ile kalça kemiğinin üst kenarının tam ortasından** yere paralel geçirip normal bir nefes verişin sonunda okunarak ölçülür. [Sağlık Bakanlığı'nın broşürü](https://hsgm.saglik.gov.tr/depo/birimler/kronik-hastaliklar-ve-yasli-sagligi-db/Dokumanlar/Brosurler/Boy_Kilo_ve_Bel_evresi_l_m_.pdf) bu yöntemi tarif eder. Türkiye'de sonuç genellikle [TEMD kılavuzundaki](https://file.temd.org.tr/Uploads/publications/guides/documents/obezitetanitedavikilavizu-2024.pdf) kadında 90 cm, erkekte 100 cm eşiğiyle karşılaştırılır.
+Bel çevresi, ayakta dik dururken mezurayı çıplak cildin üzerinden, **en alt kaburga ile kalça kemiğinin üst kenarının tam ortasından** yere paralel geçirip normal bir nefes verişin sonunda okunarak ölçülür. [Sağlık Bakanlığı'nın broşürü](https://hsgm.saglik.gov.tr/depo/birimler/kronik-hastaliklar-ve-yasli-sagligi-db/Dokumanlar/Brosurler/Boy_Kilo_ve_Bel_evresi_l_m_.pdf) bu yöntemi tarif eder. Türkiye'de sonuç genellikle [TEMD kılavuzundaki](https://file.temd.org.tr/Uploads/publications/guides/documents/obezitetanitedavikilavizu-2024.pdf) kadında 90 cm, erkekte 100 cm eşiğiyle karşılaştırılır; TEMD bu eşiklerde ölçümü kalça kemiğinin üst kenarı hizasından tarif eder, bu yüzden hangi noktadan ölçtüğünüzü not edin.
 
 ## Bel çevresi adım adım nasıl ölçülür?
 
@@ -93,7 +93,7 @@ Bel-kalça oranı ise başka bir hesaptır: bel çevresi kalçanın en geniş ye
 
 Tartı, yağın nerede biriktiğini söylemez. Karın içindeki yağ ise [insülin direnci](/blog/insulin-direnci-belirtileri), kan yağları ve tansiyonla yakından ilişkilidir; TEMD bel çevresini karın tipi obeziteyi göstermede beden kitle indeksinden daha duyarlı bulur.
 
-Ross ve arkadaşlarının aktardığı bir analizde, aynı beden kitle indeksindeki kişilerde bel çevresindeki her 5 cm artış ölüm riskinde erkeklerde %17, kadınlarda %13 artışla ilişkiliydi. Bu bir gözlem verisidir; bel inceltmenin riski aynı oranda düşüreceğini göstermez, ama iki kişinin kilosu eşit olsa bile belin neden ayrıca ölçüldüğünü açıklar.
+Ross ve arkadaşlarının aktardığı bir analizde, aynı beden kitle indeksindeki kişilerde bel çevresindeki her 5 cm artış ölüm riskinde erkeklerde %17, kadınlarda %13 artışla ilişkiliydi. Bu bir gözlem verisidir ve bel inceltmenin etkisini ölçmez, ama iki kişinin kilosu eşit olsa bile belin neden ayrıca ölçüldüğünü açıklar.
 
 Sonuç yüksek çıktığında odak mezurayı oynatmak değil, kan şekeri, tansiyon ve kan yağlarıyla birlikte bütün tabloyu görmektir. Aynı derlemeye göre egzersiz ya da beslenme değişikliğiyle bel çevresi, tartıda düşüş olmasa bile azalabiliyor. [Direnç antrenmanı](/blog/direnc-antrenmani-yaslanma) ve [beslenme düzeni](/longevity/beslenme) bu yüzden kilodan bağımsız önem taşır. Karın bölgesinde yağ birikimi [karaciğer yağlanmasının](/blog/karaciger-yaglanmasi-nasil-gecer) da başlıca risk etkenlerindendir.
 
@@ -123,7 +123,7 @@ Karında ele gelen kitle, gaz ya da dışkı çıkaramama, kusma ve ateşle birl
 
 ### Bel çevresi aç karnına mı ölçülür?
 
-Şart değildir, ama yemek sonrası şişkinlik sonucu değiştirebilir. Takip için en pratik yol, sabah kahvaltıdan önce ve tuvalete gittikten sonra ölçmektir.
+Şart sayılmaz, ama yemek sonrası şişkinlik sonucu değiştirebilir. Takip için en pratik yol, sabah kahvaltıdan önce ve tuvalete gittikten sonra ölçmektir.
 
 ### Bel çevresi göbekten mi ölçülür?
 

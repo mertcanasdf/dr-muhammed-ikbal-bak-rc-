@@ -33,6 +33,7 @@ const citations = [...sourceSection.matchAll(/^- \[(.+?)\]\((https?:\/\/[^)\s]+)
 const articleStructuredData = {
   '@type': 'Article',
   '@id': `${articleUrl}#article`,
+  url: articleUrl,
   headline: title,
   description,
   image: [getAbsoluteUrl(image)],

@@ -39,11 +39,11 @@ Süre, en pratik ayrımı verir. [Cleveland Clinic](https://my.clevelandclinic.o
 | Subakut | Yaklaşık 2–6 hafta | Akut ile kronik arasındaki dönem | Sürecin hangi yöne gittiği izlenir |
 | Kronik | Aylar ya da yıllar, iniş çıkışlarla | Temizlenemeyen enfeksiyon, sürekli maruziyet, otoimmün hastalık, yaşam tarzı etkenleri | Altta yatan neden yönetilirse azalır; bazı hastalıklarda uzun süreli tedavi gerekir |
 
-Kronik inflamasyon için takvim vermek mümkün değildir. Bir beslenme programında kan belirtecinin birkaç haftada düşmesi, eklem ağrısının ya da yorgunluğun aynı hızda geçeceği anlamına gelmez.
+Kronik inflamasyon için takvim vermek mümkün değildir. Bir beslenme programında kan belirteci birkaç haftada düşebilir; eklem ağrısı ya da yorgunluk çoğu zaman kendi hızında, daha yavaş seyreder.
 
 ## İnflamasyon nedir, iltihapla aynı şey mi?
 
-İnflamasyon, tıpta "iltihap" ya da "iltihaplanma" sözcüğünün karşılığıdır: bağışıklık sisteminin zararlı bir uyaranı tanıyıp temizlemesi ve iyileşmeyi başlatması sürecidir. Mikrop şart değildir. Travma, yanık ya da tahriş edici bir kimyasal da aynı tepkiyi başlatır; bu yüzden "iltihap var" demek "enfeksiyon var" demek değildir.
+İnflamasyon, tıpta "iltihap" ya da "iltihaplanma" sözcüğünün karşılığıdır: bağışıklık sisteminin zararlı bir uyaranı tanıyıp temizlemesi ve iyileşmeyi başlatması sürecidir. Mikrop şart değildir. Travma, yanık ya da tahriş edici bir kimyasal da aynı tepkiyi başlatır; bu yüzden iltihap ile enfeksiyon iki ayrı kavramdır.
 
 Kızarıklık, ısı artışı, şişlik ve ağrı bu savunmanın görünen yüzüdür. Damarlar genişler, bölgeye daha çok kan ve bağışıklık hücresi gelir. Bu tepki olmasa yaralar kapanmaz, enfeksiyonlar yayılır. Dolayısıyla amaç inflamasyonu sıfırlamak değil, işi bitince sönmesini sağlamaktır.
 
@@ -67,7 +67,7 @@ Düşük dereceli, belirli bir hastalığa bağlanmayan inflamasyonda ise deği�
 
 ### Karın bölgesindeki yağ
 
-Yağ dokusu yalnız depo değildir, inflamasyon aracıları da salgılar. StatPearls, yaşam tarzı adımları arasında etkisi en güçlü olanın kilo kaybı olduğunu belirtir ve sedef artritinde kilo vermenin hastalık aktivitesini azalttığı verisini örnek gösterir. Bu kilo fazlası olan kişiler için geçerlidir; normal kilodaki birine zayıflamak önerilmiş olmaz.
+Yağ dokusu yalnız depo değildir, inflamasyon aracıları da salgılar. StatPearls, yaşam tarzı adımları arasında etkisi en güçlü olanın kilo kaybı olduğunu belirtir ve sedef artritinde kilo vermenin hastalık aktivitesini azalttığı verisini örnek gösterir. Bu bilgi kilo fazlası olan kişileri ilgilendirir; normal kiloda zayıflamanın böyle bir karşılığı yoktur.
 
 ### Beslenme düzeni
 
@@ -85,7 +85,7 @@ StatPearls, egzersizle harcanan enerjinin kilo kaybından bağımsız olarak da 
 
 İbuprofen ve naproksen gibi non-steroid antienflamatuvarlar ağrıyı ve inflamasyonu baskılar, ancak nedeni ortadan kaldırmaz. Cleveland Clinic, bu ilaçların tıbbi gözetim olmadan 10 günden uzun ard arda kullanılmamasını söyler. Kortikosteroidler güçlü etkilidir ve romatizmal hastalık, lupus ya da astım gibi tanılarda reçeteyle kullanılır; uzun kullanımı ayrı bir izlem gerektirir.
 
-Takviyelerde tablo daha belirsizdir. Curcumin için StatPearls'ün aktardığı anlamlı iyileşme verisi hayvan modellerine aittir. [Zerdeçal yazısında](/blog/zerdecal-nasil-kullanilir) insanlardaki kanıtın sınırları ayrıca ele alınıyor. Yüksek omega-3 alımı TNF-alfa, CRP ve IL-6 düzeylerinin düşüklüğüyle ilişkilidir; bu ilişki, her takviyenin aynı etkiyi vereceğini kanıtlamaz. Genel tablo için [omega-3 yazısına](/blog/omega-3-ne-ise-yarar) göz atabilirsiniz. Bitkisel ürünler ilaçlarla etkileşebildiği için düzenli ilaç kullananlarda özellikle dikkat gerekir.
+Takviyelerde tablo daha belirsizdir. Curcumin için StatPearls'ün aktardığı anlamlı iyileşme verisi hayvan modellerine aittir. [Zerdeçal yazısında](/blog/zerdecal-nasil-kullanilir) insanlardaki kanıtın sınırları ayrıca ele alınıyor. Omega-3 için 32 meta-analizi bir araya getiren [2022 şemsiye analizi](https://pubmed.ncbi.nlm.nih.gov/35914448/) takviyeyle CRP, TNF-alfa ve IL-6 düzeylerinde küçük düşüşler bildirdi; çalışmalar arasındaki fark yüksekti ve bu, belirteçteki düşüşün yakınmalara yansıyacağını garanti etmez. Genel tablo için [omega-3 yazısına](/blog/omega-3-ne-ise-yarar) göz atabilirsiniz. Bitkisel ürünler ilaçlarla etkileşebildiği için düzenli ilaç kullananlarda özellikle dikkat gerekir.
 
 ## CRP yüksekse inflamasyon var mı demektir?
 
@@ -109,7 +109,7 @@ Bu tabloda 112 aranır. Şiddetli darbe sonrası kemik kırığı ya da çıkık
 
 ### İltihap antibiyotikle mi geçer?
 
-Antibiyotik bakterileri hedefler; inflamasyonu genel olarak söndüren bir ilaç değildir. Burkulma, otoimmün hastalık ya da tahrişe bağlı inflamasyonda rolü yoktur. [DSÖ](https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance), gereksiz antibiyotik kullanımını direnç gelişiminin başlıca nedenleri arasında sayar.
+Antibiyotik yalnız bakterileri hedefler, inflamasyonun kendisini söndürmez. Burkulma, otoimmün hastalık ya da tahrişe bağlı inflamasyonda rolü yoktur. [DSÖ](https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance), gereksiz antibiyotik kullanımını direnç gelişiminin başlıca nedenleri arasında sayar.
 
 ### Vücuttaki iltihap kendiliğinden geçer mi?
 
@@ -133,6 +133,7 @@ Evet, StatPearls yaş ilerledikçe birçok inflamatuvar molekülün yükseldiği
 - [Furman D ve ark. Chronic inflammation in the etiology of disease across the life span, Nature Medicine, 2019](https://pubmed.ncbi.nlm.nih.gov/31806905/)
 - [Keshani M ve ark. Mediterranean Diet Reduces Inflammation in Adults: meta-analiz, Nutrition Reviews, 2026](https://pubmed.ncbi.nlm.nih.gov/41211687/)
 - [Makarewicz A ve ark. Endurance, Strength and Endurance-Strength Training on Inflammatory Markers: meta-analiz, Healthcare, 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9222976/)
+- [Kavyani Z ve ark. Efficacy of the omega-3 fatty acids supplementation on inflammatory biomarkers: an umbrella meta-analysis, 2022](https://pubmed.ncbi.nlm.nih.gov/35914448/)
 - [Irwin MR ve ark. Sleep Disturbance, Sleep Duration, and Inflammation: meta-analiz, Biological Psychiatry, 2016](https://pubmed.ncbi.nlm.nih.gov/26140821/)
 - [NHS: Sepsis](https://www.nhs.uk/conditions/sepsis/)
 - [Dünya Sağlık Örgütü: Antimicrobial resistance](https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance)

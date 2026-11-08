@@ -126,7 +126,7 @@ Bu sayıların yukarıdaki ölçüm payıyla yan yana konması bir şeyi göster
 
 ## Boy kısalması ve ani sırt ağrısı kırık işareti olabilir mi?
 
-Olabilir. Osteoporoz [genellikle kırık olana kadar belirti vermez](https://www.niams.nih.gov/health-topics/osteoporosis), bu yüzden ağrı olmaması kemiğin sağlam olduğunu göstermez. NIAMS'ın saydığı omurga kırığı işaretleri şöyle:
+Olabilir. [Osteoporoz](/blog/osteoporoz-nedir-belirtileri) [genellikle kırık olana kadar belirti vermez](https://www.niams.nih.gov/health-topics/osteoporosis), bu yüzden ağrı olmaması kemiğin sağlam olduğunu göstermez. NIAMS'ın saydığı omurga kırığı işaretleri şöyle:
 
 - Şiddetli sırt ağrısı, bazen eğilme, yük kaldırma ya da öksürük gibi sıradan bir hareketle başlar
 - Boyda kısalma

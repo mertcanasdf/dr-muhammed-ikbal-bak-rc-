@@ -2418,6 +2418,27 @@
       "preparedAt": "2026-11-08T06:19:19.923Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-08T06:19:22.633Z"
+    },
+    {
+      "day": "2026-11-08",
+      "slug": "osteoporoz-nedir-belirtileri",
+      "sourceArticleSha256": "8782060733496b6b0634f7084fdfb42ac03f67c5ee5000971e7d4a901ea2302b",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/osteoporoz-nedir-belirtileri",
+        "htmlTitle": "Osteoporoz Nedir? Belirtileri, Nedenleri ve Tedavisi",
+        "metaDescription": "Osteoporoz çoğu zaman ilk kırığa kadar belirti vermez. Boy kısalması ve kamburluğu, nedenlerini, ilaç seçeneklerini ve tedavinin sınırlarını öğrenin.",
+        "headline": "Osteoporoz Nedir? Belirtileri, Nedenleri ve Tedavisi",
+        "datePublished": "2026-11-08",
+        "dateModified": "2026-11-08",
+        "wordCount": 1259,
+        "bodyTextSha256": "1023f446371230a30074a92e6dfb793897dbbbd6e1892da3c1284433dd1034c7",
+        "htmlSha256": "9a63d5b3804f84da8287eda46dc13da235e0bc9ee5c1feb3a4b98be78e3d51c3"
+      },
+      "commit": "a3a205459b5b62da55b080ccc793b9264538ca31",
+      "parent": "33899e8407e5fffc9831d3517cc06ea40a51a879",
+      "preparedAt": "2026-11-08T08:13:04.666Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-08T08:13:07.492Z"
     }
   ]
 }

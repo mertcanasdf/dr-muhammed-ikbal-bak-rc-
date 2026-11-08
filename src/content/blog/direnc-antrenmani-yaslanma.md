@@ -41,7 +41,7 @@ Yeni başlayanlar haftada iki gün, tüm vücudu çalıştıran basit hareketler
 
 Egzersiz sırasında kaslarda yorulma beklenebilir; keskin eklem ağrısı, göğüs ağrısı, bayılma hissi veya olağandışı nefes darlığı beklenen yanıt değildir. Belirtiler devam ederse egzersiz bırakılmalı ve tıbbi değerlendirme alınmalıdır.
 
-Eklem protezi, osteoporoz, nörolojik hastalık, kalp-damar hastalığı veya yakın zamanda ameliyat varsa program kişiye özel hazırlanmalıdır. Fizyoterapist desteği özellikle denge ve hareket kısıtlılığı olanlarda yararlıdır.
+Eklem protezi, [osteoporoz](/blog/osteoporoz-nedir-belirtileri), nörolojik hastalık, kalp-damar hastalığı veya yakın zamanda ameliyat varsa program kişiye özel hazırlanmalıdır. Fizyoterapist desteği özellikle denge ve hareket kısıtlılığı olanlarda yararlıdır.
 
 ## Diğer alışkanlıklarla birlikte düşünün
 

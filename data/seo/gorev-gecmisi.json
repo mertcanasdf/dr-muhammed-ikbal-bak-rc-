@@ -1020,5 +1020,21 @@
     "topic": "öğle uykusu nasıl bırakılır",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-08",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "hafıza kartı ne işe yarar",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-08",
+    "type": "yeni-yazi",
+    "slug": "osteoporoz-nedir-belirtileri",
+    "topic": "osteoporoz nedir belirtileri nelerdir",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

@@ -29,7 +29,7 @@ Uyku günlüğü, bir önceki gecenin saatlerini ve ertesi günkü etkisini kıs
 
 ## Uyku günlüğü ne işe yarar?
 
-[NHLBI uykusuzluk değerlendirme sayfası](https://www.nhlbi.nih.gov/health/insomnia/diagnosis), görüşmeden önce bir ila iki hafta günlük tutulmasının yararlı olabileceğini belirtir. Uyuma ve uyanma saatleri, gündüz şekerlemeleri, kafein veya alkol tüketimi, hareket ve gündüz uyku hali birlikte kaydedilebilir. Bu bilgiler hekimin sorunun süresini ve günlük yaşama etkisini anlamasını destekler.
+[NHLBI uykusuzluk değerlendirme sayfası](https://www.nhlbi.nih.gov/health/insomnia/diagnosis), görüşmeden önce bir ila iki hafta günlük tutulmasının yararlı olabileceğini belirtir. Uyuma ve uyanma saatleri, [gündüz şekerlemeleri](/blog/ogle-uykusu-nasil-birakilir), kafein veya alkol tüketimi, hareket ve gündüz uyku hali birlikte kaydedilebilir. Bu bilgiler hekimin sorunun süresini ve günlük yaşama etkisini anlamasını destekler.
 
 Amaç kendinize bir “uyku notu” vermek değildir. Aynı gece için “yedi saat yatakta kaldım” ile “yedi saat uyudum” farklı ifadelerdir. Benzer şekilde yorgun olmak, mutlaka istemsiz uyuklamak anlamına gelmez. Günlük bu ayrımları görünür kılar; nedeni tek başına açıklamaz.
 

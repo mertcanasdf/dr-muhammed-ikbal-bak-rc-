@@ -1000,5 +1000,25 @@
     "topic": "kemik yoğunluğu nasıl ölçülür",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-08",
+    "type": "sorgu-optimizasyonu",
+    "slug": "kitap-okuma-ve-beyin",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-08",
+    "type": "sorgu-optimizasyonu",
+    "slug": "lifli-beslenme-ve-mikrobiyota",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-08",
+    "type": "yeni-yazi",
+    "slug": "ogle-uykusu-nasil-birakilir",
+    "topic": "öğle uykusu nasıl bırakılır",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

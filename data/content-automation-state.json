@@ -2397,6 +2397,27 @@
       "preparedAt": "2026-11-07T14:11:12.649Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-07T14:11:15.638Z"
+    },
+    {
+      "day": "2026-11-08",
+      "slug": "ogle-uykusu-nasil-birakilir",
+      "sourceArticleSha256": "4795fc85a08261cab65dce4144247683a829123990ea37b2105fbb762bf29cf6",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ogle-uykusu-nasil-birakilir",
+        "htmlTitle": "Öğle Uykusu Nasıl Bırakılır? Yaş ve Belirtiler",
+        "metaDescription": "Çocuklar öğle uykusunu çoğunlukla 3–5 yaşta bırakır. Hazır olma belirtilerini, sessiz saat ve erken yatışla geçişi, yetişkinde bırakma adımlarını görün.",
+        "headline": "Öğle Uykusu Nasıl Bırakılır? Çocukta Yaş, Belirtiler ve Yetişkinde Geçiş",
+        "datePublished": "2026-11-08",
+        "dateModified": "2026-11-08",
+        "wordCount": 1372,
+        "bodyTextSha256": "f069abbd1f88f5a135d504e2553d30b14067ae256accc52d3cc846731545feef",
+        "htmlSha256": "5ee9ef6d66f60b212111569cbe2c359425fccd72fa738b76e3063486370c04dd"
+      },
+      "commit": "33899e8407e5fffc9831d3517cc06ea40a51a879",
+      "parent": "9800da7fd9ef7be8119ab62d15606aa4f2a8cf21",
+      "preparedAt": "2026-11-08T06:19:19.923Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-08T06:19:22.633Z"
     }
   ]
 }

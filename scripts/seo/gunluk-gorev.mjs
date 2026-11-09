@@ -25,7 +25,7 @@ const TODAY_FILE = path.join(DATA, 'bugun.json');
 const HISTORY_FILE = path.join(DATA, 'gorev-gecmisi.json');
 const history = readJson(HISTORY_FILE, []);
 
-const DAILY_NEW = 5;
+const DAILY_NEW = 3;
 const claimMode = ['--is-al', '--is-bitti', '--is-atla'].find((f) => process.argv.includes(f));
 const existing = readJson(TODAY_FILE);
 if (!dry && existing?.day === today && !process.argv.includes('--yeniden')) {
@@ -79,6 +79,7 @@ const realCritical = audit.critical.filter((c) => {
 // ---- İyileştirme görevi (Claude, her gün 19.30) ----
 // Hedef 1. sıra: önce tıklanmayan ilk-10 sayfası ve 2–20. sıradaki sorgular; gün, hangisinin önce deneneceğini belirler.
 const pickers = {
+  tikYok: () => { const t = opp.tikYok.find((s) => fresh(s.slug)); return t && { type: 'sorgu-optimizasyonu', slug: t.slug, page: t.page, reason: `Search Console: 5–20. sırada gösterim alıp tık almayan sorgular (puan ${t.score})`, details: t.queries }; },
   ctr: () => { const low = opp.lowCtr.find((s) => freshCtr(s.slug)); return low && { type: 'ctr-iyilestirme', slug: low.slug, page: low.page, reason: `${low.position}. sırada, ${low.impressions} gösterim, CTR %${(low.ctr * 100).toFixed(1)} (beklenen ~%${(low.expected * 100).toFixed(0)})`, details: low.topQueries }; },
   strike: () => { const st = opp.striking.find((s) => fresh(s.slug)); return st && { type: 'sorgu-optimizasyonu', slug: st.slug, page: st.page, reason: `1. sıra hedefi: 2–20. sıradaki sorgular (puan ${st.score})`, details: st.queries }; },
   decay: () => {
@@ -102,7 +103,7 @@ const ORDER = {
   7: ['broken', 'sources', 'strike', 'ctr', 'thin'],
 };
 // Günde DAILY_IMPROVE iyileştirme: ilk 20'ye yakın sayfaları itmek yeni yazıdan daha hızlı tık getirir.
-const DAILY_IMPROVE = 2;
+const DAILY_IMPROVE = 4;
 const usedQueue = new Set();
 const qHigh = () => {
   const x = queue.find((q) => !q.done && !usedQueue.has(q.id) && q.priority === 'yuksek' && q.type !== 'yeni-yazi' && (!q.slug || fresh(q.slug)));
@@ -122,7 +123,7 @@ const [firstKey, ...restKeys] = ORDER[weekday];
 const improvements = [];
 for (let n = 0; n < DAILY_IMPROVE; n++) {
   let item = null;
-  for (const pick of [qHigh, pickers[firstKey], qNormal, trendStrengthen, ...restKeys.map((k) => pickers[k])]) { item = pick() || null; if (item) break; }
+  for (const pick of [qHigh, pickers.tikYok, pickers[firstKey], qNormal, trendStrengthen, ...restKeys.map((k) => pickers[k])]) { item = pick() || null; if (item) break; }
   if (!item) break;
   if (item.slug && !item.page) item.page = `https://www.muhammedikbalbakirci.com/blog/${item.slug}`;
   // Fırsat sayfası kısa yazıysa tek paragraf eklemek yetmez: sorguyu yanıtlarken yazıyı da tam genişlet.
@@ -143,7 +144,7 @@ const trends = readJson(path.join(DATA, 'trend-adaylari.json'));
 const usedTopics = new Set(history.filter((h) => h.topic).map((h) => h.topic.toLocaleLowerCase('tr')));
 const usedSeeds = new Set();
 for (const t of trends?.topics ?? []) {
-  if (isler.filter((x) => x.type === 'yeni-yazi').length >= DAILY_NEW + 3) break;
+  if (isler.filter((x) => x.type === 'yeni-yazi').length >= DAILY_NEW + 8) break; // rakip gücü ZOR çıkan konuların yerine yedekler
   // Aynı gün aynı tohumdan iki yazı birbirini yer (yamyamlık); her konu ayrı tohumdan.
   if (usedTopics.has(t.topic.toLocaleLowerCase('tr')) || (t.closest?.coverage ?? 0) >= 0.6 || usedSeeds.has(t.seed)) continue;
   usedSeeds.add(t.seed);

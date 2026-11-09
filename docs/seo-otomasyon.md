@@ -4,11 +4,11 @@ Hedef: hedef sorgularda Google'da 1. sıra. Sistem üç katmanlıdır. Hepsi bu 
 
 | Katman | Kim, ne zaman | İş |
 |---|---|---|
-| 1. Yeni içerik | Claude, günde 5 çalışma: 09, 11, 13, 15, 17  | Veri ve trend keşfini çalıştırır; her çalışmada yükselen bir aramadan **bir yeni yazı** yazar ve yayınlar (günde 5). Codex yalnızca kapak görselini üretir (`scripts/gorsel-uret.mjs` onu çağırır); Codex'in eski yazı otomasyonu 26 Ekim'den beri duraklatıldı. |
+| 1. Yeni içerik | Claude, günde 3 çalışma: 09, 13, 17 | Veri ve trend keşfini çalıştırır; her çalışmada yükselen bir aramadan **bir yeni yazı** yazar ve yayınlar (günde 3). Codex yalnızca kapak görselini üretir (`scripts/gorsel-uret.mjs` onu çağırır); Codex'in eski yazı otomasyonu 26 Ekim'den beri duraklatıldı. |
 | 2. İyileştirme, kalite kapısı, rapor | Claude, her gün 19.00 | Günün yazılarını claude-blog ölçütleriyle denetler; günün **iyileştirme** görevini yapar; yayınlar ve raporlar |
 | 3. Derin denetim | Claude, her pazar 19.00 (akşam işinden önce) | claude-seo denetimi; bulguları `data/seo/kuyruk.json`'a iş olarak ekler |
 
-Üç katman da tek bir Claude zamanlanmış görevidir (`bakirci-gunluk-yazi`, 09–19 arası 2 saatte bir): saat 19'dan önce yazı, 19.00'da akşam işi, pazar 19.00'da önce haftalık denetim. Sonuçlar ana sohbete bildirilir.
+Üç katman da tek bir Claude zamanlanmış görevidir (`bakirci-gunluk-yazi`; 09, 13, 17 ve 19.00): saat 19'dan önce yazı, 19.00'da akşam işi, pazar 19.00'da önce haftalık denetim. Sonuçlar ana sohbete bildirilir.
 
 Görevleri `node scripts/seo/gunluk-gorev.mjs` seçer; kimse kendi seçim yapmaz. `data/seo/bugun.json` içinde `isler` listesi Codex'in işleri, `iyilestirme` alanı Claude'un görevidir.
 
@@ -16,7 +16,7 @@ Codex her çalışmada:
 - `node scripts/seo/gunluk-gorev.mjs --is-al`: sıradaki işi `yaziliyor` yapar ve gösterir; yarım kalan iş varsa onu verir.
 - `--is-bitti SLUG`: işi `tamam` olarak kapatır, geçmişe yazar ve sitemap'i Search Console API ile Google'a yeniden gönderir (`gsc.mjs --sitemap`).
 - `--is-atla "neden"`: konu ilk sayfa incelemesinde uygun değilse işi atlar; ardından `--is-al` sıradakini (yedek konuları da) verir.
-- 5 yeni yazı tamamlanınca `--is-al` "Bugünün işleri bitti" der; o çalışma içerik üretmez.
+- 3 yeni yazı tamamlanınca `--is-al` "Bugünün işleri bitti" der; o çalışma içerik üretmez.
 
 Günde beş yazı kaliteden ödün vermek değildir. Google'ın ölçekli içerik politikası, aramada değer katmayan seri sayfaları sitenin tamamı için cezalandırabilir. Her yazı tek başına ilk sayfadaki en iyi sonuçtan daha yararlı olmalı; kalıp giriş, aynı iskelet ve dolgu yasaktır. Claude akşam kapısında aynı günün yazılarını bu açıdan da karşılaştırır.
 
@@ -34,6 +34,14 @@ Günde beş yazı kaliteden ödün vermek değildir. Google'ın ölçekli içeri
 
 Aynı gün betik tekrar çalışırsa aynı görevleri döndürür (`--yeniden` yeniden seçer). Yayın betiği günde en fazla 6 içerik yayınına izin verir (5 yeni yazı + 1 teknik düzeltme).
 
+## Tık potansiyeli
+
+- **İyileştirme önceliği:** Search Console'da marka dışı, 5–20. sırada, gösterim alıp hiç tık almayan sorgular (`firsatlar.json` `tikYok`). Denetim kuyruğunun yüksek öncelikli işinden sonra ilk bunlar gelir.
+- **Yeni yazı önceliği:** Search Console'da gösterim alan sorgular konu puanını belirgin artırır; 10. sıradan geride kalan ve karşılığı olmayan sorgular doğrudan konu adayı olur.
+- **Rakip gücü:** Yazmadan önce ana sorgunun Google Türkiye ilk sayfasındaki alan adları `scripts/seo/rakip-gucu.mjs` ile sınıflanır. İlk 8 sonuçta 6+ büyük hastane/portal varsa ZOR: konu atlanır. İlk sayfanın çoğu ürün, mağaza ya da hesaplama aracıysa blog yazısı sıralama almaz; konu yine atlanır (sayfa türü uyumsuzluğu, seo-sxo).
+- **Tempo:** 9 Kasım 2026'da günde 5 yazıdan 3 yazı + 4 iyileştirmeye inildi: claude-seo toplu üretimde gruplar halinde yayınlayıp izlemeyi önerir; ~85 yazıdan sonra öncelik mevcut sayfaları yukarı taşımaktır.
+- Google Trends "yükselen sorgular" ekranı otomatik erişime 429 döndürür ve kullanılmıyor. Anahtar Kelime Planlayıcı bağlı değil; Zaten Akademi hesabı bu site için kullanılmaz.
+
 ## Trend keşfi (`scripts/seo/trend-kesif.mjs`)
 
 Sitenin konularındaki ~70 tohum (longevity, beslenme, hareket, uyku, zihin, cilt) için Google otomatik tamamlama önerileri toplanır; her gün 12 tohum soru kalıplarıyla (nedir, belirtileri, faydaları, nasıl…) genişletilir. Google Trends Türkiye günlük listesindeki sağlık başlıkları da eklenir.
@@ -48,11 +56,11 @@ Sitenin konularındaki ~70 tohum (longevity, beslenme, hareket, uyku, zihin, cil
 ## Codex görevi
 
 1. Canlı sitede kritik teknik sorun varsa `teknik-duzeltme`.
-2. Ardından günde 5 `yeni-yazi`: önce haftalık denetim kuyruğundaki yeni yazı işleri, sonra trend keşfinin en yüksek puanlı karşılıksız konuları. Aynı gün her konu farklı tohumdan seçilir; atlananların yerine 3 yedek konu vardır. Trend konusu yoksa `data/content-plan.json` sıradaki aday.
+2. Ardından günde 3 `yeni-yazi`: önce haftalık denetim kuyruğundaki yeni yazı işleri, sonra trend keşfinin en yüksek puanlı karşılıksız konuları. Aynı gün her konu farklı tohumdan seçilir; atlananların yerine 3 yedek konu vardır. Trend konusu yoksa `data/content-plan.json` sıradaki aday.
 
 ## Claude iyileştirme görevi
 
-Günde **2 iyileştirme** (`bugun.json` `iyilestirmeler`); ilk 20'deki sayfaları itmek yeni yazıdan daha hızlı tık getirir. Aynı gün aynı sayfa iki kez seçilmez. Her biri şu sırayla seçilir:
+Günde **4 iyileştirme** (`bugun.json` `iyilestirmeler`); ilk 20'deki sayfaları itmek yeni yazıdan daha hızlı tık getirir. Aynı gün aynı sayfa iki kez seçilmez. Her biri şu sırayla seçilir:
 
 Önce haftalık denetim kuyruğundaki `priority: "yuksek"` iş. Yoksa günün ilk fırsat türü, sonra kuyruğun normal öncelikli işi, sonra trend keşfinin `guclendir` listesi (konusu zaten yazılmış yükselen aramalar), sonra günün kalan sırası:
 

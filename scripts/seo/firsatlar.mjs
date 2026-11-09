@@ -7,6 +7,7 @@ import { DATA, loadArticles, readJson, writeJson, trDay, daysBetween } from './o
 // Konuma göre beklenen tıklama oranı (genel sektör eğrisi; yalnız "belirgin düşük" CTR'ı ayırmak için kaba eşik).
 const EXPECTED_CTR = [0, 0.28, 0.15, 0.1, 0.07, 0.05, 0.04, 0.03, 0.025, 0.02, 0.018];
 const THIN_WORDS = 600;
+const BRAND = /bak[ıi]rc|ikbal/i;
 
 // Eski site "/blog/x/" biçimini kullanıyordu; yeni adres "/blog/x". Search Console ikisini ayrı sayar,
 // aynı sayfanın verisi bölünmesin diye sondaki "/" kaldırılıp satırlar birleştirilir.
@@ -34,7 +35,7 @@ export function computeOpportunities(articles = loadArticles(), raw = readJson(p
   };
   const byUrl = new Map(articles.map((a) => [a.url, a]));
   const pageStats = new Map((gsc?.pages ?? []).map((p) => [p.page, p]));
-  const out = { day: trDay(), gscWindow: gsc ? `${gsc.start}–${gsc.end}` : null, striking: [], lowCtr: [], cannibal: [], thin: [], fewSources: [], noImpressions: [], decay: [], droppingKeywords: [], gaps: [] };
+  const out = { day: trDay(), gscWindow: gsc ? `${gsc.start}–${gsc.end}` : null, tikYok: [], striking: [], lowCtr: [], cannibal: [], thin: [], fewSources: [], noImpressions: [], decay: [], droppingKeywords: [], gaps: [] };
 
   if (gsc?.prevPages?.length) {
     // İçerik çürümesi (claude-blog/blog-decay modeli): önceki 28 güne göre gösterim %40+ düştü ve önceki dönem anlamlıydı.
@@ -65,6 +66,20 @@ export function computeOpportunities(articles = loadArticles(), raw = readJson(p
       striking.set(r.page, s);
     }
     out.striking = [...striking.values()].map((s) => ({ ...s, score: Math.round(s.score), queries: s.queries.sort((a, b) => b.impressions - a.impressions).slice(0, 8) }))
+      .sort((a, b) => b.score - a.score);
+
+    // 1b) Tık getirecek sorgular: marka dışı, 5–20. sıra, gösterim alıyor ama hiç tık yok. İyileştirmede ilk sıradadır.
+    const noClick = new Map();
+    for (const r of gsc.queryPage) {
+      if (BRAND.test(r.query) || r.clicks > 0 || r.position < 5 || r.position > 20 || r.impressions < 3) continue;
+      const slug = byUrl.get(r.page)?.slug;
+      if (!slug) continue;
+      const s = noClick.get(slug) ?? { page: r.page, slug, score: 0, queries: [] };
+      s.score += r.impressions * (21 - r.position) / 16;
+      s.queries.push({ query: r.query, position: r.position, impressions: r.impressions, clicks: 0 });
+      noClick.set(slug, s);
+    }
+    out.tikYok = [...noClick.values()].map((s) => ({ ...s, score: Math.round(s.score), queries: s.queries.sort((a, b) => b.impressions - a.impressions).slice(0, 10) }))
       .sort((a, b) => b.score - a.score);
 
     // 2) Düşük tıklama oranı: ilk 10'da ama beklenenin yarısından az tıklanıyor -> başlık/açıklama sorgu niyetine uymuyor.

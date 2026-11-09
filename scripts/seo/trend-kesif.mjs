@@ -112,6 +112,13 @@ export async function discover() {
   }
   writeJson(histFile, hist);
   const trackingDays = daysBetween(hist.started, today);
+  // Search Console'da bizi gösteren ama 10. sıradan geride kalan, marka dışı sorgular da konu adayıdır: talebi kanıtlıdır.
+  const gscKw = readJson(path.join(DATA, 'anahtar-kelimeler.json'), { keywords: [] }).keywords;
+  for (const k of gscKw) {
+    if (k.brand || k.impressions28 < 3 || !(k.position28 > 10) || found.has(k.query)) continue;
+    found.set(k.query, { query: k.query, seeds: new Set([k.query]), asked: new Set(), rel: 0, rank: 0 });
+    hist.queries[k.query] ??= { first: today, days: 1, last: today };
+  }
 
   // Site kapsaması: aday sorgunun anlamlı kelimeleri bir yazının başlık/açıklamasında ne kadar var?
   // Başlık, açıklama ve alt başlıklar (## / ###): yazının gerçekten yanıtladığı sorular.
@@ -144,6 +151,7 @@ export async function discover() {
       + Math.min(h.days, 7) * 2             // istikrarlı talep
       + (isNew ? 25 : 0) + (o.trend ? 30 : 0) // yükselen
       + (info ? 15 : -10)                   // bilgi niyeti (sitenin içerik türü)
+      + (gsc && !gsc.brand ? 40 + Math.min(gsc.impressions28, 40) * 3 : 0) // Search Console'da gerçek gösterim
       - o.rank * 2,
     );
     const coverage = best?.hit ?? 0;
@@ -166,7 +174,7 @@ export async function discover() {
   // Konu kümeleri: aynı tohumda, tohum dışındaki anlamlı kökleri ortak olan karşılıksız sorgular tek yazı konusudur.
   const topics = [];
   // Yeni yazı konusu yalnız bilgi niyetli sorgudan doğar (nedir, belirtileri, nasıl…); "dijital detoks kitap" gibi sorgular konu açmaz.
-  for (const c of candidates.filter((x) => x.action === 'yeni-yazi' && x.info)) {
+  for (const c of candidates.filter((x) => x.action === 'yeni-yazi' && (x.info || x.gsc))) {
     const seed = c.seeds[0];
     const core = new Set(tokens(c.query).map(stem).filter((t) => !tokens(seed).map(stem).includes(t) && !GENERIC.has(t)));
     // Genel kelime dışında ortak kök yoksa (yalnız "X belirtileri" gibi) tohumun genel kümesine girer.

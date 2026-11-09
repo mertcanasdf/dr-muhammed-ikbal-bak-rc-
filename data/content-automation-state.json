@@ -2502,6 +2502,27 @@
       "preparedAt": "2026-11-08T14:10:39.075Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-08T14:10:41.666Z"
+    },
+    {
+      "day": "2026-11-09",
+      "slug": "vucut-yag-orani-kac-olmali",
+      "sourceArticleSha256": "64bb8f58a4567c0c1411b99c8dbd558a2cf2cb0bda7240a2a994ddaf06bc60d0",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/vucut-yag-orani-kac-olmali",
+        "htmlTitle": "Vücut Yağ Oranı Kaç Olmalı? Kadın ve Erkek Tablosu",
+        "metaDescription": "Vücut yağ oranı kaç olmalı? Kadın ve erkek için yaşa göre aralıkları, tablolar neden farklı çıkıyor sorusunu ve tartı sonucunun nasıl okunacağını görün.",
+        "headline": "Vücut Yağ Oranı Kaç Olmalı? Kadın ve Erkek İçin Yaşa Göre Tablo",
+        "datePublished": "2026-11-09",
+        "dateModified": "2026-11-09",
+        "wordCount": 1240,
+        "bodyTextSha256": "e7ebbd2b7ebd89319b4e774d7ed38967256be835604f523c8052904a26b55a60",
+        "htmlSha256": "b16eb3618170e4a3a8d9c24dc54ded5bd28cbfa7cbd28ba5ab73c75ac08ab950"
+      },
+      "commit": "e6f93354e88ec2a8269dbdb04633ad6fc9a934c0",
+      "parent": "fdf40996505b0bb402af21758ec7d95d23099eea",
+      "preparedAt": "2026-11-09T06:21:10.239Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-09T06:21:12.783Z"
     }
   ]
 }

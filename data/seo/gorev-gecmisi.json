@@ -1060,5 +1060,25 @@
     "topic": "soğuk duş faydaları",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-09",
+    "type": "yazi-genisletme",
+    "slug": "d3-vitamini-eksikligi",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-09",
+    "type": "yazi-genisletme",
+    "slug": "polifenoller-ve-saglik",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-09",
+    "type": "yeni-yazi",
+    "slug": "vucut-yag-orani-kac-olmali",
+    "topic": "vücut yağ oranı kaç olmalı",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

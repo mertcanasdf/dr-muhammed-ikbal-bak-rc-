@@ -91,7 +91,7 @@ Bel-kalça oranı ise başka bir hesaptır: bel çevresi kalçanın en geniş ye
 
 ## Kilonuz normalken neden bel çevresine bakılır?
 
-Tartı, yağın nerede biriktiğini söylemez. Karın içindeki yağ ise [insülin direnci](/blog/insulin-direnci-belirtileri), kan yağları ve tansiyonla yakından ilişkilidir; TEMD bel çevresini karın tipi obeziteyi göstermede beden kitle indeksinden daha duyarlı bulur.
+Tartı, yağın nerede biriktiğini söylemez; [vücut yağ oranı](/blog/vucut-yag-orani-kac-olmali) da toplam miktarı gösterir, yerini değil. Karın içindeki yağ ise [insülin direnci](/blog/insulin-direnci-belirtileri), kan yağları ve tansiyonla yakından ilişkilidir; TEMD bel çevresini karın tipi obeziteyi göstermede beden kitle indeksinden daha duyarlı bulur.
 
 Ross ve arkadaşlarının aktardığı bir analizde, aynı beden kitle indeksindeki kişilerde bel çevresindeki her 5 cm artış ölüm riskinde erkeklerde %17, kadınlarda %13 artışla ilişkiliydi. Bu bir gözlem verisidir ve bel inceltmenin etkisini ölçmez, ama iki kişinin kilosu eşit olsa bile belin neden ayrıca ölçüldüğünü açıklar.
 

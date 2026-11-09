@@ -74,7 +74,7 @@ export function computeOpportunities(articles = loadArticles(), raw = readJson(p
       if (BRAND.test(r.query) || r.clicks > 0 || r.position < 5 || r.position > 20 || r.impressions < 3) continue;
       const slug = byUrl.get(r.page)?.slug;
       if (!slug) continue;
-      const s = noClick.get(slug) ?? { page: r.page, slug, score: 0, queries: [] };
+      const s = noClick.get(slug) ?? { page: r.page, slug, category: byUrl.get(r.page)?.category, score: 0, queries: [] };
       s.score += r.impressions * (21 - r.position) / 16;
       s.queries.push({ query: r.query, position: r.position, impressions: r.impressions, clicks: 0 });
       noClick.set(slug, s);

@@ -39,6 +39,7 @@ Aynı gün betik tekrar çalışırsa aynı görevleri döndürür (`--yeniden` 
 - **İyileştirme önceliği:** Search Console'da marka dışı, 5–20. sırada, gösterim alıp hiç tık almayan sorgular (`firsatlar.json` `tikYok`). Denetim kuyruğunun yüksek öncelikli işinden sonra ilk bunlar gelir.
 - **Yeni yazı önceliği:** Search Console'da gösterim alan sorgular konu puanını belirgin artırır; 10. sıradan geride kalan ve karşılığı olmayan sorgular doğrudan konu adayı olur.
 - **Rakip gücü:** Yazmadan önce ana sorgunun Google Türkiye ilk sayfasındaki alan adları `scripts/seo/rakip-gucu.mjs` ile sınıflanır. İlk 8 sonuçta 6+ büyük hastane/portal varsa ZOR: konu atlanır. İlk sayfanın çoğu ürün, mağaza ya da hesaplama aracıysa blog yazısı sıralama almaz; konu yine atlanır (sayfa türü uyumsuzluğu, seo-sxo).
+- **Medikal estetik payı:** Günün ilk yazısı ve ilk iyileştirmesi medikal estetik/cilt alanına ayrılır. Bu alanda ana yazı olsa da karşılanmamış alt sorular yeni yazı olabilir (ör. "botoks kaç ay etkili"). 9 Kasım 2026'da kategori 25 yazıyla en düşük görünürlükteydi (yazı başına 9 gösterim, ortalama sıra 14); 3-4 hafta sonra sonuca bakılır.
 - **Tempo:** 9 Kasım 2026'da günde 5 yazıdan 3 yazı + 4 iyileştirmeye inildi: claude-seo toplu üretimde gruplar halinde yayınlayıp izlemeyi önerir; ~85 yazıdan sonra öncelik mevcut sayfaları yukarı taşımaktır.
 - Google Trends "yükselen sorgular" ekranı otomatik erişime 429 döndürür ve kullanılmıyor. Anahtar Kelime Planlayıcı bağlı değil; Zaten Akademi hesabı bu site için kullanılmaz.
 

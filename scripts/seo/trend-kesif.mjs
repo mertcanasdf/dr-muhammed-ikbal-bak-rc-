@@ -39,13 +39,15 @@ const SEEDS = [
   // Duyular ve genel
   'işitme kaybı', 'göz sağlığı', 'diş eti sağlığı', 'bağışıklık sistemi',
   // Cilt
-  'hiyalüronik asit', 'niasinamid', 'kırışıklık', 'göz altı morluğu', 'akne', 'rozasea', 'saç dökülmesi', 'güneş lekesi', 'cilt tipi', 'selülit', 'gıdı',
+  'dermapen', 'kimyasal peeling', 'somon dna', 'altın iğne', 'ameliyatsız yüz germe', 'ip askı', 'göz altı dolgusu', 'dudak dolgusu', 'hiyalüronik asit', 'niasinamid', 'kırışıklık', 'göz altı morluğu', 'akne', 'rozasea', 'saç dökülmesi', 'güneş lekesi', 'cilt tipi', 'selülit', 'gıdı',
 ];
+// Medikal estetik ve cilt: günlük yazılardan biri bu alana ayrılır; ana yazısı olsa da alt sorular yeni yazı olabilir.
+const SKIN = new Set(['kolajen', 'retinol', 'retinoid', 'güneş kremi', 'cilt bariyeri', 'nemlendirici', 'botoks', 'dolgu', 'mezoterapi', 'prp', 'cilt yaşlanması', 'leke', 'dermapen', 'kimyasal peeling', 'somon dna', 'altın iğne', 'ameliyatsız yüz germe', 'ip askı', 'göz altı dolgusu', 'dudak dolgusu', 'hiyalüronik asit', 'niasinamid', 'kırışıklık', 'göz altı morluğu', 'akne', 'rozasea', 'saç dökülmesi', 'güneş lekesi', 'cilt tipi', 'selülit', 'gıdı']);
 const MODIFIERS = ['nedir', 'ne işe yarar', 'faydaları', 'belirtileri', 'nasıl', 'ne zaman', 'zararları', 'eksikliği'];
 const MODIFIER_SEEDS_PER_DAY = 20; // kotayı yormamak için soru kalıpları her gün farklı 20 tohumda
 
 // Mevzuat ve niyet filtresi: ticari, hizmet, konum, marka, eğlence ve sağlık dışı aramalar.
-const EXCLUDE = /fiyat|ücret|eczane|satın|indirim|marka|markalar|en iyi|en ucuz|doktor|doktoru|klinik|hastane|randevu|yorum|şikayet|önce[- ]?sonra|bursa|istanbul|ankara|izmir|antalya|ekşi|film|izle|dizi|şarkı|masal|dua|tulum|jelibon|oyun|hap fiyat|ocean|solgar|orzax|voonka|nutraxin|venatura|zade|garnier|nivea|la roche|cerave|bioderma|loreal|neutrogena|vichy|avene|eucerin|sinoz|uykucu|uykuluk|kaç tl|sınıf|ders|ödev|konu anlatımı|test soruları|pdf|slayt|sunum|ingilizce|nedir kısaca 5|yazılır|yazilir|senfoni|müziği|muzigi|sözleri|sozleri|şiir|siir|çıkarıcı|cikarici|yazıldı|yazildi|çıktı|cikti|kitap|kitabı|roman|yazarı|albüm|album|mimarlık|mimarlik|tasarım|tasarim|bilir misin|anlamı|anlami|yüzyıllık|nobel|ödülü|odulu|şarkıcı|sarkici|hangi bölüm|hangi bolum|hangi doktor|haşlanır|haslanir|pişirilir|pisirilir|tarif|kaç dakika|kac dakika/i;
+const EXCLUDE = /fiyat|ücret|eczane|satın|indirim|marka|markalar|en iyi|en ucuz|doktor|doktoru|klinik|hastane|randevu|yorum|şikayet|önce[- ]?sonra|bursa|istanbul|ankara|izmir|antalya|ekşi|film|izle|dizi|şarkı|masal|dua|tulum|jelibon|oyun|hap fiyat|ocean|solgar|orzax|voonka|nutraxin|venatura|zade|garnier|nivea|la roche|cerave|bioderma|loreal|neutrogena|vichy|avene|eucerin|sinoz|uykucu|uykuluk|kaç tl|sınıf|ders|ödev|konu anlatımı|test soruları|pdf|slayt|sunum|ingilizce|nedir kısaca 5|yazılır|yazilir|senfoni|müziği|muzigi|sözleri|sozleri|şiir|siir|çıkarıcı|cikarici|yazıldı|yazildi|çıktı|cikti|kitap|kitabı|roman|yazarı|albüm|album|mimarlık|mimarlik|tasarım|tasarim|bilir misin|anlamı|anlami|yüzyıllık|nobel|ödülü|odulu|şarkıcı|sarkici|hangi bölüm|hangi bolum|hangi doktor|yaptırılır|yaptirilir|yaptıranlar|yaptiranlar|nerede|haşlanır|haslanir|pişirilir|pisirilir|tarif|kaç dakika|kac dakika/i;
 // Ürün arayan sorgu (yazıyla değil mağazayla karşılanır): "retinol krem", "magnezyum tablet".
 const PRODUCT = /\b(krem|kremi|kremler|kremleri|serum|serumu|tablet|şurup|surup|sprey|jel)$/i;
 const INFO = /nedir|ne demek|ne işe yarar|faydaları|faydası|belirti|nasıl|ne zaman|neden|zararları|yan etki|eksikliği|fazlalığı|hangi|kaç|nelerde|içeren|nelerdir|ne kadar|düzeyi|normal|testi|egzersiz|beslenme|diyet|önlem|tedavi|etkisi/i;
@@ -180,13 +182,13 @@ export async function discover() {
     // Genel kelime dışında ortak kök yoksa (yalnız "X belirtileri" gibi) tohumun genel kümesine girer.
     const t = topics.find((x) => x.seed === seed && (core.size ? [...core].some((k) => x.core.has(k)) : x.core.size === 0));
     if (t) { t.queries.push(c.query); t.score += Math.round(c.score / 4); t.rising ||= c.rising; core.forEach((k) => t.core.add(k)); }
-    else topics.push({ topic: c.query, seed, score: c.score, rising: c.rising, closest: c.closest, owner: ownerOf(seed), queries: [c.query], core });
+    else topics.push({ topic: c.query, seed, score: c.score, rising: c.rising, closest: c.closest, skin: SKIN.has(seed), owner: SKIN.has(seed) ? null : ownerOf(seed), queries: [c.query], core });
   }
   topics.forEach((t) => delete t.core);
   topics.sort((a, b) => b.score - a.score);
   const strengthen = topics.filter((t) => t.owner);
   topics.splice(0, topics.length, ...topics.filter((t) => !t.owner));
-  const out = { day: today, trackingDays, queriesAsked: queries.length, suggestions: found.size, trendingHealth: trending, topics: topics.slice(0, 60), guclendir: strengthen.slice(0, 30), candidates };
+  const out = { day: today, trackingDays, queriesAsked: queries.length, suggestions: found.size, trendingHealth: trending, topics: [...topics.slice(0, 60), ...topics.slice(60).filter((t) => t.skin).slice(0, 30)], guclendir: strengthen.slice(0, 30), candidates };
   writeJson(path.join(DATA, 'trend-adaylari.json'), out);
   return out;
 }

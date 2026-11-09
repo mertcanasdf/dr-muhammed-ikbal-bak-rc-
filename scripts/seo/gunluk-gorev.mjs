@@ -79,6 +79,7 @@ const realCritical = audit.critical.filter((c) => {
 // ---- İyileştirme görevi (Claude, her gün 19.30) ----
 // Hedef 1. sıra: önce tıklanmayan ilk-10 sayfası ve 2–20. sıradaki sorgular; gün, hangisinin önce deneneceğini belirler.
 const pickers = {
+  tikYokSkin: () => { const t = opp.tikYok.find((s) => s.category === 'Skin Longevity' && fresh(s.slug)); return t && { type: 'sorgu-optimizasyonu', slug: t.slug, page: t.page, reason: `Medikal estetik: 5–20. sırada gösterim alıp tık almayan sorgular (puan ${t.score})`, details: t.queries }; },
   tikYok: () => { const t = opp.tikYok.find((s) => fresh(s.slug)); return t && { type: 'sorgu-optimizasyonu', slug: t.slug, page: t.page, reason: `Search Console: 5–20. sırada gösterim alıp tık almayan sorgular (puan ${t.score})`, details: t.queries }; },
   ctr: () => { const low = opp.lowCtr.find((s) => freshCtr(s.slug)); return low && { type: 'ctr-iyilestirme', slug: low.slug, page: low.page, reason: `${low.position}. sırada, ${low.impressions} gösterim, CTR %${(low.ctr * 100).toFixed(1)} (beklenen ~%${(low.expected * 100).toFixed(0)})`, details: low.topQueries }; },
   strike: () => { const st = opp.striking.find((s) => fresh(s.slug)); return st && { type: 'sorgu-optimizasyonu', slug: st.slug, page: st.page, reason: `1. sıra hedefi: 2–20. sıradaki sorgular (puan ${st.score})`, details: st.queries }; },
@@ -123,7 +124,8 @@ const [firstKey, ...restKeys] = ORDER[weekday];
 const improvements = [];
 for (let n = 0; n < DAILY_IMPROVE; n++) {
   let item = null;
-  for (const pick of [qHigh, pickers.tikYok, pickers[firstKey], qNormal, trendStrengthen, ...restKeys.map((k) => pickers[k])]) { item = pick() || null; if (item) break; }
+  // İlk iyileştirme medikal estetik sayfasına ayrılır (hekimin asıl alanı).
+  for (const pick of [...(n === 0 ? [pickers.tikYokSkin] : []), qHigh, pickers.tikYok, pickers[firstKey], qNormal, trendStrengthen, ...restKeys.map((k) => pickers[k])]) { item = pick() || null; if (item) break; }
   if (!item) break;
   if (item.slug && !item.page) item.page = `https://www.muhammedikbalbakirci.com/blog/${item.slug}`;
   // Fırsat sayfası kısa yazıysa tek paragraf eklemek yetmez: sorguyu yanıtlarken yazıyı da tam genişlet.
@@ -143,7 +145,11 @@ for (const q of queue.filter((x) => !x.done && x.type === 'yeni-yazi')) isler.pu
 const trends = readJson(path.join(DATA, 'trend-adaylari.json'));
 const usedTopics = new Set(history.filter((h) => h.topic).map((h) => h.topic.toLocaleLowerCase('tr')));
 const usedSeeds = new Set();
-for (const t of trends?.topics ?? []) {
+// Günün ilk yazısı medikal estetik/cilt: tık potansiyeli en yüksek konu öne alınır.
+const allTopics = trends?.topics ?? [];
+const firstSkin = allTopics.find((t) => t.skin && !usedTopics.has(t.topic.toLocaleLowerCase('tr')) && (t.closest?.coverage ?? 0) < 0.6);
+// Kalan yazılar önce diğer alanlardan; cilt konuları yalnız yedek olarak sona eklenir (3 yazının 1'i cilt).
+for (const t of [...(firstSkin ? [firstSkin] : []), ...allTopics.filter((x) => !x.skin), ...allTopics.filter((x) => x.skin && x !== firstSkin)]) {
   if (isler.filter((x) => x.type === 'yeni-yazi').length >= DAILY_NEW + 8) break; // rakip gücü ZOR çıkan konuların yerine yedekler
   // Aynı gün aynı tohumdan iki yazı birbirini yer (yamyamlık); her konu ayrı tohumdan.
   if (usedTopics.has(t.topic.toLocaleLowerCase('tr')) || (t.closest?.coverage ?? 0) >= 0.6 || usedSeeds.has(t.seed)) continue;

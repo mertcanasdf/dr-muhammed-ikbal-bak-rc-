@@ -33,7 +33,7 @@ Bu bileşiklerin laboratuvar ortamındaki antioksidan özellikleri sıkça araş
 
 ## Hangi besinler öne çıkar?
 
-Renkli sebze ve meyveler, kakao oranı yüksek şekersiz ürünler, zeytinyağı, çay, kahve, baklagiller ve baharatlar farklı polifenol türleri sağlar. Günlük beslenmede aynı ürünü yüksek miktarda tüketmek yerine farklı bitkisel kaynakları dönüşümlü kullanmak daha dengelidir.
+Renkli sebze ve meyveler, kakao oranı yüksek şekersiz ürünler, [hasat zamanına göre fenol içeriği değişen](/blog/zeytinyagi-ne-zaman-cikar) zeytinyağı, çay, kahve, baklagiller ve baharatlar farklı polifenol türleri sağlar. Günlük beslenmede aynı ürünü yüksek miktarda tüketmek yerine farklı bitkisel kaynakları dönüşümlü kullanmak daha dengelidir.
 
 Meyve suyu, şekerli kahve içeceği veya yüksek kalorili çikolata polifenol içeriyor olabilir; bu durum ürünün sınırsız tüketilebileceği anlamına gelmez. Besinin bütün matriksi, porsiyon ve hazırlama biçimi de önemlidir.
 

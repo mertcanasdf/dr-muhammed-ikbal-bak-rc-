@@ -52,7 +52,7 @@ Başlamak için bütün mutfağı değiştirmek gerekmez. Önce sık yediğiniz 
 
 Örneğin yalnız hamur işiyle geçiştirilen bir öğünü ele alalım. Evde hazırlanmış bir baklagil yemeği ve sebzeye yer açmak bir seçenek olabilir. Ancak bu örneğin miktarı, öğün saati ve yanına eklenecekler kişiye göre değişir; herkes için yeterli enerji veya protein sağladığı iddia edilmez. Hazırlama zamanı olmayan biri için önce ertesi gün kullanılacak temel malzemeyi seçmek de bir başlangıçtır.
 
-Yağı değerlendirirken eklemek ile değiştirmek arasındaki farkı koruyun. Zeytinyağının beslenme düzeninde yeri olması, mevcut öğüne sınırsız yağ eklemek anlamına gelmez. NHS, bütün yağların enerji bakımından yoğun olduğunu vurgular. Değişiklik yaparken tarifteki toplam miktar da önemini korur.
+Yağı değerlendirirken eklemek ile değiştirmek arasındaki farkı koruyun. Zeytinyağının beslenme düzeninde yeri olması, mevcut öğüne sınırsız yağ eklemek anlamına gelmez. NHS, bütün yağların enerji bakımından yoğun olduğunu vurgular. Değişiklik yaparken tarifteki toplam miktar da önemini korur. Yağın kendisini seçerken [zeytinyağının ne zaman çıktığını ve sınıflarının ne anlattığını](/blog/zeytinyagi-ne-zaman-cikar) bilmek işe yarar.
 
 ## Türk mutfağından öğün fikirleri
 

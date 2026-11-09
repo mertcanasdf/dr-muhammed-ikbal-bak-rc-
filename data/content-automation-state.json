@@ -2565,6 +2565,27 @@
       "preparedAt": "2026-11-09T10:12:13.539Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-09T10:12:16.489Z"
+    },
+    {
+      "day": "2026-11-09",
+      "slug": "zeytinyagi-ne-zaman-cikar",
+      "sourceArticleSha256": "73672be733f6a6e91a0ae8fe44715df4ca41f4c8517fcbc0e226579162e67b0c",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/zeytinyagi-ne-zaman-cikar",
+        "htmlTitle": "Zeytinyağı Ne Zaman Çıkar? Aylara Göre Hasat Takvimi",
+        "metaDescription": "Zeytinyağı ne zaman çıkar, nasıl çıkarılır? Bölgelere göre hasat aylarını, sıkım aşamalarını, soğuk sıkım ve erken hasat farkını kaynaklarıyla öğrenin.",
+        "headline": "Zeytinyağı Ne Zaman Çıkar? Hasat Takvimi ve Sıkım Aşamaları",
+        "datePublished": "2026-11-09",
+        "dateModified": "2026-11-09",
+        "wordCount": 1160,
+        "bodyTextSha256": "eeca2f7ae18dc37123b7970f4f6992dc05c9129206812c66e349ece81f657da5",
+        "htmlSha256": "35b41b739b29bf5f325bf972173a6a47901ad7f6aed5f4576aeec7861e66c08f"
+      },
+      "commit": "4454a7d65596dd479d5fe25202d73cbbde42e219",
+      "parent": "f74d32c61398a9a6bb97c91957056c6308c4d12b",
+      "preparedAt": "2026-11-09T12:11:07.325Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-09T12:11:09.938Z"
     }
   ]
 }

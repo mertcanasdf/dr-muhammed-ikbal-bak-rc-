@@ -31,7 +31,7 @@ Yaşlılarda günlük protein ihtiyacı, yalnızca yaşa bakılarak belirlenmez.
 
 ## 65 yaş üstünde protein ihtiyacı neden ayrı değerlendirilir?
 
-Protein kas dokusunun korunmasında rol oynar. İleri yaşta iştah azalması, çiğneme veya yutma güçlüğü ve hastalıklar yeterli beslenmeyi zorlaştırabilir. [ESPEN'in 2022 geriatrik beslenme rehberi](https://2022.espen.org/files/ESPEN-Guidelines/ESPEN_practical_guideline_Clinical_nutrition_and_hydration_in_geriatrics.pdf), miktarın beslenme durumu, aktivite, hastalık ve toleransa göre ayarlanmasını önerir. Yeterli toplam enerji alımı da değerlendirilmelidir.
+Protein kas dokusunun korunmasında rol oynar. İleri yaşta iştah azalması, çiğneme veya yutma güçlüğü ve hastalıklar yeterli beslenmeyi zorlaştırabilir. [ESPEN'in 2022 geriatrik beslenme rehberi](https://2022.espen.org/files/ESPEN-Guidelines/ESPEN_practical_guideline_Clinical_nutrition_and_hydration_in_geriatrics.pdf), miktarın beslenme durumu, aktivite, hastalık ve toleransa göre ayarlanmasını önerir. Yeterli toplam enerji alımı da değerlendirilmelidir. Ağır protein eksikliği, [bağışıklık sisteminin zayıflamasına yol açan nedenler](/blog/zayif-bagisiklik-sistemi-belirtileri) arasında da sayılır.
 
 Burada amaç yalnızca tartıdaki sayıyı veya protein gramını artırmak değildir. Beslenmenin sürdürülebilir olması ve kişinin günlük işlevinin korunması önemlidir. Yalnız protein miktarını yükseltmek; hareket, hastalık değerlendirmesi ve genel beslenme planının yerini tutmaz.
 

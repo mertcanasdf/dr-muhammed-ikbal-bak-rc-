@@ -30,7 +30,7 @@ relatedArticles:
 
 Takvim yaşı doğum tarihine göre geçen süreyi gösterir. Biyolojik yaş ise hücrelerin, organ sistemlerinin ve fiziksel kapasitenin yaşla ilişkili durumunu anlatmak için kullanılan şemsiye bir kavramdır. Aynı takvim yaşındaki iki kişinin kas gücü, kan basıncı, uyku düzeni ve metabolik sağlığı birbirinden belirgin biçimde farklı olabilir.
 
-Bu kavram günlük yaşamda ilgi çekici olsa da tek bir sayı gibi sunulduğunda yanıltıcı olabilir. Yaşlanma çok boyutludur; kalp-damar sistemi, kas-iskelet sistemi, bağışıklık, metabolizma ve bilişsel işlev aynı hızda değişmez.
+Bu kavram günlük yaşamda ilgi çekici olsa da tek bir sayı gibi sunulduğunda yanıltıcı olabilir. Yaşlanma çok boyutludur; kalp-damar sistemi, kas-iskelet sistemi, [bağışıklık](/blog/zayif-bagisiklik-sistemi-belirtileri), metabolizma ve bilişsel işlev aynı hızda değişmez.
 
 ## Hangi ölçümler kullanılır?
 

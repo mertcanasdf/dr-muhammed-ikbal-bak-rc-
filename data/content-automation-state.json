@@ -2544,6 +2544,27 @@
       "preparedAt": "2026-11-09T08:11:53.950Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-09T08:11:56.373Z"
+    },
+    {
+      "day": "2026-11-09",
+      "slug": "zayif-bagisiklik-sistemi-belirtileri",
+      "sourceArticleSha256": "0595585df51ccabdee1f1544b097a817185b6bc882e7667405182dec95728783",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/zayif-bagisiklik-sistemi-belirtileri",
+        "htmlTitle": "Zayıf Bağışıklık Sistemi Belirtileri: 10 Uyarı İşareti",
+        "metaDescription": "Zayıf bağışıklık sistemi belirtileri nelerdir? Normal sayılan enfeksiyon sıklığını, yetişkin ve bebekte uyarı işaretlerini ve yapılan testleri öğrenin.",
+        "headline": "Zayıf Bağışıklık Sistemi Belirtileri: Hangi Enfeksiyonlar Uyarıdır?",
+        "datePublished": "2026-11-09",
+        "dateModified": "2026-11-09",
+        "wordCount": 1195,
+        "bodyTextSha256": "1c018c0444079691df0406a05780728dea6b1a8911990597a34196f3ec6f7caa",
+        "htmlSha256": "d205963a40ed74d01e0f2427c744fb0dba8a72060acfdfa84fed5f42f157f49d"
+      },
+      "commit": "f74d32c61398a9a6bb97c91957056c6308c4d12b",
+      "parent": "4623ba3638421e15b452a0419f606280073bfe1b",
+      "preparedAt": "2026-11-09T10:12:13.539Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-09T10:12:16.489Z"
     }
   ]
 }

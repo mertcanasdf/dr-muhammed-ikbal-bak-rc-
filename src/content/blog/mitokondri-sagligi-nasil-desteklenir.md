@@ -93,7 +93,7 @@ Uyku yetersizliği, düzensiz beslenme, sigara, aşırı alkol ve kontrolsüz ka
 
 ## Takviyeler gerekli mi?
 
-Koenzim Q10, NAD öncüleri, alfa lipoik asit ve benzeri ürünler mitokondri başlığı altında pazarlanabilir. Yukarıda anlatıldığı gibi bazı mitokondriyal hastalıklarda bu tür maddeler tedavi planında yer alabilir; ancak sağlıklı kişilerin rutin olarak yüksek doz ürün kullanması otomatik olarak gerekli değildir. NAD öncülleri hakkındaki güncel kanıtı [NMN ve NAD+ yazısında](/blog/nmn-nad-yaslanma) ayrıca ele aldık.
+[Koenzim Q10](/blog/koenzim-q10-nedir), NAD öncüleri, alfa lipoik asit ve benzeri ürünler mitokondri başlığı altında pazarlanabilir. Yukarıda anlatıldığı gibi bazı mitokondriyal hastalıklarda bu tür maddeler tedavi planında yer alabilir; ancak sağlıklı kişilerin rutin olarak yüksek doz ürün kullanması otomatik olarak gerekli değildir. NAD öncülleri hakkındaki güncel kanıtı [NMN ve NAD+ yazısında](/blog/nmn-nad-yaslanma) ayrıca ele aldık.
 
 Ürünün etiketindeki doz, ilaçlarla etkileşimler, karaciğer ve böbrek durumu ile gebelik gibi özel durumlar değerlendirilmelidir. Pazarlama metnindeki "hücresel gençleşme" iddiası klinik fayda kanıtı sayılmaz.
 

@@ -41,7 +41,7 @@ ALA besinlerden alınması gereken temel bir yağ asididir. Vücut bunu EPA ve D
 | EPA | Yağlı balıklar, balık yağı ve bazı alg yağları | Takviyede miktarının ayrıca yazıp yazmadığına bakılır. |
 | DHA | Yağlı balıklar ve alg yağı | Beyin ve retinanın yapısında bulunması, takviyenin hafızayı iyileştirdiğini tek başına kanıtlamaz. |
 
-Burada iki soru farklıdır: Vücudun bir besin öğesine ihtiyacı var mı; fazladan takviye almak belirli bir kişide belirli bir hastalığı önlüyor mu? İlk sorunun yanıtı, ikinci soru için otomatik kanıt oluşturmaz.
+Burada iki soru farklıdır: Vücudun bir besin öğesine ihtiyacı var mı; fazladan takviye almak belirli bir kişide belirli bir hastalığı önlüyor mu? İlk sorunun yanıtı, ikinci soru için otomatik kanıt oluşturmaz. Aynı ayrım, vücudun kendisinin ürettiği [koenzim Q10](/blog/koenzim-q10-nedir) gibi takviyeleri değerlendirirken de geçerlidir.
 
 ## Omega-3 hangi besinlerde bulunur?
 

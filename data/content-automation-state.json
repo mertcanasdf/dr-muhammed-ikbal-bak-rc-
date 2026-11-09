@@ -2586,6 +2586,27 @@
       "preparedAt": "2026-11-09T12:11:07.325Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-09T12:11:09.938Z"
+    },
+    {
+      "day": "2026-11-09",
+      "slug": "koenzim-q10-nedir",
+      "sourceArticleSha256": "ee0b7aa1b8ef61084f80325a191d48048e357541156c1cd337b8dda89aef5295",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/koenzim-q10-nedir",
+        "htmlTitle": "Koenzim Q10 Nedir, Ne İşe Yarar? Faydaları, Besinler",
+        "metaDescription": "Koenzim Q10 nedir, nelerde var? Kalp, migren ve statin kas ağrısı kanıtlarını, besinlerdeki miktarları ve varfarin etkileşimini tek yerde görün.",
+        "headline": "Koenzim Q10 Nedir, Ne İşe Yarar? Faydaları ve Besin Kaynakları",
+        "datePublished": "2026-11-09",
+        "dateModified": "2026-11-09",
+        "wordCount": 1226,
+        "bodyTextSha256": "70c63e903abdb4bc1da1d1cd3444e0860706889628b929abe3ca438fec7a3918",
+        "htmlSha256": "c2da8f76e09b943d37d3e96fcf96de11a2907879872c1332ea4d290b73d8e0d7"
+      },
+      "commit": "c32f6e62fcdb98d17d7c16932d7ededd1689b880",
+      "parent": "4454a7d65596dd479d5fe25202d73cbbde42e219",
+      "preparedAt": "2026-11-09T14:14:17.851Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-09T14:14:20.751Z"
     }
   ]
 }

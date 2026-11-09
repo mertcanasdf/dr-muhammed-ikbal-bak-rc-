@@ -31,7 +31,7 @@ C vitamini günün herhangi bir saatinde içilebilir; incelediğimiz kaynaklarda
 
 ## C vitamini sabah mı akşam mı içilir?
 
-Saat için kanıta dayalı bir öneri bulamadık. Takviye listelerinde belirli saatler önerilse de bunların dayandığı bir çalışmaya rastlamadık. Bu yüzden en iyi saat, unutmadan aynı düzende alabildiğiniz saattir.
+Takviye listelerinde belirli saatler önerilse de bu önerilerin arkasında gösterilebilen bir çalışma yok. Bu yüzden en iyi saat, unutmadan aynı düzende alabildiğiniz saattir.
 
 Düzenin önemli olmasının nedeni basittir: [NHS'e göre vücut C vitaminini depolayamaz](https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c/), bu yüzden her gün beslenmeyle alınması gerekir. Kahvaltıda portakal ya da öğlen biberli salata, bu ihtiyacı saat hesabı yapmadan karşılayan yollardır. Yağda çözünen vitaminlerde sorular başkadır; onları [D3 ve K2 yazısında](/blog/d3-k2-birlikte-kullanilir-mi) ele alıyoruz.
 

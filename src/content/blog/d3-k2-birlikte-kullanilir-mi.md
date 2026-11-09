@@ -93,7 +93,7 @@ Kutuların ön ve arka yüzünün fotoğrafını çekmek, görüşmede yalnız m
 
 [NHS K vitamini rehberi](https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-k/), yeşil yapraklı sebzeler, bitkisel yağlar ve bazı hayvansal besinleri kaynaklar arasında sayar. Çeşitli ve dengeli beslenme temel yaklaşımdır. Ancak “K vitamini içeren besin” ile “K2 takviyesi” aynı şey değildir; bir besin listesinden kişisel kapsül gereksinimi çıkarılamaz.
 
-D vitamini yağlı balık ve yumurta sarısı gibi besinlerde bulunur; bazı ürünlere ayrıca eklenir. [NHS D vitamini rehberindeki](https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/) mevsim ve takviye önerileri Birleşik Krallık bağlamındadır. Bu takvim ve miktarlar, Türkiye'deki her kişiye doğrudan aktarılmamalıdır.
+D vitamini yağlı balık ve yumurta sarısı gibi besinlerde bulunur; bazı ürünlere ayrıca eklenir. [NHS D vitamini rehberindeki](https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/) mevsim ve takviye önerileri Birleşik Krallık bağlamındadır. Bu takvim ve miktarlar, Türkiye'deki her kişiye doğrudan aktarılmamalıdır. Yağda çözünen D ve K vitaminlerinden farklı olarak suda çözünen [C vitamininde bir seferde emilen miktar](/blog/c-vitamini-ne-zaman-icilir) daha belirleyicidir.
 
 Gereğinden fazla D vitamini uzun süre kullanıldığında kalsiyum yüksekliği gelişebilir; böbrekler ve kalp etkilenebilir. Böbrek hastalığı, taş veya kalsiyum yüksekliği öyküsünü değerlendirmede paylaşın. K2 eklemek, bu risklerin ortadan kalktığını göstermez. [NIH'nin güvenlik açıklamasına](https://ods.od.nih.gov/factsheets/VitaminD-Consumer/) göre aşırı D vitamini; bulantı, kusma, belirgin susama ve sık idrara çıkma gibi yakınmalarla ilişkili olabilir. Bu belirtilerin başka nedenleri de vardır; kendi kendine tanı koymayın.
 

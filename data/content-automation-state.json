@@ -2523,6 +2523,27 @@
       "preparedAt": "2026-11-09T06:21:10.239Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-09T06:21:12.783Z"
+    },
+    {
+      "day": "2026-11-09",
+      "slug": "c-vitamini-ne-zaman-icilir",
+      "sourceArticleSha256": "baac62ae2bcc1ada16deadf2d6dc139de012e9fac7b81c55fabf57448adb89ad",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/c-vitamini-ne-zaman-icilir",
+        "htmlTitle": "C Vitamini Ne Zaman İçilir? Sabah mı, Aç mı Tok mu?",
+        "metaDescription": "C vitamini ne zaman içilir? Sabah ya da akşam, aç ya da tok alımın farkını, bir seferde ne kadarının emildiğini ve demirle kullanımını öğrenin.",
+        "headline": "C Vitamini Ne Zaman İçilir? Saat, Öğün ve Emilim Rehberi",
+        "datePublished": "2026-11-09",
+        "dateModified": "2026-11-09",
+        "wordCount": 1238,
+        "bodyTextSha256": "b06d911946b89dfb5fa803a78d1291c544ee4081f8a71bbc173f10a6129ea299",
+        "htmlSha256": "32de5ca4dfb3b1d1b1ae69fb766a0519649a3491655c99cd34468190fb8cc25d"
+      },
+      "commit": "4623ba3638421e15b452a0419f606280073bfe1b",
+      "parent": "e6f93354e88ec2a8269dbdb04633ad6fc9a934c0",
+      "preparedAt": "2026-11-09T08:11:53.950Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-09T08:11:56.373Z"
     }
   ]
 }

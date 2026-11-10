@@ -33,7 +33,7 @@ relatedArticles:
 
 ## Önce ürün ile uygulama amacını ayırın
 
-“Dolgu” tek bir madde veya tek bir işlem anlamına gelmez. Hyalüronik asit, kalsiyum hidroksiapatit ve diğer materyaller aynı özellikleri taşımaz. Ürün adı, içerik ve uygulanacak bölge birlikte konuşulmalıdır. [FDA'nın ürün açıklaması](https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/fda-approved-dermal-fillers), incelemenin belirli ürünlerin belirli bölgelerde kullanımı için yapıldığını belirtir.
+“Dolgu” tek bir madde veya tek bir işlem anlamına gelmez. Hyalüronik asit, kalsiyum hidroksiapatit ve diğer materyaller aynı özellikleri taşımaz. Ürün adı, içerik ve uygulanacak bölge birlikte konuşulmalıdır. Dudak gibi sürekli hareket eden ve damarı yoğun bölgelerin kendine özgü riskleri vardır; [dudak dolgusu nasıl yapılır](/blog/dudak-dolgusu-nasil-yapilir) yazısı bu bölgeye odaklanır. [FDA'nın ürün açıklaması](https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/fda-approved-dermal-fillers), incelemenin belirli ürünlerin belirli bölgelerde kullanımı için yapıldığını belirtir.
 
 “FDA onaylı” ifadesi, aynı ürünün bütün bölgelere uygun olduğu veya her kişide aynı sonucu vereceği anlamına gelmez. FDA ABD düzenleyicisidir; bu sayfalar Türkiye'deki bir ürünün yasal durumunu tek başına doğrulamaz. Ürünün kullanım bilgilerini görmek, hangi malzemenin neden seçildiğini anlamak için bir başlangıçtır. “Herkeste aynı dolguyu kullanıyoruz” cevabı kişisel değerlendirme ihtiyacını ortadan kaldırmaz.
 

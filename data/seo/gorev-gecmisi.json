@@ -1120,5 +1120,37 @@
     "topic": "koenzim q10 nedir",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-10",
+    "type": "sorgu-optimizasyonu",
+    "slug": "ben-takibi-abcde-nedir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-10",
+    "type": "yazi-genisletme",
+    "slug": "kreatin-ve-yaslanma",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-10",
+    "type": "sorgu-optimizasyonu",
+    "slug": "uyku-gunlugu-nasil-tutulur",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-10",
+    "type": "sorgu-optimizasyonu",
+    "slug": "saglikli-yasam-suresi-healthspan-nedir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-10",
+    "type": "yeni-yazi",
+    "slug": "dudak-dolgusu-nasil-yapilir",
+    "topic": "dudak dolgusu nasıl yapılır",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

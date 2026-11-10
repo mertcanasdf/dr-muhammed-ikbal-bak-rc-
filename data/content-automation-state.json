@@ -2607,6 +2607,27 @@
       "preparedAt": "2026-11-09T14:14:17.851Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-09T14:14:20.751Z"
+    },
+    {
+      "day": "2026-11-10",
+      "slug": "dudak-dolgusu-nasil-yapilir",
+      "sourceArticleSha256": "c664cdfcad8690305b09835769bb76962a8e3b84ad9aba6a2f19b7acf469520b",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/dudak-dolgusu-nasil-yapilir",
+        "htmlTitle": "Dudak Dolgusu Nasıl Yapılır? Süresi, Etkisi, Zararları",
+        "metaDescription": "Dudak dolgusu nasıl yapılır, etkisi ne zaman geçer? Uygulama adımlarını, şişliğin seyrini, olası zararları ve acil belirtileri kaynaklarla öğrenin.",
+        "headline": "Dudak Dolgusu Nasıl Yapılır? Adımlar, Kalıcılık ve Olası Zararlar",
+        "datePublished": "2026-11-10",
+        "dateModified": "2026-11-10",
+        "wordCount": 1437,
+        "bodyTextSha256": "922b39fcb2b4cec8df2d45ad4a0bba78d18369a32184d1a5690d4fea533b76f2",
+        "htmlSha256": "709136d368b01af08b7c025be0cf4a14f2b7c3e2fc927a2dffdf71d1de0c4104"
+      },
+      "commit": "9fc649d0ac74d8da34443e914d116e11e3ba5f54",
+      "parent": "11f42d6a9fc94192e85e0a81a6fb7a23acd0f8ba",
+      "preparedAt": "2026-11-10T17:29:04.020Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-10T17:29:06.932Z"
     }
   ]
 }

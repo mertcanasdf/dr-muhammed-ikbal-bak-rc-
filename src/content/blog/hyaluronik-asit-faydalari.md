@@ -121,7 +121,7 @@ Var. Serum yüzeyde nem tutar; ağızdan alınan formun cilde etkisi küçük ç
 
 ### Hyaluronik asit ile dolgu aynı şey mi?
 
-Hayır. Dolgularda da HA kullanılır ama çapraz bağlanmış, enjekte edilen bir jel formudur. Serumdaki HA cilde bu etkiyi veremez.
+Hayır. Dolgularda da HA kullanılır ama çapraz bağlanmış, enjekte edilen bir jel formudur. Serumdaki HA cilde bu etkiyi veremez. Bu jelin dudakta nasıl uygulandığını [dudak dolgusu nasıl yapılır](/blog/dudak-dolgusu-nasil-yapilir) yazısında adım adım anlattık.
 
 ## Kaynaklar
 

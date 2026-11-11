@@ -2,12 +2,13 @@
 title: "Ultra İşlenmiş Gıda Nedir? NOVA ve Araştırmaları Okuma Rehberi"
 seoTitle: "Ultra İşlenmiş Gıda Nedir? NOVA ve Etiket Okuma Rehberi"
 date: 2026-10-06
-description: "Ultra işlenmiş gıda nedir? NOVA ile etiket farkını, 2019 deneyini ve 2024 derlemesinin sınırlarını öğrenin; alışveriş kararlarını gözden geçirin."
+updated: 2026-11-11
+description: "Ultra işlenmiş gıda nedir? NOVA sınıflandırmasının 4 grubunu örneklerle, etiketle farkını ve 2019 deneyi ile 2024 derlemesinin sınırlarını öğrenin."
 category: "Beslenme"
 image: "/assets/images/generated/articles/ultra-islenmis-gida-nedir.webp"
-readTime: "5 dk"
+readTime: "6 dk"
 takeaways:
-  - "NOVA işlenme biçimini sınıflandırır; beslenme tablosu farklı bir bilgi sağlar."
+  - "NOVA sınıflandırması gıdaları işlenme biçimine göre dört gruba ayırır; beslenme tablosu farklı bir bilgi sağlar."
   - "Kısa süreli deneyin enerji alımı bulgusu bütün ürünler ve hastalıklar için aynı sonucu kanıtlamaz."
   - "Alışverişte ürünün içeriği, besin değerleri, kullanım sıklığı ve erişilebilir alternatifler birlikte değerlendirilir."
 relatedArticles:
@@ -25,15 +26,35 @@ relatedArticles:
     image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
 ---
 
-Ultra işlenmiş gıda nedir sorusu, ürünün yalnızca paketli olup olmadığına bakılarak yanıtlanamaz. Terim, NOVA adlı sistemde endüstriyel üretimin biçimi ve amacına ilişkin bir kategoriyi anlatır. Besin etiketi ise enerji, protein, şeker veya tuz miktarını gösterir. **Bu iki bilgi birbirini tamamlar; hiçbirisi tek başına kişinin bütün beslenmesini veya sağlık riskini özetlemez.**
+Ultra işlenmiş gıda nedir sorusu, ürünün yalnızca paketli olup olmadığına bakılarak yanıtlanamaz. Terim, NOVA sınıflandırmasının dördüncü grubunu, yani çoğunlukla işlenmiş bileşenler ve katkılardan oluşan endüstriyel formülasyonları anlatır. Besin etiketi ise enerji, protein, şeker veya tuz miktarını gösterir. **Bu iki bilgi birbirini tamamlar; hiçbirisi tek başına kişinin bütün beslenmesini veya sağlık riskini özetlemez.**
 
-## NOVA neyi sınıflandırır?
+## NOVA sınıflandırması nedir?
 
-NOVA dört ana grubu ayırır: işlenmemiş veya az işlenmiş gıdalar; yağ, şeker ve tuz gibi mutfak bileşenleri; işlenmiş gıdalar; ultra işlenmiş ürünler. Son grupta çoğunlukla endüstriyel bileşenlerle oluşturulan, örneğin aroma veya emülgatör içerebilen formülasyonlar bulunur. [Food Standards Scotland açıklaması](https://www.foodstandards.gov.scot/consumer-advice/healthy-eating/balanced-diet/processed-and-ultra-processed-foods), grupları ve sistemin besin içeriğinden farklı amacını açıklar.
+NOVA sınıflandırması, gıdaları besin değerine göre değil, endüstriyel işlemenin kapsamına ve amacına göre dört gruba ayıran bir sistemdir. Brezilyalı araştırmacılar geliştirmiştir. [Food Standards Scotland açıklaması](https://www.foodstandards.gov.scot/consumer-advice/healthy-eating/balanced-diet/processed-and-ultra-processed-foods) grupları şu örneklerle verir:
+
+| NOVA grubu | Ne anlatır? | Örnekler |
+|---|---|---|
+| 1. İşlenmemiş ya da az işlenmiş gıdalar | Doğal haline yakın besinler | Taze meyve ve sebze, et, balık |
+| 2. İşlenmiş mutfak bileşenleri | Yemek hazırlarken kullanılan maddeler | Sıvı yağlar, tereyağı, şeker, tuz |
+| 3. İşlenmiş gıdalar | İlk iki gruba tuz, yağ, şeker ya da koruyucu eklenerek yapılanlar | Konserve sebze ve balık, şuruplu meyve, peynir, taze yapılmış ekmek |
+| 4. Ultra işlenmiş gıdalar | Çoğunlukla ya da tümüyle işlenmiş bileşenler ve katkılardan oluşan formülasyonlar | Gazlı içecekler, paketli tatlı ve tuzlu atıştırmalıklar, yeniden şekillendirilmiş et ürünleri, hazır dondurulmuş yemekler |
+
+### Bir ürünün NOVA 4. grupta olduğu nasıl anlaşılır?
+
+Sistemi geliştiren ekibin [2019 tarihli rehberi](https://pubmed.ncbi.nlm.nih.gov/30744710/) pratik bir ölçüt önerir: içindekiler listesinde aşağıdakilerden en az biri varsa ürün ultra işlenmiş gruba girer.
+
+- **Mutfakta hiç ya da nadiren kullanılan maddeler:** yüksek fruktozlu mısır şurubu, hidrojene ya da interesterifiye yağlar, hidrolize proteinler.
+- **Ürünü daha çekici kılmak için eklenen katkı sınıfları:** aroma vericiler, lezzet artırıcılar, renklendiriciler, emülgatörler, tatlandırıcılar, kıvam artırıcılar.
+
+Bu bir araştırma ölçütüdür; ambalajda "NOVA 4" yazan resmi bir işaret bulunmaz.
+
+### NOVA sınıflandırması neden eleştiriliyor?
+
+Food Standards Scotland üç sınıra dikkat çeker. İşlenmiş ve ultra işlenmiş gıdanın üzerinde uzlaşılmış tek bir tanımı yoktur; NOVA yöntemlerden yalnızca biridir. Sistem besin içeriğine bakmadığı için tam buğday ekmeği ya da konserve sebze gibi besleyici ürünler de işlenmiş ya da ultra işlenmiş gruplara düşebilir. Ayrıca olumsuz sağlık sonuçlarının işlemenin kendisinden mi, yoksa bu ürünlerde sık görülen yüksek yağ, şeker ve tuzdan mı kaynaklandığı net değildir.
 
 Dondurma, kurutma, pastörizasyon veya konserveleme gibi işlemlerin varlığı otomatik olarak ultra işlenmiş anlamına gelmez. Paket, ürünün taşınmasını ve saklanmasını sağlar; sınıflandırmanın tek ölçütü değildir. Örneğin sade bir temel besinle çok bileşenli hazır atıştırmalığın ambalajlı olması, ikisini aynı beslenme seçeneği haline getirmez. Belirli ürün için içerik ve üretim bilgisi gerekir.
 
-İçindekiler listesinin uzunluğu da tek başına kesin test değildir. Bir ev yemeğinin baharatlarla uzun bir listesi olabilir. Buna karşılık kısa bir liste, üründeki şeker veya tuz miktarının düşük olduğunu göstermez. Etikette anlamını bilmediğiniz bir sözcük görmekten doğrudan kişisel zarar sonucu çıkarmak yerine, ürünün bileşimini ve kullanımını birlikte inceleyin.
+İçindekiler listesinin uzunluğu da kesin bir test değildir. Bir ev yemeğinin baharatlarla uzun bir listesi olabilir. Buna karşılık kısa bir liste, üründeki şeker veya tuz miktarının düşük olduğunu göstermez. Etikette anlamını bilmediğiniz bir sözcük görmekten doğrudan kişisel zarar sonucu çıkarmak yerine, ürünün bileşimini ve kullanımını birlikte inceleyin.
 
 ## NOVA ile beslenme tablosu arasındaki fark
 
@@ -78,6 +99,7 @@ Bir alışkanlığı seçerek başlamak daha anlaşılır olabilir. İçeriği v
 ## Kaynaklar
 
 - [Food Standards Scotland: Processed and ultra-processed foods](https://www.foodstandards.gov.scot/consumer-advice/healthy-eating/balanced-diet/processed-and-ultra-processed-foods)
+- [Monteiro ve arkadaşları, 2019: Ultra işlenmiş gıdalar nedir ve nasıl tanınır](https://pubmed.ncbi.nlm.nih.gov/30744710/)
 - [Hall ve arkadaşları, 2019: Rastgele kontrollü beslenme deneyi](https://pubmed.ncbi.nlm.nih.gov/31105044/)
 - [NIH, 2019: Araştırmanın açıklaması ve sınırları](https://www.nih.gov/news-events/news-releases/nih-study-finds-heavily-processed-foods-cause-overeating-weight-gain)
 - [Lane ve arkadaşları, BMJ 2024: Şemsiye derleme](https://pmc.ncbi.nlm.nih.gov/articles/PMC10899807/)

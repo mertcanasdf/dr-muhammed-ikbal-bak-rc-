@@ -64,7 +64,7 @@ Hayır. Şekerler satırı üründeki toplam şekerleri gösterir; doğal olarak
 
 ## İçindekiler ve alerjen kontrolü
 
-İçindekiler genel olarak üretimde kullanılan ağırlığa göre çoktan aza sıralanır. İlk sıradaki bileşen ürün hakkında başlangıç bilgisi verir; ancak ilk üç maddeyi görmek tek başına bütün ürünü değerlendirmeye yetmez. [Bakanlığın tüketici broşürü](https://www.tarimorman.gov.tr/GKGM/Belgeler/Tuketici_Bilgi_Kosesi/Brosurler/saglikli_beslenme.pdf) içerik sıralamasını açıklar. Bu eski tarihli broşürü güncel mevzuatın bütün ayrıntıları yerine temel okuma ilkesi için kullanıyoruz.
+İçindekiler genel olarak üretimde kullanılan ağırlığa göre çoktan aza sıralanır. İlk sıradaki bileşen ürün hakkında başlangıç bilgisi verir; ancak ilk üç maddeyi görmek tek başına bütün ürünü değerlendirmeye yetmez. [Bakanlığın tüketici broşürü](https://www.tarimorman.gov.tr/GKGM/Belgeler/Tuketici_Bilgi_Kosesi/Brosurler/saglikli_beslenme.pdf) içerik sıralamasını açıklar. Bu eski tarihli broşürü güncel mevzuatın bütün ayrıntıları yerine temel okuma ilkesi için kullanıyoruz. İçindekiler listesindeki bileşenlerin ürünün işlenme düzeyi hakkında ne söylediğini [NOVA sınıflandırması ve ultra işlenmiş gıdalar](/blog/ultra-islenmis-gida-nedir) yazısında bulabilirsiniz.
 
 Bilinen gıda alerjiniz varsa alerjen bilgisini ayrıca kontrol edin. Bir ürünün şekerinin düşük olması, size uygun olduğu anlamına gelmez. Aynı ürünün yeni ambalajında içerik değişebileceğinden yalnızca daha önce satın aldığınız markaya güvenmeyin. Alerjen uyarısı, beslenme tablosundan farklı bir soruya yanıt verir: ürünün kişisel güvenliği.
 

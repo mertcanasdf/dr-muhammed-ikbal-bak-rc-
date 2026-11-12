@@ -54,7 +54,7 @@ Food Standards Scotland üç sınıra dikkat çeker. İşlenmiş ve ultra işlen
 
 Dondurma, kurutma, pastörizasyon veya konserveleme gibi işlemlerin varlığı otomatik olarak ultra işlenmiş anlamına gelmez. Paket, ürünün taşınmasını ve saklanmasını sağlar; sınıflandırmanın tek ölçütü değildir. Örneğin sade bir temel besinle çok bileşenli hazır atıştırmalığın ambalajlı olması, ikisini aynı beslenme seçeneği haline getirmez. Belirli ürün için içerik ve üretim bilgisi gerekir.
 
-İçindekiler listesinin uzunluğu da kesin bir test değildir. Bir ev yemeğinin baharatlarla uzun bir listesi olabilir. Buna karşılık kısa bir liste, üründeki şeker veya tuz miktarının düşük olduğunu göstermez. Etikette anlamını bilmediğiniz bir sözcük görmekten doğrudan kişisel zarar sonucu çıkarmak yerine, ürünün bileşimini ve kullanımını birlikte inceleyin.
+İçindekiler listesinin uzunluğu da kesin bir test değildir. Bir ev yemeğinin baharatlarla uzun bir listesi olabilir. Buna karşılık kısa bir liste, üründeki şeker veya tuz miktarının düşük olduğunu göstermez; günlük sınırın kaç gram olduğunu [tuz tüketimi ne kadar olmalı](/blog/tuz-tuketimi-ne-kadar-olmali) yazısında bulabilirsiniz. Etikette anlamını bilmediğiniz bir sözcük görmekten doğrudan kişisel zarar sonucu çıkarmak yerine, ürünün bileşimini ve kullanımını birlikte inceleyin.
 
 ## NOVA ile beslenme tablosu arasındaki fark
 

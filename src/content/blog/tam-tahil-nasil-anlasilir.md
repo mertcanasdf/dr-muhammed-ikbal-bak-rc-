@@ -62,7 +62,7 @@ Son olarak belirtilmişse yüzde bilgisini okuyun. “Tam tahıl içerir” söz
 
 A, tahıl bileşenini başta tam buğday olarak açıkça belirtir. B'de tam çavdar vardır; ancak listede ilk tahıl bileşeni tam olarak belirtilmeyen buğday unudur. Kepek de ayrı eklenmiş görünür. B'nin bütün tahıllarının tam olduğunu veya A ile aynı miktarda tam tahıl içerdiğini söyleyemeyiz. B'deki tam çavdarın yüzde miktarı verilmemişse bu miktarı da hesaplayamayız.
 
-Bu iki listeyle henüz enerji, tuz veya lif karşılaştırması yapmış olmadık. Tam tahıl içeriğini anlamak bir adımdır; beslenme tablosunu değerlendirmek ikinci adımdır. Aynı ürün grubunda 100 gramdaki lif ve tuzu karşılaştırın. Lifin yüksek olması ise tek başına tam tahıl oranını ölçmez; ürüne ayrıca lif içeren bileşenler eklenmiş olabilir.
+Bu iki listeyle henüz enerji, tuz veya lif karşılaştırması yapmış olmadık. Tam tahıl içeriğini anlamak bir adımdır; beslenme tablosunu değerlendirmek ikinci adımdır. Aynı ürün grubunda 100 gramdaki lif ve tuzu karşılaştırın; ekmek, [günlük tuz tüketiminin](/blog/tuz-tuketimi-ne-kadar-olmali) fark edilmeyen kaynaklarından biridir. Lifin yüksek olması ise tek başına tam tahıl oranını ölçmez; ürüne ayrıca lif içeren bileşenler eklenmiş olabilir.
 
 ## Tam tahıllı olması neden tek başına yeterli değil?
 

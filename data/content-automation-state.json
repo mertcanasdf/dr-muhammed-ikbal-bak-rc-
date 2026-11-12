@@ -2670,6 +2670,27 @@
       "preparedAt": "2026-11-12T10:10:48.945Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-12T10:10:51.716Z"
+    },
+    {
+      "day": "2026-11-12",
+      "slug": "tuz-tuketimi-ne-kadar-olmali",
+      "sourceArticleSha256": "989fc7e710bddffa3ffba1654d3c04b58d1829e2063496bb15c344c564b59d17",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/tuz-tuketimi-ne-kadar-olmali",
+        "htmlTitle": "Tuz Tüketimi Ne Kadar Olmalı? Günlük 5 Gram Kuralı",
+        "metaDescription": "Tuz tüketimi ne kadar olmalı? Yetişkin ve çocuklar için günlük sınırı, 5 gramın sofradaki karşılığını ve hamilelikte tuz tüketimi nasıl olmalı öğrenin.",
+        "headline": "Tuz Tüketimi Ne Kadar Olmalı? Günlük Sınır ve Hamilelik",
+        "datePublished": "2026-11-12",
+        "dateModified": "2026-11-12",
+        "wordCount": 1156,
+        "bodyTextSha256": "8d474b1206788c9886408021ccbbfdc1253ed959f982b71f43562fe6fe4ec2b6",
+        "htmlSha256": "2f1e5cfbc8b407fd677459398ad0f147498cbae99a394c10cdb27a459cae7fef"
+      },
+      "commit": "8c7890fdbbf52ff73420eb2ce64df1a2dd558ebd",
+      "parent": "934c5b248cc001c6c64f470d3f22b7f30aa14a90",
+      "preparedAt": "2026-11-12T14:11:04.069Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-12T14:11:07.148Z"
     }
   ]
 }

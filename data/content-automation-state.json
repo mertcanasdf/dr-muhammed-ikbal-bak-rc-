@@ -2649,6 +2649,27 @@
       "preparedAt": "2026-11-12T06:17:20.322Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-12T06:17:22.990Z"
+    },
+    {
+      "day": "2026-11-12",
+      "slug": "demir-eksikligi-ilaci-faydalari",
+      "sourceArticleSha256": "b48d2d9d6f664ed15bad418029dfaf633d6d762eda08f68e177bb0dcf39f11cc",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/demir-eksikligi-ilaci-faydalari",
+        "htmlTitle": "Demir Eksikliği İlacı Faydaları, Zararları, Ne Zaman İçilir",
+        "metaDescription": "Demir eksikliği ilacı ne işe yarar, ne zaman içilir? Aç-tok alım, çay ve sütle ara, etkisinin kaç haftada başladığı ve ciddiye alınacak yan etkiler.",
+        "headline": "Demir Eksikliği İlacı: Faydaları, Zararları ve Ne Zaman İçilir?",
+        "datePublished": "2026-11-12",
+        "dateModified": "2026-11-12",
+        "wordCount": 1291,
+        "bodyTextSha256": "6c9204f23b21145cf4fa25f4d9126b666edd8f99e8deaf997fe2774eb82ca970",
+        "htmlSha256": "c2ead2da9fe53af9f5633fdb3625c82a3cce81ea48b769cf3c167feb12195dbf"
+      },
+      "commit": "934c5b248cc001c6c64f470d3f22b7f30aa14a90",
+      "parent": "7d423875f317ceabadb32ec0ffaf3176bacecb76",
+      "preparedAt": "2026-11-12T10:10:48.945Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-12T10:10:51.716Z"
     }
   ]
 }

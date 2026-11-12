@@ -90,7 +90,7 @@ Kaynaklar arasında görüş ayrılığı da vardır: Linus Pauling Enstitüsü 
 
 Evet, bitkisel kaynaklı demirde birlikte alım emilimi artırır. [Teucher ve arkadaşlarının derlemesi](https://europepmc.org/article/MED/15743017), askorbik asidi bitkisel demir için en etkili artırıcı olarak tanımlar; az ya da orta düzeyde engelleyici içeren öğünlerde 3 mg demire karşılık 20 mg C vitamini oranını örnek verir. Bu oran için yüksek dozlu takviye gerekmez; öğündeki sebze ya da meyve söz konusu miktara ulaşabilir. Aynı derleme, uzun dönemde demir düzeyine etkinin tek öğün çalışmalarının düşündürdüğünden küçük olabileceğini de not eder.
 
-Demir eksikliğinde beslenmenin sınırları ve demir fazlası yapan hastalıklarda C vitamini takviyesinden neden kaçınıldığı [ferritin yazısında](/blog/ferritin-nasil-yukseltilir) anlatılıyor. Kolajen üretimindeki rolü için [kolajen hangi yiyeceklerde var](/blog/kolajen-hangi-yiyeceklerde-var) yazısına bakabilirsiniz; genel çerçeve [beslenme ve sağlıklı yaşlanma merkezinde](/longevity/beslenme).
+Demir eksikliğinde beslenmenin sınırları ve demir fazlası yapan hastalıklarda C vitamini takviyesinden neden kaçınıldığı [ferritin yazısında](/blog/ferritin-nasil-yukseltilir) anlatılıyor. Demir tabletinin kendisinin aç mı tok mu alındığı ise [demir eksikliği ilacı yazısının](/blog/demir-eksikligi-ilaci-faydalari) konusu. Kolajen üretimindeki rolü için [kolajen hangi yiyeceklerde var](/blog/kolajen-hangi-yiyeceklerde-var) yazısına bakabilirsiniz; genel çerçeve [beslenme ve sağlıklı yaşlanma merkezinde](/longevity/beslenme).
 
 ## Hangi ilaçlarla birlikte dikkat gerekir?
 

@@ -1,9 +1,9 @@
 ---
 title: "Sanat Üretmek Beyin Sağlığını Nasıl Etkiler?"
-seoTitle: "Resim Yapmak Beyne İyi Gelir mi? Sanat ve Beyin Sağlığı"
+seoTitle: "Resim Yapmak Beyne İyi Gelir mi? Kanıtlar Ne Gösteriyor?"
 date: 2026-06-21
 updated: 2026-10-28
-description: "Resim yapmak beyne iyi gelir mi, sanat stresi azaltır mı? Beyin bağlantıları, kortizol ve ileri yaşta bilişsel gerilemeyle ilgili çalışmalar ve sınırları."
+description: "Resim yapmak beyne iyi gelebilir: küçük deneylerde stres hormonu düştü, sanatla uğraşan yaşlılarda bilişsel gerileme daha az görüldü. Kanıtın sınırlarıyla."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/sanat-ve-beyin-sagligi.webp"
 readTime: "6 dk"

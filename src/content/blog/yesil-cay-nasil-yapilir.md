@@ -1,9 +1,9 @@
 ---
 title: "Yeşil Çay Nasıl Yapılır? Demleme, Faydaları ve Zararları"
-seoTitle: "Yeşil Çay Nasıl Yapılır? Demleme, Faydası ve Zararları"
+seoTitle: "Yeşil Çay Nasıl Yapılır? Demlenir mi, Kaynatılır mı?"
 date: 2026-10-31
 updated: 2026-10-31
-description: "Yeşil çay nasıl yapılır, kaç derecede ve kaç dakika demlenir? Ne işe yaradığını, faydalarının kanıtını, zararlarını ve özüt riskini kaynaklarla öğrenin."
+description: "Yeşil çay kaynatılmaz; kaynamış su 80-85 °C'ye inince 2-3 dakika demlenir. Adım adım yapılışı, içine limon konur mu, faydaları ve zararları kaynaklarıyla."
 category: "Beslenme"
 image: "/assets/images/generated/articles/yesil-cay-nasil-yapilir.webp"
 readTime: "7 dk"

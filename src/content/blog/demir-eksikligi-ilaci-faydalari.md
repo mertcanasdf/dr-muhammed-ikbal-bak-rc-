@@ -33,7 +33,7 @@ Aşağıdaki bilgiler ağızdan alınan demir tabletleri, kapsülleri ve şurupl
 
 ## Demir eksikliği ilacı ne işe yarar?
 
-Demir, kırmızı kan hücrelerinde oksijeni taşıyan hemoglobinin yapı taşıdır. Depo boşaldığında kemik iliği yeterli hemoglobin üretemez ve dokulara giden oksijen azalır. [NHS'in demir tableti sayfasına](https://www.nhs.uk/medicines/ferrous-sulfate/common-questions-about-ferrous-sulfate/) göre ilaç, kandaki demiri yükselterek demir eksikliği anemisinin belirtilerini düzeltir ya da önler:
+Demir, kırmızı kan hücrelerinde oksijeni taşıyan hemoglobinin yapı taşıdır. Depo boşaldığında kemik iliği yeterli hemoglobin üretemez ve dokulara giden oksijen azalır. [NHS'in demir tableti sayfasına](https://www.nhs.uk/medicines/ferrous-sulfate/common-questions-about-ferrous-sulfate/) göre ilaç, kandaki demiri yükselterek yorgunluk ve enerji düşüklüğü gibi belirtileri düzeltir ya da önler. Demir eksikliği anemisinde sık görülen yakınmalar şunlardır:
 
 - yorgunluk ve enerji düşüklüğü,
 - solukluk,
@@ -85,7 +85,7 @@ Bu konuda uygulama değişiyor. Demir alındıktan sonra karaciğerin ürettiği
 | 2–4 ay | İlacın tam etkisi ortaya çıkar |
 | Sonraki aylar | Depoyu doldurmak için tedavi sürer |
 
-Süre konusunda kaynaklar aynı yönü gösterir ama rakamları farklıdır: NHS, değerler düzeldikten sonra genellikle 3–6 ay daha devam edildiğini; MedlinePlus ise kemik iliğindeki depoların dolması için 6–12 ay daha kullanılabildiğini yazar. Ortak nokta şudur: kendini iyi hissetmek tedavinin bittiğini göstermez. Erken bırakılan tedavide depo dolmadan kalır ve yakınmalar geri dönebilir.
+Süre konusunda kaynaklar aynı yönü gösterir ama rakamları farklıdır: NHS, durum düzeldikten sonra genellikle 3–6 ay daha devam edildiğini; MedlinePlus ise kemik iliğindeki depoların dolması için 6–12 ay daha kullanılabildiğini yazar. Ortak nokta şudur: kendini iyi hissetmek tedavinin bittiğini göstermez. Erken bırakılan tedavide depo dolmadan kalır ve yakınmalar geri dönebilir.
 
 Aylar içinde değerler yükselmiyorsa ilaç "tutmuyor" demek için erkendir; emilimi bozan bir alışkanlık, süren bir kan kaybı ya da emilim sorunu aranır. Tablet işe yaramadığında ya da demir çok düşük olduğunda damardan demir bir seçenektir.
 
@@ -110,7 +110,7 @@ MedlinePlus, vücudun ihtiyacından fazla demir almanın ciddi sorunlara yol aç
 
 ## Siyah dışkı normal mi, hangi belirti acil?
 
-Koyu yeşil-siyah dışkı demirin kendisinden kaynaklanır ve zararsızdır. Ayırt edilmesi gereken, sindirim kanalındaki kanamanın görüntüsüdür. Aşağıdakiler beklenen yan etki sayılmaz ve aynı gün değerlendirilmelidir:
+Dışkının koyulaşması demirin kendisinden kaynaklanır ve çoğunlukla zararsızdır. Ayırt edilmesi gereken, sindirim kanalındaki kanamanın görüntüsüdür. Aşağıdakiler beklenen yan etki sayılmaz ve gecikmeden değerlendirilmelidir; kan kusma acil yardım gerektirir:
 
 - katran gibi yapışkan siyah dışkı, dışkıda kırmızı çizgiler ya da kan,
 - şiddetli karın krampı ya da keskin karın ağrısı,

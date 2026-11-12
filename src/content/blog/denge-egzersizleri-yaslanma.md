@@ -1,9 +1,9 @@
 ---
 title: "Yaşlılarda Denge Egzersizleri: Evde Güvenli Hareketler ve Kanıtlar"
-seoTitle: "Yaşlılarda Denge Egzersizleri: Evde Güvenli Hareketler"
+seoTitle: "Yaşlılarda Denge Egzersizleri: Evde 6 Hareket, Adım Adım"
 date: 2026-09-15
 updated: 2026-10-25
-description: "Yaşlılarda denge egzersizleri nasıl yapılır? Tek ayak duruşu, topuk-parmak yürüyüşü ve tai chi; destek alma kuralları ve düşmeyle ilgili kanıtlar."
+description: "Yaşlılarda denge egzersizleri evde nasıl yapılır? Duvar yanında 6 hareket, tekrar sayıları, haftada kaç gün yapılacağı ve güvenli çalışma kuralları."
 category: "Hareket"
 image: "/assets/images/generated/articles/denge-egzersizleri-yaslanma.webp"
 readTime: "7 dk"

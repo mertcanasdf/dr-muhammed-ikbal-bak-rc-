@@ -1,9 +1,9 @@
 ---
 title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
-seoTitle: "Yatmadan Kaç Saat Önce Telefon Bırakılmalı? Ekran ve Uyku"
+seoTitle: "Yatmadan Kaç Saat Önce Telefon Bırakılmalı? Uykuya Etkisi"
 date: 2026-09-15
 updated: 2026-10-28
-description: "Yatmadan kaç dakika önce telefonu bırakmalı? Mavi ışık mı içerik mi daha etkili, gece modu işe yarar mı ve çocuklar için ekran kuralları kaynaklarıyla."
+description: "Telefonu yatmadan 30–60 dakika önce bırakmak en sık verilen öneri. Mavi ışık mı içerik mi daha etkili, gece modu işe yarar mı, çocuklarda ekran kuralları."
 category: "Uyku"
 image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
 readTime: "6 dk"

@@ -132,5 +132,5 @@ ADA en az yılda bir ölçüm önerir ve sıklığın kişisel riske göre ayarl
 - [NIDDK. Diabetes Prevention Program (DPP) ve DPP Outcomes Study](https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/diabetes-prevention-program-dpp)
 - [NIDDK. Insulin Resistance & Prediabetes](https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance)
 - [NIDDK. Symptoms & Causes of Diabetes](https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes)
-- [CDC. Prediabetes: Could It Be You?](https://www.cdc.gov/diabetes/prevention-type-2/prediabetes-prevent-type-2.html)
+- [CDC. Prediabetes – Your Chance to Prevent Type 2 Diabetes](https://www.cdc.gov/diabetes/prevention-type-2/prediabetes-prevent-type-2.html)
 - [Türkiye Diyabet Vakfı. Gizli Şeker (Prediyabet)](https://www.turkdiab.org/diyabet-hakkinda-hersey.asp?lang=TR&id=49)

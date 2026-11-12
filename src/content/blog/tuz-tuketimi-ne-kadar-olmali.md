@@ -8,7 +8,7 @@ category: "Beslenme"
 image: "/assets/images/generated/articles/tuz-tuketimi-ne-kadar-olmali.webp"
 readTime: "7 dk"
 takeaways:
-  - "Yetişkinler için günlük üst sınır 5 gram tuzdur; bu, bir çay kaşığından biraz azdır ve besinlerin içindeki tuzu da kapsar."
+  - "Yetişkinler için günlük üst sınır 5 gram tuzdur; bu, yaklaşık bir silme tatlı kaşığıdır ve besinlerin içindeki tuzu da kapsar."
   - "Tuzun büyük bölümü tuzluktan değil ekmek, peynir, zeytin, turşu ve hazır ürünlerden gelir."
   - "Etikette sodyum yazıyorsa değeri 2,5 ile çarpmak tuz miktarını verir."
   - "Hamilelikte tuzu kısmak preeklampsiyi önlemez; genel sınır geçerlidir ve tuzun iyotlu olması önem taşır."
@@ -27,7 +27,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/potasyum-eksikligi-belirtileri.webp"
 ---
 
-Yetişkinlerde günlük tuz tüketimi 5 gramın altında olmalıdır; bu yaklaşık bir çay kaşığı eder ve 2.000 miligram sodyuma karşılık gelir. [Dünya Sağlık Örgütü'nün](https://www.who.int/news-room/fact-sheets/detail/sodium-reduction) koyduğu bu sınır yalnızca tuzluktan gelen tuzu değil, ekmeğin, peynirin ve hazır yemeğin içindeki tuzu da kapsar. Çocuklarda sınır yaşa göre daha düşüktür; hamilelikte ise ayrı bir kısıtlama gerekmez, aynı sınır geçerlidir.
+Yetişkinlerde günlük tuz tüketimi 5 gramın altında olmalıdır; bu yaklaşık bir silme tatlı kaşığı eder ve 2.000 miligram sodyuma karşılık gelir. [Dünya Sağlık Örgütü'nün](https://www.who.int/news-room/fact-sheets/detail/sodium-reduction) koyduğu bu sınır yalnızca tuzluktan gelen tuzu değil, ekmeğin, peynirin ve hazır yemeğin içindeki tuzu da kapsar. Çocuklarda sınır yaşa göre daha düşüktür; hamilelikte ise ayrı bir kısıtlama gerekmez, aynı sınır geçerlidir.
 
 Sorun şu ki 5 gramı çoğumuz tuzluğa hiç dokunmadan aşıyoruz. DSÖ'ye göre dünyada yetişkinler günde ortalama 4.278 miligram sodyum, yani yaklaşık 11 gram tuz alıyor: önerilenin iki katından fazla.
 
@@ -71,7 +71,7 @@ NHS, bebeklerin böbrekleri henüz tam gelişmediği için çok az tuz alması g
 
 ## 5 gram tuz sofrada nerede saklanıyor?
 
-Tuzluğu kaldırmak iyi bir başlangıçtır ama hesabın küçük kısmıdır. NHS'e göre yediğimiz tuzun yaklaşık dörtte üçü ekmek, kahvaltılık gevrek, et ürünleri ve hazır yemek gibi satın aldığımız besinlerin içinde gelir. Sağlık Bakanlığı da tuzun büyük bölümünün hazır gıdalarda "gizli" olduğunu söyler ve Türk mutfağına özgü kaynakları sayar:
+Tuzluğu kaldırmak iyi bir başlangıçtır ama hesabın küçük kısmıdır. NHS'e göre yediğimiz tuzun yaklaşık dörtte üçü ekmek, kahvaltılık gevrek, et ürünleri ve hazır yemek gibi satın aldığımız besinlerin içinde gelir. Sağlık Bakanlığı da tuzun büyük bölümünün hazır gıdalarda "gizli" olduğunu söyler. Türk mutfağından örnekler:
 
 - Turşu, salamura zeytin, yaprak salamurası ve salça
 - Tarhana ve hazır çorbalar
@@ -136,7 +136,7 @@ Sodyum açısından hayır; bu tuzlar da sodyum klorürdür ve 5 gramlık sını
 
 ### 5 gram sınırı tansiyon hastaları için de geçerli mi?
 
-Sağlık Bakanlığı önerilerinin sağlıklı bireyler için olduğunu belirtir. Hipertansiyon, kalp yetmezliği ya da böbrek hastalığında hedef daha düşük olabilir ve tedavinin bir parçası olarak belirlenir.
+Bu yazıdaki 5 gramlık sınır genel nüfus içindir. Hipertansiyon, kalp yetmezliği ya da böbrek hastalığında hedef farklı olabilir ve tedavinin bir parçası olarak belirlenir.
 
 ## Kaynaklar
 

@@ -2628,6 +2628,27 @@
       "preparedAt": "2026-11-10T17:29:04.020Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-10T17:29:06.932Z"
+    },
+    {
+      "day": "2026-11-12",
+      "slug": "prediyabet-tedavisi",
+      "sourceArticleSha256": "d3609e0f927281a1cd26bd007d52e9a78724cab3c61727be8ad4f662fe6317be",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/prediyabet-tedavisi",
+        "htmlTitle": "Prediyabet Tedavisi: Gizli Şeker Nasıl Geçer?",
+        "metaDescription": "Prediyabet tedavisi nedir, gizli şeker nasıl geçer? Kilo ve hareket hedeflerini, metforminin kimlerde gündeme geldiğini ve takip sıklığını görün.",
+        "headline": "Prediyabet Tedavisi: Gizli Şeker Nasıl Geçer, İlaç Gerekir mi?",
+        "datePublished": "2026-11-12",
+        "dateModified": "2026-11-12",
+        "wordCount": 1127,
+        "bodyTextSha256": "d00ccbf111e58293140e4e64793c31a34777a966113d0c34cd1eaaac6b849981",
+        "htmlSha256": "f8f66c9ffd0c2f1366e49131af541dd2820727e2e894ed1d0a2d3fe9dec56a56"
+      },
+      "commit": "7d423875f317ceabadb32ec0ffaf3176bacecb76",
+      "parent": "a2389e9d1b369c1ac97acfd5fa88dc35905952f8",
+      "preparedAt": "2026-11-12T06:17:20.322Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-12T06:17:22.990Z"
     }
   ]
 }

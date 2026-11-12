@@ -40,7 +40,7 @@ Ayakta çalışma masası kullanılıyorsa ağırlık bir bacağa yüklenmemeli,
 
 ## Metabolik sağlıkla nasıl bağlantılı?
 
-Hareket kasların glukoz kullanımını, enerji dengesini ve dolaşımı etkiler. Bununla birlikte kan şekeri, tansiyon veya kilo değişimini yalnızca oturma süresine bağlamak doğru değildir. Aile öyküsü, uyku apnesi, ilaçlar ve hormonlar da tabloyu etkileyebilir. Dinlenirken harcanan enerjinin kilo, boy ve yaştan nasıl tahmin edildiğini [bazal metabolizma nasıl hesaplanır](/blog/bazal-metabolizma-nasil-hesaplanir) yazısında anlattık.
+Hareket kasların glukoz kullanımını, enerji dengesini ve dolaşımı etkiler. Bununla birlikte kan şekeri, tansiyon veya kilo değişimini yalnızca oturma süresine bağlamak doğru değildir. Aile öyküsü, uyku apnesi, ilaçlar ve hormonlar da tabloyu etkileyebilir. Dinlenirken harcanan enerjinin kilo, boy ve yaştan nasıl tahmin edildiğini [bazal metabolizma nasıl hesaplanır](/blog/bazal-metabolizma-nasil-hesaplanir) yazısında anlattık. Kan şekeri prediyabet aralığında çıkanlarda haftalık hareket hedefinin dayandığı çalışmalar [prediyabet tedavisi](/blog/prediyabet-tedavisi) yazısında yer alıyor.
 
 CDC ve WHO fiziksel aktivitenin haftalık plana yayılmasını ve kas güçlendirmeyi önerir: [WHO fiziksel aktivite rehberi](https://www.who.int/publications/i/item/9789240014886). Bu öneriler kişisel kapasiteye göre uyarlanmalıdır.
 

@@ -1176,5 +1176,53 @@
     "type": "sorgu-optimizasyonu",
     "slug": "kortizol-yaslanma",
     "by": "claude"
+  },
+  {
+    "day": "2026-11-12",
+    "type": "ctr-iyilestirme",
+    "slug": "yesil-cay-nasil-yapilir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-12",
+    "type": "ctr-iyilestirme",
+    "slug": "sanat-ve-beyin-sagligi",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-12",
+    "type": "ctr-iyilestirme",
+    "slug": "denge-egzersizleri-yaslanma",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-12",
+    "type": "ctr-iyilestirme",
+    "slug": "ekran-kullanimi-ve-uyku",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-12",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "hyaluronik asit zararları",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-12",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "zone 2 nasıl hesaplanır",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-12",
+    "type": "yeni-yazi",
+    "slug": "prediyabet-tedavisi",
+    "topic": "prediyabet tedavisi",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

@@ -133,7 +133,7 @@ NHS'in uyarısına göre yüksek kan şekeriyle birlikte şunlardan biri varsa *
 
 Kişinin kendisi araç kullanmamalıdır.
 
-Diyabet tanısı olmadan aşırı susama, sık idrara çıkma ve açıklanamayan kilo kaybı haftalar içinde belirginleşiyorsa da beklemeden bir sağlık kuruluşunda kan şekerine bakılmalıdır.
+Diyabet tanısı olmadan aşırı susama, sık idrara çıkma ve açıklanamayan kilo kaybı haftalar içinde belirginleşiyorsa da beklemeden bir sağlık kuruluşunda kan şekerine bakılmalıdır. Sonuç normalin üstünde ama diyabet sınırının altında çıkarsa atılan adımları [prediyabet tedavisi](/blog/prediyabet-tedavisi) yazısında anlattık.
 
 ## Sık sorulan sorular
 

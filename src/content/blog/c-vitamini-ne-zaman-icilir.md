@@ -121,7 +121,7 @@ Böbrek taşı konusunda çalışmalar çelişkilidir: iki büyük kohortta risk
 
 Bulantı, kusma, sık idrara çıkma ve bulanık idrar da taşa eşlik edebilir.
 
-Tersi durum, yani uzun süre çok düşük alım da belirti verir. Diş eti kanaması, kolay morarma, yaraların geç iyileşmesi ve eklem ağrısı C vitamini eksikliğiyle görülebilir; ağır biçimi skorbüttür.
+Tersi durum, yani uzun süre çok düşük alım da belirti verir. Diş eti kanaması, kolay morarma, yaraların geç iyileşmesi ve eklem ağrısı C vitamini eksikliğiyle görülebilir; ağır biçimi skorbüttür. Bu tablo, vücudun C vitamini olmadan kolajen kuramamasından kaynaklanır; yaşa bağlı azalmadan farkı [kolajen eksikliği belirtileri](/blog/kolajen-eksikligi-belirtileri) yazısında anlatılıyor.
 
 ## Sık sorulan sorular
 

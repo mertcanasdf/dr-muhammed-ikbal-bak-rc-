@@ -1240,5 +1240,37 @@
     "topic": "tuz tüketimi ne kadar olmalı",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-13",
+    "type": "sorgu-optimizasyonu",
+    "slug": "lif-tuketimi-gaz-siskinlik",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-13",
+    "type": "ctr-iyilestirme",
+    "slug": "pilates-faydalari-ve-zararlari",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-13",
+    "type": "ctr-iyilestirme",
+    "slug": "sukran-pratigi-ve-dopamin",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-13",
+    "type": "ctr-iyilestirme",
+    "slug": "sosyal-baglanti-ve-uzun-omur",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-13",
+    "type": "yeni-yazi",
+    "slug": "kolajen-eksikligi-belirtileri",
+    "topic": "kolajen eksikliği belirtileri",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

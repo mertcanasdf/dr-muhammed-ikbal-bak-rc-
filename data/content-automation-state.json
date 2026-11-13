@@ -2691,6 +2691,27 @@
       "preparedAt": "2026-11-12T14:11:04.069Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-12T14:11:07.148Z"
+    },
+    {
+      "day": "2026-11-13",
+      "slug": "kolajen-eksikligi-belirtileri",
+      "sourceArticleSha256": "fc18dee306189b10153a7f9101bf98d1199f096fc00d288b9e3b01bf174dca0c",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kolajen-eksikligi-belirtileri",
+        "htmlTitle": "Kolajen Eksikliği Belirtileri Nelerdir? Kanda Çıkar mı?",
+        "metaDescription": "Kolajen eksikliği belirtileri nelerdir, kanda çıkar mı? Cilt, eklem ve saçtaki işaretleri, kolajeni azaltan nedenleri ve kanıtı olan adımları öğrenin.",
+        "headline": "Kolajen Eksikliği Belirtileri Nelerdir? Kanda Çıkar mı?",
+        "datePublished": "2026-11-13",
+        "dateModified": "2026-11-13",
+        "wordCount": 1391,
+        "bodyTextSha256": "f83d26eebdc5a743efc2b6062256dfc1653d487f437318d448af47c2d8a6e395",
+        "htmlSha256": "d76bd1b37a52d484e64484fa5c572660e3937e1843152c68901698b048a35534"
+      },
+      "commit": "8980ca8d5324d264ac40abdcf92f8f82b6fb0870",
+      "parent": "74871ea1c7189024ddbd62f496e88a2e32e0a787",
+      "preparedAt": "2026-11-13T06:15:22.172Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-13T06:15:24.891Z"
     }
   ]
 }

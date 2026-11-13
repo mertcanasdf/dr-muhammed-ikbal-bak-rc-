@@ -90,7 +90,7 @@ Bu rehberde okunan kaynaklar, eşit porsiyon ve aynı yöntemle bütün türleri
 
 ### Besin seçmek, ciltteki değişikliği değerlendirmek için yeterli mi?
 
-Hayır. Cilt görünümünün değişmesi tek başına bir kolajen eksikliği tanısı değildir. Görünüm, güneş maruziyeti ve takviye araştırmalarının farklı sorularını [ciltte kollajen kaybı rehberinde](/blog/ciltte-kollajen-kaybi) ayrı ele alıyoruz. Süren eklem ağrısı, belirgin güç kaybı veya istemsiz kilo kaybını yalnızca kolajene bağlayıp besin değişikliğiyle geçiştirmeyin.
+Hayır. Cilt görünümünün değişmesi tek başına bir kolajen eksikliği tanısı değildir; kolajen düzeyi tahlille de ölçülemez ([kolajen eksikliği belirtileri](/blog/kolajen-eksikligi-belirtileri) yazısında anlatılıyor). Görünüm, güneş maruziyeti ve takviye araştırmalarının farklı sorularını [ciltte kollajen kaybı rehberinde](/blog/ciltte-kollajen-kaybi) ayrı ele alıyoruz. Süren eklem ağrısı, belirgin güç kaybı veya istemsiz kilo kaybını yalnızca kolajene bağlayıp besin değişikliğiyle geçiştirmeyin.
 
 Kısa özet: Yiyeceğin kolajen içerip içermediğini, hangi besin öğelerini sağladığını ve insanlarda hangi sonucun ölçüldüğünü ayrı sorun. Bu üç bilgi aynı şey değildir. Sağlıklı yaşlanmada genel beslenme çerçevesi için [beslenme konu merkezine](/longevity/beslenme) geçebilirsiniz.
 

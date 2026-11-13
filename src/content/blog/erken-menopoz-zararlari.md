@@ -11,7 +11,7 @@ takeaways:
   - "45 yaşından önce adetin kesilmesi erken menopoz, 40 yaşından önce kesilmesi prematür menopoz sayılır; doğal menopoz çoğunlukla 45–55 yaş arasındadır."
   - "Başlıca zararlar östrojenin erken azalmasından doğar: kemik kaybı ve osteoporoz, kalp damar hastalığı riskinde artış, doğurganlığın azalması ve ruh halinde zorlanma."
   - "310 bin kadını kapsayan bir meta-analizde 45 yaşından önce menopoza girenlerde koroner kalp hastalığı riski 1,5 kat bulundu."
-  - "Erken menopozun kanıtlanmış bir sağlık faydası yoktur; eksilen hormonların yerine konması kemik ve kalp riskini azaltır ama her kadına uygun değildir."
+  - "Erken menopozun kanıtlanmış bir sağlık faydası yoktur; eksilen hormonların yerine konması olumsuz sonuçların bir kısmını önleyebilir ama her kadına uygun değildir."
 relatedArticles:
   - slug: "osteoporoz-nedir-belirtileri"
     category: "Hareket"
@@ -27,7 +27,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/ldl-kolesterol-yuksekligi-nedir.webp"
 ---
 
-Erken menopoz zararları, yumurtalıkların östrojen üretimini beklenenden yıllar önce bırakmasından kaynaklanır: kemik kaybı hızlanır ve osteoporoz riski artar, kalp damar hastalığı riski yükselir, gebe kalmak zorlaşır, ruh hali ve uyku etkilenebilir. Menopoz ne kadar erken yaşta olursa bu riskler o kadar belirginleşir. İyi haber şu: eksilen hormonların yerine konması ve birkaç yaşam alışkanlığı, özellikle kemik ve kalp tarafındaki riski azaltır.
+Erken menopoz zararları, yumurtalıkların östrojen üretimini beklenenden yıllar önce bırakmasından kaynaklanır: kemik kaybı hızlanır ve osteoporoz riski artar, kalp damar hastalığı riski yükselir, gebe kalmak zorlaşır, ruh hali ve uyku etkilenebilir. Menopoz ne kadar erken yaşta olursa bu riskler o kadar belirginleşir. İyi haber şu: eksilen hormonların yerine konması kemiği korumaya yardımcı olabilir ve olumsuz sonuçların bir kısmını önleyebilir; birkaç yaşam alışkanlığı da bu tabloyu destekler.
 
 ## Erken menopoz kaç yaşında sayılır?
 
@@ -39,7 +39,7 @@ Menopoz, başka bir açıklaması olmadan [art arda 12 ay adet görülmemesiyle]
 | 40–44 | Erken menopoz | [NHS tanımı](https://www.nhs.uk/conditions/early-menopause/): 45 yaşından önce adetin kesilmesi |
 | 40 yaş altı | Prematür menopoz ya da erken yumurtalık yetmezliği | Adet zaman zaman geri gelebilir |
 
-Bir meta-analizin giriş bölümüne göre [kadınların %10 kadarı 45 yaşına gelmeden doğal menopoza girer](https://pubmed.ncbi.nlm.nih.gov/27627190/); yani durum nadir değildir.
+Bir meta-analizin özetine göre [kadınların %10'a varan bölümü 45 yaşına gelmeden doğal menopoza girer](https://pubmed.ncbi.nlm.nih.gov/27627190/); yani durum nadir değildir.
 
 Kırk yaş altındaki tablo için hekimler artık "erken yumurtalık yetmezliği" terimini yeğliyor. [ABD Ulusal Sağlık Enstitüleri'ne bağlı NICHD](https://www.nichd.nih.gov/health/topics/poi/conditioninfo) bunun nedenini şöyle açıklıyor: menopozda adet bir daha geri gelmez ve gebelik olmaz; erken yumurtalık yetmezliğinde ise adet düzensiz de olsa görülebilir ve gebelik hâlâ mümkündür.
 
@@ -74,7 +74,7 @@ ABD Kadın Sağlığı Ofisi, tanıyı öğrenmenin özellikle doğurganlık kay
 
 ### Diğer uzun dönem riskler
 
-Mayo Clinic araştırmacılarının [erken menopozun uzun dönem sonuçlarını derlediği çalışmaya](https://pubmed.ncbi.nlm.nih.gov/19733988/) göre 40 yaşından önce ya da 40–45 yaş arasında menopoza giren kadınlarda genel ölüm, kalp damar, nörolojik ve psikiyatrik hastalık ve osteoporoz riski artmıştır; risk, menopoz yaşı küçüldükçe yükselir. ABD Kadın Sağlığı Ofisi bu listeye diyabeti de ekler. Vajinal kuruluk, cinsel istekte azalma ve idrar kaçırma gibi yakınmalar ise yaşam kalitesini doğrudan etkiler.
+Mayo Clinic araştırmacılarının [erken menopozun uzun dönem sonuçlarını derlediği çalışmaya](https://pubmed.ncbi.nlm.nih.gov/19733988/) göre 40 yaşından önce ya da 40–45 yaş arasında menopoza giren kadınlarda genel ölüm, kalp damar, nörolojik ve psikiyatrik hastalık ve osteoporoz riski artmıştır; risk, menopoz yaşı küçüldükçe yükselir. ABD Kadın Sağlığı Ofisi bu listeye diyabeti de ekler. DSÖ'nün menopoz belirtileri arasında saydığı vajinal kuruluk, ilişki sırasında ağrı ve idrar tutamama gibi yakınmalar ise yaşam kalitesini doğrudan etkiler.
 
 ## Erken menopozun faydaları var mı?
 
@@ -94,7 +94,7 @@ Sağlık açısından gösterilmiş bir faydası yoktur; incelediğimiz kurum ka
 - Cinsel istekte azalma
 - Bellek ve odaklanma sorunları
 
-Ameliyatla iki yumurtalığın alınması ya da kemoterapi sonrasında menopoz yavaş yavaş değil, birdenbire başlar.
+İki yumurtalığın ameliyatla alınmasından sonra menopoz kademeli bir geçiş olmadan başlar; kemoterapi ve radyoterapi de yumurtalık işlevini durdurabilir.
 
 ## Erken menopoz neden olur, kimlerde daha sık?
 
@@ -107,7 +107,7 @@ Bu etkenlerin içinde değiştirilebilen başlıca alışkanlık sigaradır.
 
 ## Erken menopoza giren kadın ne yapmalı? Zararlar azaltılabilir mi?
 
-İncelediğimiz kaynakların ortak noktası, eksilen hormonların yerine konmasıdır. NHS'ye göre temel tedavi kombine doğum kontrol hapı ya da hormon replasman tedavisidir ve menopoz 45 yaşından önce başladıysa bu tedavi kemik ve kalp sorunları riskini düşürdüğü için önem taşır. Bazı meme kanseri türlerinde olduğu gibi hormon tedavisinin uygun olmadığı durumlar vardır; karar kişinin öyküsüne göre verilir.
+İncelediğimiz kaynakların ortak noktası, eksilen hormonların yerine konmasıdır. NHS'ye göre temel tedavi kombine doğum kontrol hapı ya da hormon replasman tedavisidir; menopoz 45 yaşından önce başladıysa kemik ve kalp sorunları olasılığı arttığı için eksilen hormonların yerine konması önem taşır. Bazı meme kanseri türlerinde olduğu gibi hormon tedavisinin uygun olmadığı durumlar vardır; karar kişinin öyküsüne göre verilir.
 
 Mayo Clinic derlemesi beklentiyi dengeler: östrojen tedavisi olumsuz sonuçların bir kısmını önleyebilir, hepsini ortadan kaldırmaz. Bu yüzden ilaç dışı adımlar da tablonun parçasıdır:
 
@@ -138,7 +138,7 @@ Adetin kesilmesinin tiroid sorunları, belirgin kilo kaybı ya da gebelik gibi b
 
 ### Erken menopoz tehlikeli midir?
 
-Acil bir durum değildir, ancak önemsenmesi gerekir: kemik, kalp damar ve ruh sağlığı riskleri yıllar içinde birikir. Riskin büyüklüğü menopoz yaşına ve hormon eksikliğinin giderilip giderilmediğine göre değişir.
+Önemsenmesi gerekir: kemik, kalp damar ve ruh sağlığı riskleri yıllar içinde birikir. Riskin büyüklüğü menopoz yaşına ve hormon eksikliğinin giderilip giderilmediğine göre değişir.
 
 ### Bir kadın en erken kaç yaşında menopoza girer?
 

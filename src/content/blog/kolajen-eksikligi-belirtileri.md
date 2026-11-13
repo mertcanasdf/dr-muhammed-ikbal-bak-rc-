@@ -64,12 +64,12 @@ Tahlilin işe yaradığı yer, belirtinin başka bir nedenini aramaktır. Yorgun
 
 ## Kolajen neden azalır?
 
-Yaş tek etken değildir. Cleveland Clinic ile [Harvard Halk Sağlığı Okulu'nun kolajen sayfası](https://nutritionsource.hsph.harvard.edu/collagen/) şu etkenlerde birleşir:
+Yaş tek etken değildir. Cleveland Clinic ile [Harvard Halk Sağlığı Okulu'nun kolajen sayfası](https://nutritionsource.hsph.harvard.edu/collagen/) birlikte şu etkenleri sayar:
 
 - **Güneş (UV) ışığı:** Üretimi azaltır, yıkımı hızlandırır.
 - **Sigara:** Kolajen yapımını düşürür, kolajen ve elastine zarar verir, cilde yakın damarlarda kan akımını kısıtlar.
 - **Fazla şeker ve rafine karbonhidrat:** Şeker proteinlere bağlanarak kolajeni zayıf, kuru ve kırılgan hale getiren ürünler oluşturur.
-- **Alkol, az uyku ve hareketsizlik:** Harvard bu üçünü de kolajeni azaltan etkenler arasında sayar.
+- **Aşırı alkol, az uyku ve hareketsizlik:** Harvard bu üçünü de kolajeni azaltan etkenler arasında sayar.
 - **Süregelen stres:** Uzun süre yüksek seyreden kortizol üretimi düşürebilir.
 - **Menopoz:** Hormon düzeylerinin düşmesiyle kayıp belirgin biçimde hızlanır.
 
@@ -77,7 +77,7 @@ Yaş tek etken değildir. Cleveland Clinic ile [Harvard Halk Sağlığı Okulu'n
 
 Kolajenin gerçekten yapılamadığı ya da hasar gördüğü durumlar, yaşa bağlı azalmadan farklı bir tabloyla gelir.
 
-**C vitamini eksikliği (skorbüt).** Vücut kolajeni C vitamini olmadan kuramaz; [MedlinePlus](https://medlineplus.gov/ency/article/002404.htm) bu vitaminin cilt, tendon, bağ ve damarlardaki kolajenin yapımında görev aldığını ve vücutta depolanmadığını belirtir. Ağır eksiklikte ortaya çıkan skorbütün belirtileri [NHS'ye göre](https://www.nhs.uk/conditions/scurvy/) halsizlik, eklem ve bacak ağrısı, şişip kanayan diş etleri, bacaklarda kırmızı-mavi noktalar ve kolay morarmadır. Nadir görülür; risk taze sebze ve meyveyi uzun süre hiç yemeyenlerde, çok az yiyenlerde, sigara içenlerde ve alkol bağımlılığı olanlarda artar. Uygun tedaviyle çoğu kişi günler içinde düzelir.
+**C vitamini eksikliği (skorbüt).** Vücut kolajeni C vitamini olmadan kuramaz; [MedlinePlus](https://medlineplus.gov/ency/article/002404.htm) bu vitaminin cilt, tendon, bağ ve damarlardaki kolajenin yapımında görev aldığını ve vücutta depolanmadığını belirtir. Ağır eksiklikte ortaya çıkan skorbütün belirtileri [NHS'ye göre](https://www.nhs.uk/conditions/scurvy/) halsizlik, eklem ve bacak ağrısı, şişip kanayan diş etleri, bacaklarda kırmızı-mavi noktalar ve kolay morarmadır. Nadir görülür; risk taze sebze ve meyveyi uzun süre hiç yemeyenlerde, çok az yiyenlerde, sigara içenlerde ve alkol bağımlılığı olanlarda artar. Tedavi edilenlerin çoğu günler içinde kendini daha iyi hisseder ve tamamen iyileşir.
 
 **Kalıtsal bağ dokusu hastalıkları.** [Ehlers-Danlos sendromunda](https://medlineplus.gov/genetics/condition/ehlers-danlos-syndrome/) kolajen yapımıyla ilgili genlerdeki değişiklikler aşırı esnek eklemlere, kadifemsi ve çok esneyen, kolay morarıp kötü iz bırakan bir cilde yol açar; tüm tipleri birlikte en az 5.000 kişide bir görülür. [Osteogenezis imperfektada](https://medlineplus.gov/genetics/condition/osteogenesis-imperfecta/) ise olguların yaklaşık %90'ında tip I kolajen genleri etkilenmiştir; hafif darbelerle tekrarlayan kırıklar ve göz akında mavi-gri renk tipiktir.
 
@@ -101,15 +101,19 @@ Aşağıdakiler yaşa bağlı kolajen azalmasının olağan seyrine uymaz ve alt
 - Sık eklem çıkığı ve çocukluktan beri süren aşırı esneklik
 - Birkaç hafta içinde belirginleşen kas güçsüzlüğü ya da istemsiz kilo kaybı
 
-NHS, basmakla solmayan döküntüyü ve ona eşlik eden şiddetli baş ağrısı, ense sertliği ya da bilinç bulanıklığını acil durum olarak tanımlar.
+NHS, basmakla solmayan döküntüyü, ani ve şiddetli baş ağrısını, ense sertliğini ve bilinç bulanıklığını acil durum belirtileri arasında sayar.
 
 ## Kolajen eksikliği nasıl tamamlanır, ne iyi gelir?
 
 Kaybedilen kolajeni "yerine koyan" kanıtlanmış bir yöntem yok; hedef, yıkımı yavaşlatmak ve vücudun kendi üretimi için gerekenleri sağlamaktır.
 
-**Koruyan alışkanlıklar.** Harvard Health'e göre cilt dokusu ve kırışıklıklar için kanıtı en sağlam iki yaklaşım güneşten korunma ve cilde sürülen retinoidlerdir. Cleveland Clinic en az 30 koruma faktörlü güneş kremini ve solaryumdan uzak durmayı önerir; ürün seçimi için [güneş kremi rehberine](/blog/gunes-kremi-nasil-secilir) bakılabilir. Sigarayı bırakmak, alkolü ve şekeri azaltmak, yeterli uyku ve düzenli hareket aynı listenin devamıdır.
+### Kolajeni koruyan alışkanlıklar
 
-**Kolajen eksikliği için ne yemeli?** Yenen kolajen sindirimde amino asitlere ayrılır ve vücut bunları ihtiyaç duyduğu yerde kullanır; doğrudan cilde ya da eklemlere gitmez. Üretim için gerekenler şunlardır:
+Harvard Health'e göre cilt dokusu ve kırışıklıklar için kanıtı en sağlam iki yaklaşım güneşten korunma ve cilde sürülen retinoidlerdir. Cleveland Clinic en az 30 koruma faktörlü güneş kremini ve solaryumdan uzak durmayı önerir; ürün seçimi için [güneş kremi rehberine](/blog/gunes-kremi-nasil-secilir) bakılabilir. Sigarayı bırakmak, alkolü ve şekeri azaltmak, yeterli uyku ve düzenli hareket aynı listenin devamıdır.
+
+### Kolajen eksikliği için ne yemeli?
+
+Yenen kolajen sindirimde amino asitlere ayrılır ve vücut bunları ihtiyaç duyduğu yerde kullanır; yenen kolajenin doğrudan cilde ulaştığı insan çalışmalarında net olarak gösterilmemiştir. Üretim için gerekenler şunlardır:
 
 - **Yeterli protein:** Balık, tavuk, et, yumurta, süt ürünleri, baklagiller ve soya; glisin ve prolin gibi yapı taşlarını sağlar. Yaşla değişen gereksinim [protein ihtiyacı yazısında](/blog/protein-ihtiyaci-yaslanma) anlatılıyor.
 - **C vitamini:** Turunçgiller, çilek, biber, brokoli, domates. Erişkin kadınlar için günlük 75, erkekler için 90 miligram önerilir; sigara içenlerin gereksinimi 35 miligram daha fazladır.
@@ -117,7 +121,9 @@ Kaybedilen kolajeni "yerine koyan" kanıtlanmış bir yöntem yok; hedef, yıkı
 
 Hangi yiyeceğin kolajeni gerçekten içerdiği, hangisinin yalnızca yapımına katkı sağladığı [kolajen hangi yiyeceklerde var yazısında](/blog/kolajen-hangi-yiyeceklerde-var) ayrılıyor; C vitamininin öğünle ilişkisi için [C vitamini ne zaman içilir](/blog/c-vitamini-ne-zaman-icilir) yazısına, genel sofra düzeni için [beslenme konu merkezine](/longevity/beslenme) bakabilirsiniz.
 
-**Takviyeler.** Harvard Health'in aktardığı, 19 çalışmayı ve 1.125 katılımcıyı kapsayan bir derlemede kolajen kullananların cilt sıkılığı ve neminde iyileşme bildirildi; ancak ürünlerin çoğu vitamin ve hyaluronik asit gibi başka maddeler de içeriyordu. Diz kireçlenmesinde ağrı ve işlev için de "olası yarar" düzeyinde bulgular var. Harvard, çalışmaların çoğunun tamamen ya da kısmen sektör tarafından desteklendiğini, ürün içeriğinin etiketle uyuşmayabileceğini ve ağır metal bulaşması kaygısını not eder. Gut eğilimi olanlar ve protein alımını kısıtlaması gerekenler için kolajen ürünleri uygun görülmez.
+### Kolajen takviyeleri işe yarar mı?
+
+Harvard Health'in aktardığı, 19 çalışmayı ve 1.125 katılımcıyı kapsayan bir derlemede kolajen kullananların cilt sıkılığı ve neminde iyileşme bildirildi; ancak ürünlerin çoğu vitamin ve hyaluronik asit gibi başka maddeler de içeriyordu. Cleveland Clinic, diz kireçlenmesinde ağrı ve eklem işlevi için kolajen peptitlerini "olası yararlı" olarak niteler. Harvard Halk Sağlığı Okulu ise çalışmaların çoğunun tamamen ya da kısmen sektör tarafından desteklendiğini, ürün içeriğinin etiketle uyuşmayabileceğini ve ağır metal bulaşması kaygısını not eder. Gut eğilimi olanlar ve protein alımını kısıtlaması gerekenler için kolajen ürünleri uygun görülmez.
 
 ## Sık sorulan sorular
 
@@ -131,7 +137,7 @@ Cilt incelir ve esnekliğini yitirir, eklem kıkırdağı aşındıkça ağrı v
 
 ### Kolajen kremleri eksikliği giderir mi?
 
-Kolajen lifleri cilde nüfuz edemeyecek kadar büyüktür ve Harvard'a göre araştırmalar peptitlerin de bunu yapabildiğini desteklemiyor. Bu kremler cildi nemlendirebilir, ama alttaki kolajeni artırdıkları gösterilmiş değildir.
+Kolajen lifleri cilde nüfuz edemeyecek kadar büyüktür ve Harvard Halk Sağlığı Okulu'na göre araştırmalar peptitlerin de bunu yapabildiğini desteklemiyor. Bu kremler cildi nemlendirebilir, ama alttaki kolajeni artırdıkları gösterilmiş değildir.
 
 ### Kemik suyu içmek işe yarar mı?
 

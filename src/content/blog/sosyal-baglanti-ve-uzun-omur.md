@@ -1,9 +1,9 @@
 ---
 title: "Sosyal Bağlantı ve Uzun Ömür: Yalnızlık Sağlığı Nasıl Etkiler?"
-seoTitle: "Yalnızlık Sağlığı Nasıl Etkiler? Sosyal Bağlar ve Uzun Ömür"
+seoTitle: "Sosyal Bağ Ne Demek? Yalnızlık Sağlığı Nasıl Etkiler?"
 date: 2026-09-15
 updated: 2026-11-03
-description: "Yalnızlık ve sosyal izolasyon sağlığı nasıl etkiler? Ölüm, kalp, inme ve demans riskiyle ilişkisi, kimlerin risk altında olduğu ve bağları güçlendiren adımlar."
+description: "Sosyal bağ ne demek, yalnızlıktan ve sosyal izolasyondan farkı ne? Kalp, inme ve demans riskiyle ilişkisini ve bağları güçlendiren küçük adımları görün."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/sosyal-baglanti-ve-uzun-omur.webp"
 readTime: "8 dk"

@@ -1,9 +1,9 @@
 ---
 title: "Şükran Pratiği Beyni ve Ruh Hâlini Nasıl Etkiler?"
-seoTitle: "Ruh Hali Nedir? Şükran Pratiği Ruh Hâlini Nasıl Etkiler?"
+seoTitle: "Ruh Hali Ne Demek? Duygudan Farkı ve Şükranın Etkisi"
 date: 2026-06-21
 updated: 2026-11-01
-description: "Ruh hali ne demek, duygudan farkı ne? Şükran pratiğinin ruh hâli ve beyin üzerindeki etkisini, araştırma bulgularını ve nasıl uygulanacağını okuyun."
+description: "Ruh hali, saatlerce ya da günlerce süren genel duygu zeminidir. Duygudan farkını tabloyla, şükran pratiğinin ruh hâline etkisini araştırmalarla görün."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/sukran-pratigi-ve-dopamin.webp"
 readTime: "6 dk"

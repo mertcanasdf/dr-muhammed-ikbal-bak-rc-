@@ -1,9 +1,9 @@
 ---
 title: "Pilates Faydaları ve Zararları: Kanıtlar Ne Diyor, Kimler Dikkat Etmeli?"
-seoTitle: "Pilates Faydaları ve Zararları: Kanıtlar ve Riskler"
+seoTitle: "Pilates Faydaları ve Zararları: Kimler Dikkat Etmeli?"
 date: 2026-11-04
 updated: 2026-11-04
-description: "Pilatesin faydaları ve zararları araştırmalarda ne kadar destekleniyor? Bel ağrısı, denge, kilo ve ruh hâline etkisini, riskli hareketleri ve başlangıcı görün."
+description: "Pilatesin faydaları ve zararları nelerdir? Bel ağrısı, denge ve kiloya etkisini, mat ve aletli pilatesteki riskleri, kimlerin dikkat edeceğini görün."
 category: "Hareket"
 image: "/assets/images/generated/articles/pilates-faydalari-ve-zararlari.webp"
 readTime: "8 dk"

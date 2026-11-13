@@ -73,7 +73,7 @@ Kılavuz tek bir "prediyabet diyeti" tanımlamaz; Akdeniz tipi ya da düşük ka
 - HbA1c değeri %6,0 ve üzerinde olanlar,
 - Daha önce gebelik diyabeti geçirmiş kadınlar.
 
-DPP'de metformin en çok gebelik diyabeti öyküsü olan kadınlarda, 25–44 yaş grubunda ve beden kitle indeksi 35 ve üzerinde olanlarda etkili bulunmuştu. Aynı kılavuz, uzun süre metformin kullananlarda B12 vitamini düzeyinin aralıklarla ölçülmesini önerir ve yalnızca diyabeti önlemek amacıyla metformin dışındaki ilaçların kullanımını destekleyen uzun dönem veri bulunmadığını belirtir. İlaç kararı, bu ölçütlere ve kişinin diğer hastalıklarına göre hekim tarafından verilir; bu yazı bir tedavi planı değildir.
+DPP'de metformin en çok gebelik diyabeti öyküsü olan kadınlarda, 25–44 yaş grubunda ve beden kitle indeksi 35 ve üzerinde olanlarda etkili bulunmuştu. Aynı kılavuz, uzun süre metformin kullananlarda [B12 vitamini](/blog/b12-vitamini-nedir-hangi-besinlerde-bulunur) düzeyinin aralıklarla ölçülmesini önerir ve yalnızca diyabeti önlemek amacıyla metformin dışındaki ilaçların kullanımını destekleyen uzun dönem veri bulunmadığını belirtir. İlaç kararı, bu ölçütlere ve kişinin diğer hastalıklarına göre hekim tarafından verilir; bu yazı bir tedavi planı değildir.
 
 ### Bitkisel tedavi ya da vitamin takviyesi işe yarar mı?
 

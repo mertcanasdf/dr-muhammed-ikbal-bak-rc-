@@ -94,7 +94,7 @@ Bu listede özel bir mucize yok; baklagil ve sebze ağırlıklı bir sofra eksik
 
 ## Fazla folik asit zararlı mı? B12 tuzağı
 
-NHS'ye göre günde 1 mg'ı aşan folik asit dozları B12 eksikliğinin belirtilerini maskeleyebilir. Fark edilmeyen ve tedavi edilmeyen B12 eksikliği zamanla sinir sistemine zarar verebilir; B12 emilimi yaşla azaldığı için yaşlılarda bu daha önemlidir. 1 mg ve altındaki günlük takviyenin zarar vermesi beklenmez. Kısacası kansızlık gibi görünen bir yakınmayı kendi başınıza folik asit alarak "çözmeye" çalışmak yerine, önce B12 ve folat birlikte ölçülmelidir.
+NHS'ye göre günde 1 mg'ı aşan folik asit dozları B12 eksikliğinin belirtilerini maskeleyebilir. Fark edilmeyen ve tedavi edilmeyen B12 eksikliği zamanla sinir sistemine zarar verebilir; B12 emilimi yaşla azaldığı için yaşlılarda bu daha önemlidir. 1 mg ve altındaki günlük takviyenin zarar vermesi beklenmez. Kısacası kansızlık gibi görünen bir yakınmayı kendi başınıza folik asit alarak "çözmeye" çalışmak yerine, önce B12 ve folat birlikte ölçülmelidir. B12'nin kaynakları ve emilimi için [B12 vitamini nedir, hangi besinlerde bulunur](/blog/b12-vitamini-nedir-hangi-besinlerde-bulunur) yazısına bakabilirsiniz.
 
 ## Hangi durumlarda değerlendirme gerekir?
 

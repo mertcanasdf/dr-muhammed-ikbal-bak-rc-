@@ -2733,6 +2733,27 @@
       "preparedAt": "2026-11-13T10:11:45.665Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-13T10:11:51.585Z"
+    },
+    {
+      "day": "2026-11-13",
+      "slug": "b12-vitamini-nedir-hangi-besinlerde-bulunur",
+      "sourceArticleSha256": "4b50e351f17688500179afe103ee82c3d93e1178e85ba845e860ca1d83a05fae",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/b12-vitamini-nedir-hangi-besinlerde-bulunur",
+        "htmlTitle": "B12 Vitamini Nedir, Hangi Besinlerde Bulunur?",
+        "metaDescription": "B12 vitamini nedir, ne işe yarar, hangi besinlerde bulunur? Et, balık, süt, yumurtadaki miktarları, bitkisel kaynak yanılgılarını ve günlük ihtiyacı görün.",
+        "headline": "B12 Vitamini Nedir, Hangi Besinlerde Bulunur? Ne İşe Yarar?",
+        "datePublished": "2026-11-13",
+        "dateModified": "2026-11-13",
+        "wordCount": 1234,
+        "bodyTextSha256": "eb7a2bc0152bab1d914337c7b49b7e251f28e9d110878ee7538f2d8b67e22c60",
+        "htmlSha256": "a76c12e55a99d29f9c32cebbcadaf8e24292a19dd4dad654b7725d7264134ed9"
+      },
+      "commit": "bbd6985fc662dcd87478c68775aa1bc50625bfe1",
+      "parent": "a7a6e5d4093b55bed125c3d187c33f2cb2b85966",
+      "preparedAt": "2026-11-13T14:11:11.148Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-13T14:11:13.912Z"
     }
   ]
 }

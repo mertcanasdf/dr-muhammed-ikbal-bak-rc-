@@ -2712,6 +2712,27 @@
       "preparedAt": "2026-11-13T06:15:22.172Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-13T06:15:24.891Z"
+    },
+    {
+      "day": "2026-11-13",
+      "slug": "erken-menopoz-zararlari",
+      "sourceArticleSha256": "37a566f4e02ca51e574ead4fd518287ca1e3cf01c2ada16dd43c4157217a12cf",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/erken-menopoz-zararlari",
+        "htmlTitle": "Erken Menopoz Zararları Nelerdir? Riskler ve Önlemler",
+        "metaDescription": "Erken menopoz zararları nelerdir, faydası var mı? Kemik, kalp, doğurganlık ve ruh haline etkilerini, riskin kimlerde arttığını ve azaltma yollarını görün.",
+        "headline": "Erken Menopoz Zararları Nelerdir? Kemik, Kalp ve Ruh Hali",
+        "datePublished": "2026-11-13",
+        "dateModified": "2026-11-13",
+        "wordCount": 1308,
+        "bodyTextSha256": "3c04b2140f8072c0f718f4835b9e5107f7a90998f88817097665d1586d1bbc54",
+        "htmlSha256": "9426d0322511731344d59552f51c5762e930c6c624c5fd8bc73398654ac31ebe"
+      },
+      "commit": "a7a6e5d4093b55bed125c3d187c33f2cb2b85966",
+      "parent": "8980ca8d5324d264ac40abdcf92f8f82b6fb0870",
+      "preparedAt": "2026-11-13T10:11:45.665Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-13T10:11:51.585Z"
     }
   ]
 }

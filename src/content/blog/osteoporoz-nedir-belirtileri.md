@@ -51,7 +51,7 @@ Tablodaki işaretler [NIAMS](https://www.niams.nih.gov/health-topics/osteoporosi
 
 ## Osteoporoz neden olur?
 
-Kemik canlı bir dokudur; sürekli yıkılır ve yeniden yapılır. [Cleveland Clinic'e göre](https://my.clevelandclinic.org/health/diseases/4443-osteoporosis) yaklaşık 30 yaşına kadar yapım yıkımdan fazladır, 35 yaşından sonra yıkım öne geçer. Menopozdan sonra kayıp hızlanır. NIAMS, birçok kadında sürecin menopozdan bir iki yıl önce başladığını söyler.
+Kemik canlı bir dokudur; sürekli yıkılır ve yeniden yapılır. [Cleveland Clinic'e göre](https://my.clevelandclinic.org/health/diseases/4443-osteoporosis) yaklaşık 30 yaşına kadar yapım yıkımdan fazladır, 35 yaşından sonra yıkım öne geçer. Menopozdan sonra kayıp hızlanır. NIAMS, birçok kadında sürecin menopozdan bir iki yıl önce başladığını söyler. Adet 45 yaşından önce kesildiğinde kemiğin östrojensiz geçirdiği süre uzar; bu durumun kemik ve kalp tarafındaki sonuçları [erken menopoz zararları yazısında](/blog/erken-menopoz-zararlari) anlatılıyor.
 
 ### Değiştirilemeyen etkenler
 

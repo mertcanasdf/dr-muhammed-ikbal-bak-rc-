@@ -143,7 +143,7 @@ MedlinePlus'a göre 130–159 mg/dL “sınırda yüksek” sayılır. Bu değer
 
 ### LDL kolesterol yüksekliği kadınlarda farklı belirti verir mi?
 
-Belirtiler cinsiyete göre değişmez; yüksek LDL kadınlarda da genellikle sessizdir. Fark, menopozdan sonra LDL'nin genellikle yükselmesidir.
+Belirtiler cinsiyete göre değişmez; yüksek LDL kadınlarda da genellikle sessizdir. Fark, menopozdan sonra LDL'nin genellikle yükselmesidir. Menopoz 45 yaşından önce gerçekleştiğinde kalp damar riskinin nasıl değiştiği [erken menopoz zararları yazısında](/blog/erken-menopoz-zararlari) ele alınıyor.
 
 ### Aç olmak gerekir mi?
 

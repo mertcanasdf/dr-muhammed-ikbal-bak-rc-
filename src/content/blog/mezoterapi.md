@@ -45,7 +45,7 @@ Gençlik aşıları, cilt nemini ve kalitesini desteklemek için tasarlanmış, 
 
 Somon balığından elde edilen saflaştırılmış DNA parçaları (polinükleotit, PN/PDRN), cilde enjekte edildiğinde hücrelerin DNA'sına karışmaz ve onu "onarmaz". Laboratuvar çalışmalarında fibroblastları uyardığı ve dokuya iskele görevi gördüğü gösterilmiştir. Randomize klinik çalışmaları inceleyen bir sistematik derleme (2026), cilt kalitesi, yara iyileşmesi ve iz oluşumunda olumlu sonuçlar bildirmiş; ancak çalışmaların küçük ve kısa süreli olduğunu vurgulamıştır.
 
-Seanslar kişinin ihtiyacına göre genellikle birkaç hafta arayla 2–4 seans olarak planlanır.
+Seanslar kişinin ihtiyacına göre genellikle birkaç hafta arayla 2–4 seans olarak planlanır. Sonucun yüzde ve saçta hangi aşamada değerlendirildiğini [mezoterapi ne zaman etkisini gösterir](/blog/mezoterapi-ne-zaman-etkisini-gosterir) yazısında ayrıca ele aldık.
 
 ## Olası Yan Etkiler
 

@@ -49,7 +49,7 @@ AAD'nin [cilt](https://www.aad.org/public/cosmetic/younger-looking/platelet-rich
 2. Kan santrifüj cihazında döndürülerek katmanlarına ayrılır; trombositten zengin plazma kısmı hazırlanır.
 3. Plazma, iğneyle ya da mikro iğneleme yöntemiyle cilde veya saçlı deriye uygulanır.
 
-Saç dökülmesinde AAD, enjeksiyonun yaklaşık 10 dakika sürdüğünü, ilk üç ay ayda bir, sonrasında 3-6 ayda bir seans yapıldığını anlatır. Cilt uygulamasında işlem 45 dakika ile bir saat sürebilir; sonuç alan kişilerin çoğu üç ya da daha fazla seans olmuştur. Etki birkaç hafta ile birkaç ay içinde ortaya çıkar. Bu sayılar AAD'nin verdiği genel bilgilerdir; standart bir protokol yoktur.
+Saç dökülmesinde AAD, enjeksiyonun yaklaşık 10 dakika sürdüğünü, ilk üç ay ayda bir, sonrasında 3-6 ayda bir seans yapıldığını anlatır. Cilt uygulamasında işlem 45 dakika ile bir saat sürebilir; sonuç alan kişilerin çoğu üç ya da daha fazla seans olmuştur. Etki birkaç hafta ile birkaç ay içinde ortaya çıkar. Bu sayılar AAD'nin verdiği genel bilgilerdir; standart bir protokol yoktur. Mezoterapide bu sürenin yüz ve saç için nasıl değiştiğini [mezoterapi ne zaman etkisini gösterir](/blog/mezoterapi-ne-zaman-etkisini-gosterir) yazısında karşılaştırdık.
 
 ## PRP Hangi Alanlarda Kullanılıyor?
 

@@ -2754,6 +2754,27 @@
       "preparedAt": "2026-11-13T14:11:11.148Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-13T14:11:13.912Z"
+    },
+    {
+      "day": "2026-11-14",
+      "slug": "mezoterapi-ne-zaman-etkisini-gosterir",
+      "sourceArticleSha256": "a24d50ebfdab9cce543c4daf595a9f0c42c33c0b7f97fe15389f0790b1e06dc5",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/mezoterapi-ne-zaman-etkisini-gosterir",
+        "htmlTitle": "Mezoterapi Ne Zaman Etkisini Gösterir? Yüz ve Saç",
+        "metaDescription": "Mezoterapi ne zaman etkisini gösterir? Yüz ve saç mezoterapisinde ilk değişimin zamanını, seans aralıklarını, kalıcılığı ve kanıtların sınırlarını öğrenin.",
+        "headline": "Mezoterapi Ne Zaman Etkisini Gösterir? Yüzde ve Saçta Süreler",
+        "datePublished": "2026-11-14",
+        "dateModified": "2026-11-14",
+        "wordCount": 1141,
+        "bodyTextSha256": "77063ca10e4900008fe67adab9c64e50195c19654718f2846de9bd98629ea80a",
+        "htmlSha256": "5952d396910aabf4a4bfe78b1a518494966ef66c88c766dbb6068a71232930a7"
+      },
+      "commit": "a391cf52b9c3b54d86607da07d4b9776bd21ae37",
+      "parent": "415188c30bb45382b354794da147fc32c6ba3648",
+      "preparedAt": "2026-11-14T10:55:18.411Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-14T10:55:22.749Z"
     }
   ]
 }

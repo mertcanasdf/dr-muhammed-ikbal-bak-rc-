@@ -1288,5 +1288,37 @@
     "topic": "b12 vitamini nedir hangi besinlerde bulunur",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-14",
+    "type": "sorgu-optimizasyonu",
+    "slug": "gunes-kremi-nasil-secilir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-14",
+    "type": "sorgu-optimizasyonu",
+    "slug": "altin-igne",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-14",
+    "type": "sorgu-optimizasyonu",
+    "slug": "cilt-bariyeri-nasil-guclendirilir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-14",
+    "type": "sorgu-optimizasyonu",
+    "slug": "insulin-direnci-belirtileri",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-14",
+    "type": "yeni-yazi",
+    "slug": "mezoterapi-ne-zaman-etkisini-gosterir",
+    "topic": "mezoterapi ne zaman etkisini gösterir",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

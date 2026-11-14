@@ -15,11 +15,11 @@ takeaways:
 relatedArticles:
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
-    title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
+    title: "Güneş Kremi Nasıl Seçilir? SPF, Cilt Tipi ve Doğru Kullanım"
     image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
   - slug: "altin-igne"
     category: "Skin Longevity"
-    title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi ve Cilt Yenilenmesi"
+    title: "Altın İğne (Altın Frekans) Nedir? Fraksiyonel Radyofrekansın Etkisi ve Riskleri"
     image: "/assets/images/generated/articles/altin-igne.webp"
   - slug: "retinoid-nedir"
     category: "Skin Longevity"

@@ -19,7 +19,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/uyku-apnesi-belirtileri-ne-zaman-basvurulmali.webp"
   - slug: "insulin-direnci-belirtileri"
     category: "Beslenme"
-    title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
+    title: "İnsülin Direnci Belirtileri Nelerdir? Nasıl Anlaşılır, Hangi Testler Yapılır?"
     image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
   - slug: "kas-kaybi-ne-zaman-baslar"
     category: "Hareket"

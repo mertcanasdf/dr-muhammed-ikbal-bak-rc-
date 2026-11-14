@@ -17,7 +17,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/botoks.webp"
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
-    title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
+    title: "Güneş Kremi Nasıl Seçilir? SPF, Cilt Tipi ve Doğru Kullanım"
     image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
   - slug: "egzersiz-sonrasi-toparlanma"
     category: "Hareket"

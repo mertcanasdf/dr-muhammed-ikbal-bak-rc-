@@ -23,7 +23,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/nemlendirici-icerikleri-seramid-humektan.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
+    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cildi Güçlendiren Sade Rutin"
     image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
 ---
 

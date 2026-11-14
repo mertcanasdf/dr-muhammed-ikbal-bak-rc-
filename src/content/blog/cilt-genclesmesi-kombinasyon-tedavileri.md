@@ -15,7 +15,7 @@ takeaways:
 relatedArticles:
   - slug: "altin-igne"
     category: "Skin Longevity"
-    title: "Altın İğne (Fraksiyonel Radyofrekans): Kollajen İndüksiyon Tedavisi ve Cilt Yenilenmesi"
+    title: "Altın İğne (Altın Frekans) Nedir? Fraksiyonel Radyofrekansın Etkisi ve Riskleri"
     image: "/assets/images/generated/articles/altin-igne.webp"
   - slug: "prp-eksozom"
     category: "Skin Longevity"

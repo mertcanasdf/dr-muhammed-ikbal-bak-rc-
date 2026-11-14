@@ -15,7 +15,7 @@ takeaways:
 relatedArticles:
   - slug: "insulin-direnci-belirtileri"
     category: "Beslenme"
-    title: "İnsülin Direnci Belirtileri: Nasıl Anlaşılır ve Nasıl Değerlendirilir?"
+    title: "İnsülin Direnci Belirtileri Nelerdir? Nasıl Anlaşılır, Hangi Testler Yapılır?"
     image: "/assets/images/generated/articles/insulin-direnci-belirtileri.webp"
   - slug: "karaciger-yaglanmasi-nasil-gecer"
     category: "Beslenme"

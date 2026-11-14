@@ -13,11 +13,11 @@ takeaways:
 relatedArticles:
   - slug: "gunes-kremi-nasil-secilir"
     category: "Skin Longevity"
-    title: "Güneş Kremi Nasıl Seçilir? SPF, Geniş Spektrum ve Doğru Kullanım"
+    title: "Güneş Kremi Nasıl Seçilir? SPF, Cilt Tipi ve Doğru Kullanım"
     image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
   - slug: "cilt-bariyeri-nasil-guclendirilir"
     category: "Skin Longevity"
-    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cilt İçin Temel Rutin"
+    title: "Cilt Bariyeri Nasıl Güçlendirilir? Hassas Cildi Güçlendiren Sade Rutin"
     image: "/assets/images/generated/articles/cilt-bariyeri-nasil-guclendirilir.webp"
   - slug: "retinoid-nedir"
     category: "Skin Longevity"

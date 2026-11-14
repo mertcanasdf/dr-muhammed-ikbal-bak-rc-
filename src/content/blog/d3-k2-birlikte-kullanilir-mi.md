@@ -87,7 +87,7 @@ Aşağıdaki örnek bir ürün tavsiyesi veya doz hesabı değildir: Bir kişi a
 6. İçerik değiştiğinde eski ve yeni etiket karşılaştırılmış mı?
 7. Hangi ilacın, hangi ürünle birlikte değerlendirileceği açık mı?
 
-Kutuların ön ve arka yüzünün fotoğrafını çekmek, görüşmede yalnız marka adını hatırlamaya çalışmaktan daha kullanışlı olabilir. Etiketteki bilgi belirsizse tahminle miktar artırmayın. [NIH D vitamini bilgi formu](https://ods.od.nih.gov/factsheets/VitaminD-Consumer/), D vitamininin tek başına veya farklı besin öğeleriyle birleşik ürünlerde bulunabileceğini açıklar.
+Kutuların ön ve arka yüzünün fotoğrafını çekmek, görüşmede yalnız marka adını hatırlamaya çalışmaktan daha kullanışlı olabilir. Etiketteki bilgi belirsizse tahminle miktar artırmayın. [NIH D vitamini bilgi formu](https://ods.od.nih.gov/factsheets/VitaminD-Consumer/), D vitamininin tek başına veya farklı besin öğeleriyle birleşik ürünlerde bulunabileceğini açıklar. Aynı etiket okuma alışkanlığı bitkisel ürünlerde de işe yarar; [ashwagandha nasıl kullanılır](/blog/ashwagandha-nasil-kullanilir) yazısında bitkinin hangi kısmının ve hangi biçiminin kullanıldığına bakmanın neden önemli olduğunu anlattık.
 
 ## Besinlerle alım ve güvenlik nasıl düşünülmeli?
 

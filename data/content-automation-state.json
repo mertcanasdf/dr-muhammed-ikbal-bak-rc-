@@ -2775,6 +2775,27 @@
       "preparedAt": "2026-11-14T10:55:18.411Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-14T10:55:22.749Z"
+    },
+    {
+      "day": "2026-11-14",
+      "slug": "ashwagandha-nasil-kullanilir",
+      "sourceArticleSha256": "362f808834cc109fe7731285eb2d947749a7943c9d92d8553179e4aba7364601",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/ashwagandha-nasil-kullanilir",
+        "htmlTitle": "Ashwagandha Nasıl Kullanılır, Ne Zaman Alınır?",
+        "metaDescription": "Ashwagandha nasıl, ne zaman kullanılır? Toz, kapsül ve kök formları, araştırmalardaki miktar ve süreler, yan etkiler ve kimlerin kullanmaması gerektiği.",
+        "headline": "Ashwagandha Nasıl Kullanılır? Ne Zaman, Hangi Formda, Ne Kadar Süre?",
+        "datePublished": "2026-11-14",
+        "dateModified": "2026-11-14",
+        "wordCount": 1210,
+        "bodyTextSha256": "27e9ce4f144fbc3074606e1e4ceb31c8290831e0e052bb3bc2b18e00bafd4e0c",
+        "htmlSha256": "39f06d2a0f47f824f8b0a559b96aca7316c825e5179e6a4d9e075d39f0f40a6a"
+      },
+      "commit": "dfc481bbb7fab6b5c7c22b9e34afd0dd8e3f3a55",
+      "parent": "a391cf52b9c3b54d86607da07d4b9776bd21ae37",
+      "preparedAt": "2026-11-14T14:11:00.149Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-14T14:11:03.180Z"
     }
   ]
 }

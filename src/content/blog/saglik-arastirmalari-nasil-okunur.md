@@ -74,7 +74,7 @@ Yalnız “anlamlı bulundu” ifadesi yeterli değildir. Etkinin büyüklüğü
 
 Kısa süreli bir çalışmada sorun bildirilmemesi, yıllarca kullanımın güvenli olduğunun kanıtı değildir. Yan etkiler nasıl aranmış, kaç kişi çalışmayı bırakmış ve bırakma nedenleri açıklanmış mı? Fayda ile zararın aynı katılımcılarda aynı süreyle izlenip izlenmediğini kontrol edin.
 
-Bir yayında yan etki bölümü yoksa notunuz “zararsız” değil, “bu bilgi raporda bulunamadı” olmalıdır. Bu ayrım özellikle uzun süre kullanılmak üzere pazarlanan takviyelerde kararın temel parçasıdır.
+Bir yayında yan etki bölümü yoksa notunuz “zararsız” değil, “bu bilgi raporda bulunamadı” olmalıdır. Bu ayrım özellikle uzun süre kullanılmak üzere pazarlanan takviyelerde kararın temel parçasıdır. Somut bir örnek için [ashwagandha nasıl kullanılır](/blog/ashwagandha-nasil-kullanilir) yazısına bakabilirsiniz: çalışmalar 6–12 hafta sürmüş, üç ayın ötesi için güvenlik verisi sınırlı kalmıştır.
 
 ## 7. Diğer çalışmalar ne diyor?
 

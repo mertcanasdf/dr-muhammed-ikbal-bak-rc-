@@ -43,7 +43,7 @@ Kozmetikte başlıca şu amaçlarla kullanılır:
 
 ### Niacinamide asit mi? Ne işe yarar?
 
-Hayır. Adındaki "nikotin" kısmı yanıltıcı olabilir, ama niacinamide bir amittir; glikolik ya da salisilik asit gibi ölü hücreleri çözüp cildi soymaz. Arama motoruna "niacinamide asit" yazanlar genellikle onu peeling ürünlerinden biri sanıyor. Asit olan, akrabası nikotinik asittir ve o da cilde değil, çoğunlukla ağızdan kullanılan bir maddedir.
+Hayır. Adındaki "nikotin" kısmı yanıltıcı olabilir, ama niacinamide bir amittir; glikolik ya da salisilik asit gibi ölü hücreleri çözüp cildi soymaz. Arama motoruna "niacinamide asit" yazanlar genellikle onu peeling ürünlerinden biri sanıyor; asitlerle yapılan soyma işlemi [kimyasal peeling](/blog/kimyasal-peeling-nedir) yazısının konusu. Asit olan, akrabası nikotinik asittir ve o da cilde değil, çoğunlukla ağızdan kullanılan bir maddedir.
 
 ### Niacinamide nasıl okunur?
 

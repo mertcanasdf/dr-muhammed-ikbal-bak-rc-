@@ -83,7 +83,7 @@ Güneş lekesi iyi huylu olduğundan tedavi tıbbi bir zorunluluk değildir; gö
 - [Mukovozov ve arkadaşları (2023, *Dermatologic Surgery*)](https://pubmed.ncbi.nlm.nih.gov/36533790/) 48 yayını ve 1.763 hastayı incelemiştir. Tam yanıt oranları kombinasyon tedavilerinde %65, lazerlerde %43, topikal retinoidlerde %21, kriyoterapide %15 ve peelinglerde %6 bulunmuştur.
 - [Mardani ve arkadaşları (2025, *Journal of Cosmetic Dermatology*)](https://pubmed.ncbi.nlm.nih.gov/40145274/) 41 klinik çalışmayı ve 3.234 hastayı derlemiş, lazer tedavisinin kabul edilebilir güvenlikle diğer yöntemlerden daha etkili göründüğü sonucuna varmıştır.
 
-Çalışmaların tasarımı, kullanılan cihaz ve başarı tanımı birbirinden farklı olduğu için bu oranlar doğrudan karşılaştırma değil, genel bir yön göstergesidir.
+Çalışmaların tasarımı, kullanılan cihaz ve başarı tanımı birbirinden farklı olduğu için bu oranlar doğrudan karşılaştırma değil, genel bir yön göstergesidir. Peelinglerin derinliğe göre nasıl ayrıldığı ve iyileşme süreleri [kimyasal peeling nedir](/blog/kimyasal-peeling-nedir) yazısında anlatılıyor.
 
 | Yöntem | Derlemelerde görülen başarı | Dikkat edilecek nokta |
 |---|---|---|

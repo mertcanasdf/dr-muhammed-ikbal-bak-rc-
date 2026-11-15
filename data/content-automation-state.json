@@ -2796,6 +2796,27 @@
       "preparedAt": "2026-11-14T14:11:00.149Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-14T14:11:03.180Z"
+    },
+    {
+      "day": "2026-11-15",
+      "slug": "kimyasal-peeling-nedir",
+      "sourceArticleSha256": "8c9167944e7243d440a8119b732924614238525107ab78529ad5c1a32778839f",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kimyasal-peeling-nedir",
+        "htmlTitle": "Kimyasal Peeling Nedir? Nasıl Yapılır, Zararları",
+        "metaDescription": "Kimyasal peeling nedir, nasıl yapılır? Yüzeysel, orta ve derin peelingin farkını, iyileşme sürelerini, yan etkilerini ve kimlere uygun olmadığını öğrenin.",
+        "headline": "Kimyasal Peeling Nedir? Nasıl Yapılır, Ne İşe Yarar, Zararları",
+        "datePublished": "2026-11-15",
+        "dateModified": "2026-11-15",
+        "wordCount": 1217,
+        "bodyTextSha256": "3439a29c7a70633ea9b99e108206b45dae1052fb966040ab56126702ca797586",
+        "htmlSha256": "e3ecd23e940f75b193a1bcf94b2f23ed6c9c315d05dd4a97f9068cc1dc4100f1"
+      },
+      "commit": "2ecdb47bdb61e562427569b9e22d3be2a9182e3e",
+      "parent": "bc752e9aec28642d08de7a2c302995c91d09b53b",
+      "preparedAt": "2026-11-15T06:15:11.888Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-15T06:15:15.121Z"
     }
   ]
 }

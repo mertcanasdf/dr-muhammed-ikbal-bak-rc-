@@ -1328,5 +1328,37 @@
     "topic": "ashwagandha nasıl kullanılır",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-15",
+    "type": "sorgu-optimizasyonu",
+    "slug": "protein-ihtiyaci-yaslanma",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-15",
+    "type": "sorgu-optimizasyonu",
+    "slug": "aralikli-oruc-longevity",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-15",
+    "type": "sorgu-optimizasyonu",
+    "slug": "egzersiz-sonrasi-kas-agrisi-ne-zaman-basvurulmali",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-15",
+    "type": "yazi-genisletme",
+    "slug": "botoks-sonrasi-dikkat-edilmesi-gerekenler",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-15",
+    "type": "yeni-yazi",
+    "slug": "kimyasal-peeling-nedir",
+    "topic": "kimyasal peeling nedir",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

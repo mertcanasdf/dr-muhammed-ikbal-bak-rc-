@@ -112,7 +112,7 @@ Kendi başına acil bir durum değildir, ama önemsiz de değildir. Tip 2 diyabe
 
 ### HbA1c 5,7 ne demek?
 
-%5,7, prediyabet aralığının alt sınırıdır. Aralığın alt ucundaki bir değerle %6,0 ve üzerindeki değer aynı riski taşımaz; ADA daha yoğun önlemleri özellikle %6,0 ve üstü için önerir. Sonuç, açlık glukozu ve diğer risk etkenleriyle birlikte yorumlanır.
+%5,7, prediyabet aralığının alt sınırıdır. Aralığın alt ucundaki bir değerle %6,0 ve üzerindeki değer aynı riski taşımaz; ADA daha yoğun önlemleri özellikle %6,0 ve üstü için önerir. Sonuç, açlık glukozu ve diğer risk etkenleriyle birlikte yorumlanır; değerin yanıltıcı çıkabildiği durumlar ve [HbA1c'nin nasıl düşürüldüğü](/blog/hba1c-nasil-dusurulur) ayrı bir yazıda anlatılıyor.
 
 ### Prediyabette şeker tamamen kesilmeli mi?
 

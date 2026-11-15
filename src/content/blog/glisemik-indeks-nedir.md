@@ -95,7 +95,7 @@ Yüksek değerli bir besini ara sıra yemenin kendisi bir zarar sayılmaz. Araş
 |---|---|---|
 | Tip 2 diyabet riski | [10 büyük kohortun meta-analizi, 2024](https://pubmed.ncbi.nlm.nih.gov/38272606/) | Yüksek GI'li beslenme tip 2 diyabetle ilişkili (göreli risk 1,27) |
 | Kalp-damar hastalığı | Aynı meta-analiz | Toplam kalp-damar hastalığıyla ilişkili (göreli risk 1,15) |
-| Diyabeti olanlarda kan şekeri kontrolü | [29 karşılaştırma, 1.617 kişi, BMJ 2021](https://pubmed.ncbi.nlm.nih.gov/34348965/) | Düşük GI/GY düzeni HbA1c'yi ortalama 0,31 puan azalttı; yazarlar bunu küçük ama önemli buluyor |
+| Diyabeti olanlarda kan şekeri kontrolü | [29 karşılaştırma, 1.617 kişi, BMJ 2021](https://pubmed.ncbi.nlm.nih.gov/34348965/) | Düşük GI/GY düzeni [HbA1c'yi](/blog/hba1c-nasil-dusurulur) ortalama 0,31 puan azalttı; yazarlar bunu küçük ama önemli buluyor |
 | Kan yağları ve tansiyon | [Cochrane, 21 deneme, 2.538 kişi, 2017](https://doi.org/10.1002/14651858.CD004467.pub3) | Belirgin yarar için ikna edici kanıt yok; denemeler kalp krizi ya da inme sonucunu raporlamamış |
 | Kilo verme | [Cochrane, 10 deneme, 1.210 kişi, 2023](https://doi.org/10.1002/14651858.CD005105.pub3) | Yüksek GI/GY diyetlerine kıyasla az ya da hiç fark olabilir (−0,82 kg); kesin sonuç için bilgi yetersiz |
 

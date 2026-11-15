@@ -2817,6 +2817,27 @@
       "preparedAt": "2026-11-15T06:15:11.888Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-15T06:15:15.121Z"
+    },
+    {
+      "day": "2026-11-15",
+      "slug": "hba1c-nasil-dusurulur",
+      "sourceArticleSha256": "530301df530e51e53ffcadae90eac67ba25647a1670cf00c8bfadda1b33e541a",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/hba1c-nasil-dusurulur",
+        "htmlTitle": "HbA1c Nasıl Düşürülür? Kaç Olmalı, Neden Yükselir?",
+        "metaDescription": "HbA1c nasıl düşürülür? Hareket, kilo ve beslenmenin etkisini, sonucun kaç ayda değiştiğini, % ve mmol/mol karşılıklarını ve yanıltıcı yüksekliği öğrenin.",
+        "headline": "HbA1c Nasıl Düşürülür? Yüksekliği Neden Olur, Kaç Olmalı?",
+        "datePublished": "2026-11-15",
+        "dateModified": "2026-11-15",
+        "wordCount": 1289,
+        "bodyTextSha256": "8a9aa3fe4ec72fcf7261c2b7fb45213e92b55c05fd30546c325ec2ba1a7b90be",
+        "htmlSha256": "a8fcd63b734d62add9a65d0a0598bb09be067de70ddeeb93aa3dd223c9aebe7b"
+      },
+      "commit": "e9da8b5f982abfc2c79c29d6fe876de5f5c8b706",
+      "parent": "2ecdb47bdb61e562427569b9e22d3be2a9182e3e",
+      "preparedAt": "2026-11-15T10:11:10.620Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-15T10:11:14.334Z"
     }
   ]
 }

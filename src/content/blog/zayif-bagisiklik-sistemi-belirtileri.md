@@ -77,6 +77,8 @@ Bağışıklık yetmezliği iki başlıkta incelenir. Doğuştan olanlar genetik
 - Diyabet
 - İleri yaş
 
+Beslenme tarafında tek bir mineralin eksikliği de iz bırakabilir: [Harvard'a göre](https://nutritionsource.hsph.harvard.edu/zinc/) çinko eksikliği bağışıklığı zayıflatır ve yaraların iyileşmesini yavaşlatır. [Çinkonun hangi besinlerde bulunduğu](/blog/cinko-nelerde-bulunur) ve kimlerin risk altında olduğu ayrı bir yazının konusu.
+
 Sık ilaç kullanan biri için ilk bakılacak yer ilaç listesidir. HIV'de ise [ilk haftalarda belirti olmayabilir, daha sonra lenf bezlerinde şişlik, kilo kaybı, ateş ve ishal görülebilir](https://www.who.int/news-room/fact-sheets/detail/hiv-aids). Antikor testi enfeksiyondan sonraki yaklaşık 28 güne kadar negatif çıkabilir ve düzenli tedaviyle bağışıklık sistemi toparlanır. Bu yüzden açıklanamayan tekrar eden enfeksiyonda HIV testi [tanı listesinin olağan bir parçasıdır](https://medlineplus.gov/ency/article/000818.htm).
 
 Organ sistemlerinin aynı hızda yaşlanmadığını [biyolojik yaş yazısında](/blog/biyolojik-yas-nasil-olculur), beslenmenin yaşlanmadaki yerini [beslenme ve sağlıklı yaşlanma merkezimizde](/longevity/beslenme) bulabilirsiniz. İleri yaşta [protein ihtiyacı](/blog/protein-ihtiyaci-yaslanma) da bu nedenle yalnız kas meselesi değildir.

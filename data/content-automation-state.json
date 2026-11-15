@@ -2838,6 +2838,27 @@
       "preparedAt": "2026-11-15T10:11:10.620Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-15T10:11:14.334Z"
+    },
+    {
+      "day": "2026-11-15",
+      "slug": "cinko-nelerde-bulunur",
+      "sourceArticleSha256": "8ac0bc3f482a74009868999daa338466facd2a7b3b398ccd3bc34ca0fa779302",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/cinko-nelerde-bulunur",
+        "htmlTitle": "Çinko Nelerde Bulunur? Çinko İçeren Besinler Tablosu",
+        "metaDescription": "Çinko nelerde bulunur? Et, deniz ürünü, süt, kuruyemiş ve baklagillerin porsiyon başına çinko değerleri, emilim farkı ve bitkisel beslenenlere ipuçları.",
+        "headline": "Çinko Nelerde Bulunur? Çinko İçeren Besinler Tablosu",
+        "datePublished": "2026-11-15",
+        "dateModified": "2026-11-15",
+        "wordCount": 1178,
+        "bodyTextSha256": "94731e0625f01b8298a8d715f483d0ce52ddf76459218bf646888c607158510c",
+        "htmlSha256": "5fb800a6fe063c77f882b03c75c7db4d65d563d382ddfea4cab0ff5741e952c7"
+      },
+      "commit": "f969d2a49b30ebbbe773590349afc1ba98423de6",
+      "parent": "e9da8b5f982abfc2c79c29d6fe876de5f5c8b706",
+      "preparedAt": "2026-11-15T14:11:18.895Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-15T14:11:23.179Z"
     }
   ]
 }

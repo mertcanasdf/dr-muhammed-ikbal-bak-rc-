@@ -129,7 +129,7 @@ Demir bazı ilaçların emilimini, bazı ilaçlar da demirin emilimini azaltır.
 - kemik erimesi ilaçları (bifosfonatlar),
 - Parkinson ilaçları (levodopa),
 - antiasitler ve mide ilaçları,
-- kalsiyum, magnezyum ve çinko içeren takviyeler.
+- kalsiyum, magnezyum ve [çinko](/blog/cinko-nelerde-bulunur) içeren takviyeler.
 
 MedlinePlus bu ilaçlarla demir arasında en az 2 saat bırakılmasını önerir; NHS ise aranın uzunluğunu eczacıya ya da hekime sormayı. MedlinePlus'a göre mide asidini azaltan ilaçlar demir emilimini de bozar.
 

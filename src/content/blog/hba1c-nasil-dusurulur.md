@@ -9,7 +9,7 @@ image: "/assets/images/generated/articles/hba1c-nasil-dusurulur.webp"
 readTime: "8 dk"
 takeaways:
   - "HbA1c, kan şekerinin yaklaşık üç aylık ortalamasını yansıtır; bu yüzden günler içinde değil, aylar içinde değişir."
-  - "47 randomize çalışmanın meta-analizinde yapılandırılmış egzersiz HbA1c'yi ortalama 0,67 puan düşürdü; haftada 150 dakikanın üzerinde etki daha büyüktü."
+  - "Tip 2 diyabetlilerde 47 randomize çalışmanın meta-analizinde yapılandırılmış egzersiz HbA1c'yi ortalama 0,67 puan düşürdü; haftada 150 dakikanın üzerinde etki daha büyüktü."
   - "%5,7'nin altı normal, %5,7–6,4 prediyabet, %6,5 ve üzeri diyabet aralığıdır; diyabeti olan birçok yetişkinde hedef %7'nin altıdır."
   - "Demir eksikliği anemisi, böbrek yetmezliği ve kan kaybı gibi durumlar sonucu olduğundan yüksek ya da düşük gösterebilir."
 relatedArticles:
@@ -57,17 +57,17 @@ Aynı analizde yalnızca "daha çok hareket edin" tavsiyesi HbA1c'yi değiştirm
 
 ### 4. Reçete edilen ilacı aksatmamak
 
-NIDDK, diyabet ilaçlarının kişi kendini iyi hissetse ve hedefe ulaşsa bile yazıldığı biçimde kullanılmasını, yan etki ya da maliyet sorununun doz atlayarak değil sağlık ekibiyle konuşularak çözülmesini ister. [Diabetes UK](https://www.diabetes.org.uk/about-diabetes/looking-after-diabetes/hba1c) de HbA1c hedefin üzerinde kaldığında ilk adımlardan birinin tedavinin gözden geçirilmesi olduğunu belirtir. İlaç başlamak, değiştirmek ya da bırakmak hekim kararıdır; bu yazı bir tedavi planı değildir.
+NIDDK, diyabet ilaçlarının kişi kendini iyi hissetse ve hedefe ulaşsa bile yazıldığı biçimde kullanılmasını, yan etki ya da maliyet sorununun doz atlayarak değil sağlık ekibiyle konuşularak çözülmesini ister. [Diabetes UK](https://www.diabetes.org.uk/about-diabetes/looking-after-diabetes/hba1c) de HbA1c hedefin üzerinde kaldığında ilk adımlardan birinin tedavinin gözden geçirilmesi olduğunu belirtir. İlaç başlamak, değiştirmek ya da bırakmak hekim kararıdır.
 
 ### 5. Uyku, stres ve tütün
 
-NIDDK çoğu yetişkin için gecede 7–8 saat uykuyu ve stresle baş etmenin sağlıklı yollarını diyabet yönetiminin parçası sayar; Diabetes UK listesinde sigarayı bırakmak da vardır. Bu adımların HbA1c'ye etkisi egzersizdeki kadar net ölçülmüş değildir, ama kan şekerini yükselten etkenler arasında stres ve hastalık dönemleri açıkça geçer. Uyku düzeni için [uyku kalitesi nasıl artırılır](/blog/uyku-kalitesi-nasil-artirilir) yazısına bakılabilir.
+NIDDK çoğu yetişkin için gecede 7–8 saat uykuyu ve stresle baş etmenin sağlıklı yollarını diyabet yönetiminin parçası sayar; Diabetes UK listesinde sigarayı bırakmak da vardır. Bu adımların HbA1c'ye etkisi egzersize göre daha az net ölçülmüştür, ama kan şekerini yükselten etkenler arasında stres ve hastalık dönemleri açıkça geçer. Uyku düzeni için [uyku kalitesi nasıl artırılır](/blog/uyku-kalitesi-nasil-artirilir) yazısına bakılabilir.
 
 ## HbA1c ne kadar sürede düşer?
 
-Glukoz, alyuvarlardaki hemoglobine bağlanır ve alyuvar ömrü boyunca orada kalır. [NIDDK'nin test sayfasına göre](https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test) sonuç yaklaşık üç ayın ortalamasıdır ve son 30 günün ağırlığı daha fazladır. Bu nedenle bir haftalık sıkı diyet tabloyu değiştirmez; kalıcı bir değişikliğin karşılığı bir sonraki ölçümde okunur. Amerikan Diyabet Derneği (ADA) [2026 standartlarında](https://pmc.ncbi.nlm.nih.gov/articles/PMC12690178) hedefe ulaşamayan kişilerde ölçümün yaklaşık üç ayda bir, dengesi yerinde olanlarda yılda iki kez yapılmasını önerir.
+Glukoz, alyuvarlardaki hemoglobine bağlanır ve alyuvar ömrü boyunca orada kalır. [NIDDK'nin test sayfasına göre](https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test) sonuç yaklaşık üç ayın ortalamasıdır; son haftalardaki kan şekeri sonuca daha çok yansır. Bu nedenle bir haftalık sıkı diyet tabloyu değiştirmez; kalıcı bir değişikliğin karşılığı bir sonraki ölçümde okunur. Amerikan Diyabet Derneği (ADA) [2026 standartlarında](https://pmc.ncbi.nlm.nih.gov/articles/PMC12690178) hedefe ulaşamayan kişilerde ölçümün yaklaşık üç ayda bir, dengesi yerinde olanlarda yılda iki kez yapılmasını önerir.
 
-Hızlı ve sert düşüş bir hedef değildir. Aynı ADA metni, insülin ve bazı şeker ilaçlarıyla çok sıkı hedeflerin kan şekeri düşüklüğünü artırdığını, ağır ya da sık hipoglisemide tedavi planının değiştirilmesi gerektiğini yazar ([kan şekeri neden düşer](/blog/kan-sekeri-neden-duser)).
+Hedef, değeri hızla değil güvenle indirmektir. Aynı ADA metni, insülin ve bazı şeker ilaçlarıyla çok sıkı hedeflerin kan şekeri düşüklüğünü artırdığını, ağır ya da sık hipoglisemide tedavi planının değiştirilmesi gerektiğini yazar ([kan şekeri neden düşer](/blog/kan-sekeri-neden-duser)).
 
 ## HbA1c nedir, kan tahlilinde neyi gösterir?
 
@@ -93,7 +93,7 @@ Tahlil kâğıdında iki birim görülebilir: yüzde (%) ve IFCC birimi olan mmo
 | Prediyabet | 5,7–6,4 | 39–47 |
 | Diyabet | 6,5 ve üzeri | 48 ve üzeri |
 
-Belirti yoksa diyabet tanısı ikinci bir testle doğrulanır. Tanı almış kişide "olması gereken" değer tek bir sayı değildir: ADA birçok yetişkin için %7'nin (53 mmol/mol) altını, sağlığı iyi ve hipoglisemi riski düşük olanlarda %6,5'in altını, çok sayıda hastalığı olan ya da yaşam beklentisi sınırlı kişilerde %8'e kadar daha esnek hedefleri uygun bulur.
+Belirti yoksa diyabet tanısı ikinci bir testle doğrulanır. Tanı almış kişide hedef kişiye göre değişir: ADA birçok yetişkin için %7'nin (53 mmol/mol) altını, sağlığı iyi ve hipoglisemi riski düşük olanlarda %6,5'in altını, çok sayıda hastalığı olan ya da yaşam beklentisi sınırlı kişilerde %8'e kadar daha esnek hedefleri uygun bulur.
 
 ### Çocuklarda HbA1c kaç olmalı?
 
@@ -111,7 +111,7 @@ Asıl neden, kan şekerinin haftalarca yüksek seyretmesidir: tanı konmamış y
 - **İki yönde de yanıltabilen:** böbrek yetmezliği, karaciğer hastalığı, orak hücre anemisi ve talasemi gibi hemoglobin varyantları.
 - **Sonucu değiştiren diğer durumlar:** yakın zamanda kan kaybı ya da kan nakli, gebeliğin erken ve geç dönemleri, bazı ilaçlar.
 
-Parmak ucu ölçümleriyle HbA1c birbirini tutmuyorsa, bu listedeki bir durumun araştırılması sonucu "düşürmeye çalışmaktan" önce gelir. Talasemi taşıyıcılığının sık görüldüğü Akdeniz ülkelerinde bu ayrıntı özellikle önemlidir.
+Parmak ucu ölçümleriyle HbA1c birbirini tutmuyorsa, bu listedeki bir durumun araştırılması sonucu "düşürmeye çalışmaktan" önce gelir.
 
 ## HbA1c yüksekliği belirtileri nelerdir?
 
@@ -125,17 +125,17 @@ Aşağıdaki tablo, kan şekerinin tehlikeli düzeye çıktığını düşündü
 - Nefeste meyvemsi koku,
 - Bilinç bulanıklığı ya da bayılma.
 
-NIDDK bunları diyabetik ketoasidozun işaretleri olarak verir ve acil tıbbi durum sayar. CDC ayrıca hastalık sırasında kan şekeri 240 mg/dL ve üzerindeyse keton bakılmasını önerir.
+NIDDK bunları diyabetik ketoasidozun işaretleri olarak verir ve acil tıbbi durum sayar. [CDC](https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html) ayrıca hastalık sırasında ya da kan şekeri 250 mg/dL ve üzerindeyse keton bakılmasını önerir.
 
 ## Sık sorulan sorular
 
-### Canan Karatay diyeti gibi düşük karbonhidratlı beslenme HbA1c'yi düşürür mü?
+### Düşük karbonhidratlı beslenme HbA1c'yi düşürür mü?
 
-Bu yazı belirli bir kişinin önerilerini değerlendirmez; kılavuzların düşük karbonhidratlı beslenme için söylediği şudur: ADA, [prediyabet bölümünde](https://pmc.ncbi.nlm.nih.gov/articles/PMC12690170/) düşük karbonhidratlı düzeni Akdeniz diyetiyle birlikte kanıta dayalı seçenekler arasında sayar ve tek bir ideal karbonhidrat-yağ-protein oranı olmadığını belirtir. İnsülin ya da şeker düşürücü ilaç kullanan birinin karbonhidratı belirgin azaltması, ilaç dozu aynı kalırsa hipoglisemiye yol açabilir; bu değişiklik hekimle birlikte yapılır.
+ADA, [prediyabet bölümünde](https://pmc.ncbi.nlm.nih.gov/articles/PMC12690170/) düşük karbonhidratlı düzeni Akdeniz diyetiyle birlikte kanıta dayalı seçenekler arasında sayar ve tek bir ideal karbonhidrat-yağ-protein oranı olmadığını belirtir. İnsülin ya da şeker düşürücü ilaç kullanan birinin karbonhidratı belirgin azaltması, ilaç dozu aynı kalırsa hipoglisemiye yol açabilir; bu değişiklik hekimle birlikte yapılır.
 
 ### HbA1c bir ayda düşer mi?
 
-Kısmen. Son 30 günün sonuca etkisi daha fazla olduğu için bir ay sonra bir miktar düşüş görülebilir; yapılan değişikliğin tam karşılığı yaklaşık üç ayda ortaya çıkar.
+Kısmen. Son haftalar sonuca daha çok yansıdığı için bir ay sonra bir miktar düşüş görülebilir; yapılan değişikliğin tam karşılığı yaklaşık üç ayda ortaya çıkar.
 
 ### HbA1c için aç gitmek gerekir mi?
 
@@ -161,3 +161,4 @@ CDC'ye göre prediyabette 1–2 yılda bir, diyabette yılda en az iki kez; teda
 - [NIDDK. Preventing Type 2 Diabetes](https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes)
 - [CDC. Diabetes Treatment / Manage Blood Sugar](https://www.cdc.gov/diabetes/treatment/index.html)
 - [Diabetes UK. What is HbA1c?](https://www.diabetes.org.uk/about-diabetes/looking-after-diabetes/hba1c)
+- [CDC. Diabetic Ketoacidosis](https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html)

@@ -27,7 +27,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/gunes-kremi-nasil-secilir.webp"
 ---
 
-Kimyasal peeling, cilde asit içeren bir çözelti sürülerek hasarlı üst katmanların kontrollü biçimde soyulması ve yerine yeni cildin gelmesi işlemidir. Kullanılan maddeye ve bekleme süresine göre yalnızca en üst katmanı etkileyen yüzeysel bir uygulama da olabilir, cildin orta katmanına inen ve haftalarca iyileşme gerektiren bir işlem de. Sonuç da risk de bu derinliğe bağlıdır; bu yüzden "peeling yaptırmak" tek bir şey anlatmaz.
+Kimyasal peeling, cilde asit içeren bir çözelti sürülerek hasarlı üst katmanların kontrollü biçimde soyulması ve yerine yeni cildin gelmesi işlemidir. Kullanılan maddeye ve bekleme süresine göre yalnızca en üst katmanı etkileyen yüzeysel bir uygulama da olabilir, cildin orta katmanına inen ve haftalarca iyileşme gerektiren bir işlem de. Sonuç da risk de bu derinliğe bağlıdır.
 
 Kese, lif ya da tanecikli ürünlerle yapılan mekanik peelingden farkı, ölü hücrelerin sürtünmeyle değil kimyasal bir tepkimeyle ayrılmasıdır.
 
@@ -35,9 +35,9 @@ Kese, lif ya da tanecikli ürünlerle yapılan mekanik peelingden farkı, ölü 
 
 [Amerikan Dermatoloji Akademisi (AAD)](https://www.aad.org/public/cosmetic/younger-looking/chemical-peels-overview) kimyasal peelingin kullanıldığı durumları şöyle sıralar: bazı akne türleri, yaşlılık lekeleri, çiller, melazma, düzensiz cilt tonu, donuk ve pürüzlü cilt, güneş hasarı ve özellikle göz altı ile ağız çevresindeki ince çizgiler. Uygulama en çok yüze yapılır; boyun, dekolte ve ellerde de kullanılır.
 
-Yapamadıkları da en az bu kadar önemlidir. [Cleveland Clinic](https://my.clevelandclinic.org/health/treatments/11010-chemical-peels) sarkmaların, derin izlerin, derin yüz çizgilerinin ve belirgin kırışıklıkların peelinge iyi yanıt vermediğini belirtir. Lekelerde de beklenti ölçülü tutulmalıdır: [güneş lekesi tedavilerini karşılaştıran derlemelerde](/blog/gunes-lekesi-nasil-gecer) peelinglerin tam yanıt oranı lazerlerin belirgin biçimde gerisinde kalmıştır.
+Yapamadıkları da en az bu kadar önemlidir. [Cleveland Clinic](https://my.clevelandclinic.org/health/treatments/11010-chemical-peels) sarkmaların, derin izlerin, derin yüz çizgilerinin ve belirgin kırışıklıkların peelinge iyi yanıt vermediğini belirtir. Lekelerde de beklenti ölçülü tutulmalıdır: 48 yayını inceleyen [2023 tarihli bir derlemede](https://pubmed.ncbi.nlm.nih.gov/36533790/) güneş lekelerinde tam yanıt oranı peelinglerde %6, lazerlerde %43 bulunmuştur ([güneş lekesi tedavilerinin karşılaştırması](/blog/gunes-lekesi-nasil-gecer)).
 
-Sonuç kalıcı da değildir. AAD, cilt yaşlanmayı sürdürdüğü için etkinin zamanla azaldığını; ne kadar süreceğinin güneş hasarının düzeyine ve sonraki korunmaya bağlı olduğunu yazar.
+Etki zamanla azalır. AAD, cilt yaşlanmayı sürdürdüğü için etkinin zamanla azaldığını; ne kadar süreceğinin güneş hasarının düzeyine ve sonraki korunmaya bağlı olduğunu yazar.
 
 ## Yüzeysel, orta ve derin peeling arasındaki fark nedir?
 
@@ -46,7 +46,7 @@ Sonuç kalıcı da değildir. AAD, cilt yaşlanmayı sürdürdüğü için etkin
 | | Yüzeysel | Orta derinlikte | Derin |
 |---|---|---|---|
 | Ulaştığı katman | Cildin en dış katmanı | Dış katman ve orta katmanın üst bölümü | Orta katmanın alt bölümü |
-| Kullanılan maddeler | Glikolik asit, salisilik asit, Jessner çözeltisi | Çoğunlukla %20–35 TCA | Fenol |
+| Kullanılan maddeler | Glikolik asit, salisilik asit, Jessner çözeltisi | TCA (çoğu zaman başka bir yüzeysel ajanla birlikte) | Fenol |
 | Sonrasındaki görünüm | Güneş yanığına benzer kızarıklık, 3–7 gün pullanma | Kızarıklık, şişlik; su toplaması ve kabuklanma olabilir | Bölge sargıyla kapatılır |
 | İyileşme | 1–7 gün | 7–14 gün | 14–21 gün |
 | Makyaj | Aynı gün ya da ertesi gün | 5–7 gün sonra | En erken 14 gün sonra |
@@ -70,7 +70,7 @@ Yüzeysel peeling özel bir düzenleme gerektirmez. Daha derin işlemlerde ağr�
 
 ## Peeling sonrası cilt kaç günde soyulur, bakım nasıl yapılır?
 
-Yüzeysel peelingde kızarıklık çoğunlukla iki gün içinde yatışır, ince pullanma bir haftayı bulabilir. Orta derinlikte peelingde şişlik ilk 48 saatte artabilir; cilt 7–14 gün içinde kabuklanıp soyulur ve hafif kızarıklık haftalarca sürebilir. DermNet, çoğu kişinin bu işlemden sonra yaklaşık bir hafta işe ara verdiğini not eder.
+Yüzeysel peelingde kızarıklık çoğunlukla iki gün içinde yatışır, ince pullanma bir haftayı bulabilir. Orta derinlikte peelingde ilk günlerde belirgin şişlik olabilir; cilt 7–14 gün içinde kabuklanıp soyulur ve hafif kızarıklık haftalarca sürebilir. DermNet, çoğu kişinin bu işlemden sonra yaklaşık bir hafta işe ara verdiğini not eder.
 
 Bu dönemde yapılanlar sonucu doğrudan etkiler:
 
@@ -86,11 +86,11 @@ AAD'nin saydığı olası sorunlar şunlardır:
 - **Aylarca sürebilen kızarıklık.**
 - **Ciltte geçici koyulaşma.**
 - **Ciltte kalıcı olabilen açılma.** Orta ve derin peelinglerde görülür.
-- **İz kalması.** Deneyimli ellerde çok nadirdir; enfeksiyon ya da cildin koparılması riski büyütür.
+- **İz kalması.** Nadirdir; enfeksiyon ya da soyulan cildin koparılması riski büyütür.
 
 DermNet bu listeye enfeksiyonları (bakteri, maya ve uçuk virüsü), işlemden ya da sonrasında kullanılan yoğun nemlendiricilerden kaynaklanan akne ve komedonları ekler. Uçuk öyküsü olanlarda işlem virüsü yeniden etkinleştirebilir; önleyici ilaç bu yüzden önceden planlanır.
 
-Renk değişikliği riski herkeste aynı değildir. Koyu tenlerde ve daha önce yaralanma sonrası leke kalmış kişilerde iltihap sonrası koyulaşma daha sık görülür; DermNet bu grupta hafif peelinglerin tercih edildiğini, AAD ise koyu tenlerde peelingin güvenle yapılabildiğini ama bunun bu cilt tiplerinde deneyim gerektirdiğini, aksi halde kalıcı renk sorunları gelişebileceğini yazar. Cleveland Clinic doğum kontrol hapı kullanımını, gebeliği ve ailede yüzde kahverengi lekelenme öyküsünü de renk değişikliği riskini artıran durumlar arasında sayar.
+Renk değişikliği riski cilt tonuna göre değişir. Koyu tenlerde ve daha önce yaralanma sonrası leke kalmış kişilerde iltihap sonrası koyulaşma daha sık görülür; DermNet bu grupta hafif peelinglerin tercih edildiğini, AAD ise koyu tenlerde peelingin güvenle yapılabildiğini ama bunun bu cilt tiplerinde deneyim gerektirdiğini, aksi halde kalıcı renk sorunları gelişebileceğini yazar. Cleveland Clinic doğum kontrol hapı kullanımını, gebeliği ve ailede yüzde kahverengi lekelenme öyküsünü de renk değişikliği riskini artıran durumlar arasında sayar.
 
 ## Kimlere kimyasal peeling önerilmez?
 
@@ -106,13 +106,13 @@ Kolay kızaran ciltlerde de dikkat gerekir: peeling ve kese, [rozaseada kaçın�
 
 ## Evde kimyasal peeling yapılır mı?
 
-Marketlerde satılan düşük yoğunluklu asitli tonik ve serumlar ile klinikte uygulanan peeling aynı şey değildir. AAD, evde uygulanan bazı peeling ürünlerinin ciddi yaralanmalara yol açtığını ve bu tür ürünlerin yalnızca yetkili, eğitimli bir sağlık profesyonelinin gözetiminde kullanılmasını önerir. Bunun nedeni açıktır: peelingin derinliğini maddenin yoğunluğu ve ciltte kalma süresi belirler; ikisini de izleyecek biri olmadığında klinikte nadir görülen iz ve kalıcı renk değişikliği riski büyür.
+Marketlerde satılan düşük yoğunluklu asitli tonik ve serumlar, klinikte uygulanan peelingden farklı ürünlerdir. AAD, evde uygulanan bazı peeling ürünlerinin ciddi yaralanmalara yol açtığını ve bu tür ürünlerin yalnızca yetkili, eğitimli bir sağlık profesyonelinin gözetiminde kullanılmasını önerir. Bunun nedeni açıktır: peelingin derinliğini maddenin yoğunluğu ve ciltte kalma süresi belirler; ikisini de izleyecek biri olmadığında klinikte nadir görülen iz ve kalıcı renk değişikliği riski büyür.
 
 Asit olarak bilinen her içerik de soyucu değildir; örneğin [niacinamide bir asit gibi cildi soymaz](/blog/niacinamide-zararlari).
 
-## Peeling sonrası hangi belirti normal sayılmaz?
+## Peeling sonrası yanma, akıntı ve kabarcık ne zaman sorun işaretidir?
 
-Kızarıklık, gerginlik ve soyulma beklenen tablodur. Aşağıdakiler ise iyileşmenin olağan seyrine uymaz ve gecikmeden uygulamayı yapan hekime bildirilmelidir:
+İlk günlerdeki kızarıklık, gerginlik ve soyulma beklenir. Şu dört durum ise enfeksiyon, uçuk ya da renk bozukluğuna işaret edebilir; aynı gün işlemin yapıldığı yere haber verilir:
 
 - Giderek artan yanma, kaşıntı ya da şişlik,
 - Sarı akıntı, artan ağrı, ısı artışı ya da ateş gibi enfeksiyon işaretleri,
@@ -137,7 +137,7 @@ Kaynaklar mevsim adı vermez; belirleyici olan güneşten kaçınılıp kaçın�
 
 ### Peeling ile lazer aynı şey mi?
 
-Hayır. İkisi de cildi yenilemeyi amaçlar, ancak peeling kimyasal bir çözeltiyle, lazer ışık enerjisiyle çalışır. Hangi yöntemin hangi soruna uygun olduğu cilt tipine ve hedefe göre değişir; cilt yenileme yöntemlerinin genel çerçevesi [medikal estetik sayfasında](/medikal-estetik) yer alır.
+Hayır. İkisi de cildi yenilemeyi amaçlar, ancak peeling kimyasal bir çözeltiyle, lazer ışık enerjisiyle çalışır. Hangi yöntemin hangi soruna uygun olduğu cilt tipine ve hedefe göre değişir; lekelerde iki yöntemin karşılaştırması [güneş lekesi yazısında](/blog/gunes-lekesi-nasil-gecer), cilt yenileme yöntemlerinin genel çerçevesi [Skin Longevity ve medikal estetik rehberimizde](/medikal-estetik) yer alır.
 
 ## Kaynaklar
 
@@ -145,3 +145,4 @@ Hayır. İkisi de cildi yenilemeyi amaçlar, ancak peeling kimyasal bir çözelt
 - [American Academy of Dermatology: Chemical peels – Overview](https://www.aad.org/public/cosmetic/younger-looking/chemical-peels-overview)
 - [DermNet: Chemical peels](https://dermnetnz.org/topics/chemical-peels)
 - [Cleveland Clinic: Chemical Peels](https://my.clevelandclinic.org/health/treatments/11010-chemical-peels)
+- [Mukovozov ve ark., 2023: Güneş lentigolarında tedavi yanıtı, sistematik derleme](https://pubmed.ncbi.nlm.nih.gov/36533790/)

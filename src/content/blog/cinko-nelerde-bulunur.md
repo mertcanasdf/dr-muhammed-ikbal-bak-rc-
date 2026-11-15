@@ -33,28 +33,34 @@ Bir örnekle: [Oregon State Üniversitesi Linus Pauling Enstitüsü'nün tablosu
 
 ## Çinko hangi besinlerde bulunur? Porsiyon başına tablo
 
-Aşağıdaki değerler Linus Pauling Enstitüsü'nün ABD Tarım Bakanlığı verilerine dayanan listesinden alındı; ölçüler gram ve su bardağına çevrildi. Besinin kendi çinkosu yetiştirildiği toprağa ve pişirme biçimine göre değişebilir, sayılar yaklaşık değerlendirilmeli.
+Değerlerin çoğu Linus Pauling Enstitüsü'nün ABD Tarım Bakanlığı verilerine dayanan listesinden alındı; kabak çekirdeği, ciğer, mercimek, bulgur, tahin ve yumurta satırları doğrudan [USDA FoodData Central](https://fdc.nal.usda.gov/) 100 gram değerlerinden porsiyona çevrildi. Besinin kendi çinkosu yetiştirildiği toprağa ve pişirme biçimine göre değişebilir, sayılar yaklaşık değerlendirilmeli.
 
 | Besin | Porsiyon | Çinko (mg) |
 |---|---|---|
 | İstiridye, pişmiş | 6 orta boy | 27–50 |
 | Dana eti (kürek), pişmiş | 85 g | 8,7 |
 | Dana kıyma (%90 yağsız), pişmiş | 85 g | 5,4 |
+| Dana ciğeri, pişmiş | 85 g | 4,5 |
 | Yengeç, pişmiş | 85 g | 4,7 |
 | Çinkoyla zenginleştirilmiş tam tahıllı yulaf gevreği | 1 kase | 3,8 |
 | Hindi, but eti, pişmiş | 85 g | 3,0 |
+| Kabak çekirdeği içi, kavrulmuş | 28 g (bir avuç) | 2,1 |
 | Soya fasulyesi, kavrulmuş | yarım su bardağı | 2,2 |
 | Tavuk, but eti, pişmiş | 85 g | 1,8 |
 | Çam fıstığı | 28 g (bir avuç) | 1,8 |
 | Kaju | 28 g | 1,6 |
 | Yoğurt, sade, az yağlı | 170 g | 1,5 |
 | Ayçiçeği çekirdeği içi | 28 g | 1,5 |
+| Kırmızı mercimek, haşlanmış | yarım su bardağı (~100 g) | 1,3 |
 | Nohut, pişmiş | yarım su bardağı | 1,2 |
 | Süt | 1 su bardağı | 1,1 |
 | Kaşar türü sert peynir | 28 g | 1,0 |
+| Bulgur pilavı (sade, haşlanmış) | 1 su bardağı (~180 g) | 1,0 |
 | Badem | 28 g | 0,9 |
+| Tahin | 1 yemek kaşığı (15 g) | 0,7 |
+| Yumurta, haşlanmış | 1 adet (50 g) | 0,5 |
 
-Tablodan çıkan sıralama net: kabuklu deniz ürünleri ve kırmızı et açık ara öndedir. Kuruyemiş ve tohumlar küçük porsiyonda bile 1–2 mg sağlar. Süt ürünleri ve baklagiller tek başına az görünse de gün içinde birkaç kez yenildiğinde toplama anlamlı katkı verir.
+Tablodan çıkan sıralama net: kabuklu deniz ürünleri ve kırmızı et açık ara öndedir. Kuruyemiş ve tohumlar küçük porsiyonda bile 1–2 mg sağlar. Bir kâse mercimek, bir kâse yoğurt ve bir avuç kabak çekirdeği birlikte yaklaşık 5 mg eder; bu, yetişkin bir kadının günlük önerisinin yarısından fazlasıdır.
 
 ### Çinko içeren besinler: gruplara göre kısa liste
 
@@ -77,7 +83,7 @@ Linus Pauling Enstitüsü'ne göre temel besini tahıl ve baklagil olan vejetary
 
 Fitatı azaltmanın mutfakta bilinen yolları vardır. [Gupta ve arkadaşlarının tahıl ve baklagiller üzerine derlemesi](https://pmc.ncbi.nlm.nih.gov/articles/PMC4325021/) şu yöntemlerin fitik asidi düşürdüğünü özetler:
 
-- **Islatma:** Nohutta ıslatma süresi 2 saatten 12 saate çıktığında fitik asitteki azalma yüzde 47'den yüzde 56'ya yükseldi. Islatma suyunu döküp öyle pişirmek ve ıslatmayı pişirmeyle birleştirmek tek başına kısa ıslatmadan daha etkilidir.
+- **Islatma:** Nohutta ıslatma süresi 2 saatten 12 saate çıktığında fitik asitteki azalma yüzde 47'den yüzde 56'ya yükseldi. Islatma suyunu döküp öyle pişirmek ve ıslatmayı pişirmeyle birleştirmek, yalnızca kısa süre ıslatmaktan daha etkilidir.
 - **Filizlendirme:** Çimlendirme fitik asidi yaklaşık yüzde 40'a kadar azaltabilir; etki tahıla ve süreye göre değişir.
 - **Mayalama ve fermantasyon:** Maya fitatı parçalar. Bu nedenle [mayalı tam tahıllı ekmek](/blog/tam-tahil-nasil-anlasilir), mayasız olana göre daha kullanılabilir çinko sağlar.
 
@@ -118,7 +124,7 @@ Daha sinsi olan, uzun vadeli etkidir. Linus Pauling Enstitüsü, haftalarca gün
 
 Takviyedeki çinko demir emilimini de etkileyebilir. Demir ilacı kullananlarda zamanlamanın neden önemli olduğunu [demir eksikliği ilacı yazısında](/blog/demir-eksikligi-ilaci-faydalari) anlattık. Böbrek hastalığı olanların, düzenli ilaç kullananların ve gebelerin takviye konusunu hekimleriyle konuşması gerekir.
 
-Mineraller arasındaki bu denge, beslenmenin tek tek besin ögelerinden çok bütün olarak düşünülmesi gerektiğini hatırlatır. Genel çerçeve için [beslenme ve sağlıklı yaşlanma merkezimize](/longevity/beslenme) göz atabilirsiniz.
+Çinko, demir ve bakırın birbirinin emilimini etkilemesi, mineralleri ayrı ayrı takviyeyle tamamlamak yerine çeşitli bir sofrada düşünmenin gerekçelerinden biridir ([beslenme ve sağlıklı yaşlanma](/longevity/beslenme)).
 
 ## Sık sorulan sorular
 
@@ -128,15 +134,15 @@ Porsiyon başına en zengin kaynak istiridyedir: altı orta boy pişmiş istirid
 
 ### Kabak çekirdeğinde çinko var mı?
 
-Evet. Kabak çekirdeği, kuruyemiş ve tohum grubunun çinko içeren üyelerindendir; aynı gruptan 28 gram ayçiçeği çekirdeği içi yaklaşık 1,5 mg verir. Tohumlarda da fitat bulunduğu için emilim ete göre daha düşüktür.
+Evet. USDA verisine göre 28 gram kavrulmuş kabak çekirdeği içi yaklaşık 2,1 mg çinko verir; bu, aynı miktar kaju (1,6 mg) ve ayçiçeği çekirdeğinden (1,5 mg) fazladır. Tohumlarda da fitat bulunduğu için emilim ete göre daha düşüktür.
 
 ### Yumurtada çinko var mı?
 
-Var. Yumurtadaki çinko, et ve deniz ürünlerinde olduğu gibi görece iyi emilir. Miktar olarak kırmızı etin gerisinde kalsa da gün içindeki toplama katkı verir.
+Var, ama az: haşlanmış bir yumurta yaklaşık 0,5 mg çinko içerir (USDA). Hayvansal kaynak olduğu için emilimi görece iyidir; iki yumurtalı bir kahvaltı, 85 gram dana kürek etinin yaklaşık dokuzda biri kadar çinko sağlar.
 
 ### Süt ve yoğurt çinko ihtiyacını karşılar mı?
 
-Tek başına karşılamaz ama önemli bir destektir. Bir su bardağı süt 1,1 mg, 170 gram yoğurt 1,5 mg çinko içerir. Özellikle et yemeyen vejetaryenlerde süt ürünleri çinkonun düzenli kaynaklarından biridir.
+Karşılamaz, ama düzenli bir katkıdır: bir su bardağı süt 1,1 mg, 170 gram yoğurt 1,5 mg çinko içerir. Özellikle et yemeyen vejetaryenlerde süt ürünleri çinkonun düzenli kaynaklarından biridir.
 
 ### Çinko ve demir aynı anda alınır mı?
 
@@ -147,4 +153,5 @@ Besinlerdeki çinko ve demir sorun yaratmaz; et zaten ikisini birlikte içerir. 
 - [Linus Pauling Institute, Oregon State University: Zinc](https://lpi.oregonstate.edu/mic/minerals/zinc)
 - [Harvard T.H. Chan School of Public Health, The Nutrition Source: Zinc](https://nutritionsource.hsph.harvard.edu/zinc/)
 - [NHS: Vitamins and minerals, Others (Zinc)](https://www.nhs.uk/conditions/vitamins-and-minerals/others/)
+- [USDA FoodData Central (SR Legacy): kabak çekirdeği, yumurta, dana ciğeri, mercimek, bulgur, tahin](https://fdc.nal.usda.gov/)
 - [Gupta RK, Gangoliya SS, Singh NK. Reduction of phytic acid and enhancement of bioavailable micronutrients in food grains. J Food Sci Technol. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4325021/)

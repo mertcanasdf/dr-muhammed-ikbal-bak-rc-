@@ -1,9 +1,9 @@
 ---
 title: "C Vitamini Ne Zaman İçilir? Saat, Öğün ve Emilim Rehberi"
-seoTitle: "C Vitamini Ne Zaman İçilir? Sabah mı, Aç mı Tok mu?"
+seoTitle: "C Vitamini Ne Zaman İçilir? Aç Karnına mı, Tok mu?"
 date: 2026-11-09
 updated: 2026-11-09
-description: "C vitamini ne zaman içilir? Sabah ya da akşam, aç ya da tok alımın farkını, bir seferde ne kadarının emildiğini ve demirle kullanımını öğrenin."
+description: "C vitamini aç karnına içilir mi, sabah mı akşam mı alınır? Bir seferde ne kadarının emildiğini, mide hassasiyetini ve demirle birlikte kullanımı okuyun."
 category: "Beslenme"
 image: "/assets/images/generated/articles/c-vitamini-ne-zaman-icilir.webp"
 readTime: "6 dk"

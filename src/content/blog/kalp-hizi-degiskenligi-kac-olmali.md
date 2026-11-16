@@ -1,9 +1,9 @@
 ---
 title: "Kalp Hızı Değişkenliği Kaç Olmalı? RMSSD ve SDNN Değerleri"
-seoTitle: "Kalp Hızı Değişkenliği Kaç Olmalı? Normal msn Değerleri"
+seoTitle: "Kalp Hızı Değişkenliği Kaç Olmalı? RMSSD ve SDNN Normali"
 date: 2026-11-03
 updated: 2026-11-03
-description: "Kalp hızı değişkenliği kaç msn olmalı? Sağlıklı yetişkinlerde RMSSD ve SDNN aralıkları, yaşla değişim, saat verisini okuma ve düşük HRV'nin anlamı."
+description: "RMSSD ve SDNN nedir, kaç ms olmalı? 5 dakikalık ve 24 saatlik ölçümde normal aralıklar, yaşa göre değişim ve saatteki HRV değerini okuma tablosu."
 category: "Hareket"
 image: "/assets/images/generated/articles/kalp-hizi-degiskenligi-kac-olmali.webp"
 readTime: "7 dk"

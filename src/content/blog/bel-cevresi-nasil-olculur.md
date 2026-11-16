@@ -1,9 +1,9 @@
 ---
 title: "Bel Çevresi Nasıl Ölçülür? Doğru Nokta, Eşikler ve Bel-Boy Oranı"
-seoTitle: "Bel Çevresi Nasıl Ölçülür? Doğru Nokta ve Eşikler"
+seoTitle: "Bel Neresi, Kaç cm Olmalı? Bel Çevresi Nasıl Ölçülür"
 date: 2026-11-08
 updated: 2026-11-08
-description: "Bel çevresi nasıl ölçülür? Mezuranın geçeceği noktayı, sonucu bozan hataları, Türkiye eşiklerini ve bel-boy oranı hesabını örneklerle öğrenin."
+description: "Bel tam neresi? Mezuranın kaburga ile kalça kemiği arasından nasıl geçtiğini, kadın ve erkekte kaç cm üstünün risk sayıldığını ve bel-boy oranını görün."
 category: "Beslenme"
 image: "/assets/images/generated/articles/bel-cevresi-nasil-olculur.webp"
 readTime: "6 dk"

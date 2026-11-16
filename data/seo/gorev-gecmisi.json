@@ -1384,5 +1384,29 @@
     "topic": "çinko nelerde bulunur",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-16",
+    "type": "sorgu-optimizasyonu",
+    "slug": "tam-tahil-nasil-anlasilir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-16",
+    "type": "ctr-iyilestirme",
+    "slug": "bel-cevresi-nasil-olculur",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-16",
+    "type": "ctr-iyilestirme",
+    "slug": "kalp-hizi-degiskenligi-kac-olmali",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-16",
+    "type": "ctr-iyilestirme",
+    "slug": "c-vitamini-ne-zaman-icilir",
+    "by": "claude"
   }
 ]

@@ -2860,5 +2860,88 @@
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-15T14:11:23.179Z"
     }
+  ],
+  "ctrChanges": [
+    {
+      "day": "2026-11-16",
+      "slug": "bel-cevresi-nasil-olculur",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "bel neresi",
+        "erkeklerde gobek cevresi kac cm olmali",
+        "bel tam neresi",
+        "bel kaç cm olmalı",
+        "bel kıvrımı neresi"
+      ],
+      "gscBefore": {
+        "position": 9.4,
+        "impressions": 132,
+        "ctr": 0.008
+      },
+      "before": {
+        "title": "Bel Çevresi Nasıl Ölçülür? Doğru Nokta, Eşikler ve Bel-Boy Oranı",
+        "seoTitle": "Bel Çevresi Nasıl Ölçülür? Doğru Nokta ve Eşikler",
+        "description": "Bel çevresi nasıl ölçülür? Mezuranın geçeceği noktayı, sonucu bozan hataları, Türkiye eşiklerini ve bel-boy oranı hesabını örneklerle öğrenin."
+      },
+      "after": {
+        "title": "Bel Çevresi Nasıl Ölçülür? Doğru Nokta, Eşikler ve Bel-Boy Oranı",
+        "seoTitle": "Bel Neresi, Kaç cm Olmalı? Bel Çevresi Nasıl Ölçülür",
+        "description": "Bel tam neresi? Mezuranın kaburga ile kalça kemiği arasından nasıl geçtiğini, kadın ve erkekte kaç cm üstünün risk sayıldığını ve bel-boy oranını görün."
+      },
+      "compareAfter": "2026-12-07"
+    },
+    {
+      "day": "2026-11-16",
+      "slug": "kalp-hizi-degiskenligi-kac-olmali",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "sdnn kaç olmalı",
+        "sdnn nedir",
+        "kaç olmalı",
+        "rmssd kaç olmalı",
+        "rmssd nedir kalp"
+      ],
+      "gscBefore": {
+        "position": 4.9,
+        "impressions": 121,
+        "ctr": 0.025
+      },
+      "before": {
+        "title": "Kalp Hızı Değişkenliği Kaç Olmalı? RMSSD ve SDNN Değerleri",
+        "seoTitle": "Kalp Hızı Değişkenliği Kaç Olmalı? Normal msn Değerleri",
+        "description": "Kalp hızı değişkenliği kaç msn olmalı? Sağlıklı yetişkinlerde RMSSD ve SDNN aralıkları, yaşla değişim, saat verisini okuma ve düşük HRV'nin anlamı."
+      },
+      "after": {
+        "title": "Kalp Hızı Değişkenliği Kaç Olmalı? RMSSD ve SDNN Değerleri",
+        "seoTitle": "Kalp Hızı Değişkenliği Kaç Olmalı? RMSSD ve SDNN Normali",
+        "description": "RMSSD ve SDNN nedir, kaç ms olmalı? 5 dakikalık ve 24 saatlik ölçümde normal aralıklar, yaşa göre değişim ve saatteki HRV değerini okuma tablosu."
+      },
+      "compareAfter": "2026-12-07"
+    },
+    {
+      "day": "2026-11-16",
+      "slug": "c-vitamini-ne-zaman-icilir",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "c vitamini sıcak mı soğuk mu içilir",
+        "c vitamini aç karnına içilir mi"
+      ],
+      "gscBefore": {
+        "position": 5.8,
+        "impressions": 100,
+        "ctr": 0
+      },
+      "before": {
+        "title": "C Vitamini Ne Zaman İçilir? Saat, Öğün ve Emilim Rehberi",
+        "seoTitle": "C Vitamini Ne Zaman İçilir? Sabah mı, Aç mı Tok mu?",
+        "description": "C vitamini ne zaman içilir? Sabah ya da akşam, aç ya da tok alımın farkını, bir seferde ne kadarının emildiğini ve demirle kullanımını öğrenin."
+      },
+      "after": {
+        "title": "C Vitamini Ne Zaman İçilir? Saat, Öğün ve Emilim Rehberi",
+        "seoTitle": "C Vitamini Ne Zaman İçilir? Aç Karnına mı, Tok mu?",
+        "description": "C vitamini aç karnına içilir mi, sabah mı akşam mı alınır? Bir seferde ne kadarının emildiğini, mide hassasiyetini ve demirle birlikte kullanımı okuyun."
+      },
+      "compareAfter": "2026-12-07"
+    }
   ]
 }

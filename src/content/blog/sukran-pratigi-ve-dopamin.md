@@ -52,7 +52,7 @@ Bu bölgelerin ödül sistemiyle bağlantılı olması nedeniyle dopaminin rol o
 
 ## Araştırmalar ne gösteriyor?
 
-Beyin, evrimsel nedenlerle tehlikeleri ve olumsuzlukları öncelikli algılama eğilimindedir (negatiflik sapması). Düzenli olarak şükran günlüğü tutmak, dikkati olumlu deneyimlere de yöneltmeye yardımcı olabilir.
+Beyin, evrimsel nedenlerle tehlikeleri ve olumsuzlukları öncelikli algılama eğilimindedir (negatiflik sapması). Düzenli olarak şükran günlüğü tutmak, dikkati olumlu deneyimlere de yöneltmeye yardımcı olabilir. Belirli bir olumsuz anı zihinden çıkmıyorsa bu farklı bir sorudur; [hafızanın silinip silinemeyeceğini ve araştırmaların ne gösterdiğini](/blog/hafiza-nasil-silinir) ayrıca anlattık.
 
 - **Emmons ve McCullough (2003):** Haftalık olarak şükran duydukları şeyleri yazan katılımcılar, sıkıntılarını ya da nötr olayları yazanlara göre hayatlarını daha olumlu değerlendirmiştir.
 - **Diniz ve ark. (2023):** 64 randomize klinik çalışmayı kapsayan sistematik derleme ve meta-analizde şükran uygulamaları şükran düzeyini, ruh sağlığını ve olumlu ruh hâlini artırmış; kaygı ve depresyon belirtilerini azaltmıştır. Yazarlar bu uygulamaların kaygı ve depresyon tedavisini tamamlayabileceği sonucuna varır.

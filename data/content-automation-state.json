@@ -2880,6 +2880,27 @@
       "preparedAt": "2026-11-17T06:20:15.907Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-17T06:20:18.748Z"
+    },
+    {
+      "day": "2026-11-17",
+      "slug": "hafiza-nasil-silinir",
+      "sourceArticleSha256": "e61ad2ca222eedb709892e85962f959083b7fcd6177b18475ab59b2be00cea69",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/hafiza-nasil-silinir",
+        "htmlTitle": "Hafıza Nasıl Silinir? Kötü Anıları Unutmanın Gerçeği",
+        "metaDescription": "Hafıza silinebilir mi, kötü anılar evde unutulur mu? Araştırmaların gerçekte ne gösterdiğini, EMDR ve ilaç deneylerini, ne zaman destek gerektiğini okuyun.",
+        "headline": "Hafıza Nasıl Silinir? Kötü Anılar Unutulabilir mi?",
+        "datePublished": "2026-11-17",
+        "dateModified": "2026-11-17",
+        "wordCount": 1204,
+        "bodyTextSha256": "f1da1d49934eb48fff0ca2885f42ec0becd336447633458c20eef639af7df76c",
+        "htmlSha256": "3720c8a4403fa644d93217dd62f4b2b776dee27ff0775ecf9f7255b74c71bbd9"
+      },
+      "commit": "41ffdba34e325115aa98a1f3b796e39570fd2a9c",
+      "parent": "87abbd953fb829bf5ee3726825ef7f84e2fe6ed6",
+      "preparedAt": "2026-11-17T14:11:15.264Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-17T14:11:18.377Z"
     }
   ],
   "ctrChanges": [

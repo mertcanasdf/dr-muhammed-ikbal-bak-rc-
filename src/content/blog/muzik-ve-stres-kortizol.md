@@ -67,7 +67,7 @@ Bu, müziğin herkeste stresi artırdığını göstermez. Belirli bir katılım
 
 Herkes için üstün olduğu gösterilmiş tek bir tür, tempo veya çalma listesi seçilemez. 2022 derlemesinde müzik türü, seçimi kimin yaptığı ve ölçülen sonuçlar bakımından farklılıklar vardı. Bu veriden “belirli bir ritim herkesin kalbini aynı hızda yavaşlatır” kuralı çıkarılamaz.
 
-Başlangıç için sevdiğiniz ve rahatsızlık vermeyen parçaları seçebilirsiniz. Bir parçanın “rahatlatıcı” etiketi taşıması, sizin de rahatlayacağınız anlamına gelmez. NCCIH, bazı müziklerin güçlü anılar veya duygularla ilişkili olarak sıkıntı yaratabileceğini belirtir. Kendinizi kötü hissettiren bir parçayı dinlemeyi sürdürmek zorunda değilsiniz; sessizliği tercih etmek de mümkündür.
+Başlangıç için sevdiğiniz ve rahatsızlık vermeyen parçaları seçebilirsiniz. Bir parçanın “rahatlatıcı” etiketi taşıması, sizin de rahatlayacağınız anlamına gelmez. NCCIH, bazı müziklerin güçlü anılar veya duygularla ilişkili olarak sıkıntı yaratabileceğini belirtir. Bir parçanın çağırdığı kötü anı sık sık geri geliyorsa, [kötü anıların silinip silinemeyeceğini](/blog/hafiza-nasil-silinir) ayrı bir yazıda ele aldık. Kendinizi kötü hissettiren bir parçayı dinlemeyi sürdürmek zorunda değilsiniz; sessizliği tercih etmek de mümkündür.
 
 Müzik seçimini bir başarı sınavına çevirmeyin. “Doğru parçayı bulamadığım için rahatlayamıyorum” düşüncesi yerine, bu etkinliğin size uygun olup olmadığına bakın. Amaç bir listeyi tamamlamak veya belli bir tempoya dayanmak değildir.
 

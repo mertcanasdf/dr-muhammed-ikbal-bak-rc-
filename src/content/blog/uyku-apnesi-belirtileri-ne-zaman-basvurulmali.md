@@ -39,7 +39,7 @@ Bu yazı erişkinlerde başvuru hazırlığına odaklanır. Çocuklarda belirtil
 
 ## Hangi gece ve gündüz belirtileri konuşulmalı?
 
-[NHLBI belirtiler sayfası](https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms), gece solunumun durup başlaması, sık yüksek sesli horlama ve hava açlığını; gündüz ise uyku hali, yorgunluk ve dikkat güçlüğünü ele alır. Sabah ağız kuruluğu, baş ağrısı veya gece sık tuvalete kalkma da görülebilir. Bu bulguların her biri başka nedenlerle de oluşabilir.
+[NHLBI belirtiler sayfası](https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms), gece solunumun durup başlaması, sık yüksek sesli horlama ve hava açlığını; gündüz ise uyku hali, yorgunluk ve dikkat güçlüğünü ele alır. Sabah ağız kuruluğu, baş ağrısı veya gece sık tuvalete kalkma da görülebilir. Bu bulguların her biri başka nedenlerle de oluşabilir; örneğin ağız ve boğaz kuruluğu kalorifer yanan odanın kuru havasıyla da artar ([hava nemlendirici yazısı](/blog/hava-nemlendirici-faydalari)).
 
 Yorgunluğu uyuklamadan ayırarak anlatın. “Enerjim yok” ile “otururken istemeden uyuyakalıyorum” aynı deneyim değildir. Uykululuğun toplantı, yemek, okuma veya yolculuk gibi hangi koşulda ortaya çıktığını belirtmek görüşmeyi somutlaştırır. Gece belirtilerini siz hatırlamıyorsanız yakınınızın gözlemini ayrı olarak aktarın.
 

@@ -1408,5 +1408,37 @@
     "type": "ctr-iyilestirme",
     "slug": "c-vitamini-ne-zaman-icilir",
     "by": "claude"
+  },
+  {
+    "day": "2026-11-17",
+    "type": "sorgu-optimizasyonu",
+    "slug": "biyolojik-yas-nasil-olculur",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-17",
+    "type": "icerik-tazeleme",
+    "slug": "mavi-bolge-diyeti",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-17",
+    "type": "yazi-genisletme",
+    "slug": "egzersiz-sonrasi-toparlanma",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-17",
+    "type": "sorgu-optimizasyonu",
+    "slug": "sirkadiyen-ritim-ve-uyku",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-17",
+    "type": "yeni-yazi",
+    "slug": "hava-nemlendirici-faydalari",
+    "topic": "hava nemlendirici faydaları",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

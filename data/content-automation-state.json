@@ -2859,6 +2859,27 @@
       "preparedAt": "2026-11-15T14:11:18.895Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-15T14:11:23.179Z"
+    },
+    {
+      "day": "2026-11-17",
+      "slug": "hava-nemlendirici-faydalari",
+      "sourceArticleSha256": "ee3573124610a88dfb920c854908638bd1bd4f6f6b25356aaf320d4a1ccd76de",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/hava-nemlendirici-faydalari",
+        "htmlTitle": "Hava Nemlendirici Faydaları ve Zararları: Doğru Kullanım",
+        "metaDescription": "Hava nemlendirici ne işe yarar, odada nem kaç olmalı, ultrasonik cihaz nasıl çalışır? Faydaları, soğuk buhar zararları ve temizlik adımları bu rehberde.",
+        "headline": "Hava Nemlendirici Faydaları: Ne İşe Yarar, Zararı Var mı?",
+        "datePublished": "2026-11-17",
+        "dateModified": "2026-11-17",
+        "wordCount": 1367,
+        "bodyTextSha256": "f70b77f880d6fb3763fe3ffb89779e8b6e965be07631d08ecce126f5263ccb00",
+        "htmlSha256": "5b0885b21eb387d225b297b0b104b9d9211150f853c9f99273d8122398bdd3c8"
+      },
+      "commit": "87abbd953fb829bf5ee3726825ef7f84e2fe6ed6",
+      "parent": "8a95affdef0362dc23de19897de9f200d9ce26f6",
+      "preparedAt": "2026-11-17T06:20:15.907Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-17T06:20:18.748Z"
     }
   ],
   "ctrChanges": [

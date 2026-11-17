@@ -1,12 +1,12 @@
 ---
 title: "Sirkadiyen Ritim ve Uyku Düzeni Nasıl Desteklenir?"
-seoTitle: "Sabah Işığı ve Biyolojik Saat: Sirkadiyen Ritim Rehberi"
+seoTitle: "Sirkadiyen Ritim Bozukluğu: Belirtileri ve Nedenleri"
 date: 2026-09-15
-updated: 2026-10-15
-description: "Sabah ışığı biyolojik saati nasıl etkiler? Işık zamanlamasını, vardiya farkını ve güvenlik sınırlarını öğrenin; düzen kontrol listesini kullanın."
+updated: 2026-11-17
+description: "Sirkadiyen ritim bozukluğu belirtileri ve nedenleri: uykusuzluk, gündüz uykululuğu, gecikmiş uyku evresi, vardiya ve jet lag. Sabah ışığının rolü."
 category: "Uyku"
 image: "/assets/images/generated/articles/sirkadiyen-ritim-ve-uyku.webp"
-readTime: "6 dk"
+readTime: "8 dk"
 takeaways:
   - "Sabah ışığının etkisi kişinin uyku programına ve ışığın zamanlamasına bağlıdır."
   - "Biyolojik saatle uyku ihtiyacı farklı süreçlerdir; ışık eksik uykunun yerini tutmaz."
@@ -27,6 +27,8 @@ relatedArticles:
     image: "/assets/images/generated/articles/uyku-bozukluklari-ve-glymphatic-temizlik.webp"
 ---
 
+Sirkadiyen ritim bozukluğu, vücudun iç saatiyle yaşamak zorunda olduğunuz düzen (iş, okul, gece ve gündüz) arasındaki uyumsuzluktur. En sık belirtileri uykuya dalamamak ya da uykuyu sürdürememek, gündüz ağır uykululuk, yorgunluk ve dikkat güçlüğüdür; nedenleri arasında gece vardiyası, sık saat dilimi değiştirmek, ergenlikte ya da yaşlılıkta kayan uyku saati ve gün içinde az ışık almak sayılır.
+
 Sabah ışığı, özellikle geceleri uyuyan kişilerde biyolojik saatin günlük düzenle uyumunu destekleyebilir. Ancak ışığın etkisi günün hangi bölümünde alındığına ve kişinin uyku düzenine bağlıdır; herkes için aynı saat veya dakika hedefi verilemez. Sirkadiyen ritmi desteklemek, yeterli uyku fırsatı ayırmak ve süren yakınmaları değerlendirmekle birlikte ele alınmalıdır.
 
 ## Sirkadiyen ritim ve biyolojik saat nedir?
@@ -34,6 +36,34 @@ Sabah ışığı, özellikle geceleri uyuyan kişilerde biyolojik saatin günlü
 Sirkadiyen ritim, vücuttaki yaklaşık 24 saatlik zamanlama döngüleridir. Beyindeki ana saat, ışık ve karanlık gibi çevresel işaretlerle uyku ve uyanıklık zamanını düzenler. [NHLBI uyku-uyanıklık döngüsü rehberi](https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle), bu zamanlama sistemiyle uyanık kalmaya bağlı olarak artan uyku ihtiyacını ayrı süreçler olarak açıklar.
 
 Bu nedenle sabah kendinizi daha uyanık hissetmeniz, önceki gece eksik kalan uykunun karşılandığını göstermez. Bir gün erken kalkmakla kalıcı bir düzen kurulmuş olması da aynı şey değildir. Amaç yalnız erken saatte uyanmak değil, ihtiyaç duyulan uyku için sürdürülebilir bir düzen oluşturmaktır.
+
+## Sirkadiyen ritim bozukluğu belirtileri nelerdir?
+
+[NHLBI'nin belirtiler sayfası](https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders/symptoms) şu yakınmaları sayar:
+
+- Uykuya dalmakta, uykuyu sürdürmekte ya da ikisinde birden güçlük
+- Gündüz, vardiya sırasında da süren ağır uykululuk
+- Belirgin yorgunluk, enerjisizlik ve uyuşukluk hissi
+- Dikkat ve odaklanma güçlüğü, duygu durumunu yönetmekte zorlanma
+- Araç kullanmak gibi riskli durumlarda muhakemenin zayıflaması
+- Baş ağrısı ve vücut ağrıları; jet lag yaşayanlarda mide şikâyetleri
+
+Belirtileri sıradan uykusuzluktan ayıran şey çoğu zaman zamanlamadır. Kişi kendi saatinde yatıp kalkabildiğinde, örneğin tatilde, gece 03'te uyuyup öğlen kalktığında rahat ve dinlenmiş uyanıyorsa sorun uykunun kendisinden çok saatin kaymasında olabilir. NHLBI, tanı konmamış ve süren ritim bozukluğunun bazı sağlık sorunlarının riskini artırabileceğini, gece vardiyası sonrası uykulu araç kullanımı gibi kaza riskleri doğurduğunu da belirtir.
+
+## Sirkadiyen ritim bozukluğu nedenleri
+
+[NHLBI'nin nedenler ve risk etkenleri sayfasına](https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders/causes) göre bu bozukluklar uyku-uyanıklık döngüsü çevreyle uyumunu kaybettiğinde ortaya çıkar. Genler kişinin doğal olarak erkenci mi gececi mi olduğunu etkiler; bu yatkınlık iş, okul ya da sosyal programla çatıştığında sorun belirginleşir. Türlere göre başlıca risk etkenleri:
+
+| Tür | Ne olur? | Kimlerde daha sık? |
+| --- | --- | --- |
+| Gecikmiş uyku evresi | Uyku ve uyanma saati alışılmıştan çok geç | Ergenler; depresyon ya da bipolar bozukluğu olanlar |
+| İleri (erken) uyku evresi | Akşam çok erken uyku bastırır, sabah çok erken uyanılır | Yaşlı yetişkinler |
+| Düzensiz uyku-uyanıklık | Uyku gün içine dağınık parçalar hâlinde bölünür | Alzheimer, diğer demanslar ve Parkinson hastalığı |
+| 24 saat dışı ritim | Uyku saati her gün biraz daha kayar | Görme kaybı, makula dejenerasyonu |
+| Jet lag | Saat dilimi değişince iç saat geride kalır | Pilotlar, kabin ekibi, sık seyahat edenler |
+| Vardiya işi bozukluğu | Uyku, çalışma saatleri nedeniyle gündüze kayar | Gece çalışanlar, yaşlı yetişkinler |
+
+Yaşam tarzı da payını alır: NHLBI alkol, kafein, sık uçak yolculuğu, gün içinde az doğal ışık ve gece parlak ışık ya da ekran kullanımını risk etkenleri arasında sayar. Kahvenin saatini ayarlamak için [kafein ve uyku yazısına](/blog/kafein-uyku-kahve-ne-zaman-birakilmali), hafta içi ve sonu arasındaki saat farkının etkisi için [sosyal jetlag yazısına](/blog/hafta-sonu-uykusu-sosyal-jetlag) bakabilirsiniz. Gebelik, doğum sonrası dönem ve menopoz, beyin hasarı, inme ve bazı psikiyatrik hastalıklar da uyku zamanlamasını bozabilir.
 
 ## Sabah ışığı biyolojik saati nasıl etkiler?
 
@@ -119,3 +149,4 @@ Bu yazıyla bağlantılı olarak [uyku kalitesi nasıl artırılır](/blog/uyku-
 - [NHS: Güneş güvenliği](https://www.nhs.uk/live-well/seasonal-health/sunscreen-and-sun-safety/)
 - [NHLBI: Ritim bozukluklarında değerlendirme](https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders/diagnosis)
 - [NHLBI: Ritim bozukluğu belirtileri](https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders/symptoms)
+- [NHLBI: Ritim bozukluklarının nedenleri ve risk etkenleri](https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders/causes)

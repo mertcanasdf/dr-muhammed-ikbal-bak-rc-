@@ -29,7 +29,7 @@ relatedArticles:
 
 Hafıza, bir dosya gibi silinemez. Bugün tıpta belirli bir anıyı seçip beyinden kaldıran bir ilaç, cihaz ya da işlem yoktur; "hafıza silme" diye anlatılan uygulamalar anıyı yok etmez, o anının yarattığı korku ve sıkıntıyı azaltmayı amaçlar. Evde de bir anıyı silmenin yolu yoktur, ama zihne geliş biçimini ve bıraktığı yükü değiştirmek mümkündür.
 
-Bu soruyu soran kişi çoğu zaman bir ayrılığı, bir kaybı, utandırıcı bir anı ya da çok daha ağır bir olayı aklından çıkaramadığı için yazar. Aşağıda beynin anıları nasıl tuttuğunu, araştırmalarda neyin gerçekten denendiğini ve hangi durumda tek başına uğraşmanın yetmediğini anlatıyoruz.
+Bu soruyu soran kişi çoğu zaman bir ayrılığı, bir kaybı, utandırıcı bir anı ya da çok daha ağır bir olayı aklından çıkaramadığı için yazar. Beynin neden tam da unutmak istediğimiz şeye tutunduğunu anlamak, neyin işe yarayıp neyin yaramadığını görmenin de ilk adımı.
 
 ## Bir insanın hafızası silinebilir mi?
 

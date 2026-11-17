@@ -1,8 +1,9 @@
 ---
 title: "Biyolojik Yaş Nasıl Ölçülür? Takvim Yaşıyla Farkı"
+seoTitle: "Takvim Yaşı Nedir? Biyolojik Yaş Nasıl Ölçülür?"
 date: 2026-09-15
-updated: 2026-10-06
-description: "Biyolojik yaş kavramı ne anlama gelir, hangi ölçümlerle değerlendirilir ve test sonuçları sağlık kararlarında nasıl yorumlanmalıdır?"
+updated: 2026-11-17
+description: "Takvim yaşı doğumdan bu yana geçen süredir; biyolojik yaş vücudun durumunu anlatır. Epigenetik saatler, kan değerleri ve kavrama gücü ne gösterir?"
 category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/biyolojik-yas-nasil-olculur.webp"
 readTime: "8 dk"
@@ -25,6 +26,23 @@ relatedArticles:
     title: "Mitokondri Sağlığı Nasıl Desteklenir?"
     image: "/assets/images/generated/articles/mitokondri-sagligi-nasil-desteklenir.webp"
 ---
+
+Takvim yaşı (kronolojik yaş), doğum tarihinizden bugüne geçen süredir; nüfus cüzdanındaki yaştır ve herkes için aynı hızda ilerler. Biyolojik yaş ise vücudun yaşla ilişkili durumunu tahmin etmeye çalışan bir ölçüdür ve epigenetik saatler, rutin kan değerleri ya da kavrama gücü, yürüme hızı gibi işlevsel testlerle hesaplanır. Bu yöntemlerin hiçbiri tek başına kesin bir "gerçek yaş" vermez.
+
+## Takvim yaşı nedir, nasıl hesaplanır?
+
+Takvim yaşı, bugünün tarihinden doğum tarihinin çıkarılmasıyla yıl, ay ve gün olarak bulunur. Resmî işlemlerde, okul ve emeklilik yaşında, aşı takviminde ve tarama programlarının başlangıç yaşında ölçüt budur. Değişmez: yaşam tarzına göre ne yavaşlar ne hızlanır.
+
+Takvim yaşı bu yüzden bir başlangıç noktasıdır, ama sağlık hakkında söylediği sınırlıdır. Aynı yıl doğmuş iki kişiden biri merdiveni zorlanmadan çıkarken diğeri birkaç basamakta nefes nefese kalabilir. Biyolojik yaş kavramı bu farkı yakalamak için ortaya çıktı.
+
+| | Takvim yaşı | Biyolojik yaş |
+|---|---|---|
+| Neyi gösterir? | Doğumdan bu yana geçen süre | Vücudun yaşla ilişkili durumuna dair tahmin |
+| Nasıl bulunur? | Bugünün tarihi eksi doğum tarihi | Epigenetik test, kan değerleri, fiziksel kapasite ölçümleri |
+| Değişir mi? | Herkes için aynı hızda ilerler | Yönteme göre değişir; yaşam tarzıyla ilişkili bulunmuştur |
+| Kesin mi? | Evet | Hayır; yöntemler arasında ve tekrar ölçümlerde fark çıkabilir |
+
+Prematüre bebeklerde kullanılan "düzeltilmiş yaş" ise ayrı bir kavramdır: bebeğin gelişimini değerlendirirken takvim yaşından erken doğduğu süre çıkarılır.
 
 ## Biyolojik yaş ne demek?
 

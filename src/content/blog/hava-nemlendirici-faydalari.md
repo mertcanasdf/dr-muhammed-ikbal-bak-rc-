@@ -29,7 +29,7 @@ relatedArticles:
 
 Hava nemlendirici, odadaki havaya su buharı ya da ince su zerreleri vererek bağıl nemi yükselten bir cihazdır. Kalorifer yanan kış aylarında kuru havanın burunda, boğazda, dudakta ve ciltte yaptığı kuruluğu ve tahrişi hafifletebilir; [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/common-cold/in-depth/humidifiers/art-20048021) soğuk buharlı cihazın soğuk algınlığındaki burun tıkanıklığını da rahatlatabileceğini yazar. Faydanın şartı ölçülü nem ve temiz haznedir: nem %50'yi aşar ya da cihaz kirlenirse küf, akar ve mikrop kaynağına dönüşebilir.
 
-Kısacası soru "nemlendirici iyi mi kötü mü?" değil, "odamın havası gerçekten kuru mu ve cihazı temiz tutabilecek miyim?" sorusudur. Aşağıda önce ne işe yaradığını, sonra nasıl çalıştığını ve hangi durumda zarar verebileceğini anlatıyoruz.
+Bu yüzden asıl soru "nemlendirici iyi mi kötü mü?" değil, "odamın havası gerçekten kuru mu ve cihazı her gün temiz tutabilecek miyim?" sorusudur. İkisine de evet diyorsanız cihaz işe yarar; birine hayır diyorsanız ucuz bir nem ölçerle başlamak daha akıllıcadır.
 
 ## Hava nemlendirici ne işe yarar?
 

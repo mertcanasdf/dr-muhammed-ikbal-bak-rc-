@@ -2943,6 +2943,27 @@
       "preparedAt": "2026-11-18T10:12:46.039Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-18T10:12:49.191Z"
+    },
+    {
+      "day": "2026-11-18",
+      "slug": "kirmizi-etin-faydalari",
+      "sourceArticleSha256": "82ac8847983c3090c6769a8503000af8b35edd67ea582d873087f11943a6c6de",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kirmizi-etin-faydalari",
+        "htmlTitle": "Kırmızı Etin Faydaları: Demir, B12 ve Günlük Miktar",
+        "metaDescription": "Kırmızı etin faydaları protein, hem demir, çinko ve B12'den gelir. Günde kaç gram yeterli, hangi pişirme daha az risklidir ve kimler azaltmalı, okuyun.",
+        "headline": "Kırmızı Etin Faydaları: Protein, Demir, B12 ve Doğru Miktar",
+        "datePublished": "2026-11-18",
+        "dateModified": "2026-11-18",
+        "wordCount": 1409,
+        "bodyTextSha256": "a8199e086661b7354dad8efd6d24e11c2c8aa67eeb897a0b598e5812ff7619e9",
+        "htmlSha256": "9304a65140ab274a8c2004303894766c343d8222dd40c74d2e1222e8c675f4f2"
+      },
+      "commit": "6b61a18937edde96efd2c5f7ec034d216ab26fe5",
+      "parent": "ba0c5624f5ed087bdc2079a9846033320a9fa4b5",
+      "preparedAt": "2026-11-18T14:09:43.065Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-18T14:09:46.250Z"
     }
   ],
   "ctrChanges": [

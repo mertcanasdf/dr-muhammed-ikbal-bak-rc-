@@ -46,7 +46,7 @@ B12 vitamini (kobalamin), besinlerle alınan ve suda çözünen bir vitamindir; 
 | Mozzarella peyniri | 100 g | 1 |
 | Yumurta | 1 orta boy | 0,4 |
 
-Veri tabanları arasında küçük farklar vardır; rakamları kesin ölçü değil, sıralama olarak okuyun. Tablodan çıkan sonuç şu: ahtapot ve istiridye gibi deniz ürünleri ile kırmızı et en yoğun kaynaklardır, süt ürünleri ve yumurta ise tek başına az ama gün içinde toplanınca anlamlı katkı verir. [MedlinePlus](https://medlineplus.gov/ency/article/002403.htm) karaciğer gibi sakatatları ve deniz tarağı gibi kabukluları da en zengin kaynaklar arasında sayar.
+Veri tabanları arasında küçük farklar vardır; rakamları kesin ölçü değil, sıralama olarak okuyun. Tablodan çıkan sonuç şu: ahtapot ve istiridye gibi deniz ürünleri ile [kırmızı et](/blog/kirmizi-etin-faydalari) en yoğun kaynaklardır, süt ürünleri ve yumurta ise tek başına az ama gün içinde toplanınca anlamlı katkı verir. [MedlinePlus](https://medlineplus.gov/ency/article/002403.htm) karaciğer gibi sakatatları ve deniz tarağı gibi kabukluları da en zengin kaynaklar arasında sayar.
 
 ### B12 vitamini hangi sebze, meyve ve kuruyemişlerde var?
 

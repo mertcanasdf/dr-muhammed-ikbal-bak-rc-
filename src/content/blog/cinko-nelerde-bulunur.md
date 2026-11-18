@@ -27,7 +27,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/magnezyum-eksikligi.webp"
 ---
 
-**Çinko** en yoğun olarak istiridye gibi kabuklu deniz ürünlerinde ve kırmızı ette bulunur; tavuk ve hindi eti, yoğurt, süt, peynir, kuruyemişler, ayçiçeği gibi tohumlar, nohut gibi baklagiller ve tam tahıllar da çinko içerir. Hayvansal kaynaklardaki çinko vücutta daha kolay emilir. Bitkisel kaynaklarda ise fitat adlı bileşik emilimi azaltır, bu yüzden aynı miktar çinko her besinde aynı işi görmez.
+**Çinko** en yoğun olarak istiridye gibi kabuklu deniz ürünlerinde ve [kırmızı ette](/blog/kirmizi-etin-faydalari) bulunur; tavuk ve hindi eti, yoğurt, süt, peynir, kuruyemişler, ayçiçeği gibi tohumlar, nohut gibi baklagiller ve tam tahıllar da çinko içerir. Hayvansal kaynaklardaki çinko vücutta daha kolay emilir. Bitkisel kaynaklarda ise fitat adlı bileşik emilimi azaltır, bu yüzden aynı miktar çinko her besinde aynı işi görmez.
 
 Bir örnekle: [Oregon State Üniversitesi Linus Pauling Enstitüsü'nün tablosuna](https://lpi.oregonstate.edu/mic/minerals/zinc) göre pişmiş 85 gram dana kürek eti 8,7 mg çinko verir. Yetişkin bir kadının günlük önerilen miktarı 8 mg'dır. Aynı miktara nohut, kaju, yoğurt, süt ve peynirle ulaşmak için bunların hepsini aynı gün yemek gerekir ve yine de toplam biraz eksik kalır.
 

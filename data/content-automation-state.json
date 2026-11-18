@@ -2901,6 +2901,27 @@
       "preparedAt": "2026-11-17T14:11:15.264Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-17T14:11:18.377Z"
+    },
+    {
+      "day": "2026-11-18",
+      "slug": "selulit-hangi-vitamin-eksikliginden-olur",
+      "sourceArticleSha256": "bb0c316e8b5452f5b1d49ca9d6465afc8af811203b98bdcdb1bd3b149a1913a4",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/selulit-hangi-vitamin-eksikliginden-olur",
+        "htmlTitle": "Selülit Hangi Vitamin Eksikliğinden Olur? Kanıtlar",
+        "metaDescription": "Selülit hangi vitamin eksikliğinden olur? C vitamini, demir, magnezyum ve kolajenin selülitle ilişkisini, bilinen nedenleri ve tahlil ihtiyacını öğrenin.",
+        "headline": "Selülit Hangi Vitamin Eksikliğinden Olur? C, Demir, Magnezyum ve Kolajen",
+        "datePublished": "2026-11-18",
+        "dateModified": "2026-11-18",
+        "wordCount": 1358,
+        "bodyTextSha256": "6d737e3573ef11fcd29d81deddef0b527703a9a1a1d729d8a6b6ef3fb0c4e891",
+        "htmlSha256": "686b9d68c13ade62ca1fcf10a0627814c6bc83a95fff292b57670e5830fa3a2e"
+      },
+      "commit": "d2d5966e8d98cd2471749410c391e095136dbabb",
+      "parent": "95fd61db3d6440133d9c644c5417d0cb3402617f",
+      "preparedAt": "2026-11-18T06:15:20.233Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-18T06:15:23.322Z"
     }
   ],
   "ctrChanges": [

@@ -1448,5 +1448,37 @@
     "topic": "hafıza nasıl silinir",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-18",
+    "type": "sorgu-optimizasyonu",
+    "slug": "otofaji-nedir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-18",
+    "type": "ctr-iyilestirme",
+    "slug": "protein-ihtiyaci-yaslanma",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-18",
+    "type": "ctr-iyilestirme",
+    "slug": "vucut-yag-orani-kac-olmali",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-18",
+    "type": "ctr-iyilestirme",
+    "slug": "uyku-pozisyonu-nasil-olmali",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-18",
+    "type": "yeni-yazi",
+    "slug": "selulit-hangi-vitamin-eksikliginden-olur",
+    "topic": "selülit hangi vitamin eksikliğinden olur",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

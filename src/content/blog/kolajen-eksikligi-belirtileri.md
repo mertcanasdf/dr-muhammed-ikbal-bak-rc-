@@ -52,6 +52,8 @@ Cleveland Clinic, azalan kolajenle ilişkilendirilen işaretleri doku doku sıra
 | Sindirim | Bağırsak çeperinin incelmesine bağlı yakınmalar | Çok sayıda sindirim hastalığı |
 | Damar | Kan akımıyla ilgili sorunlar | Damar sertliği, tansiyon, diyabet |
 
+Uyluk ve kalçadaki portakal kabuğu görünümü de sık sık kolajen eksikliğine bağlanır; selülitin hangi eksikliklerle gerçekten ilişkili olduğunu [selülit hangi vitamin eksikliğinden olur yazımızda](/blog/selulit-hangi-vitamin-eksikliginden-olur) anlattık.
+
 Ciltteki değişimler en erken fark edilenlerdir, çünkü göz önündedir. [Amerikan Dermatoloji Akademisi'ne](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/skin-care-during-menopause) göre kadınların cildi menopozun ilk beş yılında kolajeninin yaklaşık %30'unu kaybeder; sonraki 20 yılda kayıp yılda yaklaşık %2 hızla sürer. Bu dönemde cildin incelmesi, daha kolay morarması ve yaraların daha geç kapanması bu yüzden sık anlatılır. Yüzdeki görünümü etkileyen etkenlerin ayrıntısı [ciltte kollajen kaybı yazısında](/blog/ciltte-kollajen-kaybi) yer alıyor.
 
 Kemik dokusunun iskeleti de büyük oranda kolajendir, ancak kemik kaybı belirti vermeden ilerler ve kolajen üzerinden değil, kemik yoğunluğu ölçümüyle değerlendirilir. Bu konu [osteoporoz yazısının](/blog/osteoporoz-nedir-belirtileri) alanına giriyor.

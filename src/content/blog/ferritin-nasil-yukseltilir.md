@@ -128,7 +128,7 @@ Aşağıdaki durumlar tahlil sonucunun bir hekimle birlikte yorumlanmasını ve 
 - Demir tedavisine rağmen ferritin yükselmiyor.
 - Ferritin yüksek çıktı ve tekrarlayan ölçümlerde de yüksek kalıyor, karaciğer testleri bozuk ya da ailede hemokromatoz var.
 
-Benzer belirtilerle karışabilen başka bir eksiklik için [folik asit eksikliği yazımıza](/blog/folik-asit-eksikligi-belirtileri), düşük ferritinin göz altı morluğuyla ilişkisi için de [göz altı morluğu ne eksikliği yazımıza](/blog/goz-alti-morlugu-ne-eksikligi) bakabilirsiniz.
+Benzer belirtilerle karışabilen başka bir eksiklik için [folik asit eksikliği yazımıza](/blog/folik-asit-eksikligi-belirtileri), düşük ferritinin göz altı morluğuyla ilişkisi için de [göz altı morluğu ne eksikliği yazımıza](/blog/goz-alti-morlugu-ne-eksikligi) bakabilirsiniz. Demir eksikliğinin selülite yol açıp açmadığı ise sık sorulan bir soru; kanıtları [selülit hangi vitamin eksikliğinden olur yazımızda](/blog/selulit-hangi-vitamin-eksikliginden-olur) ele aldık.
 
 ## Sık sorulan sorular
 

@@ -96,7 +96,7 @@ Referans miktar yetişkinlerle aynıdır, ama susama hissi azalır. Popkin'in de
 
 ### Egzersiz ve sıcak havada
 
-Terle kaybedilen su yerine konmalıdır; CDC sıcak havada, egzersizde, ateşte, ishalde ve kusmada ihtiyacın arttığını belirtir; NHS de terle ve hastalıkla kaybedilen sıvıyı yerine koymanın en iyi yolunun su olduğunu söyler. Uzun ve terletici çalışmalarda sodyum kaybı da önem kazanır; toparlanma döneminde sıvı ve beslenme ilişkisini [egzersiz sonrası toparlanma yazısında](/blog/egzersiz-sonrasi-toparlanma) bulabilirsiniz.
+Terle kaybedilen su yerine konmalıdır; CDC sıcak havada, egzersizde, ateşte, ishalde ve kusmada ihtiyacın arttığını belirtir; NHS de terle ve hastalıkla kaybedilen sıvıyı yerine koymanın en iyi yolunun su olduğunu söyler. Uzun ve terletici çalışmalarda sodyum kaybı da önem kazanır; toparlanma döneminde sıvı ve beslenme ilişkisini [egzersiz sonrası toparlanma yazısında](/blog/egzersiz-sonrasi-toparlanma) bulabilirsiniz. Sauna da kısa sürede bol terletir; özellikle alkolle birleştiğinde baş dönmesi ve bayılma riskini [sauna faydaları ve zararları yazısında](/blog/sauna-faydalari) ele aldık.
 
 ### Diyette su tüketimi nasıl olmalı?
 

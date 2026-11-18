@@ -2922,6 +2922,27 @@
       "preparedAt": "2026-11-18T06:15:20.233Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-18T06:15:23.322Z"
+    },
+    {
+      "day": "2026-11-18",
+      "slug": "sauna-faydalari",
+      "sourceArticleSha256": "25968ef097968879c7dbc673f1c300026f2cf98248bb7db4650d92cb30bc2f59",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/sauna-faydalari",
+        "htmlTitle": "Sauna Faydaları ve Zararları: Kanıt ve Güvenlik Rehberi",
+        "metaDescription": "Sauna faydaları kalp, inme ve tansiyonda neyi gösteriyor, neyi göstermiyor? Zararlarını, alkol riskini ve kimlerin saunaya girmemesi gerektiğini okuyun.",
+        "headline": "Sauna Faydaları ve Zararları: Finlandiya Verisi Ne Gösteriyor?",
+        "datePublished": "2026-11-18",
+        "dateModified": "2026-11-18",
+        "wordCount": 1271,
+        "bodyTextSha256": "37ef09d38ecaafa17ee62b1c3e49d1f754c9fd8c1130b06f27235a69efb37cda",
+        "htmlSha256": "c015d86beadf7aa9bf21a6fa88718676cf260e9fa6b4a6eeeb286f93652076ce"
+      },
+      "commit": "ba0c5624f5ed087bdc2079a9846033320a9fa4b5",
+      "parent": "d2d5966e8d98cd2471749410c391e095136dbabb",
+      "preparedAt": "2026-11-18T10:12:46.039Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-18T10:12:49.191Z"
     }
   ],
   "ctrChanges": [

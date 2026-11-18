@@ -50,7 +50,7 @@ Kalp, beynin otonom sinir sistemi üzerinden gelen sinyallerle hızlanır ya da 
 | Kafein, enerji içeceği, nikotin | Alımdan sonraki saatlerde | Tetikleyici; azaltınca geriler |
 | Alkol | İçerken ve ertesi gün | Geçici hızlanma; bazı kişilerde ritim bozukluğunu tetikler |
 | Ateş, enfeksiyon | Hastalık boyunca | Vücut enfeksiyonla savaşırken kalp hızlanır |
-| Sıvı kaybı, sıcak ortam | İshal, kusma, yoğun terleme sonrası | Azalan kan hacmini telafi etme çabası |
+| Sıvı kaybı, sıcak ortam | İshal, kusma, yoğun terleme ya da [sauna](/blog/sauna-faydalari) sonrası | Azalan kan hacmini telafi etme çabası |
 | Kötü uyku | Uykusuz geçen gecenin ertesi | Tetikleyici |
 | Gebelik, menopoz | Dönem boyunca | Hormonal değişime bağlı |
 | Demir eksikliği anemisi | Sürekli, eforla belirginleşir | Kanın oksijen taşıma kapasitesi düşmüştür |

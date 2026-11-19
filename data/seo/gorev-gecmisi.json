@@ -1520,5 +1520,29 @@
     "topic": "kırmızı etin faydaları",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-19",
+    "type": "ctr-iyilestirme",
+    "slug": "otofaji-nedir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-19",
+    "type": "ctr-iyilestirme",
+    "slug": "resveratrol-nasil-kullanilir",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-19",
+    "type": "ctr-iyilestirme",
+    "slug": "kas-gucu-kas-kutlesi-farki",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-19",
+    "type": "ctr-iyilestirme",
+    "slug": "kavrama-gucu-ve-saglik",
+    "by": "claude"
   }
 ]

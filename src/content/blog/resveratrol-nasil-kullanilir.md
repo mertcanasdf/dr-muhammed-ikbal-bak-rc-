@@ -1,9 +1,9 @@
 ---
 title: "Resveratrol Nasıl Kullanılır? Ne İçin Kullanılır, Kimler Almamalı?"
-seoTitle: "Resveratrol Nasıl Kullanılır? Ne İçin, Kimler Almamalı?"
+seoTitle: "Resveratrol Nasıl Kullanılır? Ne Zaman, Aç mı Tok mu?"
 date: 2026-11-07
 updated: 2026-11-07
-description: "Resveratrol nedir, nasıl kullanılır? Kapsül, shot ve serum kullanımı, insan çalışmalarının sonuçları, ilaç etkileşimleri ve kimlerin almaması gerektiği."
+description: "Resveratrol nasıl ve ne zaman kullanılır, shot aç mı tok mu içilir? Yağlı öğünün emilime etkisi, AB 150 mg sınırı ve kimlerin almaması gerektiği."
 category: "Beslenme"
 image: "/assets/images/generated/articles/resveratrol-nasil-kullanilir.webp"
 readTime: "7 dk"

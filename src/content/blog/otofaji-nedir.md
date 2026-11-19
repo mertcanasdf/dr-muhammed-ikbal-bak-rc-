@@ -1,9 +1,9 @@
 ---
 title: "Otofaji Nedir ve Nasıl Aktive Edilir?"
-seoTitle: "Otofaji Nedir? Kaç Saatte Başlar, Kaç Gün Sürer? | MİB"
+seoTitle: "Otofaji Nedir? Otofaji Diyeti ve Kaç Gün Sürer?"
 date: 2026-05-15
 updated: 2026-10-19
-description: "Otofaji nedir, kaç saatte başlar ve otofaji diyeti ne anlama gelir? İnsan araştırmalarını, ölçüm sınırlarını ve açlık risklerini öğrenin."
+description: "Otofaji (autophagy) nedir, otofagozom nasıl oluşur? Kaç gün sürdüğünü ve otofaji diyeti diye bir şey olup olmadığını insan çalışmalarıyla okuyun."
 category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/otofaji-nedir.webp"
 readTime: "5 dk"

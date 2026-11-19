@@ -1,9 +1,9 @@
 ---
 title: "Kavrama Gücü Sağlık Hakkında Ne Söyler?"
-seoTitle: "Kavrama Gücü Nedir? Ölçüm ve Normal Değer Nasıl Yorumlanır?"
+seoTitle: "Kavrama Gücü Nedir? Referans Değerleri Nasıl Okunur?"
 date: 2026-09-15
 updated: 2026-10-22
-description: "Kavrama gücü nasıl ölçülür, normal değer neden herkese aynı değildir? El dinamometresi, sarkopeni ve değerlendirme gerektiren belirtileri öğrenin."
+description: "Kavrama gücü nedir, dinamometreyle nasıl ölçülür? Referans değerlerinin yaş, cinsiyet ve ülkeye göre neden değiştiğini ve sonucun nasıl okunacağını görün."
 category: "Hareket"
 image: "/assets/images/generated/articles/kavrama-gucu-ve-saglik.webp"
 readTime: "5 dk"

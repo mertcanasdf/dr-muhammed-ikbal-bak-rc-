@@ -3047,6 +3047,112 @@
         "description": "C vitamini aç karnına içilir mi, sabah mı akşam mı alınır? Bir seferde ne kadarının emildiğini, mide hassasiyetini ve demirle birlikte kullanımı okuyun."
       },
       "compareAfter": "2026-12-07"
+    },
+    {
+      "day": "2026-11-19",
+      "slug": "otofaji-nedir",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "otofaji diyeti",
+        "otofaji kaç gün sürer",
+        "otofagozom nedir",
+        "autophagy nedir",
+        "otofaji nedir"
+      ],
+      "gscBefore": {
+        "position": 8.8,
+        "impressions": 413,
+        "ctr": 0.01
+      },
+      "before": {
+        "title": "Otofaji Nedir ve Nasıl Aktive Edilir?",
+        "seoTitle": "Otofaji Nedir? Kaç Saatte Başlar, Kaç Gün Sürer? | MİB",
+        "description": "Otofaji nedir, kaç saatte başlar ve otofaji diyeti ne anlama gelir? İnsan araştırmalarını, ölçüm sınırlarını ve açlık risklerini öğrenin."
+      },
+      "after": {
+        "title": "Otofaji Nedir ve Nasıl Aktive Edilir?",
+        "seoTitle": "Otofaji Nedir? Otofaji Diyeti ve Kaç Gün Sürer?",
+        "description": "Otofaji (autophagy) nedir, otofagozom nasıl oluşur? Kaç gün sürdüğünü ve otofaji diyeti diye bir şey olup olmadığını insan çalışmalarıyla okuyun."
+      },
+      "compareAfter": "2026-12-10"
+    },
+    {
+      "day": "2026-11-19",
+      "slug": "resveratrol-nasil-kullanilir",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "resveratrol nasıl kullanılır",
+        "resveratrol shot ne zaman içilir",
+        "resveratrol ne zaman içilir",
+        "resveratrol ne zaman kullanılır",
+        "resveratrol shot aç mı tok mu"
+      ],
+      "gscBefore": {
+        "position": 7.6,
+        "impressions": 161,
+        "ctr": 0.012
+      },
+      "before": {
+        "title": "Resveratrol Nasıl Kullanılır? Ne İçin Kullanılır, Kimler Almamalı?",
+        "seoTitle": "Resveratrol Nasıl Kullanılır? Ne İçin, Kimler Almamalı?",
+        "description": "Resveratrol nedir, nasıl kullanılır? Kapsül, shot ve serum kullanımı, insan çalışmalarının sonuçları, ilaç etkileşimleri ve kimlerin almaması gerektiği."
+      },
+      "after": {
+        "title": "Resveratrol Nasıl Kullanılır? Ne İçin Kullanılır, Kimler Almamalı?",
+        "seoTitle": "Resveratrol Nasıl Kullanılır? Ne Zaman, Aç mı Tok mu?",
+        "description": "Resveratrol nasıl ve ne zaman kullanılır, shot aç mı tok mu içilir? Yağlı öğünün emilime etkisi, AB 150 mg sınırı ve kimlerin almaması gerektiği."
+      },
+      "compareAfter": "2026-12-10"
+    },
+    {
+      "day": "2026-11-19",
+      "slug": "kas-gucu-kas-kutlesi-farki",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "kas gücü",
+        "kas ölçümü nasıl yapılır"
+      ],
+      "gscBefore": {
+        "position": 7.6,
+        "impressions": 150,
+        "ctr": 0
+      },
+      "before": {
+        "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+        "seoTitle": "Kas Gücü ve Kas Kütlesi Farkı Nedir? Ölçümler Ne Söyler?",
+        "description": "Kas kütlesi miktarı, kas gücü kuvvet üretimini anlatır. Kavrama ve sandalyeden kalkma ölçümlerinin neyi gösterdiğini, sınırlarıyla öğrenin."
+      },
+      "after": {
+        "title": "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?",
+        "seoTitle": "Kas Gücü Nedir, Nasıl Ölçülür? Kas Kütlesinden Farkı",
+        "description": "Kas gücü nedir, kas ölçümü nasıl yapılır? Kavrama testi, sandalyeden kalkma ve tartıdaki kas değerinin neyi ölçtüğünü tablo halinde karşılaştırın."
+      },
+      "compareAfter": "2026-12-10"
+    },
+    {
+      "day": "2026-11-19",
+      "slug": "kavrama-gucu-ve-saglik",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "kavrama gücü nedir",
+        "el kavrama gücü referans değerleri"
+      ],
+      "gscBefore": {
+        "position": 6.8,
+        "impressions": 57,
+        "ctr": 0
+      },
+      "before": {
+        "title": "Kavrama Gücü Sağlık Hakkında Ne Söyler?",
+        "seoTitle": "Kavrama Gücü Nedir? Ölçüm ve Normal Değer Nasıl Yorumlanır?",
+        "description": "Kavrama gücü nasıl ölçülür, normal değer neden herkese aynı değildir? El dinamometresi, sarkopeni ve değerlendirme gerektiren belirtileri öğrenin."
+      },
+      "after": {
+        "title": "Kavrama Gücü Sağlık Hakkında Ne Söyler?",
+        "seoTitle": "Kavrama Gücü Nedir? Referans Değerleri Nasıl Okunur?",
+        "description": "Kavrama gücü nedir, dinamometreyle nasıl ölçülür? Referans değerlerinin yaş, cinsiyet ve ülkeye göre neden değiştiğini ve sonucun nasıl okunacağını görün."
+      },
+      "compareAfter": "2026-12-10"
     }
   ]
 }

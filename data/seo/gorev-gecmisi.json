@@ -1616,5 +1616,21 @@
     "topic": "sarkopeni tedavisi",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "soğuk banyonun faydaları",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "yeni-yazi",
+    "slug": "eklem-sagligi-icin-hangi-vitamin",
+    "topic": "eklem sağlığı için hangi vitamin",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

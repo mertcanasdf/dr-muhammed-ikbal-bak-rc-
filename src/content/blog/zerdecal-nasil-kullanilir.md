@@ -58,7 +58,7 @@ Neden yağ ve karabiber? [Hewlings ve Kalman'ın derlemesi](https://pmc.ncbi.nlm
 
 Aramalarda en çok tekrarlanan soru bu, ve yanıt dürüstçe şöyledir: mutfakta renk ve tat verir; sağlık etkisi ise tartışmalıdır.
 
-- **Diz kireçlenmesi:** NCCIH'e göre ağızdan alınan formlarla yapılan meta-analizler diz ağrısı, sertlik ve eklem işlevinde olumlu erken sonuçlar bildiriyor; daha kaliteli çalışmalara ihtiyaç var. Bunlar baharat değil, standartlaştırılmış kurkumin ürünleriyle yapılan çalışmalardır.
+- **Diz kireçlenmesi:** NCCIH'e göre ağızdan alınan formlarla yapılan meta-analizler diz ağrısı, sertlik ve eklem işlevinde olumlu erken sonuçlar bildiriyor; daha kaliteli çalışmalara ihtiyaç var. Bunlar baharat değil, standartlaştırılmış kurkumin ürünleriyle yapılan çalışmalardır. Glukozamin, kolajen ve D vitamini gibi diğer eklem takviyelerinin aynı ölçütle karşılaştırması [eklem sağlığı için hangi vitamin](/blog/eklem-sagligi-icin-hangi-vitamin) yazısında.
 - **Karaciğer yağlanması ve kanser tedavisine bağlı ağız yaraları:** Erken dönem araştırmalar var, sonuçlar tutarlı değil.
 - **Diğer iddialar (kalp, kolesterol, depresyon, alerji, bağışıklık, kilo verme):** NCCIH'e göre kanıt yetersizdir. Hewlings ve Kalman'ın derlemesi bazı alanlarda umut verici sonuçlar sıralasa da bahsettiği çalışmaların çoğu küçüktür (örneğin 40 diz kireçlenmesi hastası, 117 metabolik sendrom hastası) ve sağlıklı kişilerde veriler sınırlıdır.
 

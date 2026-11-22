@@ -3006,6 +3006,27 @@
       "preparedAt": "2026-11-22T06:14:14.068Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-22T06:14:17.186Z"
+    },
+    {
+      "day": "2026-11-22",
+      "slug": "eklem-sagligi-icin-hangi-vitamin",
+      "sourceArticleSha256": "a05ba90cf858b0f1965c84884af105be2bd0ad9527ed0b28b736588ddf8ce763",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/eklem-sagligi-icin-hangi-vitamin",
+        "htmlTitle": "Eklem Sağlığı İçin Hangi Vitamin? Araştırmalar Ne Diyor",
+        "metaDescription": "Eklem sağlığı için hangi vitamin gerçekten işe yarar? D, C vitamini, kolajen, glukozamin ve omega-3 çalışmalarını ve kılavuzların önerdiğini görün.",
+        "headline": "Eklem Sağlığı İçin Hangi Vitamin? D, C, Kolajen ve Glukozamin",
+        "datePublished": "2026-11-22",
+        "dateModified": "2026-11-22",
+        "wordCount": 1388,
+        "bodyTextSha256": "a616582dbfa54d3320e06b0c64c2721408fa6e8279be3fb88f1ba7f1bff47f78",
+        "htmlSha256": "282168f3cfed2649c25032de27b34a317a9c2cb2d4dd18bae76402f8b51f11e6"
+      },
+      "commit": "3ec3851e3560f0adba9c01653d7e88decb156b3e",
+      "parent": "8f2ed6d8a71c93fe21ed78a7a7ebb708ec199ebf",
+      "preparedAt": "2026-11-22T10:11:52.116Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-22T10:11:55.319Z"
     }
   ],
   "ctrChanges": [

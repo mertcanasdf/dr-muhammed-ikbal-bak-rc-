@@ -125,7 +125,7 @@ Hangi yiyeceğin kolajeni gerçekten içerdiği, hangisinin yalnızca yapımına
 
 ### Kolajen takviyeleri işe yarar mı?
 
-Harvard Health'in aktardığı, 19 çalışmayı ve 1.125 katılımcıyı kapsayan bir derlemede kolajen kullananların cilt sıkılığı ve neminde iyileşme bildirildi; ancak ürünlerin çoğu vitamin ve hyaluronik asit gibi başka maddeler de içeriyordu. Cleveland Clinic, diz kireçlenmesinde ağrı ve eklem işlevi için kolajen peptitlerini "olası yararlı" olarak niteler. Harvard Halk Sağlığı Okulu ise çalışmaların çoğunun tamamen ya da kısmen sektör tarafından desteklendiğini, ürün içeriğinin etiketle uyuşmayabileceğini ve ağır metal bulaşması kaygısını not eder. Gut eğilimi olanlar ve protein alımını kısıtlaması gerekenler için kolajen ürünleri uygun görülmez.
+Harvard Health'in aktardığı, 19 çalışmayı ve 1.125 katılımcıyı kapsayan bir derlemede kolajen kullananların cilt sıkılığı ve neminde iyileşme bildirildi; ancak ürünlerin çoğu vitamin ve hyaluronik asit gibi başka maddeler de içeriyordu. Cleveland Clinic, diz kireçlenmesinde ağrı ve eklem işlevi için kolajen peptitlerini "olası yararlı" olarak niteler. Diz kireçlenmesindeki kolajen çalışmalarını D vitamini ve glukozamin verileriyle yan yana [eklem sağlığı için hangi vitamin](/blog/eklem-sagligi-icin-hangi-vitamin) yazısında inceledik. Harvard Halk Sağlığı Okulu ise çalışmaların çoğunun tamamen ya da kısmen sektör tarafından desteklendiğini, ürün içeriğinin etiketle uyuşmayabileceğini ve ağır metal bulaşması kaygısını not eder. Gut eğilimi olanlar ve protein alımını kısıtlaması gerekenler için kolajen ürünleri uygun görülmez.
 
 ## Sık sorulan sorular
 

@@ -1,9 +1,9 @@
 ---
 title: "Dijital Tükenmişlik Nedir? Ekran Yükünü Azaltma Rehberi"
-seoTitle: "Dijital Tükenmişlik Nedir, Belirtileri ve Sınır Koyma"
+seoTitle: "Dijital Tükenmişlik Nedir? Belirtileri ve Nasıl Geçer?"
 date: 2026-09-15
-updated: 2026-10-23
-description: "Dijital tükenmişlik nedir, belirtileri nelerdir? Tükenmişlik sendromundan farkı, bildirim ve ekran yüküne sınır koyma ve destek gereken durumlar."
+updated: 2026-11-22
+description: "Dijital tükenmişlik nedir, nasıl geçer? Belirtileri, dijital yorgunluk ve tükenmişlik sendromundan farkı, bildirim ve ekran yüküne sınır koyma adımları."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/dijital-tukenmislik.webp"
 readTime: "7 dk"
@@ -37,7 +37,7 @@ Araştırmalarda bu deneyime en yakın kavram **teknostres**tir: bilgi ve ileti�
 - **Teknolojik aşırı yük:** Teknolojinin kişiyi daha fazla ve daha hızlı çalışmaya zorlaması. Daha çok e-posta, daha çok kanal, daha kısa yanıt süresi beklentisi.
 - **Teknolojik istila:** İş iletişiminin akşamlara, hafta sonlarına ve tatile taşınması; sürekli bağlantıda kalma baskısı.
 
-Derlemede bu etkenler, tükenme ve iş kaynaklı bitkinlik gibi olumsuz sonuçlarla tutarlı biçimde ilişkili bulunmuştur. Ancak çalışmaların 20'si kesitseldir ve hepsi öz bildirime dayanır. Yani ilişki gösterilmiştir; tek başına neden-sonuç kanıtı yoktur.
+Derlemede bu etkenler, tükenme ve iş kaynaklı bitkinlik gibi olumsuz sonuçlarla tutarlı biçimde ilişkili bulunmuştur. Ancak çalışmaların 20'si kesitseldir ve hepsi öz bildirime dayanır. Yani ilişki gösterilmiştir; neden-sonuç kanıtı yoktur.
 
 İş dünyası da konuyu bir risk alanı olarak görüyor. [Avrupa İş Sağlığı ve Güvenliği Ajansı (EU-OSHA) ile Avrupa Komisyonu Ortak Araştırma Merkezi'nin 2024 raporu](https://healthy-workplaces.osha.europa.eu/en/publications/digitalisation-and-workers-wellbeing-impact-digital-technologies-work-related-psychosocial-risks), dijital araçların iletişimi kolaylaştırabildiğini, ama iş yükünü yoğunlaştırıp "her zaman çevrim içi" kültürünü teşvik edebildiğini belirtir.
 
@@ -69,6 +69,18 @@ Dijital tükenmişlik ise daha geniş ve daha gevşek bir ifadedir:
 
 İkisi sık sık iç içe geçer: mesai dışında da yanıt beklenen bir işte, dijital yük tükenmişliğin bir parçası olabilir. Klinik tükenmişlik, stres biyolojisi ve kortizol hakkındaki sorular için [tükenmişlik sendromu yazımıza](/blog/tukenmislik-sendromu) bakabilirsiniz.
 
+## Dijital tükenmişlik nasıl geçer?
+
+Dijital tükenmişlik çoğu zaman yükün kaynağı değiştiğinde hafifler; tek bir yöntem yerine üç alanda birden düzenleme gerekir:
+
+| Alan | Ne değişir? | Ayrıntı |
+| --- | --- | --- |
+| Bildirimler | Anlık bölünme yerine toplu ve seçilmiş bildirim | Aşağıdaki bildirim bölümü |
+| Erişilebilirlik | Mesai dışı yanıt beklentisinin açıkça konuşulması | İş yerinde ve evde sınır bölümü |
+| Dinlenme | Ekransız uyku öncesi saat, hareket ve yüz yüze zaman | Ev düzeni ve ilgili yazılar |
+
+Sınırlar konduğu halde bitkinlik haftalarca sürüyorsa yakınmanın kaynağı yalnızca ekran olmayabilir; bu durumda aşağıdaki "Ne zaman destek alınmalı?" bölümü geçerlidir.
+
 ## Bildirim yükü nasıl azaltılır?
 
 Bildirimleri tamamen kapatmak her zaman en iyi sonuç değildir. [Fitz ve arkadaşlarının 237 kişiyle yaptığı randomize saha deneyinde](https://doi.org/10.1016/j.chb.2019.07.016), bildirimlerini günde üç kez toplu alan katılımcılar daha az stres, daha az bölünme ve daha iyi dikkat bildirdi. Bildirimleri tamamen kapatan grupta ise kaygı ve bir şeyleri kaçırma korkusu arttı. Çalışma kısa süreli ve öz bildirime dayalıdır; yine de "hepsini kapat" yerine "zamanını sen seç" yaklaşımını destekler.
@@ -83,7 +95,7 @@ Denenebilecek düzenlemeler:
 
 ## İş yerinde ve evde sınır nasıl konur?
 
-**İş yerinde:** Bireysel çaba tek başına yetmez. EU-OSHA raporu, dijital araçlar seçilirken çalışanlara danışılmasını ve iş sağlığı açısından risk değerlendirmesi yapılmasını önerir. Pratikte bu, ekip içinde şu konuları açıkça konuşmak demektir:
+**İş yerinde:** Bireysel çaba yetmez. EU-OSHA raporu, dijital araçlar seçilirken çalışanlara danışılmasını ve iş sağlığı açısından risk değerlendirmesi yapılmasını önerir. Pratikte bu, ekip içinde şu konuları açıkça konuşmak demektir:
 
 - Hangi kanal ne için kullanılacak? Acil işler telefonla, diğerleri e-postayla gibi.
 - Mesai dışında beklenen yanıt süresi nedir? Gerçekten bir beklenti var mı?
@@ -112,7 +124,11 @@ Aşağıdaki durumlarda profesyonel destek almak gerekir:
 
 Hayır. Resmi bir tanı kategorisi değildir. Yaşanan yorgunluk ve odaklanma güçlüğü gerçektir, ancak "dijital tükenmişlik" bir tanı değil, deneyimi tarif eden bir ifadedir. Ekran düzeni toparlandığı halde süren dikkat sorununda [odaklanma eksikliğinin diğer nedenlerine](/blog/odaklanma-eksikligi-neden-olur) bakmak gerekir.
 
-### Ekran süresini azaltmak tek başına yeter mi?
+### Dijital yorgunluk nedir, dijital tükenmişlikten farkı var mı?
+
+Günlük dilde ikisi çoğu zaman aynı anlamda kullanılır. "Dijital yorgunluk" genellikle uzun bir çevrim içi toplantı ya da ekran gününden sonra hissedilen ve dinlenince geçen bitkinliği anlatır. "Dijital tükenmişlik" ise bu yorgunluğun haftalarca sürdüğü, dinlenmeyle toparlanmadığı ve isteksizlik ile odak kaybına dönüştüğü durum için tercih edilir. İkisi de resmi tanı değildir.
+
+### Ekran süresini azaltmak yeterli mi?
 
 Her zaman değil. Bölünme sıklığı, mesai dışı erişilebilirlik beklentisi ve iş yükü çoğu zaman toplam süreden daha belirleyicidir. Süreyi azaltırken bildirim düzenini ve iş yerindeki beklentileri de ele almak gerekir.
 

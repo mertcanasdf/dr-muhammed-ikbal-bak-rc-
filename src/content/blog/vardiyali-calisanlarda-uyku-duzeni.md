@@ -27,7 +27,7 @@ relatedArticles:
     image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
 ---
 
-**Gece çalışanlar için uyku düzeni**, mesai sonrası ana uyku zamanını korumak; ışığı, sesi ve ev sorumluluklarını bu zamana göre düzenlemekle başlar. Uygun olduğunda vardiya öncesi kısa uyku bu plana eklenebilir; fakat yeterli uykunun yerine geçmez. Sabit gece vardiyasıyla dönüşümlü çalışma aynı değildir: izin günlerine geçiş ve uykulu eve dönüş de birlikte planlanmalıdır.
+**Gece çalışanlar gündüz**, mesai biter bitmez başlayan, karanlık, sessiz ve serin bir odada kesintisiz bir ana uykuyla uyumalıdır; bu saatleri her gün mümkün olduğunca aynı tutmak ve ev halkıyla korumak gerekir. Ana uyku kısa kalırsa vardiya öncesi kısa bir uyku plana eklenebilir, fakat yeterli uykunun yerine geçmez. Sabit gece vardiyasıyla dönüşümlü çalışma aynı değildir: izin günlerine geçiş ve uykulu eve dönüş de birlikte planlanmalıdır.
 
 ## Vardiya çalışması uykuyu neden zorlaştırır?
 

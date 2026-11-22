@@ -2964,6 +2964,27 @@
       "preparedAt": "2026-11-18T14:09:43.065Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-18T14:09:46.250Z"
+    },
+    {
+      "day": "2026-11-22",
+      "slug": "prp-ne-zaman-etki-eder",
+      "sourceArticleSha256": "46ff9f1787e80bb1a5aee5ca4c5e32f65039e86d86c5412318ebdb98522d3ee3",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/prp-ne-zaman-etki-eder",
+        "htmlTitle": "PRP Ne Zaman Etki Eder? Saç, Yüz ve Dizde Süreler",
+        "metaDescription": "PRP ne zaman etki eder? Saçta dökülmenin azalması, yüzde ve dizde ilk fark için çalışmalardaki süreleri, seans düzenini ve sonucun neye bağlı olduğunu okuyun.",
+        "headline": "PRP Ne Zaman Etki Eder? Saç, Yüz ve Dizde Beklenen Süre",
+        "datePublished": "2026-11-22",
+        "dateModified": "2026-11-22",
+        "wordCount": 1318,
+        "bodyTextSha256": "6dcfe19998ff503913960ddd5e3d6681903b6c2369a643eda7a48e33456b105b",
+        "htmlSha256": "6638e3b2a847bda58a863f8e28781b8c98b1bf0cbda1068844217582bea1bf0c"
+      },
+      "commit": "e7cc68cbb917aa6224a46c7fe08e828a77242a2e",
+      "parent": "3d83533d355075200e6a44da88fb365c2b3b8df4",
+      "preparedAt": "2026-11-22T00:29:13.755Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-22T00:29:17.002Z"
     }
   ],
   "ctrChanges": [

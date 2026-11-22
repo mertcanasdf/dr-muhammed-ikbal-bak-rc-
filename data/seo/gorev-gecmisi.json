@@ -1544,5 +1544,37 @@
     "type": "ctr-iyilestirme",
     "slug": "kavrama-gucu-ve-saglik",
     "by": "claude"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "sorgu-optimizasyonu",
+    "slug": "omega-3-ne-ise-yarar",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "sorgu-optimizasyonu",
+    "slug": "kavrama-gucu-ve-saglik",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "sorgu-optimizasyonu",
+    "slug": "dijital-tukenmislik",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "sorgu-optimizasyonu",
+    "slug": "vardiyali-calisanlarda-uyku-duzeni",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "yeni-yazi",
+    "slug": "prp-ne-zaman-etki-eder",
+    "topic": "prp ne zaman etki eder",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

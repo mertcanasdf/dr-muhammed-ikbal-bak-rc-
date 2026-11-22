@@ -1576,5 +1576,45 @@
     "topic": "prp ne zaman etki eder",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "mavi isiklar ne zaman kuruldu",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "kolajen hangi yiyeceklerde bulunur",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "polifenol en çok hangi besinlerde bulunur",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "soğuk suyla duş almanın faydaları ve zararları",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-22",
+    "type": "yeni-yazi",
+    "slug": "sarkopeni-tedavisi",
+    "topic": "sarkopeni tedavisi",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

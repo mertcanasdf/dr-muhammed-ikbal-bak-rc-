@@ -67,7 +67,7 @@ Bu bulgu, el sıkma egzersiziyle test puanını artırmanın aynı oranda hastal
 
 Sarkopeni, kas sağlığının bozulmasıyla ilgili bir hastalık çerçevesidir. [EWGSOP2 Avrupa uzlaşısı](https://pubmed.ncbi.nlm.nih.gov/30312372/), düşük kas gücünü temel özellik olarak öne çıkarır; tanının doğrulanmasında düşük kas miktarı veya kalitesini, ağır durumun belirlenmesinde ise düşük fiziksel performansı değerlendirir. Dolayısıyla kuvvet, kas miktarı ve günlük performans ayrı bilgiler sağlar.
 
-Kavrama gücü bu sürecin kuvvet değerlendirmesine katkı verebilir. Sonucu tek başına “sarkopeni var/yok” şeklinde okumak, diğer değerlendirme basamaklarını atlamak olur. Elin kullanılmasını engelleyen bir sorun bulunduğunda uygun değerlendirme yöntemini sağlık profesyoneli seçer.
+Kavrama gücü bu sürecin kuvvet değerlendirmesine katkı verebilir. Sonucu tek başına “sarkopeni var/yok” şeklinde okumak, diğer değerlendirme basamaklarını atlamak olur. Elin kullanılmasını engelleyen bir sorun bulunduğunda uygun değerlendirme yöntemini sağlık profesyoneli seçer. Tanı sonrasında kavrama ölçümü, [sarkopeni tedavisinde](/blog/sarkopeni-tedavisi) gücün artıp artmadığını izlemenin de bir yoludur.
 
 Bu ayrımın yaşlanmadaki anlamını [kas kütlesi ve yaşlanma](/blog/kas-kutlesi-ve-yaslanma) yazısında bulabilirsiniz. Amaç bir sayı yarışına girmek değil; günlük işlevdeki değişimi ve ek değerlendirme ihtiyacını görünür kılmaktır. Kavrama puanından tek başına bütün vücudun durumuna ilişkin ayrıntılı sonuç çıkarılmamalıdır.
 

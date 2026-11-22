@@ -2985,6 +2985,27 @@
       "preparedAt": "2026-11-22T00:29:13.755Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-22T00:29:17.002Z"
+    },
+    {
+      "day": "2026-11-22",
+      "slug": "sarkopeni-tedavisi",
+      "sourceArticleSha256": "6c0736d98fa37b8fa79e8fee3ebb53e3b8b08e34ac03abe6ae664053f134d3f3",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/sarkopeni-tedavisi",
+        "htmlTitle": "Sarkopeni Tedavisi: Egzersiz, Protein ve İlaç Kanıtları",
+        "metaDescription": "Sarkopeni tedavisinde ilk basamak direnç egzersizi, ikincisi yeterli proteindir. Kılavuzların takviye ve ilaçlar hakkında ne dediğini tablo halinde görün.",
+        "headline": "Sarkopeni Tedavisi: Egzersiz, Protein ve İlaçlar Hakkında Kanıtlar",
+        "datePublished": "2026-11-22",
+        "dateModified": "2026-11-22",
+        "wordCount": 1232,
+        "bodyTextSha256": "a5a0647d67344fe65a0c16583ea0aa00557c43b6af933c0a4f25fc850d5e9c0b",
+        "htmlSha256": "a58c0847e2d53d1b1244336c724ad38979cb2215478a3332edaf19d68d8c741b"
+      },
+      "commit": "8f2ed6d8a71c93fe21ed78a7a7ebb708ec199ebf",
+      "parent": "e7cc68cbb917aa6224a46c7fe08e828a77242a2e",
+      "preparedAt": "2026-11-22T06:14:14.068Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-22T06:14:17.186Z"
     }
   ],
   "ctrChanges": [

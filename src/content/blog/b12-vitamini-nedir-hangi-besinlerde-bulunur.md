@@ -110,7 +110,7 @@ NHS, tedavi edilmeyen eksiklikte bazı sorunların kalıcı olabileceğini ve s�
 
 ## Fazla B12 zararlı mı?
 
-B12 suda çözünür; Harvard'a göre fazlası idrarla atılır ve bu nedenle bir üst sınır belirlenmemiştir. Besinlerden gelen B12 ile aşırıya kaçmak pratikte beklenmez. Takviye için NHS daha temkinlidir: yüksek dozların uzun vadeli etkisini gösterecek yeterli kanıt olmadığını, günde 2 miligrama kadar takviyenin zarar vermesinin beklenmediğini söyler. Takviye gerekip gerekmediği ve biçimi (tablet mi, iğne mi) eksikliğin nedenine bağlıdır; emilim bozukluğunda ağızdan alınan B12'nin de aynı engele takılabileceğini unutmamak gerekir. Bu yazı kişisel doz vermez.
+B12 suda çözünür; Harvard'a göre fazlası idrarla atılır ve bu nedenle bir üst sınır belirlenmemiştir. Besinlerden gelen B12 ile aşırıya kaçmak pratikte beklenmez. Takviye için NHS daha temkinlidir: yüksek dozların uzun vadeli etkisini gösterecek yeterli kanıt olmadığını, günde 2 miligrama kadar takviyenin zarar vermesinin beklenmediğini söyler. Takviye gerekip gerekmediği ve biçimi (tablet mi, iğne mi) eksikliğin nedenine bağlıdır; emilim bozukluğunda ağızdan alınan B12'nin de aynı engele takılabileceğini unutmamak gerekir. Seyrek de olsa B12 takviyesi ya da iğnesinden sonra sivilceye benzeyen döküntü çıkabildiği vaka bildirimleriyle tanımlanmıştır; bunun sıradan akneden nasıl ayrıldığını [demir eksikliği akne yapar mı](/blog/demir-eksikligi-akne-yapar-mi) yazısında anlattık. Bu yazı kişisel doz vermez.
 
 Vitamin ve mineral kaynaklarını birlikte düşünmek isteyenler için [D vitamini nelerde var](/blog/d-vitamini-nelerde-var) yazısı ile [beslenme ve sağlıklı yaşlanma](/longevity/beslenme) sayfası genel çerçeveyi verir.
 

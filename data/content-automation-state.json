@@ -3027,6 +3027,27 @@
       "preparedAt": "2026-11-22T10:11:52.116Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-22T10:11:55.319Z"
+    },
+    {
+      "day": "2026-11-23",
+      "slug": "demir-eksikligi-akne-yapar-mi",
+      "sourceArticleSha256": "26f27ffb44e76e7e6580f0653a18a9ed0ef86115b5736645ac3f9095beb03257",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/demir-eksikligi-akne-yapar-mi",
+        "htmlTitle": "Demir Eksikliği Akne Yapar mı? Çinko, B12 ve D Vitamini",
+        "metaDescription": "Demir eksikliği sivilce yapar mı? Araştırmaların gösterdiği, çinko, B12 ve D vitamini düzeyinin aknedeki yeri ve kan tahlilinin hangi durumda anlamlı olduğu.",
+        "headline": "Demir Eksikliği Akne Yapar mı? Çinko, B12 ve D Vitamini ile İlişkisi",
+        "datePublished": "2026-11-23",
+        "dateModified": "2026-11-23",
+        "wordCount": 1237,
+        "bodyTextSha256": "069109d8dd709d3119fe72187b4326d71a30829a92ca74f993338db6bce1c41e",
+        "htmlSha256": "cdcac97c5297e129468dfe53d8c2470859cd1803d8ba17d12538012f71fb690a"
+      },
+      "commit": "8cf03e22f7dd6f1f0a8144b2c88229901abbc3d3",
+      "parent": "5d8048f1e14393310bde5631e22feae2e51c410c",
+      "preparedAt": "2026-11-23T06:15:24.237Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-23T06:15:27.466Z"
     }
   ],
   "ctrChanges": [

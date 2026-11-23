@@ -114,7 +114,7 @@ Harvard, çinko eksikliği açısından riskli grupları şöyle sıralar:
 - vejetaryenler ve veganlar,
 - alkol kullanım bozukluğu olanlar.
 
-Belirtiler silik olur ve başka durumlarla kolayca karışır: tat ve koku almada azalma, iştahsızlık, keyifsizlik, enfeksiyonlara yatkınlık, yaraların geç iyileşmesi, ishal ve saç dökülmesi. Bu belirtilerin her biri demir, B12 ya da tiroid sorunlarında da görülebildiği için kendi kendine takviyeye başlamak yerine nedenin araştırılması daha doğru olur. Kalıcı yorgunluk ve sık enfeksiyonun başka nedenlerini [zayıf bağışıklık belirtileri yazımızda](/blog/zayif-bagisiklik-sistemi-belirtileri) ele aldık.
+Belirtiler silik olur ve başka durumlarla kolayca karışır: tat ve koku almada azalma, iştahsızlık, keyifsizlik, enfeksiyonlara yatkınlık, yaraların geç iyileşmesi, ishal ve saç dökülmesi. Bu belirtilerin her biri demir, B12 ya da tiroid sorunlarında da görülebildiği için kendi kendine takviyeye başlamak yerine nedenin araştırılması daha doğru olur. Aknesi olanlarda kan çinkosunun daha düşük bulunduğunu gösteren meta-analizi ve bunun demir ya da B12 ile karşılaştırmasını [demir eksikliği akne yapar mı](/blog/demir-eksikligi-akne-yapar-mi) yazısında ele aldık. Kalıcı yorgunluk ve sık enfeksiyonun başka nedenlerini [zayıf bağışıklık belirtileri yazımızda](/blog/zayif-bagisiklik-sistemi-belirtileri) ele aldık.
 
 ## Çinko takviyesi ne zaman zararlı olur?
 

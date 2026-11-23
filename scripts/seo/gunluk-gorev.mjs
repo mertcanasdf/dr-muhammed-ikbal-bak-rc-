@@ -62,11 +62,14 @@ const QUEUE_FILE = path.join(DATA, 'kuyruk.json');
 const queue = readJson(QUEUE_FILE, []);
 // İçerik görevlerinde bekleme, yalnız başlık değiştiren CTR görevini saymaz.
 const recentlyTouched = new Set(history.filter((h) => h.slug && h.type !== 'ctr-iyilestirme' && daysBetween(h.day, today) < 30).map((h) => h.slug));
-const fresh = (slug) => slug && !recentlyTouched.has(slug);
+// Deney kilidi (data/seo/kilit.json: { slug: "YYYY-MM-DD" }): bu tarihe kadar sayfaya hiçbir iyileştirme verilmez (ör. CTR deneyi).
+const locks = readJson(path.join(DATA, 'kilit.json'), {});
+const locked = (slug) => locks[slug] && locks[slug] >= today;
+const fresh = (slug) => slug && !recentlyTouched.has(slug) && !locked(slug);
 // Başlık/açıklama değişikliği içeriğe dokunmaz: CTR görevinde bekleme yalnız önceki CTR görevine bakar
 // (ör. yeni genişletilmiş yazı ilk 10'da ama tıklanmıyorsa başlığı hemen düzeltilebilir).
 const recentCtr = new Set(history.filter((h) => h.slug && h.type === 'ctr-iyilestirme' && daysBetween(h.day, today) < 30).map((h) => h.slug));
-const freshCtr = (slug) => slug && !recentCtr.has(slug);
+const freshCtr = (slug) => slug && !recentCtr.has(slug) && !locked(slug);
 
 // Sunucunun yayını çekmesi beklenirken (en geç 15 dk) canlı/yerel fark doğal olabilir; yalnız yerelde de var olan sorun kritik görevdir.
 const realCritical = audit.critical.filter((c) => {

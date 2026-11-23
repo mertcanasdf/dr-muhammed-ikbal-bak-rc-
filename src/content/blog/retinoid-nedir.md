@@ -1,9 +1,9 @@
 ---
 title: "Retinoid Nedir? Retinol ve Türevlerini Kullanma Rehberi"
-seoTitle: "Retinoid Nedir? Türevleri, Farkları ve Güvenli Kullanım"
+seoTitle: "Retinoid Nedir? Retinolden Farkı ve Nasıl Kullanılır"
 date: 2026-09-15
 updated: 2026-10-24
-description: "Retinoid nedir? Retinol, retinal, tretinoin ve adapalen farkını tabloda görün; reçete ayrımı, gebelik, tahriş ve güneş korumasıyla ilişkisini öğrenin."
+description: "Retinoid nedir, retinolden farkı ne? Retinol, retinal, tretinoin ve adapalen tablosu, reçete ayrımı, gebelikte kullanım, tahriş ve güneş koruması."
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/retinoid-nedir.webp"
 readTime: "7 dk"

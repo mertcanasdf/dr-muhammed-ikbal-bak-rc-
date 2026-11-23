@@ -1,9 +1,9 @@
 ---
 title: "D3 ve K2 Birlikte Kullanılır mı? Kanıtlar ve Güvenlik"
-seoTitle: "D3 K2 Vitamini Birlikte Alınır mı? Faydası ve Riskleri"
+seoTitle: "D3 K2 Birlikte Alınır mı? Ne İşe Yarar, Kimler Dikkat Etmeli"
 date: 2026-09-15
 updated: 2026-10-16
-description: "D3 K2 vitamini birlikte alınır mı, ne işe yarar? K2'nin damar ve kemikle ilgili kanıtlarını, warfarin etkileşimini ve etikette bakılacakları öğrenin."
+description: "D3 ve K2 birlikte alınmalı mı? K2'nin kemik ve damarla ilgili kanıtları, varfarin kullananlar için risk ve takviye etiketinde bakılacak 4 bilgi."
 category: "Beslenme"
 image: "/assets/images/generated/articles/d3-k2-birlikte-kullanilir-mi.webp"
 readTime: "5 dk"

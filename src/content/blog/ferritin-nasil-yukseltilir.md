@@ -1,9 +1,9 @@
 ---
 title: "Ferritin Nasıl Yükseltilir? Beslenme, Demir Tedavisi ve Süre"
-seoTitle: "Ferritin Nasıl Yükseltilir? Beslenme, Tedavi ve Süre"
+seoTitle: "Ferritin Nasıl Yükseltilir? Ne Yemeli, Bitkiler İşe Yarar mı"
 date: 2026-11-02
 updated: 2026-11-02
-description: "Ferritin nasıl yükseltilir, ne kadar sürede yükselir? Beslenmenin sınırı, demir tedavisi, bitkisel kürler ve yüksek ferritinin ne zaman önemli olduğu."
+description: "Ferritin nasıl yükseltilir, ne yemeli? Demirden zengin besinler, C vitamininin rolü, bitkisel kürlerin sınırı ve ferritinin ne kadar sürede yükseldiği."
 category: "Beslenme"
 image: "/assets/images/generated/articles/ferritin-nasil-yukseltilir.webp"
 readTime: "7 dk"

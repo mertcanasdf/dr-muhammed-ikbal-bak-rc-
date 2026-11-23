@@ -1,9 +1,9 @@
 ---
 title: "NMN ve NAD+: Hücresel Yaşlanma Hakkında Ne Biliyoruz?"
-seoTitle: "NMN Nedir, İşe Yarar mı? NAD+ ve İnsan Çalışmaları"
+seoTitle: "NMN Nedir, Ne İşe Yarar? NAD+ ve Yaşlanma Kanıtları"
 date: 2026-04-10
 updated: 2026-11-04
-description: "NMN nedir, NAD+ ile ilişkisi ne? İnsan çalışmalarında NMN takviyesinin kandaki NAD+ düzeyine, kas, kan şekeri ve yürüme testine etkisini ve yan etkileri görün."
+description: "NMN nedir, ne işe yarar? NAD+ ile ilişkisi, insan çalışmalarında kas, kan şekeri ve yürüme testine etkisi, yan etkiler ve kanıtın bugünkü sınırları."
 category: "Longevity Bilimi"
 image: "/assets/images/generated/articles/nmn-nad-yaslanma.webp"
 readTime: "9 dk"

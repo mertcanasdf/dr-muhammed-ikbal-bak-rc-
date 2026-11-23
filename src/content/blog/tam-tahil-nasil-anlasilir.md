@@ -1,9 +1,9 @@
 ---
 title: "Tam Tahıl Nasıl Anlaşılır? Ekmek ve Ürün Etiketi Rehberi"
-seoTitle: "Tam Tahıl Nedir, Nasıl Anlaşılır? Ekmek Etiketi Rehberi"
+seoTitle: "Tam Tahıl Nedir? Tam Tahıllı Besinler ve Ekmek Seçimi"
 date: 2026-10-06
 updated: 2026-11-16
-description: "Tam tahıl nedir, nasıl anlaşılır? Tam buğday, tam buğday unlu, kepekli ve çok tahıllı ekmeğin resmi tanımlarını ve etiket okumayı tabloyla öğrenin."
+description: "Tam tahıl nedir, hangi besinler tam tahıllıdır? Tam buğday, kepekli ve çok tahıllı ekmek arasındaki farkı ve etikette neye bakılacağını tabloyla öğrenin."
 category: "Beslenme"
 image: "/assets/images/generated/articles/tam-tahil-nasil-anlasilir.webp"
 readTime: "7 dk"

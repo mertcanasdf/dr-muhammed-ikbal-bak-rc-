@@ -1,9 +1,9 @@
 ---
 title: "İşitme Kaybı Neden Olur? Belirtiler, Türler ve Tedavi Seçenekleri"
-seoTitle: "İşitme Kaybı Neden Olur? Belirtileri ve Tedavisi"
+seoTitle: "İşitme Kaybı Neden Olur? Belirtileri ve Ne Zaman Acil"
 date: 2026-11-03
 updated: 2026-11-03
-description: "İşitme kaybı neden olur, nasıl fark edilir? Yaş, gürültü, kulak kiri ve enfeksiyon gibi nedenler, ani işitme kaybında acil durum ve tedavi seçenekleri."
+description: "İşitme kaybı neden olur, nasıl fark edilir? Yaş, gürültü, kulak kiri ve enfeksiyon gibi nedenler ve ani işitme kaybında neden hemen davranılması gerektiği."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/isitme-kaybi-neden-olur.webp"
 readTime: "7 dk"

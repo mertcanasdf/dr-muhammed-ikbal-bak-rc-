@@ -1,9 +1,9 @@
 ---
 title: "Omega-3 Nedir, Ne İşe Yarar? Faydaları ve Kaynakları"
-seoTitle: "Omega 3 Ne İşe Yarar? Faydaları, Eksikliği ve Kaynakları"
+seoTitle: "Omega 3 Nedir? Faydaları, Kaynakları ve Kullanımı"
 date: 2026-09-15
 updated: 2026-11-22
-description: "Omega 3 ne işe yarar, en çok hangi balıkta var? EPA-DHA farkı, eksikliğin nasıl anlaşıldığı, aç mı tok mu alınacağı ve yan etkileri kaynaklarıyla."
+description: "Omega 3 nedir, ne işe yarar? EPA ve DHA farkı, en zengin balıklar, kapsülün aç mı tok mu alınacağı ve yan etkileri; kanıta dayalı kısa bir rehber."
 category: "Beslenme"
 image: "/assets/images/generated/articles/omega-3-ne-ise-yarar.webp"
 readTime: "8 dk"

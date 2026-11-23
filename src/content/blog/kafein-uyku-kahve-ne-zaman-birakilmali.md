@@ -1,9 +1,9 @@
 ---
 title: "Kafein ve Uyku: Kahve Ne Zaman Bırakılmalı?"
-seoTitle: "Uyumadan Kaç Saat Önce Kahve İçilmeli? Kafein ve Uyku"
+seoTitle: "Uyumadan Kaç Saat Önce Kahve İçilmeli? 6 Saat Kuralı"
 date: 2026-10-06
 updated: 2026-10-27
-description: "Uyumadan kaç saat önce kahve içilmeli? Kafeinin etkisinin kaç saat sürdüğünü, NHS'nin önerdiği süreyi, çay gibi diğer kaynakları ve takip tablosunu öğrenin."
+description: "Yatmadan en az 6 saat önce kahveyi bırakmak önerilir. Gece kahve içmek uykuyu nasıl bozar, kafein kaç saat etkili kalır, çay ve kolada ne kadar var?"
 category: "Uyku"
 image: "/assets/images/generated/articles/kafein-uyku-kahve-ne-zaman-birakilmali.webp"
 readTime: "8 dk"

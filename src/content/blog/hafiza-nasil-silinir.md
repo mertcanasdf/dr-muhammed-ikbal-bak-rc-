@@ -1,9 +1,9 @@
 ---
 title: "Hafıza Nasıl Silinir? Kötü Anılar Unutulabilir mi?"
-seoTitle: "Hafıza Nasıl Silinir? Kötü Anıları Unutmanın Gerçeği"
+seoTitle: "Hafıza Silinir mi? Kötü Anıları Unutmak İçin Ne Yapılır"
 date: 2026-11-17
 updated: 2026-11-17
-description: "Hafıza silinebilir mi, kötü anılar evde unutulur mu? Araştırmaların gerçekte ne gösterdiğini, EMDR ve ilaç deneylerini, ne zaman destek gerektiğini okuyun."
+description: "Hafıza silme tedavisi var mı, kötü anılar nasıl unutulur? EMDR, ilaç deneyleri ve beynin unutma mekanizması; araştırmaların gerçekte gösterdikleri."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/hafiza-nasil-silinir.webp"
 readTime: "7 dk"

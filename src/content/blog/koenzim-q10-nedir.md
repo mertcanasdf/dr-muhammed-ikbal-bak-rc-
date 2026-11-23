@@ -1,9 +1,9 @@
 ---
 title: "Koenzim Q10 Nedir, Ne İşe Yarar? Faydaları ve Besin Kaynakları"
-seoTitle: "Koenzim Q10 Nedir, Ne İşe Yarar? Faydaları, Besinler"
+seoTitle: "Koenzim Q10 Nedir, Ne Demek? Ne İşe Yarar, Nelerde Var"
 date: 2026-11-09
 updated: 2026-11-09
-description: "Koenzim Q10 nedir, nelerde var? Kalp, migren ve statin kas ağrısı kanıtlarını, besinlerdeki miktarları ve varfarin etkileşimini tek yerde görün."
+description: "Koenzim Q10 ne demek, ne işe yarar? Hücrede enerji üretimindeki rolü, kalp ve migren kanıtları, en çok hangi besinlerde bulunduğu ve varfarin etkileşimi."
 category: "Beslenme"
 image: "/assets/images/generated/articles/koenzim-q10-nedir.webp"
 readTime: "7 dk"

@@ -1,8 +1,8 @@
 ---
 title: "Kolajen Hangi Yiyeceklerde Var? Besinleri Ayırma Rehberi"
-seoTitle: "Kolajen Hangi Yiyeceklerde Var? Besinleri Ayırma Rehberi"
+seoTitle: "Kolajen Hangi Yiyeceklerde Var? Liste ve Yanlış Bilinenler"
 date: 2026-10-25
-description: "Kolajen hangi yiyeceklerde var? Et, balık, kemik suyu ve jelatini; meyve, sebze ve protein kaynaklarından ayırın. Besin iddialarını örneklerle öğrenin."
+description: "Kolajen hangi yiyeceklerde var? Kemik suyu, tavuk, balık ve jelatin gibi kaynaklar; meyve ve sebzelerin kolajen içermeyip üretimine nasıl katkı verdiği."
 category: "Beslenme"
 image: "/assets/images/generated/articles/kolajen-hangi-yiyeceklerde-var.webp"
 readTime: "5 dk"

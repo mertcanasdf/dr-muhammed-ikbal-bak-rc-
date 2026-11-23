@@ -1,9 +1,9 @@
 ---
 title: "Hyaluronik Asit Nedir, Ne İşe Yarar? Cilde Faydaları ve Kanıtlar"
-seoTitle: "Hyaluronik Asit Faydaları: Cilde Ne Sağlar, Zararı Var mı?"
+seoTitle: "Hyaluronik Asit Cilde Faydaları ve Zararları: Yüze Ne Yapar?"
 date: 2026-10-30
 updated: 2026-10-30
-description: "Hyaluronik asit nedir, cilde faydaları neler? Serum, ağızdan alınan form ve dolgu arasındaki farkı, kanıtın sınırlarını ve tahriş durumlarını görün."
+description: "Hyaluronik asidin cilde ve yüze faydaları neler, zararı var mı? Serum, ağızdan takviye ve dolgu arasındaki fark, tahriş yapabileceği durumlar ve kanıt."
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/hyaluronik-asit-faydalari.webp"
 readTime: "7 dk"

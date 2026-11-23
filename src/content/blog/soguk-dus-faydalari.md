@@ -1,9 +1,9 @@
 ---
 title: "Soğuk Duşun Faydaları ve Zararları: Araştırmalar Ne Buldu?"
-seoTitle: "Soğuk Duş Faydaları ve Zararları: Kanıtlar Ne Diyor?"
+seoTitle: "Soğuk Duş Zararları ve Faydaları: Kimler Dikkat Etmeli?"
 date: 2026-11-08
 updated: 2026-11-08
-description: "Soğuk duş faydaları ne kadar gerçek? Stres, uyku, bağışıklık ve kas ağrısı araştırmalarını, kalp riskini ve kaç saniyenin denendiğini tek tabloda görün."
+description: "Soğuk duşun zararları neler, kimler için riskli? Kalp ve tansiyon, soğuk şoku; stres, bağışıklık ve kas ağrısı için kanıtları tek tabloda görün."
 category: "Hareket"
 image: "/assets/images/generated/articles/soguk-dus-faydalari.webp"
 readTime: "7 dk"

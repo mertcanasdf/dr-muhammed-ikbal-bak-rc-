@@ -103,7 +103,7 @@ Bu bölüm genel bilgidir; hangi ilacın ya da yaklaşımın kime uygun olduğu 
 - Sosyal ve zihinsel olarak aktif kalmak ([sosyal bağlantı](/blog/sosyal-baglanti-ve-uzun-omur), [okuma](/blog/kitap-okuma-ve-beyin) ve [sanat](/blog/sanat-ve-beyin-sagligi) yazılarına bakın)
 - İşitme kaybı varsa ele alınması
 
-NHS, bunların Alzheimer'ı kesin olarak önlediğini söylemez; yalnızca riski azaltmaya yardımcı olabilecek adımlar olarak sunar. Beyin sağlığına genel bakış için [zihin ve sağlıklı yaşlanma rehberi](/longevity/zihin) sayfasını da kullanabilirsiniz.
+NHS, bunların Alzheimer'ı kesin olarak önlediğini söylemez; yalnızca riski azaltmaya yardımcı olabilecek adımlar olarak sunar. Telefondaki beyin oyunlarının günlük hafızaya ne kadar yansıdığını [nöroplastisite tedavisi yazımızda](/blog/noroplastisite-tedavisi-nedir) ayrıca ele aldık. Beyin sağlığına genel bakış için [zihin ve sağlıklı yaşlanma rehberi](/longevity/zihin) sayfasını da kullanabilirsiniz.
 
 ## Hangi değişiklikler unutkanlığın ötesine geçer?
 

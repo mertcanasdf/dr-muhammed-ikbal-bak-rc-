@@ -37,7 +37,7 @@ Resim yapmak, beynin birden fazla sistemini birlikte kullanır: Ne çizeceğiniz
 
 Bunu doğrudan test eden çalışmalardan biri Almanya'da yapıldı. [Bolwerk ve arkadaşlarının 2014'te yayımladığı randomize çalışmada](https://pubmed.ncbi.nlm.nih.gov/24983951/) 28 emekli yetişkin iki gruba ayrıldı: 14 kişi 10 hafta boyunca haftada bir resim atölyesine katıldı, 14 kişi aynı sürede müzede sanat eserlerini inceleyip tartıştı. Beyin görüntülemesinde resim yapan grupta, dinlenme sırasında etkin olan ağın (varsayılan mod ağı) ön ve yan beyin bölgeleriyle bağlantısı daha fazla arttı. Bu artış, aynı grupta ölçülen psikolojik dayanıklılıkla (strese karşı direnç) ilişkiliydi.
 
-Bulgu ilgi çekicidir, çünkü "sanatı izlemek" ile "sanat üretmek" arasındaki farkı ölçer. Ancak her grupta yalnızca 14 kişi vardı ve bağlantı değişiminin günlük yaşamda nasıl bir fark yarattığı ölçülmedi. Beynin deneyimle değişebilme özelliğine **nöroplastisite** denir; bu çalışma onun sanat üretimiyle de ortaya çıkabildiğine işaret eder, ama kanıtlamaz.
+Bulgu ilgi çekicidir, çünkü "sanatı izlemek" ile "sanat üretmek" arasındaki farkı ölçer. Ancak her grupta yalnızca 14 kişi vardı ve bağlantı değişiminin günlük yaşamda nasıl bir fark yarattığı ölçülmedi. Beynin deneyimle değişebilme özelliğine **nöroplastisite** denir (bu özellikten yararlanan rehabilitasyon yöntemlerini [nöroplastisite tedavisi yazımızda](/blog/noroplastisite-tedavisi-nedir) anlattık); bu çalışma onun sanat üretimiyle de ortaya çıkabildiğine işaret eder, ama kanıtlamaz.
 
 ## Sanat stresi azaltır mı?
 

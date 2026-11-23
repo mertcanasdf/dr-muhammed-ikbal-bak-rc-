@@ -3048,6 +3048,27 @@
       "preparedAt": "2026-11-23T06:15:24.237Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-23T06:15:27.466Z"
+    },
+    {
+      "day": "2026-11-23",
+      "slug": "noroplastisite-tedavisi-nedir",
+      "sourceArticleSha256": "c83edc6269cf08fc52d921bc93de59efb904d2e96abeddf81831c09426ea7ca3",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/noroplastisite-tedavisi-nedir",
+        "htmlTitle": "Nöroplastisite Tedavisi Nedir? Nasıl Yapılır, Kime Uygun?",
+        "metaDescription": "Nöroplastisite tedavisi nedir, nasıl yapılır? İnme sonrası rehabilitasyon, rTMS ve beyin oyunlarının kanıtı, iyileşme süresi ve sağlıklı kişideki yeri.",
+        "headline": "Nöroplastisite Tedavisi Nedir? Nasıl Yapılır, Kimde Kullanılır?",
+        "datePublished": "2026-11-23",
+        "dateModified": "2026-11-23",
+        "wordCount": 1448,
+        "bodyTextSha256": "80aa6d8dcbad5b3c7ba631d84d850bd91ac24740a902dbc56339f0c46971564c",
+        "htmlSha256": "09a65367188f4ea807944d847a3fa9e1b83f788cca70c576809dd40b6a23f592"
+      },
+      "commit": "c12cacf13507cf11acf747a857ad1340aa4e7cba",
+      "parent": "8cf03e22f7dd6f1f0a8144b2c88229901abbc3d3",
+      "preparedAt": "2026-11-23T10:11:19.623Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-23T10:11:22.936Z"
     }
   ],
   "ctrChanges": [

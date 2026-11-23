@@ -29,7 +29,7 @@ Egzersizde konuşma testi, hareket ederken konuşmanın ne kadar rahat olduğunu
 
 ## Konuşma testi neyi gösterir?
 
-[CDC'nin yoğunluk rehberindeki](https://www.cdc.gov/physical-activity-basics/measuring/index.html) pratik ayrım şöyledir: Orta şiddetli aerobik aktivitede konuşmak mümkünken şarkı söylemek zorlaşır; yüksek şiddette ise nefes için durmadan birkaç sözcükten fazlasını söylemek güç olabilir. Bu, herkesin ulaşması gereken bir zorluk hedefi değildir. Özellikle yeni başlayan biri için hafif hareket de anlamlı bir başlangıçtır.
+[CDC'nin yoğunluk rehberindeki](https://www.cdc.gov/physical-activity-basics/measuring/index.html) pratik ayrım şöyledir: Orta şiddetli aerobik aktivitede konuşmak mümkünken şarkı söylemek zorlaşır; yüksek şiddette ise nefes için durmadan birkaç sözcükten fazlasını söylemek güç olabilir. Bu, herkesin ulaşması gereken bir zorluk hedefi değildir. Özellikle yeni başlayan biri için hafif hareket de anlamlı bir başlangıçtır. Konuşmanın tamamen kesildiği kısa efor bölümleri ise [HIIT kardiyonun](/blog/hiit-cardio-ne-ise-yarar) alanına girer.
 
 | Hareket sırasında gözlem | Yaklaşık yorum | Kayda yazılabilecek ifade |
 |---|---|---|

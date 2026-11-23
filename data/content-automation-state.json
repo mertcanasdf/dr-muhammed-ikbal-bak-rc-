@@ -3069,6 +3069,27 @@
       "preparedAt": "2026-11-23T10:11:19.623Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-23T10:11:22.936Z"
+    },
+    {
+      "day": "2026-11-23",
+      "slug": "hiit-cardio-ne-ise-yarar",
+      "sourceArticleSha256": "e69991f21a533b6e892eea9d0d40a13c84f56acc7ebf8232b2a4732e14059259",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/hiit-cardio-ne-ise-yarar",
+        "htmlTitle": "HIIT Cardio Ne İşe Yarar? Faydaları ve Nasıl Yapılır?",
+        "metaDescription": "HIIT cardio nedir, kondisyona, yağ kaybına ve kan şekerine ne kazandırır? Meta-analiz bulguları, afterburn gerçeği ve kimlerin dikkatli olması gerektiği.",
+        "headline": "HIIT Cardio Ne İşe Yarar? Faydaları, Yağ Yakımı ve Sınırları",
+        "datePublished": "2026-11-23",
+        "dateModified": "2026-11-23",
+        "wordCount": 1384,
+        "bodyTextSha256": "29f63cfc2bcf47a34b47b84872536031d170004156b7d538fa05caada00b6255",
+        "htmlSha256": "8168cbdb6248c1d4af99f79f4bd30a23d5082e691325f670690c937593ecf98b"
+      },
+      "commit": "3942d26de885581caab97683a1768f27ed51aa77",
+      "parent": "c12cacf13507cf11acf747a857ad1340aa4e7cba",
+      "preparedAt": "2026-11-23T14:38:42.186Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-23T14:38:45.685Z"
     }
   ],
   "ctrChanges": [

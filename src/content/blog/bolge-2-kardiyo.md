@@ -68,7 +68,7 @@ Yüksek yoğunluklu egzersiz (Bölge 4-5) kortizolü yükseltir. Bölge 2 gibi o
 
 ## Bölge 2 mi, Yüksek Yoğunluklu Antrenman (HIIT) mı?
 
-İkisi birbirinin alternatifi değil, tamamlayıcısıdır. Kontrollü çalışmaları birleştiren bir meta-analizde hem sürekli dayanıklılık antrenmanı hem de yüksek yoğunluklu aralıklı antrenman VO₂max'ta büyük artışlar sağladı; artış HIIT ile biraz daha fazlaydı (Milanović ve ark., 2015). Daha düşük yoğunluklu aerobik çalışma bazı kişilerde daha uzun sürdürülebilir; ancak Bölge 2 adı tek başına yeni başlayan kişi için güvenlik garantisi değildir. Pratikte haftalık aerobik sürenin büyük kısmını orta yoğunlukta yapıp, uygun kişilerde buna haftada bir-iki yüksek yoğunluklu seans eklemek yaygın bir yaklaşımdır.
+İkisi birbirinin alternatifi değil, tamamlayıcısıdır. Kontrollü çalışmaları birleştiren bir meta-analizde hem sürekli dayanıklılık antrenmanı hem de [yüksek yoğunluklu aralıklı antrenman (HIIT)](/blog/hiit-cardio-ne-ise-yarar) VO₂max'ta büyük artışlar sağladı; artış HIIT ile biraz daha fazlaydı (Milanović ve ark., 2015). Daha düşük yoğunluklu aerobik çalışma bazı kişilerde daha uzun sürdürülebilir; ancak Bölge 2 adı tek başına yeni başlayan kişi için güvenlik garantisi değildir. Pratikte haftalık aerobik sürenin büyük kısmını orta yoğunlukta yapıp, uygun kişilerde buna haftada bir-iki yüksek yoğunluklu seans eklemek yaygın bir yaklaşımdır.
 
 ## Ne Kadar Yapmalısınız?
 

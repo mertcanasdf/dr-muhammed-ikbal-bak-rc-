@@ -52,7 +52,7 @@ Mutfaklar birbirinden farklı olsa da bazı ortak paydalar öne çıkıyor:
 | Sardunya (İtalya) | Tam tahıllı ekmek, fasulye, bahçe sebzeleri, meyve | Et çoğunlukla pazar günleri ve özel günlerde | Dağlık arazide günlük yürüyüş, yaşamın olağan parçası |
 | İkaria (Yunanistan) | Akdeniz tipi beslenmenin bir çeşidi: sebze, meyve, baklagil, patates, zeytinyağı | 80 yaş üstünde balık ve kırmızı et haftada yaklaşık 1–2 kez | Öğle uykusu yaygın; veriler kesitsel ve gönüllülerden |
 | Nicoya (Kosta Rika) | Az işlenmiş gıda, bol tropikal meyve | Derlemede ayrıntı verilmiyor | Uzun yaşam avantajının küçüldüğü bildiriliyor |
-| Loma Linda (ABD) | Yeşil yapraklı sebze, kuruyemiş, baklagil | Toplulukta vejetaryen ve et tüketen bireyler bir arada | Dini yaşam tarzına dayalı; demografik doğrulama yöntemi diğerlerinden farklı |
+| Loma Linda (ABD) | Yeşil yapraklı sebze, [kuruyemiş](/blog/kuruyemis-faydalari), baklagil | Toplulukta vejetaryen ve et tüketen bireyler bir arada | Dini yaşam tarzına dayalı; demografik doğrulama yöntemi diğerlerinden farklı |
 
 Okinawa rakamları [Willcox ve arkadaşlarının 2014 derlemesindeki](https://pmc.ncbi.nlm.nih.gov/articles/PMC5403516/) 1949 besin tüketimi tablosundan, İkaria rakamları ise [Panagiotakos ve arkadaşlarının Ikaria Çalışması'ndan](https://pmc.ncbi.nlm.nih.gov/articles/PMC3051199/) alınmıştır. Bu çalışmada 80 yaş üstü 187 kişinin Akdeniz diyeti uyum puanı 55 üzerinden ortalama 38 bulundu. Yazarlar örneklemin demografik yöntemlere göre seçilmediğini ve çalışmanın neden-sonuç ilişkisi kuramayacağını belirtiyor.
 

@@ -70,7 +70,7 @@ Lifi artırmanın en kolay yolu, zaten yenen öğünlerde küçük değişiklikl
 - Beyaz ekmeğin bir bölümünü tam tahıllı ekmekle değiştirmek.
 - Patatesi kabuğuyla pişirmek.
 - Çorbaya, salataya ya da yemeğe baklagil eklemek; kuru ve pişmiş ölçüler için [baklagillerle protein planlama yazısı](/blog/baklagiller-protein-planlama) işe yarar.
-- Atıştırmada paketli ürün yerine meyve, sebze ya da tuzsuz kuruyemiş seçmek. [Ultra işlenmiş gıdaların](/blog/ultra-islenmis-gida-nedir) yerini almak lif miktarını da genellikle artırır.
+- Atıştırmada paketli ürün yerine meyve, sebze ya da tuzsuz [kuruyemiş](/blog/kuruyemis-faydalari) seçmek. [Ultra işlenmiş gıdaların](/blog/ultra-islenmis-gida-nedir) yerini almak lif miktarını da genellikle artırır.
 
 NHS'nin örnek gününde kahvaltı (iki dilim tam buğday ekmeği, fıstık ezmesi, portakal) yaklaşık 8,3 gram, öğle (tam buğday makarna, mercimekli sos) 11 gram, akşam (kabuğuyla fırın patates, havuç, yeşil fasulye, tavuk) 11,2 gram lif veriyor. Toplam, 30 gram hedefine varıyor.
 

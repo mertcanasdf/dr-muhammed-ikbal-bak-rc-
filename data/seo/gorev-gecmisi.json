@@ -1857,5 +1857,29 @@
     "topic": "nefes egzersizi eğitimi",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "soğuk suya girmenin faydaları",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "bebeklerde gece uyanma ne zaman biter",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "yeni-yazi",
+    "slug": "kuruyemis-faydalari",
+    "topic": "kuruyemiş faydaları",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

@@ -3111,6 +3111,27 @@
       "preparedAt": "2026-11-24T06:12:43.452Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-24T06:12:46.327Z"
+    },
+    {
+      "day": "2026-11-24",
+      "slug": "kuruyemis-faydalari",
+      "sourceArticleSha256": "44dda2998b6da39d9017bfa4a30a06992dcfefcb1b4f8661762ee6d75b349b4c",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kuruyemis-faydalari",
+        "htmlTitle": "Kuruyemiş Faydaları: Hangisi Ne İşe Yarar, Ne Kadar?",
+        "metaDescription": "Kuruyemiş faydaları neler? Kalp, kolesterol ve kiloya etkisini çalışmalarla görün; badem, ceviz ve fındığın 30 gramdaki değerlerini karşılaştırın.",
+        "headline": "Kuruyemiş Faydaları: Kalp, Kolesterol ve Kilo İçin Araştırmalar",
+        "datePublished": "2026-11-24",
+        "dateModified": "2026-11-24",
+        "wordCount": 1418,
+        "bodyTextSha256": "5ce143a5258e633bf4b84f223f28d2f8ae8fc1b99f9f52413a8627924f5838a8",
+        "htmlSha256": "cd089323c5b7554c860add883307645096126ab26cb2ca1f14017d9ba4b48806"
+      },
+      "commit": "a860cf305bd6af3872695000c7d47349caea3566",
+      "parent": "c52569c0672eda1ed0ac65eecace8bd072eda968",
+      "preparedAt": "2026-11-24T10:12:09.810Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-24T10:12:13.526Z"
     }
   ],
   "ctrChanges": [

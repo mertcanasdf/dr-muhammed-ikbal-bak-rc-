@@ -1,9 +1,9 @@
 ---
 title: "Hava Nemlendirici Faydaları: Ne İşe Yarar, Zararı Var mı?"
-seoTitle: "Hava Nemlendirici Faydaları ve Zararları: Doğru Kullanım"
+seoTitle: "Hava Nemlendirici Zararlı mı? Kaç Saat Çalışmalı?"
 date: 2026-11-17
 updated: 2026-11-17
-description: "Hava nemlendirici ne işe yarar, odada nem kaç olmalı, ultrasonik cihaz nasıl çalışır? Faydaları, soğuk buhar zararları ve temizlik adımları bu rehberde."
+description: "Hava nemlendirici ve buhar makinesi zararlı mı? Kirli hazne, beyaz toz ve %50 üstü nem risklerini, kaç saat çalışması gerektiğini ve temizliğini öğrenin."
 category: "Uyku"
 image: "/assets/images/generated/articles/hava-nemlendirici-faydalari.webp"
 readTime: "7 dk"

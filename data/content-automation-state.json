@@ -3321,6 +3321,57 @@
         "description": "Kavrama gücü nedir, dinamometreyle nasıl ölçülür? Referans değerlerinin yaş, cinsiyet ve ülkeye göre neden değiştiğini ve sonucun nasıl okunacağını görün."
       },
       "compareAfter": "2026-12-10"
+    },
+    {
+      "day": "2026-11-24",
+      "slug": "hava-nemlendirici-faydalari",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "hava nemlendirici buhar makinesi zararlı mı",
+        "hava nemlendirici kaç saat çalışmalı",
+        "oda nemlendirici zararlı mı",
+        "zararı var mı"
+      ],
+      "gscBefore": {
+        "position": 8.2,
+        "impressions": 57,
+        "ctr": 0
+      },
+      "before": {
+        "title": "Hava Nemlendirici Faydaları: Ne İşe Yarar, Zararı Var mı?",
+        "seoTitle": "Hava Nemlendirici Faydaları ve Zararları: Doğru Kullanım",
+        "description": "Hava nemlendirici ne işe yarar, odada nem kaç olmalı, ultrasonik cihaz nasıl çalışır? Faydaları, soğuk buhar zararları ve temizlik adımları bu rehberde."
+      },
+      "after": {
+        "title": "Hava Nemlendirici Faydaları: Ne İşe Yarar, Zararı Var mı?",
+        "seoTitle": "Hava Nemlendirici Zararlı mı? Kaç Saat Çalışmalı?",
+        "description": "Hava nemlendirici ve buhar makinesi zararlı mı? Kirli hazne, beyaz toz ve %50 üstü nem risklerini, kaç saat çalışması gerektiğini ve temizliğini öğrenin."
+      },
+      "compareAfter": "2026-12-15"
+    },
+    {
+      "day": "2026-11-24",
+      "slug": "nemlendirici-icerikleri-seramid-humektan",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "humektan ne demek"
+      ],
+      "gscBefore": {
+        "position": 7.9,
+        "impressions": 47,
+        "ctr": 0
+      },
+      "before": {
+        "title": "Nemlendirici İçerikleri: Seramid, Humektan ve Oklüzif Ne Yapar?",
+        "seoTitle": "Nemlendirici İçerikleri: Seramid ve Humektan Rehberi",
+        "description": "Nemlendiricide seramid, humektan, emolyan ve oklüzif ne işe yarar? İçerik listesini, ürün dokusunu ve cildin verdiği yanıtı birlikte değerlendirin."
+      },
+      "after": {
+        "title": "Nemlendirici İçerikleri: Seramid, Humektan ve Oklüzif Ne Yapar?",
+        "seoTitle": "Humektan Ne Demek? Seramid ve Nemlendirici İçerikleri",
+        "description": "Humektan ne demek? Gliserin ve üre gibi su tutan içeriklerin, seramidin, emolyan ve oklüzifin ciltte ne yaptığını tabloyla ve örnek içeriklerle öğrenin."
+      },
+      "compareAfter": "2026-12-15"
     }
   ]
 }

@@ -1,12 +1,12 @@
 ---
 title: "Yaşlılarda Denge Egzersizleri: Evde Güvenli Hareketler ve Kanıtlar"
-seoTitle: "Yaşlılarda Denge Egzersizleri: Evde 6 Hareket, Adım Adım"
+seoTitle: "Yaşlılarda Denge Egzersizleri: Evde 7 Hareket ve Sıklık"
 date: 2026-09-15
-updated: 2026-10-25
-description: "Yaşlılarda denge egzersizleri evde nasıl yapılır? Duvar yanında 6 hareket, tekrar sayıları, haftada kaç gün yapılacağı ve güvenli çalışma kuralları."
+updated: 2026-11-24
+description: "Yaşlılarda denge egzersizleri evde nasıl yapılır? 7 hareket, tekrar sayıları, nasıl zorlaştırılacağı ve denge kaybının nedenleri; güvenli çalışma kuralları."
 category: "Hareket"
 image: "/assets/images/generated/articles/denge-egzersizleri-yaslanma.webp"
-readTime: "7 dk"
+readTime: "9 dk"
 takeaways:
   - "Denge ve işlevsel egzersizler, toplumda yaşayan yaşlı yetişkinlerde düşme sıklığını azaltan en güçlü kanıtlı yaklaşımlardandır."
   - "Temel hareketler tek ayak duruşu, topuk-parmak yürüyüşü, yana yürüme ve sandalyeden kalkmadır; hepsi bir duvar ya da sağlam tezgâh yanında başlar."
@@ -31,9 +31,23 @@ Yaşlılarda denge egzersizleri; tek ayak üzerinde durma, topuk-parmak hizasın
 
 Bu yazı genel bilgilendirmedir; kişiye özel egzersiz programı yerine geçmez. Evdeki düzenlemeler, aydınlatma ve kaygan zemin gibi konular [yaşlılarda düşmeyi önleme ve ev güvenliği rehberinde](/blog/yaslilarda-dusme-onleme-ev-guvenligi) ayrıca ele alınıyor; burada yalnızca hareket tarafına odaklanıyoruz.
 
+## Yaşlılarda denge kaybı neden olur?
+
+Denge, görme, iç kulak, ayak tabanından gelen duyular, kas gücü ve beynin birlikte çalışmasına dayanır. Bu zincirin herhangi bir halkası zayıfladığında denge bozulur. ABD Ulusal Yaşlanma Enstitüsü [NIA'nın düşme rehberi](https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention) en sık nedenleri şöyle sıralar:
+
+- **Kas kaybı (sarkopeni)** ve buna bağlı yürüyüş bozukluğu;
+- **görme, işitme ve reflekslerde** yaşla gelen yavaşlama;
+- **ayağa kalkınca tansiyonun düşmesi** (postural hipotansiyon): yatar ya da oturur konumdan hızlı kalkınca sersemlik;
+- diyabet, kalp hastalığı, tiroid, sinir ve damar sorunları gibi **kronik hastalıklar**;
+- baş dönmesi ya da sersemlik yapan **ilaçlar**; kullanılan ilaç sayısı arttıkça risk de artar;
+- **ağrılı ayak sorunları** ve arkası açık terlik, yüksek topuk gibi uygun olmayan ayakkabılar;
+- hafif bilişsel bozulma ve bazı demans türleri.
+
+Bu listedeki nedenlerin bir kısmı egzersizle değil, ilaçların, görmenin ya da tansiyonun gözden geçirilmesiyle düzelir. Egzersizin doğrudan etkilediği halka ise kas gücü ve denge reflekslerinin kendisidir.
+
 ## Yaşlılarda denge egzersizleri neden önemli?
 
-Denge, görme, iç kulak, ayak tabanından gelen duyular, kas gücü ve beynin birlikte çalışmasına dayanır. Yaşla birlikte kas gücünün azalması, görme değişiklikleri, bazı ilaçlar ve nörolojik durumlar bu sistemi zayıflatabilir. [WHO](https://www.who.int/news-room/fact-sheets/detail/falls), bozulmuş denge, kuvvet ve yürüyüşü düşmenin başlıca risk etkenleri arasında sayar ve 2023'te düşmeye bağlı tahmini ölümlerin yaklaşık %71'inin 60 yaş ve üstündeki yetişkinlerde olduğunu bildirir.
+Yaşla birlikte kas gücünün azalması, görme değişiklikleri, bazı ilaçlar ve nörolojik durumlar denge sistemini zayıflatabilir. [WHO](https://www.who.int/news-room/fact-sheets/detail/falls), bozulmuş denge, kuvvet ve yürüyüşü düşmenin başlıca risk etkenleri arasında sayar ve 2023'te düşmeye bağlı tahmini ölümlerin yaklaşık %71'inin 60 yaş ve üstündeki yetişkinlerde olduğunu bildirir.
 
 Düşmenin bedeli yalnız yaralanma değildir. Bir kez düşen kişi hareket etmekten çekinebilir; daha az hareket daha fazla güç kaybı, o da yeni bir düşme riski demektir. WHO bu döngüyü giderek artan kırılganlık olarak tanımlar. Denge çalışması bu döngünün kırılabileceği noktalardan biridir.
 
@@ -60,7 +74,12 @@ Aşağıdaki hareketler [NHS denge egzersizleri rehberi](https://www.nhs.uk/live
 3. **Yana yürüme:** Ayaklar bitişik, dizler hafif bükük başlayın; bir ayağınızla yana adım atıp diğerini yanına getirin. Kalçanızı düşürmeden her yöne 10 adım.
 4. **Çapraz adım:** Sağ ayağı solun önünden çaprazlayıp sol ayağı yanına getirin; sonra diğer yöne. Her tarafa 5 adım. Küçük adımlar dengeyi daha çok çalıştırır.
 5. **Basamak çıkma:** Tırabzanlı bir basamakta ya da duvar yanında, bir ayakla çıkıp diğerini yanına getirin, sonra kontrollü inin. Her bacakla 5 tekrara kadar.
-6. **Sandalyeden kalkma:** CDC'nin örnekleri arasında yer alır. Sağlam, kolçaklı bir sandalyede oturup mümkünse elleri kullanmadan kalkın ve yavaşça oturun.
+6. **Sandalyeden kalkma:** CDC'nin örnekleri arasında yer alır. Sağlam bir sandalyenin ön kenarına oturup hafifçe öne eğilin, mümkünse elleri kullanmadan, bacaklarınızla kalkın ve yavaşça oturun. [NHS kuvvet egzersizleri rehberi](https://www.nhs.uk/live-well/exercise/strength-exercises/) 5 tekrarla başlamayı ve tekrarları ne kadar yavaş yaparsanız o kadar iyi olduğunu belirtir.
+7. **Parmak ucunda yükselme:** Ellerinizi sağlam bir sandalyenin arkasına koyun, iki topuğunuzu rahat olduğu kadar yerden kaldırıp yavaşça indirin. 5 tekrar. NHS bu hareketi kuvvet bölümünde verir; ayak bileği ve baldır kaslarını güçlendirdiği için dengeye de katkı sağlar. Zorlaştırmak için zamanla desteksiz yapılabilir.
+
+### Hareketler nasıl zorlaştırılır?
+
+Bir hareket destekle rahatça yapılabiliyorsa bir sonraki basamağa geçilir. Sıra genellikle şöyledir: iki elle tutunmak → tek elle → parmak ucuyla dokunmak → desteksiz ama duvarın yanında. Ondan sonra süre uzatılabilir (tek ayak duruşunda 10 saniyeden 30 saniyeye) ya da bakış sabit bir noktadan ayrılabilir. Gözleri kapatmak dengeyi en çok zorlayan aşamadır ve yalnız desteğin hemen yanında, tercihen biri varken denenmelidir. Her seferinde tek bir şeyi zorlaştırmak, iki zorluğu birden eklemekten daha güvenlidir.
 
 NHS bu hareketlerin haftada en az iki kez, kuvvet ve esneklik çalışmalarıyla birlikte yapılmasını önerir. [WHO fiziksel aktivite rehberi](https://www.who.int/publications/i/item/9789240014886) ise 65 yaş üstü yetişkinler için haftada en az 3 gün, denge ve kuvveti birlikte çalıştıran çok bileşenli aktivite önerir. İki öneri birbirini dışlamaz; rehberler arasındaki fark, ne kadar başlanacağının kişiye göre ayarlanması gerektiğini gösterir.
 
@@ -100,6 +119,10 @@ WHO, baş dönmesi ya da tansiyon düşmesi yapan ilaçların, görme sorunları
 
 Hafif denge hareketleri günlük hayata yayılabilir; rehberlerin önerisi en az haftada 2–3 gündür. Yorgunluk ya da baş dönmesi varsa o gün ara vermek daha güvenlidir.
 
+### Yaşlılarda dengeyi güçlendirmek için ne yapmalı?
+
+Üç şey birlikte işe yarar: dengeyi doğrudan zorlayan hareketler, bacak kaslarını güçlendiren kuvvet çalışması ve düşmeyi kolaylaştıran etkenlerin gözden geçirilmesi. NIA, ilaçların yan etkilerinin, görme ve işitmenin kontrol edilmesini, yeterli uykuyu, alkolü sınırlamayı ve yataktan ya da sandalyeden yavaş kalkmayı da önerir. Evin düzeni için [düşmeyi önleme ve ev güvenliği rehberine](/blog/yaslilarda-dusme-onleme-ev-guvenligi) bakabilirsiniz.
+
 ### Sandalyede oturarak denge çalışılır mı?
 
 Oturarak yapılan hareketler gövde ve bacak kaslarını çalıştırabilir, ancak dengeyi asıl zorlayan ayakta yapılan hareketlerdir. Ayakta durmakta zorlanan kişilerde oturarak başlamak ve ayakta çalışmaya destekle geçmek fizyoterapistle planlanabilir.
@@ -118,6 +141,8 @@ Bu yazıyla bağlantılı olarak [direnç antrenmanı](/blog/direnc-antrenmani-y
 - [WHO fiziksel aktivite ve hareketsiz davranış rehberi, 2020](https://www.who.int/publications/i/item/9789240014886)
 - [Sherrington C ve ark. Exercise for preventing falls in older people living in the community. Cochrane Database Syst Rev. 2019](https://pubmed.ncbi.nlm.nih.gov/30703272/)
 - [NHS: Balance exercises](https://www.nhs.uk/live-well/exercise/balance-exercises/)
+- [NHS: Strength exercises](https://www.nhs.uk/live-well/exercise/strength-exercises/)
+- [NIA: Falls and Fractures in Older Adults: Causes and Prevention](https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention)
 - [CDC: Physical activity guidelines for older adults](https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html)
 - [CDC STEADI: The 4-Stage Balance Test](https://www.cdc.gov/steadi/media/pdfs/STEADI-Assessment-4Stage-508.pdf)
 - [Araujo CG ve ark. Successful 10-second one-legged stance performance predicts survival in middle-aged and older individuals. Br J Sports Med. 2022](https://pubmed.ncbi.nlm.nih.gov/35728834/)

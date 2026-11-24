@@ -47,13 +47,13 @@ const MODIFIERS = ['nedir', 'ne işe yarar', 'faydaları', 'belirtileri', 'nası
 const MODIFIER_SEEDS_PER_DAY = 20; // kotayı yormamak için soru kalıpları her gün farklı 20 tohumda
 
 // Mevzuat ve niyet filtresi: ticari, hizmet, konum, marka, eğlence ve sağlık dışı aramalar.
-const EXCLUDE = /fiyat|ücret|eczane|satın|indirim|marka|markalar|en iyi|en ucuz|doktor|doktoru|klinik|hastane|randevu|yorum|şikayet|önce[- ]?sonra|bursa|istanbul|ankara|izmir|antalya|ekşi|film|izle|dizi|şarkı|masal|dua|tulum|jelibon|oyun|hap fiyat|ocean|solgar|orzax|voonka|nutraxin|venatura|zade|garnier|nivea|la roche|cerave|bioderma|loreal|neutrogena|vichy|avene|eucerin|sinoz|uykucu|uykuluk|kaç tl|sınıf|ders|ödev|konu anlatımı|test soruları|pdf|slayt|sunum|ingilizce|nedir kısaca 5|yazılır|yazilir|senfoni|müziği|muzigi|sözleri|sozleri|şiir|siir|çıkarıcı|cikarici|yazıldı|yazildi|çıktı|cikti|kitap|kitabı|roman|yazarı|albüm|album|mimarlık|mimarlik|tasarım|tasarim|bilir misin|anlamı|anlami|yüzyıllık|nobel|ödülü|odulu|şarkıcı|sarkici|hangi bölüm|hangi bolum|hangi doktor|yaptırılır|yaptirilir|yaptıranlar|yaptiranlar|nerede|haşlanır|haslanir|pişirilir|pisirilir|tarif|kaç dakika|kac dakika/i;
+const EXCLUDE = /fiyat|ücret|eczane|satın|indirim|marka|markalar|en iyi|en ucuz|doktor|doktoru|klinik|hastane|randevu|yorum|şikayet|önce[- ]?sonra|bursa|istanbul|ankara|izmir|antalya|ekşi|film|izle|dizi|şarkı|masal|dua|tulum|jelibon|oyun|hap fiyat|ocean|solgar|orzax|voonka|nutraxin|venatura|zade|garnier|nivea|la roche|cerave|bioderma|loreal|neutrogena|vichy|avene|eucerin|sinoz|uykucu|uykuluk|kaç tl|sınıf|ders|ödev|konu anlatımı|test soruları|pdf|slayt|sunum|ingilizce|nedir kısaca 5|yazılır|yazilir|senfoni|müziği|muzigi|sözleri|sozleri|şiir|siir|çıkarıcı|cikarici|yazıldı|yazildi|çıktı|cikti|kitap|kitabı|roman|yazarı|albüm|album|mimarlık|mimarlik|tasarım|tasarim|bilir misin|anlamı|anlami|yüzyıllık|nobel|ödülü|odulu|şarkıcı|sarkici|hangi bölüm|hangi bolum|hangi doktor|yaptırılır|yaptirilir|\bdiş\b|\bdiş |dişte|dişler|bebek|bebeğ|yenidoğan|nasıl okunur|nasil okunur|okunuşu|okunusu|kahvaltılık|kahvaltilik|\bsos\b|kurabiye|\bkek\b|salata|çorba|corba|yaptıranlar|yaptiranlar|nerede|haşlanır|haslanir|pişirilir|pisirilir|tarif|kaç dakika|kac dakika/i;
 // Ürün arayan sorgu (yazıyla değil mağazayla karşılanır): "retinol krem", "magnezyum tablet".
 const PRODUCT = /\b(krem|kremi|kremler|kremleri|serum|serumu|tablet|şurup|surup|sprey|jel)$/i;
 const INFO = /nedir|ne demek|ne işe yarar|faydaları|faydası|belirti|nasıl|ne zaman|neden|zararları|yan etki|eksikliği|fazlalığı|hangi|kaç|nelerde|içeren|nelerdir|ne kadar|düzeyi|normal|testi|egzersiz|beslenme|diyet|önlem|tedavi|etkisi/i;
 const HEALTH = /sağlık|vitamin|uyku|stres|cilt|diyet|egzersiz|kalp|şeker|kolesterol|yaşlan|beslenme|mineral|omega|protein|kas|kemik|bağışıklık|grip|virüs|hastalı|ağrı|tansiyon|obez|kilo/i;
 
-const fold = (s) => s.toLocaleLowerCase('tr').replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c').normalize('NFD').replace(/[̀-ͯ]/g, '');
+const fold = (s) => s.toLocaleLowerCase('tr').replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/([a-z])\1+/g, '$1');
 const STOP = new Set(['ve', 'ile', 'icin', 'mi', 'mu', 'ne', 'nedir', 'nasil', 'bir', 'en', 'da', 'de', 'ki', 'gibi', 'olan', 'hangi', 'zaman', 'ise', 'yarar', 'kac', 'neden', 'nelerdir', 'demek', 'var', 'olur', 'yapilir', 'icerir']);
 // Türkçe ekleri kabaca yok saymak için kelimenin ilk 5 harfi (kısa kelimede tamamı) kök sayılır.
 const stem = (t) => t.slice(0, 5);
@@ -117,7 +117,7 @@ export async function discover() {
   // Search Console'da bizi gösteren ama 10. sıradan geride kalan, marka dışı sorgular da konu adayıdır: talebi kanıtlıdır.
   const gscKw = readJson(path.join(DATA, 'anahtar-kelimeler.json'), { keywords: [] }).keywords;
   for (const k of gscKw) {
-    if (k.brand || k.impressions28 < 3 || !(k.position28 > 10) || found.has(k.query)) continue;
+    if (k.brand || k.impressions28 < 3 || !(k.position28 > 10) || found.has(k.query) || k.page) continue; // bizde sayfası olan sorgu iyileştirme işidir, yeni konu değil
     found.set(k.query, { query: k.query, seeds: new Set([k.query]), asked: new Set(), rel: 0, rank: 0 });
     hist.queries[k.query] ??= { first: today, days: 1, last: today };
   }

@@ -3090,6 +3090,27 @@
       "preparedAt": "2026-11-23T14:38:42.186Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-23T14:38:45.685Z"
+    },
+    {
+      "day": "2026-11-24",
+      "slug": "nefes-egzersizi-nasil-yapilir",
+      "sourceArticleSha256": "127221d20a519a8dfbad89e1f7e443c400adf5f7b07ee7b48493f15b7c80b54d",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/nefes-egzersizi-nasil-yapilir",
+        "htmlTitle": "Nefes Egzersizi Nasıl Yapılır? Adımlar ve 4-7-8 Tekniği",
+        "metaDescription": "Nefes egzersizi nasıl yapılır, nasıl öğrenilir? Yavaş nefes, 4-7-8, nefes darlığı teknikleri, triflo kullanımı, olası zararlar ve kanıtın sınırları.",
+        "headline": "Nefes Egzersizi Nasıl Yapılır? Adım Adım Teknikler ve Kanıtlar",
+        "datePublished": "2026-10-29",
+        "dateModified": "2026-11-24",
+        "wordCount": 1968,
+        "bodyTextSha256": "4ca652021a102a74388be1ff9b3bdf5e1125e37d173c686bc177509db75a071e",
+        "htmlSha256": "3d004ec5fb042e627136f58abeb582f7d3f8a46f3f63eb6803954f4d6aa7adbb"
+      },
+      "commit": "c52569c0672eda1ed0ac65eecace8bd072eda968",
+      "parent": "c70db63ba0f9c4109a18a6fbb2832f201c1122ba",
+      "preparedAt": "2026-11-24T06:12:43.452Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-24T06:12:46.327Z"
     }
   ],
   "ctrChanges": [

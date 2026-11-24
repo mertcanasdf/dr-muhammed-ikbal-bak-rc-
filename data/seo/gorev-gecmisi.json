@@ -1793,5 +1793,69 @@
     "slug": "retinoid-nedir",
     "by": "claude",
     "not": "ctr-deneyi-2026-11-23"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "sorgu-optimizasyonu",
+    "slug": "denge-egzersizleri-yaslanma",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "sorgu-optimizasyonu",
+    "slug": "meditasyon-faydalari",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "ctr-iyilestirme",
+    "slug": "hava-nemlendirici-faydalari",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "ctr-iyilestirme",
+    "slug": "nemlendirici-icerikleri-seramid-humektan",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "dolgu nedir diş",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "kolajen hangi yiyeceklerde vardır",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "hangi yiyeceklerde kolajen vardır",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "kolajen hangi besinlerde vardır",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-24",
+    "type": "yeni-yazi",
+    "slug": "nefes-egzersizi-nasil-yapilir",
+    "topic": "nefes egzersizi eğitimi",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

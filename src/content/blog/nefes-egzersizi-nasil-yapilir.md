@@ -2,16 +2,17 @@
 title: "Nefes Egzersizi Nasıl Yapılır? Adım Adım Teknikler ve Kanıtlar"
 seoTitle: "Nefes Egzersizi Nasıl Yapılır? Adımlar ve 4-7-8 Tekniği"
 date: 2026-10-29
-updated: 2026-10-29
-description: "Nefes egzersizi nasıl yapılır, ne işe yarar, 4-7-8 tekniği nedir? Adımları, süreyi, olası zararları ve kanıtın nerede durduğunu sade biçimde öğrenin."
+updated: 2026-11-24
+description: "Nefes egzersizi nasıl yapılır, nasıl öğrenilir? Yavaş nefes, 4-7-8, nefes darlığı teknikleri, triflo kullanımı, olası zararlar ve kanıtın sınırları."
 category: "Zihin & Sosyal Yaşam"
 image: "/assets/images/generated/articles/nefes-egzersizi-nasil-yapilir.webp"
-readTime: "6 dk"
+readTime: "10 dk"
 takeaways:
   - "Temel nefes egzersizi, rahat bir pozisyonda yavaş ve karna doğru nefes alıp nefesi aynı sakinlikte vermektir; günde birkaç dakika yeterli bir başlangıçtır."
   - "Küçük araştırmalar yavaş nefesin sakinleşme hissini ve ruh halini desteklediğini gösteriyor; bu, bir hastalığın tedavisi anlamına gelmiyor."
   - "4-7-8 tekniğinin özel olarak güçlü kanıtı yok; yavaş uzun veriş ilkesine dayandığı için makul bir seçenek olarak görülüyor."
   - "En sık yan etki baş dönmesi ve hafif sersemlikti; zorlamamak, oturarak ya da uzanarak yapmak ve nefes tutmayı kısaltmak yeterli oluyor."
+  - "Akciğer hastalığında ve ameliyat sonrasında nefes eğitimi ayrı bir iştir: dudak büzerek verme, tempolu nefes ve triflo (teşvik edici spirometre) tedavi ekibinin planıyla kullanılır."
 relatedArticles:
   - slug: "meditasyon-faydalari"
     category: "Zihin & Sosyal Yaşam"
@@ -78,6 +79,49 @@ Nefes tutmak zor geliyorsa süreleri aynı oranı koruyarak kısaltabilirsiniz (
 
 Uyku ya da hızlı sakinleşme vaatleri sık duyulur, ama kaynağın kendisi bu tekniğin bilimsel araştırmasının sınırlı olduğunu, desteğin çoğunlukla bireysel anlatımlara dayandığını belirtir. "Bir dakikada uyutur" gibi iddialar kanıtlanmış değildir. Tekniğin akla yatkın tarafı, uzun ve yavaş verişe dayanması ve gece, uykudan önce sakin bir ritüel oluşturmasıdır. Uyku düzeninin geri kalanı için [uyku kalitesini artırma rehberine](/blog/uyku-kalitesi-nasil-artirilir) bakabilirsiniz.
 
+## Nefes egzersizi eğitimi: kendi başınıza öğrenebilir misiniz?
+
+"Nefes egzersizi eğitimi" aramasının arkasında iki farklı ihtiyaç var ve ikisinin yolu ayrı.
+
+**Sağlıklı biri, stres ya da uyku için öğrenmek istiyorsa** kurs ya da sertifika şart değil. Yukarıdaki yavaş nefes ve 4-7-8 gibi teknikler yazılı bir rehberle öğrenilebilecek kadar basittir; asıl belirleyici olan, birkaç hafta boyunca her gün aynı kısa süreyi ayırmaktır. Ücretli bir program düşünüyorsanız şu üç soruyu sormak işe yarar:
+
+- Program hangi sorunu hedeflediğini açıkça söylüyor mu, yoksa "her derde deva" mı vaat ediyor?
+- Uzun nefes tutma, çok hızlı ve derin soluma (hiperventilasyon) ya da soğuk suyla birlikte nefes tutma içeriyor mu? Bu tür teknikler baş dönmesi ve bayılma riskini artırır.
+- Kalp, akciğer hastalığı ya da gebelik gibi durumlar için ayrı bir uyarı yapıyor mu?
+
+**Akciğer hastalığı olan ya da ameliyattan yeni çıkan biri içinse** nefes eğitimi tedavi ekibinin planladığı bir rehabilitasyon parçasıdır. İngiltere sağlık servisi NHS, [KOAH sayfasında](https://www.nhs.uk/conditions/chronic-obstructive-pulmonary-disease-copd/) solunum rehabilitasyonunu (pulmoner rehabilitasyon) genellikle 6–8 hafta süren, hastalığın bedeni nasıl etkilediğinin ve egzersizin belirtilere nasıl yardım ettiğinin öğretildiği bir program olarak tanımlar. Bu programlarda öğretilen teknikler, stres için yapılan nefes egzersizinden farklıdır.
+
+### Nefes darlığında kullanılan teknikler
+
+İngiltere'nin akciğer hastalıkları derneği Asthma + Lung UK, [nefes darlığını yönetme rehberinde](https://www.asthmaandlung.org.uk/symptoms-tests-treatments/symptoms/breathlessness/how-can-i-manage-my-breathlessness) şu teknikleri anlatır. Hepsini önce oturarak, rahat ve nefessiz kalmamışken denemek önerilir:
+
+| Teknik | Nasıl yapılır? | Ne zaman kullanılır? |
+|---|---|---|
+| Dudak büzerek nefes verme | Burundan nazikçe alın, dudakları mum söndürecekmiş gibi büzüp rahat olduğu kadar uzun verin; ciğerleri boşaltmak için zorlamayın | Her an; özellikle nefesi daraltan bir iş sırasında |
+| "Efor anında ver" | Çaba göstermeden önce nefes alın, çaba sırasında (ör. ağır bir çantayı kaldırırken) verin | Kaldırma, eğilme, uzanma gibi hareketlerde |
+| Sayarak (tempolu) nefes | Yürürken adımlarla eşleştirerek bir sayıda alın, iki sayıda verin; nefesi tutmaktan kaçının | Yürüme ve merdiven çıkma |
+| Karından rahat nefes | Bir el göğüste, bir el karında; burundan alın, karın elinizi itsin, göğüsteki el neredeyse kıpırdamasın; verişi alıştan uzun tutun | Nefes kontrolünü öğrenirken ve kaygı anında |
+
+Rehber, hangi tekniğin size uygun olduğunu fizyoterapistinize ya da sağlık ekibinize sormanızı da ekler; çünkü KOAH, astım ya da göğüs ameliyatı sonrasında doğru teknik, hastalığın türüne göre değişir.
+
+## Solunum egzersizi aleti (triflo) nasıl kullanılır?
+
+Halk arasında "triflo" ya da "nefes egzersizi aleti" denen cihazların tıbbi adı **teşvik edici spirometredir** (incentive spirometer). İçinde nefesle yükselen top ya da diskler bulunan bu plastik alet, ameliyat sonrasında ya da zatürre gibi akciğer hastalıklarında, ağrı nedeniyle yüzeysel soluyan kişinin yavaş ve derin nefes almasına yardım eder. ABD Ulusal Tıp Kütüphanesi'nin hasta bilgisi sayfası [MedlinePlus](https://medlineplus.gov/ency/patientinstructions/000451.htm) kullanımını şöyle anlatır:
+
+1. Dik oturun, aleti tutun ve ağızlığı dudaklarınızla sıkıca kavrayın.
+2. Önce normal biçimde nefes verin.
+3. Sonra **yavaşça** nefes alın. Hedef, topu ya da diski bölmenin ortasında tutmaktır: çok hızlı çekerseniz top tepeye fırlar, çok yavaş çekerseniz dipte kalır.
+4. Nefesi 3–5 saniye tutun, ardından yavaşça verin.
+5. Ameliyat sonrası kullanımda her 1–2 saatte 10–15 nefes yapılır; ancak sıklığı sizi izleyen sağlık ekibi belirler.
+
+Göğüs ya da karın ameliyatı yaraları varsa nefes alırken karna bir yastık bastırmak ağrıyı azaltır. Başınız dönerse ağızlığı çıkarıp birkaç normal nefes alın. Nefes darlığı artarsa, göğüs ağrısı, ateş ya da öksürükte artış olursa bu durum alete devam ederek geçiştirilmemelidir.
+
+### Nefes kası antrenmanı nedir?
+
+Teşvik edici spirometreden farklı olarak bazı cihazlar nefes almaya direnç uygular; bu yönteme **inspiratuvar kas eğitimi** denir ve diyaframı ve nefes alma kaslarını, ağırlık kaldırır gibi çalıştırır. Bu alandaki ilgi çekici çalışmalardan biri tansiyonla ilgili: [Craighead ve arkadaşlarının 2021 çalışmasında](https://pmc.ncbi.nlm.nih.gov/articles/PMC8403283/) büyük tansiyonu 120 mmHg ve üzerinde olan 50–79 yaş arası 36 kişi, 6 hafta boyunca haftada 6 gün, günde 30 dirençli nefes yaptı. Yüksek dirençle çalışan grupta büyük tansiyon ortalama 135'ten 126 mmHg'ye indi ve bu düşüşün yaklaşık dörtte üçü antrenman bırakıldıktan 6 hafta sonra da sürüyordu; düşük dirençli sahte antrenman yapan grupta tansiyon değişmedi.
+
+Sonuç umut verici, ama çalışma küçük ve kısa süreliydi; [yüksek tansiyonun](/blog/tansiyon-yuksekligi-belirtileri) tedavisinin yerine geçtiğini göstermiyor. Direnç ayarı kişinin nefes kası gücüne göre ölçülerek yapıldığı için bu cihazlarla kendi başına yüksek dirençte çalışmak, rahat nefes egzersiziyle aynı şey değildir.
+
 ## Nefes egzersizi ne zaman yapılır?
 
 Sabit bir "doğru saat" yok. Pratikte üç durum işe yarar:
@@ -124,7 +168,7 @@ Hayır. Diyafram nefesi, nefesi karna bırakma yöntemidir. 4-7-8 ise belirli bi
 
 ### Nefes egzersizi tansiyonu düşürür mü?
 
-Bu yazıdaki kaynaklar tansiyon tedavisi için kanıt sunmuyor. Tansiyon düşüklüğü ya da yüksekliği için ilaç kullanıyorsanız nefes egzersizi tedavinin yerine geçmez.
+Rahat, yavaş nefes egzersizi için bu yazıdaki kaynaklar tansiyon tedavisine dair kanıt sunmuyor. Dirençli cihazla yapılan nefes kası antrenmanında ise küçük bir randomize çalışmada 6 haftada büyük tansiyonun yaklaşık 9 mmHg düştüğü görüldü (yukarıda ayrıntısı var). Tansiyon için ilaç kullanıyorsanız ikisi de tedavinin yerine geçmez.
 
 ### Günde kaç dakika yapılmalı?
 
@@ -134,6 +178,14 @@ Başlangıçta beş dakika yeterli sayılıyor. NHS rehberi "en az beş dakika" 
 
 2023 çalışmasında kaygı azaldı, ancak aynı süre meditasyon yapan grupta da aynı ölçüde azaldı. Yani rahatlatıcı bir uygulama olarak anlamlı, ama kaygı bozukluğunun tedavisi değildir.
 
+### Panik atakta nefes egzersizi işe yarar mı?
+
+NHS'nin [panik bozukluğu sayfası](https://www.nhs.uk/mental-health/conditions/panic-disorder/), atak sırasında yavaş ve derin nefes almayı ve stres için nefes egzersizlerini öğrenmeyi belirtileri hafifletecek adımlar arasında sayar. Aynı sayfa atakların çoğunun 5–20 dakika sürdüğünü ve korkutucu olsa da bedene zarar vermediğini belirtir; panik bozukluğunun asıl tedavisi ise konuşma terapileri ve ilaçlardır. Göğüs ağrısı, çarpıntı ve nefes darlığı başka hastalıkların da belirtisi olabildiği için bu belirtiler ilk kez yaşanıyorsa panik atak varsayımıyla geçiştirilmemelidir. Kaygının bedendeki karşılığı için [kronik anksiyete yazısına](/blog/anksiyete-ve-obsesyonun-fizyolojisi) bakabilirsiniz.
+
+### Nefes egzersizi ile zayıflanır mı?
+
+Bu yazıdaki kaynakların hiçbiri nefes egzersiziyle kilo kaybını göstermiyor. Yavaş ve sakin soluma, oturarak yapılan dinlendirici bir uygulamadır; yürüyüş ya da bisiklet gibi bedeni hareket ettiren bir egzersizin yerini tutmaz. "Nefesle göbek eritme" iddiasıyla sunulan programlarda hızlı ve zorlamalı nefes teknikleri varsa, yukarıda anlatılan baş dönmesi ve karıncalanma riskleri de geçerlidir.
+
 ## Kaynaklar
 
 - [NHS: Breathing exercises for stress](https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/). İngiltere Ulusal Sağlık Servisi.
@@ -141,3 +193,8 @@ Başlangıçta beş dakika yeterli sayılıyor. NHS rehberi "en az beş dakika" 
 - [Zaccaro ve ark. (2018). How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing. Frontiers in Human Neuroscience](https://www.frontiersin.org/articles/10.3389/fnhum.2018.00353/full).
 - [Medical News Today: 4-7-8 breathing](https://www.medicalnewstoday.com/articles/324417).
 - [NHS: Dizziness](https://www.nhs.uk/conditions/dizziness/).
+- [NHS: Chronic obstructive pulmonary disease (COPD)](https://www.nhs.uk/conditions/chronic-obstructive-pulmonary-disease-copd/). İngiltere Ulusal Sağlık Servisi.
+- [Asthma + Lung UK: How can I manage my breathlessness?](https://www.asthmaandlung.org.uk/symptoms-tests-treatments/symptoms/breathlessness/how-can-i-manage-my-breathlessness).
+- [MedlinePlus: Using an incentive spirometer](https://medlineplus.gov/ency/patientinstructions/000451.htm). ABD Ulusal Tıp Kütüphanesi.
+- [Craighead ve ark. (2021). Time-efficient inspiratory muscle strength training lowers blood pressure and improves endothelial function, NO bioavailability, and oxidative stress in midlife/older adults with above-normal blood pressure. Journal of the American Heart Association](https://pmc.ncbi.nlm.nih.gov/articles/PMC8403283/).
+- [NHS: Panic disorder](https://www.nhs.uk/mental-health/conditions/panic-disorder/).

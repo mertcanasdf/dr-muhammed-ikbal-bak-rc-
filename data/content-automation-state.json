@@ -3174,6 +3174,27 @@
       "preparedAt": "2026-11-25T10:09:16.150Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-25T10:09:19.666Z"
+    },
+    {
+      "day": "2026-11-25",
+      "slug": "demans-testi",
+      "sourceArticleSha256": "f1b11184a9af11f5958b8a9a0f624736b18a693ddb8997c0942f8fbe91f08584",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/demans-testi",
+        "htmlTitle": "Demans Testi Nasıl Yapılır? Bilişsel Testler, Kan ve MR",
+        "metaDescription": "Demans testi tek bir test değildir. Bilişsel testler, kan tahlili ve beyin MR'ı neyi ölçer, online testlerin sınırı ne, demans kanda çıkar mı? Okuyun.",
+        "headline": "Demans Testi Nedir, Nasıl Yapılır? Hangi Testler Kullanılır?",
+        "datePublished": "2026-11-25",
+        "dateModified": "2026-11-25",
+        "wordCount": 1387,
+        "bodyTextSha256": "6f38cf7da2be8449e7f506ebe7d20120dbd7e47af2f62b1a368c4d0e35730c89",
+        "htmlSha256": "81702329af6e07a094d146ea3c984b7ea6fe15d4e48a169a34522e1c13427378"
+      },
+      "commit": "8376d7f9df0d64293c67ecae7d050f6b54c5a01e",
+      "parent": "8e7c392d08ba32b6c50369c40dac0f2a000749a1",
+      "preparedAt": "2026-11-25T14:12:02.911Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-25T14:12:06.675Z"
     }
   ],
   "ctrChanges": [

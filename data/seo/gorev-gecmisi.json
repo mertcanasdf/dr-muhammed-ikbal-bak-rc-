@@ -1945,5 +1945,21 @@
     "topic": "horlama nasıl önlenir",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-25",
+    "type": "yeni-yazi",
+    "slug": null,
+    "topic": "yoganın faydaları",
+    "by": "codex",
+    "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-25",
+    "type": "yeni-yazi",
+    "slug": "demans-testi",
+    "topic": "demans testi",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

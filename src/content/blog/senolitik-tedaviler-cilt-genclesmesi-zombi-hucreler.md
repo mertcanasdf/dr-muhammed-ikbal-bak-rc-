@@ -1,9 +1,9 @@
 ---
 title: "Senolitik Nedir? \"Zombi\" Hücreler, İnsan Çalışmaları ve Cilt"
-seoTitle: "Senolitik Nedir? Zombi Hücreler ve İnsan Çalışmaları"
+seoTitle: "Senolitik Nedir? Zombi Hücreleri Hedefleyen İlaçlar"
 date: 2026-05-28
 updated: 2026-11-02
-description: "Senolitik nedir, zombi (senesans) hücreler neden birikir? Dasatinib-kersetin ve fisetin çalışmalarında insanlarda ne bulundu, fare verisinden farkı ve cilt."
+description: "Senolitikler, bölünmeyi durdurmuş ama ölmeyen senesans (zombi) hücreleri yok etmeyi hedefler. D+Q ve fisetinin insan çalışmaları ne gösterdi, sınırları ne?"
 category: "Skin Longevity"
 image: "/assets/images/generated/articles/senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler.webp"
 readTime: "8 dk"

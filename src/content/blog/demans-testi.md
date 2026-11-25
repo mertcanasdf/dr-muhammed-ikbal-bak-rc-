@@ -29,7 +29,7 @@ relatedArticles:
 
 Demans testi, tek bir kan tahlili ya da tek bir soru kâğıdı değildir. [NHS](https://www.nhs.uk/conditions/dementia/symptoms-and-diagnosis/tests/) açıkça "demans için tek bir test yoktur" der: tanı; belirtilerin öyküsü, hafıza ve düşünmeyi ölçen bilişsel testler, başka nedenleri ayıran kan tahlilleri ve gerekirse beyin MR'ı birlikte değerlendirilerek konur. Yani "demans testi yaptırmak" pratikte birkaç adımlık bir değerlendirmeden geçmek demektir.
 
-Çoğu kişi bu aramayı bir yakını için yapar: annesi aynı soruyu üçüncü kez sormuştur ya da babası her gün yürüdüğü yolda kararsız kalmıştır. Aşağıda her adımda ne yapıldığını, hangi testin neyi gösterip neyi gösteremediğini ve evde yapılan online testlere ne kadar güvenilebileceğini sırayla anlatıyoruz.
+Çoğu kişi bu aramayı bir yakını için yapar: annesi aynı soruyu üçüncü kez sormuştur ya da babası her gün yürüdüğü yolda kararsız kalmıştır. Böyle bir durumda en çok işe yarayan şey, hangi testin neyi gösterip neyi gösteremediğini önceden bilmek; online testlerin yerini de buna göre koymak.
 
 ## Demans testi nasıl yapılır? Değerlendirmenin dört adımı
 

@@ -29,8 +29,7 @@ relatedArticles:
 
 Yüzdeki ilk ince çizgiler çoğu kişide 25 yaştan sonra, önce göz kenarında ve alında, mimiklerle birlikte görünmeye başlar. [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10984-wrinkles), kırışıklık için tedavi arayanların en çok 40–55 yaş arasında olduğunu, kırışıklıkların 65 yaştan sonra daha belirgin hale geldiğini yazar. Aynı yaştaki iki kişi arasındaki farkı ise büyük ölçüde güneş, sigara ve kadınlarda menopoz açıklar.
 
-Yani "kaç yaşında?" sorusunun tek bir cevabı yok. Yirmili yaşlarında gülünce beliren bir çizgi normaldir; asıl değişen, o çizginin yüz dinlenirken de yerinde kalmasıdır. Aşağıda bu geçişin yaşlara göre nasıl ilerlediğini, neyin onu hızlandırdığını ve elde ne kadar kanıt olduğunu sırayla anlatıyoruz.
-
+Yani "kaç yaşında?" sorusunun tek bir cevabı yok. Yirmili yaşlarında gülünce beliren bir çizgi normaldir; asıl değişen, o çizginin yüz dinlenirken de yerinde kalmasıdır.
 ## Yüzde kırışıklık ilk nerede başlar?
 
 İlk çizgiler yüzün en çok çalışan bölgelerinde çıkar: göz kenarındaki kaz ayağı, alındaki yatay çizgiler ve iki kaş arasındaki dikey çizgiler. Bu bölgelerdeki kaslar gün boyu gülme, kaş kaldırma ve göz kısmayla binlerce kez kasılır. Başlangıçta çizgi yalnızca yüz hareket ederken görünür ve yüz gevşeyince kaybolur; buna mimik çizgisi denir.

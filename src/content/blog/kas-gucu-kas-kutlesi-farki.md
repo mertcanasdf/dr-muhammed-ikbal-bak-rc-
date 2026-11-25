@@ -2,10 +2,11 @@
 title: "Kas Gücü ve Kas Kütlesi Farkı: Ölçümler Size Ne Söyler?"
 seoTitle: "Kas Gücü Nedir, Nasıl Ölçülür? Kas Kütlesinden Farkı"
 date: 2026-10-06
-description: "Kas gücü nedir, kas ölçümü nasıl yapılır? Kavrama testi, sandalyeden kalkma ve tartıdaki kas değerinin neyi ölçtüğünü tablo halinde karşılaştırın."
+updated: 2026-11-25
+description: "Kas gücü nedir, kaç olmalı? Muayenedeki 0–5 skalası, kavrama ve sandalye testlerinin eşikleri, kas kütlesinden farkı ve haftada kaç gün güç çalışması."
 category: "Hareket"
 image: "/assets/images/generated/articles/kas-gucu-kas-kutlesi-farki.webp"
-readTime: "6 dk"
+readTime: "8 dk"
 takeaways:
   - "Kas miktarı, üretilen kuvvet ve günlük hareket performansı farklı sorulara yanıt verir."
   - "Bir tartının kas değeri veya tek bir kavrama sonucu bütün kas sağlığını açıklamaz."
@@ -25,7 +26,26 @@ relatedArticles:
     image: "/assets/images/generated/articles/direnc-antrenmani-yaslanma.webp"
 ---
 
-Kas gücü ve kas kütlesi farkı, kas sağlığını tek bir sayıdan okumayı önleyen temel bir ayrımdır. Kas kütlesi kasın miktarıyla, kas gücü ise kuvvet üretebilmesiyle ilgilidir. Günlük işlev de bu kapasitenin yürümek, taşımak veya ayağa kalkmak gibi işlerde nasıl kullanıldığını gösterir. Ev tipi tartıda kas değeri değişmediği halde eskiden kolay yapılan bir iş zorlaşabilir. Bu durumda yalnızca tartıya bakmak önemli bir değişimi kaçırabilir.
+Kas gücü, bir kasın ya da kas grubunun dirence karşı üretebildiği kuvvettir; klinikte elle dirençle 0'dan 5'e puanlanır ya da kavrama ölçerle kilogram olarak ölçülür. Kas kütlesi ise kasın miktarıdır ve ikisi aynı hızda değişmek zorunda değildir. Günlük işlev de bu kapasitenin yürümek, taşımak veya ayağa kalkmak gibi işlerde nasıl kullanıldığını gösterir. Ev tipi tartıda kas değeri değişmediği halde eskiden kolay yapılan bir iş zorlaşabilir. Bu durumda yalnızca tartıya bakmak önemli bir değişimi kaçırabilir.
+
+## Kas gücü nedir, muayenede nasıl ölçülür?
+
+Muayenede kas gücü çoğunlukla elle test edilir: kişi bir eklemi hareket ettirir, muayene eden kişi karşı yönde direnç uygular. [StatPearls'ün kas gücü derecelendirme bölümüne](https://www.ncbi.nlm.nih.gov/books/NBK436008/) göre klinikte en yaygın kabul gören yöntem, Medical Research Council (MRC) ölçeğidir. Raporlarda gördüğünüz "kas gücü 4/5" ifadesi bu ölçekten gelir:
+
+| Derece | Ne anlama gelir? |
+|---|---|
+| 0/5 | Kasta hiç kasılma yok |
+| 1/5 | Seğirme düzeyinde kasılma var, eklem hareket etmiyor |
+| 2/5 | Yerçekimi ortadan kaldırıldığında tam hareket |
+| 3/5 | Yerçekimine karşı tam hareket, dirence karşı yok |
+| 4/5 | Bir miktar dirence karşı tam hareket |
+| 5/5 | Muayene edenin tam direncine karşı tam hareket (normal) |
+
+Bu puanlama sinir, omurilik ve kas hastalıklarında hangi kas grubunun zayıfladığını bulmaya yarar. Aynı kaynak, direncin muayene edenin elinde hissedilmesine dayandığı için ölçümün güvenilirliğinin kişiden kişiye değişebildiğini de not eder; bu yüzden takipte sayısal ölçümler de kullanılır.
+
+### Kas gücü kaç olmalı?
+
+Muayene ölçeğinde normal değer 5/5'tir. Sağlıklı yaşlanma açısından ise sayısal ölçümlere bakılır. [Avrupa sarkopeni uzlaşısı (EWGSOP2)](https://academic.oup.com/ageing/article/48/1/16/5126243), kavrama gücünün erkeklerde 27 kg, kadınlarda 16 kg altında olmasını düşük kas gücü için eşik olarak kullanır. Bacak kuvveti için de beş kez sandalyeden kalkıp oturmanın 15 saniyeden uzun sürmesini aynı amaçla önerir. Bu eşikler tanı değil, daha ayrıntılı değerlendirme gerekip gerekmediğini gösteren işaretlerdir.
 
 ## Üç ayrı soru, üç farklı ölçüm
 
@@ -82,6 +102,10 @@ Kurgusal örnek: “Ev tartısında kas yüzdesi benzer; son haftalarda alışve
 
 Bir hareketi daha yüksek ağırlıkla yapabilmek, diğer bütün hareketlerde aynı ilerleme olduğu anlamına gelmez. Kullandığınız hareket, destek ve teknik değiştiyse bunu kaydedin. Ölçümler arasında anlam aramak, kendinizi daha ağır denemelerle sınamayı gerektirmez. Aynı soruya yanıt veren, karşılaştırılabilir ölçümler daha kullanışlıdır.
 
+## Kas gücü nasıl artırılır?
+
+Kas gücünü artırmanın en iyi kanıtlı yolu, kasa düzenli ve giderek artan bir yük bindiren direnç çalışmasıdır. [NHS'nin yetişkin hareket önerisi](https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/), bacak, kalça, sırt, karın, göğüs, omuz ve kolları çalıştıran güçlendirme egzersizlerinin haftada en az 2 gün yapılmasını önerir. Bunun için spor salonu şart değildir: ağırlık kaldırma, direnç bandı, şınav ve squat gibi vücut ağırlığıyla yapılan hareketler ya da bahçe kazmak gibi ağır işler de sayılır. NHS, faydanın ortaya çıkması için hareketin kısa bir dinlenmeye ihtiyaç duyulacak noktaya kadar sürdürülmesi gerektiğini de belirtir. Yaş ilerledikçe hareketlerin nasıl seçileceğini [direnç antrenmanı ve sağlıklı yaşlanma](/blog/direnc-antrenmani-yaslanma) yazısında anlattık.
+
 ## Hangi güçsüzlükte yardım alınmalı?
 
 Yeni veya giderek artan güçsüzlük, günlük işleri yapamama ve belirgin işlev kaybı değerlendirilmelidir. Ani yüz veya kol güçsüzlüğü, özellikle konuşma bozukluğu gibi belirtilerle birlikteyse bunu kas yaşlanması olarak yorumlamayın; Türkiye'de **112**'yi arayın. [NHS güçsüzlük ve felç rehberi](https://www.nhs.uk/symptoms/paralysis/) ani belirtilerin acil önemini açıklar.
@@ -91,6 +115,8 @@ Bu yazı farklı ölçümlerin ne anlattığını anlamaya yardımcı olur. Tek 
 ## Kaynaklar
 
 - [EWGSOP2, 2019: Sarcopenia — Revised European Consensus on Definition and Diagnosis](https://academic.oup.com/ageing/article/48/1/16/5126243)
+- [StatPearls: Muscle Strength Grading (2025)](https://www.ncbi.nlm.nih.gov/books/NBK436008/)
+- [NHS: Physical activity guidelines for adults aged 19 to 64](https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/)
 - [Goodpaster ve arkadaşları, 2006: Kas miktarı ve kuvvet değişimlerinin üç yıllık izlemi](https://pubmed.ncbi.nlm.nih.gov/17077199/)
 - [NIDDK: Metabolic Testing — vücut kompozisyonu bileşenleri ve yöntemler](https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/diabetes-endocrinology-obesity-branch/metabolic-clinical-research-unit/metabolic-testing)
 - [NHS: Paralysis — güçsüzlükte yardım gerektiren durumlar](https://www.nhs.uk/symptoms/paralysis/)

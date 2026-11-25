@@ -3435,6 +3435,82 @@
         "description": "Humektan ne demek? Gliserin ve üre gibi su tutan içeriklerin, seramidin, emolyan ve oklüzifin ciltte ne yaptığını tabloyla ve örnek içeriklerle öğrenin."
       },
       "compareAfter": "2026-12-15"
+    },
+    {
+      "day": "2026-11-25",
+      "slug": "seker-tuketiminin-zararlari",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "fazla şeker tüketiminin zararları",
+        "gizli şekerin zararları",
+        "şekerin zararları"
+      ],
+      "gscBefore": {
+        "position": 7,
+        "impressions": 51,
+        "ctr": 0
+      },
+      "before": {
+        "title": "Şeker Tüketiminin Zararları: Günlük Sınır, Gizli Şeker ve Zamanlama",
+        "seoTitle": "Şeker Tüketiminin Zararları: Günde Ne Kadar Şeker Fazla?",
+        "description": "Şeker tüketiminin zararları neler? Serbest şekerin ne olduğunu, günlük gram sınırını, gizli şeker kaynaklarını ve tatlının ne zaman yenmesi gerektiğini öğrenin."
+      },
+      "after": {
+        "title": "Şeker Tüketiminin Zararları: Günlük Sınır, Gizli Şeker ve Zamanlama",
+        "seoTitle": "Şeker Tüketiminin Zararları: Fazla ve Gizli Şeker",
+        "description": "Fazla şekerin zararları: diş çürüğü, kilo, tip 2 diyabet, yağlı karaciğer ve kalp. DSÖ'nün günlük sınırını ve gizli şekerin hangi ürünlerde olduğunu görün."
+      },
+      "compareAfter": "2026-12-16"
+    },
+    {
+      "day": "2026-11-25",
+      "slug": "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler",
+      "taskType": "ctr-iyilestirme",
+      "queries": [
+        "senolitik nedir",
+        "senolitik",
+        "senesens",
+        "seniotik",
+        "senolitikler"
+      ],
+      "gscBefore": {
+        "position": 6.8,
+        "impressions": 46,
+        "ctr": 0
+      },
+      "before": {
+        "title": "Senolitik Nedir? \"Zombi\" Hücreler, İnsan Çalışmaları ve Cilt",
+        "seoTitle": "Senolitik Nedir? Zombi Hücreler ve İnsan Çalışmaları",
+        "description": "Senolitik nedir, zombi (senesans) hücreler neden birikir? Dasatinib-kersetin ve fisetin çalışmalarında insanlarda ne bulundu, fare verisinden farkı ve cilt."
+      },
+      "after": {
+        "title": "Senolitik Nedir? \"Zombi\" Hücreler, İnsan Çalışmaları ve Cilt",
+        "seoTitle": "Senolitik Nedir? Zombi Hücreleri Hedefleyen İlaçlar",
+        "description": "Senolitikler, bölünmeyi durdurmuş ama ölmeyen senesans (zombi) hücreleri yok etmeyi hedefler. D+Q ve fisetinin insan çalışmaları ne gösterdi, sınırları ne?"
+      },
+      "compareAfter": "2026-12-16"
+    },
+    {
+      "day": "2026-11-25",
+      "slug": "kas-kaybi-ne-zaman-baslar",
+      "taskType": "ctr-iyilestirme",
+      "queries": [],
+      "gscBefore": {
+        "position": 6.5,
+        "impressions": 44,
+        "ctr": 0
+      },
+      "before": {
+        "title": "Kas Kaybı Ne Zaman Başlar? Fitness ve Diyette Zamanlama",
+        "seoTitle": "Kas Kaybı Ne Zaman Başlar? Fitness ve Diyette Zamanlama",
+        "description": "Kas kaybı ne zaman başlar? Spora ara verme, yatak istirahati ve diyette sürelerin neden değiştiğini, tartı ve kuvvet ölçümlerinin sınırlarını öğrenin."
+      },
+      "after": {
+        "title": "Kas Kaybı Ne Zaman Başlar? Fitness ve Diyette Zamanlama",
+        "seoTitle": "Kas Kaybı Ne Zaman Başlar? Spora Ara Verince ve Diyette",
+        "description": "Sporu bırakınca kas kaybı 2–3 hafta içinde başlayabilir, ama süre yaşa, hareketsizliğin derecesine ve beslenmeye göre değişir. Diyet ve istirahatte farkı."
+      },
+      "compareAfter": "2026-12-16"
     }
   ]
 }

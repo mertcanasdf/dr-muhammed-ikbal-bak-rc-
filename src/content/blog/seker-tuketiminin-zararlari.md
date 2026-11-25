@@ -1,9 +1,9 @@
 ---
 title: "Şeker Tüketiminin Zararları: Günlük Sınır, Gizli Şeker ve Zamanlama"
-seoTitle: "Şeker Tüketiminin Zararları: Günde Ne Kadar Şeker Fazla?"
+seoTitle: "Şeker Tüketiminin Zararları: Fazla ve Gizli Şeker"
 date: 2026-11-04
 updated: 2026-11-04
-description: "Şeker tüketiminin zararları neler? Serbest şekerin ne olduğunu, günlük gram sınırını, gizli şeker kaynaklarını ve tatlının ne zaman yenmesi gerektiğini öğrenin."
+description: "Fazla şekerin zararları: diş çürüğü, kilo, tip 2 diyabet, yağlı karaciğer ve kalp. DSÖ'nün günlük sınırını ve gizli şekerin hangi ürünlerde olduğunu görün."
 category: "Beslenme"
 image: "/assets/images/generated/articles/seker-tuketiminin-zararlari.webp"
 readTime: "7 dk"

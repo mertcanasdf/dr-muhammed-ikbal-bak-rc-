@@ -1,8 +1,8 @@
 ---
 title: "Kas Kaybı Ne Zaman Başlar? Fitness ve Diyette Zamanlama"
-seoTitle: "Kas Kaybı Ne Zaman Başlar? Fitness ve Diyette Zamanlama"
+seoTitle: "Kas Kaybı Ne Zaman Başlar? Spora Ara Verince ve Diyette"
 date: 2026-10-26
-description: "Kas kaybı ne zaman başlar? Spora ara verme, yatak istirahati ve diyette sürelerin neden değiştiğini, tartı ve kuvvet ölçümlerinin sınırlarını öğrenin."
+description: "Sporu bırakınca kas kaybı 2–3 hafta içinde başlayabilir, ama süre yaşa, hareketsizliğin derecesine ve beslenmeye göre değişir. Diyet ve istirahatte farkı."
 category: "Hareket"
 image: "/assets/images/generated/articles/kas-kaybi-ne-zaman-baslar.webp"
 readTime: "5 dk"

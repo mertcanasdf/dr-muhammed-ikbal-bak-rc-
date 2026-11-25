@@ -65,7 +65,7 @@ Olası açıklama anatomiktir: midenin yemek borusuna bağlandığı bölge sol 
 
 ## Horlama ve uyku apnesinde sırtüstü yatmak neden sorun?
 
-Sırtüstü yatışta yerçekimi dili ve yumuşak damağı geriye çeker, üst solunum yolu daralır. Bu yüzden horlayan pek çok kişide horlama sırtüstünde artar, yana dönünce azalır. Bazı kişilerde nefes durmaları yalnızca ya da çoğunlukla sırtüstü yatışta görülür; buna pozisyonel uyku apnesi denir.
+Sırtüstü yatışta yerçekimi dili ve yumuşak damağı geriye çeker, üst solunum yolu daralır. Bu yüzden horlayan pek çok kişide horlama sırtüstünde artar, yana dönünce azalır. Bazı kişilerde nefes durmaları yalnızca ya da çoğunlukla sırtüstü yatışta görülür; buna pozisyonel uyku apnesi denir. Uykuda yan yatışta kalmanın pratik yollarını ve horlamayı artıran alkol, kilo ve burun tıkanıklığı gibi etkenleri [horlama nasıl önlenir](/blog/horlama-nasil-onlenir) yazısında topladık.
 
 Yan yatış hafif olgularda yardımcı olabilir, ama horlama ile tanıklı nefes durması aynı şey değildir. Eşinizin fark ettiği nefes kesilmeleri, sabah baş ağrısı ve gün içinde karşı konulamayan uyku hali varsa sorunun adını pozisyon değil, [uyku apnesi belirtileri](/blog/uyku-apnesi-belirtileri-ne-zaman-basvurulmali) çerçevesinde düşünmek gerekir.
 

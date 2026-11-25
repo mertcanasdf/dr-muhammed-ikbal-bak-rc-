@@ -3153,6 +3153,27 @@
       "preparedAt": "2026-11-25T06:17:31.299Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-25T06:17:34.646Z"
+    },
+    {
+      "day": "2026-11-25",
+      "slug": "horlama-nasil-onlenir",
+      "sourceArticleSha256": "d8a2f7e45199d8e5c800a7102ee5b1a21af53a049b554588e3fcb5709bd08daf",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/horlama-nasil-onlenir",
+        "htmlTitle": "Horlama Nasıl Önlenir? Gece Horlamayı Azaltan Yollar",
+        "metaDescription": "Horlama nasıl önlenir? Yan yatış, alkol, kilo, burun tıkanıklığı ve aparatlar: hangisi neye iyi gelir ve hangi horlama uyku apnesinin işaretidir?",
+        "headline": "Horlama Nasıl Önlenir? Gece Horlamayı Azaltan Yollar",
+        "datePublished": "2026-11-25",
+        "dateModified": "2026-11-25",
+        "wordCount": 1330,
+        "bodyTextSha256": "4b251c25ea8db725fb8ea678d50e5f71a3f6ad39710205dbaa7235e8aae34efd",
+        "htmlSha256": "2f6d2f5980d254e62210b36ce975bc37a4ccab42912073faa7405ad4d86800d2"
+      },
+      "commit": "8e7c392d08ba32b6c50369c40dac0f2a000749a1",
+      "parent": "37725802a0e3ef15856cc7f5c8c14dc675b6f8a6",
+      "preparedAt": "2026-11-25T10:09:16.150Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-25T10:09:19.666Z"
     }
   ],
   "ctrChanges": [

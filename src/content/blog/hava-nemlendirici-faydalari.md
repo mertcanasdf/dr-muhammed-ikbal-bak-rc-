@@ -114,7 +114,7 @@ Sabit bir saat önerisi yoktur. Ölçüt süre değil, odadaki nemdir: higrometr
 - Astımı olan birinde nemlendirici kullanılan dönemde sıklaşan ataklar.
 - Odada belirgin küf kokusu ya da duvarda, pencere kenarında küf lekeleri.
 
-Ani gelişen ve dinlenince geçmeyen ciddi nefes darlığı ise cihazdan bağımsız olarak acil değerlendirme gerektirir. Horlamaya ve sabah ağız kuruluğuna eşlik eden gece nefes durmaları başka bir konudur; bunu [uyku apnesi belirtileri yazısında](/blog/uyku-apnesi-belirtileri-ne-zaman-basvurulmali) ele aldık.
+Ani gelişen ve dinlenince geçmeyen ciddi nefes darlığı ise cihazdan bağımsız olarak acil değerlendirme gerektirir. Horlamaya ve sabah ağız kuruluğuna eşlik eden gece nefes durmaları başka bir konudur; bunu [uyku apnesi belirtileri yazısında](/blog/uyku-apnesi-belirtileri-ne-zaman-basvurulmali) ele aldık. Kuru havada tıkanan burunla artan horlamanın diğer nedenlerini ise [horlama nasıl önlenir](/blog/horlama-nasil-onlenir) yazısında anlattık.
 
 ## Sık sorulan sorular
 

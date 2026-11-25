@@ -3132,6 +3132,27 @@
       "preparedAt": "2026-11-24T10:12:09.810Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-24T10:12:13.526Z"
+    },
+    {
+      "day": "2026-11-25",
+      "slug": "kirisiklik-ne-zaman-baslar",
+      "sourceArticleSha256": "249dfd7bc9e792b93632c6aa38e39682605d4eca8a064e9397c7511f18a6f396",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/kirisiklik-ne-zaman-baslar",
+        "htmlTitle": "Kırışıklık Ne Zaman Başlar? Yaşa Göre Yüz ve Nedenleri",
+        "metaDescription": "Kırışıklık ne zaman başlar? İnce çizgiler çoğu kişide 25 yaştan sonra görülür. Güneşin, sigaranın ve menopozun payını, kanıtı olan seçenekleri okuyun.",
+        "headline": "Kırışıklık Ne Zaman Başlar? Yüzde İlk Çizgiler ve Nedenleri",
+        "datePublished": "2026-11-25",
+        "dateModified": "2026-11-25",
+        "wordCount": 1342,
+        "bodyTextSha256": "9744b14915a41b24c246785cff16c70e994cea5c47649b998aaea0a5ef7d1d52",
+        "htmlSha256": "4504e88f0b90cdeb37b73d446a1bfc9b67e3d04044b296dc3bbcf90d22efa004"
+      },
+      "commit": "37725802a0e3ef15856cc7f5c8c14dc675b6f8a6",
+      "parent": "ac91ae025dc12826e657e36c6ab0c12aa7415aca",
+      "preparedAt": "2026-11-25T06:17:31.299Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-25T06:17:34.646Z"
     }
   ],
   "ctrChanges": [

@@ -1905,5 +1905,37 @@
     "topic": "soğuk su ile duş almanın zararları",
     "by": "codex",
     "durum": "atlandi"
+  },
+  {
+    "day": "2026-11-25",
+    "type": "sorgu-optimizasyonu",
+    "slug": "kas-gucu-kas-kutlesi-farki",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-25",
+    "type": "ctr-iyilestirme",
+    "slug": "seker-tuketiminin-zararlari",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-25",
+    "type": "ctr-iyilestirme",
+    "slug": "senolitik-tedaviler-cilt-genclesmesi-zombi-hucreler",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-25",
+    "type": "ctr-iyilestirme",
+    "slug": "kas-kaybi-ne-zaman-baslar",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-25",
+    "type": "yeni-yazi",
+    "slug": "kirisiklik-ne-zaman-baslar",
+    "topic": "kırışıklık ne zaman başlar",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

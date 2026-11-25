@@ -41,7 +41,7 @@ Etki genellikle birkaç gün içinde başlar, yaklaşık iki haftada belirginle�
 ## Dinamik ve Statik Kırışıklıklar
 
 - **Dinamik Kırışıklıklar**: Gülerken, kaş çatarken veya şaşırırken mimik hareketleriyle ortaya çıkan, mimik bırakıldığında kaybolan çizgilerdir. Botoks bu aşamada uygulandığında en yüksek verim alınır.
-- **Statik Kırışıklıklar**: Mimik yapmadığınızda bile ciltte kalıcı olan derin çizgilerdir. Eğer dinamik çizgiler uzun süre tedavi edilmezse, zamanla statik kırışıklıklara dönüşür.
+- **Statik Kırışıklıklar**: Mimik yapmadığınızda bile ciltte kalıcı olan derin çizgilerdir. Eğer dinamik çizgiler uzun süre tedavi edilmezse, zamanla statik kırışıklıklara dönüşür. Bu geçişin hangi yaşlarda ve hangi etkenlerle hızlandığını [kırışıklık ne zaman başlar](/blog/kirisiklik-ne-zaman-baslar) yazımızda anlattık.
 
 Bazı hekimler çizgiler derinleşmeden erken uygulamayı "koruyucu" bir yaklaşım olarak değerlendirir; ancak erken başlamanın uzun vadeli faydasını gösteren güçlü çalışmalar sınırlıdır. Bu karar kişisel değerlendirmeyle verilmelidir.
 

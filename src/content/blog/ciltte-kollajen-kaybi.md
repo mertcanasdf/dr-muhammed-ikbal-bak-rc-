@@ -35,7 +35,7 @@ Bu rehber genel bilgilendirme içindir. Kişisel tanı, takviye dozu veya işlem
 
 Kollajen, cildin destek yapısında görev alan bir proteindir. Derinin dermis tabakasındaki bağ dokusunun önemli bileşenlerindendir. Yaş ilerledikçe üretimi azalabilir, mevcut kollajenin parçalanması ve niteliği de değişebilir. Ancak cildin görünümü tek bir proteinin miktarından oluşmaz. [Cleveland Clinic kollajen açıklaması](https://my.clevelandclinic.org/health/articles/23089-collagen)
 
-Gündelik dilde kuruluk, kırışıklık ve sarkma için aynı anda “kollajenim azaldı” denebilir. Bu ifade yaşanan değişikliği tarif etmeye çalışır; hangi dokunun veya sürecin ne ölçüde etkilendiğini göstermez. Bu nedenle bir ürünün nemli hissettirmesiyle cildin destek yapısını yenilediğini göstermesi farklı sorulardır.
+Gündelik dilde kuruluk, kırışıklık ve sarkma için aynı anda “kollajenim azaldı” denebilir; oysa ilk çizgilerin ne zaman çıktığını çoğu zaman güneş ve sigara geçmişi belirler ([kırışıklık ne zaman başlar?](/blog/kirisiklik-ne-zaman-baslar)). Bu ifade yaşanan değişikliği tarif etmeye çalışır; hangi dokunun veya sürecin ne ölçüde etkilendiğini göstermez. Bu nedenle bir ürünün nemli hissettirmesiyle cildin destek yapısını yenilediğini göstermesi farklı sorulardır.
 
 ## Kollajen kaybını hangi etkenler hızlandırabilir?
 

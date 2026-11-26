@@ -3195,6 +3195,27 @@
       "preparedAt": "2026-11-25T14:12:02.911Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-25T14:12:06.675Z"
+    },
+    {
+      "day": "2026-11-26",
+      "slug": "dermapen-faydalari-ve-zararlari",
+      "sourceArticleSha256": "440dba91fcf9b15baedd2072670f31de0eb521dae17b1d7f00edcaf8f0fd1d11",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/dermapen-faydalari-ve-zararlari",
+        "htmlTitle": "Dermapen Faydaları ve Zararları: Etkisi ve Riskleri",
+        "metaDescription": "Dermapen akne izi, kırışıklık ve lekede ne kadar etkili, zararları neler? Kanıt düzeyini, seans sayısını, yan etkileri ve kimlere yapılmadığını öğrenin.",
+        "headline": "Dermapen Faydaları ve Zararları: Ne İşe Yarar, Kimlere Yapılmaz?",
+        "datePublished": "2026-11-26",
+        "dateModified": "2026-11-26",
+        "wordCount": 1575,
+        "bodyTextSha256": "a3848af930c1087890749ba2ed8e7d1ed424433695d32b49fd49d958cdc3cf29",
+        "htmlSha256": "c55ea047d552b7cfe90614ad57f9b8c75f88b97919bb78c08c98d5c3f847fec9"
+      },
+      "commit": "3509720a4bbcc5ea37351e9fded7133e9b37185d",
+      "parent": "496981b6f01ad157c582328bae170179758faf17",
+      "preparedAt": "2026-11-26T06:14:42.845Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-26T06:14:46.130Z"
     }
   ],
   "ctrChanges": [

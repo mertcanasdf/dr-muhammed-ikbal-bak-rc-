@@ -86,7 +86,7 @@ AAOS, sonucu etkileyen etkenleri şöyle sıralar: tedavi edilen bölge, kişini
 
 - **Hazırlama yöntemi.** 2020–2024 arası 11 çalışmayı inceleyen [2025 derlemesi](https://pmc.ncbi.nlm.nih.gov/articles/PMC11817460/), sonuçlardaki farkın önemli kısmını trombosit yoğunluğu, hazırlama protokolü ve uygulama yöntemindeki farklara bağlar.
 - **Seans sayısı.** Olumlu sonuçlar tek seanstan değil, en az üç seanslık seriden sonra bildirilmiştir.
-- **Birlikte kullanılan tedavi.** Aynı derlemede PRP'nin mikroiğneleme ya da minoksidille birlikte uygulandığı bazı çalışmalarda etki daha belirgindi.
+- **Birlikte kullanılan tedavi.** Aynı derlemede PRP'nin [mikroiğneleme (dermapen)](/blog/dermapen-faydalari-ve-zararlari) ya da minoksidille birlikte uygulandığı bazı çalışmalarda etki daha belirgindi.
 - **Beyaz kan hücresi içeriği.** Dizde lökositten zengin ve lökositten fakir PRP'nin hangisinin daha etkili olduğu, AAOS'a göre henüz belirlenmemiştir.
 
 Bu nedenle bir merkezde uygulanan "PRP" ile çalışmada sınanan PRP aynı ürün olmayabilir; kişisel sürenin ortalamadan sapması şaşırtıcı değildir.

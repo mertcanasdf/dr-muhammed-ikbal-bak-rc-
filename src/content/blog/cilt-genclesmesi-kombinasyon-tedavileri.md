@@ -55,7 +55,7 @@ Bu nedenle kombinasyonun "tek başına uygulamalardan şu kadar daha etkili" old
 
 ## Güvenlik ve Düzenleyici Durum
 
-ABD Gıda ve İlaç Dairesi (FDA), hastalık tedavisi amacıyla kullanılmak üzere onaylanmış bir eksozom ürünü bulunmadığını belirtmekte ve onaysız ürünlerle ciddi yan etkiler bildirildiği konusunda uyarmaktadır. Kozmetik amaçlı ürünlerde de içeriğin, kaynağın ve sterilitenin sorgulanması önemlidir. Altın iğneye bağlı kızarıklık, şişlik ve leke riski kombinasyonda da geçerlidir.
+ABD Gıda ve İlaç Dairesi (FDA), hastalık tedavisi amacıyla kullanılmak üzere onaylanmış bir eksozom ürünü bulunmadığını belirtmekte ve onaysız ürünlerle ciddi yan etkiler bildirildiği konusunda uyarmaktadır. Kozmetik amaçlı ürünlerde de içeriğin, kaynağın ve sterilitenin sorgulanması önemlidir. Altın iğneye bağlı kızarıklık, şişlik ve leke riski kombinasyonda da geçerlidir. FDA, mikroiğneleme cihazlarının da kozmetik, vitamin solüsyonu ya da kan ürünü vermek için onaylanmadığını belirtir; ısı kullanmayan düz mikroiğnelemenin yan etkileri [dermapen faydaları ve zararları](/blog/dermapen-faydalari-ve-zararlari) yazısında ayrıntılı anlatılıyor.
 
 Cilt sağlığında kanıtı en güçlü temeller değişmiyor: güneşten korunma, sigaradan uzak durma ve dengeli beslenme. Altın iğne gibi kanıtı daha yerleşik uygulamalara eksozom eklenip eklenmeyeceği; ürünün niteliği, beklentiler ve maliyet birlikte değerlendirilerek hekimle konuşulmalıdır.
 

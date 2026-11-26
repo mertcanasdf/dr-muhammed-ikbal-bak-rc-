@@ -1961,5 +1961,37 @@
     "topic": "demans testi",
     "by": "codex",
     "durum": "tamam"
+  },
+  {
+    "day": "2026-11-26",
+    "type": "ctr-iyilestirme",
+    "slug": "egzersiz-sonrasi-kas-agrisi-ne-zaman-basvurulmali",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-26",
+    "type": "sorgu-optimizasyonu",
+    "slug": "telomerleri-korumak",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-26",
+    "type": "sorgu-optimizasyonu",
+    "slug": "selenyum-eksikligi-belirtileri",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-26",
+    "type": "sorgu-optimizasyonu",
+    "slug": "probiyotik-eksikligi-belirtileri",
+    "by": "claude"
+  },
+  {
+    "day": "2026-11-26",
+    "type": "yeni-yazi",
+    "slug": "dermapen-faydalari-ve-zararlari",
+    "topic": "dermapen faydaları ve zararları",
+    "by": "codex",
+    "durum": "tamam"
   }
 ]

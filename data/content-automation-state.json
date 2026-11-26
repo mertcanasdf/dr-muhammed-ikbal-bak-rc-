@@ -3216,6 +3216,27 @@
       "preparedAt": "2026-11-26T06:14:42.845Z",
       "status": "pushed_waiting_manual_pull",
       "pushedAt": "2026-11-26T06:14:46.130Z"
+    },
+    {
+      "day": "2026-11-26",
+      "slug": "goz-sagligi-icin-besinler",
+      "sourceArticleSha256": "e86b0ffb4f239e713da3fc6c74455198ddbb780e4f26b6e6214acd99e5e82571",
+      "expected": {
+        "canonical": "https://www.muhammedikbalbakirci.com/blog/goz-sagligi-icin-besinler",
+        "htmlTitle": "Göz Sağlığı İçin Hangi Besinleri Tüketmeliyiz? Liste",
+        "metaDescription": "Göz sağlığı için hangi besinler tüketilmeli? Lutein, A, C, E vitamini ve çinko kaynaklarını, omega-3 ve göz vitamini takviyesinin kanıtını öğrenin.",
+        "headline": "Göz Sağlığı İçin Hangi Besinleri Tüketmeliyiz? Vitaminler ve Sofra Rehberi",
+        "datePublished": "2026-11-26",
+        "dateModified": "2026-11-26",
+        "wordCount": 1491,
+        "bodyTextSha256": "d570cb372712bfde264e3c97678e6054527ab73cfbe2b0bbece80159ab709cc8",
+        "htmlSha256": "37490c5ec21548fa6fd326b349a24b7bf32ac3c9010518770a1a70ea375c94c7"
+      },
+      "commit": "64c7e05f4f58ed655c2bff8c69fcc26a73dcaae4",
+      "parent": "3509720a4bbcc5ea37351e9fded7133e9b37185d",
+      "preparedAt": "2026-11-26T10:09:38.841Z",
+      "status": "pushed_waiting_manual_pull",
+      "pushedAt": "2026-11-26T10:09:42.188Z"
     }
   ],
   "ctrChanges": [

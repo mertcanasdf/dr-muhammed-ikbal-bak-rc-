@@ -79,7 +79,7 @@ Kolesterol denemelerinde türler arasında anlamlı fark çıkmadığı için "e
 | Yer fıstığı (çiğ) | 170 kcal | 7,7 g | 2,6 g | En yüksek protein |
 | Brezilya cevizi | 198 kcal | 4,3 g | 2,3 g | Selenyum ~576 µg (çok yüksek) |
 
-Ceviz, bitkisel omega-3'ün en zengin kuruyemişidir; ancak bu alfa-linolenik asittir ve balıktaki EPA-DHA ile aynı şey değildir. Brezilya cevizini saymazsak badem ve kaju magnezyumda öndedir; magnezyumun hangi durumlarda eksildiğini [magnezyum eksikliği yazısında](/blog/magnezyum-eksikligi) ele aldık. Türkiye'de en kolay bulunan fındık, E vitamininde bademden sonra ikinci sıradadır. Farklı türleri karışık tüketmek bu yüzden mantıklıdır.
+Ceviz, bitkisel omega-3'ün en zengin kuruyemişidir; ancak bu alfa-linolenik asittir ve balıktaki EPA-DHA ile aynı şey değildir. Brezilya cevizini saymazsak badem ve kaju magnezyumda öndedir; magnezyumun hangi durumlarda eksildiğini [magnezyum eksikliği yazısında](/blog/magnezyum-eksikligi) ele aldık. Türkiye'de en kolay bulunan fındık, E vitamininde bademden sonra ikinci sıradadır. E vitamini ve çinko, [göz sağlığı için önerilen besinlerin](/blog/goz-sagligi-icin-besinler) de parçasıdır. Farklı türleri karışık tüketmek bu yüzden mantıklıdır.
 
 ## Kuruyemiş kilo aldırır mı?
 

@@ -113,7 +113,7 @@ Hafif ve orta yükseklikte ilk basamak yaşam tarzıdır. İlaç kararı değere
 
 Eşik kaynaktan kaynağa değişir. MSD Manual pankreatit riskini 500 mg/dL üzerinde başlatır, Endocrine Society kılavuzu 1.000 mg/dL üzerini risk olarak tanımlar; AHA bildirisi ise pankreatitin ortaya çıktığı tek bir eşik olmadığını söyler.
 
-- **150–499 mg/dL:** Acil bir durum değildir. Kalp-damar ve [metabolik sağlık](/longevity/beslenme) açısından uzun vadeli risk işaretidir; bel çevresi, kan şekeri ve tansiyonla birlikte değerlendirilir.
+- **150–499 mg/dL:** Acil bir durum değildir. Kalp-damar ve [metabolik sağlık](/longevity/beslenme) açısından uzun vadeli risk işaretidir; [bel çevresi](/blog/bel-cevresi-nasil-olculur), kan şekeri ve tansiyonla birlikte değerlendirilir.
 - **500 mg/dL ve üzeri:** Ani pankreatit riski artar. Beklemeye bırakılacak bir sonuç değildir; gecikmeden bir sağlık kuruluşuyla görüşülür.
 - **1.000 mg/dL ve üzeri:** Risk belirginleşir. Ciltte küçük sarımsı kabarcıklar (eruptif ksantom) görülebilir.
 

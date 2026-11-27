@@ -39,7 +39,7 @@ Yani karaciğer yağlanması çoğu zaman karaciğere özgü bir sorun değil, v
 
 [NIDDK](https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/symptoms-causes) ve [NHS](https://www.nhs.uk/conditions/non-alcoholic-fatty-liver-disease/) en sık eşlik eden durumları şöyle sıralar:
 
-- fazla kilo, özellikle bel çevresinde biriken yağ;
+- fazla kilo, özellikle [bel çevresinde](/blog/bel-cevresi-nasil-olculur) biriken yağ;
 - [insülin direnci](/blog/insulin-direnci-belirtileri) ve tip 2 diyabet;
 - yüksek trigliserit ya da kolesterol, yüksek tansiyon;
 - az hareketli yaşam ve kalori yoğun, işlenmiş besin ağırlıklı beslenme;

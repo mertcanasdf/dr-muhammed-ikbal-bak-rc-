@@ -52,7 +52,7 @@ Bu sayılar uyku kalitesini tek başına göstermez. Yeterli süreye rağmen din
 | Akşam | Son saati sakin etkinliklere ayırmak, parlak ekranı azaltmak | Ekranı bıraktığınız saat |
 | Yatak odası | Işık, gürültü ve sıcaklık kaynaklarını düzenlemek | Gece sizi uyandıran durumlar |
 
-Tablo bir tedavi protokolü değildir. Vardiya, bakım sorumluluğu veya ağrı gibi koşullarda planın kişiselleştirilmesi gerekir. Uygulayamadığınız adımları da yazmak, hangi engelin çözülmesi gerektiğini görmeyi kolaylaştırır.
+Tablo bir tedavi protokolü değildir. Vardiya, bakım sorumluluğu veya ağrı gibi koşullarda planın kişiselleştirilmesi gerekir. Uygulayamadığınız adımları da yazmak, hangi engelin çözülmesi gerektiğini görmeyi kolaylaştırır. Uzun ya da geç saatte yapılan şekerleme gece uykusunu zorlaştırıyorsa, [öğle uykusunu kısaltıp bırakmanın](/blog/ogle-uykusu-nasil-birakilir) adımlarını ayrı bir yazıda anlattık.
 
 ## Kafein uykudan kaç saat önce bırakılmalı?
 

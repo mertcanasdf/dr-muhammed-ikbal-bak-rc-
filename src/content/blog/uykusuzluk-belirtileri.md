@@ -74,7 +74,7 @@ Belirti listesi okumak kaygıyı artırıyorsa uzun bir hastalık listesiyle ken
 
 ## Uykusuzluk nasıl geçer? Alışkanlık önerilerinin sınırı
 
-Yanıt, neden ve süreye göre değişir. Uyku ortamı ve düzeninin gözden geçirilmesi yardımcı olabilir; ayrıntılı genel öneriler [uyku kalitesini artırma rehberinde](/blog/uyku-kalitesi-nasil-artirilir) bulunur. Alışkanlıkları düzenlemek, bütün uzun süreli uyku sorunlarının yeterli tedavisi olarak görülmemelidir.
+Yanıt, neden ve süreye göre değişir. Uyku ortamı ve düzeninin gözden geçirilmesi yardımcı olabilir; ayrıntılı genel öneriler [uyku kalitesini artırma rehberinde](/blog/uyku-kalitesi-nasil-artirilir) bulunur. NHS uykusuzluk yaşayanlara gündüz uyumamayı da öğütler; şekerlemeden kademeli vazgeçmek için [öğle uykusu nasıl bırakılır](/blog/ogle-uykusu-nasil-birakilir) yazısına bakabilirsiniz. Alışkanlıkları düzenlemek, bütün uzun süreli uyku sorunlarının yeterli tedavisi olarak görülmemelidir.
 
 [2021 AASM klinik kılavuzu](https://pmc.ncbi.nlm.nih.gov/articles/PMC7853203/), yetişkinlerde kronik uykusuzluk için çok bileşenli bilişsel davranışçı terapiyi güçlü biçimde önerir. Yalnız uyku hijyeni eğitiminin tek tedavi olarak kullanılmamasını ise koşullu öneriyle belirtir. Bu, uyku ortamının önemsiz olduğu anlamına gelmez; genel önerilerle yapılandırılmış tedavinin farklı olduğu anlamına gelir.
 

@@ -33,7 +33,7 @@ Yaşlanma bağlamında kreatin, kas kütlesi ve kuvveti korumaya yönelik egzers
 
 ## Araştırmalar ne gösteriyor?
 
-Yaşlı yetişkinlerde yapılan bazı meta-analizlerde kreatin ile direnç egzersizinin kas gücü ve yağsız kütle üzerinde ek katkı sağlayabildiği bildirilmiştir. Etkiler bütün çalışmalarda aynı değildir; fiziksel işlev ve kas kütlesi sonuçları için kanıtın kesinliği çalışmaya göre değişir. [Yaşlı yetişkinlerde kreatin ve direnç egzersizi meta-analizi](https://pubmed.ncbi.nlm.nih.gov/29138605/) bu bulguları özetler.
+Yaşlı yetişkinlerde yapılan bazı meta-analizlerde kreatin ile direnç egzersizinin [kas gücü](/blog/kas-gucu-kas-kutlesi-farki) ve yağsız kütle üzerinde ek katkı sağlayabildiği bildirilmiştir. Etkiler bütün çalışmalarda aynı değildir; fiziksel işlev ve kas kütlesi sonuçları için kanıtın kesinliği çalışmaya göre değişir. [Yaşlı yetişkinlerde kreatin ve direnç egzersizi meta-analizi](https://pubmed.ncbi.nlm.nih.gov/29138605/) bu bulguları özetler.
 
 Çalışma sonuçları sağlıklı ve araştırmaya uygun kişilerden gelir. İleri böbrek hastalığı, frailty, çoklu hastalık veya hareket kısıtlılığı olan kişilerde sonuçları doğrudan genellemek doğru değildir.
 

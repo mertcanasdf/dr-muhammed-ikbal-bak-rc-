@@ -84,7 +84,7 @@ Lösin, HMB, kreatin ve omega-3 gibi takviyeler araştırılmaya devam ediyor. B
 
 ## Sarkopeni için ilaç var mı?
 
-Cleveland Clinic'in belirttiği gibi şu an [FDA onaylı bir sarkopeni ilacı bulunmuyor](https://my.clevelandclinic.org/health/diseases/23167-sarcopenia). Testosteron gibi anabolik hormonlar için ICFSR öneri vermemiştir; bu hormonların yan etki ve izlem gereklilikleri vardır ve eksikliği olmayan kişide sarkopeniyi tedavi etme amacıyla kullanılmaları kanıtla desteklenmez. Gerçek bir hormon eksikliği saptanırsa bu ayrı bir tanı ve tedavi konusudur.
+Cleveland Clinic'in belirttiği gibi şu an [FDA onaylı bir sarkopeni ilacı bulunmuyor](https://my.clevelandclinic.org/health/diseases/23167-sarcopenia). Testosteron gibi anabolik hormonlar için ICFSR öneri vermemiştir; bu hormonların yan etki ve izlem gereklilikleri vardır ve eksikliği olmayan kişide sarkopeniyi tedavi etme amacıyla kullanılmaları kanıtla desteklenmez. Gerçek bir hormon eksikliği saptanırsa bu ayrı bir tanı ve tedavi konusudur. Erkeklerde testosteronun yaşla yavaş azalması ise tek başına böyle bir eksiklik anlamına gelmez; [andropoz](/blog/andropoz-ne-zaman-biter) diye anılan bu süreci ayrı bir yazıda ele aldık.
 
 ## Altta yatan neden neden önemli?
 

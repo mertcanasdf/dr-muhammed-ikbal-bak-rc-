@@ -122,7 +122,7 @@ MSKCC, kilo artışını ve iştah azalmasını seyrek görülen yan etkiler ara
 
 ### Ashwagandha erkeklerde ne işe yarar?
 
-NCCIH, 2–4 aylık kullanımın testosteron düzeyini ve sperm kalitesini artırabileceğine dair sınırlı kanıttan söz eder. Aynı etki, hormona duyarlı prostat kanseri olanların neden kullanmaması gerektiğini de açıklar.
+NCCIH, 2–4 aylık kullanımın testosteron düzeyini ve sperm kalitesini artırabileceğine dair sınırlı kanıttan söz eder. Aynı etki, hormona duyarlı prostat kanseri olanların neden kullanmaması gerektiğini de açıklar. Orta yaşta [andropoz](/blog/andropoz-ne-zaman-biter) diye anılan yorgunluk ve isteksizlik şikâyetleri ise çoğu zaman stres, uyku ya da kilo gibi hormon dışı nedenlerle ilişkilidir.
 
 ### Ashwagandha magnezyum ya da melatoninle birlikte alınır mı?
 

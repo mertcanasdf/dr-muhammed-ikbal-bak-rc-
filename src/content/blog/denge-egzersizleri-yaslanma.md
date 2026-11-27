@@ -43,7 +43,7 @@ Denge, görme, iç kulak, ayak tabanından gelen duyular, kas gücü ve beynin b
 - **ağrılı ayak sorunları** ve arkası açık terlik, yüksek topuk gibi uygun olmayan ayakkabılar;
 - hafif bilişsel bozulma ve bazı demans türleri.
 
-Bu listedeki nedenlerin bir kısmı egzersizle değil, ilaçların, görmenin ya da tansiyonun gözden geçirilmesiyle düzelir. Egzersizin doğrudan etkilediği halka ise kas gücü ve denge reflekslerinin kendisidir.
+Bu listedeki nedenlerin bir kısmı egzersizle değil, ilaçların, görmenin ya da tansiyonun gözden geçirilmesiyle düzelir. Egzersizin doğrudan etkilediği halka ise [kas gücü](/blog/kas-gucu-kas-kutlesi-farki) ve denge reflekslerinin kendisidir.
 
 ## Yaşlılarda denge egzersizleri neden önemli?
 

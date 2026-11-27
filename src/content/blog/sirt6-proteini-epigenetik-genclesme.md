@@ -62,7 +62,7 @@ Egzersiz, enerji metabolizmasıyla ilgili pek çok yolağı etkiler ve sağlıkl
 
 ### Dengeli Beslenme ve Öğün Düzeni
 
-Kalori kısıtlaması ve aralıklı oruç, hayvan çalışmalarında sirtuin yolaklarını etkileyebilir. İnsanlarda uzun vadeli etkileri ve kimler için uygun olduğu kişisel değerlendirme gerektirir; diyabet, gebelik veya yeme bozukluğu öyküsü olanlar hekimine danışmalıdır.
+Kalori kısıtlaması ve aralıklı oruç, hayvan çalışmalarında sirtuin yolaklarını etkileyebilir. Açlıkla ilişkilendirilen bir başka hücresel süreç olan otofaji için de insanlarda kanıtlanmış bir "[otofaji diyeti](/blog/otofaji-nedir)" bulunmuyor. İnsanlarda uzun vadeli etkileri ve kimler için uygun olduğu kişisel değerlendirme gerektirir; diyabet, gebelik veya yeme bozukluğu öyküsü olanlar hekimine danışmalıdır.
 
 ### Polifenollerden Zengin Besinler
 

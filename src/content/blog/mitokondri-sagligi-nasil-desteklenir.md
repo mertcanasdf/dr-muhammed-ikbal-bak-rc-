@@ -31,7 +31,7 @@ Mitokondri sağlığı, sağlıklı bir insanda en çok **düzenli egzersiz, yet
 
 ## Mitokondri nedir?
 
-Mitokondriler hücrelerin besinlerden gelen enerjiyi kullanılabilir enerjiye dönüştürmesine yardım eden yapılardır. Özellikle enerji ihtiyacı yüksek olan kas, kalp ve beyin dokuları mitokondri işlevine duyarlıdır. Mitokondriler aynı zamanda hücresel sinyaller, kalsiyum dengesi ve programlı hücre ölümü gibi süreçlerde de rol alır.
+Mitokondriler hücrelerin besinlerden gelen enerjiyi kullanılabilir enerjiye dönüştürmesine yardım eden yapılardır. Özellikle enerji ihtiyacı yüksek olan kas, kalp ve beyin dokuları mitokondri işlevine duyarlıdır. Mitokondriler aynı zamanda hücresel sinyaller, kalsiyum dengesi ve programlı hücre ölümü gibi süreçlerde de rol alır. Hasar gören mitokondriler ise mitofaji adı verilen seçici bir [otofaji](/blog/otofaji-nedir) süreciyle hücreden uzaklaştırılır.
 
 Bu enerji üretiminin son basamağına oksidatif fosforilasyon denir ve mitokondrinin iç zarındaki beş protein kompleksi tarafından yürütülür ([MedlinePlus Genetics](https://medlineplus.gov/genetics/condition/mitochondrial-complex-i-deficiency/)). Mitokondrilerin bir de kendilerine ait küçük bir DNA'sı (mtDNA) vardır; bu, aşağıda anlatılan kalıtım farklarının nedenidir.
 

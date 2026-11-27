@@ -146,7 +146,7 @@ Genellikle günde 50 gramın altında, sıkı uygulamada 20 gram civarında. Ket
 
 ### Ketojenik diyet ile aralıklı oruç aynı şey mi?
 
-Hayır. Ketojenik diyet ne yendiğini, aralıklı oruç ne zaman yendiğini düzenler. İkisi de keton üretimini artırabilir, ama farklı müdahalelerdir. Aralıklı orucun kanıtları için [aralıklı orucun longevity üzerindeki etkisi](/blog/aralikli-oruc-longevity) yazısına bakabilirsiniz.
+Hayır. Ketojenik diyet ne yendiğini, aralıklı oruç ne zaman yendiğini düzenler. İkisi de keton üretimini artırabilir, ama farklı müdahalelerdir. Keton düzeyinin yükselmesi de tek başına otofajinin arttığını göstermez; bu ayrımı [otofaji nedir](/blog/otofaji-nedir) yazısında ele aldık. Aralıklı orucun kanıtları için [aralıklı orucun longevity üzerindeki etkisi](/blog/aralikli-oruc-longevity) yazısına bakabilirsiniz.
 
 ### Ketojenik diyet insülin direncini düzeltir mi?
 

@@ -69,7 +69,7 @@ Görüşmede “Bu ölçüm hangi soruya cevap veriyor, başka değerlendirme ge
 
 ## Kas sağlığını desteklerken hareket nasıl ele alınır?
 
-[CDC'nin ileri yaş fiziksel aktivite rehberi](https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html), aerobik hareket, kas güçlendirme ve denge çalışmalarını ayrı bileşenler olarak ele alır. Yalnız yürüyüş süresine bakmak, programın bütününü göstermez. Aktivitenin mevcut kapasite ve sağlık durumuna uygun olması gerekir.
+[CDC'nin ileri yaş fiziksel aktivite rehberi](https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html), aerobik hareket, kas güçlendirme ve [denge çalışmalarını](/blog/denge-egzersizleri-yaslanma) ayrı bileşenler olarak ele alır. Yalnız yürüyüş süresine bakmak, programın bütününü göstermez. Aktivitenin mevcut kapasite ve sağlık durumuna uygun olması gerekir.
 
 Direnç çalışmaları vücut ağırlığı, bant veya ağırlık gibi farklı araçlarla yapılabilir. Ancak bu yazı kişisel başlangıç hareketi, tekrar sayısı veya yük planı vermez. Düşme öyküsü, yeni güçsüzlük veya hareket sırasında belirgin yakınma varsa güvenli yöntem değerlendirilmelidir. Genel yaklaşım [direnç antrenmanı rehberinde](/blog/direnc-antrenmani-yaslanma) bulunur. Kılavuzların egzersiz, protein, takviye ve ilaçlar hakkındaki tutumunu [sarkopeni tedavisi yazımızda](/blog/sarkopeni-tedavisi) karşılaştırdık.
 

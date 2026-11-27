@@ -140,7 +140,7 @@ Hiçbir egzersiz yağı tek bir bölgeden eritmez. Wewege'in meta-analizinde HII
 
 ### Yaşlılar HIIT yapabilir mi?
 
-Milanović'in meta-analizi yalnızca 18–45 yaş arası sağlıklı yetişkinleri kapsadı; bu yüzden ileri yaş için veriler daha sınırlı. İleri yaşta denge, eklem ve kalp durumu değerlendirilmeden çok zorlu aralıklara geçilmez; [ileri yaşta egzersize başlama](/blog/ileri-yasta-egzersize-baslama) yazısı bu açıdan yol gösterir.
+Milanović'in meta-analizi yalnızca 18–45 yaş arası sağlıklı yetişkinleri kapsadı; bu yüzden ileri yaş için veriler daha sınırlı. İleri yaşta denge, eklem ve kalp durumu değerlendirilmeden çok zorlu aralıklara geçilmez; [ileri yaşta egzersize başlama](/blog/ileri-yasta-egzersize-baslama) yazısı bu açıdan yol gösterir. Düşme riskini hedefleyen [yaşlılarda denge egzersizleri](/blog/denge-egzersizleri-yaslanma) ise aralıklı antrenmandan ayrı bir bileşen olarak ele alınır.
 
 ## Kaynaklar
 

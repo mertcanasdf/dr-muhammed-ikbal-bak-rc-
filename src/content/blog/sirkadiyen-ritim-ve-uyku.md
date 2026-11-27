@@ -25,6 +25,11 @@ relatedArticles:
     category: "Uyku"
     title: "Glimfatik Sistem: Uyku Sırasında Beyin Nasıl Temizlenir?"
     image: "/assets/images/generated/articles/uyku-bozukluklari-ve-glymphatic-temizlik.webp"
+video:
+  id: "PXvhtoJn4-U"
+  title: "Uyku Sadece Dinlenmek Değildir! | Işık, Biyolojik Saat ve Sağlıklı Uzun Yaşam"
+  description: "Bedeniniz uyurken gerçekten ne yapıyor? Modern dünya geceyi aydınlattı ama bedenimizin milyonlarca yıldır uyum sağladığı doğal ritmi unuttu. Uyku yalnızca dinlenmek değildir."
+  uploadDate: 2026-11-23
 ---
 
 Sirkadiyen ritim bozukluğu, vücudun iç saatiyle yaşamak zorunda olduğunuz düzen (iş, okul, gece ve gündüz) arasındaki uyumsuzluktur. En sık belirtileri uykuya dalamamak ya da uykuyu sürdürememek, gündüz ağır uykululuk, yorgunluk ve dikkat güçlüğüdür; nedenleri arasında gece vardiyası, sık saat dilimi değiştirmek, ergenlikte ya da yaşlılıkta kayan uyku saati ve gün içinde az ışık almak sayılır.

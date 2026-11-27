@@ -25,6 +25,12 @@ relatedArticles:
     category: "Zihin & Sosyal Yaşam"
     title: "Dijital Tükenmişlik Nedir? Ekran Yükünü Azaltma Rehberi"
     image: "/assets/images/generated/articles/dijital-tukenmislik.webp"
+video:
+  id: "CkmkLPEOI50"
+  title: "Karanlık da Bir İhtiyaç mı? Biyolojik Saatin Sırrı!"
+  description: "Işık yalnızca görmemizi sağlamaz. Aynı zamanda beynimize biyolojik zamanlama sinyalleri gönderir."
+  uploadDate: 2026-11-23
+  shorts: true
 ---
 
 Telefonu yatmadan **30–60 dakika önce** bırakmak, uyku kuruluşlarının en sık verdiği öneridir. Amerikan Uyku Tıbbı Akademisi (AASM), elektronik cihazları yatmadan en az yarım saat ile bir saat önce kapatmayı ve telefonu mümkünse başka bir odada bırakmayı önerir. Bu süre kesin bir sınır değil, bir başlangıç noktasıdır: Ekranın uykuya etkisi ışıktan çok, ne izlediğinize ve uykuyu ne kadar ertelediğinize bağlıdır.

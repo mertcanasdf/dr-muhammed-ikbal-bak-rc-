@@ -24,6 +24,11 @@ relatedArticles:
     category: "Beslenme"
     title: "Kolajen Hangi Yiyeceklerde Var? Besinleri Ayırma Rehberi"
     image: "/assets/images/generated/articles/kolajen-hangi-yiyeceklerde-var.webp"
+video:
+  id: "11EriCoztbk"
+  title: "E Vitamini Cilt İçin Neden Önemli? | Cilt Sağlığı"
+  description: "Cilt sağlığı yalnızca dışarıdan uyguladığımız ürünlerle değil, beslenme ve günlük alışkanlıklarımızla da ilişkilidir."
+  uploadDate: 2025-08-17
 ---
 
 Cilt yaşlanmasına karşı hangi vitamin sorusuna herkes için geçerli tek bir kapsülle yanıt verilemez. A, C ve E vitaminleri farklı biyolojik görevler üstlenir; besin eksikliğini gidermek, cilde sürülen bir ürünü kullanmak ve yaşlanma görünümünü değerlendirmek ayrı konulardır. İnce çizgi veya kuruluk fark etmek, hangi vitaminin eksik olduğunu tek başına göstermez; cildin doğal yaşlanması ve güneş gibi dış etkenler de hesaba katılır. [AAD cilt yaşlanması açıklaması](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/reduce-premature-aging-skin)

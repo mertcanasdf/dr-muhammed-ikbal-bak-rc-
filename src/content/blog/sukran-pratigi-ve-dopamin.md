@@ -25,6 +25,11 @@ relatedArticles:
     category: "Zihin & Sosyal Yaşam"
     title: "Kortizol ve Yaşlanma: Kronik Stresin Gizli Bedeli"
     image: "/assets/images/generated/articles/kortizol-yaslanma.webp"
+video:
+  id: "VBA0rw3cNfc"
+  title: "Mutluluk Neden Bir Hedef Değil? | Dopamin, Huzur ve Tutarlılık"
+  description: "Hiç bu kadar çok haz kaynağımız olmamıştı. Peki neden mutluluğu bulmak hâlâ bu kadar zor görünüyor?"
+  uploadDate: 2026-11-22
 ---
 
 Ruh hali, kişinin belirli bir dönemde içinde bulunduğu genel ruhsal durumdur; Türk Dil Kurumu sözlüğü "ruh hâli"ni kısaca **ruhsal durum** diye tanımlar. Şükran pratiği, yani minnettar olunan şeyleri düzenli olarak fark edip yazmak ya da dile getirmek, bu durumu olumlu yönde etkileyebilir: 64 randomize çalışmayı birleştiren bir meta-analizde şükran uygulamaları ruh sağlığını ve olumlu ruh hâlini iyileştirmiş, kaygı ve depresyon belirtilerini azaltmıştır. Etkiler genellikle küçük-orta düzeydedir ve tedavinin yerini tutmaz.

@@ -25,6 +25,12 @@ relatedArticles:
     category: "Uyku"
     title: "Glimfatik Sistem: Uyku Sırasında Beyin Nasıl Temizlenir?"
     image: "/assets/images/generated/articles/uyku-bozukluklari-ve-glymphatic-temizlik.webp"
+video:
+  id: "GpWA_IpKDFA"
+  title: "Kaliteli Uyku İçin 3-2-1-0 Kuralını Biliyor musunuz?"
+  description: "Kaliteli bir uyku için bedeninize nasıl hazırlanması gerektiğini öğretiyor musunuz? Longevity yaklaşımında 3-2-1-0 uyku protokolü: 3 saat önce: Yemek yemeyi bitir. 2 saat önce: Çalışmayı bırak."
+  uploadDate: 2026-11-23
+  shorts: true
 ---
 
 Uyku kalitesini artırmak için yeterli uykuya zaman ayırmak, düzenli bir uyanma saati oluşturmak ve yatak odasını karanlık, sessiz, serin tutmak iyi başlangıçlardır. Ancak gece sık uyanma veya sabah yorgun kalkma devam ediyorsa yalnızca alışkanlıkları değiştirmek yeterli olmayabilir. Uyku hijyeni, bir uyku hastalığının tanısı veya tedavisi yerine geçmez.

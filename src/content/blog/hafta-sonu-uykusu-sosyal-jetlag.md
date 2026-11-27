@@ -23,6 +23,12 @@ relatedArticles:
     category: "Uyku"
     title: "Ekran Kullanımı ve Uyku: Telefonu Ne Zaman Bırakmalı?"
     image: "/assets/images/generated/articles/ekran-kullanimi-ve-uyku.webp"
+video:
+  id: "Lsa72rOuzvs"
+  title: "Kendi Evinde Jet-Lag Yaşıyor Olabilir misin?"
+  description: "Hiç seyahat etmeden kendi evinizde jet-lag yaşayabileceğinizi biliyor muydunuz?"
+  uploadDate: 2026-11-23
+  shorts: true
 ---
 
 Hafta sonu uykusu, hafta içindeki kısa gecelerden sonra dinlenme fırsatı sağlayabilir; ancak düzenli uyku kaybının bütün etkilerini sildiği söylenemez. Sosyal jetlag ise yalnızca daha uzun uyumak anlamına gelmez: çalışma günleriyle serbest günler arasında uyku zamanlamasının farklılaşmasını anlatır. Hafta sonu planında hem süreyi hem saati düşünmek gerekir. Herkese daha az uyumayı veya her koşulda aynı alarmı kurmayı öneren tek bir kural uygun değildir.

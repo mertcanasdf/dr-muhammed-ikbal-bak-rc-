@@ -15,6 +15,14 @@ const blog = defineCollection({
     image: z.string(),
     readTime: z.string(),
     takeaways: z.array(z.string()).optional(),
+    // Hekimin kendi YouTube videosu (isteğe bağlı): yazıda tıklayınca yüklenen oynatıcı + VideoObject şeması.
+    video: z.object({
+      id: z.string().regex(/^[\w-]{11}$/),
+      title: z.string(),
+      description: z.string(),
+      uploadDate: z.coerce.date(),
+      shorts: z.boolean().default(false),
+    }).optional(),
     relatedArticles: z.array(z.object({
       slug: z.string(),
       category: z.enum(BLOG_CATEGORIES),

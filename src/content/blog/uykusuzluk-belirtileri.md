@@ -24,6 +24,12 @@ relatedArticles:
     category: "Uyku"
     title: "Vardiyalı Çalışanlarda Uyku Düzeni: Planlama ve Eve Dönüş"
     image: "/assets/images/generated/articles/vardiyali-calisanlarda-uyku-duzeni.webp"
+video:
+  id: "g5DK3h8PZQ0"
+  title: "Uykusuz Kalınca Neden Şeker İstersin? İrade mi, Biyoloji mi?"
+  description: "Uykusuz kaldığınızda neden daha fazla şeker tüketmek istersiniz? Çünkü uyku, yalnızca dinlenmek değil, metabolik dengenin korunması için de temel bir biyolojik ihtiyaçtır."
+  uploadDate: 2026-11-23
+  shorts: true
 ---
 
 **Uykusuzluk belirtileri**, uykuya dalmakta güçlük, gece uyanınca yeniden uyuyamama veya istenenden erken uyanmanın yanında gündüz yorgunluğu, dikkat güçlüğü ve huzursuzluk şeklinde görülebilir. Belirtilerin ne kadar sık olduğu, ne zamandır sürdüğü ve günlük yaşamı nasıl etkilediği birlikte değerlendirilir. Tek bir kötü gece, belirli bir saatten az uyumak veya bir cihazın düşük uyku puanı vermesi, tek başına uykusuzluk bozukluğu tanısı koydurmaz.

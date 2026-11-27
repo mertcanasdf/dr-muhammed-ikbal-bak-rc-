@@ -323,7 +323,7 @@ const encodedMailBody = encodeURIComponent(`${title}\n\nBu makaleyi sizinle payl
       f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
       f.allowFullscreen = true;
       var box = document.createElement('div');
-      box.className = a.className;
+      for (var i = 0; i < a.attributes.length; i++) { var at = a.attributes[i]; if (at.name === "class" || at.name.indexOf("data-astro-") === 0) { box.setAttribute(at.name, at.value); if (at.name !== "class") f.setAttribute(at.name, at.value); } }
       box.appendChild(f);
       a.replaceWith(box);
     });
